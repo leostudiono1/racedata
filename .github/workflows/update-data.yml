@@ -1,0 +1,168 @@
+name: Update JRA race archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation to run
+        required: true
+        default: update
+        type: choice
+        options: [update, bootstrap, bootstrap-all, reparse]
+      year:
+        description: Year for bootstrap/reparse (YYYY)
+        required: false
+        type: string
+  schedule:
+    - cron: '37 16 * * 4'
+      timezone: Asia/Tokyo
+    - cron: '37 10 * * 5'
+      timezone: Asia/Tokyo
+    - cron: '37 8-18 * * 6,0,1'
+      timezone: Asia/Tokyo
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jra-race-archive
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event_name == 'schedule' || inputs.mode == 'update'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - id: collect
+        continue-on-error: true
+        run: npm run data:update
+        env:
+          JRA_REQUEST_DELAY_MS: '1200'
+      - name: Save collected pages
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update JRA race archive"
+            git pull --rebase
+            git push
+          fi
+      - name: Propagate collection failure
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
+
+  single-year:
+    if: github.event_name == 'workflow_dispatch' && (inputs.mode == 'bootstrap' || inputs.mode == 'reparse')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Validate year
+        env:
+          YEAR: ${{ inputs.year }}
+        run: test "$YEAR" -ge 1986 && test "$YEAR" -le "$(date +%Y)"
+      - id: collect
+        continue-on-error: true
+        env:
+          MODE: ${{ inputs.mode }}
+          YEAR: ${{ inputs.year }}
+          JRA_REQUEST_DELAY_MS: '1200'
+        run: npm run "data:$MODE" -- --year "$YEAR"
+      - name: Save archive
+        if: always()
+        env:
+          MODE: ${{ inputs.mode }}
+          YEAR: ${{ inputs.year }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "data: $MODE JRA $YEAR"
+            git pull --rebase
+            git push
+          fi
+      - name: Propagate collection failure
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
+
+  prepare-bootstrap-all:
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'bootstrap-all'
+    runs-on: ubuntu-latest
+    outputs:
+      years: ${{ steps.years.outputs.years }}
+    steps:
+      - id: years
+        shell: bash
+        run: node -e "const y=new Date().getUTCFullYear(); process.stdout.write('years='+JSON.stringify(Array.from({length:12},(_,i)=>y-11+i)))" >> "$GITHUB_OUTPUT"
+
+  bootstrap-year:
+    needs: prepare-bootstrap-all
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        year: ${{ fromJSON(needs.prepare-bootstrap-all.outputs.years) }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - id: collect
+        continue-on-error: true
+        run: npm run data:bootstrap -- --year ${{ matrix.year }} --root bootstrap-output
+        env:
+          JRA_REQUEST_DELAY_MS: '1200'
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: bootstrap-${{ matrix.year }}
+          path: bootstrap-output
+          retention-days: 2
+      - name: Propagate collection failure
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
+
+  merge-bootstrap-all:
+    needs: bootstrap-year
+    if: always() && needs.bootstrap-year.result != 'cancelled'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/download-artifact@v7
+        with:
+          pattern: bootstrap-*
+          path: bootstrap-parts
+          merge-multiple: true
+      - run: npm ci
+      - run: cp -R bootstrap-parts/. data/
+      - run: npm run data:verify
+      - name: Save rebuilt archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "data: bootstrap 12-year JRA archive"
+            git pull --rebase
+            git push
+          fi
