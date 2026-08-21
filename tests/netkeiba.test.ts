@@ -21,7 +21,7 @@ const jraRace: RaceRecord = {
   meetingDay: 2,
   number: 7,
   startTime: '13:30',
-  name: 'テスト特別',
+  name: '検索ウィンドウ',
   weather: '晴',
   trackCondition: '芝 良',
   condition: { surface: 'turf', distanceMeters: 1600, direction: '左', courseVariant: null, classLabel: null, ageRestriction: null, sexRestriction: null, weightRule: null },
@@ -66,6 +66,7 @@ describe('netkeiba parsing', () => {
       '2026-08-22T10:00:00.000Z',
     )
     expect(parsed.runners).toHaveLength(2)
+    expect(parsed.name).toBe('テスト特別')
     expect(parsed.runners[0]).toMatchObject({
       horse: { id: '2022100001', name: 'テストホース' },
       finish: 1,

@@ -162,7 +162,9 @@ export function parseNetkeibaRace(html: string, sourceUrl: string, jra: RaceReco
     })
   })
   if (!runners.length) throw new Error(`No runners parsed from netkeiba race ${id}`)
-  const name = compact($('.data_intro h1, .RaceName, h1').first().text()) || jra.name
+  const name = $('.data_intro h1, .RaceName, main h1, #contents h1, h1').toArray()
+    .map((element) => compact($(element).text()))
+    .find(Boolean) ?? jra.name
   return {
     schemaVersion: 1,
     id,

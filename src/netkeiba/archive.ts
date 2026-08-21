@@ -42,11 +42,13 @@ function pageManifest(
   rawPath: string,
   error: string | null,
 ): NetkeibaPageManifest {
+  const headers = Object.fromEntries(Object.entries(response.headers)
+    .filter(([name]) => !/^set-cookie2?$/i.test(name)))
   return {
     pageType,
     sourceUrl: response.finalUrl || response.url,
     httpStatus: response.status,
-    headers: response.headers,
+    headers,
     charset: response.charset,
     fetchedAt: response.fetchedAt,
     contentHash: sha256(response.bytes),
