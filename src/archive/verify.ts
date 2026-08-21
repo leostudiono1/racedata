@@ -48,6 +48,7 @@ export async function verifyArchive(root = DEFAULT_DATA_ROOT, selectedYear?: num
   const ids = new Map<string, string>()
   const verifiedManifests = new Set<string>()
   const years = selectedYear ? [selectedYear] : await yearsUnder(root)
+  const archiveRoot = selectedYear ? join(root, 'archive', String(selectedYear)) : join(root, 'archive')
   let races = 0
   let pages = 0
   for (const year of years) {
@@ -85,7 +86,7 @@ export async function verifyArchive(root = DEFAULT_DATA_ROOT, selectedYear?: num
       }
     }
   }
-  const allManifests = await filesNamed(join(root, 'archive'), 'manifest.json')
+  const allManifests = await filesNamed(archiveRoot, 'manifest.json')
   for (const file of allManifests.filter((candidate) => candidate.includes(`${join('races', '')}`) && !verifiedManifests.has(candidate))) {
     try {
       const manifest = raceManifestSchema.parse(await readJson<RaceManifest>(file))
@@ -98,7 +99,7 @@ export async function verifyArchive(root = DEFAULT_DATA_ROOT, selectedYear?: num
       errors.push(`${file}: ${error instanceof Error ? error.message : String(error)}`)
     }
   }
-  const meetingFiles = await filesNamed(join(root, 'archive'), 'meeting.json')
+  const meetingFiles = await filesNamed(archiveRoot, 'meeting.json')
   for (const file of meetingFiles) {
     try {
       const meeting = meetingRecordSchema.parse(await readJson<MeetingRecord>(file))
@@ -110,7 +111,10 @@ export async function verifyArchive(root = DEFAULT_DATA_ROOT, selectedYear?: num
       errors.push(`${file}: ${error instanceof Error ? error.message : String(error)}`)
     }
   }
-  const failureFiles = await filesNamed(join(root, 'failures'), 'manifest.json')
+  const allFailureFiles = await filesNamed(join(root, 'failures'), 'manifest.json')
+  const failureFiles = selectedYear
+    ? allFailureFiles.filter((file) => file.includes(join('failures', String(selectedYear))))
+    : allFailureFiles
   for (const file of failureFiles) {
     try {
       const failure = await readJson<{ rawPath: string; contentHash: string }>(file)

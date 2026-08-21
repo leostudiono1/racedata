@@ -7,6 +7,7 @@ describe('HTTP bytes and reproducible storage', () => {
     expect(detectCharset(bytes, 'text/html')).toBe('shift_jis')
     expect(decodeBytes(bytes, 'text/html').html).toContain('ascii')
     expect(deterministicGzip(bytes)).toEqual(deterministicGzip(bytes))
+    expect(deterministicGzip(bytes)[9]).toBe(255)
     expect(sha256(bytes)).toMatch(/^[a-f0-9]{64}$/)
   })
 

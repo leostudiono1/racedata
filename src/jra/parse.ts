@@ -34,6 +34,11 @@ function integerFrom(value: string | undefined | null) {
   return parsed === null ? null : Math.trunc(parsed)
 }
 
+function positiveIntegerFrom(value: string | undefined | null) {
+  const parsed = integerFrom(value)
+  return parsed !== null && parsed > 0 ? parsed : null
+}
+
 function yenFrom(value: string | undefined | null, unit = 1) {
   const parsed = numberFrom(value)
   return parsed === null ? null : Math.round(parsed * unit)
@@ -140,7 +145,7 @@ function parseRunnerTable($: cheerio.CheerioAPI, isResult: boolean): RunnerRecor
       cornerPositions: corner ? corner.split(/\s+/).filter(Boolean) : [],
       finalThreeFurlongsSeconds: numberFrom(cellAt(cells, indexes.final3f)),
       winOdds: numberFrom(cellAt(cells, indexes.odds)),
-      popularity: integerFrom(cellAt(cells, indexes.popularity)),
+      popularity: positiveIntegerFrom(cellAt(cells, indexes.popularity)),
       rawCells: cells,
     })
   })
@@ -199,7 +204,7 @@ function parsePayouts($: cheerio.CheerioAPI): Payout[] {
         betType,
         combination: [...combination.matchAll(/\d+/g)].map((match) => match[0]).join('-'),
         amountYen: yenFrom(amountText),
-        popularity: integerFrom(popularityText),
+        popularity: positiveIntegerFrom(popularityText),
         specialPayout: /特払/.test(amountText),
         rawCells: [label, combination, amountText, popularityText].filter(Boolean),
       })
@@ -222,7 +227,7 @@ function parsePayouts($: cheerio.CheerioAPI): Payout[] {
         betType: currentType,
         combination,
         amountYen: yenFrom(cells[amountIndex]),
-        popularity: integerFrom(cells.find((cell) => /番人気/.test(cell))),
+        popularity: positiveIntegerFrom(cells.find((cell) => /番人気/.test(cell))),
         specialPayout: cells.some((cell) => /特払/.test(cell)),
         rawCells: cells,
       })
@@ -248,7 +253,7 @@ function parsePayouts($: cheerio.CheerioAPI): Payout[] {
           betType,
           combination,
           amountYen: yenFrom(amountText),
-          popularity: integerFrom(item[3]),
+          popularity: positiveIntegerFrom(item[3]),
           specialPayout: /特払/.test(amountText),
           rawCells: [label, combination, amountText, item[3] ? `${item[3]}番人気` : ''].filter(Boolean),
         })
@@ -385,7 +390,7 @@ export function parseOddsPage(html: string, fetchedAt: string): OddsQuote[] {
         combination: compact(combination),
         minOdds: values[0] ?? null,
         maxOdds: values[1] ?? values[0] ?? null,
-        popularity: integerFrom(cells.find((cell) => /番人気/.test(cell))),
+        popularity: positiveIntegerFrom(cells.find((cell) => /番人気/.test(cell))),
         final: true,
         rawCells: cells,
         fetchedAt,

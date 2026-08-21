@@ -24,6 +24,10 @@ export async function raceRecordFiles(root = DEFAULT_DATA_ROOT, year?: number) {
   return filesNamed(join(root, 'archive', year ? String(year) : ''), 'race.json')
 }
 
+function compareText(left: string, right: string) {
+  return left < right ? -1 : left > right ? 1 : 0
+}
+
 export async function rebuildYearIndex(year: number, root = DEFAULT_DATA_ROOT) {
   const files = await raceRecordFiles(root, year)
   const entries: RaceIndexEntry[] = []
@@ -47,7 +51,10 @@ export async function rebuildYearIndex(year: number, root = DEFAULT_DATA_ROOT) {
       complete,
     })
   }
-  entries.sort((a, b) => a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue) || a.number - b.number)
+  entries.sort((a, b) => compareText(a.date, b.date)
+    || compareText(a.venue, b.venue)
+    || compareText(a.meetingId, b.meetingId)
+    || a.number - b.number)
   const previous = await readJson<YearIndex>(join(root, 'index', `${year}.json`))
   const generatedAt = previous && JSON.stringify(previous.races) === JSON.stringify(entries)
     ? previous.generatedAt

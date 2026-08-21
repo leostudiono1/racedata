@@ -2,7 +2,7 @@ import { mkdtemp, readFile, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { gunzipSync } from 'node:zlib'
-import { archiveMeetingResponse, archiveRaceResponse } from '../src/archive/archive.js'
+import { archiveMeetingResponse, archiveRaceResponse, raceDirectory } from '../src/archive/archive.js'
 import { rebuildYearIndex } from '../src/archive/index.js'
 import { reparseYear } from '../src/archive/reparse.js'
 import { sha256 } from '../src/archive/store.js'
@@ -47,18 +47,29 @@ describe('archive integration', () => {
       '2026-08-22',
       root,
     )
+    const previousYearEntry = entry.replaceAll('2026年8月22日', '2025年8月22日')
+    await archiveRaceResponse(
+      response(previousYearEntry, { url: entryAction.url, cname: 'previous-year-race' }, '2025-08-21T01:00:00.000Z'),
+      'entry',
+      root,
+    )
     const index = await rebuildYearIndex(2026, root)
     expect(index.races).toHaveLength(1)
     expect(index.races[0]?.pageTypes).toEqual(['entry', 'odds-win-place', 'result'])
     const racePath = join(root, index.races[0]?.path ?? '')
     const record = JSON.parse(await readFile(racePath, 'utf8')) as { odds: unknown[]; pages: Array<{ rawPath: string; contentHash: string }> }
     expect(record.odds).toHaveLength(3)
-    const raw = gunzipSync(await readFile(join(root, record.pages[0]?.rawPath ?? '')))
+    const rawPath = join(root, record.pages[0]?.rawPath ?? '')
+    const compressedBeforeReparse = await readFile(rawPath)
+    const recordBeforeReparse = await readFile(racePath, 'utf8')
+    const raw = gunzipSync(compressedBeforeReparse)
     expect(sha256(raw)).toBe(record.pages[0]?.contentHash)
     const verification = await verifyArchive(root, 2026)
     expect(verification.meetings).toBe(1)
     expect(verification.errors).toEqual([])
     expect((await reparseYear(2026, root)).errors).toEqual([])
+    expect(await readFile(rawPath)).toEqual(compressedBeforeReparse)
+    expect(await readFile(racePath, 'utf8')).toBe(recordBeforeReparse)
     expect((await verifyArchive(root, 2026)).errors).toEqual([])
   })
 
@@ -70,5 +81,28 @@ describe('archive integration', () => {
     const failureDir = join(root, 'failures', '2026-08-22', stableId(`${url}|`))
     expect(gunzipSync(await readFile(join(failureDir, 'raw.html.gz'))).toString()).toBe(html)
     expect(JSON.parse(await readFile(join(failureDir, 'manifest.json'), 'utf8')).error).toContain('Unable to locate race archive path')
+  })
+
+  it('records schema validation failures in the page manifest', async () => {
+    const entry = (await readFile('tests/fixtures/entry.html', 'utf8')).replace('牡4', '牡0')
+    const archived = await archiveRaceResponse(
+      response(entry, { url: 'https://www.jra.go.jp/JRADB/accessD.html', cname: CNAME }, '2026-08-21T01:00:00.000Z'),
+      'entry',
+      root,
+    )
+    expect(archived.error).toContain('Too small')
+    const directory = raceDirectory(root, {
+      id: archived.record?.id ?? '',
+      date: '2026-08-22',
+      venue: '新潟',
+      meetingNumber: 2,
+      meetingDay: 9,
+      number: 7,
+    })
+    const manifest = JSON.parse(await readFile(join(directory, 'manifest.json'), 'utf8')) as {
+      pages: Array<{ parseStatus: string; error: string | null }>
+    }
+    expect(manifest.pages[0]).toMatchObject({ parseStatus: 'failed' })
+    expect(manifest.pages[0]?.error).toContain('Too small')
   })
 })

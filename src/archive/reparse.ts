@@ -35,7 +35,8 @@ export async function reparseYear(year: number, root = DEFAULT_DATA_ROOT) {
   for (const file of files) {
     const manifest = await readJson<RaceManifest>(file)
     if (!manifest?.pages) continue
-    for (const page of [...manifest.pages].sort((a, b) => order(a) - order(b))) {
+    const pages = [...manifest.pages].sort((a, b) => order(a) - order(b))
+    for (const [pageIndex, page] of pages.entries()) {
       try {
         const compressed = await readFile(join(root, page.rawPath))
         const bytes = new Uint8Array(gunzipSync(compressed))
@@ -50,7 +51,7 @@ export async function reparseYear(year: number, root = DEFAULT_DATA_ROOT) {
           html,
           fetchedAt: page.fetchedAt,
         }
-        const result = await archiveRaceResponse(response, page.pageType, root, true)
+        const result = await archiveRaceResponse(response, page.pageType, root, true, pageIndex === 0)
         if (result.error) errors.push(result.error)
         else parsed += 1
       } catch (error) {

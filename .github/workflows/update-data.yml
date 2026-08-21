@@ -140,7 +140,7 @@ jobs:
 
   merge-bootstrap-all:
     needs: bootstrap-year
-    if: always() && needs.bootstrap-year.result != 'cancelled'
+    if: always() && github.event_name == 'workflow_dispatch' && inputs.mode == 'bootstrap-all' && needs.bootstrap-year.result != 'cancelled'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6

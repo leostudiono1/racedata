@@ -111,6 +111,7 @@ export async function archiveRaceResponse(
   requestedType: PageType,
   root = DEFAULT_DATA_ROOT,
   force = false,
+  resetRecord = false,
 ): Promise<ArchiveResult> {
   let identity: LooseRaceIdentity
   try {
@@ -138,7 +139,7 @@ export async function archiveRaceResponse(
   const recordPath = join(directory, 'race.json')
   const manifestPath = join(directory, 'manifest.json')
   const rawPath = join(directory, 'raw', rawFileName(pageType))
-  const existingRecord = await readJson<RaceRecord>(recordPath)
+  const existingRecord = resetRecord ? null : await readJson<RaceRecord>(recordPath)
   const existingManifest = await readJson<RaceManifest>(manifestPath) ?? { schemaVersion: 1 as const, raceId: identity.id, pages: [] }
   const contentHash = sha256(response.bytes)
   const oldPage = existingManifest.pages.find((page) => page.pageType === pageType)
@@ -146,7 +147,7 @@ export async function archiveRaceResponse(
     return { changed: false, year: Number(identity.date.slice(0, 4)), record: existingRecord, error: null }
   }
 
-  await writeFileAtomic(rawPath, deterministicGzip(response.bytes))
+  if (!force) await writeFileAtomic(rawPath, deterministicGzip(response.bytes))
   let nextRecord = existingRecord
   let parseError: string | null = null
   try {
@@ -179,22 +180,41 @@ export async function archiveRaceResponse(
     parseError = error instanceof Error ? error.message : String(error)
   }
 
-  const page = makePageManifest(response, pageType, root, rawPath, parseError)
-  const manifest = raceManifestSchema.parse({
+  let page = makePageManifest(response, pageType, root, rawPath, parseError)
+  let manifest = raceManifestSchema.parse({
     schemaVersion: 1,
     raceId: identity.id,
     pages: mergePages(existingManifest.pages, page),
   })
-  await writeJsonAtomic(manifestPath, manifest)
-  if (nextRecord) {
-    nextRecord.pages = manifest.pages
-    nextRecord.updatedAt = response.fetchedAt
-    await writeJsonAtomic(recordPath, raceRecordSchema.parse(nextRecord))
+  let recordToWrite = parseError ? existingRecord : nextRecord
+  let validatedRecord: RaceRecord | null = null
+  if (recordToWrite) {
+    try {
+      validatedRecord = raceRecordSchema.parse({
+        ...recordToWrite,
+        pages: manifest.pages,
+        updatedAt: response.fetchedAt,
+      })
+    } catch (error) {
+      parseError = error instanceof Error ? error.message : String(error)
+      recordToWrite = existingRecord
+      page = makePageManifest(response, pageType, root, rawPath, parseError)
+      manifest = raceManifestSchema.parse({
+        schemaVersion: 1,
+        raceId: identity.id,
+        pages: mergePages(existingManifest.pages, page),
+      })
+      validatedRecord = recordToWrite
+        ? raceRecordSchema.parse({ ...recordToWrite, pages: manifest.pages, updatedAt: response.fetchedAt })
+        : null
+    }
   }
+  await writeJsonAtomic(manifestPath, manifest)
+  if (validatedRecord) await writeJsonAtomic(recordPath, validatedRecord)
   return {
     changed: true,
     year: Number(identity.date.slice(0, 4)),
-    record: nextRecord,
+    record: validatedRecord,
     error: parseError,
   }
 }

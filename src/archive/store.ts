@@ -10,7 +10,9 @@ export function sha256(bytes: Uint8Array) {
 }
 
 export function deterministicGzip(bytes: Uint8Array) {
-  return gzipSync(bytes, { level: 9 })
+  const compressed = gzipSync(bytes, { level: 9 })
+  compressed[9] = 255
+  return compressed
 }
 
 export async function exists(path: string) {

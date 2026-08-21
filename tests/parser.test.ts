@@ -32,6 +32,18 @@ describe('JRA page parser', () => {
     expect(race.winningHorse).toMatchObject({ name: 'サンプルスター', birthDate: '2022-03-04', sire: 'サンプルサイアー' })
   })
 
+  it('normalizes unpublished zero popularity to null', async () => {
+    const fixture = await readFile('tests/fixtures/result.html', 'utf8')
+    const html = fixture.replace('<td>3.2</td><td>2</td></tr>', '<td>3.2</td><td>0</td></tr>')
+    const race = parseRacePage(html, SOURCE, CNAME, FETCHED_AT)
+    expect(race.runners[0]?.popularity).toBeNull()
+    expect(raceRecordSchema.parse(race)).toEqual(race)
+
+    const oddsFixture = await readFile('tests/fixtures/odds.html', 'utf8')
+    const odds = parseOddsPage(oddsFixture.replace('2番人気', '0番人気'), FETCHED_AT)
+    expect(odds[0]?.popularity).toBeNull()
+  })
+
   it('parses final odds ranges and generic document tables', async () => {
     const html = await readFile('tests/fixtures/odds.html', 'utf8')
     const quotes = parseOddsPage(html, FETCHED_AT)
