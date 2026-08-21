@@ -11,11 +11,12 @@ export function integerArgument(name: string) {
   return parsed
 }
 
-export function printReport(report: { fetched?: number; changed?: number; unchanged?: number; parsed?: number; errors: string[] }) {
+export function printReport(report: { fetched?: number; changed?: number; unchanged?: number; skipped?: number; parsed?: number; errors: string[] }) {
   const summary = [
     report.fetched === undefined ? null : `fetched=${report.fetched}`,
     report.changed === undefined ? null : `changed=${report.changed}`,
     report.unchanged === undefined ? null : `unchanged=${report.unchanged}`,
+    report.skipped === undefined ? null : `skipped=${report.skipped}`,
     report.parsed === undefined ? null : `parsed=${report.parsed}`,
     `errors=${report.errors.length}`,
   ].filter(Boolean).join(', ')

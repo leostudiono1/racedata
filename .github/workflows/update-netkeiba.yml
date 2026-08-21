@@ -1,0 +1,89 @@
+name: Update netkeiba enrichment archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Operation to run
+        required: true
+        default: update
+        type: choice
+        options: [update, reparse]
+      year:
+        description: Optional JRA source year (YYYY)
+        required: false
+        type: string
+      max_pages:
+        description: Maximum public pages fetched in this run
+        required: true
+        default: '80'
+        type: string
+  schedule:
+    - cron: '17 22 * * *'
+      timezone: Asia/Tokyo
+
+permissions:
+  contents: write
+
+concurrency:
+  group: netkeiba-enrichment-archive
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require a private repository
+        env:
+          REPOSITORY_PRIVATE: ${{ github.event.repository.private }}
+        run: test "$REPOSITORY_PRIVATE" = "true"
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Validate inputs
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          YEAR: ${{ inputs.year }}
+          MAX_PAGES: ${{ inputs.max_pages }}
+        run: |
+          if [ -n "$YEAR" ]; then test "$YEAR" -ge 1986 && test "$YEAR" -le "$(date +%Y)"; fi
+          test "$MAX_PAGES" -ge 1 && test "$MAX_PAGES" -le 500
+      - id: collect
+        continue-on-error: true
+        env:
+          MODE: ${{ github.event_name == 'schedule' && 'update' || inputs.mode }}
+          YEAR: ${{ inputs.year }}
+          MAX_PAGES: ${{ github.event_name == 'schedule' && '80' || inputs.max_pages }}
+          NETKEIBA_REQUEST_DELAY_MS: '3500'
+          NETKEIBA_REQUEST_RETRIES: '2'
+        run: |
+          if [ "$MODE" = "reparse" ]; then
+            if [ -n "$YEAR" ]; then npm run data:netkeiba:reparse -- --year "$YEAR"; else npm run data:netkeiba:reparse; fi
+          else
+            if [ -n "$YEAR" ]; then npm run data:netkeiba:update -- --year "$YEAR" --max-pages "$MAX_PAGES"; else npm run data:netkeiba:update -- --max-pages "$MAX_PAGES"; fi
+          fi
+      - id: verify
+        continue-on-error: true
+        env:
+          YEAR: ${{ inputs.year }}
+        run: |
+          if [ -n "$YEAR" ]; then npm run data:netkeiba:verify -- --year "$YEAR"; else npm run data:netkeiba:verify; fi
+      - name: Save enrichment archive
+        if: always()
+        env:
+          MODE: ${{ github.event_name == 'schedule' && 'update' || inputs.mode }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -d data/netkeiba ]; then git add data/netkeiba; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "data: $MODE netkeiba enrichment archive"
+            git pull --rebase
+            git push
+          fi
+      - name: Propagate collection failure
+        if: steps.collect.outcome == 'failure' || steps.verify.outcome == 'failure'
+        run: exit 1
