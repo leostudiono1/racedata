@@ -22,6 +22,7 @@ describe('JRA page parser', () => {
   it('parses result, dead heat, cancellation, timing, payouts and incidents', async () => {
     const html = await readFile('tests/fixtures/result.html', 'utf8')
     const race = parseRacePage(html, SOURCE, CNAME, FETCHED_AT)
+    expect(race.name).toBe('サンプル特別')
     expect(race.runners.map((runner) => runner.finish)).toEqual([1, 1, null])
     expect(race.runners[2]?.scratched).toBe(true)
     expect(race.runners[0]).toMatchObject({ timeSeconds: 92.4, finalThreeFurlongsSeconds: 33.4, popularity: 2 })

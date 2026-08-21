@@ -169,12 +169,20 @@ function parseCondition(text: string): RaceCondition {
 }
 
 function selectRaceName($: cheerio.CheerioAPI, classLabel: string | null) {
-  const ignored = /出馬表|レース結果|払戻金|オッズ|勝馬の紹介|タイム|コーナー通過|過去の成績/
-  const names = $('.race_name, .race_name h2, #main h2, #contentsBody h2, main h2, h2').toArray()
-    .map((element) => compact($(element).text()))
-  return names.find((name) => name && !ignored.test(name) && name !== classLabel && name.length < 100)
-    ?? classLabel
-    ?? '名称未取得'
+  const ignored = /検索ウィンドウ|緊急情報|JRAからのお知らせ|出馬表|レース結果|払戻金|オッズ|勝馬の紹介|タイム|コーナー通過|過去の成績|コースレコード/
+  const selectors = [
+    '.race_title .txt h2',
+    '.race_title .race_name, .race_name',
+    '.race_title h2',
+    '#main h2, #contentsBody h2, main h2, h2',
+  ]
+  for (const selector of selectors) {
+    const name = $(selector).toArray()
+      .map((element) => compact($(element).text()))
+      .find((candidate) => candidate && !ignored.test(candidate) && candidate.length < 100)
+    if (name) return name
+  }
+  return classLabel ?? '名称未取得'
 }
 
 function inferBetType(value: string): BetType {
