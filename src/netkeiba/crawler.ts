@@ -1,3 +1,4 @@
+import { readdir } from 'node:fs/promises'
 import { join } from 'node:path'
 import { raceRecordFiles } from '../archive/index.js'
 import { DEFAULT_DATA_ROOT, readJson } from '../archive/store.js'
@@ -5,8 +6,10 @@ import { raceRecordSchema } from '../schema.js'
 import type { RaceRecord } from '../types.js'
 import { archiveNetkeibaHorse, archiveNetkeibaRace, netkeibaHorseDirectory, netkeibaRaceDirectory } from './archive.js'
 import { fetchNetkeibaPage, NetkeibaAccessRestrictionError } from './http.js'
-import { rebuildNetkeibaIndexes } from './index.js'
+import { rebuildNetkeibaHorseIndex, rebuildNetkeibaIndexes, rebuildNetkeibaRaceIndexes } from './index.js'
 import { netkeibaRaceIdFor } from './parse.js'
+import { netkeibaRaceIndexSchema } from './schema.js'
+import { netkeibaHorseShard } from './shard.js'
 import type {
   NetkeibaEntityManifest,
   NetkeibaFetchResponse,
@@ -55,11 +58,11 @@ async function loadJraRaces(root: string, now: Date, year?: number) {
   return records.sort((left, right) => right.date.localeCompare(left.date) || right.number - left.number)
 }
 
-function horseTasks(horseIds: string[]): HorseTask[] {
+function horseTasks(horseIds: string[], refresh = true): HorseTask[] {
   const groups: Array<{ pageType: HorseTask['pageType']; path: string; refreshDays: number | null }> = [
-    { pageType: 'horse-profile', path: 'horse', refreshDays: 180 },
+    { pageType: 'horse-profile', path: 'horse', refreshDays: refresh ? 180 : null },
     { pageType: 'horse-pedigree', path: 'horse/ped', refreshDays: null },
-    { pageType: 'horse-career', path: 'horse/result', refreshDays: 30 },
+    { pageType: 'horse-career', path: 'horse/result', refreshDays: refresh ? 30 : null },
   ]
   return groups.flatMap((group) => horseIds.map((horseId) => ({
     horseId,
@@ -70,13 +73,106 @@ function horseTasks(horseIds: string[]): HorseTask[] {
 }
 
 function emptyReport(): NetkeibaReport {
-  return { fetched: 0, changed: 0, unchanged: 0, skipped: 0, errors: [] }
+  return { fetched: 0, changed: 0, unchanged: 0, skipped: 0, timeLimitReached: false, errors: [] }
 }
 
 function recordOutcome(report: NetkeibaReport, result: { changed: boolean; error: string | null }) {
   if (result.changed) report.changed += 1
   else report.unchanged += 1
   if (result.error) report.errors.push(result.error)
+}
+
+function deadlineFromMinutes(maxRuntimeMinutes: number) {
+  if (!Number.isInteger(maxRuntimeMinutes) || maxRuntimeMinutes < 1) {
+    throw new Error(`Invalid netkeiba runtime limit: ${maxRuntimeMinutes}`)
+  }
+  return Date.now() + maxRuntimeMinutes * 60_000
+}
+
+function reachedDeadline(report: NetkeibaReport, deadline: number) {
+  if (Date.now() < deadline) return false
+  report.timeLimitReached = true
+  return true
+}
+
+async function collectRacePages(options: {
+  root: string
+  races: RaceRecord[]
+  fetcher: NetkeibaFetcher
+  now: Date
+  report: NetkeibaReport
+  canFetch: () => boolean
+  refreshRecent: boolean
+}) {
+  const racesByNetkeibaId = new Map(options.races.map((record) => [netkeibaRaceIdFor(record) as string, record]))
+  let restricted = false
+  for (const [raceId, jra] of racesByNetkeibaId) {
+    if (!options.canFetch()) break
+    const directory = netkeibaRaceDirectory(options.root, raceId)
+    const manifest = await readJson<NetkeibaEntityManifest>(join(directory, 'manifest.json'))
+    const refreshDays = options.refreshRecent && jra.date >= daysAgo(options.now, 2) ? 2 : null
+    if (hasFreshPage(manifest, 'race-result', options.now, refreshDays)) {
+      options.report.skipped += 1
+      continue
+    }
+    try {
+      options.report.fetched += 1
+      const response = await options.fetcher(`https://db.netkeiba.com/race/${raceId}/`)
+      recordOutcome(options.report, await archiveNetkeibaRace(response, jra, options.root))
+    } catch (error) {
+      options.report.errors.push(error instanceof Error ? error.message : String(error))
+      if (error instanceof NetkeibaAccessRestrictionError) {
+        restricted = true
+        break
+      }
+    }
+  }
+  return { racesByNetkeibaId, restricted }
+}
+
+async function collectHorsePages(options: {
+  root: string
+  horseIds: string[]
+  fetcher: NetkeibaFetcher
+  now: Date
+  report: NetkeibaReport
+  canFetch: () => boolean
+  refresh: boolean
+}) {
+  for (const task of horseTasks(options.horseIds, options.refresh)) {
+    if (!options.canFetch()) break
+    const directory = netkeibaHorseDirectory(options.root, task.horseId)
+    const manifest = await readJson<NetkeibaEntityManifest>(join(directory, 'manifest.json'))
+    if (hasFreshPage(manifest, task.pageType, options.now, task.refreshDays)) {
+      options.report.skipped += 1
+      continue
+    }
+    try {
+      options.report.fetched += 1
+      const response = await options.fetcher(task.url)
+      recordOutcome(options.report, await archiveNetkeibaHorse(response, task.horseId, task.pageType, options.root))
+    } catch (error) {
+      options.report.errors.push(error instanceof Error ? error.message : String(error))
+      if (error instanceof NetkeibaAccessRestrictionError) break
+    }
+  }
+}
+
+async function indexedHorseIds(root: string) {
+  const directory = join(root, 'netkeiba', 'index', 'races')
+  let files: string[]
+  try {
+    files = (await readdir(directory)).filter((file) => /^\d{4}\.json$/.test(file)).sort()
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return []
+    throw error
+  }
+  const ids = new Set<string>()
+  for (const file of files) {
+    const index = netkeibaRaceIndexSchema.parse(await readJson(join(directory, file)))
+    for (const race of index.races) for (const id of race.horseIds) ids.add(id)
+  }
+  return [...ids].sort()
 }
 
 export async function updateNetkeibaArchive(options: {
@@ -93,30 +189,11 @@ export async function updateNetkeibaArchive(options: {
   const now = options.now ?? new Date()
   const report = emptyReport()
   const jraRaces = await loadJraRaces(root, now, options.year)
-  const racesByNetkeibaId = new Map(jraRaces.map((record) => [netkeibaRaceIdFor(record) as string, record]))
-  let restricted = false
-
-  for (const [raceId, jra] of racesByNetkeibaId) {
-    if (report.fetched >= maxPages) break
-    const directory = netkeibaRaceDirectory(root, raceId)
-    const manifest = await readJson<NetkeibaEntityManifest>(join(directory, 'manifest.json'))
-    const isRecent = jra.date >= daysAgo(now, 2)
-    if (hasFreshPage(manifest, 'race-result', now, isRecent ? 2 : null)) {
-      report.skipped += 1
-      continue
-    }
-    try {
-      report.fetched += 1
-      const response = await fetcher(`https://db.netkeiba.com/race/${raceId}/`)
-      recordOutcome(report, await archiveNetkeibaRace(response, jra, root))
-    } catch (error) {
-      report.errors.push(error instanceof Error ? error.message : String(error))
-      if (error instanceof NetkeibaAccessRestrictionError) {
-        restricted = true
-        break
-      }
-    }
-  }
+  const { racesByNetkeibaId, restricted } = await collectRacePages({
+    root, races: jraRaces, fetcher, now, report,
+    canFetch: () => report.fetched < maxPages,
+    refreshRecent: true,
+  })
 
   if (!restricted && report.fetched < maxPages) {
     const horseIds: string[] = []
@@ -130,27 +207,71 @@ export async function updateNetkeibaArchive(options: {
         }
       }
     }
-    for (const task of horseTasks(horseIds)) {
-      if (report.fetched >= maxPages) break
-      const directory = netkeibaHorseDirectory(root, task.horseId)
-      const manifest = await readJson<NetkeibaEntityManifest>(join(directory, 'manifest.json'))
-      if (hasFreshPage(manifest, task.pageType, now, task.refreshDays)) {
-        report.skipped += 1
-        continue
-      }
-      try {
-        report.fetched += 1
-        const response = await fetcher(task.url)
-        recordOutcome(report, await archiveNetkeibaHorse(response, task.horseId, task.pageType, root))
-      } catch (error) {
-        report.errors.push(error instanceof Error ? error.message : String(error))
-        if (error instanceof NetkeibaAccessRestrictionError) break
-      }
-    }
+    await collectHorsePages({
+      root, horseIds, fetcher, now, report,
+      canFetch: () => report.fetched < maxPages,
+      refresh: true,
+    })
   }
 
   try {
     await rebuildNetkeibaIndexes(root)
+  } catch (error) {
+    report.errors.push(error instanceof Error ? error.message : String(error))
+  }
+  return report
+}
+
+export async function updateNetkeibaRaceYear(options: {
+  year: number
+  root?: string
+  maxRuntimeMinutes?: number
+  fetcher?: NetkeibaFetcher
+  now?: Date
+}) {
+  const root = options.root ?? DEFAULT_DATA_ROOT
+  const fetcher = options.fetcher ?? fetchNetkeibaPage
+  const now = options.now ?? new Date()
+  const deadline = deadlineFromMinutes(options.maxRuntimeMinutes ?? 330)
+  const report = emptyReport()
+  const races = await loadJraRaces(root, now, options.year)
+  await collectRacePages({
+    root, races, fetcher, now, report,
+    canFetch: () => !reachedDeadline(report, deadline),
+    refreshRecent: false,
+  })
+  try {
+    await rebuildNetkeibaRaceIndexes(root)
+  } catch (error) {
+    report.errors.push(error instanceof Error ? error.message : String(error))
+  }
+  return report
+}
+
+export async function updateNetkeibaHorseShard(options: {
+  shard: number
+  shardCount: number
+  root?: string
+  maxRuntimeMinutes?: number
+  fetcher?: NetkeibaFetcher
+  now?: Date
+}) {
+  if (!Number.isInteger(options.shard) || options.shard < 0 || options.shard >= options.shardCount) {
+    throw new Error(`Invalid netkeiba shard: ${options.shard}/${options.shardCount}`)
+  }
+  const root = options.root ?? DEFAULT_DATA_ROOT
+  const fetcher = options.fetcher ?? fetchNetkeibaPage
+  const now = options.now ?? new Date()
+  const deadline = deadlineFromMinutes(options.maxRuntimeMinutes ?? 330)
+  const report = emptyReport()
+  const horseIds = (await indexedHorseIds(root)).filter((id) => netkeibaHorseShard(id, options.shardCount) === options.shard)
+  await collectHorsePages({
+    root, horseIds, fetcher, now, report,
+    canFetch: () => !reachedDeadline(report, deadline),
+    refresh: false,
+  })
+  try {
+    await rebuildNetkeibaHorseIndex(root)
   } catch (error) {
     report.errors.push(error instanceof Error ? error.message : String(error))
   }

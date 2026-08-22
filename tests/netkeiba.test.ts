@@ -2,12 +2,13 @@ import { mkdtemp, readFile, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { writeJsonAtomic } from '../src/archive/store.js'
-import { updateNetkeibaArchive } from '../src/netkeiba/crawler.js'
+import { updateNetkeibaArchive, updateNetkeibaHorseShard, updateNetkeibaRaceYear } from '../src/netkeiba/crawler.js'
 import { decodeNetkeibaBytes, detectNetkeibaCharset } from '../src/netkeiba/http.js'
 import { netkeibaRaceIdFor, parseHorseCareer, parseHorsePedigree, parseHorseProfile, parseNetkeibaRace } from '../src/netkeiba/parse.js'
 import { reparseNetkeibaArchive } from '../src/netkeiba/reparse.js'
+import { netkeibaHorseShard } from '../src/netkeiba/shard.js'
 import type { NetkeibaFetchResponse } from '../src/netkeiba/types.js'
-import { verifyNetkeibaArchive } from '../src/netkeiba/verify.js'
+import { verifyNetkeibaArchive, verifyNetkeibaHorseShard } from '../src/netkeiba/verify.js'
 import type { RaceRecord } from '../src/types.js'
 
 const jraRace: RaceRecord = {
@@ -92,6 +93,12 @@ describe('netkeiba parsing', () => {
     expect(detectNetkeibaCharset(bytes, 'text/html')).toBe('euc-jp')
     expect(decodeNetkeibaBytes(new TextEncoder().encode('<p>ok</p>'), 'text/html; charset=utf-8').html).toContain('ok')
   })
+
+  it('assigns every horse deterministically to one hash shard', () => {
+    const assignments = Array.from({ length: 64 }, (_, shard) => netkeibaHorseShard('2022100001', 64) === shard)
+    expect(assignments.filter(Boolean)).toHaveLength(1)
+    expect(netkeibaHorseShard('2022100001', 64)).toBe(netkeibaHorseShard('2022100001', 64))
+  })
 })
 
 describe('netkeiba archive integration', () => {
@@ -119,5 +126,24 @@ describe('netkeiba archive integration', () => {
     expect(second.skipped).toBeGreaterThan(0)
     expect((await reparseNetkeibaArchive(root, 2026)).errors).toEqual([])
     expect((await verifyNetkeibaArchive(root, 2026)).errors).toEqual([])
+  })
+
+  it('collects one complete race year before deduplicated horse shards', async () => {
+    const pages = {
+      race: await fixture('netkeiba-race.html'),
+      profile: await fixture('netkeiba-profile.html'),
+      pedigree: await fixture('netkeiba-pedigree.html'),
+      career: await fixture('netkeiba-career.html'),
+    }
+    const fetcher = async (url: string) => response(url, url.includes('/race/') ? pages.race : url.includes('/ped/') ? pages.pedigree : url.includes('/result/') ? pages.career : pages.profile)
+    const races = await updateNetkeibaRaceYear({ root, year: 2026, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
+    expect(races).toMatchObject({ fetched: 1, changed: 1, timeLimitReached: false, errors: [] })
+
+    const horses = await updateNetkeibaHorseShard({ root, shard: 0, shardCount: 1, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
+    expect(horses).toMatchObject({ fetched: 6, changed: 6, timeLimitReached: false, errors: [] })
+    expect((await verifyNetkeibaHorseShard(root, 0, 1)).errors).toEqual([])
+
+    const repeated = await updateNetkeibaHorseShard({ root, shard: 0, shardCount: 1, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
+    expect(repeated).toMatchObject({ fetched: 0, skipped: 6, errors: [] })
   })
 })

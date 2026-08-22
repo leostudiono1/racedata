@@ -155,5 +155,6 @@ export interface NetkeibaReport {
   changed: number
   unchanged: number
   skipped: number
+  timeLimitReached: boolean
   errors: string[]
 }

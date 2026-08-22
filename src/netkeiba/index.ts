@@ -33,7 +33,7 @@ function stableGeneratedAt(previous: { generatedAt: string; [key: string]: unkno
   return previousContent === JSON.stringify(content) ? previous.generatedAt : new Date().toISOString()
 }
 
-export async function rebuildNetkeibaIndexes(root: string) {
+export async function rebuildNetkeibaRaceIndexes(root: string) {
   const raceFiles = await filesNamed(join(root, 'netkeiba', 'races'), 'race.json')
   const byYear = new Map<number, Array<{
     id: string; jraRaceId: string; date: string; venue: string; number: number; name: string; path: string; horseIds: string[]
@@ -65,6 +65,10 @@ export async function rebuildNetkeibaIndexes(root: string) {
     }))
   }
 
+  return { races: raceFiles.length, years: [...byYear.keys()].sort() }
+}
+
+export async function rebuildNetkeibaHorseIndex(root: string) {
   const horseFiles = await filesNamed(join(root, 'netkeiba', 'horses'), 'horse.json')
   const horses: Array<{ id: string; name: string | null; path: string; pageTypes: string[]; complete: boolean }> = []
   for (const file of horseFiles) {
@@ -86,5 +90,11 @@ export async function rebuildNetkeibaIndexes(root: string) {
     ...horseContent,
     generatedAt: stableGeneratedAt(previousHorses, horseContent),
   }))
-  return { races: raceFiles.length, horses: horseFiles.length, years: [...byYear.keys()].sort() }
+  return { horses: horseFiles.length }
+}
+
+export async function rebuildNetkeibaIndexes(root: string) {
+  const races = await rebuildNetkeibaRaceIndexes(root)
+  const horses = await rebuildNetkeibaHorseIndex(root)
+  return { ...races, ...horses }
 }
