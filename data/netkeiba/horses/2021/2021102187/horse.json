@@ -2,7 +2,34 @@
   "schemaVersion": 1,
   "id": "2021102187",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102187/",
-  "profile": null,
+  "profile": {
+    "name": "エムティリラ",
+    "birthDate": "2021-03-06",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05683",
+      "name": "菅原勲"
+    },
+    "owner": null,
+    "breeder": {
+      "id": "803327",
+      "name": "門別牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012110091",
+      "name": "モーニン"
+    },
+    "dam": {
+      "id": "2015103299",
+      "name": "エムティティアラ"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "2012110091",
@@ -3815,6 +3842,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エムティリラ (M T Lilas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エムティリラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エムティリラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3884,9 +3941,9 @@
       "contentHash": "84c42843acfb98643762130fc52e1ea688abed0e40114cb6c2ad3887a300824b",
       "byteLength": 66610,
       "rawPath": "netkeiba/horses/2021/2021102187/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:20:14.791Z"
+  "updatedAt": "2026-08-31T15:25:35.087Z"
 }

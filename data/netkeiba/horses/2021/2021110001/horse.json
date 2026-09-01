@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110001",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110001/",
-  "profile": null,
+  "profile": {
+    "name": "キングズブレス",
+    "birthDate": "2021-02-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "220736",
+      "name": "Al-Baha Bloodstock"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Kingman (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "インピード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bated Breath"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1727,6 +1757,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングズブレス (King's Breath) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングズブレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングズブレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1796,9 +1856,9 @@
       "contentHash": "8f3d375d54e22ba9842c86b75a3c25213c14afee460f80727e3cbae6b9720dff",
       "byteLength": 67230,
       "rawPath": "netkeiba/horses/2021/2021110001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:07:19.251Z"
+  "updatedAt": "2026-08-24T21:16:17.587Z"
 }

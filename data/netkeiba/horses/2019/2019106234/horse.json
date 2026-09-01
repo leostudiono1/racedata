@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106234",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106234/",
-  "profile": null,
+  "profile": {
+    "name": "ファング",
+    "birthDate": "2019-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2002102785",
+      "name": "ウインファンタジア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘネシー Hennessy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1463,6 +1493,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファング (Fang) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1532,9 +1592,9 @@
       "contentHash": "7a04d6bec6b12303c6ed612c86b553b01b9f9f892be05fbe3e57247d438805d5",
       "byteLength": 65533,
       "rawPath": "netkeiba/horses/2019/2019106234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:55:30.299Z"
+  "updatedAt": "2026-08-29T16:01:01.179Z"
 }

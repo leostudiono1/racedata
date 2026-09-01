@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101490",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101490/",
-  "profile": null,
+  "profile": {
+    "name": "ヒットマン",
+    "birthDate": "2013-04-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "895800",
+      "name": "Ｂａｓｉｃ"
+    },
+    "breeder": {
+      "id": "310336",
+      "name": "佐藤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャッツ Cats(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -4733,6 +4763,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒットマン (Hit Man) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒットマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒットマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4802,9 +4862,9 @@
       "contentHash": "f72a3aad7629e425a4d29970a8950cdad4cbe89d0065cd81d73aa0b5c4e84065",
       "byteLength": 65448,
       "rawPath": "netkeiba/horses/2013/2013101490/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:02:21.966Z"
+  "updatedAt": "2026-08-28T16:09:30.567Z"
 }

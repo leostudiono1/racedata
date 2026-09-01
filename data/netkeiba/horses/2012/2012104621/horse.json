@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104621",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104621/",
-  "profile": null,
+  "profile": {
+    "name": "プルガステル",
+    "birthDate": "2012-05-01",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ゴレラ Gorella(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grape Tree Road"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -2011,6 +2041,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プルガステル (Plougastel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プルガステル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プルガステル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2080,9 +2140,9 @@
       "contentHash": "41cef841db88efbbb4313b2b4312d252b2d8d7041d968e74f71270169d1f56ad",
       "byteLength": 66158,
       "rawPath": "netkeiba/horses/2012/2012104621/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:00:26.245Z"
+  "updatedAt": "2026-08-28T16:07:35.047Z"
 }

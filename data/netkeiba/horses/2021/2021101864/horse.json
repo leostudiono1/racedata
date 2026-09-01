@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101864",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101864/",
-  "profile": null,
+  "profile": {
+    "name": "ドナレア",
+    "birthDate": "2021-04-04",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "440006",
+      "name": "山田貢一"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011104416",
+      "name": "レッドファルクス"
+    },
+    "dam": {
+      "id": "2015106354",
+      "name": "ドナプリモ"
+    },
+    "damsire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104416",
@@ -1825,6 +1855,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドナレア (Dona Rhea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドナレア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドナレア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1894,9 +1954,9 @@
       "contentHash": "c2061a72bb21f9aa00da5e9bde07bb70ecde619e11176a68dd1102ecb8c7c8ef",
       "byteLength": 66800,
       "rawPath": "netkeiba/horses/2021/2021101864/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:40:13.492Z"
+  "updatedAt": "2026-08-30T15:44:55.182Z"
 }

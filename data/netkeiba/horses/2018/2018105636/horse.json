@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105636",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105636/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンドナルド",
+    "birthDate": "2018-03-19",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05766",
+      "name": "藤原智行"
+    },
+    "owner": {
+      "id": "x03655",
+      "name": "平野友保"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2013100120",
+      "name": "コドウ"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -2320,6 +2350,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンドナルド (Tosen Donald) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンドナルド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンドナルド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2389,9 +2449,9 @@
       "contentHash": "08ca791fec705c71352ede8dd8cd6a017b26c692185621c4461571c3198bb578",
       "byteLength": 64654,
       "rawPath": "netkeiba/horses/2018/2018105636/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:09:09.527Z"
+  "updatedAt": "2026-08-31T15:14:30.134Z"
 }

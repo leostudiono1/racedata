@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105499",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105499/",
-  "profile": null,
+  "profile": {
+    "name": "アウトバースト",
+    "birthDate": "2013-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "895030",
+      "name": "山口敦広"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スターベゴニア Star Begonia(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1462,6 +1492,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウトバースト (Out Burst) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトバースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトバースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1531,9 +1591,9 @@
       "contentHash": "4221f3f86464d4e355b3867ca49c94493e1afd2a689852c344f7072010e1b914",
       "byteLength": 64724,
       "rawPath": "netkeiba/horses/2013/2013105499/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:47:27.274Z"
+  "updatedAt": "2026-08-31T14:52:51.146Z"
 }

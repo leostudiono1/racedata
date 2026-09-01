@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100249",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100249/",
-  "profile": null,
+  "profile": {
+    "name": "サブリエ",
+    "birthDate": "2021-03-05",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "竹下太"
+    },
+    "owner": {
+      "id": "x08f96",
+      "name": "太田全哉"
+    },
+    "breeder": {
+      "id": "043063",
+      "name": "タツヤファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2009106133",
+      "name": "リアルファッション"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -4950,6 +4980,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サブリエ (Sablier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サブリエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サブリエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5019,9 +5079,9 @@
       "contentHash": "7e8afe37f05fd3fb92d2112d64f734a8f644c84a850d066122ba8c5c69849d42",
       "byteLength": 64797,
       "rawPath": "netkeiba/horses/2021/2021100249/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:27:14.616Z"
+  "updatedAt": "2026-08-25T18:28:05.424Z"
 }

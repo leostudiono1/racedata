@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105927",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105927/",
-  "profile": null,
+  "profile": {
+    "name": "ゼロフェイス",
+    "birthDate": "2020-03-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05177",
+      "name": "藤ヶ崎一"
+    },
+    "owner": {
+      "id": "900030",
+      "name": "上田力"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103722",
+      "name": "ネロ"
+    },
+    "dam": {
+      "id": "2000110255",
+      "name": "キャッスルブラウン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Hawk"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103722",
@@ -3345,6 +3375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼロフェイス (Zero Faith) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼロフェイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼロフェイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3414,9 +3474,9 @@
       "contentHash": "bf374db30903544bed15eab713954a340468461e9df4b96971d3f20100a4c73e",
       "byteLength": 65464,
       "rawPath": "netkeiba/horses/2020/2020105927/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:59:21.185Z"
+  "updatedAt": "2026-08-27T17:10:34.884Z"
 }

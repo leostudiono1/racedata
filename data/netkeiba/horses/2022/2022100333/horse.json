@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100333",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100333/",
-  "profile": null,
+  "profile": {
+    "name": "タケルハーロック",
+    "birthDate": "2022-03-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01159",
+      "name": "高柳大輔"
+    },
+    "owner": {
+      "id": "748009",
+      "name": "森保彦"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "2009101220",
+      "name": "ヒシアルコル"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2550,6 +2580,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タケルハーロック (Takeru Hurlock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タケルハーロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タケルハーロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2619,9 +2679,9 @@
       "contentHash": "14967906559036f8680804a6244f59ca25746f4cfd57dfe658ef87491138ff67",
       "byteLength": 66496,
       "rawPath": "netkeiba/horses/2022/2022100333/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:43:57.564Z"
+  "updatedAt": "2026-08-30T15:48:39.156Z"
 }

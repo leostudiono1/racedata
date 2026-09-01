@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101989",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101989/",
-  "profile": null,
+  "profile": {
+    "name": "マジメ",
+    "birthDate": "2013-03-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05588",
+      "name": "井上正"
+    },
+    "owner": {
+      "id": "999030",
+      "name": "鈴置正文"
+    },
+    "breeder": {
+      "id": "330316",
+      "name": "前川隆範"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シャムロッククリーク Shamrock Creek(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Irish River (仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6089,6 +6119,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マジメ (Majime) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6158,9 +6218,9 @@
       "contentHash": "be967863e7f4d01c05743f13664580a87470931c82c1d59ba521adba2349055f",
       "byteLength": 66456,
       "rawPath": "netkeiba/horses/2013/2013101989/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:29:18.416Z"
+  "updatedAt": "2026-08-27T16:40:31.815Z"
 }

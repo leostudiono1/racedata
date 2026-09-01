@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105157",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105157/",
-  "profile": null,
+  "profile": {
+    "name": "レプリューム",
+    "birthDate": "2019-01-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "026803",
+      "name": "ＤＭＭドリームクラブ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2014110116",
+      "name": "ギエナー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Redoute's Choice"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1387,6 +1417,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レプリューム (Les Plumes) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レプリューム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レプリューム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1456,9 +1516,9 @@
       "contentHash": "caea09d44c376764af784376e7fb98dc211250c7224abaf8ecae72b2d3d7730b",
       "byteLength": 65572,
       "rawPath": "netkeiba/horses/2019/2019105157/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:57:35.551Z"
+  "updatedAt": "2026-08-24T21:06:43.239Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105433",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105433/",
-  "profile": null,
+  "profile": {
+    "name": "セナスタイル",
+    "birthDate": "2022-03-27",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01164",
+      "name": "安田翔伍"
+    },
+    "owner": {
+      "id": "008803",
+      "name": "原禮子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "Sottsass (仏)"
+    },
+    "dam": {
+      "id": "2011104201",
+      "name": "ヌーヴォレコルト"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1561,6 +1591,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セナスタイル (Sena Style) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セナスタイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セナスタイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1630,9 +1690,9 @@
       "contentHash": "e2efef109492e00b3c8d59c383a2a55ba7252819e1fe51a935bd478931830120",
       "byteLength": 66915,
       "rawPath": "netkeiba/horses/2022/2022105433/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:44:36.688Z"
+  "updatedAt": "2026-08-28T16:51:45.607Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103589",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103589/",
-  "profile": null,
+  "profile": {
+    "name": "イチダイ",
+    "birthDate": "2013-05-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00380",
+      "name": "柄崎孝"
+    },
+    "owner": {
+      "id": "020803",
+      "name": "三度屋"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2002102852",
+      "name": "テンイムホウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -5852,6 +5882,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イチダイ (Ichi Dai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イチダイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イチダイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5921,9 +5981,9 @@
       "contentHash": "5879616dd467d7ca9529abaa067d8e8e3336182be281043c2aa546adf10d622a",
       "byteLength": 66817,
       "rawPath": "netkeiba/horses/2013/2013103589/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:03:07.330Z"
+  "updatedAt": "2026-08-28T16:10:16.207Z"
 }

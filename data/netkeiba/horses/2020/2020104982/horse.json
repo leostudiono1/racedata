@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104982",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104982/",
-  "profile": null,
+  "profile": {
+    "name": "ヘンリー",
+    "birthDate": "2020-03-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05753",
+      "name": "山下貴之"
+    },
+    "owner": {
+      "id": "015803",
+      "name": "サイプレスホールディングス"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2014105883",
+      "name": "ピカケレイ"
+    },
+    "damsire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2552,6 +2582,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘンリー (Henry) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘンリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘンリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2621,9 +2681,9 @@
       "contentHash": "08a6db8af466e2a0b7c8b2c8f979d03412693c416b3896ec71f3af0d52d5abf9",
       "byteLength": 66903,
       "rawPath": "netkeiba/horses/2020/2020104982/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:35:20.005Z"
+  "updatedAt": "2026-08-28T16:42:29.098Z"
 }

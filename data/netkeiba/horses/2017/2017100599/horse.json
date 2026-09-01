@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100599",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100599/",
-  "profile": null,
+  "profile": {
+    "name": "ジェイダ",
+    "birthDate": "2017-05-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006103169",
+      "name": "トーセンジョーダン"
+    },
+    "dam": {
+      "id": "1999107089",
+      "name": "アフレイタス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103169",
@@ -1434,6 +1464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジェイダ (Gyda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェイダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェイダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1503,9 +1563,9 @@
       "contentHash": "315b8a4a511cdede2d993e069b811e583ab2338e49d546460773dbda0f9fed29",
       "byteLength": 65859,
       "rawPath": "netkeiba/horses/2017/2017100599/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:19:10.229Z"
+  "updatedAt": "2026-08-28T16:26:19.047Z"
 }

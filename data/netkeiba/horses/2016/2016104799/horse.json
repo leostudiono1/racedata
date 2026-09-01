@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104799",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104799/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーポテト",
+    "birthDate": "2016-03-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2006103281",
+      "name": "ディナシー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1568,6 +1598,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーポテト (Mikki Potato) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーポテト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーポテト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1637,9 +1697,9 @@
       "contentHash": "f28000d59ff90b4ef25d38067a993a24ad556bf08543c9dcf62119b4de293daa",
       "byteLength": 65333,
       "rawPath": "netkeiba/horses/2016/2016104799/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:43:21.787Z"
+  "updatedAt": "2026-08-27T16:54:35.577Z"
 }

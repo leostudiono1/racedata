@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103980",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103980/",
-  "profile": null,
+  "profile": {
+    "name": "ポペット",
+    "birthDate": "2023-04-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "336030",
+      "name": "小林竜太郎"
+    },
+    "breeder": {
+      "id": "530331",
+      "name": "岩見牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2017104119",
+      "name": "プティシュシュ"
+    },
+    "damsire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -2022,6 +2052,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポペット (Poppet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポペット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポペット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2091,9 +2151,9 @@
       "contentHash": "c9650a98f55cf51a0fc66080daba82b6c073ed6c4bc5b703a4c559bea236e03d",
       "byteLength": 67050,
       "rawPath": "netkeiba/horses/2023/2023103980/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:11:11.917Z"
+  "updatedAt": "2026-08-27T17:22:25.655Z"
 }

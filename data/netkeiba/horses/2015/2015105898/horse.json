@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105898",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105898/",
-  "profile": null,
+  "profile": {
+    "name": "クッカ",
+    "birthDate": "2015-02-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2005100605",
+      "name": "エイムアットビップ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1849,6 +1879,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クッカ (Kukka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クッカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クッカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1918,9 +1978,9 @@
       "contentHash": "eaf70b3dd4333264705d7c184fa9b913c4ee7e209af8ccc45509bd1bb5dc5096",
       "byteLength": 65355,
       "rawPath": "netkeiba/horses/2015/2015105898/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:55:54.911Z"
+  "updatedAt": "2026-08-31T15:01:18.679Z"
 }

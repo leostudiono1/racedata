@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103816",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103816/",
-  "profile": null,
+  "profile": {
+    "name": "リッチブラック",
+    "birthDate": "2019-04-05",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "302800",
+      "name": "辻牧場"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2003102082",
+      "name": "アドマイヤカンナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -4475,6 +4505,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リッチブラック (Rich Black) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リッチブラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リッチブラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4544,9 +4604,9 @@
       "contentHash": "6769eb5bbc3400ed191c09bf76ca621162303eed3e66c667cda07098089d01fc",
       "byteLength": 66921,
       "rawPath": "netkeiba/horses/2019/2019103816/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:31:56.652Z"
+  "updatedAt": "2026-08-30T15:36:38.204Z"
 }

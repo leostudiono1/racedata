@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101492",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101492/",
-  "profile": null,
+  "profile": {
+    "name": "エリナ",
+    "birthDate": "2022-03-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "2009102525",
+      "name": "ヒーラ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2061,6 +2091,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エリナ (Elina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2130,9 +2190,9 @@
       "contentHash": "ffe10e5c3a5203ccc442e6440187300e5326782886fb73a31933283531859ecd",
       "byteLength": 65670,
       "rawPath": "netkeiba/horses/2022/2022101492/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:33:25.775Z"
+  "updatedAt": "2026-08-25T18:34:16.506Z"
 }

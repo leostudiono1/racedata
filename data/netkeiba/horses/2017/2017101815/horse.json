@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101815",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101815/",
-  "profile": null,
+  "profile": {
+    "name": "マブルーク",
+    "birthDate": "2017-03-11",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2011110025",
+      "name": "ディルガ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2003,6 +2033,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マブルーク (Mabrook) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マブルーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マブルーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2072,9 +2132,9 @@
       "contentHash": "0f37edcdaa3675f1a27228022c22b29311164f70fccb61f63855f5be1f9f44b9",
       "byteLength": 65454,
       "rawPath": "netkeiba/horses/2017/2017101815/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:22:32.545Z"
+  "updatedAt": "2026-08-30T15:27:14.308Z"
 }

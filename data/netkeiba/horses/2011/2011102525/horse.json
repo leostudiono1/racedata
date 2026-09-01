@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011102525",
   "sourceUrl": "https://db.netkeiba.com/horse/2011102525/",
-  "profile": null,
+  "profile": {
+    "name": "ディープミタカ",
+    "birthDate": "2011-04-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00849",
+      "name": "地辺幸一"
+    },
+    "owner": {
+      "id": "128008",
+      "name": "深見敏男"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    },
+    "dam": {
+      "id": "2004110255",
+      "name": "アンジェラスキッス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2005101358",
@@ -8425,6 +8455,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディープミタカ (Deep Mitaka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープミタカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープミタカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8494,9 +8554,9 @@
       "contentHash": "04feab6b4c04fe7092f2147a5eb4109574363bc7bcbfdf0cf6748937821c6829",
       "byteLength": 66968,
       "rawPath": "netkeiba/horses/2011/2011102525/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T16:58:37.371Z"
+  "updatedAt": "2026-08-30T15:03:18.815Z"
 }

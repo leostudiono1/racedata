@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106754",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106754/",
-  "profile": null,
+  "profile": {
+    "name": "オンクラウドナイン",
+    "birthDate": "2022-03-28",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "500319",
+      "name": "平山牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013110045",
+      "name": "ラニ"
+    },
+    "dam": {
+      "id": "2010110073",
+      "name": "シアージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Raven's Pass"
+    }
+  },
   "pedigree": [
     {
       "id": "2013110045",
@@ -2207,6 +2237,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オンクラウドナイン (On Cloud Nine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンクラウドナイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンクラウドナイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2276,9 +2336,9 @@
       "contentHash": "7f8e9cd1740131f403739759e304c737ae51806db6d5ccf7a712bdae84af07e8",
       "byteLength": 66989,
       "rawPath": "netkeiba/horses/2022/2022106754/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:09:02.313Z"
+  "updatedAt": "2026-08-27T17:20:16.294Z"
 }

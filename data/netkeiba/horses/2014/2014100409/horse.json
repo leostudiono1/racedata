@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100409",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100409/",
-  "profile": null,
+  "profile": {
+    "name": "ヘルディン",
+    "birthDate": "2014-03-09",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "693033",
+      "name": "金山敏也"
+    },
+    "breeder": {
+      "id": "080543",
+      "name": "大作ステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000110026",
+      "name": "ロードアルティマ"
+    },
+    "dam": {
+      "id": "2007103745",
+      "name": "モエレサンタマリア"
+    },
+    "damsire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2000110026",
@@ -3487,6 +3517,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘルディン (Heldin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘルディン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘルディン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3556,9 +3616,9 @@
       "contentHash": "360dd1287018b4655d1ad2529d16639117316ddc84a1d767a584f587d050edd3",
       "byteLength": 66950,
       "rawPath": "netkeiba/horses/2014/2014100409/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:30:00.191Z"
+  "updatedAt": "2026-08-29T15:35:30.828Z"
 }

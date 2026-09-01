@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110076",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110076/",
-  "profile": null,
+  "profile": {
+    "name": "メリタテス",
+    "birthDate": "2020-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "370704",
+      "name": "Charles Fipke"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Gem Gem"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2361,6 +2391,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メリタテス (Meritites) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリタテス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリタテス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2430,9 +2490,9 @@
       "contentHash": "ad7bef1c584d5a7e5a0204d08e0b0b5cde51c8481cfbc61467923a6ccc3ea767",
       "byteLength": 67118,
       "rawPath": "netkeiba/horses/2020/2020110076/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:19:01.303Z"
+  "updatedAt": "2026-08-31T15:24:21.637Z"
 }

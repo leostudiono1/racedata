@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107007",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107007/",
-  "profile": null,
+  "profile": {
+    "name": "マブシサ",
+    "birthDate": "2022-04-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "504031",
+      "name": "長島利治"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006100529",
+      "name": "ジョーカプチーノ"
+    },
+    "dam": {
+      "id": "2004104773",
+      "name": "ドキュン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006100529",
@@ -1051,6 +1081,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マブシサ (Mabushisa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マブシサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マブシサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1120,9 +1180,9 @@
       "contentHash": "ef89bbb64a5e0a42ff9e6132ea091b43d42be08f912bad7764b6264c2c887ac1",
       "byteLength": 64499,
       "rawPath": "netkeiba/horses/2022/2022107007/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:36:48.959Z"
+  "updatedAt": "2026-08-25T18:37:39.457Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010102011",
   "sourceUrl": "https://db.netkeiba.com/horse/2010102011/",
-  "profile": null,
+  "profile": {
+    "name": "サンライズワールド",
+    "birthDate": "2010-03-23",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01022",
+      "name": "石坂正"
+    },
+    "owner": {
+      "id": "306008",
+      "name": "松岡隆雄"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998106718",
+      "name": "サンライズペガサス"
+    },
+    "dam": {
+      "id": "1995105933",
+      "name": "プレシャスキール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノーザンテースト Northern Taste(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998106718",
@@ -4785,6 +4815,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンライズワールド (Sunrise World) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンライズワールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンライズワールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4854,9 +4914,9 @@
       "contentHash": "ef4b43ccc45b59ef01d6ecf57aaebc014851467c8e31faae04152f58224b876e",
       "byteLength": 66284,
       "rawPath": "netkeiba/horses/2010/2010102011/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T16:57:23.541Z"
+  "updatedAt": "2026-08-30T15:02:05.321Z"
 }

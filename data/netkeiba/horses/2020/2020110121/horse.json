@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110121",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110121/",
-  "profile": null,
+  "profile": {
+    "name": "ルージュアマルフィ",
+    "birthDate": "2020-02-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "970737",
+      "name": "Wood Farm Stud"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Panmolle"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lawman"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2077,6 +2107,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルージュアマルフィ (Rouge Amalfi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルージュアマルフィ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルージュアマルフィ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2146,9 +2206,9 @@
       "contentHash": "306f20a8e7caf189b69a6690c13f5d294b0712dfe4f021046bc59e1709dfcfaf",
       "byteLength": 67398,
       "rawPath": "netkeiba/horses/2020/2020110121/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:01:41.445Z"
+  "updatedAt": "2026-08-29T16:07:12.157Z"
 }

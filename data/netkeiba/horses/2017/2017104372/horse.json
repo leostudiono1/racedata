@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104372",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104372/",
-  "profile": null,
+  "profile": {
+    "name": "ネイジュ",
+    "birthDate": "2017-02-03",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102870",
+      "name": "トーセンファントム"
+    },
+    "dam": {
+      "id": "2010100244",
+      "name": "エスティマリリン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ザール Xaar(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102870",
@@ -1434,6 +1464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネイジュ (Neige) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネイジュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネイジュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1503,9 +1563,9 @@
       "contentHash": "b62d560734ff059cda5468ad60c355db3cc0ecdfeef6522b2998b97f0e73098f",
       "byteLength": 66398,
       "rawPath": "netkeiba/horses/2017/2017104372/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:03:54.643Z"
+  "updatedAt": "2026-08-31T15:09:14.957Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105750",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105750/",
-  "profile": null,
+  "profile": {
+    "name": "ジェロディ",
+    "birthDate": "2013-04-13",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2000190003",
+      "name": "アイランドファッション Island Fashion(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Petionville"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1433,6 +1463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジェロディ (Gerodi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェロディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェロディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1502,9 +1562,9 @@
       "contentHash": "d90c8ec3e4f1afacf1e995c983787e27cebda0b5c695dbdb65848096d2f8761e",
       "byteLength": 65756,
       "rawPath": "netkeiba/horses/2013/2013105750/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:07:39.943Z"
+  "updatedAt": "2026-08-30T15:12:21.956Z"
 }

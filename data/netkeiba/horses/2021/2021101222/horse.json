@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101222",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101222/",
-  "profile": null,
+  "profile": {
+    "name": "コードナイン",
+    "birthDate": "2021-02-16",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "永田幸宏"
+    },
+    "owner": {
+      "id": "x0942e",
+      "name": "木部嚴生"
+    },
+    "breeder": {
+      "id": "680543",
+      "name": "木部ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2010100889",
+      "name": "ラレンヌ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ルールオブロー Rule of Law(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -2545,6 +2575,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コードナイン (Code Nine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コードナイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コードナイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2614,9 +2674,9 @@
       "contentHash": "2954deb683cf9ed1874c1b5bf803cebaa930471e16aef28c4f4688fac61b30c2",
       "byteLength": 64658,
       "rawPath": "netkeiba/horses/2021/2021101222/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:39:52.901Z"
+  "updatedAt": "2026-08-30T15:44:34.102Z"
 }

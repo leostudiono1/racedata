@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101101",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101101/",
-  "profile": null,
+  "profile": {
+    "name": "エンカウンターベイ",
+    "birthDate": "2023-03-24",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2016103306",
+      "name": "アゴベイ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1438,6 +1468,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エンカウンターベイ (Encounter Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンカウンターベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンカウンターベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1507,9 +1567,9 @@
       "contentHash": "a2f508e534bca698b67ce58ae0e21ad9729b558ed1aae973621c939246cdd704",
       "byteLength": 65151,
       "rawPath": "netkeiba/horses/2023/2023101101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:10:33.678Z"
+  "updatedAt": "2026-08-29T16:16:04.370Z"
 }

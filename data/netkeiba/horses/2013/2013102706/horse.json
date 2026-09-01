@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102706",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102706/",
-  "profile": null,
+  "profile": {
+    "name": "ローカルロマン",
+    "birthDate": "2013-03-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05601",
+      "name": "東眞市"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "800005",
+      "name": "スイートファーム"
+    },
+    "birthplace": "様似",
+    "sire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ギブス Gibbs(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Boundary"
+    }
+  },
   "pedigree": [
     {
       "id": "1995103211",
@@ -4141,6 +4171,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローカルロマン (Local Roman) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローカルロマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローカルロマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4210,9 +4270,9 @@
       "contentHash": "44b925e89595b4e498e8bcfcecf260615d4c93f0714f2fb2bc9954b9e10f74b4",
       "byteLength": 66625,
       "rawPath": "netkeiba/horses/2013/2013102706/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:26:58.207Z"
+  "updatedAt": "2026-08-29T15:32:28.804Z"
 }

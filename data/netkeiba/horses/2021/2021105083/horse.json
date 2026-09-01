@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105083",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105083/",
-  "profile": null,
+  "profile": {
+    "name": "フォティーゾ",
+    "birthDate": "2021-04-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01175",
+      "name": "宮田敬介"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スキア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Motivator"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1524,6 +1554,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォティーゾ (Fotizo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォティーゾ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォティーゾ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1593,9 +1653,9 @@
       "contentHash": "f99e0dc507b953f6e88fe3ea405263b43f6b1be145141332631f3f49f051c16c",
       "byteLength": 67189,
       "rawPath": "netkeiba/horses/2021/2021105083/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:30:16.584Z"
+  "updatedAt": "2026-08-25T18:31:07.623Z"
 }

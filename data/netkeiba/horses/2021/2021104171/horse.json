@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104171",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104171/",
-  "profile": null,
+  "profile": {
+    "name": "フェリマール",
+    "birthDate": "2021-04-16",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島壽"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2014110086",
+      "name": "ラローデ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shackleford"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -5139,6 +5169,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェリマール (Feerie Marc) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェリマール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェリマール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5208,9 +5268,9 @@
       "contentHash": "38c0516b99dd76250998f0f82f7e26e0ff05c4c68d8f5020b3b0d39c708abb50",
       "byteLength": 66595,
       "rawPath": "netkeiba/horses/2021/2021104171/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:02:51.274Z"
+  "updatedAt": "2026-08-27T17:14:04.975Z"
 }

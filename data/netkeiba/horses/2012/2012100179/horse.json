@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100179",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100179/",
-  "profile": null,
+  "profile": {
+    "name": "リチャード",
+    "birthDate": "2012-05-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "857004",
+      "name": "林進"
+    },
+    "breeder": {
+      "id": "700335",
+      "name": "協和牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2001101705",
+      "name": "キョウワノスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "テンビー Tenby(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -9069,6 +9099,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リチャード (Richard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リチャード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リチャード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9138,9 +9198,9 @@
       "contentHash": "9eaac01f9c3af6d93da9f7c78b8a0dc1c88f2ed4868145a46dc42ff6296aa203",
       "byteLength": 64405,
       "rawPath": "netkeiba/horses/2012/2012100179/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:21:50.082Z"
+  "updatedAt": "2026-08-29T15:27:20.719Z"
 }

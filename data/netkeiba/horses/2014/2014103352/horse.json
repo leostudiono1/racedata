@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103352",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103352/",
-  "profile": null,
+  "profile": {
+    "name": "ヒルノラッセル",
+    "birthDate": "2014-05-13",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "823800",
+      "name": "ヒルノ"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007100727",
+      "name": "ヒルノダムール"
+    },
+    "dam": {
+      "id": "2006101913",
+      "name": "カンシャノキモチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "カリズマティック Charismatic(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007100727",
@@ -1108,6 +1138,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒルノラッセル (Hiruno Russell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒルノラッセル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒルノラッセル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1177,9 +1237,9 @@
       "contentHash": "71788f77ae0b2226b376a539c348d3d76ea46b186f33a1031aadd8579c86d9e9",
       "byteLength": 64638,
       "rawPath": "netkeiba/horses/2014/2014103352/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:56:39.838Z"
+  "updatedAt": "2026-08-25T17:57:30.578Z"
 }

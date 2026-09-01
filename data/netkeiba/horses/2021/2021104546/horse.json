@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104546",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104546/",
-  "profile": null,
+  "profile": {
+    "name": "アイリータイム",
+    "birthDate": "2021-03-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05109",
+      "name": "古賀光範"
+    },
+    "owner": {
+      "id": "190031",
+      "name": "須田靖之"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010110127",
+      "name": "ベストウォーリア"
+    },
+    "dam": {
+      "id": "2003103002",
+      "name": "クレヨンルージュ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110127",
@@ -1475,6 +1505,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイリータイム (Irie Time) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリータイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリータイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1544,9 +1604,9 @@
       "contentHash": "c98679b784861d8b590b038671156419d3c4a3def7099782f147fb26951c6c02",
       "byteLength": 66938,
       "rawPath": "netkeiba/horses/2021/2021104546/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:54:52.701Z"
+  "updatedAt": "2026-08-26T18:01:47.770Z"
 }

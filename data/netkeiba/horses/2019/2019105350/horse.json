@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105350",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105350/",
-  "profile": null,
+  "profile": {
+    "name": "シタン",
+    "birthDate": "2019-04-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05508",
+      "name": "栗田裕光"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2011103819",
+      "name": "パープルセイル"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -4333,6 +4363,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シタン (Shitan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4402,9 +4462,9 @@
       "contentHash": "b90b9d56bf9bc35d7411fea0dc0b54d23ad146ccbf4c2894c056eef45b032b8e",
       "byteLength": 66604,
       "rawPath": "netkeiba/horses/2019/2019105350/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:20:18.026Z"
+  "updatedAt": "2026-08-25T18:21:08.555Z"
 }

@@ -2,7 +2,31 @@
   "schemaVersion": 1,
   "id": "2008190008",
   "sourceUrl": "https://db.netkeiba.com/horse/2008190008/",
-  "profile": null,
+  "profile": {
+    "name": "Rich Tapestry",
+    "birthDate": "2008-03-26",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05699",
+      "name": "チャン"
+    },
+    "owner": null,
+    "breeder": null,
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Holy Roman Emperor"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Genuine Charm"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2278,6 +2302,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Rich Tapestry (リッチタペストリー) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rich Tapestry関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Rich Tapestry関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2347,9 +2401,9 @@
       "contentHash": "de177e10a08b9bcd5554669b44de6b79d129e3bff46bcfd8c5c9f977ee05b9e7",
       "byteLength": 66661,
       "rawPath": "netkeiba/horses/2008/2008190008/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:20:29.463Z"
+  "updatedAt": "2026-08-27T16:31:43.140Z"
 }

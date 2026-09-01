@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101925",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101925/",
-  "profile": null,
+  "profile": {
+    "name": "オデット",
+    "birthDate": "2022-03-21",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01193",
+      "name": "緒方努"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2009104505",
+      "name": "ヤサカオディール"
+    },
+    "damsire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -2722,6 +2752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オデット (Odette) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オデット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オデット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2791,9 +2851,9 @@
       "contentHash": "3d6cd1c9223039b91855be82de9b8b31a0b3fc4dc7d224a1d0964b54e98475d0",
       "byteLength": 66837,
       "rawPath": "netkeiba/horses/2022/2022101925/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:58:08.772Z"
+  "updatedAt": "2026-08-26T18:05:03.530Z"
 }

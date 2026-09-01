@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009110050",
   "sourceUrl": "https://db.netkeiba.com/horse/2009110050/",
-  "profile": null,
+  "profile": {
+    "name": "ミルクディッパー",
+    "birthDate": "2009-02-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01078",
+      "name": "北出成人"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "240882",
+      "name": "North Hills Management"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Dynaformer"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Love Walked In"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3775,6 +3805,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミルクディッパー (Milk Dipper) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルクディッパー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルクディッパー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3844,9 +3904,9 @@
       "contentHash": "d39c8dab8f047bb19b743e9504e88e62df8b659531d87741f680df482f05a118",
       "byteLength": 64912,
       "rawPath": "netkeiba/horses/2009/2009110050/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T17:56:45.723Z"
+  "updatedAt": "2026-08-28T16:03:54.480Z"
 }

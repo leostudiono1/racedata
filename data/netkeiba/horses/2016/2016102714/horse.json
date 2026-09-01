@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102714",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102714/",
-  "profile": null,
+  "profile": {
+    "name": "ザキントス",
+    "birthDate": "2016-04-12",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2009104935",
+      "name": "ブリッサ"
+    },
+    "damsire": {
+      "id": "1994109361",
+      "name": "ブラックホーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1176,6 +1206,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザキントス (Zakynthos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザキントス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザキントス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1245,9 +1305,9 @@
       "contentHash": "243358147e6e16e7c6630ecbd06d0a0050b057e3ee3007cc87dc7f77f9af178d",
       "byteLength": 66026,
       "rawPath": "netkeiba/horses/2016/2016102714/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:16:18.561Z"
+  "updatedAt": "2026-08-28T16:23:27.788Z"
 }

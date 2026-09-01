@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102557",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102557/",
-  "profile": null,
+  "profile": {
+    "name": "サブリナ",
+    "birthDate": "2015-04-29",
+    "sex": "牝",
+    "coatColor": "栃栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "853030",
+      "name": "小原準一郎"
+    },
+    "breeder": {
+      "id": "733027",
+      "name": "平野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セイクリッドフレイム Sacred Flame(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rahy"
+    }
+  },
   "pedigree": [
     {
       "id": "2007105709",
@@ -1520,6 +1550,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サブリナ (Sabrina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サブリナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サブリナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1589,9 +1649,9 @@
       "contentHash": "e5ba1e3132f63d61cdb6994a83538e052e4812155a278d40396179ae23a48b9a",
       "byteLength": 65636,
       "rawPath": "netkeiba/horses/2015/2015102557/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:37:34.889Z"
+  "updatedAt": "2026-08-24T20:46:42.419Z"
 }

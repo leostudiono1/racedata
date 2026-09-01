@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100802",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100802/",
-  "profile": null,
+  "profile": {
+    "name": "チョウウマクイク",
+    "birthDate": "2020-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "織田誠"
+    },
+    "owner": {
+      "id": "034005",
+      "name": "丸山隆雄"
+    },
+    "breeder": {
+      "id": "533047",
+      "name": "鮫川ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005105680",
+      "name": "セレン"
+    },
+    "dam": {
+      "id": "2009102653",
+      "name": "ダーレームーン"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2005105680",
@@ -4830,6 +4860,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チョウウマクイク (Cho Umakuiku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チョウウマクイク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チョウウマクイク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4899,9 +4959,9 @@
       "contentHash": "9b93465424b676db824fccb3768f974cb361ee7c70d6fbf15bdce10698ebbc27",
       "byteLength": 66415,
       "rawPath": "netkeiba/horses/2020/2020100802/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:34:37.403Z"
+  "updatedAt": "2026-08-30T15:39:18.999Z"
 }

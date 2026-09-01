@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106227",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106227/",
-  "profile": null,
+  "profile": {
+    "name": "オーバーリミット",
+    "birthDate": "2017-05-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "385031",
+      "name": "星加浩一"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2005110203",
+      "name": "フラライン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -4477,6 +4507,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーバーリミット (Over Limit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーバーリミット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーバーリミット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4546,9 +4606,9 @@
       "contentHash": "74c8463d92c6264d1945d93209f30708ed6bdc81627d51501f9618f4750ba4dc",
       "byteLength": 66311,
       "rawPath": "netkeiba/horses/2017/2017106227/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:50:18.309Z"
+  "updatedAt": "2026-08-24T20:59:25.951Z"
 }

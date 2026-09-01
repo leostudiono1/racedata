@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104063",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104063/",
-  "profile": null,
+  "profile": {
+    "name": "ハンス",
+    "birthDate": "2019-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "055803",
+      "name": "平山靖"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2011106101",
+      "name": "ダイヤモンドハイ"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -1145,6 +1175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハンス (Hans) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1214,9 +1274,9 @@
       "contentHash": "2343a0bf92eebfc927df55e64203aa73626eb639f6b9c098ea7a1b31b3e6c17d",
       "byteLength": 66784,
       "rawPath": "netkeiba/horses/2019/2019104063/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:56:46.519Z"
+  "updatedAt": "2026-08-24T21:05:54.258Z"
 }

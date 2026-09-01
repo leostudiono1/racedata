@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102599",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102599/",
-  "profile": null,
+  "profile": {
+    "name": "リトルミム",
+    "birthDate": "2020-03-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "797008",
+      "name": "栗山良子"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2009110133",
+      "name": "リトルゲルダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Closing Argument"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2393,6 +2423,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リトルミム (Little Mimu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リトルミム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リトルミム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2462,9 +2522,9 @@
       "contentHash": "ce84f0ec9a0a0fe1af47c6f93451ab43e92b583a6c9e406c9d77724e3724766c",
       "byteLength": 66820,
       "rawPath": "netkeiba/horses/2020/2020102599/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:33:52.460Z"
+  "updatedAt": "2026-08-28T16:41:01.140Z"
 }

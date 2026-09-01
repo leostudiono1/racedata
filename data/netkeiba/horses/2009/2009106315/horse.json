@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009106315",
   "sourceUrl": "https://db.netkeiba.com/horse/2009106315/",
-  "profile": null,
+  "profile": {
+    "name": "ヒストリカル",
+    "birthDate": "2009-03-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "1990104480",
+      "name": "ブリリアントベリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノーザンテースト Northern Taste(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -4732,6 +4762,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒストリカル (Historical) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒストリカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒストリカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4801,9 +4861,9 @@
       "contentHash": "1cc8e37612eafa0d6967eb7c55b6772d29a7f64a27b39458e4f9baf663190866",
       "byteLength": 67157,
       "rawPath": "netkeiba/horses/2009/2009106315/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:18:58.474Z"
+  "updatedAt": "2026-08-29T15:24:29.127Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101482",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101482/",
-  "profile": null,
+  "profile": {
+    "name": "キーファクター",
+    "birthDate": "2019-04-11",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "443007",
+      "name": "細谷典幸"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ザファクター"
+    },
+    "dam": {
+      "id": "2011100202",
+      "name": "ビオレント"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1244,6 +1274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーファクター (Key Factor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーファクター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーファクター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1313,9 +1373,9 @@
       "contentHash": "0f145ac8c4e9909a91d9ea24d2eef1bb1fd746caf3e1529fe8580049315b55fd",
       "byteLength": 66800,
       "rawPath": "netkeiba/horses/2019/2019101482/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:28:40.896Z"
+  "updatedAt": "2026-08-28T16:35:49.588Z"
 }

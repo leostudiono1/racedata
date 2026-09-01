@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103141",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103141/",
-  "profile": null,
+  "profile": {
+    "name": "ホッコーエイコウ",
+    "birthDate": "2011-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01093",
+      "name": "松永康利"
+    },
+    "owner": {
+      "id": "483033",
+      "name": "矢部道晃"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ウイングドキャット Winged Cat(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -2722,6 +2752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホッコーエイコウ (Hokko Eiko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホッコーエイコウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホッコーエイコウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2791,9 +2851,9 @@
       "contentHash": "17b92499efa22760e587a053f17c8fe5e68b0ea24c790f2f0c0e05bf4c291738",
       "byteLength": 65297,
       "rawPath": "netkeiba/horses/2011/2011103141/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:13:47.800Z"
+  "updatedAt": "2026-08-26T17:20:42.692Z"
 }

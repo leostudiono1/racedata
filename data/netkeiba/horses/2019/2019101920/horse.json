@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101920",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101920/",
-  "profile": null,
+  "profile": {
+    "name": "バイロイト",
+    "birthDate": "2019-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2010100717",
+      "name": "レディオブオペラ"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1866,6 +1896,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バイロイト (Bayreuth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイロイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイロイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1935,9 +1995,9 @@
       "contentHash": "752d22df827263c04f6d4174d02618af8405b48d80cc377d337caedf1a74d4a4",
       "byteLength": 66894,
       "rawPath": "netkeiba/horses/2019/2019101920/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:28:58.770Z"
+  "updatedAt": "2026-08-28T16:36:07.090Z"
 }

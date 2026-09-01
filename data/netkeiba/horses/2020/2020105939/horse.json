@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105939",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105939/",
-  "profile": null,
+  "profile": {
+    "name": "ナチュラルハイ",
+    "birthDate": "2020-05-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05609",
+      "name": "小久保智"
+    },
+    "owner": {
+      "id": "798033",
+      "name": "山口裕介"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2008104122",
+      "name": "ニシノシュクラン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pulpit"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -3621,6 +3651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナチュラルハイ (Natural High) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナチュラルハイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナチュラルハイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3690,9 +3750,9 @@
       "contentHash": "e6f35ca3143ed4dad2a35f9b63a9edd3fe420d68363b3ffe2f93d271e5fbcfc6",
       "byteLength": 67123,
       "rawPath": "netkeiba/horses/2020/2020105939/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:59:28.142Z"
+  "updatedAt": "2026-08-27T17:10:42.072Z"
 }

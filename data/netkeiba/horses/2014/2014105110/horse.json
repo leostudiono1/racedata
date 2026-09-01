@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105110",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105110/",
-  "profile": null,
+  "profile": {
+    "name": "ブキス",
+    "birthDate": "2014-03-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "小村正也"
+    },
+    "owner": {
+      "id": "x07bf9",
+      "name": "花水辰夫"
+    },
+    "breeder": {
+      "id": "533302",
+      "name": "前谷武志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2008103314",
+      "name": "カネスラッゾ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4469,6 +4499,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブキス (Buchis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブキス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブキス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4538,9 +4598,9 @@
       "contentHash": "c8e921c079d79e6d04c22fc9a0101f3b9b80fdf964437aa243e93edce4e334d9",
       "byteLength": 66663,
       "rawPath": "netkeiba/horses/2014/2014105110/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:08:29.550Z"
+  "updatedAt": "2026-08-28T16:15:38.633Z"
 }

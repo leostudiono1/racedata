@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101588",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101588/",
-  "profile": null,
+  "profile": {
+    "name": "カルメンティス",
+    "birthDate": "2013-03-19",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "関本浩司"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "610310",
+      "name": "タニグチ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "1997104639",
+      "name": "セレサス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "カーネギー Carnegie(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -6210,6 +6240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カルメンティス (Carmentis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルメンティス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルメンティス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6279,9 +6339,9 @@
       "contentHash": "231337ab0105f4cdc64e879f6a378ea181857a591a13767e2ad673d91e58deb4",
       "byteLength": 64858,
       "rawPath": "netkeiba/horses/2013/2013101588/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:19:13.691Z"
+  "updatedAt": "2026-08-26T17:26:08.307Z"
 }

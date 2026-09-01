@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102342",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102342/",
-  "profile": null,
+  "profile": {
+    "name": "マサノジェット",
+    "birthDate": "2013-05-06",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05717",
+      "name": "張田京"
+    },
+    "owner": {
+      "id": "320803",
+      "name": "古賀禎彦"
+    },
+    "breeder": {
+      "id": "103097",
+      "name": "嶋田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2000110200",
+      "name": "ダンツライラック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Barathea"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -2819,6 +2849,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マサノジェット (Masano Jet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マサノジェット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マサノジェット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2888,9 +2948,9 @@
       "contentHash": "2e6fe9df6ff2bafeb275732655d10512a3fd2baff7180d1ca0595f29fc49c627",
       "byteLength": 66971,
       "rawPath": "netkeiba/horses/2013/2013102342/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:05:33.628Z"
+  "updatedAt": "2026-08-30T15:10:15.394Z"
 }

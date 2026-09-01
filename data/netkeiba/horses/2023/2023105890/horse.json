@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105890",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105890/",
-  "profile": null,
+  "profile": {
+    "name": "ヒャクギマル",
+    "birthDate": "2023-04-04",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "430033",
+      "name": "林弘之"
+    },
+    "breeder": {
+      "id": "214514",
+      "name": "コスモヴューファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "フォーウィールドライブ Four Wheel Drive(米)"
+    },
+    "dam": {
+      "id": "2018106567",
+      "name": "マジックビューティ"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1498,6 +1528,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒャクギマル (Hyakugimaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒャクギマル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒャクギマル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1567,9 +1627,9 @@
       "contentHash": "3109429561ffdd4e9e8bf1d2c2cafa09515c1ca5b64ec1fb17da9ab3a3e03540",
       "byteLength": 64998,
       "rawPath": "netkeiba/horses/2023/2023105890/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:50:02.497Z"
+  "updatedAt": "2026-08-28T16:57:11.342Z"
 }

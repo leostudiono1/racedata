@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100931",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100931/",
-  "profile": null,
+  "profile": {
+    "name": "ゼファラス",
+    "birthDate": "2019-02-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "x09418",
+      "name": "田村章"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2009105924",
+      "name": "ツクバエルドラド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Corredor"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2640,6 +2670,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼファラス (Zephyros) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼファラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼファラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2709,9 +2769,9 @@
       "contentHash": "de1c29385b3f8af2ec8b741a79fff0b341581e4760b5e3baf6fb6569d21fb83a",
       "byteLength": 66677,
       "rawPath": "netkeiba/horses/2019/2019100931/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:52:21.002Z"
+  "updatedAt": "2026-08-27T17:03:35.045Z"
 }

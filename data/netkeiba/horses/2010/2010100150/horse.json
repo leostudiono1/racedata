@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100150",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100150/",
-  "profile": null,
+  "profile": {
+    "name": "プレイリースター",
+    "birthDate": "2010-03-22",
+    "sex": "牝",
+    "coatColor": "栃栗毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "635009",
+      "name": "田所英子"
+    },
+    "breeder": {
+      "id": "003341",
+      "name": "天羽牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    },
+    "dam": {
+      "id": "1995109036",
+      "name": "カーロッサ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Caerleon (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1992102988",
@@ -3210,6 +3240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレイリースター (Prairie Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレイリースター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレイリースター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3279,9 +3339,9 @@
       "contentHash": "17239fc0804e5a0a942bb5aeb60374bd224b4b3dc922ba02bb92821ef4671ec9",
       "byteLength": 66275,
       "rawPath": "netkeiba/horses/2010/2010100150/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T16:57:06.004Z"
+  "updatedAt": "2026-08-30T15:01:47.702Z"
 }

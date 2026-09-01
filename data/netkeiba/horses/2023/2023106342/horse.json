@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106342",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106342/",
-  "profile": null,
+  "profile": {
+    "name": "ヴォーゲ",
+    "birthDate": "2023-03-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011104019",
+      "name": "アルバート"
+    },
+    "dam": {
+      "id": "2015106081",
+      "name": "シャープスティーン"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104019",
@@ -1244,6 +1274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴォーゲ (Woge) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴォーゲ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴォーゲ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1313,9 +1373,9 @@
       "contentHash": "727f3d6f3be2fca45162b8686e1e69cecc25f530e35a33e9b19a412faf48da47",
       "byteLength": 64622,
       "rawPath": "netkeiba/horses/2023/2023106342/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:50:23.347Z"
+  "updatedAt": "2026-08-28T16:57:32.038Z"
 }

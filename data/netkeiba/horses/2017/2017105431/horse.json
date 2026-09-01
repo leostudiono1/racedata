@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105431",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105431/",
-  "profile": null,
+  "profile": {
+    "name": "マスカテル",
+    "birthDate": "2017-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05733",
+      "name": "平山真希"
+    },
+    "owner": {
+      "id": "x08f1b",
+      "name": "角谷守正"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2006103170",
+      "name": "ティフィン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "トワイニング Twining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -4680,6 +4710,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マスカテル (Muscatel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスカテル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスカテル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4749,9 +4809,9 @@
       "contentHash": "8f776aa33fe951f488c633bcb983778d920efb31f06a1caf504706f17ccd9773",
       "byteLength": 66776,
       "rawPath": "netkeiba/horses/2017/2017105431/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:11:22.350Z"
+  "updatedAt": "2026-08-25T18:12:12.825Z"
 }

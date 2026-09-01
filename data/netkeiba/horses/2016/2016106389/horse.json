@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106389",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106389/",
-  "profile": null,
+  "profile": {
+    "name": "マースルマン",
+    "birthDate": "2016-03-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "367033",
+      "name": "杉浦和也"
+    },
+    "breeder": {
+      "id": "613084",
+      "name": "田湯牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    },
+    "dam": {
+      "id": "2010101881",
+      "name": "セレッソフロリード"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106867",
@@ -4536,6 +4566,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マースルマン (Mars Le Mans) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マースルマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マースルマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4605,9 +4665,9 @@
       "contentHash": "8393ed20fbef3aa1dddb495c10d93db728dd29bcf7c352ecf975ef4a259fae47",
       "byteLength": 65609,
       "rawPath": "netkeiba/horses/2016/2016106389/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:01:02.935Z"
+  "updatedAt": "2026-08-31T15:06:23.314Z"
 }

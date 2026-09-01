@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105488",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105488/",
-  "profile": null,
+  "profile": {
+    "name": "アーガマ",
+    "birthDate": "2014-05-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "寺田新太"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2008102925",
+      "name": "コーンドリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Indian Charlie"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -4423,6 +4453,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アーガマ (Agama) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーガマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーガマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4492,9 +4552,9 @@
       "contentHash": "cfdbea448257d5cb98c4ed403a8ddd6c73b28b168bb9ded2fde89e7379f61b4c",
       "byteLength": 65463,
       "rawPath": "netkeiba/horses/2014/2014105488/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:35:15.158Z"
+  "updatedAt": "2026-08-27T16:46:29.080Z"
 }

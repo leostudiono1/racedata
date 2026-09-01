@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105654",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105654/",
-  "profile": null,
+  "profile": {
+    "name": "エイブリー",
+    "birthDate": "2022-05-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "嬉勝則"
+    },
+    "owner": {
+      "id": "x00468",
+      "name": "中山純子"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スマートチョイス Smart Choice(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Reward"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4372,6 +4402,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイブリー (Avery) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイブリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイブリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4441,9 +4501,9 @@
       "contentHash": "9c09cc451425ad8aef55e2714ab382ae7d30c5b2b766798868e746ef0548fe67",
       "byteLength": 65186,
       "rawPath": "netkeiba/horses/2022/2022105654/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:44:57.918Z"
+  "updatedAt": "2026-08-28T16:52:06.553Z"
 }

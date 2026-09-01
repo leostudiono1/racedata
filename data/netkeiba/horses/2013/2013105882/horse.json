@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105882",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105882/",
-  "profile": null,
+  "profile": {
+    "name": "チカリータ",
+    "birthDate": "2013-02-25",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2005102611",
+      "name": "サルスエラ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3718,6 +3748,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チカリータ (Chikarita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカリータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカリータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3787,9 +3847,9 @@
       "contentHash": "52444197eb4a08e450f4ce2554645d6922db01f04594825b839284027ba65a7a",
       "byteLength": 67043,
       "rawPath": "netkeiba/horses/2013/2013105882/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:31:52.038Z"
+  "updatedAt": "2026-08-27T16:43:05.759Z"
 }

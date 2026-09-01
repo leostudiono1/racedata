@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100440",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100440/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウヤッコ",
+    "birthDate": "2020-04-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "903061",
+      "name": "水上習孝"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "タリスマニック Talismanic(英)"
+    },
+    "dam": {
+      "id": "2003101551",
+      "name": "スズカリーガル"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1732,6 +1762,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウヤッコ (Meisho Yakko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウヤッコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウヤッコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1801,9 +1861,9 @@
       "contentHash": "c63d13bc3f526c523b71e319920955d5cff0697f1bb0d855b8faebdc332bb293",
       "byteLength": 65336,
       "rawPath": "netkeiba/horses/2020/2020100440/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:14:42.277Z"
+  "updatedAt": "2026-08-31T15:20:02.578Z"
 }

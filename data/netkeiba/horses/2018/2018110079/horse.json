@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110079",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110079/",
-  "profile": null,
+  "profile": {
+    "name": "ローリング",
+    "birthDate": "2018-04-08",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "200735",
+      "name": "Aaron & Marie Jones LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Warbling"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1581,6 +1611,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローリング (Roaring) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1650,9 +1710,9 @@
       "contentHash": "77f381c255866520606ab65d83733a57e1cc887108d309418cbb105a463975b0",
       "byteLength": 64931,
       "rawPath": "netkeiba/horses/2018/2018110079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:52:24.781Z"
+  "updatedAt": "2026-08-29T15:57:55.346Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105068",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105068/",
-  "profile": null,
+  "profile": {
+    "name": "アカデミー",
+    "birthDate": "2019-03-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2011103913",
+      "name": "イサベル"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1229,6 +1259,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アカデミー (Academy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アカデミー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アカデミー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1298,9 +1358,9 @@
       "contentHash": "bd5d59093cf064a3e009a779fb2ab668a48820d2f16f0a29dbc3c30944723a53",
       "byteLength": 66948,
       "rawPath": "netkeiba/horses/2019/2019105068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:13:04.402Z"
+  "updatedAt": "2026-08-31T15:18:24.485Z"
 }

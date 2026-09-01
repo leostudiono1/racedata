@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101540",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101540/",
-  "profile": null,
+  "profile": {
+    "name": "タイセイランナー",
+    "birthDate": "2020-04-27",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01113",
+      "name": "牧浦充徳"
+    },
+    "owner": {
+      "id": "224007",
+      "name": "田中成奉"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2010100519",
+      "name": "エターナルスター"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -2317,6 +2347,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイセイランナー (Taisei Runner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイランナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイランナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2386,9 +2446,9 @@
       "contentHash": "d89ae54dda1e64c980524592c65bd222849a4543ef5a93534f0e320449ef0656",
       "byteLength": 66962,
       "rawPath": "netkeiba/horses/2020/2020101540/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:34:58.364Z"
+  "updatedAt": "2026-08-30T15:39:39.964Z"
 }

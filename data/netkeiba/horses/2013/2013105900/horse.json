@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105900",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105900/",
-  "profile": null,
+  "profile": {
+    "name": "アクート",
+    "birthDate": "2013-04-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00420",
+      "name": "宗像義忠"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2006103222",
+      "name": "シャーペンエッジ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -3384,6 +3414,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アクート (Acuto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3453,9 +3513,9 @@
       "contentHash": "f456ac789a625086f36d08a884c54277f4c14b3bfce1cf9acf54a9a71b98cf9d",
       "byteLength": 67342,
       "rawPath": "netkeiba/horses/2013/2013105900/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:31:44.497Z"
+  "updatedAt": "2026-08-24T20:40:52.270Z"
 }

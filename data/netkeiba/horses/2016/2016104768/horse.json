@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104768",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104768/",
-  "profile": null,
+  "profile": {
+    "name": "メッシーナ",
+    "birthDate": "2016-04-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シユーマ Siyouma(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medicean"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2042,6 +2072,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メッシーナ (Messina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メッシーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メッシーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2111,9 +2171,9 @@
       "contentHash": "d0f2bc7ca980966a435a724c7951228ad39af544af7d1e0c12a8e335e7dd71ed",
       "byteLength": 67403,
       "rawPath": "netkeiba/horses/2016/2016104768/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:20:19.491Z"
+  "updatedAt": "2026-08-30T15:25:01.287Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104521",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104521/",
-  "profile": null,
+  "profile": {
+    "name": "アオイテン",
+    "birthDate": "2020-03-30",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01196",
+      "name": "西園翔太"
+    },
+    "owner": {
+      "id": "443033",
+      "name": "新谷幸義"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008100544",
+      "name": "ホエールキャプチャ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1241,6 +1271,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アオイテン (Aoi Ten) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アオイテン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アオイテン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1310,9 +1370,9 @@
       "contentHash": "056c9e03a91d376bbe73854d82c806287eb8ab0a123efcce6d4c34e26df58cf2",
       "byteLength": 66612,
       "rawPath": "netkeiba/horses/2020/2020104521/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:25:11.957Z"
+  "updatedAt": "2026-08-25T18:26:02.672Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105866",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105866/",
-  "profile": null,
+  "profile": {
+    "name": "カマテ",
+    "birthDate": "2014-03-29",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2009106091",
+      "name": "カヒリ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -1282,6 +1312,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カマテ (Ka Mate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カマテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カマテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1351,9 +1411,9 @@
       "contentHash": "2cbb06b39cc6ed93432deccc3aeda859d3f3853803c9e7d2b4a4983b6bb9dbc4",
       "byteLength": 64508,
       "rawPath": "netkeiba/horses/2014/2014105866/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:12:44.267Z"
+  "updatedAt": "2026-08-30T15:17:26.492Z"
 }

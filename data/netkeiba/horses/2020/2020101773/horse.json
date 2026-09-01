@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101773",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101773/",
-  "profile": null,
+  "profile": {
+    "name": "ミンクス",
+    "birthDate": "2020-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05684",
+      "name": "三小田幸"
+    },
+    "owner": {
+      "id": "x0a30c",
+      "name": "伊勢光"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2006102869",
+      "name": "メイマドンナ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -3864,6 +3894,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミンクス (Minx) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミンクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミンクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3933,9 +3993,9 @@
       "contentHash": "e3033d50eb0baf044a26cb653d3686099ae1e887d380cbd76a3ba100b62a15fe",
       "byteLength": 65754,
       "rawPath": "netkeiba/horses/2020/2020101773/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:59:56.259Z"
+  "updatedAt": "2026-08-24T21:09:03.388Z"
 }

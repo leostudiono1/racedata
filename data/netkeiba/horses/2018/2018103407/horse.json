@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103407",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103407/",
-  "profile": null,
+  "profile": {
+    "name": "アールバロン",
+    "birthDate": "2018-04-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "427030",
+      "name": "前原敏行"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008110103",
+      "name": "バージニアキャット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bluegrass Cat"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2921,6 +2951,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アールバロン (R Baron) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アールバロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アールバロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2990,9 +3050,9 @@
       "contentHash": "0abe6cc6159102b15e1ceb70d0ef92b0078cb34be6444c2a583eb3e00422f4c6",
       "byteLength": 66970,
       "rawPath": "netkeiba/horses/2018/2018103407/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:07:38.502Z"
+  "updatedAt": "2026-08-31T15:12:58.972Z"
 }

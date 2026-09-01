@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100938",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100938/",
-  "profile": null,
+  "profile": {
+    "name": "ケンガ",
+    "birthDate": "2015-04-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "110340",
+      "name": "山岡ファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2008105154",
+      "name": "イイデステップ"
+    },
+    "damsire": {
+      "id": "1996190005",
+      "name": "ファンタスティックライト Fantastic Light(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1137,6 +1167,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケンガ (Kenga) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1206,9 +1266,9 @@
       "contentHash": "987fcb655e4734caa3174c3329b943aa3e75ec35c3a28c11a7671b88cca0ff3b",
       "byteLength": 64348,
       "rawPath": "netkeiba/horses/2015/2015100938/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:59:17.528Z"
+  "updatedAt": "2026-08-25T18:00:08.137Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104753",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104753/",
-  "profile": null,
+  "profile": {
+    "name": "マリネーラ",
+    "birthDate": "2012-04-03",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    },
+    "dam": {
+      "id": "2003102802",
+      "name": "ナスカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005190006",
@@ -1396,6 +1426,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マリネーラ (Marinera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリネーラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリネーラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1465,9 +1525,9 @@
       "contentHash": "2b984d85843808075427c9b098e1b846816478a82101678d43e9ab084cbfa80e",
       "byteLength": 64696,
       "rawPath": "netkeiba/horses/2012/2012104753/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:02:45.608Z"
+  "updatedAt": "2026-08-30T15:07:27.760Z"
 }

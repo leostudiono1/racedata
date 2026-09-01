@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103096",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103096/",
-  "profile": null,
+  "profile": {
+    "name": "タンクティーエー",
+    "birthDate": "2016-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05780",
+      "name": "宇野木博"
+    },
+    "owner": {
+      "id": "088033",
+      "name": "津田浩一"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "1997106349",
+      "name": "ビッグハッピー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -6834,6 +6864,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タンクティーエー (Tank T A) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タンクティーエー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タンクティーエー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6903,9 +6963,9 @@
       "contentHash": "ee64873d3654814cc9ba4425ec73ece70039936bd913ecd9f5bb65ab33929439",
       "byteLength": 67017,
       "rawPath": "netkeiba/horses/2016/2016103096/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:58:32.668Z"
+  "updatedAt": "2026-08-31T15:03:56.188Z"
 }

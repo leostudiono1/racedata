@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102086",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102086/",
-  "profile": null,
+  "profile": {
+    "name": "イズモ",
+    "birthDate": "2021-03-28",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "藤田弘治"
+    },
+    "owner": {
+      "id": "022803",
+      "name": "パニオロ"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2010106059",
+      "name": "ソラリス"
+    },
+    "damsire": {
+      "id": "1998105841",
+      "name": "ウインラディウス"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -1892,6 +1922,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イズモ (Izumo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イズモ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イズモ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1961,9 +2021,9 @@
       "contentHash": "f77878a1a72401d2e3073b2ac0f113036d3400befb02e728ab0c16414e21a14f",
       "byteLength": 64940,
       "rawPath": "netkeiba/horses/2021/2021102086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:01:44.718Z"
+  "updatedAt": "2026-08-27T17:12:58.372Z"
 }

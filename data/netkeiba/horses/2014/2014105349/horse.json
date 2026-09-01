@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105349",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105349/",
-  "profile": null,
+  "profile": {
+    "name": "クレオス",
+    "birthDate": "2014-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2008102710",
+      "name": "クリアンサス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Redoute's Choice"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1853,6 +1883,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クレオス (Kleos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレオス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレオス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1922,9 +1982,9 @@
       "contentHash": "927fb3da15e0ebc7621c6c8671e0847d136f16d549f27187775de6ab8d289f9d",
       "byteLength": 66008,
       "rawPath": "netkeiba/horses/2014/2014105349/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:25:38.558Z"
+  "updatedAt": "2026-08-26T17:32:33.320Z"
 }

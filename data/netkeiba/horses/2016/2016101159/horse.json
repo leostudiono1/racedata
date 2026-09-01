@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101159",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101159/",
-  "profile": null,
+  "profile": {
+    "name": "デュアラブル",
+    "birthDate": "2016-03-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ハリケーンフラッグ Hurricane Flag(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2219,6 +2249,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デュアラブル (Durable) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デュアラブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デュアラブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2288,9 +2348,9 @@
       "contentHash": "9c35cbdb7a80bb0e866b3cbb505191ac183e900ccd8fe851ce3835ffddb48f36",
       "byteLength": 67348,
       "rawPath": "netkeiba/horses/2016/2016101159/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:41:46.737Z"
+  "updatedAt": "2026-08-24T20:50:54.423Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101612",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101612/",
-  "profile": null,
+  "profile": {
+    "name": "リージュ",
+    "birthDate": "2012-02-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00823",
+      "name": "錦見勇夫"
+    },
+    "owner": {
+      "id": "x0a22b",
+      "name": "野々山真剛"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ルールオブロー Rule of Law(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディケストレル Lady Kestrel(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Theatrical"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -19314,6 +19344,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リージュ (Liege) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -19383,9 +19443,9 @@
       "contentHash": "72b5c624a98d885b4ae1337e8d09bb4a31c01cb557ef02210838c4348ceb420e",
       "byteLength": 66788,
       "rawPath": "netkeiba/horses/2012/2012101612/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:24:55.675Z"
+  "updatedAt": "2026-08-27T16:36:09.517Z"
 }

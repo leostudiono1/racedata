@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101009",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101009/",
-  "profile": null,
+  "profile": {
+    "name": "ミツルファミリー",
+    "birthDate": "2014-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05755",
+      "name": "永島太郎"
+    },
+    "owner": {
+      "id": "897030",
+      "name": "泉一郎"
+    },
+    "breeder": {
+      "id": "533093",
+      "name": "沖田哲夫"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2005104137",
+      "name": "ユメイッポ"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -5915,6 +5945,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミツルファミリー (Mitsuru Family) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミツルファミリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミツルファミリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5984,9 +6044,9 @@
       "contentHash": "23ce1692e10a31393c46fa7c5570c485096ef6b49064f90412a143c1116e4e90",
       "byteLength": 67024,
       "rawPath": "netkeiba/horses/2014/2014101009/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:30:24.788Z"
+  "updatedAt": "2026-08-29T15:35:55.416Z"
 }

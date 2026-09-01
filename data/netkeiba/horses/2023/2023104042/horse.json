@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104042",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104042/",
-  "profile": null,
+  "profile": {
+    "name": "ライカ",
+    "birthDate": "2023-02-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "510008",
+      "name": "山岸桂市"
+    },
+    "breeder": {
+      "id": "903335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2006101670",
+      "name": "アカリ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2157,6 +2187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライカ (Raika) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2226,9 +2286,9 @@
       "contentHash": "20fb137c667934ddfce2cd61d1818a6c36156d0a606d227302e2db3a30a7a92d",
       "byteLength": 67120,
       "rawPath": "netkeiba/horses/2023/2023104042/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:13:51.346Z"
+  "updatedAt": "2026-08-24T21:22:49.570Z"
 }

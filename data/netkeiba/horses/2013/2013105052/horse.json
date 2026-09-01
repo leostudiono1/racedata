@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105052",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105052/",
-  "profile": null,
+  "profile": {
+    "name": "カガカジノ",
+    "birthDate": "2013-03-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05106",
+      "name": "真島元徳"
+    },
+    "owner": {
+      "id": "700006",
+      "name": "香川憲次"
+    },
+    "breeder": {
+      "id": "733484",
+      "name": "大川牧場"
+    },
+    "birthplace": "厚真町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2004110243",
+      "name": "シルキーメイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Barathea"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -1820,6 +1850,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カガカジノ (Kaga Casino) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カガカジノ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カガカジノ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1889,9 +1949,9 @@
       "contentHash": "31a55514996577ca1a2a271b43f67fd2fd6dd76e8f4026d39f308ff6ad677f81",
       "byteLength": 65160,
       "rawPath": "netkeiba/horses/2013/2013105052/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:47:06.255Z"
+  "updatedAt": "2026-08-31T14:52:29.932Z"
 }

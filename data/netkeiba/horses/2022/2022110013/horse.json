@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110013",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110013/",
-  "profile": null,
+  "profile": {
+    "name": "サンジャシント",
+    "birthDate": "2022-03-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01166",
+      "name": "石坂公一"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "510738",
+      "name": "Middlelane Farm"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Earthlight (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Alice Rose"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Manduro (独)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1354,6 +1384,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンジャシント (San Jacinto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンジャシント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンジャシント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1423,9 +1483,9 @@
       "contentHash": "c9e08dd43da059162a33f8c91ad1db72eb2d643669c4f605c02649ae29126f1e",
       "byteLength": 65671,
       "rawPath": "netkeiba/horses/2022/2022110013/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:46:00.757Z"
+  "updatedAt": "2026-08-28T16:53:09.415Z"
 }

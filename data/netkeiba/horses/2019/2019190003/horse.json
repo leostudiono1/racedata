@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019190003",
   "sourceUrl": "https://db.netkeiba.com/horse/2019190003/",
-  "profile": null,
+  "profile": {
+    "name": "Simca Mille",
+    "birthDate": "2019-02-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05764",
+      "name": "ワッテル"
+    },
+    "owner": {
+      "id": "380803",
+      "name": "ペレル牧場"
+    },
+    "breeder": {
+      "id": "a00072",
+      "name": "Haras De La Perelle"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Tamayuz"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Swertia"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2556,6 +2586,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Simca Mille (シムカミル) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Simca Mille関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Simca Mille関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2625,9 +2685,9 @@
       "contentHash": "35599dc051f51ef81a3790b8501536dedb99aee28754079efa706bdde2b48b8a",
       "byteLength": 66775,
       "rawPath": "netkeiba/horses/2019/2019190003/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:55:44.231Z"
+  "updatedAt": "2026-08-27T17:06:57.812Z"
 }

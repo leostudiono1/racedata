@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104388",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104388/",
-  "profile": null,
+  "profile": {
+    "name": "コンテナ",
+    "birthDate": "2012-02-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01113",
+      "name": "牧浦充徳"
+    },
+    "owner": {
+      "id": "836030",
+      "name": "住谷孝一"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    },
+    "dam": {
+      "id": "2001103137",
+      "name": "ベルグラーノ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1989108341",
@@ -3517,6 +3547,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コンテナ (Container) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンテナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンテナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3586,9 +3646,9 @@
       "contentHash": "0cf7da75c1b7416f078cea17976e2cab1c5421433d739b01896b643bbf4bb2ad",
       "byteLength": 66828,
       "rawPath": "netkeiba/horses/2012/2012104388/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:02:11.134Z"
+  "updatedAt": "2026-08-30T15:06:52.392Z"
 }

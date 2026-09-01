@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105086",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105086/",
-  "profile": null,
+  "profile": {
+    "name": "カシオン",
+    "birthDate": "2019-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05420",
+      "name": "東美義"
+    },
+    "owner": {
+      "id": "x04892",
+      "name": "山本浩司"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ウルトラブレンド Ultra Blend(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Richly Blended"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -4610,6 +4640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシオン (Qasioun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4679,9 +4739,9 @@
       "contentHash": "ac18c096dcc508d3874743a8dd7f7d6e222a480a4634554d2c262d61ab452600",
       "byteLength": 66688,
       "rawPath": "netkeiba/horses/2019/2019105086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:20:07.512Z"
+  "updatedAt": "2026-08-25T18:20:57.966Z"
 }

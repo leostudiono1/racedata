@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101987",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101987/",
-  "profile": null,
+  "profile": {
+    "name": "シルバードン",
+    "birthDate": "2022-03-09",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "213321",
+      "name": "藤本ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011104019",
+      "name": "アルバート"
+    },
+    "dam": {
+      "id": "2012110121",
+      "name": "シルバージェニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lantana Mob"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104019",
@@ -1883,6 +1913,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シルバードン (Silver Don) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバードン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバードン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1952,9 +2012,9 @@
       "contentHash": "f827dcc7a3f03fc75befea66ac9fbf8f921007369c150eac28225965f667c54e",
       "byteLength": 66974,
       "rawPath": "netkeiba/horses/2022/2022101987/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:33:36.142Z"
+  "updatedAt": "2026-08-25T18:34:26.741Z"
 }

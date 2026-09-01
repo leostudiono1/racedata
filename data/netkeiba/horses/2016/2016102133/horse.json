@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102133",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102133/",
-  "profile": null,
+  "profile": {
+    "name": "パトリック",
+    "birthDate": "2016-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "110017",
+      "name": "松田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2009106141",
+      "name": "シャムローグ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5211,6 +5241,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パトリック (Patrick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パトリック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パトリック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5280,9 +5340,9 @@
       "contentHash": "5ecee3d6bb03798a04d0808d39577f2e5a0a17b8ded5e4657149187dd061ed7a",
       "byteLength": 66836,
       "rawPath": "netkeiba/horses/2016/2016102133/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:42:46.463Z"
+  "updatedAt": "2026-08-24T20:51:54.047Z"
 }

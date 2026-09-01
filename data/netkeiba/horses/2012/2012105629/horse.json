@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105629",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105629/",
-  "profile": null,
+  "profile": {
+    "name": "エイワカンベエ",
+    "birthDate": "2012-04-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "334008",
+      "name": "永井公太郎"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2002105437",
+      "name": "エイワジョリー"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1618,6 +1648,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイワカンベエ (Eiwa Kambe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイワカンベエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイワカンベエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1687,9 +1747,9 @@
       "contentHash": "73e2b0c51d8842e74448370cc81652b4aae4e86d86692c0ca91bfcb782dc5a54",
       "byteLength": 64919,
       "rawPath": "netkeiba/horses/2012/2012105629/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:24:45.080Z"
+  "updatedAt": "2026-08-29T15:30:15.776Z"
 }

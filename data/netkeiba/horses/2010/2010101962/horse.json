@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101962",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101962/",
-  "profile": null,
+  "profile": {
+    "name": "グンシン",
+    "birthDate": "2010-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2004103414",
+      "name": "ハニーダンサー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Danehill Dancer (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -4934,6 +4964,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グンシン (Gunshin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グンシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グンシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5003,9 +5063,9 @@
       "contentHash": "081f9e38dab6c572cbed790f214bea66fd544bd9b612d358c4a262f27f845c2f",
       "byteLength": 64771,
       "rawPath": "netkeiba/horses/2010/2010101962/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T16:57:20.099Z"
+  "updatedAt": "2026-08-30T15:02:01.925Z"
 }

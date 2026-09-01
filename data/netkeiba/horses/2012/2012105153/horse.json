@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105153",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105153/",
-  "profile": null,
+  "profile": {
+    "name": "エターナルウインド",
+    "birthDate": "2012-04-09",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00431",
+      "name": "谷潔"
+    },
+    "owner": {
+      "id": "245030",
+      "name": "前田葉子"
+    },
+    "breeder": {
+      "id": "830031",
+      "name": "岡本昌市"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102461",
+      "name": "ソングオブウインド"
+    },
+    "dam": {
+      "id": "2003101721",
+      "name": "レーサ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102461",
@@ -3150,6 +3180,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エターナルウインド (Eternal Wind) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エターナルウインド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エターナルウインド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3219,9 +3279,9 @@
       "contentHash": "446894fdadf45d4700fa760c0746ce3bbb4bef25d03db03e6ef414b2873ff96a",
       "byteLength": 64900,
       "rawPath": "netkeiba/horses/2012/2012105153/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:17:38.956Z"
+  "updatedAt": "2026-08-26T17:24:33.788Z"
 }

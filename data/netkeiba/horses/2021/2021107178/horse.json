@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021107178",
   "sourceUrl": "https://db.netkeiba.com/horse/2021107178/",
-  "profile": null,
+  "profile": {
+    "name": "フルリール",
+    "birthDate": "2021-02-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "高馬元紘"
+    },
+    "owner": {
+      "id": "314006",
+      "name": "辻川弘"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2014105975",
+      "name": "エリティエール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3505,6 +3535,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルリール (Fleurir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルリール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルリール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3574,9 +3634,9 @@
       "contentHash": "8c032cf53cf19ab5a2c1eeaf980c29ce251be7f115adfe74dc53d78c3ea71969",
       "byteLength": 66778,
       "rawPath": "netkeiba/horses/2021/2021107178/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:56:37.868Z"
+  "updatedAt": "2026-08-26T18:03:32.617Z"
 }

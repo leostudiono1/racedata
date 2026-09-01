@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102117",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102117/",
-  "profile": null,
+  "profile": {
+    "name": "シュラザック",
+    "birthDate": "2022-03-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "297031",
+      "name": "奥雅哉"
+    },
+    "breeder": {
+      "id": "703322",
+      "name": "三輪牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012110091",
+      "name": "モーニン"
+    },
+    "dam": {
+      "id": "2013102206",
+      "name": "レイズアスマイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012110091",
@@ -2221,6 +2251,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュラザック (Slazak) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュラザック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュラザック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2290,9 +2350,9 @@
       "contentHash": "ceadba05fbc8b905b20788ac19b31fcd47b4c9b87602ea393fa29a0f4a3fc3a9",
       "byteLength": 66867,
       "rawPath": "netkeiba/horses/2022/2022102117/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:58:15.794Z"
+  "updatedAt": "2026-08-26T18:05:10.551Z"
 }

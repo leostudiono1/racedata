@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106338",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106338/",
-  "profile": null,
+  "profile": {
+    "name": "グラスベローナ",
+    "birthDate": "2016-03-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "541800",
+      "name": "半沢"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2008103055",
+      "name": "グラスルビー"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -1335,6 +1365,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラスベローナ (Grass Bellona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラスベローナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラスベローナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1404,9 +1464,9 @@
       "contentHash": "95dc8d9583a90eb7932d4ade604eb3f6cf9c69f16b3332966d3234dab07ca8b5",
       "byteLength": 64785,
       "rawPath": "netkeiba/horses/2016/2016106338/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:21:22.993Z"
+  "updatedAt": "2026-08-30T15:26:04.413Z"
 }

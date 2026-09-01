@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100181",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100181/",
-  "profile": null,
+  "profile": {
+    "name": "アイムアクイーン",
+    "birthDate": "2022-03-12",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05755",
+      "name": "永島太郎"
+    },
+    "owner": {
+      "id": "723031",
+      "name": "牧野好孝"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2016105065",
+      "name": "ダイワエターナル"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2285,6 +2315,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイムアクイーン (I'm a Queen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイムアクイーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイムアクイーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2354,9 +2414,9 @@
       "contentHash": "0861e04cb1bc09b5bf5cc2408411592077b3b724fc5d945fb601841d02d6069a",
       "byteLength": 65656,
       "rawPath": "netkeiba/horses/2022/2022100181/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:57:12.806Z"
+  "updatedAt": "2026-08-26T18:04:07.672Z"
 }

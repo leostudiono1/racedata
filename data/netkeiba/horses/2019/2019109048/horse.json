@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019109048",
   "sourceUrl": "https://db.netkeiba.com/horse/2019109048/",
-  "profile": null,
+  "profile": {
+    "name": "ハルディーン",
+    "birthDate": "2019-04-13",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00420",
+      "name": "宗像義忠"
+    },
+    "owner": {
+      "id": "830030",
+      "name": "長谷川清英"
+    },
+    "breeder": {
+      "id": "021570",
+      "name": "青南ムラカミファーム"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2007109136",
+      "name": "ゲーリックダンス"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -1258,6 +1288,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハルディーン (Haldeen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルディーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルディーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1327,9 +1387,9 @@
       "contentHash": "764b2e25847ab8bc1bf1365de60f6a3576bc1a53079bdd6f53ccc3956f806e5e",
       "byteLength": 65246,
       "rawPath": "netkeiba/horses/2019/2019109048/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:14:07.167Z"
+  "updatedAt": "2026-08-31T15:19:27.548Z"
 }

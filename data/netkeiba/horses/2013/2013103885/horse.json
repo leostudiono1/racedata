@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103885",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103885/",
-  "profile": null,
+  "profile": {
+    "name": "ポッドガイ",
+    "birthDate": "2013-02-22",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01089",
+      "name": "武市康男"
+    },
+    "owner": {
+      "id": "042033",
+      "name": "小川眞査雄"
+    },
+    "breeder": {
+      "id": "043068",
+      "name": "石川牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2008105776",
+      "name": "ライヴマジック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4104,6 +4134,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポッドガイ (Pod Guy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドガイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドガイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4173,9 +4233,9 @@
       "contentHash": "12f8bbe45bbaf635dffa0ab4b5133f30f344d9af6cf1bee1982db8642378cb6f",
       "byteLength": 65290,
       "rawPath": "netkeiba/horses/2013/2013103885/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:27:43.698Z"
+  "updatedAt": "2026-08-29T15:33:14.362Z"
 }

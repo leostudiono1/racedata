@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101998",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101998/",
-  "profile": null,
+  "profile": {
+    "name": "ラヴァ",
+    "birthDate": "2020-05-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "722033",
+      "name": "樋口雅彦"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010105639",
+      "name": "クラウンレガーロ"
+    },
+    "dam": {
+      "id": "1999103033",
+      "name": "ユウキビバ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105639",
@@ -1370,6 +1400,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラヴァ (Lava) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラヴァ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラヴァ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1439,9 +1499,9 @@
       "contentHash": "7b1eceb85ef0ba3f0d99cc947534a8d06187465f2aac0ec99b122eb386d0ad1e",
       "byteLength": 66628,
       "rawPath": "netkeiba/horses/2020/2020101998/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:33:24.453Z"
+  "updatedAt": "2026-08-28T16:40:33.313Z"
 }

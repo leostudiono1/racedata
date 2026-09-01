@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105200",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105200/",
-  "profile": null,
+  "profile": {
+    "name": "コスモドーム",
+    "birthDate": "2011-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05137",
+      "name": "石川栄"
+    },
+    "owner": {
+      "id": "x0a13e",
+      "name": "宮崎豊治"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    },
+    "dam": {
+      "id": "2004110239",
+      "name": "コスモパルムドール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Yonaguska (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999107004",
@@ -9410,6 +9440,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスモドーム (Cosmo Dome) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモドーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモドーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9479,9 +9539,9 @@
       "contentHash": "7e60c2020a54a0b06ee30d931dba3b67cb88a15f673482f4b9fa26387ac89812",
       "byteLength": 66889,
       "rawPath": "netkeiba/horses/2011/2011105200/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:14:09.096Z"
+  "updatedAt": "2026-08-26T17:21:03.634Z"
 }

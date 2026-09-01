@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103193",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103193/",
-  "profile": null,
+  "profile": {
+    "name": "アウェイキング",
+    "birthDate": "2013-05-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01084",
+      "name": "梅田智之"
+    },
+    "owner": {
+      "id": "441006",
+      "name": "高嶋哲"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フェアレストケープ Fairest Cape(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2116,6 +2146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウェイキング (Awaking) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウェイキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウェイキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2185,9 +2245,9 @@
       "contentHash": "169f34efc9eab511d362cde80929271a741005c96ea4eed967b1c97466f60193",
       "byteLength": 66729,
       "rawPath": "netkeiba/horses/2013/2013103193/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:30:10.025Z"
+  "updatedAt": "2026-08-24T20:39:17.995Z"
 }

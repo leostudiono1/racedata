@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101665",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101665/",
-  "profile": null,
+  "profile": {
+    "name": "アビースマイル",
+    "birthDate": "2018-04-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "大垣敏夫"
+    },
+    "owner": {
+      "id": "x09067",
+      "name": "遠藤喜和"
+    },
+    "breeder": {
+      "id": "630332",
+      "name": "佐藤静子"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110139",
+      "name": "アポロキングダム"
+    },
+    "dam": {
+      "id": "2001101708",
+      "name": "キョウワハピネス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オース Oath(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110139",
@@ -2668,6 +2698,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アビースマイル (Abbey Smile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アビースマイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アビースマイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2737,9 +2797,9 @@
       "contentHash": "4c73fc66fac91cb7636c767f4b22b7c398ca562eb95d385d9a64ba411938cecc",
       "byteLength": 65015,
       "rawPath": "netkeiba/horses/2018/2018101665/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:06:18.019Z"
+  "updatedAt": "2026-08-31T15:11:38.385Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105049",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105049/",
-  "profile": null,
+  "profile": {
+    "name": "ハルカオル",
+    "birthDate": "2023-01-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01199",
+      "name": "千葉直人"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ミスチヴィアスアレックス Mischevious Alex(米)"
+    },
+    "dam": {
+      "id": "2008101811",
+      "name": "イトククリ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1453,6 +1483,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハルカオル (Haru Kaoru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルカオル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルカオル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1522,9 +1582,9 @@
       "contentHash": "65eaf1c95fb0376967b5477df74b3fed188c8faa11c5c5be7905fe26b129971e",
       "byteLength": 65548,
       "rawPath": "netkeiba/horses/2023/2023105049/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:31:51.542Z"
+  "updatedAt": "2026-08-31T15:37:11.920Z"
 }

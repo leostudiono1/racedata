@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104974",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104974/",
-  "profile": null,
+  "profile": {
+    "name": "パクシー",
+    "birthDate": "2022-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2010106209",
+      "name": "ピクシーホロウ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1269,6 +1299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パクシー (Pucksy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パクシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パクシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1338,9 +1398,9 @@
       "contentHash": "9dcb91d47509394aee6957e70730353c4a2c7d7b73033905a1df9324c97a22b6",
       "byteLength": 67128,
       "rawPath": "netkeiba/horses/2022/2022104974/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:46:38.605Z"
+  "updatedAt": "2026-08-30T15:51:20.204Z"
 }

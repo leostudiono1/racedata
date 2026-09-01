@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100468",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100468/",
-  "profile": null,
+  "profile": {
+    "name": "コードライン",
+    "birthDate": "2015-04-22",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01155",
+      "name": "渡辺薫彦"
+    },
+    "owner": {
+      "id": "537033",
+      "name": "野田善己"
+    },
+    "breeder": {
+      "id": "150337",
+      "name": "中村弘昭"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ケイムホーム Came Home(米)"
+    },
+    "dam": {
+      "id": "2008104544",
+      "name": "プリティアクィーン"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1010,6 +1040,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コードライン (Chord Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コードライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コードライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1079,9 +1139,9 @@
       "contentHash": "26c145cd5072988f70a615ad62a9b452bbfa6d0aa194c6de7749a40c2ad05098",
       "byteLength": 64272,
       "rawPath": "netkeiba/horses/2015/2015100468/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:58:49.376Z"
+  "updatedAt": "2026-08-25T17:59:40.106Z"
 }

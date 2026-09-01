@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103167",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103167/",
-  "profile": null,
+  "profile": {
+    "name": "キーナンバー",
+    "birthDate": "2013-05-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "338008",
+      "name": "北前孔一郎"
+    },
+    "breeder": {
+      "id": "900052",
+      "name": "村下農場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "2004103821",
+      "name": "キーポケット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -3504,6 +3534,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーナンバー (Key Number) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーナンバー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーナンバー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3573,9 +3633,9 @@
       "contentHash": "6c35ca0faa3aab35812bae19fdcc3e6ff0a2e797e3f6deaffe40e9d81c442c8f",
       "byteLength": 66870,
       "rawPath": "netkeiba/horses/2013/2013103167/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:19:59.019Z"
+  "updatedAt": "2026-08-26T17:26:53.715Z"
 }

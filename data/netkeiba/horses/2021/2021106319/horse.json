@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106319",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106319/",
-  "profile": null,
+  "profile": {
+    "name": "ノーザー",
+    "birthDate": "2021-03-07",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2009104756",
+      "name": "ハートヴァイン"
+    },
+    "damsire": {
+      "id": "1994109494",
+      "name": "スピードワールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -1170,6 +1200,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノーザー (Norther) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーザー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーザー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1239,9 +1299,9 @@
       "contentHash": "fce87af87443dfe269bb15063864b93c56c03965d77f5c47b08253417fb1fdf3",
       "byteLength": 66113,
       "rawPath": "netkeiba/horses/2021/2021106319/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:31:33.662Z"
+  "updatedAt": "2026-08-25T18:32:24.235Z"
 }

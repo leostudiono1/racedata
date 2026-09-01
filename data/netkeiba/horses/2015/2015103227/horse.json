@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103227",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103227/",
-  "profile": null,
+  "profile": {
+    "name": "マンナム",
+    "birthDate": "2015-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "695033",
+      "name": "永山勝敏"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2006102141",
+      "name": "モスキャンピオン"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -2709,6 +2739,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マンナム (Mannam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンナム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンナム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2778,9 +2838,9 @@
       "contentHash": "938ca999c3f9682f34f74dd24abcf247f9984fe3efb5e31f6b9ec1f58d3c6820",
       "byteLength": 65713,
       "rawPath": "netkeiba/horses/2015/2015103227/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:36:14.896Z"
+  "updatedAt": "2026-08-29T15:41:45.482Z"
 }

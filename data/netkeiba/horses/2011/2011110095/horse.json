@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110095",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110095/",
-  "profile": null,
+  "profile": {
+    "name": "テスティコ",
+    "birthDate": "2011-04-26",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "460709",
+      "name": "Casner Racing LP"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tiznow"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Last Crown"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Prado"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2012,6 +2042,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テスティコ (Testico) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テスティコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テスティコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2081,9 +2141,9 @@
       "contentHash": "c74eece47f2d66fc297435d74f6c7e51143e43079a212ff735d16b104dacf622",
       "byteLength": 65104,
       "rawPath": "netkeiba/horses/2011/2011110095/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:24:33.887Z"
+  "updatedAt": "2026-08-24T20:33:41.649Z"
 }

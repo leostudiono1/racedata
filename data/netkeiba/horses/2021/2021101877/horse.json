@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101877",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101877/",
-  "profile": null,
+  "profile": {
+    "name": "キングレノン",
+    "birthDate": "2021-02-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "頼本盛行"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "903691",
+      "name": "ノースガーデン"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2010105285",
+      "name": "クラッシュオンユー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3534,6 +3564,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングレノン (King Lennon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングレノン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングレノン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3603,9 +3663,9 @@
       "contentHash": "10f461a5f3db19c107b3de384b443238a85690ab090511e35fbafd54e0e3cfd9",
       "byteLength": 66823,
       "rawPath": "netkeiba/horses/2021/2021101877/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:04:31.210Z"
+  "updatedAt": "2026-08-24T21:13:29.612Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100329",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100329/",
-  "profile": null,
+  "profile": {
+    "name": "リードボーカル",
+    "birthDate": "2015-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004104495",
+      "name": "サクラゼウス"
+    },
+    "dam": {
+      "id": "1997104874",
+      "name": "スピードビウ"
+    },
+    "damsire": {
+      "id": "1990102314",
+      "name": "ウイニングチケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2004104495",
@@ -1203,6 +1233,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リードボーカル (Lead Vocal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リードボーカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リードボーカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1272,9 +1332,9 @@
       "contentHash": "aff327dba1c877361735d6f2239a6be57a5bea5acbebe2eb80d22416a02f9f3d",
       "byteLength": 65033,
       "rawPath": "netkeiba/horses/2015/2015100329/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:36:42.491Z"
+  "updatedAt": "2026-08-27T16:47:56.470Z"
 }

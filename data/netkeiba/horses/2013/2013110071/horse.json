@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110071",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110071/",
-  "profile": null,
+  "profile": {
+    "name": "カバトット",
+    "birthDate": "2013-04-22",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "338033",
+      "name": "冨士井直哉"
+    },
+    "breeder": {
+      "id": "940706",
+      "name": "Tim Thornton"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Trappe Shot"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ms Louisett"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Siphon"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3868,6 +3898,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カバトット (Kaba Tot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カバトット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カバトット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3937,9 +3997,9 @@
       "contentHash": "886311ca3b81e6d8abd685b1f3009416dd0c261ec63bf7c3ea691ac37cef2198",
       "byteLength": 66674,
       "rawPath": "netkeiba/horses/2013/2013110071/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:32:09.637Z"
+  "updatedAt": "2026-08-24T20:41:16.691Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101795",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101795/",
-  "profile": null,
+  "profile": {
+    "name": "レンダリング",
+    "birthDate": "2020-02-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05496",
+      "name": "佐々木清"
+    },
+    "owner": {
+      "id": "x0b7fa",
+      "name": "大木義一"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "タリスマニック Talismanic(英)"
+    },
+    "dam": {
+      "id": "2013100554",
+      "name": "エレメンツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -7544,6 +7574,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レンダリング (Rendering) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レンダリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レンダリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7613,9 +7673,9 @@
       "contentHash": "fbab2bd097eaad5a2a6598235cf23940100a16d192171ea8303ff2ba22f3ddeb",
       "byteLength": 66799,
       "rawPath": "netkeiba/horses/2020/2020101795/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:59:59.526Z"
+  "updatedAt": "2026-08-24T21:09:07.304Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101174",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101174/",
-  "profile": null,
+  "profile": {
+    "name": "ユキマル",
+    "birthDate": "2020-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "371009",
+      "name": "高橋文男"
+    },
+    "breeder": {
+      "id": "940367",
+      "name": "船越伸也"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2012101402",
+      "name": "グレーターロンドン"
+    },
+    "dam": {
+      "id": "2013101194",
+      "name": "キニナルーイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012101402",
@@ -3050,6 +3080,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユキマル (Yukimaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユキマル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユキマル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3119,9 +3179,9 @@
       "contentHash": "00ad24347453cc16c24c7d1b9074a56ac7c4333776523c693b2bcd4f1e6e8108",
       "byteLength": 66818,
       "rawPath": "netkeiba/horses/2020/2020101174/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:15:06.668Z"
+  "updatedAt": "2026-08-31T15:20:27.131Z"
 }

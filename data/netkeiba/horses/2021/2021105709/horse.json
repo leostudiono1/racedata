@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105709",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105709/",
-  "profile": null,
+  "profile": {
+    "name": "カンバーランド",
+    "birthDate": "2021-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ビッグワールド Big World(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Custom for Carlos"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1974,6 +2004,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カンバーランド (Cumberland) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンバーランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンバーランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2043,9 +2103,9 @@
       "contentHash": "c74949f8e2fc0726dbd588d2be1f9437091c92ea574c10f6cbfedcc07f240012",
       "byteLength": 67334,
       "rawPath": "netkeiba/horses/2021/2021105709/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:56:03.420Z"
+  "updatedAt": "2026-08-26T18:02:57.614Z"
 }

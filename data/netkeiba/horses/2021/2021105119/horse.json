@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105119",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105119/",
-  "profile": null,
+  "profile": {
+    "name": "キープカルム",
+    "birthDate": "2021-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "041002",
+      "name": "前田晋二"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2011104307",
+      "name": "ダンスアミーガ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3021,6 +3051,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キープカルム (Keep Calm) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キープカルム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キープカルム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3090,9 +3150,9 @@
       "contentHash": "90ae63f619339d30b4f1409403bec02b2530acf722d22115a381c2ddb40f34d4",
       "byteLength": 67161,
       "rawPath": "netkeiba/horses/2021/2021105119/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:30:20.271Z"
+  "updatedAt": "2026-08-25T18:31:10.799Z"
 }

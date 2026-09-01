@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104424",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104424/",
-  "profile": null,
+  "profile": {
+    "name": "マロンベル",
+    "birthDate": "2012-02-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスベルベール Miss Berbere(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bering"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1723,6 +1753,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マロンベル (Marron Bell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マロンベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マロンベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1792,9 +1852,9 @@
       "contentHash": "dcb8a93fcc50ef45895a37f65686d376f819e2325a0a23f102dbc1f9dbc2ef21",
       "byteLength": 65898,
       "rawPath": "netkeiba/horses/2012/2012104424/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:26:26.302Z"
+  "updatedAt": "2026-08-27T16:37:40.200Z"
 }

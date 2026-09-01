@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103508",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103508/",
-  "profile": null,
+  "profile": {
+    "name": "ハロービギン",
+    "birthDate": "2015-05-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "x00616",
+      "name": "大原啓子"
+    },
+    "breeder": {
+      "id": "390543",
+      "name": "大原ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    },
+    "dam": {
+      "id": "2004106716",
+      "name": "ボレロビート"
+    },
+    "damsire": {
+      "id": "1994109361",
+      "name": "ブラックホーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1997101264",
@@ -4309,6 +4339,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハロービギン (Hello Beguine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハロービギン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハロービギン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4378,9 +4438,9 @@
       "contentHash": "59a91d1fad85408c4b5502765377fde7a29fd4542ad1c7a75985ec661aeed140",
       "byteLength": 66463,
       "rawPath": "netkeiba/horses/2015/2015103508/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:38:20.229Z"
+  "updatedAt": "2026-08-24T20:47:27.925Z"
 }

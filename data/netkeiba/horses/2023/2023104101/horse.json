@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104101",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104101/",
-  "profile": null,
+  "profile": {
+    "name": "テンレッドサン",
+    "birthDate": "2023-02-12",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01196",
+      "name": "西園翔太"
+    },
+    "owner": {
+      "id": "075006",
+      "name": "天白泰司"
+    },
+    "breeder": {
+      "id": "310336",
+      "name": "佐藤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2013105358",
+      "name": "キンショーユキヒメ"
+    },
+    "damsire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1658,6 +1688,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンレッドサン (Ten Red Sun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンレッドサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンレッドサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1727,9 +1787,9 @@
       "contentHash": "f212e5fc0c4bf37e7f0f669af56559d1e298f3b9aa84620e49e0546e893222a1",
       "byteLength": 65031,
       "rawPath": "netkeiba/horses/2023/2023104101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:31:19.973Z"
+  "updatedAt": "2026-08-31T15:36:40.370Z"
 }

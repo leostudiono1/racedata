@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101628",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101628/",
-  "profile": null,
+  "profile": {
+    "name": "ラムケイ",
+    "birthDate": "2020-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サマナケイ Samana Cay(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Authorized"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1312,6 +1342,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラムケイ (Rum Cay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラムケイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラムケイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1381,9 +1441,9 @@
       "contentHash": "e084c37f5f5c0a7b21325b34f55e796a456eec84534355bc29db4645fa2147ea",
       "byteLength": 66783,
       "rawPath": "netkeiba/horses/2020/2020101628/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:15:17.141Z"
+  "updatedAt": "2026-08-31T15:20:37.795Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105607",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105607/",
-  "profile": null,
+  "profile": {
+    "name": "ビレイ",
+    "birthDate": "2020-02-21",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2011110026",
+      "name": "アンファミーユ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1182,6 +1212,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビレイ (Birei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビレイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビレイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1251,9 +1311,9 @@
       "contentHash": "0d44525c74205ae970c8a916fe5af48cd351c5a733734cc383b114bbb3b9c157",
       "byteLength": 64785,
       "rawPath": "netkeiba/horses/2020/2020105607/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:00:31.464Z"
+  "updatedAt": "2026-08-29T16:06:01.914Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105919",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105919/",
-  "profile": null,
+  "profile": {
+    "name": "チェンドル",
+    "birthDate": "2023-02-12",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05685",
+      "name": "板垣吉則"
+    },
+    "owner": {
+      "id": "367033",
+      "name": "杉浦和也"
+    },
+    "breeder": {
+      "id": "700048",
+      "name": "大北牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2016103263",
+      "name": "ルタンブル"
+    },
+    "damsire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -2686,6 +2716,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チェンドル (Cendol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェンドル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェンドル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2755,9 +2815,9 @@
       "contentHash": "00bac6caee798c7bb3780204ab12ee9146dfedde975037ebfee358cad6a631a9",
       "byteLength": 66723,
       "rawPath": "netkeiba/horses/2023/2023105919/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T20:04:47.906Z"
+  "updatedAt": "2026-08-26T18:11:42.818Z"
 }

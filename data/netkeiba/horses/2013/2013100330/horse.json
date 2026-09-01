@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100330",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100330/",
-  "profile": null,
+  "profile": {
+    "name": "ライジョー",
+    "birthDate": "2013-04-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01042",
+      "name": "安達昭夫"
+    },
+    "owner": {
+      "id": "066700",
+      "name": "サン"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    },
+    "dam": {
+      "id": "1998105879",
+      "name": "ケイケヤキ"
+    },
+    "damsire": {
+      "id": "1980106362",
+      "name": "ニホンピロウイナー"
+    }
+  },
   "pedigree": [
     {
       "id": "2005190006",
@@ -4275,6 +4305,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライジョー (Raijo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライジョー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライジョー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4344,9 +4404,9 @@
       "contentHash": "e6a87dce7764f787c6b21c34f2c9752e2437ba727ea2386f6601da6c45718b1e",
       "byteLength": 66806,
       "rawPath": "netkeiba/horses/2013/2013100330/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:01:54.055Z"
+  "updatedAt": "2026-08-28T16:09:02.562Z"
 }

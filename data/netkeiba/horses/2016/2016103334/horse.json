@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103334",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103334/",
-  "profile": null,
+  "profile": {
+    "name": "ベイオブコトル",
+    "birthDate": "2016-03-20",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2010100652",
+      "name": "ハーロンベイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -1745,6 +1775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベイオブコトル (Bay of Kotor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイオブコトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイオブコトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1814,9 +1874,9 @@
       "contentHash": "170bd56f30972eb307d4cebdd0b20f36894a528f27643609fd4473f6d01f7e84",
       "byteLength": 65875,
       "rawPath": "netkeiba/horses/2016/2016103334/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:41:01.990Z"
+  "updatedAt": "2026-08-29T15:46:32.889Z"
 }

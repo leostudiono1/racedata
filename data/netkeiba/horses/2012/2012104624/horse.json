@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104624",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104624/",
-  "profile": null,
+  "profile": {
+    "name": "サンフレイム",
+    "birthDate": "2012-04-15",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "炭田健二"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ササファイヤー Sassafire(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Saint Ballado"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -6910,6 +6940,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンフレイム (Sun Flame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンフレイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンフレイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6979,9 +7039,9 @@
       "contentHash": "968014cca8b57ca473746da3bf5ef4916e2629897ca9f1f6e665928bad1d4e01",
       "byteLength": 66940,
       "rawPath": "netkeiba/horses/2012/2012104624/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:02:28.128Z"
+  "updatedAt": "2026-08-30T15:07:09.919Z"
 }

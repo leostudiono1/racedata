@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103795",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103795/",
-  "profile": null,
+  "profile": {
+    "name": "コネイブル",
+    "birthDate": "2019-04-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05509",
+      "name": "米川昇"
+    },
+    "owner": {
+      "id": "x0aef7",
+      "name": "須賀利行"
+    },
+    "breeder": {
+      "id": "600013",
+      "name": "大道牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2012106303",
+      "name": "オクテットバレー"
+    },
+    "damsire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -3411,6 +3441,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コネイブル (Ko Navel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コネイブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コネイブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3480,9 +3540,9 @@
       "contentHash": "9072ecab0082a99305742e6a44e4248c633ea243fc052bf234e8b4a1aff71ecc",
       "byteLength": 66915,
       "rawPath": "netkeiba/horses/2019/2019103795/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:53:52.002Z"
+  "updatedAt": "2026-08-27T17:05:05.955Z"
 }

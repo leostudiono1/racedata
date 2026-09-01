@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110120",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110120/",
-  "profile": null,
+  "profile": {
+    "name": "ノーザンライアン",
+    "birthDate": "2014-08-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "440888",
+      "name": "Ramsey Pastoral Co Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Lonhro (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Magistra Delecta"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Al Akbar"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1651,6 +1681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノーザンライアン (Northern Ryan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーザンライアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーザンライアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1720,9 +1780,9 @@
       "contentHash": "82d437ee26ccd9cc9d495269963123a89447f2f72a792d3de8019c3a960c0681",
       "byteLength": 64857,
       "rawPath": "netkeiba/horses/2014/2014110120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:13:40.367Z"
+  "updatedAt": "2026-08-30T15:18:22.044Z"
 }

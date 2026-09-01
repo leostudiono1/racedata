@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101222",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101222/",
-  "profile": null,
+  "profile": {
+    "name": "アルファライン",
+    "birthDate": "2017-04-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05456",
+      "name": "土井道隆"
+    },
+    "owner": {
+      "id": "110007",
+      "name": "木稲安則"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2002105604",
+      "name": "アイアイボタン"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -5986,6 +6016,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルファライン (Alpha Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6055,9 +6115,9 @@
       "contentHash": "bf967c925e74b078b1cb3526044d09c232c74fb6dcf7f57a03013ce1610cbbaf",
       "byteLength": 67099,
       "rawPath": "netkeiba/horses/2017/2017101222/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:19:52.928Z"
+  "updatedAt": "2026-08-28T16:27:00.920Z"
 }

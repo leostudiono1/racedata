@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106738",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106738/",
-  "profile": null,
+  "profile": {
+    "name": "チスジ",
+    "birthDate": "2017-05-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05762",
+      "name": "千葉幸喜"
+    },
+    "owner": {
+      "id": "208006",
+      "name": "新井原博"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006103169",
+      "name": "トーセンジョーダン"
+    },
+    "dam": {
+      "id": "2008104390",
+      "name": "エクセレントブルー"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103169",
@@ -6447,6 +6477,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チスジ (Chisuji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チスジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チスジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6516,9 +6576,9 @@
       "contentHash": "2d2a3f85f2cd62297ee324a78e1c6cf72cbb733f89b872845262cb0d703947bf",
       "byteLength": 64864,
       "rawPath": "netkeiba/horses/2017/2017106738/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:12:32.863Z"
+  "updatedAt": "2026-08-25T18:13:22.998Z"
 }

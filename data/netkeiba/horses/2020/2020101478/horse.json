@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101478",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101478/",
-  "profile": null,
+  "profile": {
+    "name": "ヴェズレー",
+    "birthDate": "2020-05-11",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "713005",
+      "name": "田島榮二郎"
+    },
+    "breeder": {
+      "id": "633355",
+      "name": "坂牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004104345",
+      "name": "スズカコーズウェイ"
+    },
+    "dam": {
+      "id": "2007105067",
+      "name": "ハイマーク"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "2004104345",
@@ -1168,6 +1198,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴェズレー (Vezelay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェズレー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェズレー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1237,9 +1297,9 @@
       "contentHash": "8d4584efe4ecae3f845c76add4648ca40eea633e167418011d9242db553f2b7c",
       "byteLength": 64282,
       "rawPath": "netkeiba/horses/2020/2020101478/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:48:55.622Z"
+  "updatedAt": "2026-08-26T17:55:50.418Z"
 }

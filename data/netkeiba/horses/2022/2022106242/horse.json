@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106242",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106242/",
-  "profile": null,
+  "profile": {
+    "name": "エクセルステート",
+    "birthDate": "2022-05-21",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "012033",
+      "name": "谷川正純"
+    },
+    "breeder": {
+      "id": "810339",
+      "name": "五丸農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2015103572",
+      "name": "アイアムオパール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2138,6 +2168,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エクセルステート (Excel State) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクセルステート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクセルステート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2207,9 +2267,9 @@
       "contentHash": "95cb1e149f25dfc55b7956c71c55f808bbf7621041325a1873d09c26083c0173",
       "byteLength": 64534,
       "rawPath": "netkeiba/horses/2022/2022106242/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:45:12.181Z"
+  "updatedAt": "2026-08-28T16:52:20.430Z"
 }

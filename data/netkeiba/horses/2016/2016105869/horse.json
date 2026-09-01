@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105869",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105869/",
-  "profile": null,
+  "profile": {
+    "name": "キュロン",
+    "birthDate": "2016-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05760",
+      "name": "松浦聡志"
+    },
+    "owner": {
+      "id": "944030",
+      "name": "加藤誠"
+    },
+    "breeder": {
+      "id": "433203",
+      "name": "タイヘイ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミメティコ Mimetico(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -5878,6 +5908,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キュロン (Kylon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5947,9 +6007,9 @@
       "contentHash": "ea37b4b6d8168b3dc6254bee18594fe6de358e1ffb5601bd30e8fd2a8399a44e",
       "byteLength": 66746,
       "rawPath": "netkeiba/horses/2016/2016105869/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:20:54.715Z"
+  "updatedAt": "2026-08-30T15:25:36.185Z"
 }

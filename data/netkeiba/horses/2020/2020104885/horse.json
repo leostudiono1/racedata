@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104885",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104885/",
-  "profile": null,
+  "profile": {
+    "name": "グラスミラー",
+    "birthDate": "2020-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "嶋田幸晴"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2008103055",
+      "name": "グラスルビー"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -2738,6 +2768,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラスミラー (Grass Mirror) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラスミラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラスミラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2807,9 +2867,9 @@
       "contentHash": "b3348db36d22393bd28855a831699fa920a8aea78652ce77cc03d7e2052d07d6",
       "byteLength": 66210,
       "rawPath": "netkeiba/horses/2020/2020104885/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:01:57.201Z"
+  "updatedAt": "2026-08-24T21:10:55.427Z"
 }

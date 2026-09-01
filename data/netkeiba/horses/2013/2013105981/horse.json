@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105981",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105981/",
-  "profile": null,
+  "profile": {
+    "name": "フォーアライター",
+    "birthDate": "2013-01-28",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2006109086",
+      "name": "デグラーティア"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1566,6 +1596,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォーアライター (Vorreiter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーアライター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーアライター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1635,9 +1695,9 @@
       "contentHash": "0714b7c6d4580725bcccb8e2be8144147187f0eda17c846d9975547895484313",
       "byteLength": 67413,
       "rawPath": "netkeiba/horses/2013/2013105981/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:07:57.293Z"
+  "updatedAt": "2026-08-30T15:12:38.927Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105100",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105100/",
-  "profile": null,
+  "profile": {
+    "name": "フォンデネージュ",
+    "birthDate": "2022-01-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2005102546",
+      "name": "ユキチャン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2066,6 +2096,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォンデネージュ (Fonte des Neiges) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォンデネージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォンデネージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2135,9 +2195,9 @@
       "contentHash": "68a2f44ac7027e6f7bf3066908d9b50ad81cb4714b193593c67e8cba1ac645e7",
       "byteLength": 67492,
       "rawPath": "netkeiba/horses/2022/2022105100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:26:46.954Z"
+  "updatedAt": "2026-08-31T15:32:07.241Z"
 }

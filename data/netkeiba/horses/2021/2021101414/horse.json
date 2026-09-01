@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101414",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101414/",
-  "profile": null,
+  "profile": {
+    "name": "ベルファスト",
+    "birthDate": "2021-01-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "026803",
+      "name": "ＤＭＭドリームクラブ"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タミーン Tameen(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shirocco"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2504,6 +2534,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルファスト (Belfast) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルファスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルファスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2573,9 +2633,9 @@
       "contentHash": "68430b03f5b9e94a42935f5b8de05a132f71ac141b282afffc513043460e843f",
       "byteLength": 67351,
       "rawPath": "netkeiba/horses/2021/2021101414/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:37:33.136Z"
+  "updatedAt": "2026-08-28T16:44:41.671Z"
 }

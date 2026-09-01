@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105470",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105470/",
-  "profile": null,
+  "profile": {
+    "name": "ローウェル",
+    "birthDate": "2018-05-04",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "878031",
+      "name": "盛学志"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2008110005",
+      "name": "アンティフォナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Songandaprayer"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -4446,6 +4476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローウェル (Lowell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローウェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローウェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4515,9 +4575,9 @@
       "contentHash": "3d0cc7eb597a5343b440cdb355acc904d423edd1e695c4701dff112d82aef32b",
       "byteLength": 66872,
       "rawPath": "netkeiba/horses/2018/2018105470/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:08:55.562Z"
+  "updatedAt": "2026-08-31T15:14:15.867Z"
 }

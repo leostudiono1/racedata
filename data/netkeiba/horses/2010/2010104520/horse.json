@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104520",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104520/",
-  "profile": null,
+  "profile": {
+    "name": "エグゼビア",
+    "birthDate": "2010-03-03",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "124008",
+      "name": "山本英俊"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "1999110202",
+      "name": "エグジジェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Capote"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -2516,6 +2546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エグゼビア (Xavier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エグゼビア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エグゼビア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2585,9 +2645,9 @@
       "contentHash": "c61394fcf70bfdd842124740b63da8d919f5ef4c2357641ce89a6300b933d970",
       "byteLength": 67040,
       "rawPath": "netkeiba/horses/2010/2010104520/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:44:42.095Z"
+  "updatedAt": "2026-08-25T17:45:32.756Z"
 }

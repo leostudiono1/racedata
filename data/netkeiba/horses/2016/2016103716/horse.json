@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103716",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103716/",
-  "profile": null,
+  "profile": {
+    "name": "テミス",
+    "birthDate": "2016-03-26",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "x09c79",
+      "name": "吉川真ノ介"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2011100974",
+      "name": "アストレア"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -4150,6 +4180,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テミス (Themis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テミス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テミス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4219,9 +4279,9 @@
       "contentHash": "1f1f05e7c447f9f5640e9384fd65982acbece8264b49189d750d61b8d3ac6f6a",
       "byteLength": 66719,
       "rawPath": "netkeiba/horses/2016/2016103716/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:42:22.289Z"
+  "updatedAt": "2026-08-27T16:53:36.119Z"
 }

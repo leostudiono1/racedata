@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110112",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110112/",
-  "profile": null,
+  "profile": {
+    "name": "ウェットシーズン",
+    "birthDate": "2021-02-25",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "470731",
+      "name": "Godolphin"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Mendelssohn"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Season Maker"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pioneerof the Nile"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1973,6 +2003,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウェットシーズン (Wet Season) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェットシーズン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェットシーズン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2042,9 +2102,9 @@
       "contentHash": "b28852f34f2d299f4bf5f5894dafbf4923cca47986a6ceb5e5b4b0a32676af67",
       "byteLength": 67010,
       "rawPath": "netkeiba/horses/2021/2021110112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:23:41.635Z"
+  "updatedAt": "2026-08-31T15:29:01.893Z"
 }

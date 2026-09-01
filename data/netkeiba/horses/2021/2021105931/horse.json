@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105931",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105931/",
-  "profile": null,
+  "profile": {
+    "name": "ギマール",
+    "birthDate": "2021-02-09",
+    "sex": "牡",
+    "coatColor": "栃栗毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "313378",
+      "name": "橋本牧場"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2004104690",
+      "name": "アールヌーヴォー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -2582,6 +2612,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ギマール (Guimard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギマール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギマール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2651,9 +2711,9 @@
       "contentHash": "ec3c6af20d757c2812b114a484f87156ea6774c25ba77a9a8a3e9eb94a60a73c",
       "byteLength": 67094,
       "rawPath": "netkeiba/horses/2021/2021105931/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:31:19.998Z"
+  "updatedAt": "2026-08-25T18:32:10.198Z"
 }

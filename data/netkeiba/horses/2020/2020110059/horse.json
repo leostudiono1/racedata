@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110059",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110059/",
-  "profile": null,
+  "profile": {
+    "name": "リマスタリング",
+    "birthDate": "2020-03-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Cracksman (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Reunite"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1451,6 +1481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リマスタリング (Remastering) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リマスタリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リマスタリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1520,9 +1580,9 @@
       "contentHash": "f3f30aeffacf4ffa07729be2ce2f1755089f773a86f850003335210ff901a505",
       "byteLength": 67007,
       "rawPath": "netkeiba/horses/2020/2020110059/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:18:57.746Z"
+  "updatedAt": "2026-08-31T15:24:18.018Z"
 }

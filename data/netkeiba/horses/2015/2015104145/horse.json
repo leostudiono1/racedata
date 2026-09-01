@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104145",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104145/",
-  "profile": null,
+  "profile": {
+    "name": "オルトシア",
+    "birthDate": "2015-03-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2008102582",
+      "name": "メーデイア"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2072,6 +2102,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オルトシア (Orthosia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルトシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルトシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2141,9 +2201,9 @@
       "contentHash": "2cd485f41804443feef47bdcda388e3a9c8bf690233cf18e80c4367842b84168",
       "byteLength": 67082,
       "rawPath": "netkeiba/horses/2015/2015104145/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:16:38.940Z"
+  "updatedAt": "2026-08-30T15:21:20.655Z"
 }

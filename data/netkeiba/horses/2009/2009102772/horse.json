@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009102772",
   "sourceUrl": "https://db.netkeiba.com/horse/2009102772/",
-  "profile": null,
+  "profile": {
+    "name": "セイラ",
+    "birthDate": "2009-04-19",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "421005",
+      "name": "萩英男"
+    },
+    "breeder": {
+      "id": "733399",
+      "name": "中川哲也"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101557",
+      "name": "スパイキュール"
+    },
+    "dam": {
+      "id": "1998106219",
+      "name": "ナックオフィス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ジェネラス Generous(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101557",
@@ -5119,6 +5149,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイラ (Sayla) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5188,9 +5248,9 @@
       "contentHash": "977882d1bf61db6f1722bdd86c151abbc4f9dccf7df8fcec4f6af4762db6278c",
       "byteLength": 66795,
       "rawPath": "netkeiba/horses/2009/2009102772/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:11:38.440Z"
+  "updatedAt": "2026-08-26T17:18:33.072Z"
 }

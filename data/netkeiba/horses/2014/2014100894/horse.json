@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100894",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100894/",
-  "profile": null,
+  "profile": {
+    "name": "シロクニ",
+    "birthDate": "2014-04-18",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "445030",
+      "name": "磯波勇"
+    },
+    "breeder": {
+      "id": "130318",
+      "name": "守矢牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    },
+    "dam": {
+      "id": "2007101541",
+      "name": "ゴールドマッシモ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2834,6 +2864,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シロクニ (Shirokuni) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シロクニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シロクニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2903,9 +2963,9 @@
       "contentHash": "15b12deb3aa849d171708fa00a81387b264cf27f402127eb5241a8c5ce8600cf",
       "byteLength": 66645,
       "rawPath": "netkeiba/horses/2014/2014100894/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:54:44.428Z"
+  "updatedAt": "2026-08-25T17:55:35.308Z"
 }

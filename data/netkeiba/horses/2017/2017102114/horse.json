@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102114",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102114/",
-  "profile": null,
+  "profile": {
+    "name": "バルボア",
+    "birthDate": "2017-03-11",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "川添明弘"
+    },
+    "owner": {
+      "id": "x0b06c",
+      "name": "佐々木龍駿"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "2005102170",
+      "name": "パナマックス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -8495,6 +8525,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バルボア (Balboa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルボア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルボア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8564,9 +8624,9 @@
       "contentHash": "6aa3c41dac59df71c4341d21b2cd53749a05333c590ec304b9b0ae255795113f",
       "byteLength": 66837,
       "rawPath": "netkeiba/horses/2017/2017102114/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:20:37.761Z"
+  "updatedAt": "2026-08-28T16:27:46.613Z"
 }

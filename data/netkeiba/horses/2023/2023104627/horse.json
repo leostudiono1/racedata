@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104627",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104627/",
-  "profile": null,
+  "profile": {
+    "name": "トラストサン",
+    "birthDate": "2023-05-03",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "767008",
+      "name": "菅波立知子"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2015100918",
+      "name": "トラストロン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1127,6 +1157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トラストサン (Trust Sun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラストサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラストサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1196,9 +1256,9 @@
       "contentHash": "b4391d4ee38ee1c80985b881aa8965bbf268026974326b26d36cf0f64314e618",
       "byteLength": 65220,
       "rawPath": "netkeiba/horses/2023/2023104627/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:31:44.476Z"
+  "updatedAt": "2026-08-31T15:37:04.909Z"
 }

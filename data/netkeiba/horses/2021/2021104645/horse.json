@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104645",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104645/",
-  "profile": null,
+  "profile": {
+    "name": "アスセナ",
+    "birthDate": "2021-04-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05707",
+      "name": "諏訪貴正"
+    },
+    "owner": {
+      "id": "372008",
+      "name": "三宅勝俊"
+    },
+    "breeder": {
+      "id": "933368",
+      "name": "新井牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2011102370",
+      "name": "コマノリリー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -2556,6 +2586,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アスセナ (Azucena) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスセナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスセナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2625,9 +2685,9 @@
       "contentHash": "ba6578aa408754737522142acee16ff4e1cac9d82eb00701d5f2b57b4159accc",
       "byteLength": 64847,
       "rawPath": "netkeiba/horses/2021/2021104645/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:30:02.666Z"
+  "updatedAt": "2026-08-25T18:30:53.384Z"
 }

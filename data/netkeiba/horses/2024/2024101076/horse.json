@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024101076",
   "sourceUrl": "https://db.netkeiba.com/horse/2024101076/",
-  "profile": null,
+  "profile": {
+    "name": "スマートポーション",
+    "birthDate": "2024-04-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01215",
+      "name": "加藤公太"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "2008100110",
+      "name": "スマートレモラ"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1186,6 +1216,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートポーション (Smart Potion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートポーション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートポーション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1255,9 +1315,9 @@
       "contentHash": "e06f5b0fab6f76ef3df5ca9d1f538f971dbb18deb10d1246026099867117cbdc",
       "byteLength": 65317,
       "rawPath": "netkeiba/horses/2024/2024101076/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:41:42.768Z"
+  "updatedAt": "2026-08-25T18:42:33.569Z"
 }

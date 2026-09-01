@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104426",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104426/",
-  "profile": null,
+  "profile": {
+    "name": "アドベンチャー",
+    "birthDate": "2013-04-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05109",
+      "name": "古賀光範"
+    },
+    "owner": {
+      "id": "772002",
+      "name": "西村新一郎"
+    },
+    "breeder": {
+      "id": "203084",
+      "name": "田原橋本牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    },
+    "dam": {
+      "id": "1999101349",
+      "name": "アーバンクイーン"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2005101358",
@@ -1262,6 +1292,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アドベンチャー (Adventure) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アドベンチャー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アドベンチャー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1331,9 +1391,9 @@
       "contentHash": "afb4df68e0b856f2e130134604f19d70ba00cc2a6c378ec13b96e85fe1723f36",
       "byteLength": 64583,
       "rawPath": "netkeiba/horses/2013/2013104426/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:28:01.158Z"
+  "updatedAt": "2026-08-29T15:33:31.860Z"
 }

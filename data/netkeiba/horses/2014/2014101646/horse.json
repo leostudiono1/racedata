@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101646",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101646/",
-  "profile": null,
+  "profile": {
+    "name": "ネコワールド",
+    "birthDate": "2014-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00436",
+      "name": "堀井雅広"
+    },
+    "owner": {
+      "id": "129005",
+      "name": "桐谷茂"
+    },
+    "breeder": {
+      "id": "613341",
+      "name": "新井弘幸"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1997110152",
+      "name": "ノボジャック"
+    },
+    "dam": {
+      "id": "2008105245",
+      "name": "イーグルフォンテン"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110152",
@@ -1508,6 +1538,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネコワールド (Neko World) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコワールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコワールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1577,9 +1637,9 @@
       "contentHash": "367933bc2fdfca934fe5206d95bd1ca9b11c4188f9abe482b34eed13395e8972",
       "byteLength": 66797,
       "rawPath": "netkeiba/horses/2014/2014101646/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:23:36.053Z"
+  "updatedAt": "2026-08-26T17:30:30.875Z"
 }

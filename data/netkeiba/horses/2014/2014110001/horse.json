@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110001",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110001/",
-  "profile": null,
+  "profile": {
+    "name": "バリングラ",
+    "birthDate": "2014-02-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "260825",
+      "name": "Barronstown Stud"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sweet Dreams Baby"
+    },
+    "damsire": {
+      "id": "1996190001",
+      "name": "Montjeu (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2891,6 +2921,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バリングラ (Burringurrah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バリングラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バリングラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2960,9 +3020,9 @@
       "contentHash": "1acc6f47531b9523f47ee20ee39405c094e4dbc2a85098ed543c0daa3411e469",
       "byteLength": 67199,
       "rawPath": "netkeiba/horses/2014/2014110001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:34:05.410Z"
+  "updatedAt": "2026-08-29T15:39:35.973Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103194",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103194/",
-  "profile": null,
+  "profile": {
+    "name": "レッドルーク",
+    "birthDate": "2015-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2008110001",
+      "name": "アクアシャンデリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1577,6 +1607,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドルーク (Red Luke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドルーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドルーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1646,9 +1706,9 @@
       "contentHash": "296b4650d6fe5bb500001d264017691fea033cd4048d19b3c356c803400cc1b5",
       "byteLength": 67450,
       "rawPath": "netkeiba/horses/2015/2015103194/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:00:51.896Z"
+  "updatedAt": "2026-08-25T18:01:42.654Z"
 }

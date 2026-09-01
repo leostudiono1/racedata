@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102192",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102192/",
-  "profile": null,
+  "profile": {
+    "name": "アリビオ",
+    "birthDate": "2019-02-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05360",
+      "name": "濱田一夫"
+    },
+    "owner": {
+      "id": "x0aebb",
+      "name": "高野英彦"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2006106071",
+      "name": "アイビー"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -4234,6 +4264,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリビオ (Alivio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリビオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリビオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4303,9 +4363,9 @@
       "contentHash": "8e1dddbfe1c049e77d9e547c7f63c85b5ff905cb342cc088018e652dbf053f40",
       "byteLength": 66687,
       "rawPath": "netkeiba/horses/2019/2019102192/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:31:10.769Z"
+  "updatedAt": "2026-08-30T15:35:52.914Z"
 }

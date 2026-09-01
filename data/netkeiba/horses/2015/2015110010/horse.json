@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110010",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110010/",
-  "profile": null,
+  "profile": {
+    "name": "フィールシュパース",
+    "birthDate": "2015-04-26",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "970709",
+      "name": "Sierra Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Kitten's Joy (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Mighty Renee"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Maria's Mon"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2070,6 +2100,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィールシュパース (Viel Spass) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィールシュパース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィールシュパース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2139,9 +2199,9 @@
       "contentHash": "69549e3c0d57f54fdd7b9ebdcb50e47cf45d27c9994d84985933c46c27ca2a04",
       "byteLength": 66732,
       "rawPath": "netkeiba/horses/2015/2015110010/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:03:05.507Z"
+  "updatedAt": "2026-08-25T18:03:55.612Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110114",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110114/",
-  "profile": null,
+  "profile": {
+    "name": "スリーアイランド",
+    "birthDate": "2020-04-18",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "061800",
+      "name": "永井商事"
+    },
+    "breeder": {
+      "id": "150735",
+      "name": "Cn Farm Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Zoustar"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Entreat"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3180,6 +3210,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリーアイランド (Three Island) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーアイランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーアイランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3249,9 +3309,9 @@
       "contentHash": "690dd1f7bb2a21dbb328c71fa5722a694ae9fc520808451602642915f27da479",
       "byteLength": 66995,
       "rawPath": "netkeiba/horses/2020/2020110114/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:39:07.072Z"
+  "updatedAt": "2026-08-30T15:43:49.073Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100987",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100987/",
-  "profile": null,
+  "profile": {
+    "name": "ドーテ",
+    "birthDate": "2012-04-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "200543",
+      "name": "小濱正博"
+    },
+    "birthplace": "池田町",
+    "sire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ボーテ Beaute(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Highest Honor"
+    }
+  },
   "pedigree": [
     {
       "id": "1998190004",
@@ -4395,6 +4425,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドーテ (Dote) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドーテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドーテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4464,9 +4524,9 @@
       "contentHash": "cbec927b875e7637021c72bf252351879f3268ac40f6ad111d29ebd2cf60ea5e",
       "byteLength": 64855,
       "rawPath": "netkeiba/horses/2012/2012100987/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:14:58.400Z"
+  "updatedAt": "2026-08-26T17:21:52.766Z"
 }

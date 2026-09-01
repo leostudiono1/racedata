@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110121",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110121/",
-  "profile": null,
+  "profile": {
+    "name": "クワッドアーチ",
+    "birthDate": "2013-02-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05470",
+      "name": "黒田隆男"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "670709",
+      "name": "Woodford Thoroughbreds"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Archarcharch"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Elizabits"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Forestry"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -9959,6 +9989,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クワッドアーチ (Quad Arch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クワッドアーチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クワッドアーチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10028,9 +10088,9 @@
       "contentHash": "bb211d15c582cfb04f031ec3c2ab3a7076f44af57e340e560f4abc861f8520aa",
       "byteLength": 66873,
       "rawPath": "netkeiba/horses/2013/2013110121/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:22:26.787Z"
+  "updatedAt": "2026-08-26T17:29:20.768Z"
 }

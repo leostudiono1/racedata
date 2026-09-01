@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105076",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105076/",
-  "profile": null,
+  "profile": {
+    "name": "スクレイピング",
+    "birthDate": "2022-02-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "316803",
+      "name": "Ｙ’ｓレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "2016104741",
+      "name": "ミスマリア"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1616,6 +1646,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スクレイピング (Scraping) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スクレイピング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スクレイピング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1685,9 +1745,9 @@
       "contentHash": "716610e18fc2eea43f127a56b8e92c699c27a1f858ba116250ca9dc72552fd20",
       "byteLength": 67049,
       "rawPath": "netkeiba/horses/2022/2022105076/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:10:00.468Z"
+  "updatedAt": "2026-08-24T21:18:58.601Z"
 }

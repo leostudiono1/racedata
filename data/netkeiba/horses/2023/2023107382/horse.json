@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107382",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107382/",
-  "profile": null,
+  "profile": {
+    "name": "ケブランリ",
+    "birthDate": "2023-04-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01169",
+      "name": "加藤士津"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2013106119",
+      "name": "ゴールドドリーム"
+    },
+    "dam": {
+      "id": "2004110200",
+      "name": "カロンセギュール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Forest Camp"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106119",
@@ -1442,6 +1472,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケブランリ (Quai Branly) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケブランリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケブランリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1511,9 +1571,9 @@
       "contentHash": "e8ac752512f2a18a2e2ee4183c1e5d42fc60980269040484ea37fbd667c32a3e",
       "byteLength": 65214,
       "rawPath": "netkeiba/horses/2023/2023107382/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:14:17.695Z"
+  "updatedAt": "2026-08-29T16:19:48.189Z"
 }

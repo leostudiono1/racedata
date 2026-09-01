@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101162",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101162/",
-  "profile": null,
+  "profile": {
+    "name": "リネンエース",
+    "birthDate": "2021-04-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "851005",
+      "name": "戸山光男"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2004101480",
+      "name": "リネンフィールド"
+    },
+    "damsire": {
+      "id": "1989109110",
+      "name": "パラダイスクリーク Paradise Creek(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -1376,6 +1406,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リネンエース (Rinen Ace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リネンエース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リネンエース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1445,9 +1505,9 @@
       "contentHash": "15ad14850e8407b27a3097f79c0209e6f6ef3e6f4512fc25e983dbe846dd2175",
       "byteLength": 65463,
       "rawPath": "netkeiba/horses/2021/2021101162/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:37:26.027Z"
+  "updatedAt": "2026-08-28T16:44:34.682Z"
 }

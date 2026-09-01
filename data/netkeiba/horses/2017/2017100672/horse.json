@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100672",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100672/",
-  "profile": null,
+  "profile": {
+    "name": "フルートフル",
+    "birthDate": "2017-04-30",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05726",
+      "name": "那俄性哲"
+    },
+    "owner": {
+      "id": "x09418",
+      "name": "田村章"
+    },
+    "breeder": {
+      "id": "033468",
+      "name": "ナカノファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2004103752",
+      "name": "モンルージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -4611,6 +4641,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルートフル (Fruitful) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルートフル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルートフル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4680,9 +4740,9 @@
       "contentHash": "bd2fba6986b061ddd6f39e42d0294d2e519a7483612d115d118d3d815047dcaf",
       "byteLength": 66803,
       "rawPath": "netkeiba/horses/2017/2017100672/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:44:21.677Z"
+  "updatedAt": "2026-08-29T15:49:52.198Z"
 }

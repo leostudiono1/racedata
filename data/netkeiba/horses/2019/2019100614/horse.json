@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100614",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100614/",
-  "profile": null,
+  "profile": {
+    "name": "レヴール",
+    "birthDate": "2019-05-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006104736",
+      "name": "トランセンド"
+    },
+    "dam": {
+      "id": "2011105115",
+      "name": "アルマミーア"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2006104736",
@@ -2611,6 +2641,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レヴール (Reveur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レヴール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レヴール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2680,9 +2740,9 @@
       "contentHash": "124b813524822d0d652608625901cc4b0964e12989bfc0798171939061d3b147",
       "byteLength": 66921,
       "rawPath": "netkeiba/horses/2019/2019100614/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:54:44.675Z"
+  "updatedAt": "2026-08-24T21:03:51.700Z"
 }

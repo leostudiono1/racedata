@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105873",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105873/",
-  "profile": null,
+  "profile": {
+    "name": "ガウロン",
+    "birthDate": "2020-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2012106072",
+      "name": "タケノビワ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -3108,6 +3138,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガウロン (Gowron) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガウロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガウロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3177,9 +3237,9 @@
       "contentHash": "74f9289ac96652d653657e1edab596053729886ef9f909508b21262b7560e9b4",
       "byteLength": 66812,
       "rawPath": "netkeiba/horses/2020/2020105873/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:59:14.182Z"
+  "updatedAt": "2026-08-27T17:10:27.876Z"
 }

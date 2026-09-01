@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105494",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105494/",
-  "profile": null,
+  "profile": {
+    "name": "ロジネオ",
+    "birthDate": "2013-03-18",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "x084df",
+      "name": "藤田司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジャズプリンセス Jazz Princess(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bahhare"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -2220,6 +2250,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロジネオ (Logi Neo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジネオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジネオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2289,9 +2349,9 @@
       "contentHash": "f5c333392e606a03aa3e37bb3321af176eb256362c1586f436f83e9064750818",
       "byteLength": 64511,
       "rawPath": "netkeiba/horses/2013/2013105494/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:04:03.318Z"
+  "updatedAt": "2026-08-28T16:11:12.212Z"
 }

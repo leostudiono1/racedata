@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104231",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104231/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーワイン",
+    "birthDate": "2014-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "833305",
+      "name": "ウエスタンファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2004105048",
+      "name": "ウエスタンダンサー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1846,6 +1876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーワイン (Mikki Wine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーワイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーワイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1915,9 +1975,9 @@
       "contentHash": "fd4f55ada675ddc223b0b62de2098090ecfca7f5df508e84314a3a75605e473c",
       "byteLength": 65558,
       "rawPath": "netkeiba/horses/2014/2014104231/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:57:07.987Z"
+  "updatedAt": "2026-08-25T17:57:58.847Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103921",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103921/",
-  "profile": null,
+  "profile": {
+    "name": "ゴールドテーラー",
+    "birthDate": "2010-02-19",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01072",
+      "name": "河内洋"
+    },
+    "owner": {
+      "id": "730002",
+      "name": "中西浩一"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2003102468",
+      "name": "ホットレッグス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -3984,6 +4014,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴールドテーラー (Gold Tailor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールドテーラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールドテーラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4053,9 +4113,9 @@
       "contentHash": "955ab702510cfe5c43814a083374fcec468204f511c161f871589ff8c68c520d",
       "byteLength": 67083,
       "rawPath": "netkeiba/horses/2010/2010103921/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:19:33.542Z"
+  "updatedAt": "2026-08-29T15:25:04.214Z"
 }

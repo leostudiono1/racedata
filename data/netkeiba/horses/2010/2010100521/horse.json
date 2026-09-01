@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100521",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100521/",
-  "profile": null,
+  "profile": {
+    "name": "ワースムーン",
+    "birthDate": "2010-04-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "541008",
+      "name": "橋場勇二"
+    },
+    "breeder": {
+      "id": "733356",
+      "name": "庄野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キミーズキッド Kimmy's Kid(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Exploit"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -2728,6 +2758,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワースムーン (Worth Moon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワースムーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワースムーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2797,9 +2857,9 @@
       "contentHash": "ceea9e6e008e811903e9426a8a628575887710dd575279694ffe6f47befc6e4a",
       "byteLength": 66343,
       "rawPath": "netkeiba/horses/2010/2010100521/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:11:52.258Z"
+  "updatedAt": "2026-08-26T17:18:47.079Z"
 }

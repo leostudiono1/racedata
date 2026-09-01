@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104688",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104688/",
-  "profile": null,
+  "profile": {
+    "name": "カーニバル",
+    "birthDate": "2013-04-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "303300",
+      "name": "畠山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ブリーボーンズ Bully Bones(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hesabull"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1104,6 +1134,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カーニバル (Carnival) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーニバル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーニバル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1173,9 +1233,9 @@
       "contentHash": "4ff33319199bf7666716ac5de3ed874afb6f98a18a9ea91bf5a2e080e34ce195",
       "byteLength": 64373,
       "rawPath": "netkeiba/horses/2013/2013104688/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:28:11.901Z"
+  "updatedAt": "2026-08-29T15:33:42.358Z"
 }

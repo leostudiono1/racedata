@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102111",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102111/",
-  "profile": null,
+  "profile": {
+    "name": "ファタリテ",
+    "birthDate": "2016-04-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "548033",
+      "name": "奥裕嗣"
+    },
+    "breeder": {
+      "id": "100016",
+      "name": "日の出牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2010104342",
+      "name": "ルミアージュ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -5040,6 +5070,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファタリテ (Fatalite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファタリテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファタリテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5109,9 +5169,9 @@
       "contentHash": "21291e30e4f6de2add1365ed5c854234ded42571b484c53eb914a56124d9eb70",
       "byteLength": 66726,
       "rawPath": "netkeiba/horses/2016/2016102111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:42:42.887Z"
+  "updatedAt": "2026-08-24T20:51:50.446Z"
 }

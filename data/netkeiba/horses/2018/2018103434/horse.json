@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103434",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103434/",
-  "profile": null,
+  "profile": {
+    "name": "イージス",
+    "birthDate": "2018-04-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "大垣敏夫"
+    },
+    "owner": {
+      "id": "552007",
+      "name": "野口幸八"
+    },
+    "breeder": {
+      "id": "043068",
+      "name": "石川牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2002107292",
+      "name": "サクセスビスケット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2151,6 +2181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イージス (Aegis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イージス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イージス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2220,9 +2280,9 @@
       "contentHash": "a62664783880f8bad837bfbbc4f915170e6bf08523942c24332e795d9d5422b9",
       "byteLength": 64635,
       "rawPath": "netkeiba/horses/2018/2018103434/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:41:30.909Z"
+  "updatedAt": "2026-08-26T17:48:25.853Z"
 }

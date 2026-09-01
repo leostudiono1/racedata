@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102616",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102616/",
-  "profile": null,
+  "profile": {
+    "name": "マーレー",
+    "birthDate": "2012-02-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "279008",
+      "name": "石川幸司"
+    },
+    "breeder": {
+      "id": "013065",
+      "name": "森政巳"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    },
+    "dam": {
+      "id": "1997106497",
+      "name": "トップレディスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1990109700",
@@ -1729,6 +1759,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マーレー (Murray) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーレー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーレー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1798,9 +1858,9 @@
       "contentHash": "a4c6cc137d824e38109ac5659b7f6d29c6e835937be995d2fe7b9a16cfff4752",
       "byteLength": 64398,
       "rawPath": "netkeiba/horses/2012/2012102616/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:41:51.134Z"
+  "updatedAt": "2026-08-31T14:47:14.843Z"
 }

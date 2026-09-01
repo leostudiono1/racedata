@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102097",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102097/",
-  "profile": null,
+  "profile": {
+    "name": "オースミミライ",
+    "birthDate": "2019-05-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05718",
+      "name": "坂本和也"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "（株）オースミ"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "1999101368",
+      "name": "オースミコスモ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -4934,6 +4964,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オースミミライ (Osumi Mirai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミミライ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミミライ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5003,9 +5063,9 @@
       "contentHash": "ce1264fe9b0de77af3da35919f60ea9a7fc508e1fa73b5ec7ad9acccadafdc89",
       "byteLength": 66951,
       "rawPath": "netkeiba/horses/2019/2019102097/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:45:04.596Z"
+  "updatedAt": "2026-08-26T17:51:59.362Z"
 }

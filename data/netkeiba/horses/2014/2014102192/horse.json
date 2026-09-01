@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102192",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102192/",
-  "profile": null,
+  "profile": {
+    "name": "スキーマー",
+    "birthDate": "2014-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "x098ff",
+      "name": "鈴木雅彦"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ドリームスキーム Dream Scheme(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Machiavellian"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -10325,6 +10355,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スキーマー (Schemer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキーマー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキーマー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10394,9 +10454,9 @@
       "contentHash": "1f3f8b3e2e1af08e7b6d6ec74c76830076ac4d9529e77e8735a6705feb0af558",
       "byteLength": 66746,
       "rawPath": "netkeiba/horses/2014/2014102192/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:05:58.967Z"
+  "updatedAt": "2026-08-28T16:13:07.666Z"
 }

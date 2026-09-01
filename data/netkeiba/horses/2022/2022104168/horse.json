@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104168",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104168/",
-  "profile": null,
+  "profile": {
+    "name": "ベストロイヤル",
+    "birthDate": "2022-04-05",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01020",
+      "name": "相沢郁"
+    },
+    "owner": {
+      "id": "694008",
+      "name": "本間茂"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2015105962",
+      "name": "ベストインパクト"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1287,6 +1317,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベストロイヤル (Best Royal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストロイヤル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストロイヤル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1356,9 +1416,9 @@
       "contentHash": "07570a747d8532afbd126c2073d81ebaee12aff0fada958902bdac1c60186c65",
       "byteLength": 66262,
       "rawPath": "netkeiba/horses/2022/2022104168/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:09:14.821Z"
+  "updatedAt": "2026-08-24T21:18:13.110Z"
 }

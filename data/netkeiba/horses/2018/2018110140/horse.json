@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110140",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110140/",
-  "profile": null,
+  "profile": {
+    "name": "スズカファラオ",
+    "birthDate": "2018-09-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05745",
+      "name": "渡辺博文"
+    },
+    "owner": {
+      "id": "x060ce",
+      "name": "永井商事（株）"
+    },
+    "breeder": {
+      "id": "990739",
+      "name": "Dr DJ O'Brien"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Berrimilla"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3546,6 +3576,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズカファラオ (Suzuka Pharoah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカファラオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカファラオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3615,9 +3675,9 @@
       "contentHash": "cc54e1172f08ca61e8d8422232e95c8acd1a45c311fcbc080604bb106e6c3ada",
       "byteLength": 66069,
       "rawPath": "netkeiba/horses/2018/2018110140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:30:04.268Z"
+  "updatedAt": "2026-08-30T15:34:45.901Z"
 }

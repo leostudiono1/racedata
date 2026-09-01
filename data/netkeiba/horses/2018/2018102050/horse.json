@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102050",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102050/",
-  "profile": null,
+  "profile": {
+    "name": "レーニア",
+    "birthDate": "2018-02-26",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "坂井英光"
+    },
+    "owner": {
+      "id": "638009",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2010110072",
+      "name": "ジャルダンスクレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -4303,6 +4333,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レーニア (Rainier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーニア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーニア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4372,9 +4432,9 @@
       "contentHash": "f9867dd2e192d64cd3f4e93468e18bc4fa31bb4e8a2140413565d417bc8a3901",
       "byteLength": 66612,
       "rawPath": "netkeiba/horses/2018/2018102050/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:51:59.596Z"
+  "updatedAt": "2026-08-24T21:01:07.217Z"
 }

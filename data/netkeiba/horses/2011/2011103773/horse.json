@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103773",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103773/",
-  "profile": null,
+  "profile": {
+    "name": "プライマリーコード",
+    "birthDate": "2011-05-11",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "1997103725",
+      "name": "インディスユニゾン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2780,6 +2810,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プライマリーコード (Primary Chord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プライマリーコード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プライマリーコード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2849,9 +2909,9 @@
       "contentHash": "4ed8dcefff46c1130639f2a25b9138e91ec7399290bc00c490ec1ac52fb2be4e",
       "byteLength": 67122,
       "rawPath": "netkeiba/horses/2011/2011103773/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:20:29.491Z"
+  "updatedAt": "2026-08-29T15:26:00.105Z"
 }

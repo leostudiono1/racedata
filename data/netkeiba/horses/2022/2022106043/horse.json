@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106043",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106043/",
-  "profile": null,
+  "profile": {
+    "name": "ノエル",
+    "birthDate": "2022-03-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川添明弘"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2003100057",
+      "name": "アラマサスナイパー"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -3988,6 +4018,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノエル (Noel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4057,9 +4117,9 @@
       "contentHash": "a49721309e99946fc2cc1eb39aa57bfab88348fe9682795c54bd856debf2130d",
       "byteLength": 65166,
       "rawPath": "netkeiba/horses/2022/2022106043/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:08:30.847Z"
+  "updatedAt": "2026-08-27T17:19:44.480Z"
 }

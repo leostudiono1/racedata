@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101296",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101296/",
-  "profile": null,
+  "profile": {
+    "name": "ファインアイリス",
+    "birthDate": "2017-03-03",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "149002",
+      "name": "井山登"
+    },
+    "breeder": {
+      "id": "530331",
+      "name": "岩見牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2005102226",
+      "name": "ピサノドヌーヴ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1343,6 +1373,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインアイリス (Fine Iris) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインアイリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインアイリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1412,9 +1472,9 @@
       "contentHash": "e8356d853ef3f6435a780f6c31cb1c82de768aea3588eee4dc0717d75d48d660",
       "byteLength": 66456,
       "rawPath": "netkeiba/horses/2017/2017101296/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:19:59.117Z"
+  "updatedAt": "2026-08-28T16:27:07.972Z"
 }

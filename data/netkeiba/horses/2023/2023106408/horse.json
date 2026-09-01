@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106408",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106408/",
-  "profile": null,
+  "profile": {
+    "name": "アンラコル",
+    "birthDate": "2023-05-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05287",
+      "name": "井手上慎"
+    },
+    "owner": {
+      "id": "x0b5e5",
+      "name": "平本淳一"
+    },
+    "breeder": {
+      "id": "010035",
+      "name": "金石牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "2011105191",
+      "name": "マイネプレセア"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -2375,6 +2405,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンラコル (Anrakor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンラコル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンラコル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2444,9 +2504,9 @@
       "contentHash": "9fb4e14db930deb900547336d688208175284d39c38b44a56b0bee0339cead5a",
       "byteLength": 67059,
       "rawPath": "netkeiba/horses/2023/2023106408/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:32:47.516Z"
+  "updatedAt": "2026-08-31T15:38:07.804Z"
 }

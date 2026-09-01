@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104702",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104702/",
-  "profile": null,
+  "profile": {
+    "name": "トリトン",
+    "birthDate": "2017-03-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2009105760",
+      "name": "オメガエンブレム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1545,6 +1575,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリトン (Triton) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリトン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリトン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1614,9 +1674,9 @@
       "contentHash": "c079924dd692e1b420546d1d55d11471976bdbcf4a271f716ca27674eee517f2",
       "byteLength": 66548,
       "rawPath": "netkeiba/horses/2017/2017104702/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:49:18.383Z"
+  "updatedAt": "2026-08-24T20:58:26.197Z"
 }

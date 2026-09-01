@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100807",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100807/",
-  "profile": null,
+  "profile": {
+    "name": "パレハ",
+    "birthDate": "2015-03-11",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "777004",
+      "name": "山本弥恵子"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヨハネスブルグ Johannesburg(米)"
+    },
+    "dam": {
+      "id": "2002100579",
+      "name": "ホリデイインミラノ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1264,6 +1294,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パレハ (Pareja) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレハ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレハ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1333,9 +1393,9 @@
       "contentHash": "9020b291f2850297b3b1ad4708b803908239670a959ba77cc6dcbf8f70955250",
       "byteLength": 64361,
       "rawPath": "netkeiba/horses/2015/2015100807/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:14:11.986Z"
+  "updatedAt": "2026-08-30T15:18:53.573Z"
 }

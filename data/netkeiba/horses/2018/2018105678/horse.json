@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105678",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105678/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンアルル",
+    "birthDate": "2018-03-18",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2006100765",
+      "name": "トーセンラフィット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "E Dubai"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -2975,6 +3005,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンアルル (Tosen Arles) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンアルル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンアルル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3044,9 +3104,9 @@
       "contentHash": "c003b9c98f92e577fd81bc65de532ca767783a5eff4f43052ea26753c728e362",
       "byteLength": 66953,
       "rawPath": "netkeiba/horses/2018/2018105678/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:42:51.611Z"
+  "updatedAt": "2026-08-26T17:49:46.210Z"
 }

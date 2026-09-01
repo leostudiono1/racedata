@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110038",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110038/",
-  "profile": null,
+  "profile": {
+    "name": "ダノンバーボン",
+    "birthDate": "2023-04-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "619800",
+      "name": "ダノックス"
+    },
+    "breeder": {
+      "id": "090713",
+      "name": "Blue Heaven Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Maxfield (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Wild Ridge"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1298,6 +1328,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダノンバーボン (Danon Bourbon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンバーボン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンバーボン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1367,9 +1427,9 @@
       "contentHash": "3c1207f5bbed334cf34f16032e7e86b4e010b084c8ce0d2837639bd2537c7f32",
       "byteLength": 67103,
       "rawPath": "netkeiba/horses/2023/2023110038/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:51:47.318Z"
+  "updatedAt": "2026-08-28T16:58:55.932Z"
 }

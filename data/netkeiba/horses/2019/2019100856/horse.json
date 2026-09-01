@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100856",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100856/",
-  "profile": null,
+  "profile": {
+    "name": "セイタード",
+    "birthDate": "2019-02-23",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05789",
+      "name": "酒井一則"
+    },
+    "owner": {
+      "id": "x09c90",
+      "name": "三峰誠植"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101683",
+      "name": "タイムパラドックス"
+    },
+    "dam": {
+      "id": "2015100798",
+      "name": "インフィニート"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101683",
@@ -2244,6 +2274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイタード (Seitaad) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイタード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイタード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2313,9 +2373,9 @@
       "contentHash": "d996155eb7c1a5fa35f6be9cbe53bb31a4b6c33473e38f8b642b4893edfb774b",
       "byteLength": 66812,
       "rawPath": "netkeiba/horses/2019/2019100856/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:52:42.333Z"
+  "updatedAt": "2026-08-29T15:58:12.892Z"
 }

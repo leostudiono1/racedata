@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104869",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104869/",
-  "profile": null,
+  "profile": {
+    "name": "バチスタ",
+    "birthDate": "2012-02-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "006060",
+      "name": "Ｐ．Ｓ．スライ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2005102699",
+      "name": "ミネラルスプリング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1511,6 +1541,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バチスタ (Batista) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バチスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バチスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1580,9 +1640,9 @@
       "contentHash": "ea296a24c16c917fcbc8aa47fec2dc537643becde247905d744b2e568a4bec68",
       "byteLength": 66648,
       "rawPath": "netkeiba/horses/2012/2012104869/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:00:47.237Z"
+  "updatedAt": "2026-08-28T16:07:55.956Z"
 }

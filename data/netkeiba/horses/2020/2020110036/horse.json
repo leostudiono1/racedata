@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110036",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110036/",
-  "profile": null,
+  "profile": {
+    "name": "カッチュッコ",
+    "birthDate": "2020-01-31",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "x0b206",
+      "name": "伊藤健"
+    },
+    "breeder": {
+      "id": "470731",
+      "name": "Godolphin"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Nyquist (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Livorno"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1674,6 +1704,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カッチュッコ (Cacciucco) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カッチュッコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カッチュッコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1743,9 +1803,9 @@
       "contentHash": "6800558e15d4d8ff48bdd51d5e707f11d9d83db798de859ec6648adb545c306b",
       "byteLength": 66879,
       "rawPath": "netkeiba/horses/2020/2020110036/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:38:56.499Z"
+  "updatedAt": "2026-08-30T15:43:38.485Z"
 }

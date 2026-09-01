@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100553",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100553/",
-  "profile": null,
+  "profile": {
+    "name": "ミコブラック",
+    "birthDate": "2018-04-13",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "535033",
+      "name": "古賀慎一"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2008103182",
+      "name": "ペニーブラック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Redoute's Choice"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2525,6 +2555,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミコブラック (Miko Black) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミコブラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミコブラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2594,9 +2654,9 @@
       "contentHash": "86cc95e1a219142c2621bf8b21e694714bf28792a9116ba87094b8a9904bbbac",
       "byteLength": 66773,
       "rawPath": "netkeiba/horses/2018/2018100553/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:06:00.739Z"
+  "updatedAt": "2026-08-31T15:11:20.881Z"
 }

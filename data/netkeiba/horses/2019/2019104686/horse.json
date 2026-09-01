@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104686",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104686/",
-  "profile": null,
+  "profile": {
+    "name": "アキバ",
+    "birthDate": "2019-05-09",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "藤田弘治"
+    },
+    "owner": {
+      "id": "793033",
+      "name": "湯浅健司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2007102745",
+      "name": "オメガクリスマス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -5622,6 +5652,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アキバ (Akiba) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アキバ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アキバ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5691,9 +5751,9 @@
       "contentHash": "d969ad041a3d5bf7a398e918b43b0a38a4d1badbd872af1072eaee7ede2bb490",
       "byteLength": 66920,
       "rawPath": "netkeiba/horses/2019/2019104686/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:57:14.661Z"
+  "updatedAt": "2026-08-24T21:06:22.842Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104692",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104692/",
-  "profile": null,
+  "profile": {
+    "name": "バースライト",
+    "birthDate": "2022-02-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2014105975",
+      "name": "エリティエール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1829,6 +1859,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バースライト (Birthright) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バースライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バースライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1898,9 +1958,9 @@
       "contentHash": "94ff852891c13a9dd086c0ba8f8961b5abf646499dbd56e87c08d7abf2512cb4",
       "byteLength": 67303,
       "rawPath": "netkeiba/horses/2022/2022104692/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:08:24.091Z"
+  "updatedAt": "2026-08-29T16:13:54.558Z"
 }

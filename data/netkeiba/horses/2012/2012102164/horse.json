@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102164",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102164/",
-  "profile": null,
+  "profile": {
+    "name": "シャイニーサン",
+    "birthDate": "2012-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01091",
+      "name": "羽月友彦"
+    },
+    "owner": {
+      "id": "531006",
+      "name": "小林昌志"
+    },
+    "breeder": {
+      "id": "910369",
+      "name": "雅牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "スニッツェル Snitzel(豪)"
+    },
+    "dam": {
+      "id": "2004106630",
+      "name": "ブライティアナイル"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2434,6 +2464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャイニーサン (Shiny Sun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニーサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニーサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2503,9 +2563,9 @@
       "contentHash": "80fe9b1bd8329614deaef6d744411e32f2e7e23353fa80c2646506ac39844662",
       "byteLength": 64816,
       "rawPath": "netkeiba/horses/2012/2012102164/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:22:46.026Z"
+  "updatedAt": "2026-08-29T15:28:16.684Z"
 }

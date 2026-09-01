@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100123",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100123/",
-  "profile": null,
+  "profile": {
+    "name": "サンマルベローチェ",
+    "birthDate": "2018-03-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "580007",
+      "name": "相馬勇"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ディスクリートキャット Discreet Cat(米)"
+    },
+    "dam": {
+      "id": "2013100300",
+      "name": "マオリオ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1505,6 +1535,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンマルベローチェ (Sammaru Veloce) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンマルベローチェ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンマルベローチェ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1574,9 +1634,9 @@
       "contentHash": "a8eb10d7833aaa6f82f6fcadb656f52f6d1f835f4ad527b6cce2043a09b3a7c6",
       "byteLength": 67013,
       "rawPath": "netkeiba/horses/2018/2018100123/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:47:51.347Z"
+  "updatedAt": "2026-08-27T16:59:05.228Z"
 }

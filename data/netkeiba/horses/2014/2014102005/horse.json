@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102005",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102005/",
-  "profile": null,
+  "profile": {
+    "name": "シンウチ",
+    "birthDate": "2014-01-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "793033",
+      "name": "湯浅健司"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    },
+    "dam": {
+      "id": "2006105530",
+      "name": "ワイドロータス"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5974,6 +6004,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンウチ (Shinuchi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンウチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンウチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6043,9 +6103,9 @@
       "contentHash": "0fbd820e7766d275bdf51bc739035cb00ae5f3bc21708d7360b2e2857ada5515",
       "byteLength": 66710,
       "rawPath": "netkeiba/horses/2014/2014102005/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:31:03.304Z"
+  "updatedAt": "2026-08-29T15:36:33.939Z"
 }

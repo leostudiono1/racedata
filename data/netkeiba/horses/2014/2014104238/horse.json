@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104238",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104238/",
-  "profile": null,
+  "profile": {
+    "name": "リセンティート",
+    "birthDate": "2014-05-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "195033",
+      "name": "米津佳昭"
+    },
+    "breeder": {
+      "id": "433073",
+      "name": "及川ミツ子"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "2003100803",
+      "name": "マダムメガミ"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -3993,6 +4023,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リセンティート (Risentito) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リセンティート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リセンティート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4062,9 +4122,9 @@
       "contentHash": "82c3214932cea455e9cac02fa553474b9bb11d1a2a61150ace804aa80ea77926",
       "byteLength": 66955,
       "rawPath": "netkeiba/horses/2014/2014104238/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:25:10.580Z"
+  "updatedAt": "2026-08-26T17:32:05.390Z"
 }

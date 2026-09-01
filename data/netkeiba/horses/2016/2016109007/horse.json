@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016109007",
   "sourceUrl": "https://db.netkeiba.com/horse/2016109007/",
-  "profile": null,
+  "profile": {
+    "name": "メイオール",
+    "birthDate": "2016-03-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01051",
+      "name": "岩戸孝樹"
+    },
+    "owner": {
+      "id": "075800",
+      "name": "千明牧場"
+    },
+    "breeder": {
+      "id": "230123",
+      "name": "千明牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2007103217",
+      "name": "メイシャイン"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2993,6 +3023,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイオール (May Or) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイオール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイオール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3062,9 +3122,9 @@
       "contentHash": "d8f56c234edd5400fc7823a01467c56c8a06054beac86df4cc514cd6e63e4f38",
       "byteLength": 66890,
       "rawPath": "netkeiba/horses/2016/2016109007/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:44:35.343Z"
+  "updatedAt": "2026-08-27T16:55:49.245Z"
 }

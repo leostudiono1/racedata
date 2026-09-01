@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013109129",
   "sourceUrl": "https://db.netkeiba.com/horse/2013109129/",
-  "profile": null,
+  "profile": {
+    "name": "カシノアラジン",
+    "birthDate": "2013-04-12",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "514009",
+      "name": "柏木務"
+    },
+    "breeder": {
+      "id": "735404",
+      "name": "本田土寿"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "1994109361",
+      "name": "ブラックホーク"
+    },
+    "dam": {
+      "id": "1996109035",
+      "name": "カシノリファール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Septieme Ciel"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109361",
@@ -1121,6 +1151,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシノアラジン (Kashino Aladdin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノアラジン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノアラジン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1190,9 +1250,9 @@
       "contentHash": "1f6d6f3a6c6b06594a1d4016f4ac2a2762d05cb68f9d7e8767e38d58f1ba4b73",
       "byteLength": 64573,
       "rawPath": "netkeiba/horses/2013/2013109129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:32:23.522Z"
+  "updatedAt": "2026-08-27T16:43:37.295Z"
 }

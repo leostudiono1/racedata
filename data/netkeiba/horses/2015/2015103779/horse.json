@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103779",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103779/",
-  "profile": null,
+  "profile": {
+    "name": "ベー",
+    "birthDate": "2015-05-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05435",
+      "name": "碇清次郎"
+    },
+    "owner": {
+      "id": "789002",
+      "name": "北山敏隆"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2008102674",
+      "name": "スターリーベイ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -4334,6 +4364,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベー (Bex) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4403,9 +4463,9 @@
       "contentHash": "7b24f54d822cecc99746d184a8007ebce3e01c9d38a7691d319f66de6a580d16",
       "byteLength": 65502,
       "rawPath": "netkeiba/horses/2015/2015103779/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:36:32.575Z"
+  "updatedAt": "2026-08-29T15:42:02.927Z"
 }

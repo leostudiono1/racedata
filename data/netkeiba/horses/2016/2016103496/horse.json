@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103496",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103496/",
-  "profile": null,
+  "profile": {
+    "name": "ミスプロト",
+    "birthDate": "2016-03-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "709033",
+      "name": "福澤真也"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2003106549",
+      "name": "カノヤザミラクル"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -2856,6 +2886,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミスプロト (Miss Plot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスプロト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスプロト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2925,9 +2985,9 @@
       "contentHash": "22bd8894db5a58b32f314ddd0110aa699bb3a34171d4b4fe3130fe381d125ac2",
       "byteLength": 65438,
       "rawPath": "netkeiba/horses/2016/2016103496/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:42:08.562Z"
+  "updatedAt": "2026-08-27T16:53:22.304Z"
 }

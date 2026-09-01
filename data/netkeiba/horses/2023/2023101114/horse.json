@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101114",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101114/",
-  "profile": null,
+  "profile": {
+    "name": "ファイタージェット",
+    "birthDate": "2023-03-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01163",
+      "name": "林徹"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2017106567",
+      "name": "オムニプレゼンス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1527,6 +1557,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファイタージェット (Fighter Jet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファイタージェット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファイタージェット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1596,9 +1656,9 @@
       "contentHash": "eb8c47aa0c2891352b1cbf8c12fecbf1bf41bf36eecbc9afeac5dd882a73cd92",
       "byteLength": 67289,
       "rawPath": "netkeiba/horses/2023/2023101114/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:49:09.147Z"
+  "updatedAt": "2026-08-30T15:53:50.723Z"
 }

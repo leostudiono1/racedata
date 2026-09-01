@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103941",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103941/",
-  "profile": null,
+  "profile": {
+    "name": "ゴウユウ",
+    "birthDate": "2016-04-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "酒井仁"
+    },
+    "owner": {
+      "id": "099007",
+      "name": "西村專次"
+    },
+    "breeder": {
+      "id": "050365",
+      "name": "二風谷ファーム"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2001107192",
+      "name": "ハナマル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -1747,6 +1777,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴウユウ (Goyu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴウユウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴウユウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1816,9 +1876,9 @@
       "contentHash": "028c6d0cca704c0a42ad449f18774997a43bcc5db9e32d86ec71ebcd29d60234",
       "byteLength": 65014,
       "rawPath": "netkeiba/horses/2016/2016103941/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:42:43.109Z"
+  "updatedAt": "2026-08-27T16:53:57.068Z"
 }

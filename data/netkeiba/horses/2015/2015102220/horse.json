@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102220",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102220/",
-  "profile": null,
+  "profile": {
+    "name": "ポルックス",
+    "birthDate": "2015-03-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "x09393",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "000367",
+      "name": "びらとり牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2005102216",
+      "name": "キャプテントゥーレ"
+    },
+    "dam": {
+      "id": "2004106606",
+      "name": "トウカイウェーブ"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102216",
@@ -4368,6 +4398,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポルックス (Pollux) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポルックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポルックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4437,9 +4497,9 @@
       "contentHash": "bd257445e54a1fcdeee23798f10a11b70f912af3d5f91de46701dd568a402edc",
       "byteLength": 66824,
       "rawPath": "netkeiba/horses/2015/2015102220/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:53:27.940Z"
+  "updatedAt": "2026-08-31T14:58:52.163Z"
 }

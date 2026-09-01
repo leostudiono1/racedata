@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101802",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101802/",
-  "profile": null,
+  "profile": {
+    "name": "チョーズンワン",
+    "birthDate": "2017-04-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "1998100676",
+      "name": "コンプリカーター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Prospector"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1858,6 +1888,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チョーズンワン (Chosen One) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チョーズンワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チョーズンワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1927,9 +1987,9 @@
       "contentHash": "3fcb37f858989ff56e45b378858bf9e505a20a85518cd07609c2edebdee6f680",
       "byteLength": 65295,
       "rawPath": "netkeiba/horses/2017/2017101802/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:36:47.517Z"
+  "updatedAt": "2026-08-26T17:43:42.177Z"
 }

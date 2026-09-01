@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104771",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104771/",
-  "profile": null,
+  "profile": {
+    "name": "ハーフパイント",
+    "birthDate": "2016-04-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2006110018",
+      "name": "シンフォニーライツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Vindication"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -1298,6 +1328,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハーフパイント (Half Pint) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーフパイント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーフパイント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1367,9 +1427,9 @@
       "contentHash": "c20452776e1d25f8ac30dcdd529467d40c37d2c591e076fad964676033f3d529",
       "byteLength": 64936,
       "rawPath": "netkeiba/horses/2016/2016104771/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:20:23.222Z"
+  "updatedAt": "2026-08-30T15:25:04.901Z"
 }

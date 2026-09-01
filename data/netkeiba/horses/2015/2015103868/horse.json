@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103868",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103868/",
-  "profile": null,
+  "profile": {
+    "name": "モッポサン",
+    "birthDate": "2015-03-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00408",
+      "name": "田中清隆"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2001105489",
+      "name": "エバープレゼント"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1815,6 +1845,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モッポサン (Mopposan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モッポサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モッポサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1884,9 +1944,9 @@
       "contentHash": "790b18898456f226871b36bd7c47ea6ddff01d6758e79e025c203cd090bec5ad",
       "byteLength": 65914,
       "rawPath": "netkeiba/horses/2015/2015103868/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:12:34.502Z"
+  "updatedAt": "2026-08-28T16:19:43.245Z"
 }

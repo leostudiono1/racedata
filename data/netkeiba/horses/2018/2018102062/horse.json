@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102062",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102062/",
-  "profile": null,
+  "profile": {
+    "name": "ランスルー",
+    "birthDate": "2018-05-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "041002",
+      "name": "前田晋二"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2009110056",
+      "name": "フェアエレン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3694,6 +3724,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランスルー (Run Through) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランスルー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランスルー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3763,9 +3823,9 @@
       "contentHash": "ddd4fc198cc8d3eedd5f04f48d504331750e3c97387c4b3a375a58201dfa6035",
       "byteLength": 66840,
       "rawPath": "netkeiba/horses/2018/2018102062/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:49:26.183Z"
+  "updatedAt": "2026-08-29T15:54:56.729Z"
 }

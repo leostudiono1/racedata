@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102004",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102004/",
-  "profile": null,
+  "profile": {
+    "name": "ライワルツ",
+    "birthDate": "2016-03-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05767",
+      "name": "松平幸秀"
+    },
+    "owner": {
+      "id": "034009",
+      "name": "森田藤治"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2009106289",
+      "name": "トーコーユズキ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2453,6 +2483,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライワルツ (Ryewalts) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライワルツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライワルツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2522,9 +2582,9 @@
       "contentHash": "f0b399440601f438a6157d29f2f36454e7f0f0cf624b5594ba5b07a0016c602c",
       "byteLength": 64928,
       "rawPath": "netkeiba/horses/2016/2016102004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:42:25.785Z"
+  "updatedAt": "2026-08-24T20:51:33.030Z"
 }

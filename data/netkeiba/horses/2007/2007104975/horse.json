@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2007104975",
   "sourceUrl": "https://db.netkeiba.com/horse/2007104975/",
-  "profile": null,
+  "profile": {
+    "name": "ゲシュタルト",
+    "birthDate": "2007-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00395",
+      "name": "長浜博之"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2001103425",
+      "name": "エンドレスウェルズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -5510,6 +5540,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲシュタルト (Gestalt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲシュタルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲシュタルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5579,9 +5639,9 @@
       "contentHash": "bb9e85defc6f45da0add99e2db5a4803b65c738cd16b77a766b324ef20ae2119",
       "byteLength": 66864,
       "rawPath": "netkeiba/horses/2007/2007104975/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T17:55:49.777Z"
+  "updatedAt": "2026-08-28T16:02:58.714Z"
 }

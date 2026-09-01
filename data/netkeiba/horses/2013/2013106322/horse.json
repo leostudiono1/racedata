@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106322",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106322/",
-  "profile": null,
+  "profile": {
+    "name": "グランノーブル",
+    "birthDate": "2013-03-22",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "372008",
+      "name": "三宅勝俊"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2000110207",
+      "name": "シルクファビュラス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Devil's Bag"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -4839,6 +4869,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランノーブル (Grand Noble) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランノーブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランノーブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4908,9 +4968,9 @@
       "contentHash": "419b52697f3b8adc360dcb77243950dc0ffe58789f7fdcc815e40aa1bfe279c3",
       "byteLength": 66909,
       "rawPath": "netkeiba/horses/2013/2013106322/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:22:05.085Z"
+  "updatedAt": "2026-08-26T17:28:59.949Z"
 }

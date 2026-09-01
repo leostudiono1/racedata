@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106356",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106356/",
-  "profile": null,
+  "profile": {
+    "name": "セイリングデイ",
+    "birthDate": "2012-03-11",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "451800",
+      "name": "ヤナガワ牧場"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2001103446",
+      "name": "ヴォークリンデ"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1653,6 +1683,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイリングデイ (Sailing Day) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイリングデイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイリングデイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1722,9 +1782,9 @@
       "contentHash": "5ac531be7e66cd5c07bfa2a35101f928162f38a816e12226d296c641ed901a31",
       "byteLength": 64862,
       "rawPath": "netkeiba/horses/2012/2012106356/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:03:38.143Z"
+  "updatedAt": "2026-08-30T15:08:19.818Z"
 }

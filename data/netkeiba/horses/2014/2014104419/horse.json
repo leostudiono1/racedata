@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104419",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104419/",
-  "profile": null,
+  "profile": {
+    "name": "デフィ",
+    "birthDate": "2014-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "380033",
+      "name": "佐藤理"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    },
+    "dam": {
+      "id": "2008110014",
+      "name": "ゴールドフェスタ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3257,6 +3287,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デフィ (Defi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デフィ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デフィ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3326,9 +3386,9 @@
       "contentHash": "608574e313a898efb0e2d584814ecb89fb1e42454df2eae059e04e8a38028758",
       "byteLength": 66741,
       "rawPath": "netkeiba/horses/2014/2014104419/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:08:04.852Z"
+  "updatedAt": "2026-08-28T16:15:13.814Z"
 }

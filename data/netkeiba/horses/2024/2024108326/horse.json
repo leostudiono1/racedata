@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024108326",
   "sourceUrl": "https://db.netkeiba.com/horse/2024108326/",
-  "profile": null,
+  "profile": {
+    "name": "ピコキング",
+    "birthDate": "2024-04-10",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "171803",
+      "name": "ビジュピコ"
+    },
+    "breeder": {
+      "id": "170700",
+      "name": "Equus Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Nashville"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Miss Vigilance"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Pass"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -972,6 +1002,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピコキング (Piko King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピコキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピコキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1041,9 +1101,9 @@
       "contentHash": "95b711651cd93e39545d692038cb6dc6860fdae438c03bd64b36656393758b10",
       "byteLength": 64572,
       "rawPath": "netkeiba/horses/2024/2024108326/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:15:21.219Z"
+  "updatedAt": "2026-08-29T16:20:51.708Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105753",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105753/",
-  "profile": null,
+  "profile": {
+    "name": "アデルフィー",
+    "birthDate": "2023-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "853030",
+      "name": "小原準一郎"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012110091",
+      "name": "モーニン"
+    },
+    "dam": {
+      "id": "2013103000",
+      "name": "ソロフライト"
+    },
+    "damsire": {
+      "id": "1998103573",
+      "name": "ミスキャスト"
+    }
+  },
   "pedigree": [
     {
       "id": "2012110091",
@@ -2126,6 +2156,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アデルフィー (Adelphi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アデルフィー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アデルフィー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2195,9 +2255,9 @@
       "contentHash": "b40750e017fc381444ce5c0052233e45298a974660161b0fc4bc079797f15209",
       "byteLength": 65706,
       "rawPath": "netkeiba/horses/2023/2023105753/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:12:18.806Z"
+  "updatedAt": "2026-08-27T17:23:32.522Z"
 }

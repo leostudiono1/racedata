@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105171",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105171/",
-  "profile": null,
+  "profile": {
+    "name": "カルミア",
+    "birthDate": "2012-02-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "051700",
+      "name": "キャピタルクラブ"
+    },
+    "breeder": {
+      "id": "410035",
+      "name": "カナイシスタッド"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001110257",
+      "name": "ヴリル"
+    },
+    "dam": {
+      "id": "2001100212",
+      "name": "ミリオンベル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001110257",
@@ -4021,6 +4051,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カルミア (Kalmia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルミア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルミア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4090,9 +4150,9 @@
       "contentHash": "c9cb2143d1883af0c72495acd479e28575116842703c7b6706bc7bccbe590a87",
       "byteLength": 64642,
       "rawPath": "netkeiba/horses/2012/2012105171/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:24:20.683Z"
+  "updatedAt": "2026-08-29T15:29:51.165Z"
 }

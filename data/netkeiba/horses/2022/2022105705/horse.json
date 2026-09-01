@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105705",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105705/",
-  "profile": null,
+  "profile": {
+    "name": "バルジール",
+    "birthDate": "2022-05-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2013105260",
+      "name": "ソロダンサー"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -2147,6 +2177,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バルジール (Barjeel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルジール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルジール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2216,9 +2276,9 @@
       "contentHash": "667bf4fb28d2d09ff571abf78b733af2c81b04376c34ac89fb6616d2beee5803",
       "byteLength": 64982,
       "rawPath": "netkeiba/horses/2022/2022105705/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:10:38.861Z"
+  "updatedAt": "2026-08-24T21:19:36.998Z"
 }

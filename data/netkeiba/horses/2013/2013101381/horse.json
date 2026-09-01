@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101381",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101381/",
-  "profile": null,
+  "profile": {
+    "name": "カフジビーナス",
+    "birthDate": "2013-04-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "019004",
+      "name": "加藤守"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2002101848",
+      "name": "タッソーニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "テンビー Tenby(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1848,6 +1878,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフジビーナス (Kafuji Venus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジビーナス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジビーナス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1917,9 +1977,9 @@
       "contentHash": "ac0ff901085490673899490c8f13cbdd4a06e9837da173efd3697af4178fa22f",
       "byteLength": 66550,
       "rawPath": "netkeiba/horses/2013/2013101381/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:04:58.615Z"
+  "updatedAt": "2026-08-30T15:09:40.479Z"
 }

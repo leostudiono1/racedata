@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100122",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100122/",
-  "profile": null,
+  "profile": {
+    "name": "テーオーエナジー",
+    "birthDate": "2015-03-11",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "304008",
+      "name": "小笹公也"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2004110099",
+      "name": "シルキークラフト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Crafty Prospector"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -4743,6 +4773,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テーオーエナジー (T O Energy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオーエナジー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオーエナジー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4812,9 +4872,9 @@
       "contentHash": "1d716873e15d1ec663adc984f757fc937f56e68b32532ca1212f9b36cd755b10",
       "byteLength": 66976,
       "rawPath": "netkeiba/horses/2015/2015100122/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:36:28.311Z"
+  "updatedAt": "2026-08-24T20:45:35.935Z"
 }

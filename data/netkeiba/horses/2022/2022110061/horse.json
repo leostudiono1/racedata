@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110061",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110061/",
-  "profile": null,
+  "profile": {
+    "name": "ブレスドナイル",
+    "birthDate": "2022-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "970707",
+      "name": "Chiyoda Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Gun Runner (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Pioneer Queen"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pioneerof the Nile"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2774,6 +2804,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブレスドナイル (Blessed Nile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブレスドナイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブレスドナイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2843,9 +2903,9 @@
       "contentHash": "4ea5e5b5c68b4a27bed85774d8c60a6a1dde4ed7d916cdb51bdc87d096213f06",
       "byteLength": 65816,
       "rawPath": "netkeiba/horses/2022/2022110061/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:37:06.183Z"
+  "updatedAt": "2026-08-25T18:37:57.014Z"
 }

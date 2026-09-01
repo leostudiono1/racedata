@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102922",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102922/",
-  "profile": null,
+  "profile": {
+    "name": "エレグア",
+    "birthDate": "2018-05-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "730033",
+      "name": "豊井義次"
+    },
+    "breeder": {
+      "id": "303065",
+      "name": "森俊雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006100529",
+      "name": "ジョーカプチーノ"
+    },
+    "dam": {
+      "id": "2000100642",
+      "name": "バタラバ"
+    },
+    "damsire": {
+      "id": "1986100672",
+      "name": "バンブービギン"
+    }
+  },
   "pedigree": [
     {
       "id": "2006100529",
@@ -3182,6 +3212,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エレグア (Elegua) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレグア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレグア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3251,9 +3311,9 @@
       "contentHash": "d1e44bec9ae03f2e476d7b7edf8482fc639e9081ed6630672e99d8a2f81734bd",
       "byteLength": 66688,
       "rawPath": "netkeiba/horses/2018/2018102922/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:25:07.283Z"
+  "updatedAt": "2026-08-28T16:32:16.038Z"
 }

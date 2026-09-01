@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102872",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102872/",
-  "profile": null,
+  "profile": {
+    "name": "リアルディール",
+    "birthDate": "2018-05-07",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "629031",
+      "name": "水谷光太郎"
+    },
+    "breeder": {
+      "id": "833058",
+      "name": "三石川上牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005102317",
+      "name": "シビルウォー"
+    },
+    "dam": {
+      "id": "2007103923",
+      "name": "プリンセスティアラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スキャン Scan(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102317",
@@ -3038,6 +3068,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアルディール (Real Deal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルディール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルディール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3107,9 +3167,9 @@
       "contentHash": "312c1f9ea73c40ddf9b851c290b6e93fbbc3d63bc778e534345f8155e5392620",
       "byteLength": 66994,
       "rawPath": "netkeiba/horses/2018/2018102872/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:50:04.836Z"
+  "updatedAt": "2026-08-29T15:55:35.331Z"
 }

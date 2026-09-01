@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101247",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101247/",
-  "profile": null,
+  "profile": {
+    "name": "ツクバジャパン",
+    "birthDate": "2011-01-15",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "576009",
+      "name": "荻原昭二"
+    },
+    "breeder": {
+      "id": "013094",
+      "name": "片山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "2001110183",
+      "name": "ウェディングバレー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Peaks and Valleys"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -2379,6 +2409,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ツクバジャパン (Tsukuba Japan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ツクバジャパン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ツクバジャパン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2448,9 +2508,9 @@
       "contentHash": "e3cee8615b959b099bcc55316949bfac50a0b57382ef801748a07725c8bd67a6",
       "byteLength": 64804,
       "rawPath": "netkeiba/horses/2011/2011101247/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:13:09.783Z"
+  "updatedAt": "2026-08-26T17:20:04.168Z"
 }

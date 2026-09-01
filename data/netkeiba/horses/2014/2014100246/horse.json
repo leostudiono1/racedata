@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100246",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100246/",
-  "profile": null,
+  "profile": {
+    "name": "タケルブラック",
+    "birthDate": "2014-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "748009",
+      "name": "森保彦"
+    },
+    "breeder": {
+      "id": "810339",
+      "name": "五丸農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2006104190",
+      "name": "ゴーバンズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1564,6 +1594,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タケルブラック (Takeru Black) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タケルブラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タケルブラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1633,9 +1693,9 @@
       "contentHash": "ac40098e5efc722ca32d0c7610bd276d771fb6fded49a4d567903f09df48fa85",
       "byteLength": 64627,
       "rawPath": "netkeiba/horses/2014/2014100246/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:29:39.209Z"
+  "updatedAt": "2026-08-29T15:35:09.801Z"
 }

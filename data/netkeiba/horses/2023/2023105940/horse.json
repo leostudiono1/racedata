@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105940",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105940/",
-  "profile": null,
+  "profile": {
+    "name": "ラシッド",
+    "birthDate": "2023-03-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05358",
+      "name": "新田守"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "2010100233",
+      "name": "トーセンアルニカ"
+    },
+    "damsire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2268,6 +2298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラシッド (Rashid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラシッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラシッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2337,9 +2397,9 @@
       "contentHash": "a1112e002b9fe3b7f053bf71ba931d29f90e6fc3c617975fe636a56126202f1c",
       "byteLength": 64953,
       "rawPath": "netkeiba/horses/2023/2023105940/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:40:12.252Z"
+  "updatedAt": "2026-08-25T18:41:02.440Z"
 }

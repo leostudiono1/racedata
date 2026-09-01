@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102455",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102455/",
-  "profile": null,
+  "profile": {
+    "name": "オンザムービー",
+    "birthDate": "2023-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2017104059",
+      "name": "インザムービー"
+    },
+    "damsire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1634,6 +1664,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オンザムービー (On the Movie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザムービー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザムービー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1703,9 +1763,9 @@
       "contentHash": "1585146f9aa2566933e9f2593776b69c27be773a9c6c85a57a70d72058d83b26",
       "byteLength": 67311,
       "rawPath": "netkeiba/horses/2023/2023102455/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:11:29.660Z"
+  "updatedAt": "2026-08-29T16:17:00.100Z"
 }

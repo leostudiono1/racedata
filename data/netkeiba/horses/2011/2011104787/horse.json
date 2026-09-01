@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104787",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104787/",
-  "profile": null,
+  "profile": {
+    "name": "ソードラック",
+    "birthDate": "2011-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "145002",
+      "name": "佐々木徹"
+    },
+    "breeder": {
+      "id": "300337",
+      "name": "シンユウファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2003100364",
+      "name": "クロスバラード"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -2726,6 +2756,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソードラック (Sword Rack) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソードラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソードラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2795,9 +2855,9 @@
       "contentHash": "55847efac3375bb82b41f036d902a0bedcaadd11c5609e1851337322f27d5b02",
       "byteLength": 65259,
       "rawPath": "netkeiba/horses/2011/2011104787/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T16:59:29.554Z"
+  "updatedAt": "2026-08-30T15:04:11.491Z"
 }

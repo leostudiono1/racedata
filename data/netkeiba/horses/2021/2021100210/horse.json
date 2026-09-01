@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100210",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100210/",
-  "profile": null,
+  "profile": {
+    "name": "ドナベティ",
+    "birthDate": "2021-03-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "042033",
+      "name": "小川眞査雄"
+    },
+    "breeder": {
+      "id": "203097",
+      "name": "下屋敷牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2013110023",
+      "name": "ドナルチア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Malibu Moon"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2495,6 +2525,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドナベティ (Dona Betty) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドナベティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドナベティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2564,9 +2624,9 @@
       "contentHash": "7b8e247235b92f684322aced9614d1175f043d7b6295a132143acbb0615e8e4b",
       "byteLength": 66807,
       "rawPath": "netkeiba/horses/2021/2021100210/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:03:25.369Z"
+  "updatedAt": "2026-08-24T21:12:22.943Z"
 }

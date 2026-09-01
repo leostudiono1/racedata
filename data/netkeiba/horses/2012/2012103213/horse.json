@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103213",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103213/",
-  "profile": null,
+  "profile": {
+    "name": "サトノハンナ",
+    "birthDate": "2012-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "790031",
+      "name": "里見治"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2003110083",
+      "name": "マックスイマージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2713,6 +2743,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノハンナ (Satono Hannah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノハンナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノハンナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2782,9 +2842,9 @@
       "contentHash": "75d9578571124c4b8c8edb4033bd59566f9233a854544cde3b64c39b94fe85ed",
       "byteLength": 65541,
       "rawPath": "netkeiba/horses/2012/2012103213/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T17:59:44.177Z"
+  "updatedAt": "2026-08-28T16:06:53.141Z"
 }

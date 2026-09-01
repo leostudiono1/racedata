@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101293",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101293/",
-  "profile": null,
+  "profile": {
+    "name": "ヨシミツ",
+    "birthDate": "2021-02-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "123158",
+      "name": "グッドラック・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2014102140",
+      "name": "ファーマシスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -2532,6 +2562,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヨシミツ (Yoshimitsu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨシミツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨシミツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2601,9 +2661,9 @@
       "contentHash": "9872f5902fd04040b60fac288d284ae5eeb40e67792c3f6d1d1f62583a4fd3a5",
       "byteLength": 65150,
       "rawPath": "netkeiba/horses/2021/2021101293/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:01:23.549Z"
+  "updatedAt": "2026-08-27T17:12:37.461Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104906",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104906/",
-  "profile": null,
+  "profile": {
+    "name": "グランスプリント",
+    "birthDate": "2023-04-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "302800",
+      "name": "辻牧場"
+    },
+    "breeder": {
+      "id": "600011",
+      "name": "谷口牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2014106119",
+      "name": "ドラゴンホマレ"
+    },
+    "damsire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -1316,6 +1346,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランスプリント (Grand Sprint) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランスプリント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランスプリント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1385,9 +1445,9 @@
       "contentHash": "4361562d42095af77c84e232f33c6afaaae1e4cd2df3e6ead4e85318eaa63ee3",
       "byteLength": 66316,
       "rawPath": "netkeiba/horses/2023/2023104906/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:39:33.290Z"
+  "updatedAt": "2026-08-25T18:40:23.830Z"
 }

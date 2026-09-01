@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104030",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104030/",
-  "profile": null,
+  "profile": {
+    "name": "プレストウィック",
+    "birthDate": "2011-04-24",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フーラクサ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Linamix (仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -4406,6 +4436,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレストウィック (Prestwick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレストウィック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレストウィック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4475,9 +4535,9 @@
       "contentHash": "2f06ef5b42cfdb0d7ea7106c9bc372d4d33197799a171ad11975deef9beda658",
       "byteLength": 67543,
       "rawPath": "netkeiba/horses/2011/2011104030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:20:36.514Z"
+  "updatedAt": "2026-08-29T15:26:07.208Z"
 }

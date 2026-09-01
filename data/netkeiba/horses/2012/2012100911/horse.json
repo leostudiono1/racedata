@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100911",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100911/",
-  "profile": null,
+  "profile": {
+    "name": "バニスター",
+    "birthDate": "2012-02-28",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01099",
+      "name": "本田優"
+    },
+    "owner": {
+      "id": "894030",
+      "name": "村上憲政"
+    },
+    "breeder": {
+      "id": "130318",
+      "name": "守矢牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2001104590",
+      "name": "アポロサティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キンググローリアス King Glorious(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3928,6 +3958,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バニスター (Bannister) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バニスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バニスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3997,9 +4057,9 @@
       "contentHash": "b2adcd110972840bec808d1f640d938c5be49d72a286b8a443ab982c2bfb1b75",
       "byteLength": 64741,
       "rawPath": "netkeiba/horses/2012/2012100911/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:00:15.145Z"
+  "updatedAt": "2026-08-30T15:04:56.760Z"
 }

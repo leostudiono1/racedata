@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103930",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103930/",
-  "profile": null,
+  "profile": {
+    "name": "エイジ",
+    "birthDate": "2018-02-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05417",
+      "name": "佐藤雅彦"
+    },
+    "owner": {
+      "id": "775006",
+      "name": "瀬谷隆雄"
+    },
+    "breeder": {
+      "id": "433203",
+      "name": "タイヘイ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2003109313",
+      "name": "ミネルバサウンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -5363,6 +5393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイジ (Eiji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5432,9 +5492,9 @@
       "contentHash": "6ca9f902101d0d3a8b3b5deed3be230e6d8b85f3031c22c714d2ff123e35e129",
       "byteLength": 64805,
       "rawPath": "netkeiba/horses/2018/2018103930/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:50:01.215Z"
+  "updatedAt": "2026-08-27T17:01:14.730Z"
 }

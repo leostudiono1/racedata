@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101842",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101842/",
-  "profile": null,
+  "profile": {
+    "name": "ハッピーペコ",
+    "birthDate": "2017-03-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01026",
+      "name": "鈴木伸尋"
+    },
+    "owner": {
+      "id": "032800",
+      "name": "ローレルレーシング"
+    },
+    "breeder": {
+      "id": "500315",
+      "name": "ハクツ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2005105412",
+      "name": "ポポチャン"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -3978,6 +4008,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハッピーペコ (Happy Peko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーペコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーペコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4047,9 +4107,9 @@
       "contentHash": "fd3a48e6cfe4afa55dce7f8144a3850920a751bfc5985b40291352b35d814f55",
       "byteLength": 67315,
       "rawPath": "netkeiba/horses/2017/2017101842/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:47:29.901Z"
+  "updatedAt": "2026-08-24T20:56:37.533Z"
 }

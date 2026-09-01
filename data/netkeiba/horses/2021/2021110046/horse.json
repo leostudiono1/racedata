@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110046",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110046/",
-  "profile": null,
+  "profile": {
+    "name": "ビカムキング",
+    "birthDate": "2021-03-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05691",
+      "name": "新子雅司"
+    },
+    "owner": {
+      "id": "x0ba12",
+      "name": "伊藤強"
+    },
+    "breeder": {
+      "id": "120863",
+      "name": "Premier Bloodstock"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Kingman (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Bugle"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Front"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2271,6 +2301,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビカムキング (Become King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビカムキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビカムキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2340,9 +2400,9 @@
       "contentHash": "703f4dcf6c2c532b346626f84d2faf65a9305088ffa89fab5ab000027af2877b",
       "byteLength": 65257,
       "rawPath": "netkeiba/horses/2021/2021110046/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:05:39.657Z"
+  "updatedAt": "2026-08-29T16:11:10.123Z"
 }

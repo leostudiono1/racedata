@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102129",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102129/",
-  "profile": null,
+  "profile": {
+    "name": "スマートノエル",
+    "birthDate": "2012-02-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "2006103037",
+      "name": "スマートパルス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -2152,6 +2182,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートノエル (Smart Noel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートノエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートノエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2221,9 +2281,9 @@
       "contentHash": "9a16a9cad124201188529f363f0871cc4608cd09db8f0c4b94be652951cf95a6",
       "byteLength": 66115,
       "rawPath": "netkeiba/horses/2012/2012102129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:25:37.070Z"
+  "updatedAt": "2026-08-24T20:34:44.648Z"
 }

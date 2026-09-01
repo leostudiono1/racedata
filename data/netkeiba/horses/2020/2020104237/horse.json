@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104237",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104237/",
-  "profile": null,
+  "profile": {
+    "name": "トウキチロウ",
+    "birthDate": "2020-02-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "335700",
+      "name": "サンデーヒルズ"
+    },
+    "breeder": {
+      "id": "100541",
+      "name": "サンデーヒルズ"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2007103527",
+      "name": "クランベリー"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1782,6 +1812,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トウキチロウ (Tokichiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トウキチロウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トウキチロウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1851,9 +1911,9 @@
       "contentHash": "8b179cd4867aeb442b2e7cb2a95fb2d9e14fa11a96d48c970ede4cd56f7a04ce",
       "byteLength": 66926,
       "rawPath": "netkeiba/horses/2020/2020104237/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:34:59.002Z"
+  "updatedAt": "2026-08-28T16:42:07.658Z"
 }

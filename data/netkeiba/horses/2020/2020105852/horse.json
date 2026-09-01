@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105852",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105852/",
-  "profile": null,
+  "profile": {
+    "name": "ケレス",
+    "birthDate": "2020-03-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05291",
+      "name": "西村守幸"
+    },
+    "owner": {
+      "id": "x06e26",
+      "name": "（株）ファーストビジ"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2015100780",
+      "name": "プトラナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2615,6 +2645,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケレス (Ceres) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2684,9 +2744,9 @@
       "contentHash": "1bf3187b42c99736427ab195e4fef1926964de04a8d1c76c199f95401a638ec6",
       "byteLength": 65102,
       "rawPath": "netkeiba/horses/2020/2020105852/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:00:45.444Z"
+  "updatedAt": "2026-08-29T16:06:16.021Z"
 }

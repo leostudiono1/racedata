@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101647",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101647/",
-  "profile": null,
+  "profile": {
+    "name": "マイターン",
+    "birthDate": "2012-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01036",
+      "name": "高橋義博"
+    },
+    "owner": {
+      "id": "871006",
+      "name": "高橋信博"
+    },
+    "breeder": {
+      "id": "413393",
+      "name": "豊郷牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2001102131",
+      "name": "ドリームシフト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1531,6 +1561,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイターン (My Turn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイターン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイターン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1600,9 +1660,9 @@
       "contentHash": "efa02973883da8363bf4502969152aa999120e82ea0d103e81d8bff4d2f878ed",
       "byteLength": 64329,
       "rawPath": "netkeiba/horses/2012/2012101647/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:22:28.584Z"
+  "updatedAt": "2026-08-29T15:27:59.159Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100025",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100025/",
-  "profile": null,
+  "profile": {
+    "name": "クィーンアリス",
+    "birthDate": "2014-04-20",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "宮川浩一"
+    },
+    "owner": {
+      "id": "677009",
+      "name": "西森鶴"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2009106276",
+      "name": "アリスマイン"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -4386,6 +4416,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クィーンアリス (Queen Alice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クィーンアリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クィーンアリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4455,9 +4515,9 @@
       "contentHash": "597d80e9de219447c26add60298de7064e7da7490b697d2a9cb1df269c27d600",
       "byteLength": 65053,
       "rawPath": "netkeiba/horses/2014/2014100025/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:32:27.078Z"
+  "updatedAt": "2026-08-27T16:43:40.788Z"
 }

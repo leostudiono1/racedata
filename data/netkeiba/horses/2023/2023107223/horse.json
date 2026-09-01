@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107223",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107223/",
-  "profile": null,
+  "profile": {
+    "name": "フローライト",
+    "birthDate": "2023-02-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "森泰斗"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2015110069",
+      "name": "ペルペトゥオ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pioneerof the Nile"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1567,6 +1597,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フローライト (Fluorite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フローライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フローライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1636,9 +1696,9 @@
       "contentHash": "939dcf22dbdae99e59560ee2fc78c75d20605af5a915a5efd7b9eaacfab0c7ca",
       "byteLength": 67078,
       "rawPath": "netkeiba/horses/2023/2023107223/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:52:25.573Z"
+  "updatedAt": "2026-08-30T15:57:06.941Z"
 }

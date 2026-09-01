@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100049",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100049/",
-  "profile": null,
+  "profile": {
+    "name": "アナポリス",
+    "birthDate": "2022-05-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "208008",
+      "name": "窪田芳郎"
+    },
+    "breeder": {
+      "id": "313198",
+      "name": "恵比寿牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オトヒメII Otohime(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1204,6 +1234,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アナポリス (Annapolis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アナポリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アナポリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1273,9 +1333,9 @@
       "contentHash": "2c4cb84542fa506b60381bb7f7569a4cc6b629152017f8aadfb1720b5cad325c",
       "byteLength": 66746,
       "rawPath": "netkeiba/horses/2022/2022100049/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:04:29.618Z"
+  "updatedAt": "2026-08-27T17:15:42.875Z"
 }

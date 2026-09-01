@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101475",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101475/",
-  "profile": null,
+  "profile": {
+    "name": "ストレガ",
+    "birthDate": "2017-03-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "847033",
+      "name": "清川信弘"
+    },
+    "breeder": {
+      "id": "630332",
+      "name": "佐藤静子"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110139",
+      "name": "アポロキングダム"
+    },
+    "dam": {
+      "id": "2005105068",
+      "name": "レイクマーメイド"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110139",
@@ -3426,6 +3456,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストレガ (Strega) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストレガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストレガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3495,9 +3555,9 @@
       "contentHash": "85566b5612c9c9996ace6601b3d8aa8450a6dcf909c1896d276e0f851896a3b7",
       "byteLength": 66734,
       "rawPath": "netkeiba/horses/2017/2017101475/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:02:09.400Z"
+  "updatedAt": "2026-08-31T15:07:30.239Z"
 }

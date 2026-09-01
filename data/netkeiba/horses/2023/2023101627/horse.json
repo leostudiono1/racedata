@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101627",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101627/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーハーツ",
+    "birthDate": "2023-03-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05311",
+      "name": "角川秀樹"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "230361",
+      "name": "若林順一"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015102440",
+      "name": "エポカドーロ"
+    },
+    "dam": {
+      "id": "2012104132",
+      "name": "ユニヴァースパール"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102440",
@@ -1728,6 +1758,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーハーツ (Blue Hearts) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーハーツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーハーツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1797,9 +1857,9 @@
       "contentHash": "90b41a90de0ee66efd7857ec48112d5a0f89507aa65c48c73d3c7a674fe06101",
       "byteLength": 64676,
       "rawPath": "netkeiba/horses/2023/2023101627/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:11:01.835Z"
+  "updatedAt": "2026-08-29T16:16:32.112Z"
 }

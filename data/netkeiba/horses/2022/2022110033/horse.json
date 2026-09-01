@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110033",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110033/",
-  "profile": null,
+  "profile": {
+    "name": "アッケシ",
+    "birthDate": "2022-02-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05704",
+      "name": "飯田良弘"
+    },
+    "owner": {
+      "id": "597033",
+      "name": "庄司修二"
+    },
+    "breeder": {
+      "id": "830708",
+      "name": "Godolphin"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Blue Point"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ishitaki"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Interprete"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2943,6 +2973,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アッケシ (Akkeshi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アッケシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アッケシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3012,9 +3072,9 @@
       "contentHash": "2dee404d8fefa07c3370901369025d966457243ab66861b5e94dcfb904c8c95e",
       "byteLength": 66410,
       "rawPath": "netkeiba/horses/2022/2022110033/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T20:01:10.874Z"
+  "updatedAt": "2026-08-26T18:08:05.606Z"
 }

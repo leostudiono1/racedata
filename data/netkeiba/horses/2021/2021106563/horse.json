@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106563",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106563/",
-  "profile": null,
+  "profile": {
+    "name": "イクリール",
+    "birthDate": "2021-04-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104759",
+      "name": "シュヴァルグラン"
+    },
+    "dam": {
+      "id": "2004102891",
+      "name": "エンプレスティアラ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104759",
@@ -2595,6 +2625,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イクリール (Iklil) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イクリール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イクリール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2664,9 +2724,9 @@
       "contentHash": "f13641ca350f3a849c922a8a617c00b90ace0906ecbdc066b11f664d1b947213",
       "byteLength": 67229,
       "rawPath": "netkeiba/horses/2021/2021106563/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:40:59.722Z"
+  "updatedAt": "2026-08-28T16:48:08.262Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103456",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103456/",
-  "profile": null,
+  "profile": {
+    "name": "ナヴォーナ",
+    "birthDate": "2020-01-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セリエンホルデ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Soldier Hollow"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2404,6 +2434,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナヴォーナ (Navona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナヴォーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナヴォーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2473,9 +2533,9 @@
       "contentHash": "9d4aae5afc68cc940c814ba4ca1d6492829d2585ed5aa389ede167c4c5008a4b",
       "byteLength": 66868,
       "rawPath": "netkeiba/horses/2020/2020103456/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:58:00.443Z"
+  "updatedAt": "2026-08-27T17:09:14.293Z"
 }

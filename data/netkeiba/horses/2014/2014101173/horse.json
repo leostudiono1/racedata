@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101173",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101173/",
-  "profile": null,
+  "profile": {
+    "name": "アディラート",
+    "birthDate": "2014-02-13",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05673",
+      "name": "森下淳平"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "611098",
+      "name": "タガミファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2007102800",
+      "name": "ナリタブルースター"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -5993,6 +6023,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アディラート (Adirato) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アディラート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アディラート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6062,9 +6122,9 @@
       "contentHash": "e38f00ae9a4cf91421475c3923405150f16dbf830be82ada9afb312384dd13a9",
       "byteLength": 66880,
       "rawPath": "netkeiba/horses/2014/2014101173/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:23:25.794Z"
+  "updatedAt": "2026-08-26T17:30:20.296Z"
 }

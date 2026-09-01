@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101835",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101835/",
-  "profile": null,
+  "profile": {
+    "name": "イセベイ",
+    "birthDate": "2020-05-06",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05775",
+      "name": "石橋満"
+    },
+    "owner": {
+      "id": "471031",
+      "name": "中平和宏"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2010100652",
+      "name": "ハーロンベイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3945,6 +3975,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イセベイ (Ise Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イセベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イセベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4014,9 +4074,9 @@
       "contentHash": "fbc25994c228229665b9243436f352c0419aa2574166ab2b60e5d93031a05dd2",
       "byteLength": 66658,
       "rawPath": "netkeiba/horses/2020/2020101835/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:23:02.447Z"
+  "updatedAt": "2026-08-25T18:23:53.163Z"
 }

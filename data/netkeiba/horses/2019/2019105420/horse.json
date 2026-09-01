@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105420",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105420/",
-  "profile": null,
+  "profile": {
+    "name": "シウン",
+    "birthDate": "2019-02-08",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "098803",
+      "name": "Ｇリビエール・レーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ベルワトリング Belle Watling(智)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dushyantor"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -4526,6 +4556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シウン (Shiun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4595,9 +4655,9 @@
       "contentHash": "63885822725fd91e2beb363cf2d7d8c705d91eca5c545246d9e702d6baf57d31",
       "byteLength": 66785,
       "rawPath": "netkeiba/horses/2019/2019105420/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:32:49.385Z"
+  "updatedAt": "2026-08-30T15:37:30.507Z"
 }

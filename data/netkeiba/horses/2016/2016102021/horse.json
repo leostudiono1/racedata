@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102021",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102021/",
-  "profile": null,
+  "profile": {
+    "name": "ドンキースタイル",
+    "birthDate": "2016-05-05",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "細川忠義"
+    },
+    "owner": {
+      "id": "x0aff7",
+      "name": "谷口信喜"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2009110045",
+      "name": "ケイティーズミスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Posse"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -6516,6 +6546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドンキースタイル (Donki Style) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドンキースタイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドンキースタイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6585,9 +6645,9 @@
       "contentHash": "7754af57fab25fe19f62b1934251abb14b3c7ebca3bde6aa8a21c20e3936f74d",
       "byteLength": 67042,
       "rawPath": "netkeiba/horses/2016/2016102021/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:18:38.153Z"
+  "updatedAt": "2026-08-30T15:23:19.681Z"
 }

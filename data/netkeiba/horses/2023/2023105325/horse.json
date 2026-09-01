@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105325",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105325/",
-  "profile": null,
+  "profile": {
+    "name": "ラヴノー",
+    "birthDate": "2023-01-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01163",
+      "name": "林徹"
+    },
+    "owner": {
+      "id": "486031",
+      "name": "徳永雅樹"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フィールザレース Feel The Race(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Orpen"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1520,6 +1550,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラヴノー (Raveneau) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラヴノー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラヴノー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1589,9 +1649,9 @@
       "contentHash": "c38f821a657c2fbea4b3bcac31e4c2b948e00e8973bdd8ce1f146ceadf627479",
       "byteLength": 66540,
       "rawPath": "netkeiba/horses/2023/2023105325/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:11:57.304Z"
+  "updatedAt": "2026-08-27T17:23:11.141Z"
 }

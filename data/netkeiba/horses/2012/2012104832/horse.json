@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104832",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104832/",
-  "profile": null,
+  "profile": {
+    "name": "レレオーネ",
+    "birthDate": "2012-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ポトリザリス Potrizaris(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Potrillazo"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3513,6 +3543,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レレオーネ (Re Leone) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レレオーネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レレオーネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3582,9 +3642,9 @@
       "contentHash": "b8ccd2a25285d6665422dce83d5a4a705544d944397a39fb04af453bd82e1462",
       "byteLength": 67207,
       "rawPath": "netkeiba/horses/2012/2012104832/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:17:25.433Z"
+  "updatedAt": "2026-08-26T17:24:20.028Z"
 }

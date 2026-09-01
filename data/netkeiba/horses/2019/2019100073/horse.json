@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100073",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100073/",
-  "profile": null,
+  "profile": {
+    "name": "エンベルト",
+    "birthDate": "2019-03-18",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05773",
+      "name": "市村誠"
+    },
+    "owner": {
+      "id": "917031",
+      "name": "八嶋長久"
+    },
+    "breeder": {
+      "id": "910331",
+      "name": "イワミ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2014100084",
+      "name": "コウセイエリザベス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -3040,6 +3070,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エンベルト (Emberto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンベルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンベルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3109,9 +3169,9 @@
       "contentHash": "395acb7405ba8d49e797c179347b46184215265800a843a4d78fa27c82d0d700",
       "byteLength": 66618,
       "rawPath": "netkeiba/horses/2019/2019100073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:30:08.254Z"
+  "updatedAt": "2026-08-30T15:34:49.462Z"
 }

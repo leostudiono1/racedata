@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103621",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103621/",
-  "profile": null,
+  "profile": {
+    "name": "フジクイーン",
+    "birthDate": "2013-05-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "411030",
+      "name": "平口信行"
+    },
+    "breeder": {
+      "id": "260543",
+      "name": "笹島智則"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "1999106815",
+      "name": "ベア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2466,6 +2496,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フジクイーン (Fuji Queen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジクイーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジクイーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2535,9 +2595,9 @@
       "contentHash": "4aa8c79c9631583ac8c9f007bba44e67f3b490795232adac455b368ee3cf2ec2",
       "byteLength": 65058,
       "rawPath": "netkeiba/horses/2013/2013103621/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:30:07.872Z"
+  "updatedAt": "2026-08-27T16:41:20.746Z"
 }

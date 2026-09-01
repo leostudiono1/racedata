@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101675",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101675/",
-  "profile": null,
+  "profile": {
+    "name": "パロパロ",
+    "birthDate": "2011-02-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01090",
+      "name": "天間昭一"
+    },
+    "owner": {
+      "id": "978800",
+      "name": "ＬＳ．Ｍ"
+    },
+    "breeder": {
+      "id": "633066",
+      "name": "井高牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "1997101807",
+      "name": "ブロードウェイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Woodman"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -2946,6 +2976,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パロパロ (Paruparo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パロパロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パロパロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3015,9 +3075,9 @@
       "contentHash": "5fb61554d740ca6587c889019bab2f6156d577a3880675a448d5ad1ff04ae8bb",
       "byteLength": 64652,
       "rawPath": "netkeiba/horses/2011/2011101675/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:39:38.166Z"
+  "updatedAt": "2026-08-31T14:45:02.220Z"
 }

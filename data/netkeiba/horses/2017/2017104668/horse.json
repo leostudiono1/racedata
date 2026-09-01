@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104668",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104668/",
-  "profile": null,
+  "profile": {
+    "name": "ヘライア",
+    "birthDate": "2017-03-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01059",
+      "name": "加藤征弘"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2009105795",
+      "name": "ウィケットキーパー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -2739,6 +2769,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘライア (Heraea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘライア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘライア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2808,9 +2868,9 @@
       "contentHash": "b0d437c4b25296612102a3424c1393457a67e0134b6b159e16c647188e366eb2",
       "byteLength": 66805,
       "rawPath": "netkeiba/horses/2017/2017104668/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:24:10.592Z"
+  "updatedAt": "2026-08-30T15:28:52.225Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110138",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110138/",
-  "profile": null,
+  "profile": {
+    "name": "レッドカフラー",
+    "birthDate": "2020-04-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01168",
+      "name": "上村洋行"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "790862",
+      "name": "Kinsman Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "A.P. Dream"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1281,6 +1311,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドカフラー (Red Khafra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドカフラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドカフラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1350,9 +1410,9 @@
       "contentHash": "cddac501fcef216edf18bb1bb9550cc3349339a7177ca83f242a34324c033fab",
       "byteLength": 67216,
       "rawPath": "netkeiba/horses/2020/2020110138/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:01:45.003Z"
+  "updatedAt": "2026-08-29T16:07:15.497Z"
 }

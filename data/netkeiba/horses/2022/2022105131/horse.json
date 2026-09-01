@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105131",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105131/",
-  "profile": null,
+  "profile": {
+    "name": "キューティリップ",
+    "birthDate": "2022-02-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "166033",
+      "name": "小濱忠一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リップスポイズン Lips Poison(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mamool"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2743,6 +2773,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キューティリップ (Cutie Lip) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キューティリップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キューティリップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2812,9 +2872,9 @@
       "contentHash": "893ea53c78f8a43019f48fc34353ade952c39f2fef63a241a0abe0de6b3a7120",
       "byteLength": 67084,
       "rawPath": "netkeiba/horses/2022/2022105131/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:08:41.666Z"
+  "updatedAt": "2026-08-29T16:14:12.087Z"
 }

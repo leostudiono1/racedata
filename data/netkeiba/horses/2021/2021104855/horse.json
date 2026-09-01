@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104855",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104855/",
-  "profile": null,
+  "profile": {
+    "name": "ホーエリート",
+    "birthDate": "2021-04-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "231033",
+      "name": "吉田晴哉"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2012103991",
+      "name": "ゴールデンハープ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2598,6 +2628,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホーエリート (Hohelied) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホーエリート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホーエリート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2667,9 +2727,9 @@
       "contentHash": "4adb9ce4eef83fd3539d47c46e35c79a291986e69ab13ff7d4a66fcddb18c034",
       "byteLength": 66945,
       "rawPath": "netkeiba/horses/2021/2021104855/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:04:01.552Z"
+  "updatedAt": "2026-08-29T16:09:32.053Z"
 }

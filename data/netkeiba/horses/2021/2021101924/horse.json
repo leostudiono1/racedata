@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101924",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101924/",
-  "profile": null,
+  "profile": {
+    "name": "フィオライア",
+    "birthDate": "2021-03-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01216",
+      "name": "柴田卓"
+    },
+    "owner": {
+      "id": "321800",
+      "name": "友駿ホースクラブ"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2011100790",
+      "name": "フルールシチー"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -2818,6 +2848,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィオライア (Fioraia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィオライア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィオライア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2887,9 +2947,9 @@
       "contentHash": "c51dec7691e20c5d50e7040409d6528a4afa35a61002e731df05972af34d61df",
       "byteLength": 67350,
       "rawPath": "netkeiba/horses/2021/2021101924/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:20:11.417Z"
+  "updatedAt": "2026-08-31T15:25:32.098Z"
 }

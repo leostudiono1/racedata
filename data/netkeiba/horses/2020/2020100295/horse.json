@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100295",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100295/",
-  "profile": null,
+  "profile": {
+    "name": "メリトリオ",
+    "birthDate": "2020-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2012100609",
+      "name": "アミーキティア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2384,6 +2414,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メリトリオ (Meritorio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリトリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリトリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2453,9 +2513,9 @@
       "contentHash": "4ecfc0383a9b4451153d06e105929606d08b1fb7e145b93f5b9fb9a1e9d227dd",
       "byteLength": 66741,
       "rawPath": "netkeiba/horses/2020/2020100295/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:34:16.403Z"
+  "updatedAt": "2026-08-30T15:38:58.000Z"
 }

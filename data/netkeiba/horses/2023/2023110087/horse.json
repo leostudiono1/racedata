@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110087",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110087/",
-  "profile": null,
+  "profile": {
+    "name": "ウェイヨー",
+    "birthDate": "2023-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "860711",
+      "name": "Stephanie Baltzan"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Upstart"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sister Marette"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cuvee"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1573,6 +1603,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウェイヨー (Wey Yo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェイヨー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェイヨー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1642,9 +1702,9 @@
       "contentHash": "267e9a0bbbe7a02ece7daf453f7531c09fb4392bf79d4b6bac5118265e42bced",
       "byteLength": 65887,
       "rawPath": "netkeiba/horses/2023/2023110087/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:14:28.756Z"
+  "updatedAt": "2026-08-29T16:19:58.809Z"
 }

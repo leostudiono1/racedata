@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106211",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106211/",
-  "profile": null,
+  "profile": {
+    "name": "スリールーディカ",
+    "birthDate": "2023-04-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01218",
+      "name": "橋田宜長"
+    },
+    "owner": {
+      "id": "061800",
+      "name": "永井商事"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015100991",
+      "name": "Saxon Warrior (安平町)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ルーディカ Roodica(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Due Diligence"
+    }
+  },
   "pedigree": [
     {
       "id": "2015100991",
@@ -1497,6 +1527,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリールーディカ (Three Roodica) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリールーディカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリールーディカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1566,9 +1626,9 @@
       "contentHash": "58488198615224c77b5ef9b10031c68eb9683c960562d9aa9c8bf9bcce17c082",
       "byteLength": 65911,
       "rawPath": "netkeiba/horses/2023/2023106211/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:51:39.810Z"
+  "updatedAt": "2026-08-30T15:56:21.311Z"
 }

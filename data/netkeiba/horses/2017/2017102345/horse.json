@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102345",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102345/",
-  "profile": null,
+  "profile": {
+    "name": "ナンバーフォー",
+    "birthDate": "2017-05-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "403095",
+      "name": "木田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "エスケンデレヤ"
+    },
+    "dam": {
+      "id": "2004110077",
+      "name": "エーシンマリポーサ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pulpit"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3366,6 +3396,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナンバーフォー (Number Four) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナンバーフォー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナンバーフォー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3435,9 +3495,9 @@
       "contentHash": "2a511f71b4ce84247550b7ef99a948eea86bdfdf4451e79bd8e6f1eb82c67566",
       "byteLength": 66919,
       "rawPath": "netkeiba/horses/2017/2017102345/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:45:24.559Z"
+  "updatedAt": "2026-08-29T15:50:55.115Z"
 }

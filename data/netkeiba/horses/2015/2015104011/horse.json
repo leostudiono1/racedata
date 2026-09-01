@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104011",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104011/",
-  "profile": null,
+  "profile": {
+    "name": "カラフル",
+    "birthDate": "2015-03-05",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00402",
+      "name": "谷原義明"
+    },
+    "owner": {
+      "id": "149007",
+      "name": "平岡茂樹"
+    },
+    "breeder": {
+      "id": "203374",
+      "name": "平岡牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2002100182",
+      "name": "ミスソヴリン"
+    },
+    "damsire": {
+      "id": "1981100841",
+      "name": "ワカオライデン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1331,6 +1361,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラフル (Colorful) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラフル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラフル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1400,9 +1460,9 @@
       "contentHash": "e84d50695c9ede2cf74867297c2614036e60dd6da3933604081d53f35aa2493a",
       "byteLength": 65445,
       "rawPath": "netkeiba/horses/2015/2015104011/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:12:48.671Z"
+  "updatedAt": "2026-08-28T16:19:57.229Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110045",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110045/",
-  "profile": null,
+  "profile": {
+    "name": "ネオフィロ",
+    "birthDate": "2021-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "004060",
+      "name": "Ｈ．Ｈ．シェイク・ハムダン"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Teofilo"
+    },
+    "dam": {
+      "id": "000",
+      "name": "New Style"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1382,6 +1412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネオフィロ (Neofilo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオフィロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオフィロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1451,9 +1511,9 @@
       "contentHash": "937543294e831d72fb6ab4b649a829cf0ad31d4df26bc6cdbebaf1cbe2e707c1",
       "byteLength": 66844,
       "rawPath": "netkeiba/horses/2021/2021110045/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:32:26.049Z"
+  "updatedAt": "2026-08-25T18:33:16.996Z"
 }

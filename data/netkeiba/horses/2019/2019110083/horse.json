@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110083",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110083/",
-  "profile": null,
+  "profile": {
+    "name": "メリーセンス",
+    "birthDate": "2019-03-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05586",
+      "name": "柏原誠路"
+    },
+    "owner": {
+      "id": "338033",
+      "name": "冨士井直哉"
+    },
+    "breeder": {
+      "id": "020739",
+      "name": "Sun Valley Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Chausie"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bluegrass Cat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5572,6 +5602,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メリーセンス (Merry Sense) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリーセンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリーセンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5641,9 +5701,9 @@
       "contentHash": "6c712632ab6a8446797634d3c0eb4ebdaef86c89c9d6a7f55919e8f243be7ea5",
       "byteLength": 67014,
       "rawPath": "netkeiba/horses/2019/2019110083/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:21:48.894Z"
+  "updatedAt": "2026-08-25T18:22:39.823Z"
 }

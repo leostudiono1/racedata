@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103367",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103367/",
-  "profile": null,
+  "profile": {
+    "name": "サンシロウ",
+    "birthDate": "2014-05-14",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01189",
+      "name": "堀内岳志"
+    },
+    "owner": {
+      "id": "020803",
+      "name": "三度屋"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2002102852",
+      "name": "テンイムホウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -6652,6 +6682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンシロウ (Sanshiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンシロウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンシロウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6721,9 +6781,9 @@
       "contentHash": "f66fecb28b55c51e9315bc1acf336a419fa520fc7819cecdf425775fb7385436",
       "byteLength": 66825,
       "rawPath": "netkeiba/horses/2014/2014103367/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:06:58.562Z"
+  "updatedAt": "2026-08-28T16:14:07.228Z"
 }

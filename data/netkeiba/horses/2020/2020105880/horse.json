@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105880",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105880/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムネイア",
+    "birthDate": "2020-03-20",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05738",
+      "name": "平山宏秀"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2011105310",
+      "name": "フラワーハート"
+    },
+    "damsire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2874,6 +2904,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムネイア (T M Neia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムネイア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムネイア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2943,9 +3003,9 @@
       "contentHash": "2fac32fda1b311432ff10fd186e76b25416c13cd6e765d414d73da151df7ce94",
       "byteLength": 65792,
       "rawPath": "netkeiba/horses/2020/2020105880/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:36:19.526Z"
+  "updatedAt": "2026-08-28T16:43:28.257Z"
 }

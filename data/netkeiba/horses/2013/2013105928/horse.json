@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105928",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105928/",
-  "profile": null,
+  "profile": {
+    "name": "レジェ",
+    "birthDate": "2013-05-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2001103362",
+      "name": "ジャッキーテースト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "カーネギー Carnegie(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1820,6 +1850,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レジェ (Leger) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レジェ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レジェ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1889,9 +1949,9 @@
       "contentHash": "9d9b9d58b0f2798638f38775ab10c34099b4544b47638d41a0258a55beb177e4",
       "byteLength": 67221,
       "rawPath": "netkeiba/horses/2013/2013105928/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:04:31.384Z"
+  "updatedAt": "2026-08-28T16:11:40.459Z"
 }

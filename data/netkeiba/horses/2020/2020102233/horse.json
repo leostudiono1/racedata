@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102233",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102233/",
-  "profile": null,
+  "profile": {
+    "name": "ノアパラダイス",
+    "birthDate": "2020-04-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "川野勇馬"
+    },
+    "owner": {
+      "id": "861002",
+      "name": "佐山公男"
+    },
+    "breeder": {
+      "id": "733329",
+      "name": "増尾牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012101402",
+      "name": "グレーターロンドン"
+    },
+    "dam": {
+      "id": "2006102878",
+      "name": "アンプレショニスト"
+    },
+    "damsire": {
+      "id": "1995107978",
+      "name": "エアジハード"
+    }
+  },
   "pedigree": [
     {
       "id": "2012101402",
@@ -1352,6 +1382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノアパラダイス (Noah Paradise) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノアパラダイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノアパラダイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1421,9 +1481,9 @@
       "contentHash": "26a9002e07420540768fd847625c1000f11436584433a7e87bdf80ca1d2de6ee",
       "byteLength": 64943,
       "rawPath": "netkeiba/horses/2020/2020102233/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:23:40.911Z"
+  "updatedAt": "2026-08-25T18:24:31.636Z"
 }

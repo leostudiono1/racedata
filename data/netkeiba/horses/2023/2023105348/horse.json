@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105348",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105348/",
-  "profile": null,
+  "profile": {
+    "name": "ジョーカー",
+    "birthDate": "2023-02-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2015105038",
+      "name": "ローズベリル"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1957,6 +1987,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョーカー (Joker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョーカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョーカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2026,9 +2086,9 @@
       "contentHash": "725afcaf9d600d82279af0733a31ea30d67ca22aec24d227d3253c6ca18498bc",
       "byteLength": 66186,
       "rawPath": "netkeiba/horses/2023/2023105348/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:39:43.768Z"
+  "updatedAt": "2026-08-25T18:40:34.553Z"
 }

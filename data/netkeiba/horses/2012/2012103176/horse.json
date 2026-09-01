@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103176",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103176/",
-  "profile": null,
+  "profile": {
+    "name": "クドース",
+    "birthDate": "2012-01-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "514008",
+      "name": "窪田康志"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2007110086",
+      "name": "ソングオブプライズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -9298,6 +9328,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クドース (Kudos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クドース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クドース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9367,9 +9427,9 @@
       "contentHash": "fa0d8afbaf3dc6b1dde40ed97b432b4a17b05bc5bc53c6822754989c9767f266",
       "byteLength": 64394,
       "rawPath": "netkeiba/horses/2012/2012103176/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:01:18.437Z"
+  "updatedAt": "2026-08-30T15:06:00.279Z"
 }

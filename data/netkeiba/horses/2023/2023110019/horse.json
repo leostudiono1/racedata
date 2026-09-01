@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110019",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110019/",
-  "profile": null,
+  "profile": {
+    "name": "ラッキースウィッチ",
+    "birthDate": "2023-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "015060",
+      "name": "張月勝"
+    },
+    "breeder": {
+      "id": "140713",
+      "name": "Yulong Investments"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Lucky Vega"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Switch Around"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1582,6 +1612,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラッキースウィッチ (Lucky Switch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキースウィッチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキースウィッチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1651,9 +1711,9 @@
       "contentHash": "c07b80f0d1455f5113669420cb470a44e1c339ff64adc6122e6b6f0b2aa3e2b7",
       "byteLength": 66312,
       "rawPath": "netkeiba/horses/2023/2023110019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T20:06:04.955Z"
+  "updatedAt": "2026-08-26T18:12:59.688Z"
 }

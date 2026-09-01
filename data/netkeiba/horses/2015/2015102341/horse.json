@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102341",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102341/",
-  "profile": null,
+  "profile": {
+    "name": "デニストン",
+    "birthDate": "2015-02-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00886",
+      "name": "田中正二"
+    },
+    "owner": {
+      "id": "822033",
+      "name": "和田博美"
+    },
+    "breeder": {
+      "id": "203091",
+      "name": "加野牧場"
+    },
+    "birthplace": "新ひだか",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2003107264",
+      "name": "ブルーポラリス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウェイオブライト Way of Light(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -7911,6 +7941,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デニストン (Denniston) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デニストン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デニストン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7980,9 +8040,9 @@
       "contentHash": "a099cf435ec36cc5d2bd5dbe39e1512805e73a8b6ceaa82ea89e21a318a493e6",
       "byteLength": 66926,
       "rawPath": "netkeiba/horses/2015/2015102341/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:11:28.064Z"
+  "updatedAt": "2026-08-28T16:18:36.869Z"
 }

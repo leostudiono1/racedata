@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110112",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110112/",
-  "profile": null,
+  "profile": {
+    "name": "アイスパステル",
+    "birthDate": "2014-04-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "830867",
+      "name": "Dr. Masatake Iida"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Shackleford"
+    },
+    "dam": {
+      "id": "1998105999",
+      "name": "ミリオンギフト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1347,6 +1377,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイスパステル (Ice Pastel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイスパステル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイスパステル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1416,9 +1476,9 @@
       "contentHash": "5c473703cee90a87d0a897d2ee12d60723eaa6ece197132a126e5edf772bfce8",
       "byteLength": 64640,
       "rawPath": "netkeiba/horses/2014/2014110112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:13:36.814Z"
+  "updatedAt": "2026-08-30T15:18:18.721Z"
 }

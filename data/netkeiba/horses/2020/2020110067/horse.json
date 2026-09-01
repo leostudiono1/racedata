@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110067",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110067/",
-  "profile": null,
+  "profile": {
+    "name": "カウピリ",
+    "birthDate": "2020-02-10",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05503",
+      "name": "上杉昌宏"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "080706",
+      "name": "North Hills Co. Limited"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Frosted (米)"
+    },
+    "dam": {
+      "id": "2000105086",
+      "name": "ヘヴンリーロマンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2399,6 +2429,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カウピリ (Kaupili) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カウピリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カウピリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2468,9 +2528,9 @@
       "contentHash": "c5f69eb253d8e5164777c21fd812a67c2d424f0c1065b959a5915275bd300070",
       "byteLength": 66782,
       "rawPath": "netkeiba/horses/2020/2020110067/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:37:08.602Z"
+  "updatedAt": "2026-08-28T16:44:17.543Z"
 }

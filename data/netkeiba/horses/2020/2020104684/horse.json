@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104684",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104684/",
-  "profile": null,
+  "profile": {
+    "name": "フレンドローズ",
+    "birthDate": "2020-04-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "145030",
+      "name": "横尾晴人"
+    },
+    "breeder": {
+      "id": "803469",
+      "name": "原弘之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2001103200",
+      "name": "ダイワノブレス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1627,6 +1657,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フレンドローズ (Friend Rose) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレンドローズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレンドローズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1696,9 +1756,9 @@
       "contentHash": "e47c491c5afcebbd7790dd41629dfadced4614067c17183d36189dbce465ed9a",
       "byteLength": 65545,
       "rawPath": "netkeiba/horses/2020/2020104684/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:36:43.553Z"
+  "updatedAt": "2026-08-30T15:41:24.993Z"
 }

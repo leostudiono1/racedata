@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101652",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101652/",
-  "profile": null,
+  "profile": {
+    "name": "カタスミ",
+    "birthDate": "2013-04-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00383",
+      "name": "伊藤正徳"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "700313",
+      "name": "飛渡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    },
+    "dam": {
+      "id": "2007102703",
+      "name": "ヒシイサベル"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2005101358",
@@ -8021,6 +8051,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カタスミ (Katasumi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カタスミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カタスミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8090,9 +8150,9 @@
       "contentHash": "e1f576162a832126864193ba4a47865d5098410a93ca06272c2f23f1e3cdace1",
       "byteLength": 66954,
       "rawPath": "netkeiba/horses/2013/2013101652/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:29:38.566Z"
+  "updatedAt": "2026-08-24T20:38:46.136Z"
 }

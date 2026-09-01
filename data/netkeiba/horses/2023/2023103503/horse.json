@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103503",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103503/",
-  "profile": null,
+  "profile": {
+    "name": "プレセピオ",
+    "birthDate": "2023-01-30",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2018104554",
+      "name": "パネットーネ"
+    },
+    "damsire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1816,6 +1846,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレセピオ (Presepio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレセピオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレセピオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1885,9 +1945,9 @@
       "contentHash": "17e7388da3099f120baa2e4f30883b511fd68119e12529c65746a27dfd8a6688",
       "byteLength": 67092,
       "rawPath": "netkeiba/horses/2023/2023103503/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:10:47.269Z"
+  "updatedAt": "2026-08-27T17:22:01.644Z"
 }

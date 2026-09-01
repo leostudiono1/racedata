@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100606",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100606/",
-  "profile": null,
+  "profile": {
+    "name": "ブラスト",
+    "birthDate": "2015-04-10",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "x006b6",
+      "name": "成瀬功"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2006104728",
+      "name": "カーナヴァル"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -5046,6 +5076,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラスト (Blast) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5115,9 +5175,9 @@
       "contentHash": "721c2bc9ebb41014a5807e9c236f35be995bac7a26648fd7e9986cb07e2eb629",
       "byteLength": 66714,
       "rawPath": "netkeiba/horses/2015/2015100606/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:27:09.861Z"
+  "updatedAt": "2026-08-26T17:34:04.691Z"
 }

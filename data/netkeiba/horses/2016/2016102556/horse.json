@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102556",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102556/",
-  "profile": null,
+  "profile": {
+    "name": "アノ",
+    "birthDate": "2016-03-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "607031",
+      "name": "武田浩典"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    },
+    "dam": {
+      "id": "2005101745",
+      "name": "ミコノス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "With Approval"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3634,6 +3664,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アノ (Ano) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アノ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アノ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3703,9 +3763,9 @@
       "contentHash": "923f86a86d0f1df204e405b50a5555744e5f642a60a24584940870f977b97bfd",
       "byteLength": 66587,
       "rawPath": "netkeiba/horses/2016/2016102556/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:19:09.834Z"
+  "updatedAt": "2026-08-30T15:23:51.182Z"
 }

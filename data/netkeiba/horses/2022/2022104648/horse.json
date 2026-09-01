@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104648",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104648/",
-  "profile": null,
+  "profile": {
+    "name": "フランクスピード",
+    "birthDate": "2022-01-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01215",
+      "name": "加藤公太"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "インピード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bated Breath"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1727,6 +1757,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フランクスピード (Flank Speed) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フランクスピード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フランクスピード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1796,9 +1856,9 @@
       "contentHash": "d320d18f884d8b538d79a40b1088596be1c34bdb9b5521a4f14dbde9ce0a4654",
       "byteLength": 67272,
       "rawPath": "netkeiba/horses/2022/2022104648/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:35:17.684Z"
+  "updatedAt": "2026-08-25T18:36:08.258Z"
 }

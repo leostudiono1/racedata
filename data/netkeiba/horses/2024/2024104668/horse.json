@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024104668",
   "sourceUrl": "https://db.netkeiba.com/horse/2024104668/",
-  "profile": null,
+  "profile": {
+    "name": "レオンティウス",
+    "birthDate": "2024-02-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01207",
+      "name": "田中勝春"
+    },
+    "owner": {
+      "id": "340031",
+      "name": "小山大介"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "2012110087",
+      "name": "エルラディユー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -1174,6 +1204,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオンティウス (Leontios) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオンティウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオンティウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1243,9 +1303,9 @@
       "contentHash": "7c14353246551db08a1ab23430145dae1de542576101f554246cc86230e3219f",
       "byteLength": 67272,
       "rawPath": "netkeiba/horses/2024/2024104668/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:34:01.021Z"
+  "updatedAt": "2026-08-31T15:39:21.353Z"
 }

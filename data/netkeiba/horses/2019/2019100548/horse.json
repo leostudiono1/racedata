@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100548",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100548/",
-  "profile": null,
+  "profile": {
+    "name": "タガノミア",
+    "birthDate": "2019-03-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01072",
+      "name": "河内洋"
+    },
+    "owner": {
+      "id": "859002",
+      "name": "八木良司"
+    },
+    "breeder": {
+      "id": "790540",
+      "name": "新冠タガノファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ザファクター"
+    },
+    "dam": {
+      "id": "2008105144",
+      "name": "タガノラヴキセキ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3351,6 +3381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タガノミア (Tagano Mia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノミア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノミア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3420,9 +3480,9 @@
       "contentHash": "0729bcd437b84148369b6655a8d2d5adf14d440482b3912f4212bbc0756ec1d6",
       "byteLength": 66874,
       "rawPath": "netkeiba/horses/2019/2019100548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:28:12.846Z"
+  "updatedAt": "2026-08-28T16:35:21.613Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106618",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106618/",
-  "profile": null,
+  "profile": {
+    "name": "ドライチ",
+    "birthDate": "2020-02-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "326030",
+      "name": "藤沼利夫"
+    },
+    "breeder": {
+      "id": "600013",
+      "name": "大道牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011104416",
+      "name": "レッドファルクス"
+    },
+    "dam": {
+      "id": "2009110038",
+      "name": "レッドガナドーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104416",
@@ -1386,6 +1416,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドライチ (Dora Ichi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドライチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドライチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1455,9 +1515,9 @@
       "contentHash": "274cc6b976f87b2166385be31ed487d6ae3eb4d8c9a474ad1938bfb29d4afdb9",
       "byteLength": 66706,
       "rawPath": "netkeiba/horses/2020/2020106618/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:36:44.018Z"
+  "updatedAt": "2026-08-28T16:43:52.663Z"
 }

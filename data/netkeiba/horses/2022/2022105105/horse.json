@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105105",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105105/",
-  "profile": null,
+  "profile": {
+    "name": "エムズ",
+    "birthDate": "2022-03-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "199031",
+      "name": "エムズレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ライフフォーセール Life For Sale(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Not for Sale"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1293,6 +1323,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エムズ (M's) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エムズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エムズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1362,9 +1422,9 @@
       "contentHash": "85cb3a4d3008e10c4c498dc7d02ec3b874c3f2829ca2584a00a4caff1539990d",
       "byteLength": 66793,
       "rawPath": "netkeiba/horses/2022/2022105105/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:59:53.837Z"
+  "updatedAt": "2026-08-26T18:06:48.634Z"
 }

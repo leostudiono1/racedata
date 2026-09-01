@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110025",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110025/",
-  "profile": null,
+  "profile": {
+    "name": "バーンズベリー",
+    "birthDate": "2022-02-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05545",
+      "name": "佐々木功"
+    },
+    "owner": {
+      "id": "x0bc33",
+      "name": "北村祐人"
+    },
+    "breeder": {
+      "id": "830708",
+      "name": "Godolphin"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Iffraaj"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Richmond Avenue"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Invincible Spirit (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2968,6 +2998,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バーンズベリー (Barnsbury) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バーンズベリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バーンズベリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3037,9 +3097,9 @@
       "contentHash": "70d93c6571fcb12a6e53d489e3169adcd113f7f51d738b83ffb5e6ff8c5dac61",
       "byteLength": 66746,
       "rawPath": "netkeiba/horses/2022/2022110025/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:11:38.531Z"
+  "updatedAt": "2026-08-24T21:20:36.619Z"
 }

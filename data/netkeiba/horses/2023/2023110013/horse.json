@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110013",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110013/",
-  "profile": null,
+  "profile": {
+    "name": "ザーフィル",
+    "birthDate": "2023-02-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01163",
+      "name": "林徹"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "330713",
+      "name": "Highpark Bloodstock Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Ghaiyyath (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Oriental Step"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tamayuz"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1507,6 +1537,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザーフィル (Zaafir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザーフィル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザーフィル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1576,9 +1636,9 @@
       "contentHash": "a251130fa1a00c2c62312b5c4e899f6840e581ce43a90e0a3c11b793e5b4dd13",
       "byteLength": 67422,
       "rawPath": "netkeiba/horses/2023/2023110013/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:51:40.364Z"
+  "updatedAt": "2026-08-28T16:58:49.185Z"
 }

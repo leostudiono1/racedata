@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105496",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105496/",
-  "profile": null,
+  "profile": {
+    "name": "リアレスト",
+    "birthDate": "2021-02-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2013106130",
+      "name": "クィーンズベスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2961,6 +2991,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアレスト (Realest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアレスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアレスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3030,9 +3090,9 @@
       "contentHash": "08bd75f803a85d215bd68cde809a7414141e955d04e1b825885fed231f9c061d",
       "byteLength": 66998,
       "rawPath": "netkeiba/horses/2021/2021105496/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:30:34.068Z"
+  "updatedAt": "2026-08-25T18:31:24.805Z"
 }

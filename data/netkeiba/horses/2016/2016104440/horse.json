@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104440",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104440/",
-  "profile": null,
+  "profile": {
+    "name": "エレヴァージュ",
+    "birthDate": "2016-01-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2006103297",
+      "name": "エレガントマナー"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -1266,6 +1296,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エレヴァージュ (Elevage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレヴァージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレヴァージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1335,9 +1395,9 @@
       "contentHash": "11433ec7e9f4321e80ba28799ee3bedcad78c9526cd4e31b4c26b1519e0b9c51",
       "byteLength": 67303,
       "rawPath": "netkeiba/horses/2016/2016104440/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:43:04.164Z"
+  "updatedAt": "2026-08-27T16:54:17.980Z"
 }

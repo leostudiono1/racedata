@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104901",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104901/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーシーガル",
+    "birthDate": "2012-02-04",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラリズ La Liz(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernstein"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -2628,6 +2658,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーシーガル (Mikki Seagull) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーシーガル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーシーガル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2697,9 +2757,9 @@
       "contentHash": "21dccbde560160dfa11d6dcad65d550e0324d134b0f503a31ac796f4183dcb87",
       "byteLength": 65888,
       "rawPath": "netkeiba/horses/2012/2012104901/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:27:18.803Z"
+  "updatedAt": "2026-08-24T20:36:26.257Z"
 }

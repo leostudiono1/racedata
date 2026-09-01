@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101486",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101486/",
-  "profile": null,
+  "profile": {
+    "name": "ファーマベリー",
+    "birthDate": "2012-04-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01122",
+      "name": "日吉正和"
+    },
+    "owner": {
+      "id": "117030",
+      "name": "中西功"
+    },
+    "breeder": {
+      "id": "100470",
+      "name": "杉山義行"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999110191",
+      "name": "アサクサデンエン"
+    },
+    "dam": {
+      "id": "2008106455",
+      "name": "フルートフルタイム"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110191",
@@ -1249,6 +1279,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファーマベリー (Pharma Berry) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファーマベリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファーマベリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1318,9 +1378,9 @@
       "contentHash": "058202802f243a324219391630b45e5550a1cc4d5353e711198ea655f96e73c5",
       "byteLength": 64562,
       "rawPath": "netkeiba/horses/2012/2012101486/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:22:21.510Z"
+  "updatedAt": "2026-08-29T15:27:52.244Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102955",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102955/",
-  "profile": null,
+  "profile": {
+    "name": "クレベール",
+    "birthDate": "2022-04-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05291",
+      "name": "西村守幸"
+    },
+    "owner": {
+      "id": "042803",
+      "name": "ファーストビジョン"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014103121",
+      "name": "エピカリス"
+    },
+    "dam": {
+      "id": "2013110032",
+      "name": "アンブラッセモワ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zoffany"
+    }
+  },
   "pedigree": [
     {
       "id": "2014103121",
@@ -3694,6 +3724,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クレベール (Kleber) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレベール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレベール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3763,9 +3823,9 @@
       "contentHash": "b28e1d7ccf96208de097863d20f46350cb88c8fdee10cf9440617f67543a7494",
       "byteLength": 65782,
       "rawPath": "netkeiba/horses/2022/2022102955/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:42:51.723Z"
+  "updatedAt": "2026-08-28T16:50:00.610Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106088",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106088/",
-  "profile": null,
+  "profile": {
+    "name": "ポリリン",
+    "birthDate": "2020-05-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宇都英樹"
+    },
+    "owner": {
+      "id": "x0a3d7",
+      "name": "松永直記"
+    },
+    "breeder": {
+      "id": "140100",
+      "name": "小野瀬竜馬"
+    },
+    "birthplace": "清水町",
+    "sire": {
+      "id": "000",
+      "name": "タリスマニック Talismanic(英)"
+    },
+    "dam": {
+      "id": "2014104166",
+      "name": "ポリカ"
+    },
+    "damsire": {
+      "id": "1995100385",
+      "name": "スマートボーイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2134,6 +2164,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポリリン (Poririn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポリリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポリリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2203,9 +2263,9 @@
       "contentHash": "5310fb93b0de7baf2435dc3b12b478f153f2f89d54c73998e24c60a7e05f356f",
       "byteLength": 66645,
       "rawPath": "netkeiba/horses/2020/2020106088/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:26:00.948Z"
+  "updatedAt": "2026-08-25T18:26:51.738Z"
 }

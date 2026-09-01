@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100558",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100558/",
-  "profile": null,
+  "profile": {
+    "name": "ネル",
+    "birthDate": "2015-02-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05714",
+      "name": "渋谷信博"
+    },
+    "owner": {
+      "id": "x07c07",
+      "name": "嶋田佳幸"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2007104706",
+      "name": "プリティカポレイ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -5041,6 +5071,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネル (Neru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5110,9 +5170,9 @@
       "contentHash": "a77f25faefe0c172a7b5f883a8042b65de0c61356e0cfd45dc9eb86afb03d092",
       "byteLength": 66434,
       "rawPath": "netkeiba/horses/2015/2015100558/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:59:00.025Z"
+  "updatedAt": "2026-08-25T17:59:50.795Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110130",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110130/",
-  "profile": null,
+  "profile": {
+    "name": "クラシックココア",
+    "birthDate": "2017-09-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01187",
+      "name": "西田雄一"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "560731",
+      "name": "Kia Ora Stud Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Alberton Park"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Thorn Park"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1867,6 +1897,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラシックココア (Classic Cocoa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラシックココア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラシックココア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1936,9 +1996,9 @@
       "contentHash": "9b2ebb461b7bd09c6ac93ddf22d0b47d429f5d20587f135f26a531958585c8f6",
       "byteLength": 65418,
       "rawPath": "netkeiba/horses/2017/2017110130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:40:07.080Z"
+  "updatedAt": "2026-08-26T17:47:02.006Z"
 }

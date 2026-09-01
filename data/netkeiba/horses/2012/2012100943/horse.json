@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100943",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100943/",
-  "profile": null,
+  "profile": {
+    "name": "モモ",
+    "birthDate": "2012-03-03",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "133009",
+      "name": "森恭彦"
+    },
+    "breeder": {
+      "id": "500318",
+      "name": "ヤマタケ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2005101280",
+      "name": "セレクトレディ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2303,6 +2333,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モモ (Momo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モモ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モモ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2372,9 +2432,9 @@
       "contentHash": "fc096fb98e862caeb833edd08c177820ad235d7e7a4f19d0cb8b761bba874c75",
       "byteLength": 64745,
       "rawPath": "netkeiba/horses/2012/2012100943/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:24:23.750Z"
+  "updatedAt": "2026-08-27T16:35:37.662Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103017",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103017/",
-  "profile": null,
+  "profile": {
+    "name": "シュク",
+    "birthDate": "2015-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2002102874",
+      "name": "ガンバリッコ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -1088,6 +1118,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュク (Shuku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1157,9 +1217,9 @@
       "contentHash": "5daf931d5ea2f7dc3773c17d72d98e16d9328fbf5589b2da6148851e02abcc2f",
       "byteLength": 64298,
       "rawPath": "netkeiba/horses/2015/2015103017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:53:52.367Z"
+  "updatedAt": "2026-08-31T14:59:16.091Z"
 }

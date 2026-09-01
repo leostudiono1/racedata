@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110009",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110009/",
-  "profile": null,
+  "profile": {
+    "name": "パリプラージュ",
+    "birthDate": "2021-02-17",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01175",
+      "name": "宮田敬介"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "660709",
+      "name": "Northern Racing"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パリスビキニ Paris Bikini(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1194,6 +1224,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パリプラージュ (Paris Plages) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パリプラージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パリプラージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1263,9 +1323,9 @@
       "contentHash": "8252bbb92e992ebd837a573a0773e43befa8899a5971bfbb1c3b827c5093d623",
       "byteLength": 67307,
       "rawPath": "netkeiba/horses/2021/2021110009/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:41:38.139Z"
+  "updatedAt": "2026-08-28T16:48:46.799Z"
 }

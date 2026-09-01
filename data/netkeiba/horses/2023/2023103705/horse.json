@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103705",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103705/",
-  "profile": null,
+  "profile": {
+    "name": "ドロワ",
+    "birthDate": "2023-03-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01221",
+      "name": "室井潔"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ディレクタ Directa(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Anodin"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1298,6 +1328,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドロワ (Droit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドロワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドロワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1367,9 +1427,9 @@
       "contentHash": "8f55b5bccd5bf47e19d1a718c62417d293e79ea3ca99cf0df911e6974a0e8b5f",
       "byteLength": 67328,
       "rawPath": "netkeiba/horses/2023/2023103705/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:48:41.808Z"
+  "updatedAt": "2026-08-28T16:55:50.395Z"
 }

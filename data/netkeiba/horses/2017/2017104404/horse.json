@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104404",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104404/",
-  "profile": null,
+  "profile": {
+    "name": "プロンタン",
+    "birthDate": "2017-03-03",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05609",
+      "name": "小久保智"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006103169",
+      "name": "トーセンジョーダン"
+    },
+    "dam": {
+      "id": "2001103662",
+      "name": "トーセンデイジー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103169",
@@ -1927,6 +1957,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロンタン (Plantain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロンタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロンタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1996,9 +2056,9 @@
       "contentHash": "4371002bae2f12841c440cf12e48d5f098f329f66369625a21fcf163a6e80147",
       "byteLength": 66741,
       "rawPath": "netkeiba/horses/2017/2017104404/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:03:57.879Z"
+  "updatedAt": "2026-08-31T15:09:18.450Z"
 }

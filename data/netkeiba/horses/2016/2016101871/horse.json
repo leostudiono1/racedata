@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101871",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101871/",
-  "profile": null,
+  "profile": {
+    "name": "タマモケトル",
+    "birthDate": "2016-04-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "440033",
+      "name": "信成牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ケープブランコ Cape Blanco(英)"
+    },
+    "dam": {
+      "id": "2006102033",
+      "name": "チャームポット"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3870,6 +3900,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タマモケトル (Tamamo Kettle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモケトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモケトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3939,9 +3999,9 @@
       "contentHash": "dcc941afc098e1a7faf88d531b8f7acf18825460de2856d2f6bcddb1c50351b4",
       "byteLength": 66895,
       "rawPath": "netkeiba/horses/2016/2016101871/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:40:51.139Z"
+  "updatedAt": "2026-08-27T16:52:05.241Z"
 }

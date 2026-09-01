@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100777",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100777/",
-  "profile": null,
+  "profile": {
+    "name": "カイブショウ",
+    "birthDate": "2022-04-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "095034",
+      "name": "手塚勝広"
+    },
+    "breeder": {
+      "id": "140021",
+      "name": "土田ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2015104608",
+      "name": "メルジェリーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1115,6 +1145,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カイブショウ (Kai Busho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイブショウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイブショウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1184,9 +1244,9 @@
       "contentHash": "989cbe681ee515d64cc6c6b2814526b0f17874696ef456e5881a6f25fb383368",
       "byteLength": 66206,
       "rawPath": "netkeiba/horses/2022/2022100777/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:08:01.289Z"
+  "updatedAt": "2026-08-24T21:16:59.440Z"
 }

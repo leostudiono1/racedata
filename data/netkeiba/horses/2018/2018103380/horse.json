@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103380",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103380/",
-  "profile": null,
+  "profile": {
+    "name": "ディープラック",
+    "birthDate": "2018-04-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01062",
+      "name": "藤岡健一"
+    },
+    "owner": {
+      "id": "128008",
+      "name": "深見敏男"
+    },
+    "breeder": {
+      "id": "900052",
+      "name": "村下農場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2002104194",
+      "name": "イソノスワロー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1275,6 +1305,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディープラック (Deep Luck) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1344,9 +1404,9 @@
       "contentHash": "0532bc00d8548cee4a91172eb1346e3c9ca83d783886bd82a78f534b356c345f",
       "byteLength": 64460,
       "rawPath": "netkeiba/horses/2018/2018103380/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:50:22.229Z"
+  "updatedAt": "2026-08-29T15:55:52.853Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104137",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104137/",
-  "profile": null,
+  "profile": {
+    "name": "シベリウス",
+    "birthDate": "2013-03-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01190",
+      "name": "村田一誠"
+    },
+    "owner": {
+      "id": "108007",
+      "name": "浅田次郎"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "2005100303",
+      "name": "スズカシャンティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -5758,6 +5788,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シベリウス (Sibelius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シベリウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シベリウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5827,9 +5887,9 @@
       "contentHash": "92b3bec3419aea34a37b2b76fad52aa292e79e6e63e80537e171024061031ebe",
       "byteLength": 66950,
       "rawPath": "netkeiba/horses/2013/2013104137/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:30:38.162Z"
+  "updatedAt": "2026-08-24T20:39:45.776Z"
 }

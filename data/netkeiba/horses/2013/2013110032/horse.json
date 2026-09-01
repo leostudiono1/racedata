@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110032",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110032/",
-  "profile": null,
+  "profile": {
+    "name": "アンブラッセモワ",
+    "birthDate": "2013-01-08",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01093",
+      "name": "松永康利"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "870702",
+      "name": "Haras de la Huderie"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Zoffany"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ice Flower"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1073,6 +1103,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンブラッセモワ (Embrasser Moi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンブラッセモワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンブラッセモワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1142,9 +1202,9 @@
       "contentHash": "a91dec10594f9544ba37d0252e4f01f2802c6662c88c653e78c20f1c14cb14c8",
       "byteLength": 64788,
       "rawPath": "netkeiba/horses/2013/2013110032/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:08:28.882Z"
+  "updatedAt": "2026-08-30T15:13:10.449Z"
 }

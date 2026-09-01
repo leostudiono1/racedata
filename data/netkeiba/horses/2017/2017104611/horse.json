@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104611",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104611/",
-  "profile": null,
+  "profile": {
+    "name": "ランクアップ",
+    "birthDate": "2017-01-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05756",
+      "name": "南弘樹"
+    },
+    "owner": {
+      "id": "x0a61e",
+      "name": "仲辻正貴"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2001103459",
+      "name": "ピンクリップス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1770,6 +1800,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランクアップ (Rank Up) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランクアップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランクアップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1839,9 +1899,9 @@
       "contentHash": "72e69aed55c7b0ade7db6ad58e9bb510e816bb059f64f66222ecc72480f14181",
       "byteLength": 66134,
       "rawPath": "netkeiba/horses/2017/2017104611/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:22:15.741Z"
+  "updatedAt": "2026-08-28T16:29:24.386Z"
 }

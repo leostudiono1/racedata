@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102037",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102037/",
-  "profile": null,
+  "profile": {
+    "name": "シャチ",
+    "birthDate": "2017-05-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "辻野豊"
+    },
+    "owner": {
+      "id": "981002",
+      "name": "中村勝彦"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2000109357",
+      "name": "ソウタツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -7198,6 +7228,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャチ (Shachi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7267,9 +7327,9 @@
       "contentHash": "cce2f15fa5e693cc88a28a892d81beb2fc36b7c67a260cbe39698745ef74a089",
       "byteLength": 66652,
       "rawPath": "netkeiba/horses/2017/2017102037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:20:30.889Z"
+  "updatedAt": "2026-08-28T16:27:39.430Z"
 }

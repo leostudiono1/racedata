@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106031",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106031/",
-  "profile": null,
+  "profile": {
+    "name": "センジモン",
+    "birthDate": "2017-05-09",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "130038",
+      "name": "斉藤英牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2006103169",
+      "name": "トーセンジョーダン"
+    },
+    "dam": {
+      "id": "2002110123",
+      "name": "リブレメンテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fly So Free"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103169",
@@ -1110,6 +1140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "センジモン (Senjimon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "センジモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "センジモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1179,9 +1239,9 @@
       "contentHash": "2528f5c243ff83d8532ca58445a5260dab7cc7ec6e7ad12a13ce2ec660e3c772",
       "byteLength": 66427,
       "rawPath": "netkeiba/horses/2017/2017106031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:11:57.169Z"
+  "updatedAt": "2026-08-25T18:12:48.156Z"
 }

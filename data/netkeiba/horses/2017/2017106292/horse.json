@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106292",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106292/",
-  "profile": null,
+  "profile": {
+    "name": "カランクール",
+    "birthDate": "2017-04-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05066",
+      "name": "川嶋弘吉"
+    },
+    "owner": {
+      "id": "100800",
+      "name": "日進牧場"
+    },
+    "breeder": {
+      "id": "900019",
+      "name": "日進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2007101709",
+      "name": "フィールマイハート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マリエンバード Marienbard(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -4828,6 +4858,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カランクール (Calin Coeur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カランクール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カランクール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4897,9 +4957,9 @@
       "contentHash": "df08b582d01ab58175cb5c1839e052378a461ef5e9c942b89e2139029809d4a8",
       "byteLength": 66899,
       "rawPath": "netkeiba/horses/2017/2017106292/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:25:13.686Z"
+  "updatedAt": "2026-08-30T15:29:55.329Z"
 }

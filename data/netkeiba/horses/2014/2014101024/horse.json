@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101024",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101024/",
-  "profile": null,
+  "profile": {
+    "name": "エルネスト",
+    "birthDate": "2014-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01146",
+      "name": "奥村豊"
+    },
+    "owner": {
+      "id": "367008",
+      "name": "吉澤克己"
+    },
+    "breeder": {
+      "id": "433091",
+      "name": "折手牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "2002101008",
+      "name": "クレイジーフォユー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -1415,6 +1445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルネスト (Ernesto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルネスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルネスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1484,9 +1544,9 @@
       "contentHash": "8b1e53931fd7843af33685ef5fdf1034b81c947ad75d74250251042ac3dece94",
       "byteLength": 65600,
       "rawPath": "netkeiba/horses/2014/2014101024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:32:51.050Z"
+  "updatedAt": "2026-08-24T20:41:58.841Z"
 }

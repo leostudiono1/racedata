@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103565",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103565/",
-  "profile": null,
+  "profile": {
+    "name": "アルビオン",
+    "birthDate": "2013-05-11",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "854030",
+      "name": "吉野智博"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005102216",
+      "name": "キャプテントゥーレ"
+    },
+    "dam": {
+      "id": "2004102089",
+      "name": "アドマイヤスペース"
+    },
+    "damsire": {
+      "id": "1996106512",
+      "name": "アドマイヤコジーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102216",
@@ -3619,6 +3649,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルビオン (Albion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルビオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルビオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3688,9 +3748,9 @@
       "contentHash": "aebf5dd52ae8dd0d474ed1af046c93a564978e42d80b075673c903cd0e8aa629",
       "byteLength": 66712,
       "rawPath": "netkeiba/horses/2013/2013103565/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:30:03.844Z"
+  "updatedAt": "2026-08-27T16:41:17.475Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020109126",
   "sourceUrl": "https://db.netkeiba.com/horse/2020109126/",
-  "profile": null,
+  "profile": {
+    "name": "キスウマイ",
+    "birthDate": "2020-04-27",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "735404",
+      "name": "本田土寿"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2005104227",
+      "name": "ロードバリオス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アヴェニューズレディ Avenue's Lady(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Avenue of Flags"
+    }
+  },
   "pedigree": [
     {
       "id": "2005104227",
@@ -4028,6 +4058,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キスウマイ (Kiss Umai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キスウマイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キスウマイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4097,9 +4157,9 @@
       "contentHash": "c69e242a2bda03d848067b33ed2e3f694cd5be3f9500562e3f672299806213ad",
       "byteLength": 66983,
       "rawPath": "netkeiba/horses/2020/2020109126/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:27:04.151Z"
+  "updatedAt": "2026-08-25T18:27:54.700Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110065",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110065/",
-  "profile": null,
+  "profile": {
+    "name": "ゼルク",
+    "birthDate": "2016-04-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05607",
+      "name": "堀千亜樹"
+    },
+    "owner": {
+      "id": "041002",
+      "name": "前田晋二"
+    },
+    "breeder": {
+      "id": "080706",
+      "name": "North Hills Co. Limited"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Awesome Again (加)"
+    },
+    "dam": {
+      "id": "2000105086",
+      "name": "ヘヴンリーロマンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3494,6 +3524,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼルク (Zeruch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3563,9 +3623,9 @@
       "contentHash": "5d4649af09bdf9458b72bc0cd0704d23698a024440d142f1f9e2ed0d0df635cf",
       "byteLength": 66650,
       "rawPath": "netkeiba/horses/2016/2016110065/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:43:50.087Z"
+  "updatedAt": "2026-08-29T15:49:20.684Z"
 }

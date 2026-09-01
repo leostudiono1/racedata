@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101620",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101620/",
-  "profile": null,
+  "profile": {
+    "name": "リノアラ",
+    "birthDate": "2019-03-15",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2009102473",
+      "name": "サトノジョリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -4115,6 +4145,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リノアラ (Lino Ala) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リノアラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リノアラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4184,9 +4244,9 @@
       "contentHash": "be1cfedd22c64faa8a692dd99bb9d5bbadf45ba922ccaf99d00cd6bf791f2edd",
       "byteLength": 66792,
       "rawPath": "netkeiba/horses/2019/2019101620/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:30:50.346Z"
+  "updatedAt": "2026-08-30T15:35:31.479Z"
 }

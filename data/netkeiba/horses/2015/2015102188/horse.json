@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102188",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102188/",
-  "profile": null,
+  "profile": {
+    "name": "フルネス",
+    "birthDate": "2015-02-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05033",
+      "name": "菅原右吉"
+    },
+    "owner": {
+      "id": "099007",
+      "name": "西村專次"
+    },
+    "breeder": {
+      "id": "050365",
+      "name": "二風谷ファーム"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2001107192",
+      "name": "ハナマル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2669,6 +2699,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルネス (Fullness) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルネス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルネス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2738,9 +2798,9 @@
       "contentHash": "50fe6539412d7ef6c891f5d3e00e4ea290dfa89c0e65d12054900d1ca7373da6",
       "byteLength": 65385,
       "rawPath": "netkeiba/horses/2015/2015102188/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:11:20.941Z"
+  "updatedAt": "2026-08-28T16:18:29.927Z"
 }

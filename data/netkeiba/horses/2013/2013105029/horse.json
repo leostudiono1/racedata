@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105029",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105029/",
-  "profile": null,
+  "profile": {
+    "name": "メイフェアー",
+    "birthDate": "2013-04-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01013",
+      "name": "小島太"
+    },
+    "owner": {
+      "id": "011009",
+      "name": "浜野順之助"
+    },
+    "breeder": {
+      "id": "013370",
+      "name": "市川牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "1996110248",
+      "name": "レディフェアリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fairy King"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1256,6 +1286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイフェアー (Mayfair) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイフェアー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイフェアー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1325,9 +1385,9 @@
       "contentHash": "8eab425fda26499060791b5b81ff332314402d4ffac49040864cfc7a6e1ff9b4",
       "byteLength": 64935,
       "rawPath": "netkeiba/horses/2013/2013105029/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:07:12.091Z"
+  "updatedAt": "2026-08-30T15:11:53.712Z"
 }

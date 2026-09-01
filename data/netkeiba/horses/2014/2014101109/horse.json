@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101109",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101109/",
-  "profile": null,
+  "profile": {
+    "name": "ケンビション",
+    "birthDate": "2014-05-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "208033",
+      "name": "中西桂子"
+    },
+    "breeder": {
+      "id": "094543",
+      "name": "ケンブリッジバレー"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "2007104336",
+      "name": "アテナブルー"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -3687,6 +3717,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケンビション (Ken Bichon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンビション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンビション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3756,9 +3816,9 @@
       "contentHash": "5fa3d487d01aad73c95f7a73d8e2febf5c05feb25a453da0cafa55bf6ad0761b",
       "byteLength": 66891,
       "rawPath": "netkeiba/horses/2014/2014101109/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:48:54.823Z"
+  "updatedAt": "2026-08-31T14:54:18.463Z"
 }

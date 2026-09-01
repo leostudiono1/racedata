@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100722",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100722/",
-  "profile": null,
+  "profile": {
+    "name": "コンチェッタ",
+    "birthDate": "2020-03-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "x02e36",
+      "name": "上山泰憲"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コンケイヴ Concave(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Colonel John"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1795,6 +1825,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コンチェッタ (Concetta) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンチェッタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンチェッタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1864,9 +1924,9 @@
       "contentHash": "ce576d3722f37ce038ab63b56a3bac469b885607dd8c191472d7190a7c1c2552",
       "byteLength": 66105,
       "rawPath": "netkeiba/horses/2020/2020100722/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:22:13.352Z"
+  "updatedAt": "2026-08-25T18:23:04.031Z"
 }

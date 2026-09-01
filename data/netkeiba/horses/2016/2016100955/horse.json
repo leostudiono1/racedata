@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100955",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100955/",
-  "profile": null,
+  "profile": {
+    "name": "キコクイーン",
+    "birthDate": "2016-03-21",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00411",
+      "name": "浅見秀一"
+    },
+    "owner": {
+      "id": "043700",
+      "name": "若草クラブ"
+    },
+    "breeder": {
+      "id": "210318",
+      "name": "八木明広"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2010105367",
+      "name": "インシスト"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -3380,6 +3410,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キコクイーン (Kiko Queen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キコクイーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キコクイーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3449,9 +3509,9 @@
       "contentHash": "48cf3f3f75587704edf55f7ded08833c376ef2ef306d20d887a0421ea6ebc62e",
       "byteLength": 66979,
       "rawPath": "netkeiba/horses/2016/2016100955/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:39:41.418Z"
+  "updatedAt": "2026-08-29T15:45:12.041Z"
 }

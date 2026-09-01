@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100840",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100840/",
-  "profile": null,
+  "profile": {
+    "name": "ミリオンクラウン",
+    "birthDate": "2023-04-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "816008",
+      "name": "本田恒雄"
+    },
+    "breeder": {
+      "id": "670543",
+      "name": "ケイズ"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006102923",
+      "name": "リーチザクラウン"
+    },
+    "dam": {
+      "id": "2013106452",
+      "name": "サンヘレナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102923",
@@ -2227,6 +2257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミリオンクラウン (Million Crown) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミリオンクラウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミリオンクラウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2296,9 +2356,9 @@
       "contentHash": "9791a83d5e3f7c74f376ceb3b39f7cacfa7e4fdc60c3befd5c22efe98b54460d",
       "byteLength": 67292,
       "rawPath": "netkeiba/horses/2023/2023100840/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:12:20.392Z"
+  "updatedAt": "2026-08-24T21:21:18.557Z"
 }

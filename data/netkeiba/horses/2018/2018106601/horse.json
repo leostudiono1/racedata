@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106601",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106601/",
-  "profile": null,
+  "profile": {
+    "name": "テセウス",
+    "birthDate": "2018-03-28",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01074",
+      "name": "奥平雅士"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2011104733",
+      "name": "テルミドール"
+    },
+    "damsire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -4320,6 +4350,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テセウス (Theseus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テセウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テセウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4389,9 +4449,9 @@
       "contentHash": "5605c560ebc9ccf7b3a54d6e99302f8201854f87fc2f598faebdb59fd3f7fc02",
       "byteLength": 66430,
       "rawPath": "netkeiba/horses/2018/2018106601/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:29:36.383Z"
+  "updatedAt": "2026-08-30T15:34:17.885Z"
 }

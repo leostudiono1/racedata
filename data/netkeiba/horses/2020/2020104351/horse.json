@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104351",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104351/",
-  "profile": null,
+  "profile": {
+    "name": "ブランディー",
+    "birthDate": "2020-02-10",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05395",
+      "name": "中塚猛"
+    },
+    "owner": {
+      "id": "x02b99",
+      "name": "福山博徳"
+    },
+    "breeder": {
+      "id": "513085",
+      "name": "高橋修"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2011103006",
+      "name": "オートロンシャン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -3646,6 +3676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブランディー (Brandy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブランディー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブランディー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3715,9 +3775,9 @@
       "contentHash": "423c6f1b62b51099a0d204b403351aef40c3eca82119099b2fe44f84e70a2253",
       "byteLength": 66624,
       "rawPath": "netkeiba/horses/2020/2020104351/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:36:25.971Z"
+  "updatedAt": "2026-08-30T15:41:07.631Z"
 }

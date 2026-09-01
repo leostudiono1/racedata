@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110014",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110014/",
-  "profile": null,
+  "profile": {
+    "name": "マックアルイーン",
+    "birthDate": "2022-02-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01213",
+      "name": "秋本大介"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "540738",
+      "name": "Knocktartan House Stud"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Blue Point"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Euthenia"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Winker Watson"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1851,6 +1881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マックアルイーン (Mac an Luin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マックアルイーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マックアルイーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1920,9 +1980,9 @@
       "contentHash": "35df755b2e91fa3100db08fd94890a4ce5f9eb272acf1129a2b5b37766f68230",
       "byteLength": 67407,
       "rawPath": "netkeiba/horses/2022/2022110014/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:46:04.280Z"
+  "updatedAt": "2026-08-28T16:53:12.910Z"
 }

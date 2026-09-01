@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105768",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105768/",
-  "profile": null,
+  "profile": {
+    "name": "ベイステート",
+    "birthDate": "2021-04-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "澤佳宏"
+    },
+    "owner": {
+      "id": "959030",
+      "name": "井上久光"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2013110082",
+      "name": "ペニーウェディング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Broken Vow"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -4802,6 +4832,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベイステート (Bay State) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイステート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイステート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4871,9 +4931,9 @@
       "contentHash": "feaa0399688c1adbd5767828db8dd92837d8d3aeb370b5cecd0ad358de6999db",
       "byteLength": 66941,
       "rawPath": "netkeiba/horses/2021/2021105768/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:22:38.422Z"
+  "updatedAt": "2026-08-31T15:27:58.621Z"
 }

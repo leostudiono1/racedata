@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103235",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103235/",
-  "profile": null,
+  "profile": {
+    "name": "コールラヴ",
+    "birthDate": "2023-02-20",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "199031",
+      "name": "エムズレーシング"
+    },
+    "breeder": {
+      "id": "510302",
+      "name": "前谷牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴァリアンス Valiance(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1285,6 +1315,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コールラヴ (Call Love) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コールラヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コールラヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1354,9 +1414,9 @@
       "contentHash": "74b67e7d1534ee39d24c779653a41116d83bb00dc04247021aadb7e22be168d7",
       "byteLength": 65185,
       "rawPath": "netkeiba/horses/2023/2023103235/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:11:54.145Z"
+  "updatedAt": "2026-08-29T16:17:24.746Z"
 }

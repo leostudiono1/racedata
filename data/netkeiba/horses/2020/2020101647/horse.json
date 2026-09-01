@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101647",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101647/",
-  "profile": null,
+  "profile": {
+    "name": "ノートエリア",
+    "birthDate": "2020-05-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "x06c0c",
+      "name": "川上和彦"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2011103987",
+      "name": "ベルテンポ"
+    },
+    "damsire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -3462,6 +3492,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノートエリア (Note Area) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノートエリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノートエリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3531,9 +3591,9 @@
       "contentHash": "8f6fe569b4be90c76502e03371585e28969f8831f12753989e74fadb79b8d765",
       "byteLength": 65605,
       "rawPath": "netkeiba/horses/2020/2020101647/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:22:52.187Z"
+  "updatedAt": "2026-08-25T18:23:42.653Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103231",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103231/",
-  "profile": null,
+  "profile": {
+    "name": "インフェルノ",
+    "birthDate": "2020-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Lope de Vega"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アーキテクチャー Architecture(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zoffany"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1282,6 +1312,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インフェルノ (Inferno) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インフェルノ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インフェルノ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1351,9 +1411,9 @@
       "contentHash": "02c4c18577f85b0e84870c9c4d97a28ac8d5f32ac48fc125e8a7e9ab3530e85d",
       "byteLength": 65644,
       "rawPath": "netkeiba/horses/2020/2020103231/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:01:01.086Z"
+  "updatedAt": "2026-08-24T21:09:59.399Z"
 }

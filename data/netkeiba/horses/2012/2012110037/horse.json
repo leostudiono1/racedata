@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110037",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110037/",
-  "profile": null,
+  "profile": {
+    "name": "グラブザフラッグ",
+    "birthDate": "2012-04-23",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "280709",
+      "name": "North Hills Co. LTD."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Cornelia"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3220,6 +3250,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラブザフラッグ (Grab the Flag) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラブザフラッグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラブザフラッグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3289,9 +3349,9 @@
       "contentHash": "bf5ff212c6273e2b29ac2363b181cd988ef7454c76fd61c6616ba567cbedbcb1",
       "byteLength": 67000,
       "rawPath": "netkeiba/horses/2012/2012110037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:01:36.747Z"
+  "updatedAt": "2026-08-28T16:08:45.280Z"
 }

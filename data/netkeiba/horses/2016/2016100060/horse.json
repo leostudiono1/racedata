@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100060",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100060/",
-  "profile": null,
+  "profile": {
+    "name": "ファストジャパン",
+    "birthDate": "2016-04-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05762",
+      "name": "千葉幸喜"
+    },
+    "owner": {
+      "id": "853030",
+      "name": "小原準一郎"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1997106560",
+      "name": "スターリングローズ"
+    },
+    "dam": {
+      "id": "2007104077",
+      "name": "アラマササンデー"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1997106560",
@@ -1233,6 +1263,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファストジャパン (Fast Japan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファストジャパン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファストジャパン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1302,9 +1362,9 @@
       "contentHash": "3b3f253b6a16ae3f9a2f04ecaacf904d6a9b53e318adba35fa80e7415921d659",
       "byteLength": 64523,
       "rawPath": "netkeiba/horses/2016/2016100060/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:56:33.703Z"
+  "updatedAt": "2026-08-31T15:01:57.727Z"
 }

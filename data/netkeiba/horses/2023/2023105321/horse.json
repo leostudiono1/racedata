@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105321",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105321/",
-  "profile": null,
+  "profile": {
+    "name": "ペイジャー",
+    "birthDate": "2023-02-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01203",
+      "name": "福永祐一"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2010106209",
+      "name": "ピクシーホロウ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1074,6 +1104,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペイジャー (Pager) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイジャー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイジャー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1143,9 +1203,9 @@
       "contentHash": "da067e0ceafa5352d9d0a5e4d3dc6b3e2f1fa1bb4947f8b7e8a416c733bc20a3",
       "byteLength": 67112,
       "rawPath": "netkeiba/horses/2023/2023105321/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:51:04.616Z"
+  "updatedAt": "2026-08-30T15:55:46.358Z"
 }

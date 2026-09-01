@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101040",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101040/",
-  "profile": null,
+  "profile": {
+    "name": "スズカマリー",
+    "birthDate": "2020-05-03",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00431",
+      "name": "谷潔"
+    },
+    "owner": {
+      "id": "382004",
+      "name": "永井啓弍"
+    },
+    "breeder": {
+      "id": "000365",
+      "name": "稲原牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2012102056",
+      "name": "スズカマドンナ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1232,6 +1262,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズカマリー (Suzuka Mary) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカマリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカマリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1301,9 +1361,9 @@
       "contentHash": "0873290c5eb6116999b8279d7897a686a794bff4e3beb2fc98c4e22e61fe9f3c",
       "byteLength": 65002,
       "rawPath": "netkeiba/horses/2020/2020101040/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:56:58.069Z"
+  "updatedAt": "2026-08-29T16:02:28.354Z"
 }

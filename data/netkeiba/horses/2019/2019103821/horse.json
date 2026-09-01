@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103821",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103821/",
-  "profile": null,
+  "profile": {
+    "name": "レーヴェン",
+    "birthDate": "2019-04-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05740",
+      "name": "長南和宏"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2010104958",
+      "name": "アルボナンザ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1451,6 +1481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レーヴェン (Leven) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヴェン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヴェン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1520,9 +1580,9 @@
       "contentHash": "411cb0a844a840e96d8392e911ae2f6f523f5ebaa799c56331df11dd652ddaa5",
       "byteLength": 64474,
       "rawPath": "netkeiba/horses/2019/2019103821/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:19:28.788Z"
+  "updatedAt": "2026-08-25T18:20:19.533Z"
 }

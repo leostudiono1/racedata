@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105194",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105194/",
-  "profile": null,
+  "profile": {
+    "name": "モーゼス",
+    "birthDate": "2013-04-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01012",
+      "name": "大江原哲"
+    },
+    "owner": {
+      "id": "656033",
+      "name": "菊地祐司"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "チャールストンハーバー Charleston Harbor(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grindstone"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2621,6 +2651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーゼス (Moses) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーゼス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーゼス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2690,9 +2750,9 @@
       "contentHash": "5ca3dd16f209bb492393dc8fde7f719f457d3ab7cd3e00cb9c5c330b22b9d75f",
       "byteLength": 66775,
       "rawPath": "netkeiba/horses/2013/2013105194/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:07:18.824Z"
+  "updatedAt": "2026-08-30T15:12:00.645Z"
 }

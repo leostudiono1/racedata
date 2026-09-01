@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100820",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100820/",
-  "profile": null,
+  "profile": {
+    "name": "シースパロー",
+    "birthDate": "2019-03-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "x084ce",
+      "name": "松橋公生"
+    },
+    "breeder": {
+      "id": "380541",
+      "name": "ホース・マネジメント・ボス"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005104351",
+      "name": "スパロービート"
+    },
+    "dam": {
+      "id": "2007102453",
+      "name": "ヒカルアスピレイト"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2005104351",
@@ -2627,6 +2657,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シースパロー (Sea Sparrow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シースパロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シースパロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2696,9 +2756,9 @@
       "contentHash": "8c3af7eeeae0df364dd8af99bed4dd1ed65cd5791ffb791846f1db636a78ad70",
       "byteLength": 65836,
       "rawPath": "netkeiba/horses/2019/2019100820/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:30:21.835Z"
+  "updatedAt": "2026-08-30T15:35:03.418Z"
 }

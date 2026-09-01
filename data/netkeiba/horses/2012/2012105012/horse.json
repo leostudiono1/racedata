@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105012",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105012/",
-  "profile": null,
+  "profile": {
+    "name": "レイラ",
+    "birthDate": "2012-04-09",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00406",
+      "name": "柴田政見"
+    },
+    "owner": {
+      "id": "100800",
+      "name": "日進牧場"
+    },
+    "breeder": {
+      "id": "800005",
+      "name": "スイートファーム"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スマイルメイカー Smile Maker(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Capote"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -1075,6 +1105,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイラ (Leila) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1144,9 +1204,9 @@
       "contentHash": "e1391729c06be0e21926c24d1c7ca0985c23691b5fd691e1e224b7e4d902bfc4",
       "byteLength": 64294,
       "rawPath": "netkeiba/horses/2012/2012105012/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:17:31.883Z"
+  "updatedAt": "2026-08-26T17:24:26.767Z"
 }

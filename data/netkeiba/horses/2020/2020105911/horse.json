@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105911",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105911/",
-  "profile": null,
+  "profile": {
+    "name": "モテオ",
+    "birthDate": "2020-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "橘友和"
+    },
+    "owner": {
+      "id": "148002",
+      "name": "長塩豊"
+    },
+    "breeder": {
+      "id": "343543",
+      "name": "マリオステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2015101618",
+      "name": "プロムクイーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2145,6 +2175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モテオ (Moteo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モテオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モテオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2214,9 +2274,9 @@
       "contentHash": "8475b1634be9c5927c4283abec2a2533eb3f8f5014f350ec36f261b6d34c234b",
       "byteLength": 66108,
       "rawPath": "netkeiba/horses/2020/2020105911/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:00:52.448Z"
+  "updatedAt": "2026-08-29T16:06:23.275Z"
 }

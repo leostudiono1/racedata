@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110062",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110062/",
-  "profile": null,
+  "profile": {
+    "name": "セイウンデライラ",
+    "birthDate": "2012-02-24",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "897009",
+      "name": "西山茂行"
+    },
+    "breeder": {
+      "id": "070702",
+      "name": "Eaton & Thorne Inc."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Munnings"
+    },
+    "dam": {
+      "id": "000",
+      "name": "That's Ok"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Not for Love"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2358,6 +2388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイウンデライラ (Seiun Delilah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイウンデライラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイウンデライラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2427,9 +2487,9 @@
       "contentHash": "301d32c372008fdb0d3bc5122570332ad50ccc29e53fbc77336e8ca910080091",
       "byteLength": 64524,
       "rawPath": "netkeiba/horses/2012/2012110062/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:04:06.204Z"
+  "updatedAt": "2026-08-30T15:08:47.835Z"
 }

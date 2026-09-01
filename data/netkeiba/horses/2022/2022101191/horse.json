@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101191",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101191/",
-  "profile": null,
+  "profile": {
+    "name": "ポタリング",
+    "birthDate": "2022-05-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "371009",
+      "name": "高橋文男"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ノーブルミッション Noble Mission(英)"
+    },
+    "dam": {
+      "id": "2008105370",
+      "name": "ウインルキア"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2120,6 +2150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポタリング (Pottering) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポタリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポタリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2189,9 +2249,9 @@
       "contentHash": "c54f809de47776357de066e7a1109fa2f2237ec6289ef9ee751e9fe163df1e27",
       "byteLength": 66783,
       "rawPath": "netkeiba/horses/2022/2022101191/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:42:09.812Z"
+  "updatedAt": "2026-08-28T16:49:18.284Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101631",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101631/",
-  "profile": null,
+  "profile": {
+    "name": "ドレスメイカー",
+    "birthDate": "2021-02-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2015101582",
+      "name": "ヴィヴァルダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Intello (独)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -995,6 +1025,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドレスメイカー (Dressmaker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドレスメイカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドレスメイカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1064,9 +1124,9 @@
       "contentHash": "161521f43c9a529e1ff5f4135dfff105d78d9a74f766b3f6119208c4af706549",
       "byteLength": 64640,
       "rawPath": "netkeiba/horses/2021/2021101631/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:37:47.266Z"
+  "updatedAt": "2026-08-28T16:44:55.769Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105641",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105641/",
-  "profile": null,
+  "profile": {
+    "name": "アティラン",
+    "birthDate": "2023-02-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "281008",
+      "name": "水上ふじ子"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ヴァンゴッホ"
+    },
+    "dam": {
+      "id": "2012105801",
+      "name": "ジーニアル"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1482,6 +1512,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アティラン (Attirant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アティラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アティラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1551,9 +1611,9 @@
       "contentHash": "f9f3f9bcffb9f748cea5d71eb78c154ae8c32a68c57fc0fd204c1d99d8fe54f1",
       "byteLength": 64613,
       "rawPath": "netkeiba/horses/2023/2023105641/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:51:25.684Z"
+  "updatedAt": "2026-08-30T15:56:07.266Z"
 }

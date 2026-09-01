@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102448",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102448/",
-  "profile": null,
+  "profile": {
+    "name": "グンター",
+    "birthDate": "2019-03-05",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05346",
+      "name": "荒巻透"
+    },
+    "owner": {
+      "id": "490006",
+      "name": "門野重雄"
+    },
+    "breeder": {
+      "id": "000049",
+      "name": "王蔵牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2011100589",
+      "name": "スプレンダー"
+    },
+    "damsire": {
+      "id": "1996190005",
+      "name": "ファンタスティックライト Fantastic Light(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2351,6 +2381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グンター (Gunter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グンター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グンター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2420,9 +2480,9 @@
       "contentHash": "80725c24138d63c1644176f2ab1940392073d6c51e335b611eb9308b688ecbd6",
       "byteLength": 66222,
       "rawPath": "netkeiba/horses/2019/2019102448/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:53:23.868Z"
+  "updatedAt": "2026-08-27T17:04:37.675Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101038",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101038/",
-  "profile": null,
+  "profile": {
+    "name": "セキテイサク",
+    "birthDate": "2021-04-12",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01195",
+      "name": "嘉藤貴行"
+    },
+    "owner": {
+      "id": "564031",
+      "name": "杉山元洋"
+    },
+    "breeder": {
+      "id": "003341",
+      "name": "天羽牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2014101625",
+      "name": "エンパイアガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -1114,6 +1144,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セキテイサク (Sekitei Saku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セキテイサク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セキテイサク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1183,9 +1243,9 @@
       "contentHash": "9df50232df4399e074016dbaa600d6cc8be0ef3b96f0665ea7e61d3bfd481c03",
       "byteLength": 64976,
       "rawPath": "netkeiba/horses/2021/2021101038/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:02:27.485Z"
+  "updatedAt": "2026-08-29T16:07:57.546Z"
 }

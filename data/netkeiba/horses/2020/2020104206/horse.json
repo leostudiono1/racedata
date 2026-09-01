@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104206",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104206/",
-  "profile": null,
+  "profile": {
+    "name": "プロテア",
+    "birthDate": "2020-02-17",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "628031",
+      "name": "稲場澄"
+    },
+    "breeder": {
+      "id": "033080",
+      "name": "桜井牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2007100331",
+      "name": "ナスケンアイリス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -4493,6 +4523,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロテア (Protea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロテア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロテア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4562,9 +4622,9 @@
       "contentHash": "6be155a4f8e7b6a30b8f406ee9a67cd6e13161b3222db106ee45d494bf7c0778",
       "byteLength": 66839,
       "rawPath": "netkeiba/horses/2020/2020104206/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:50:30.446Z"
+  "updatedAt": "2026-08-26T17:57:24.970Z"
 }

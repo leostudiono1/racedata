@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101760",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101760/",
-  "profile": null,
+  "profile": {
+    "name": "アスリエル",
+    "birthDate": "2019-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05358",
+      "name": "新田守"
+    },
+    "owner": {
+      "id": "x00b30",
+      "name": "植田信行"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013104704",
+      "name": "ディーマジェスティ"
+    },
+    "dam": {
+      "id": "2006109273",
+      "name": "スイートライラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013104704",
@@ -3804,6 +3834,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アスリエル (Asriel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスリエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスリエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3873,9 +3933,9 @@
       "contentHash": "94109bd8a5f40299845835486ab2cbf0146df0770b2fd41551bfc7a0676ac571",
       "byteLength": 66808,
       "rawPath": "netkeiba/horses/2019/2019101760/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:55:19.665Z"
+  "updatedAt": "2026-08-24T21:04:26.723Z"
 }

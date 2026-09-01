@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100450",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100450/",
-  "profile": null,
+  "profile": {
+    "name": "シーンスティーラー",
+    "birthDate": "2016-03-07",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "700313",
+      "name": "飛渡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2007102703",
+      "name": "ヒシイサベル"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1026,6 +1056,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーンスティーラー (Scene Stealer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーンスティーラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーンスティーラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1095,9 +1155,9 @@
       "contentHash": "82226a0f0ab8b8a9312ab82fda244aa61af49cfe7b331454b87f89ff602e4f7d",
       "byteLength": 65173,
       "rawPath": "netkeiba/horses/2016/2016100450/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:40:02.299Z"
+  "updatedAt": "2026-08-27T16:51:16.061Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110039",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110039/",
-  "profile": null,
+  "profile": {
+    "name": "サムライノモン",
+    "birthDate": "2011-05-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05718",
+      "name": "坂本和也"
+    },
+    "owner": {
+      "id": "144008",
+      "name": "木村良明"
+    },
+    "breeder": {
+      "id": "560820",
+      "name": "Hargus Sexton & Sandra Sexton"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sonoma Song"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2759,6 +2789,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サムライノモン (Samuraino Mon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サムライノモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サムライノモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2828,9 +2888,9 @@
       "contentHash": "65622bd8837b4997e050227534865352c407d85f0b54a719aa0e43bfcfd4bd61",
       "byteLength": 64605,
       "rawPath": "netkeiba/horses/2011/2011110039/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T17:57:55.696Z"
+  "updatedAt": "2026-08-28T16:05:04.413Z"
 }

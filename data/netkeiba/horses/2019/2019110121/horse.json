@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110121",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110121/",
-  "profile": null,
+  "profile": {
+    "name": "ゴーンクエスト",
+    "birthDate": "2019-01-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "辻野豊"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "970707",
+      "name": "Chiyoda Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Quality Road"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Gone Callin"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Proud Citizen"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2176,6 +2206,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴーンクエスト (Gone Quest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴーンクエスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴーンクエスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2245,9 +2305,9 @@
       "contentHash": "a6859109e040e6fa3473e1d5b8b6f29fbefb93d590b0d42734361607d69133a5",
       "byteLength": 65155,
       "rawPath": "netkeiba/horses/2019/2019110121/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:59:10.406Z"
+  "updatedAt": "2026-08-24T21:08:17.828Z"
 }

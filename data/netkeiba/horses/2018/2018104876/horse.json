@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104876",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104876/",
-  "profile": null,
+  "profile": {
+    "name": "ユアヒストリー",
+    "birthDate": "2018-04-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "999008",
+      "name": "伊藤捷一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2011104001",
+      "name": "アイムユアドリーム"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -5410,6 +5440,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユアヒストリー (Your History) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアヒストリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアヒストリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5479,9 +5539,9 @@
       "contentHash": "a6281ca81190f7800ffde4218fa1aa43b67cc9b795ff9dff208ffee7edd2f896",
       "byteLength": 67153,
       "rawPath": "netkeiba/horses/2018/2018104876/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:53:13.458Z"
+  "updatedAt": "2026-08-24T21:02:21.199Z"
 }

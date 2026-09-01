@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100483",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100483/",
-  "profile": null,
+  "profile": {
+    "name": "トークン",
+    "birthDate": "2022-04-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05131",
+      "name": "井上哲"
+    },
+    "owner": {
+      "id": "x0b9e8",
+      "name": "池山慎吾"
+    },
+    "breeder": {
+      "id": "713058",
+      "name": "稲葉牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104391",
+      "name": "ユアーズトゥルーリ"
+    },
+    "dam": {
+      "id": "2011103754",
+      "name": "リスクオン"
+    },
+    "damsire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104391",
@@ -2962,6 +2992,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トークン (Token) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トークン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トークン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3031,9 +3091,9 @@
       "contentHash": "8ffc000cdf75358af8e3b669da1d3a483acf73ccc4a86b3b6f488115ed09fea2",
       "byteLength": 66434,
       "rawPath": "netkeiba/horses/2022/2022100483/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T18:06:18.111Z"
+  "updatedAt": "2026-08-29T16:11:48.816Z"
 }

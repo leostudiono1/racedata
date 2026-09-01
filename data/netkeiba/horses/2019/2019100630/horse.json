@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100630",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100630/",
-  "profile": null,
+  "profile": {
+    "name": "ハピ",
+    "birthDate": "2019-03-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2014105872",
+      "name": "クイーンパイレーツ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -4015,6 +4045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハピ (Hapi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハピ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハピ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4084,9 +4144,9 @@
       "contentHash": "70e7f13dfcdf32fac1bc9addd4a38b07e0a9b857108fa117fdc2da8918018620",
       "byteLength": 66789,
       "rawPath": "netkeiba/horses/2019/2019100630/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:54:47.593Z"
+  "updatedAt": "2026-08-24T21:03:55.234Z"
 }

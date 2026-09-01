@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110104",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110104/",
-  "profile": null,
+  "profile": {
+    "name": "エコロエイト",
+    "birthDate": "2021-02-10",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01153",
+      "name": "中舘英二"
+    },
+    "owner": {
+      "id": "783033",
+      "name": "原村正紀"
+    },
+    "breeder": {
+      "id": "710821",
+      "name": "Shadai Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Take Charge Indy (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Lighthouse Bay"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2775,6 +2805,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エコロエイト (Ecoro Eight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロエイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロエイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2844,9 +2904,9 @@
       "contentHash": "a64322b995829394be4d9874b98a32a1e5c39b20d06ef4c04dbb6589a8fdfc2e",
       "byteLength": 66911,
       "rawPath": "netkeiba/horses/2021/2021110104/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:41:41.650Z"
+  "updatedAt": "2026-08-28T16:48:50.260Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101530",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101530/",
-  "profile": null,
+  "profile": {
+    "name": "キーロフ",
+    "birthDate": "2013-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "838030",
+      "name": "吉川朋宏"
+    },
+    "breeder": {
+      "id": "730337",
+      "name": "須崎牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2000101469",
+      "name": "スタートラッカー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1269,6 +1299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーロフ (Kirov) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーロフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーロフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1338,9 +1398,9 @@
       "contentHash": "ebfdc4a954e67911285bdf57bd76e32bcc121e2d1325b100596ad6a2a97e944c",
       "byteLength": 65415,
       "rawPath": "netkeiba/horses/2013/2013101530/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:05:05.821Z"
+  "updatedAt": "2026-08-30T15:09:47.418Z"
 }

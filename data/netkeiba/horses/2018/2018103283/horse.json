@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103283",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103283/",
-  "profile": null,
+  "profile": {
+    "name": "マンタナ",
+    "birthDate": "2018-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05775",
+      "name": "石橋満"
+    },
+    "owner": {
+      "id": "126031",
+      "name": "田中俊彰"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2010103878",
+      "name": "フウコウメイビ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2934,6 +2964,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マンタナ (Man Tana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンタナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンタナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3003,9 +3063,9 @@
       "contentHash": "d89faa287f09b01613935c41988215b799b511f80a394a64e3115a58b5f845da",
       "byteLength": 64926,
       "rawPath": "netkeiba/horses/2018/2018103283/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:07:27.987Z"
+  "updatedAt": "2026-08-31T15:12:48.342Z"
 }

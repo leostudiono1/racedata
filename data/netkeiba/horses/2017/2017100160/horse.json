@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100160",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100160/",
-  "profile": null,
+  "profile": {
+    "name": "レベンディス",
+    "birthDate": "2017-04-04",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴァルホーリング Valhalling(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Halling"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2165,6 +2195,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レベンディス (Levendis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レベンディス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レベンディス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2234,9 +2294,9 @@
       "contentHash": "5fcfc7cb5183b066208ae3fce3e264733f09dcacddddde148f01aa26fedfdc2f",
       "byteLength": 67179,
       "rawPath": "netkeiba/horses/2017/2017100160/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:46:44.592Z"
+  "updatedAt": "2026-08-24T20:55:52.143Z"
 }

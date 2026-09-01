@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103049",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103049/",
-  "profile": null,
+  "profile": {
+    "name": "キラパワー",
+    "birthDate": "2013-03-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05765",
+      "name": "加藤誠一"
+    },
+    "owner": {
+      "id": "178033",
+      "name": "山口正行"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1996102712",
+      "name": "トーホウエンペラー"
+    },
+    "dam": {
+      "id": "2003104705",
+      "name": "ジュリア"
+    },
+    "damsire": {
+      "id": "1994104060",
+      "name": "メイセイオペラ"
+    }
+  },
   "pedigree": [
     {
       "id": "1996102712",
@@ -3745,6 +3775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キラパワー (Kira Power) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラパワー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラパワー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3814,9 +3874,9 @@
       "contentHash": "fc6fb933395b4c1d699bee26383f0826ba9a92d7f0e7d4856bca2a95366b4028",
       "byteLength": 66822,
       "rawPath": "netkeiba/horses/2013/2013103049/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:06:01.969Z"
+  "updatedAt": "2026-08-30T15:10:43.607Z"
 }

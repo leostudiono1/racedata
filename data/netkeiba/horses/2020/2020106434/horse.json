@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106434",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106434/",
-  "profile": null,
+  "profile": {
+    "name": "エクチュール",
+    "birthDate": "2020-03-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "吉田司"
+    },
+    "owner": {
+      "id": "x013b6",
+      "name": "古川忠一"
+    },
+    "breeder": {
+      "id": "380543",
+      "name": "グランデファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2013100781",
+      "name": "イエロースター"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1516,6 +1546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エクチュール (Ectur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクチュール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクチュール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1585,9 +1645,9 @@
       "contentHash": "f3a6d040c670151681952f17dc0e8a18e781707a4c69f4ca267d9f3022d18a3d",
       "byteLength": 65203,
       "rawPath": "netkeiba/horses/2020/2020106434/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:38:14.431Z"
+  "updatedAt": "2026-08-30T15:42:56.496Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100516",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100516/",
-  "profile": null,
+  "profile": {
+    "name": "タガノフレンダ",
+    "birthDate": "2012-05-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "859002",
+      "name": "八木良司"
+    },
+    "breeder": {
+      "id": "790540",
+      "name": "新冠タガノファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2002103124",
+      "name": "タガノレジェンダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘネシー Hennessy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -1009,6 +1039,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タガノフレンダ (Tagano Frenda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノフレンダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノフレンダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1078,9 +1138,9 @@
       "contentHash": "4ff9b5c564b723e133e5760d39a65c0623397dd4f7b6825c77c83d312b081c5a",
       "byteLength": 64402,
       "rawPath": "netkeiba/horses/2012/2012100516/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:46:20.079Z"
+  "updatedAt": "2026-08-25T17:47:10.996Z"
 }

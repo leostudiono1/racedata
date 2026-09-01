@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101031",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101031/",
-  "profile": null,
+  "profile": {
+    "name": "アスクエピソード",
+    "birthDate": "2020-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "037803",
+      "name": "廣崎利洋ＨＤ"
+    },
+    "breeder": {
+      "id": "020541",
+      "name": "ＡＳＫＳＴＵＤ"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2002102752",
+      "name": "ネヴァーピリオド"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3757,6 +3787,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アスクエピソード (Ask Episode) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスクエピソード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスクエピソード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3826,9 +3886,9 @@
       "contentHash": "60cfc29e52ef49e54b4e27fe3294bcc17fb8d1e114098e3852278875ff26abd3",
       "byteLength": 67001,
       "rawPath": "netkeiba/horses/2020/2020101031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:56:54.410Z"
+  "updatedAt": "2026-08-29T16:02:24.901Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102992",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102992/",
-  "profile": null,
+  "profile": {
+    "name": "ロイド",
+    "birthDate": "2012-03-05",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05575",
+      "name": "矢野義幸"
+    },
+    "owner": {
+      "id": "922033",
+      "name": "川原崇弘"
+    },
+    "breeder": {
+      "id": "013330",
+      "name": "静内山田牧場"
+    },
+    "birthplace": "新ひだか",
+    "sire": {
+      "id": "2001106791",
+      "name": "ルースリンド"
+    },
+    "dam": {
+      "id": "2004100630",
+      "name": "トゥルーオトメ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001106791",
@@ -7004,6 +7034,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロイド (Lloyd) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7073,9 +7133,9 @@
       "contentHash": "2a58cf0b3949090fb5ace86394c050522f08792df052eea174cddb6b48a1d26e",
       "byteLength": 66845,
       "rawPath": "netkeiba/horses/2012/2012102992/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:26:23.090Z"
+  "updatedAt": "2026-08-24T20:35:30.460Z"
 }

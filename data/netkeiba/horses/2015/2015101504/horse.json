@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101504",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101504/",
-  "profile": null,
+  "profile": {
+    "name": "シンボリセイント",
+    "birthDate": "2015-03-09",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01026",
+      "name": "鈴木伸尋"
+    },
+    "owner": {
+      "id": "431800",
+      "name": "シンボリ牧場"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2001110130",
+      "name": "ラモレイエ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Theatrical"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1508,6 +1538,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンボリセイント (Symboli Saint) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンボリセイント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンボリセイント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1577,9 +1637,9 @@
       "contentHash": "300195f543c2750c298e5343f1191f312fabb0a34f7d8c2376357b6fde068364",
       "byteLength": 65564,
       "rawPath": "netkeiba/horses/2015/2015101504/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:14:33.069Z"
+  "updatedAt": "2026-08-30T15:19:14.574Z"
 }

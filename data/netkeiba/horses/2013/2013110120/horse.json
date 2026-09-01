@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110120",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110120/",
-  "profile": null,
+  "profile": {
+    "name": "ブルービーム",
+    "birthDate": "2013-05-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "464030",
+      "name": "田畑利彦"
+    },
+    "breeder": {
+      "id": "110822",
+      "name": "Haras de Bernesq"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Teofilo"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Neige Du Ninian"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Trempolino (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1054,6 +1084,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルービーム (Blue Beam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルービーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルービーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1123,9 +1183,9 @@
       "contentHash": "99ca343b96fc63de6a7bb9834d476b2129fbe025ba9c9ffb12bae3c0395a7de2",
       "byteLength": 64721,
       "rawPath": "netkeiba/horses/2013/2013110120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:54:16.514Z"
+  "updatedAt": "2026-08-25T17:55:06.931Z"
 }

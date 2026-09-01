@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104786",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104786/",
-  "profile": null,
+  "profile": {
+    "name": "プロフェッショナル",
+    "birthDate": "2020-05-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "074031",
+      "name": "谷口祐人"
+    },
+    "breeder": {
+      "id": "303305",
+      "name": "藤原牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "2006101543",
+      "name": "ストームツイスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -3269,6 +3299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロフェッショナル (Professional) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロフェッショナル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロフェッショナル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3338,9 +3398,9 @@
       "contentHash": "9c250067d04bded2c31672ee4b8a459ca8c4eeafcefa465132700a4d9e897581",
       "byteLength": 65178,
       "rawPath": "netkeiba/horses/2020/2020104786/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:35:13.054Z"
+  "updatedAt": "2026-08-28T16:42:21.708Z"
 }

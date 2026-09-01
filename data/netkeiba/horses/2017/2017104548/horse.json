@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104548",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104548/",
-  "profile": null,
+  "profile": {
+    "name": "トーアクルス",
+    "birthDate": "2017-04-08",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01030",
+      "name": "星野忍"
+    },
+    "owner": {
+      "id": "784800",
+      "name": "高山ランド"
+    },
+    "breeder": {
+      "id": "500384",
+      "name": "トーア牧場"
+    },
+    "birthplace": "豊浦町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2010110086",
+      "name": "メイプルキャンディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Candy Ride"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1605,6 +1635,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーアクルス (Toa Cruz) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーアクルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーアクルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1674,9 +1734,9 @@
       "contentHash": "0b608042a946d9a6cea1ef9081d052850ec34e66dbfec29c85fac3802d03b446",
       "byteLength": 65986,
       "rawPath": "netkeiba/horses/2017/2017104548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:46:13.335Z"
+  "updatedAt": "2026-08-27T16:57:27.132Z"
 }

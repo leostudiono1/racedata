@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100316",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100316/",
-  "profile": null,
+  "profile": {
+    "name": "ゴールデンベリル",
+    "birthDate": "2013-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "941033",
+      "name": "村木克子"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "1997106316",
+      "name": "アンプルカット"
+    },
+    "damsire": {
+      "id": "1987101199",
+      "name": "ナリタハヤブサ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -1194,6 +1224,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴールデンベリル (Golden Beryl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデンベリル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデンベリル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1263,9 +1323,9 @@
       "contentHash": "1e630bb56b290b97bed4ccc55629b4eaf66750cbc017255d759f359051370e2b",
       "byteLength": 64646,
       "rawPath": "netkeiba/horses/2013/2013100316/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:50:07.715Z"
+  "updatedAt": "2026-08-25T17:50:58.350Z"
 }

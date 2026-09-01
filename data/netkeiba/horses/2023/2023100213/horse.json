@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100213",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100213/",
-  "profile": null,
+  "profile": {
+    "name": "イルカンダ",
+    "birthDate": "2023-03-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "331033",
+      "name": "土田重実"
+    },
+    "breeder": {
+      "id": "403021",
+      "name": "土田農場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104458",
+      "name": "クリソベリル"
+    },
+    "dam": {
+      "id": "2010101452",
+      "name": "エルクイーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104458",
@@ -1528,6 +1558,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イルカンダ (Irukanda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イルカンダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イルカンダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1597,9 +1657,9 @@
       "contentHash": "0c7ee7fce6d27ba6c67be153d23ac460f82f3778217aa17fb15f68de6cf1c57b",
       "byteLength": 65963,
       "rawPath": "netkeiba/horses/2023/2023100213/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T20:01:21.373Z"
+  "updatedAt": "2026-08-26T18:08:16.182Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102316",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102316/",
-  "profile": null,
+  "profile": {
+    "name": "トレジャークエスト",
+    "birthDate": "2016-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "x00616",
+      "name": "大原啓子"
+    },
+    "breeder": {
+      "id": "390543",
+      "name": "大原ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102652",
+      "name": "サダムパテック"
+    },
+    "dam": {
+      "id": "2004104585",
+      "name": "クロコレーヌ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "クロコルージュ Croco Rouge(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102652",
@@ -1610,6 +1640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トレジャークエスト (Treasure Quest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレジャークエスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレジャークエスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1679,9 +1739,9 @@
       "contentHash": "3f3e4d226261b28bd11a5bed01f8028c924743b04468bf6b50cc921d3269ff2c",
       "byteLength": 65228,
       "rawPath": "netkeiba/horses/2016/2016102316/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:42:56.819Z"
+  "updatedAt": "2026-08-24T20:52:04.945Z"
 }

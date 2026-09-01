@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102896",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102896/",
-  "profile": null,
+  "profile": {
+    "name": "ハミルトン",
+    "birthDate": "2022-02-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ドリームオブジェニー Dream of Genie(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2546,6 +2576,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハミルトン (Hamilton) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハミルトン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハミルトン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2615,9 +2675,9 @@
       "contentHash": "7edb84c5a26fd119a910868e84a49988b6d507d6701a0c81151fbd133dc2c970",
       "byteLength": 67153,
       "rawPath": "netkeiba/horses/2022/2022102896/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:58:40.421Z"
+  "updatedAt": "2026-08-26T18:05:35.034Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104985",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104985/",
-  "profile": null,
+  "profile": {
+    "name": "シャイフ",
+    "birthDate": "2022-01-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01164",
+      "name": "安田翔伍"
+    },
+    "owner": {
+      "id": "072803",
+      "name": "スリーエイチレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ファディラー Fadillah(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1605,6 +1635,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャイフ (Shaykh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1674,9 +1734,9 @@
       "contentHash": "b72b64f3bc51469e728ac4b2d721ff7ae2d5df86c47a776b8ddb866414f7ef3e",
       "byteLength": 66810,
       "rawPath": "netkeiba/horses/2022/2022104985/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:35:35.323Z"
+  "updatedAt": "2026-08-25T18:36:25.881Z"
 }

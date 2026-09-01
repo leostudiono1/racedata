@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104868",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104868/",
-  "profile": null,
+  "profile": {
+    "name": "ライル",
+    "birthDate": "2016-03-24",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ライラックスアンドレース Lilacs and Lace(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Flower Alley"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2336,6 +2366,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライル (Lahire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2405,9 +2465,9 @@
       "contentHash": "db67aec18c7a9f272b02579776eebacaa2262a304ea06d8e7cd0538bde8b7d7f",
       "byteLength": 67009,
       "rawPath": "netkeiba/horses/2016/2016104868/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:06:31.974Z"
+  "updatedAt": "2026-08-25T18:07:22.272Z"
 }

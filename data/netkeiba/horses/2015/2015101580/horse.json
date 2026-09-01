@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101580",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101580/",
-  "profile": null,
+  "profile": {
+    "name": "インターセクション",
+    "birthDate": "2015-04-12",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴァインストリート Vine Street(愛)"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6096,6 +6126,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インターセクション (Intersection) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インターセクション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インターセクション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6165,9 +6225,9 @@
       "contentHash": "d5f1de95b73c2559a953ad64fbd12e7a63bdcfe6a36726c872454a514764b661",
       "byteLength": 67080,
       "rawPath": "netkeiba/horses/2015/2015101580/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:14:43.386Z"
+  "updatedAt": "2026-08-30T15:19:25.093Z"
 }

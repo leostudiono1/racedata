@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102391",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102391/",
-  "profile": null,
+  "profile": {
+    "name": "グーテンベルク",
+    "birthDate": "2022-04-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2016104770",
+      "name": "アトラクティヴ"
+    },
+    "damsire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1833,6 +1863,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グーテンベルク (Gutenberg) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グーテンベルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グーテンベルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1902,9 +1962,9 @@
       "contentHash": "f0ef2035ab41467738363e05105eabc39b08dd5a25bc96c9d0ab69e306c3d8be",
       "byteLength": 66974,
       "rawPath": "netkeiba/horses/2022/2022102391/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:25:12.435Z"
+  "updatedAt": "2026-08-31T15:30:33.194Z"
 }

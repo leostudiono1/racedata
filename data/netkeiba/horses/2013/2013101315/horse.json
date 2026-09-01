@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101315",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101315/",
-  "profile": null,
+  "profile": {
+    "name": "キングハート",
+    "birthDate": "2013-05-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "x0a13e",
+      "name": "宮崎豊治"
+    },
+    "breeder": {
+      "id": "543334",
+      "name": "奥山博"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101550",
+      "name": "オレハマッテルゼ"
+    },
+    "dam": {
+      "id": "2003100810",
+      "name": "ラブハート"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101550",
@@ -7678,6 +7708,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングハート (King Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7747,9 +7807,9 @@
       "contentHash": "432700654af941c025980a80006788f1cc7a83a1e8bd59aaf79a0d3e3e184a4c",
       "byteLength": 66883,
       "rawPath": "netkeiba/horses/2013/2013101315/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T18:28:43.011Z"
+  "updatedAt": "2026-08-27T16:39:56.743Z"
 }

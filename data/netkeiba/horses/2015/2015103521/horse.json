@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103521",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103521/",
-  "profile": null,
+  "profile": {
+    "name": "シトリカ",
+    "birthDate": "2015-03-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "482002",
+      "name": "水上行雄"
+    },
+    "breeder": {
+      "id": "300339",
+      "name": "競優牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヨハネスブルグ Johannesburg(米)"
+    },
+    "dam": {
+      "id": "2003106201",
+      "name": "サチノスイーティー"
+    },
+    "damsire": {
+      "id": "1988106402",
+      "name": "カリスタグローリ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2190,6 +2220,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シトリカ (Citrica) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シトリカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シトリカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2259,9 +2319,9 @@
       "contentHash": "1d594095ff1644970c9fb1501e52e59b5f3a3da17017933e6a5a4cb21bcc4385",
       "byteLength": 65704,
       "rawPath": "netkeiba/horses/2015/2015103521/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T17:36:21.882Z"
+  "updatedAt": "2026-08-29T15:41:52.479Z"
 }

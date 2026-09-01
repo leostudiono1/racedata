@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102392",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102392/",
-  "profile": null,
+  "profile": {
+    "name": "メジャーアピール",
+    "birthDate": "2022-04-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05742",
+      "name": "米谷康秀"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アピールII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Selkirk"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1899,6 +1929,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メジャーアピール (Major Appeal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メジャーアピール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メジャーアピール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1968,9 +2028,9 @@
       "contentHash": "b757854d0b9ab2eb24431f4b922108217907e7c704c939505087ae0eca60a6b4",
       "byteLength": 66116,
       "rawPath": "netkeiba/horses/2022/2022102392/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:45:18.132Z"
+  "updatedAt": "2026-08-30T15:49:59.963Z"
 }

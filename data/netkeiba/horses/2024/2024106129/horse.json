@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024106129",
   "sourceUrl": "https://db.netkeiba.com/horse/2024106129/",
-  "profile": null,
+  "profile": {
+    "name": "レアアース",
+    "birthDate": "2024-01-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016102179",
+      "name": "ダノンキングリー"
+    },
+    "dam": {
+      "id": "2019105107",
+      "name": "アドゥール"
+    },
+    "damsire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016102179",
@@ -1033,6 +1063,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レアアース (Rare Earth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアアース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアアース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1102,9 +1162,9 @@
       "contentHash": "d36a90c0d62e6e450dcd1d512d0da6d2a318e82c20621a6fa21a3ceecd643f25",
       "byteLength": 64590,
       "rawPath": "netkeiba/horses/2024/2024106129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:53:10.755Z"
+  "updatedAt": "2026-08-30T15:57:52.340Z"
 }

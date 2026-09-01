@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101617",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101617/",
-  "profile": null,
+  "profile": {
+    "name": "ダビディ",
+    "birthDate": "2020-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "215008",
+      "name": "田畑憲士"
+    },
+    "breeder": {
+      "id": "733356",
+      "name": "庄野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2011103699",
+      "name": "イトハユリ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -3752,6 +3782,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダビディ (Davidii) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダビディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダビディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3821,9 +3881,9 @@
       "contentHash": "09d60bb28976bac41b3bb13646b7acf5df9b9445d2e3c333abb3ad1b370b555f",
       "byteLength": 66697,
       "rawPath": "netkeiba/horses/2020/2020101617/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:15:13.770Z"
+  "updatedAt": "2026-08-31T15:20:34.218Z"
 }

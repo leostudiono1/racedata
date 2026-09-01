@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102396",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102396/",
-  "profile": null,
+  "profile": {
+    "name": "アンゲルス",
+    "birthDate": "2014-03-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "693033",
+      "name": "金山敏也"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "1998106415",
+      "name": "ポニーガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seattle Slew"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3387,6 +3417,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンゲルス (Angelus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンゲルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンゲルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3456,9 +3516,9 @@
       "contentHash": "7427bc88134cfc95a5c933764652a3a3f7aa8bb398e8769488cb6ee9fd287e1c",
       "byteLength": 64308,
       "rawPath": "netkeiba/horses/2014/2014102396/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:06:09.437Z"
+  "updatedAt": "2026-08-28T16:13:18.159Z"
 }

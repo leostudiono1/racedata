@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103225",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103225/",
-  "profile": null,
+  "profile": {
+    "name": "ファインドミー",
+    "birthDate": "2012-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05552",
+      "name": "高月賢一"
+    },
+    "owner": {
+      "id": "x08ff4",
+      "name": "谷口祐人"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2005100568",
+      "name": "ルルパンブルー"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -3472,6 +3502,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインドミー (Find Me) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインドミー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインドミー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3541,9 +3601,9 @@
       "contentHash": "18ee166b5295361a63035dafcf9ce69b844b4a1a4e1cc0a34eefe521324cfac5",
       "byteLength": 64825,
       "rawPath": "netkeiba/horses/2012/2012103225/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:16:07.923Z"
+  "updatedAt": "2026-08-26T17:23:03.230Z"
 }

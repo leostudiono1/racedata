@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103826",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103826/",
-  "profile": null,
+  "profile": {
+    "name": "ビューロクラート",
+    "birthDate": "2011-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "852030",
+      "name": "佐々木雄二"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャリアコレクション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "General Meeting"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -7475,6 +7505,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビューロクラート (Bureaucrate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビューロクラート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビューロクラート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7544,9 +7604,9 @@
       "contentHash": "cbb67bd9f749eac06909c81daf6dc169d62e119609db55ebc4cf40fe3ea7aeda",
       "byteLength": 64958,
       "rawPath": "netkeiba/horses/2011/2011103826/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:40:02.627Z"
+  "updatedAt": "2026-08-31T14:45:26.293Z"
 }

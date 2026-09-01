@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105387",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105387/",
-  "profile": null,
+  "profile": {
+    "name": "マシン",
+    "birthDate": "2023-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01166",
+      "name": "石坂公一"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2016104458",
+      "name": "クリソベリル"
+    },
+    "dam": {
+      "id": "2013105968",
+      "name": "ラインダール"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104458",
@@ -1670,6 +1700,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マシン (Machine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1739,9 +1799,9 @@
       "contentHash": "3a11f21ffe19e71b7fb65de072411b5b84d5942a2efe7313184e8878ff94c55c",
       "byteLength": 66727,
       "rawPath": "netkeiba/horses/2023/2023105387/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:12:04.421Z"
+  "updatedAt": "2026-08-27T17:23:18.181Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103178",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103178/",
-  "profile": null,
+  "profile": {
+    "name": "ペルドリ",
+    "birthDate": "2021-03-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "330661",
+      "name": "ビクトリーホースランチ"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2016102127",
+      "name": "フロレンザール"
+    },
+    "damsire": {
+      "id": "2008103004",
+      "name": "ベルシャザール"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -3603,6 +3633,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペルドリ (Perdrix) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペルドリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペルドリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3672,9 +3732,9 @@
       "contentHash": "49853eefc34f355b93052736367ad4234ae18f0994ce91398afeedb4032cb7fc",
       "byteLength": 66672,
       "rawPath": "netkeiba/horses/2021/2021103178/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:02:19.623Z"
+  "updatedAt": "2026-08-27T17:13:33.420Z"
 }

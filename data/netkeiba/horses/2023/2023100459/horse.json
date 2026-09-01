@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100459",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100459/",
-  "profile": null,
+  "profile": {
+    "name": "タフバディ",
+    "birthDate": "2023-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "倉富隆一"
+    },
+    "owner": {
+      "id": "154803",
+      "name": "ＫＩＭＵＲＡ"
+    },
+    "breeder": {
+      "id": "593062",
+      "name": "レースホース牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2010110129",
+      "name": "エジル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -1589,6 +1619,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タフバディ (Tough Buddy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タフバディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タフバディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1658,9 +1718,9 @@
       "contentHash": "729956c4f0b22ca55764cd636649f269f1d379985f9bcde910a94fbf59f4c520",
       "byteLength": 66507,
       "rawPath": "netkeiba/horses/2023/2023100459/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T23:11:56.404Z"
+  "updatedAt": "2026-08-24T21:20:54.043Z"
 }

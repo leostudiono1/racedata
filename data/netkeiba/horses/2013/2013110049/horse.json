@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110049",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110049/",
-  "profile": null,
+  "profile": {
+    "name": "ラトナプラ",
+    "birthDate": "2013-02-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "245030",
+      "name": "前田葉子"
+    },
+    "breeder": {
+      "id": "330706",
+      "name": "Bryant H. Prentice III"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Bon Jovi Girl"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Malibu Moon"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1292,6 +1322,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラトナプラ (Ratnapura) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラトナプラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラトナプラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1361,9 +1421,9 @@
       "contentHash": "ca9c738955f76ac911542e798c2dbec967a35bb93ddd98ce07719aca182990ed",
       "byteLength": 65744,
       "rawPath": "netkeiba/horses/2013/2013110049/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T18:04:59.291Z"
+  "updatedAt": "2026-08-28T16:12:08.229Z"
 }

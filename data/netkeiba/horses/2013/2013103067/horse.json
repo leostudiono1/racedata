@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103067",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103067/",
-  "profile": null,
+  "profile": {
+    "name": "グラシアール",
+    "birthDate": "2013-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "849030",
+      "name": "山口功一郎"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    },
+    "dam": {
+      "id": "2003104793",
+      "name": "ヒシセーブル"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "1993109188",
@@ -1579,6 +1609,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラシアール (Glaciar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラシアール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラシアール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1648,9 +1708,9 @@
       "contentHash": "7d3a4198b24d8188b10e0b20ff95836ddb8fc7218156d3086f06b371cab54180",
       "byteLength": 65480,
       "rawPath": "netkeiba/horses/2013/2013103067/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:45:42.422Z"
+  "updatedAt": "2026-08-31T14:51:06.131Z"
 }

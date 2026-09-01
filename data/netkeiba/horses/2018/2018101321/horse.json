@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101321",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101321/",
-  "profile": null,
+  "profile": {
+    "name": "エイノスケ",
+    "birthDate": "2018-04-06",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05700",
+      "name": "土屋洋之"
+    },
+    "owner": {
+      "id": "573002",
+      "name": "中田和宏"
+    },
+    "breeder": {
+      "id": "610362",
+      "name": "中田牧場"
+    },
+    "birthplace": "平取",
+    "sire": {
+      "id": "2006103308",
+      "name": "アンライバルド"
+    },
+    "dam": {
+      "id": "2011105994",
+      "name": "マイカイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヨハネスブルグ Johannesburg(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103308",
@@ -10305,6 +10335,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイノスケ (Einosuke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイノスケ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイノスケ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10374,9 +10434,9 @@
       "contentHash": "9f8b0124051563bada4a8d39284022af506eae986ae6607c26e38cb31f0edcac",
       "byteLength": 66766,
       "rawPath": "netkeiba/horses/2018/2018101321/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T17:06:11.656Z"
+  "updatedAt": "2026-08-31T15:11:31.400Z"
 }

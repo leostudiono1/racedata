@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105188",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105188/",
-  "profile": null,
+  "profile": {
+    "name": "ヒットチャート",
+    "birthDate": "2021-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01042",
+      "name": "安達昭夫"
+    },
+    "owner": {
+      "id": "172031",
+      "name": "中塚孝明"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フィジオクラート Physiocrate(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Doctor Dino (仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -969,6 +999,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒットチャート (Hit Chart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒットチャート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒットチャート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1038,9 +1098,9 @@
       "contentHash": "caf6a6a83f04ff17ab9b638bc5a0006a4a1f9df3775f9b62d669730b21471fac",
       "byteLength": 65652,
       "rawPath": "netkeiba/horses/2021/2021105188/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T19:03:26.087Z"
+  "updatedAt": "2026-08-27T17:14:39.873Z"
 }

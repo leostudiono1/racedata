@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103060",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103060/",
-  "profile": null,
+  "profile": {
+    "name": "レオアルテミス",
+    "birthDate": "2012-03-24",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "209800",
+      "name": "レオ"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "1997103387",
+      "name": "ティアドロップス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1514,6 +1544,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオアルテミス (Leo Artemis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオアルテミス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオアルテミス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1583,9 +1643,9 @@
       "contentHash": "56550e1cfa99e87b0a567e774af964bff4e92e73aedf4fead651611bf840b5ca",
       "byteLength": 65110,
       "rawPath": "netkeiba/horses/2012/2012103060/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T17:01:14.541Z"
+  "updatedAt": "2026-08-30T15:05:56.275Z"
 }

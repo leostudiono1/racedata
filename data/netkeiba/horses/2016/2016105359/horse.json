@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105359",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105359/",
-  "profile": null,
+  "profile": {
+    "name": "バロー",
+    "birthDate": "2016-03-06",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アップワードスパイラル Upward Spiral(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Teofilo"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1106,6 +1136,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バロー (Barrow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1175,9 +1235,9 @@
       "contentHash": "62dc4344ac4160f1b9c8b0c63a1a0a528ed3a5f5dd745f2e026146184d78f3df",
       "byteLength": 64693,
       "rawPath": "netkeiba/horses/2016/2016105359/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T22:45:20.287Z"
+  "updatedAt": "2026-08-24T20:54:28.226Z"
 }

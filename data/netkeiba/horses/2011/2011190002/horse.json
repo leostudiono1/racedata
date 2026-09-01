@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011190002",
   "sourceUrl": "https://db.netkeiba.com/horse/2011190002/",
-  "profile": null,
+  "profile": {
+    "name": "Ito",
+    "birthDate": "2011-04-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05694",
+      "name": "カルヴァ"
+    },
+    "owner": {
+      "id": "000803",
+      "name": "シュレンダーハン牧場"
+    },
+    "breeder": {
+      "id": "300703",
+      "name": "Gestut Schlenderhan"
+    },
+    "birthplace": "独",
+    "sire": {
+      "id": "000",
+      "name": "Adlerflug"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Iota"
+    },
+    "damsire": {
+      "id": "1995190004",
+      "name": "Tiger Hill (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2268,6 +2298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Ito (イトウ) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ito関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Ito関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2337,9 +2397,9 @@
       "contentHash": "8023dafe6cffd3b2a08bbad3d7f0609ec479fb3f871656916cab8d1ac9066d23",
       "byteLength": 66132,
       "rawPath": "netkeiba/horses/2011/2011190002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:40:55.076Z"
+  "updatedAt": "2026-08-31T14:46:18.849Z"
 }

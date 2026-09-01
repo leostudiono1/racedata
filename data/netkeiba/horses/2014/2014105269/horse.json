@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105269",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105269/",
-  "profile": null,
+  "profile": {
+    "name": "パーリオ",
+    "birthDate": "2014-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "221007",
+      "name": "吉田安惠"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2004103080",
+      "name": "シーリーコート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1315,6 +1345,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パーリオ (Palio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パーリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パーリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1384,9 +1444,9 @@
       "contentHash": "27569edef8188018e4f5680f1ef7c12da9e58b9388847269774c759624d94ce7",
       "byteLength": 64828,
       "rawPath": "netkeiba/horses/2014/2014105269/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T16:51:21.832Z"
+  "updatedAt": "2026-08-31T14:56:45.519Z"
 }

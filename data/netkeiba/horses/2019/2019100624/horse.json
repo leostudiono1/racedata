@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100624",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100624/",
-  "profile": null,
+  "profile": {
+    "name": "ルチア",
+    "birthDate": "2019-03-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "2013101838",
+      "name": "エレーデ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2186,6 +2216,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルチア (Lucia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルチア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルチア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2255,9 +2315,9 @@
       "contentHash": "cd42a94ae672f9ed3e8016f4fe620884497de51ef1b145dbb53cf3077ba69933",
       "byteLength": 66574,
       "rawPath": "netkeiba/horses/2019/2019100624/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T20:17:22.889Z"
+  "updatedAt": "2026-08-25T18:18:13.405Z"
 }

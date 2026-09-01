@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110069",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110069/",
-  "profile": null,
+  "profile": {
+    "name": "アイアンヒロイン",
+    "birthDate": "2013-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "550033",
+      "name": "大野照旺"
+    },
+    "breeder": {
+      "id": "910706",
+      "name": "Jack Dickerson"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Congrats (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Superior Storm"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2372,6 +2402,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイアンヒロイン (Iron Heroine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイアンヒロイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイアンヒロイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2441,9 +2501,9 @@
       "contentHash": "0865ac6d3debf1d635887a65b96983c0f09e11aac077ea139857a550c3d996dc",
       "byteLength": 66354,
       "rawPath": "netkeiba/horses/2013/2013110069/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T19:54:09.251Z"
+  "updatedAt": "2026-08-25T17:54:59.951Z"
 }

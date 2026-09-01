@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103769",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103769/",
-  "profile": null,
+  "profile": {
+    "name": "キンショウ",
+    "birthDate": "2015-02-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "419033",
+      "name": "岡井元憲"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    },
+    "dam": {
+      "id": "2005101663",
+      "name": "アムネリス"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2828,6 +2858,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キンショウ (Kinsho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンショウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンショウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2897,9 +2957,9 @@
       "contentHash": "909be2781b432f657e7f759f7b6c75c204bac05ea78f30029608c56f1adc0f5c",
       "byteLength": 66052,
       "rawPath": "netkeiba/horses/2015/2015103769/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T19:28:51.389Z"
+  "updatedAt": "2026-08-26T17:35:45.920Z"
 }
