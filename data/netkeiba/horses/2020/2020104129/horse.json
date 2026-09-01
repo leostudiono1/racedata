@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104129",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104129/",
-  "profile": null,
+  "profile": {
+    "name": "バサラ",
+    "birthDate": "2020-02-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "379803",
+      "name": "ＯＵＭＡ"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    },
+    "dam": {
+      "id": "2010102670",
+      "name": "ハードデイズナイト"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106867",
@@ -2755,6 +2785,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バサラ (Basara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バサラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バサラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2824,9 +2884,9 @@
       "contentHash": "b3bcfbd4a781bd90684fdae7af7896557b919ae5a338e086abbbe0097f9a8350",
       "byteLength": 65362,
       "rawPath": "netkeiba/horses/2020/2020104129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:09:28.392Z"
+  "updatedAt": "2026-08-26T06:18:01.089Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100425",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100425/",
-  "profile": null,
+  "profile": {
+    "name": "フェイス",
+    "birthDate": "2013-02-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00438",
+      "name": "安田隆行"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2001107654",
+      "name": "チリエージェ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1688,6 +1718,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェイス (Faith) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1757,9 +1817,9 @@
       "contentHash": "6f78531964efc5fa43bbe817da97e55fe3a01f58fe14faade9afca8bf08d2afe",
       "byteLength": 65207,
       "rawPath": "netkeiba/horses/2013/2013100425/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:36:46.096Z"
+  "updatedAt": "2026-08-29T03:40:09.265Z"
 }

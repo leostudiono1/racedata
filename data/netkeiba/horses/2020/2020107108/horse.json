@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020107108",
   "sourceUrl": "https://db.netkeiba.com/horse/2020107108/",
-  "profile": null,
+  "profile": {
+    "name": "バーチャミ",
+    "birthDate": "2020-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "951033",
+      "name": "諸岡慶"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102525",
+      "name": "メジロダイボサツ"
+    },
+    "dam": {
+      "id": "2014102389",
+      "name": "サンシャワー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Candy Ride"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102525",
@@ -1085,6 +1115,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バーチャミ (Baciami) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バーチャミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バーチャミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1154,9 +1214,9 @@
       "contentHash": "e59181c93b6311153edc21b5def9a4575829a420ac7c6f6ff41bb95d3b97d3b3",
       "byteLength": 64830,
       "rawPath": "netkeiba/horses/2020/2020107108/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:39:44.839Z"
+  "updatedAt": "2026-08-30T03:51:54.613Z"
 }

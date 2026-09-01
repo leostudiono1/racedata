@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101112",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101112/",
-  "profile": null,
+  "profile": {
+    "name": "ビエーン",
+    "birthDate": "2017-03-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "933033",
+      "name": "小林由明"
+    },
+    "breeder": {
+      "id": "930369",
+      "name": "清水牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "1998101772",
+      "name": "ハローサンライズ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1294,6 +1324,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビエーン (Bien) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビエーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビエーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1363,9 +1423,9 @@
       "contentHash": "fb3cf676414921985263d4aa82521b24cc5ef0539638c99dfb3eeea91eb5b8df",
       "byteLength": 65440,
       "rawPath": "netkeiba/horses/2017/2017101112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:54:00.874Z"
+  "updatedAt": "2026-08-26T06:02:33.427Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106216",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106216/",
-  "profile": null,
+  "profile": {
+    "name": "ミストリア",
+    "birthDate": "2023-03-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "463800",
+      "name": "名古屋友豊"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2014100114",
+      "name": "カワイアラ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1122,6 +1152,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミストリア (Mi Historia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミストリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミストリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1191,9 +1251,9 @@
       "contentHash": "7023dfc14aa9a78890acca513c99d7e65bb2bdfe1c269535e5821fafbc749e38",
       "byteLength": 64643,
       "rawPath": "netkeiba/horses/2023/2023106216/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:25:33.139Z"
+  "updatedAt": "2026-08-29T04:28:56.336Z"
 }

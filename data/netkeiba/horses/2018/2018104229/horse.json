@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104229",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104229/",
-  "profile": null,
+  "profile": {
+    "name": "リスカム",
+    "birthDate": "2018-03-30",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "303300",
+      "name": "畠山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2004104875",
+      "name": "アルコセニョーラ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2068,6 +2098,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リスカム (Lyskamm) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リスカム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リスカム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2137,9 +2197,9 @@
       "contentHash": "38905c77714d94bc3f727f8bcd8e64a96a0f339841ad0137665c2419f755cf47",
       "byteLength": 65097,
       "rawPath": "netkeiba/horses/2018/2018104229/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:33:37.323Z"
+  "updatedAt": "2026-08-24T09:39:28.508Z"
 }

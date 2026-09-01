@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101361",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101361/",
-  "profile": null,
+  "profile": {
+    "name": "セバスチャン",
+    "birthDate": "2018-03-03",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05566",
+      "name": "月岡健二"
+    },
+    "owner": {
+      "id": "011008",
+      "name": "平田修"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2012104790",
+      "name": "パンドラズホープ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2527,6 +2557,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セバスチャン (Sebastian) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セバスチャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セバスチャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2596,9 +2656,9 @@
       "contentHash": "51004e656a79fc2c7cd1262cf1ceac610f43abca6df58d6899aa88084700a8f6",
       "byteLength": 65171,
       "rawPath": "netkeiba/horses/2018/2018101361/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:09:32.988Z"
+  "updatedAt": "2026-08-31T03:17:15.283Z"
 }

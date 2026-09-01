@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101888",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101888/",
-  "profile": null,
+  "profile": {
+    "name": "テッパン",
+    "birthDate": "2016-03-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "103011",
+      "name": "高野牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2001106138",
+      "name": "アッチッチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1045,6 +1075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テッパン (Teppan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テッパン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テッパン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1114,9 +1174,9 @@
       "contentHash": "a5ed9c4ac7f9c54ea0717715298a879c7f1836c02269f98ebb5e7692ac7fcf89",
       "byteLength": 64356,
       "rawPath": "netkeiba/horses/2016/2016101888/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:50:16.726Z"
+  "updatedAt": "2026-08-26T05:58:49.132Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021109031",
   "sourceUrl": "https://db.netkeiba.com/horse/2021109031/",
-  "profile": null,
+  "profile": {
+    "name": "ブラックボックス",
+    "birthDate": "2021-05-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "高馬元紘"
+    },
+    "owner": {
+      "id": "499033",
+      "name": "藤田岳彦"
+    },
+    "breeder": {
+      "id": "533138",
+      "name": "久保ファーム"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "000",
+      "name": "アニマルキングダム Animal Kingdom(米)"
+    },
+    "dam": {
+      "id": "2006104432",
+      "name": "ブラックシップ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1215,6 +1245,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラックボックス (Black Box) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックボックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックボックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1284,9 +1344,9 @@
       "contentHash": "bfaa156f540e7510dafad606da99264d03017a9caba34aabbfe21278b27af079",
       "byteLength": 64718,
       "rawPath": "netkeiba/horses/2021/2021109031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:37:14.877Z"
+  "updatedAt": "2026-08-25T08:44:44.545Z"
 }

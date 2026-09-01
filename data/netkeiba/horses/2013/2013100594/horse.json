@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100594",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100594/",
-  "profile": null,
+  "profile": {
+    "name": "フォンス",
+    "birthDate": "2013-03-22",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2002100014",
+      "name": "スプリングレイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubai Millennium (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -5851,6 +5881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォンス (Fons) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5920,9 +5980,9 @@
       "contentHash": "98da4668713d467cd6f618902d1e13da5972f5b71bc593680b17f1145d1c8248",
       "byteLength": 66840,
       "rawPath": "netkeiba/horses/2013/2013100594/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:02:39.038Z"
+  "updatedAt": "2026-08-27T05:06:17.724Z"
 }

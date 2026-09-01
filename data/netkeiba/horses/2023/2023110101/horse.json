@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110101",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110101/",
-  "profile": null,
+  "profile": {
+    "name": "マグナヴィクトル",
+    "birthDate": "2023-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "091803",
+      "name": "山紫水明"
+    },
+    "breeder": {
+      "id": "030710",
+      "name": "War Horse Place LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Maxfield (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Eyeinthesky"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Mesa"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1078,6 +1108,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マグナヴィクトル (Magna Victor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マグナヴィクトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マグナヴィクトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1147,9 +1207,9 @@
       "contentHash": "30367672fbb10c96e9eb813affbafca9c829a3e49715927e57bf15aa8df54926",
       "byteLength": 65809,
       "rawPath": "netkeiba/horses/2023/2023110101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:26:50.233Z"
+  "updatedAt": "2026-08-29T04:30:13.175Z"
 }

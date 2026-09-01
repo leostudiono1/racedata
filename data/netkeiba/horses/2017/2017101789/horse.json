@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101789",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101789/",
-  "profile": null,
+  "profile": {
+    "name": "ジャッジメント",
+    "birthDate": "2017-03-03",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05760",
+      "name": "松浦聡志"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2012110052",
+      "name": "イングランドローズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -1585,6 +1615,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャッジメント (Judgement) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャッジメント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャッジメント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1654,9 +1714,9 @@
       "contentHash": "52a1aa7549ed8f1351083de734e07db6958cd04f822f33ea2163e8766ccd6e15",
       "byteLength": 66350,
       "rawPath": "netkeiba/horses/2017/2017101789/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:56:08.509Z"
+  "updatedAt": "2026-08-29T03:59:31.929Z"
 }

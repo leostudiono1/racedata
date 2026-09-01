@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104052",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104052/",
-  "profile": null,
+  "profile": {
+    "name": "トレッファー",
+    "birthDate": "2017-03-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01099",
+      "name": "本田優"
+    },
+    "owner": {
+      "id": "616800",
+      "name": "フジワラ・ファーム"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2004110255",
+      "name": "アンジェラスキッス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -4127,6 +4157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トレッファー (Treffer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレッファー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレッファー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4196,9 +4256,9 @@
       "contentHash": "2d05a6d6679f1082c992c29e58001c139ff404a9cba6a4397ae6fb9b7ba72554",
       "byteLength": 67111,
       "rawPath": "netkeiba/horses/2017/2017104052/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:17:27.971Z"
+  "updatedAt": "2026-08-25T08:24:57.787Z"
 }

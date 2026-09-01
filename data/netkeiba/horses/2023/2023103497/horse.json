@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103497",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103497/",
-  "profile": null,
+  "profile": {
+    "name": "ダーコ",
+    "birthDate": "2023-03-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01173",
+      "name": "長谷川浩"
+    },
+    "owner": {
+      "id": "345033",
+      "name": "増田和啓"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2016106064",
+      "name": "ノーワン"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1240,6 +1270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダーコ (Dako) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダーコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダーコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1309,9 +1369,9 @@
       "contentHash": "2a9112596961842ae8ea9f1d961ace7c6ce215c04ae78b4ad9fa0c1804b1a076",
       "byteLength": 66494,
       "rawPath": "netkeiba/horses/2023/2023103497/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:21:01.560Z"
+  "updatedAt": "2026-08-26T06:29:34.276Z"
 }

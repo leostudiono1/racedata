@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104243",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104243/",
-  "profile": null,
+  "profile": {
+    "name": "ガリバルディ",
+    "birthDate": "2011-02-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "桜田康二"
+    },
+    "owner": {
+      "id": "999008",
+      "name": "伊藤捷一"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シェンク Shenck(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zafonic (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -4208,6 +4238,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガリバルディ (Garibaldi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガリバルディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガリバルディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4277,9 +4337,9 @@
       "contentHash": "485c76047466a4e862123ee7f2d6284395fdf60d1b3b802372e06422b62f1617",
       "byteLength": 66953,
       "rawPath": "netkeiba/horses/2011/2011104243/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:31:46.989Z"
+  "updatedAt": "2026-08-26T05:40:19.508Z"
 }

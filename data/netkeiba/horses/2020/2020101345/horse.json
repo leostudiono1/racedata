@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101345",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101345/",
-  "profile": null,
+  "profile": {
+    "name": "エスタビエン",
+    "birthDate": "2020-02-08",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05076",
+      "name": "伊藤強一"
+    },
+    "owner": {
+      "id": "583030",
+      "name": "鈴木和彦"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エストレチャダ Estrechada(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Offlee Wild"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -2286,6 +2316,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスタビエン (Esta Bien) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスタビエン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスタビエン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2355,9 +2415,9 @@
       "contentHash": "744502b37619b7c8aec57f6afd37c134910e4383173d61b72a22fabfed882bad",
       "byteLength": 67021,
       "rawPath": "netkeiba/horses/2020/2020101345/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:33:27.615Z"
+  "updatedAt": "2026-08-27T05:37:06.442Z"
 }

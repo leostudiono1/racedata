@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103292",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103292/",
-  "profile": null,
+  "profile": {
+    "name": "インポージング",
+    "birthDate": "2016-02-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05675",
+      "name": "笹野博司"
+    },
+    "owner": {
+      "id": "x06c0c",
+      "name": "川上和彦"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アラリーン Alareen(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Selkirk"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2297,6 +2327,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インポージング (Imposing) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インポージング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インポージング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2366,9 +2426,9 @@
       "contentHash": "541122095f1d748e358e402c992a021ea0ddc58fd16115998b9da4203de60fce",
       "byteLength": 65564,
       "rawPath": "netkeiba/horses/2016/2016103292/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:16:57.277Z"
+  "updatedAt": "2026-08-27T05:20:35.404Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105005",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105005/",
-  "profile": null,
+  "profile": {
+    "name": "ベレッタ",
+    "birthDate": "2021-02-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2015104260",
+      "name": "ガールズバンド"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1714,6 +1744,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベレッタ (Beretta) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベレッタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベレッタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1783,9 +1843,9 @@
       "contentHash": "25953c06c60f2811583e5d35cc7791dae9b4e9cac12d9fe2e7dca24d44b53db6",
       "byteLength": 66763,
       "rawPath": "netkeiba/horses/2021/2021105005/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:39:28.380Z"
+  "updatedAt": "2026-08-27T05:43:06.804Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105533",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105533/",
-  "profile": null,
+  "profile": {
+    "name": "アウトウッズ",
+    "birthDate": "2017-02-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2009106399",
+      "name": "プリームス"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2164,6 +2194,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウトウッズ (Out Woods) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトウッズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトウッズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2233,9 +2293,9 @@
       "contentHash": "e6ef91307ed37c62c0ff5e50fb2703b051deae9450247e1217d5625c19a06a14",
       "byteLength": 66951,
       "rawPath": "netkeiba/horses/2017/2017105533/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:07:51.338Z"
+  "updatedAt": "2026-08-31T03:15:34.014Z"
 }

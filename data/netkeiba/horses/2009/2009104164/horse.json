@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009104164",
   "sourceUrl": "https://db.netkeiba.com/horse/2009104164/",
-  "profile": null,
+  "profile": {
+    "name": "バンザイ",
+    "birthDate": "2009-03-05",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01062",
+      "name": "藤岡健一"
+    },
+    "owner": {
+      "id": "331007",
+      "name": "幅田昌伸"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2000102674",
+      "name": "プロフェシーライツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -3576,6 +3606,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バンザイ (Banzai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バンザイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バンザイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3645,9 +3705,9 @@
       "contentHash": "985a171ff7f2614ab4528fea752dc25aca11e1a24546fce6977a5075832c14ee",
       "byteLength": 66698,
       "rawPath": "netkeiba/horses/2009/2009104164/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:51:15.880Z"
+  "updatedAt": "2026-08-25T07:58:45.812Z"
 }

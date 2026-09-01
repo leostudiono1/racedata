@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101297",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101297/",
-  "profile": null,
+  "profile": {
+    "name": "グランロディア",
+    "birthDate": "2012-05-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05615",
+      "name": "佐久間雅"
+    },
+    "owner": {
+      "id": "446008",
+      "name": "水木仁"
+    },
+    "breeder": {
+      "id": "903466",
+      "name": "三城牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スイートリトリート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Indian Ridge"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -10829,6 +10859,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランロディア (Grand Rhodia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランロディア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランロディア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10898,9 +10958,9 @@
       "contentHash": "e685fbe43f1f2268c83ff0c90a7f21f1fadec4716c94adbf4ed5cb0f373b52b8",
       "byteLength": 64496,
       "rawPath": "netkeiba/horses/2012/2012101297/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:54:46.163Z"
+  "updatedAt": "2026-08-25T08:02:15.811Z"
 }

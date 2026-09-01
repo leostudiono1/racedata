@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104498",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104498/",
-  "profile": null,
+  "profile": {
+    "name": "ドラゴンガール",
+    "birthDate": "2022-05-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "695031",
+      "name": "武中進"
+    },
+    "breeder": {
+      "id": "510302",
+      "name": "前谷牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2012104724",
+      "name": "ディアエナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スニッツェル Snitzel(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2827,6 +2857,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドラゴンガール (Dragon Girl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドラゴンガール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドラゴンガール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2896,9 +2956,9 @@
       "contentHash": "867782b54020fb930ec3175985f100f159c163554de175c810e6d38707bdc92b",
       "byteLength": 65553,
       "rawPath": "netkeiba/horses/2022/2022104498/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:28:06.353Z"
+  "updatedAt": "2026-08-31T03:35:48.542Z"
 }

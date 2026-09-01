@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019109140",
   "sourceUrl": "https://db.netkeiba.com/horse/2019109140/",
-  "profile": null,
+  "profile": {
+    "name": "ヒノクニ",
+    "birthDate": "2019-01-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01174",
+      "name": "深山雅史"
+    },
+    "owner": {
+      "id": "044803",
+      "name": "由井健太郎"
+    },
+    "breeder": {
+      "id": "735404",
+      "name": "本田土寿"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2009102466",
+      "name": "トワイスアップ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rock Hard Ten"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -3442,6 +3472,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒノクニ (Hinokuni) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒノクニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒノクニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3511,9 +3571,9 @@
       "contentHash": "c71ce717b0e8b9f8816125cf1ddf48883f768efc8a37165bd8d5b6eba73e23fa",
       "byteLength": 67164,
       "rawPath": "netkeiba/horses/2019/2019109140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:28:08.693Z"
+  "updatedAt": "2026-08-25T08:35:38.405Z"
 }

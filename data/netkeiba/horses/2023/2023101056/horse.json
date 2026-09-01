@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101056",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101056/",
-  "profile": null,
+  "profile": {
+    "name": "イズントイット",
+    "birthDate": "2023-04-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "344803",
+      "name": "マークス"
+    },
+    "breeder": {
+      "id": "544543",
+      "name": "スマイルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディヴァルール Lady Valeur(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Multiplex"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1620,6 +1650,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イズントイット (Isn't It) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イズントイット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イズントイット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1689,9 +1749,9 @@
       "contentHash": "6bb3e489bbc703b09e6578782db9a3a779011b527b300e1cb77e242bc6b88bdf",
       "byteLength": 65578,
       "rawPath": "netkeiba/horses/2023/2023101056/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:19:37.893Z"
+  "updatedAt": "2026-08-26T06:28:10.249Z"
 }

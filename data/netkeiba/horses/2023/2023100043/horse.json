@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100043",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100043/",
-  "profile": null,
+  "profile": {
+    "name": "モントーヤ",
+    "birthDate": "2023-04-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01204",
+      "name": "浅利英明"
+    },
+    "owner": {
+      "id": "711031",
+      "name": "ＫＫレーシング"
+    },
+    "breeder": {
+      "id": "633093",
+      "name": "沖田忠幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015104688",
+      "name": "インディチャンプ"
+    },
+    "dam": {
+      "id": "2016105031",
+      "name": "フロンサック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104688",
@@ -1350,6 +1380,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モントーヤ (Montoya) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モントーヤ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モントーヤ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1419,9 +1479,9 @@
       "contentHash": "8395b6511fd89fa218916afe7fb00a5ecc078f7a29803feb22b265b7c836074b",
       "byteLength": 65322,
       "rawPath": "netkeiba/horses/2023/2023100043/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:30:43.823Z"
+  "updatedAt": "2026-08-31T03:38:26.175Z"
 }

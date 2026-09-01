@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106733",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106733/",
-  "profile": null,
+  "profile": {
+    "name": "アジュール",
+    "birthDate": "2019-01-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05201",
+      "name": "伊藤勝好"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "801307",
+      "name": "矢野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2007101000",
+      "name": "アンシェルブルー"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2546,6 +2576,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アジュール (Azure) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アジュール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アジュール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2615,9 +2675,9 @@
       "contentHash": "f27116771e9e9be625e7d5bb2a26e6854df3391b72aff2211581feb6015161cc",
       "byteLength": 66757,
       "rawPath": "netkeiba/horses/2019/2019106733/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:32:14.225Z"
+  "updatedAt": "2026-08-27T05:35:53.201Z"
 }

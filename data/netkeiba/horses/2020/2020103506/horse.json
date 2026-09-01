@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103506",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103506/",
-  "profile": null,
+  "profile": {
+    "name": "スカイラー",
+    "birthDate": "2020-01-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "199031",
+      "name": "エムズレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015100991",
+      "name": "Saxon Warrior (安平町)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "トレジャリング Treasuring(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Havana Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "2015100991",
@@ -1396,6 +1426,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイラー (Skylar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1465,9 +1525,9 @@
       "contentHash": "6e5880d31ad447ca7bec45ab3c251fec1c040d192a1fb4ba2afb5abd6f9c19ab",
       "byteLength": 66794,
       "rawPath": "netkeiba/horses/2020/2020103506/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:10:54.416Z"
+  "updatedAt": "2026-08-29T04:14:17.358Z"
 }

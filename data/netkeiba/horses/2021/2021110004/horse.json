@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110004",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110004/",
-  "profile": null,
+  "profile": {
+    "name": "オオタニサーン",
+    "birthDate": "2021-04-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "133803",
+      "name": "モンレーヴ"
+    },
+    "breeder": {
+      "id": "300732",
+      "name": "Grand Bokujo"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Justify (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アメリカンソング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stripes Song"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1585,6 +1615,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オオタニサーン (Otanisan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オオタニサーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オオタニサーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1654,9 +1714,9 @@
       "contentHash": "1efbedf8c32406527f3edb655641f46acd68fb3e1749226419b67ce8fe685551",
       "byteLength": 66882,
       "rawPath": "netkeiba/horses/2021/2021110004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:26:07.252Z"
+  "updatedAt": "2026-08-31T03:33:50.051Z"
 }

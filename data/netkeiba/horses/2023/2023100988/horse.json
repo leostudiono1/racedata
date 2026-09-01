@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100988",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100988/",
-  "profile": null,
+  "profile": {
+    "name": "モーゼス",
+    "birthDate": "2023-02-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01180",
+      "name": "田中克典"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ウェイヴランナー Waverunner(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Raven's Pass"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -1039,6 +1069,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーゼス (Moses) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーゼス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーゼス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1108,9 +1168,9 @@
       "contentHash": "8fcc70c629c47675f037883958744b8d89528664b30a948fc1f695caef0b1be8",
       "byteLength": 64813,
       "rawPath": "netkeiba/horses/2023/2023100988/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:42:26.738Z"
+  "updatedAt": "2026-08-25T08:49:56.474Z"
 }

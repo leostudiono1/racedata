@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106066",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106066/",
-  "profile": null,
+  "profile": {
+    "name": "ランディス",
+    "birthDate": "2018-02-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "栗本陽一"
+    },
+    "owner": {
+      "id": "041033",
+      "name": "藤田好紀"
+    },
+    "breeder": {
+      "id": "500034",
+      "name": "ガーベラパークスタッド"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2008101405",
+      "name": "ボーテビューティ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -3916,6 +3946,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランディス (Run This) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランディス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランディス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3985,9 +4045,9 @@
       "contentHash": "893b71ce88649793c1c5dc341d077a4a95ae4bff3adcc516801a78374ac9ef5c",
       "byteLength": 66912,
       "rawPath": "netkeiba/horses/2018/2018106066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:02:40.712Z"
+  "updatedAt": "2026-08-29T04:06:03.756Z"
 }

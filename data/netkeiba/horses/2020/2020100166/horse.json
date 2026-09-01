@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100166",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100166/",
-  "profile": null,
+  "profile": {
+    "name": "パラディ",
+    "birthDate": "2020-04-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "669033",
+      "name": "中村智幸"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2010101350",
+      "name": "ブリュネット"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -4157,6 +4187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パラディ (Paradis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パラディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パラディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4226,9 +4286,9 @@
       "contentHash": "9f0c99a13c1da80132baba637c38d70cf18a67bc7c4d6e9762ab88af88ef2c4a",
       "byteLength": 66491,
       "rawPath": "netkeiba/horses/2020/2020100166/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:35:22.273Z"
+  "updatedAt": "2026-08-30T03:47:32.089Z"
 }

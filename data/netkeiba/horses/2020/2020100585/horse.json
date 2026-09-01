@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100585",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100585/",
-  "profile": null,
+  "profile": {
+    "name": "レオナイン",
+    "birthDate": "2020-05-13",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "坂井英光"
+    },
+    "owner": {
+      "id": "537033",
+      "name": "野田善己"
+    },
+    "breeder": {
+      "id": "510045",
+      "name": "梅田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2008102829",
+      "name": "マルデデルマ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1344,6 +1374,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオナイン (Leonine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオナイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオナイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1413,9 +1473,9 @@
       "contentHash": "fdfadbe1bf2128faecdb87664f6226c2e2e0362d2c83613c8963c61f0e0ab060",
       "byteLength": 64365,
       "rawPath": "netkeiba/horses/2020/2020100585/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:28:40.193Z"
+  "updatedAt": "2026-08-25T08:36:09.877Z"
 }

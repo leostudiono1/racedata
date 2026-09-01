@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102542",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102542/",
-  "profile": null,
+  "profile": {
+    "name": "ナミキ",
+    "birthDate": "2014-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00387",
+      "name": "目野哲也"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "210322",
+      "name": "三宅正弘"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103160",
+      "name": "ハイアーゲーム"
+    },
+    "dam": {
+      "id": "2000104256",
+      "name": "ドリームダンシーズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オジジアン Ogygian(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103160",
@@ -1317,6 +1347,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナミキ (Namiki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナミキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナミキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1386,9 +1446,9 @@
       "contentHash": "e4e929be170c6482a8925b5269963a48e4f26d0eb6b4f19bc8b8d538a3658671",
       "byteLength": 64337,
       "rawPath": "netkeiba/horses/2014/2014102542/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:07:08.449Z"
+  "updatedAt": "2026-08-27T05:10:47.738Z"
 }

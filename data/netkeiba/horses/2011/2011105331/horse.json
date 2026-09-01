@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105331",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105331/",
-  "profile": null,
+  "profile": {
+    "name": "ピーキー",
+    "birthDate": "2011-05-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2003100644",
+      "name": "アフェランドラ"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -3342,6 +3372,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピーキー (Peaky) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーキー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーキー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3411,9 +3471,9 @@
       "contentHash": "1871424a15ad771764eb32c771978c9547a3651e5a414cfe765820e9516324ff",
       "byteLength": 66632,
       "rawPath": "netkeiba/horses/2011/2011105331/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:07:31.951Z"
+  "updatedAt": "2026-08-28T04:17:28.744Z"
 }

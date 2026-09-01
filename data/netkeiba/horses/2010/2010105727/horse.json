@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010105727",
   "sourceUrl": "https://db.netkeiba.com/horse/2010105727/",
-  "profile": null,
+  "profile": {
+    "name": "ハルコマチ",
+    "birthDate": "2010-05-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05654",
+      "name": "桜田浩樹"
+    },
+    "owner": {
+      "id": "872006",
+      "name": "松尾正"
+    },
+    "breeder": {
+      "id": "800311",
+      "name": "中本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101683",
+      "name": "タイムパラドックス"
+    },
+    "dam": {
+      "id": "2001103052",
+      "name": "ユウターマライア"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101683",
@@ -4608,6 +4638,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハルコマチ (Haru Komachi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルコマチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルコマチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4677,9 +4737,9 @@
       "contentHash": "34dbb99379ec67d2dd749fad77ecd3575cb4e5d5c9078ea8c36f3d52e2d79848",
       "byteLength": 65508,
       "rawPath": "netkeiba/horses/2010/2010105727/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:42:38.909Z"
+  "updatedAt": "2026-08-31T02:50:21.254Z"
 }

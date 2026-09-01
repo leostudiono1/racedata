@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105686",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105686/",
-  "profile": null,
+  "profile": {
+    "name": "シャムロック",
+    "birthDate": "2014-03-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "063803",
+      "name": "諸江幸祐"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2003102468",
+      "name": "ホットレッグス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2382,6 +2412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャムロック (Shamrock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャムロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャムロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2451,9 +2511,9 @@
       "contentHash": "cd9d10e6c66907ee319a06cfb4d79eeea8fffe48a6d5871bfe96b410c3601236",
       "byteLength": 66991,
       "rawPath": "netkeiba/horses/2014/2014105686/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:19:36.616Z"
+  "updatedAt": "2026-08-28T04:29:33.529Z"
 }

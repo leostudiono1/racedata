@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100687",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100687/",
-  "profile": null,
+  "profile": {
+    "name": "トッピゴー",
+    "birthDate": "2021-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05274",
+      "name": "今津勝之"
+    },
+    "owner": {
+      "id": "x0b4c0",
+      "name": "水野修"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2014103776",
+      "name": "スマートレイチェル"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1921,6 +1951,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トッピゴー (Toppi Go) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トッピゴー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トッピゴー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1990,9 +2050,9 @@
       "contentHash": "ddbeed43f9ab17029b853983379976a928afd172d25b859add8df1b599f8c151",
       "byteLength": 66588,
       "rawPath": "netkeiba/horses/2021/2021100687/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:11:13.368Z"
+  "updatedAt": "2026-08-26T06:19:46.289Z"
 }

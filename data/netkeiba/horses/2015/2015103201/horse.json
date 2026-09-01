@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103201",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103201/",
-  "profile": null,
+  "profile": {
+    "name": "イェッツト",
+    "birthDate": "2015-04-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2010104034",
+      "name": "イスタンブール"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -2356,6 +2386,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イェッツト (Jetzt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イェッツト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イェッツト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2425,9 +2485,9 @@
       "contentHash": "e21d260652004943449eeb18e945fb7428af6a1c1f03004117186265e142494c",
       "byteLength": 66984,
       "rawPath": "netkeiba/horses/2015/2015103201/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:21:00.541Z"
+  "updatedAt": "2026-08-24T09:26:52.684Z"
 }

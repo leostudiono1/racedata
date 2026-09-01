@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100939",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100939/",
-  "profile": null,
+  "profile": {
+    "name": "レオマニフィク",
+    "birthDate": "2020-05-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05623",
+      "name": "栗林徹治"
+    },
+    "owner": {
+      "id": "910008",
+      "name": "田中博之"
+    },
+    "breeder": {
+      "id": "110055",
+      "name": "フクオカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2009105111",
+      "name": "シルクシンフォニー"
+    },
+    "damsire": {
+      "id": "1998190003",
+      "name": "ストーミングホーム Storming Home(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2240,6 +2270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオマニフィク (Leo Magnifique) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオマニフィク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオマニフィク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2309,9 +2369,9 @@
       "contentHash": "51db3e7b18a80d51b29a9b9aa308d64066a6070aaf61c4e244757b1bc68cce54",
       "byteLength": 64560,
       "rawPath": "netkeiba/horses/2020/2020100939/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:33:06.800Z"
+  "updatedAt": "2026-08-27T05:36:45.191Z"
 }

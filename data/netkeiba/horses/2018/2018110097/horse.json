@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110097",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110097/",
-  "profile": null,
+  "profile": {
+    "name": "ルーチェット",
+    "birthDate": "2018-01-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "250735",
+      "name": "North Hills Co. Ltd"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2011110023",
+      "name": "アムールブリエ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2165,6 +2195,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルーチェット (Lucet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルーチェット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルーチェット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2234,9 +2294,9 @@
       "contentHash": "75e22def7937c8c4ce4c9496eabd5f2d6f140996cbd27eeea00526d4dbee1cf0",
       "byteLength": 67105,
       "rawPath": "netkeiba/horses/2018/2018110097/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:31:24.281Z"
+  "updatedAt": "2026-08-30T03:43:34.002Z"
 }

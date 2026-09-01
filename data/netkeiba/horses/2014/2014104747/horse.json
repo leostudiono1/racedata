@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104747",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104747/",
-  "profile": null,
+  "profile": {
+    "name": "トリニダード",
+    "birthDate": "2014-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "427030",
+      "name": "前原敏行"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2004104704",
+      "name": "シャイニングアイズ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2422,6 +2452,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリニダード (Trinidad) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリニダード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリニダード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2491,9 +2551,9 @@
       "contentHash": "2d5ad8315f312caf628abc95dcc07059e1ed2adb20ec6ae93ba667a9df52b04c",
       "byteLength": 64371,
       "rawPath": "netkeiba/horses/2014/2014104747/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:17:55.414Z"
+  "updatedAt": "2026-08-24T09:23:46.703Z"
 }

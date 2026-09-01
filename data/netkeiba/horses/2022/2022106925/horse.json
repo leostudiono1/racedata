@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106925",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106925/",
-  "profile": null,
+  "profile": {
+    "name": "ハグ",
+    "birthDate": "2022-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01062",
+      "name": "藤岡健一"
+    },
+    "owner": {
+      "id": "346803",
+      "name": "吉澤ホールディングス"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "Justify (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フリートバーティー Fleet Bertie(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Afleet Alex"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2470,6 +2500,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハグ (Hug) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2539,9 +2599,9 @@
       "contentHash": "2eb07e10a3d675cb92be4685b2c4d893c9ee8e29be1152280fbb6a282af81716",
       "byteLength": 66925,
       "rawPath": "netkeiba/horses/2022/2022106925/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:54:58.493Z"
+  "updatedAt": "2026-08-24T10:00:49.986Z"
 }

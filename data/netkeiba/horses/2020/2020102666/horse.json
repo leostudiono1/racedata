@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102666",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102666/",
-  "profile": null,
+  "profile": {
+    "name": "セピアス",
+    "birthDate": "2020-02-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シーティス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Invincible Spirit (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1300,6 +1330,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セピアス (Sepias) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セピアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セピアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1369,9 +1429,9 @@
       "contentHash": "e636164e906f44d14607c76cc858de96a547e2b1aa1d66cf054638171967a2dd",
       "byteLength": 66579,
       "rawPath": "netkeiba/horses/2020/2020102666/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:40:58.228Z"
+  "updatedAt": "2026-08-28T04:50:54.944Z"
 }

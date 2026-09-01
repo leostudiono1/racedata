@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104234",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104234/",
-  "profile": null,
+  "profile": {
+    "name": "ピンシェル",
+    "birthDate": "2016-02-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "482007",
+      "name": "岩崎伸道"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "1994108393",
+      "name": "メジロドーベル"
+    },
+    "damsire": {
+      "id": "1987105368",
+      "name": "メジロライアン"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2452,6 +2482,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピンシェル (Pinscher) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンシェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンシェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2521,9 +2581,9 @@
       "contentHash": "7bfd2dca00103ca150eb34a23ab04f2738b20986bd793470463de3924470f1ea",
       "byteLength": 66796,
       "rawPath": "netkeiba/horses/2016/2016104234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:03:25.369Z"
+  "updatedAt": "2026-08-31T03:11:07.649Z"
 }

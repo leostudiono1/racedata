@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101672",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101672/",
-  "profile": null,
+  "profile": {
+    "name": "ゼニス",
+    "birthDate": "2018-03-05",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "310336",
+      "name": "佐藤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2007102372",
+      "name": "ソルスティス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4270,6 +4300,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼニス (Zenith) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼニス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼニス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4339,9 +4399,9 @@
       "contentHash": "984c86dec777b88a7ae8bac98a5f35c8b696986ad38d91470fa81411178993f6",
       "byteLength": 66809,
       "rawPath": "netkeiba/horses/2018/2018101672/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:28:29.165Z"
+  "updatedAt": "2026-08-30T03:40:38.999Z"
 }

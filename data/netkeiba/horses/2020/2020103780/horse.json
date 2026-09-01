@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103780",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103780/",
-  "profile": null,
+  "profile": {
+    "name": "フルハウス",
+    "birthDate": "2020-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2013105205",
+      "name": "ツボミ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1111,6 +1141,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルハウス (Full House) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルハウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルハウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1180,9 +1240,9 @@
       "contentHash": "4ff4f36c288f8f141cd7838bbfb6838bf6ae6d171f042c052b0fae5bad000a23",
       "byteLength": 66247,
       "rawPath": "netkeiba/horses/2020/2020103780/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:41:26.098Z"
+  "updatedAt": "2026-08-28T04:51:23.272Z"
 }

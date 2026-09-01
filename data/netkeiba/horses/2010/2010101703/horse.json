@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101703",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101703/",
-  "profile": null,
+  "profile": {
+    "name": "スギノハルバード",
+    "birthDate": "2010-05-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "053803",
+      "name": "杉山忠国"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2001101386",
+      "name": "ファーストサイト"
+    },
+    "damsire": {
+      "id": "1987105368",
+      "name": "メジロライアン"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -3645,6 +3675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スギノハルバード (Sugino Halberd) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スギノハルバード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スギノハルバード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3714,9 +3774,9 @@
       "contentHash": "4bd80a1097536e4efd57e8d55cb7523287fcfde2a7e3603db1a34185a4da48f3",
       "byteLength": 67051,
       "rawPath": "netkeiba/horses/2010/2010101703/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:29:26.997Z"
+  "updatedAt": "2026-08-26T05:37:59.595Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105303",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105303/",
-  "profile": null,
+  "profile": {
+    "name": "ラインメジャー",
+    "birthDate": "2021-05-11",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01094",
+      "name": "水野貴広"
+    },
+    "owner": {
+      "id": "796002",
+      "name": "大澤繁昌"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2016105298",
+      "name": "ロールラフィネ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1310,6 +1340,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラインメジャー (Rhein Major) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラインメジャー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラインメジャー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1379,9 +1439,9 @@
       "contentHash": "1274765923182551c2ecfe441513db75d8aa867325f8d19ef9cd6ab189560523",
       "byteLength": 64953,
       "rawPath": "netkeiba/horses/2021/2021105303/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:48:22.676Z"
+  "updatedAt": "2026-08-24T09:54:14.494Z"
 }

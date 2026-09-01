@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103679",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103679/",
-  "profile": null,
+  "profile": {
+    "name": "オルノス",
+    "birthDate": "2013-04-04",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "473008",
+      "name": "武田茂男"
+    },
+    "breeder": {
+      "id": "100012",
+      "name": "信岡牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2005101745",
+      "name": "ミコノス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "With Approval"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -3541,6 +3571,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オルノス (Ornos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルノス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルノス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3610,9 +3670,9 @@
       "contentHash": "cf843e386dd83705b3c23135e4fe993696ae23c181857ad555fefe8a13ba6472",
       "byteLength": 66902,
       "rawPath": "netkeiba/horses/2013/2013103679/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:10:44.820Z"
+  "updatedAt": "2026-08-30T03:22:54.581Z"
 }

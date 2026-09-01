@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100118",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100118/",
-  "profile": null,
+  "profile": {
+    "name": "クリノサン",
+    "birthDate": "2012-06-02",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01146",
+      "name": "奥村豊"
+    },
+    "owner": {
+      "id": "488007",
+      "name": "栗本守"
+    },
+    "breeder": {
+      "id": "600334",
+      "name": "柏木一則"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "トワイニング Twining(米)"
+    },
+    "dam": {
+      "id": "2006102040",
+      "name": "クリノニケ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4592,6 +4622,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クリノサン (Kurino Sun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4661,9 +4721,9 @@
       "contentHash": "255e0d142329e427c4a62cfffd39d26ff3596167c67da5648c7ad6c3fec6f7fd",
       "byteLength": 65284,
       "rawPath": "netkeiba/horses/2012/2012100118/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:04:33.616Z"
+  "updatedAt": "2026-08-30T03:16:43.466Z"
 }

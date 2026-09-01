@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104681",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104681/",
-  "profile": null,
+  "profile": {
+    "name": "コウソクコーナー",
+    "birthDate": "2012-03-12",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01048",
+      "name": "畠山吉宏"
+    },
+    "owner": {
+      "id": "018030",
+      "name": "野崎昭夫"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    },
+    "dam": {
+      "id": "2001110024",
+      "name": "ストリートパレード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "1989108341",
@@ -2128,6 +2158,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コウソクコーナー (Kosoku Corner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウソクコーナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウソクコーナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2197,9 +2257,9 @@
       "contentHash": "5cc53112554cb5a7bae714699cff0d156fc1cfa03b655804257fc5a38d1aab9e",
       "byteLength": 65728,
       "rawPath": "netkeiba/horses/2012/2012104681/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:00:29.355Z"
+  "updatedAt": "2026-08-27T05:04:08.211Z"
 }

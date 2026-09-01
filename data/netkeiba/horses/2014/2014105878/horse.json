@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105878",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105878/",
-  "profile": null,
+  "profile": {
+    "name": "ビースト",
+    "birthDate": "2014-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01110",
+      "name": "清水久詞"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2009106259",
+      "name": "ガラシア"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1245,6 +1275,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビースト (Beast) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1314,9 +1374,9 @@
       "contentHash": "8c3c7a643f0bf1a98d37a4326b8fc6c7f734db6fd2d2f058e38c4d04a790bc6b",
       "byteLength": 64602,
       "rawPath": "netkeiba/horses/2014/2014105878/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:15:31.798Z"
+  "updatedAt": "2026-08-30T03:27:41.600Z"
 }

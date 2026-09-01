@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100410",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100410/",
-  "profile": null,
+  "profile": {
+    "name": "ワンダーヘルト",
+    "birthDate": "2012-04-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "768005",
+      "name": "古賀和夫"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    },
+    "dam": {
+      "id": "2004100495",
+      "name": "キルシュブリューテ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108676",
@@ -2621,6 +2651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワンダーヘルト (Wonder Held) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンダーヘルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンダーヘルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2690,9 +2750,9 @@
       "contentHash": "cbab9c58f0088374344ef7e8dc0fa988aa058a039cdd63c737b4641e8353e938",
       "byteLength": 65106,
       "rawPath": "netkeiba/horses/2012/2012100410/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:04:44.412Z"
+  "updatedAt": "2026-08-30T03:16:53.884Z"
 }

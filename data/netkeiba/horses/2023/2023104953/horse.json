@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104953",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104953/",
-  "profile": null,
+  "profile": {
+    "name": "アングレ",
+    "birthDate": "2023-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05702",
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "934034",
+      "name": "岡本真二"
+    },
+    "breeder": {
+      "id": "830014",
+      "name": "富菜牧場"
+    },
+    "birthplace": "浦河",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2013103628",
+      "name": "アンナトルテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1750,6 +1780,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アングレ (Ingre) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アングレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アングレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1819,9 +1879,9 @@
       "contentHash": "343f8819858b3b69c12a3d7c9bdd7ad02b7d821f680514aad4498cd0367f84cf",
       "byteLength": 66945,
       "rawPath": "netkeiba/horses/2023/2023104953/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:44:36.167Z"
+  "updatedAt": "2026-08-25T08:52:05.879Z"
 }

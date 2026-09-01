@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101974",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101974/",
-  "profile": null,
+  "profile": {
+    "name": "キャナルストリート",
+    "birthDate": "2014-03-05",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フィラストリート Phila Street(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -2460,6 +2490,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャナルストリート (Canal Street) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャナルストリート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャナルストリート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2529,9 +2589,9 @@
       "contentHash": "a72d6530b5983cc071ec1fe6655cd6786cbfedabfd3c57db2a75413fb9767908",
       "byteLength": 67184,
       "rawPath": "netkeiba/horses/2014/2014101974/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:41:03.144Z"
+  "updatedAt": "2026-08-26T05:49:35.997Z"
 }

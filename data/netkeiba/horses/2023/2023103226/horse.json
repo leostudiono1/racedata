@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103226",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103226/",
-  "profile": null,
+  "profile": {
+    "name": "エリースノー",
+    "birthDate": "2023-02-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01089",
+      "name": "武市康男"
+    },
+    "owner": {
+      "id": "012033",
+      "name": "谷川正純"
+    },
+    "breeder": {
+      "id": "733081",
+      "name": "真歌田中牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2012102404",
+      "name": "エリーティアラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ケイムホーム Came Home(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1640,6 +1670,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エリースノー (Eri Snow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリースノー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリースノー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1709,9 +1769,9 @@
       "contentHash": "145820ecb08ea93b35a79e27806dbda366c20ebe86f0d5d1a737fa97ba657925",
       "byteLength": 66743,
       "rawPath": "netkeiba/horses/2023/2023103226/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:57:01.230Z"
+  "updatedAt": "2026-08-24T10:02:52.533Z"
 }

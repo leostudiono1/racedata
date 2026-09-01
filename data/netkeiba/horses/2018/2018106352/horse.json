@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106352",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106352/",
-  "profile": null,
+  "profile": {
+    "name": "キヨラ",
+    "birthDate": "2018-05-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01208",
+      "name": "柄崎将寿"
+    },
+    "owner": {
+      "id": "020803",
+      "name": "三度屋"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2002102852",
+      "name": "テンイムホウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -5352,6 +5382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キヨラ (Kiyora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キヨラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キヨラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5421,9 +5481,9 @@
       "contentHash": "17c4de2d93badf01174a97e3df48354e66b852bc05015144d2a16f10db391aa9",
       "byteLength": 66658,
       "rawPath": "netkeiba/horses/2018/2018106352/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:27:16.582Z"
+  "updatedAt": "2026-08-27T05:30:55.233Z"
 }

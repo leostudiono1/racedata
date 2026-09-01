@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101382",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101382/",
-  "profile": null,
+  "profile": {
+    "name": "リネンエール",
+    "birthDate": "2019-05-25",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05360",
+      "name": "浜田一夫"
+    },
+    "owner": {
+      "id": "851005",
+      "name": "戸山光男"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2000107332",
+      "name": "ヒカリブラッシア"
+    },
+    "damsire": {
+      "id": "1994109699",
+      "name": "ヒカリバオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -2481,6 +2511,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リネンエール (Rinen Ale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リネンエール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リネンエール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2550,9 +2610,9 @@
       "contentHash": "f829ec145cb96878d6a84347adbd6823ddfe19a2eb5c70db7e1392b29752fe24",
       "byteLength": 65168,
       "rawPath": "netkeiba/horses/2019/2019101382/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:24:35.169Z"
+  "updatedAt": "2026-08-25T08:32:04.938Z"
 }

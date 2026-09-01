@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106120",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106120/",
-  "profile": null,
+  "profile": {
+    "name": "セリーンストーム",
+    "birthDate": "2023-01-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01197",
+      "name": "小椋研介"
+    },
+    "owner": {
+      "id": "464030",
+      "name": "田畑利彦"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2017104308",
+      "name": "レッドジョコンダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Frankel"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1110,6 +1140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セリーンストーム (Serene Storm) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セリーンストーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セリーンストーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1179,9 +1239,9 @@
       "contentHash": "796f0209b7dc45fd1961d7df8b13e82482496ccc5f5943e39ee05a8f55234420",
       "byteLength": 64850,
       "rawPath": "netkeiba/horses/2023/2023106120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:57:04.461Z"
+  "updatedAt": "2026-08-28T05:07:01.660Z"
 }

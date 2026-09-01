@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102871",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102871/",
-  "profile": null,
+  "profile": {
+    "name": "モンチ",
+    "birthDate": "2018-04-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "沖田明子"
+    },
+    "owner": {
+      "id": "163002",
+      "name": "北所直人"
+    },
+    "breeder": {
+      "id": "833058",
+      "name": "三石川上牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2005101451",
+      "name": "フォーモサアピール"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -5098,6 +5128,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンチ (Monte) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5167,9 +5227,9 @@
       "contentHash": "d01027432bf5d5c9991b648cdadc8441d577967bbe1edba19af961315d3b9413",
       "byteLength": 66772,
       "rawPath": "netkeiba/horses/2018/2018102871/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:00:27.772Z"
+  "updatedAt": "2026-08-29T04:03:50.714Z"
 }

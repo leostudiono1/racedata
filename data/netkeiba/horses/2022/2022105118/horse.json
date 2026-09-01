@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105118",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105118/",
-  "profile": null,
+  "profile": {
+    "name": "ノクターン",
+    "birthDate": "2022-04-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2010104341",
+      "name": "ラッドルチェンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Danehill Dancer (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -1695,6 +1725,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノクターン (Nocturne) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノクターン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノクターン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1764,9 +1824,9 @@
       "contentHash": "a7fff932b0c138ad8364afd8feb69edd72a378f22648308e64aba1e5660c7247",
       "byteLength": 67254,
       "rawPath": "netkeiba/horses/2022/2022105118/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:47:20.047Z"
+  "updatedAt": "2026-08-30T03:59:29.690Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103946",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103946/",
-  "profile": null,
+  "profile": {
+    "name": "フィーカ",
+    "birthDate": "2019-02-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "100800",
+      "name": "日進牧場"
+    },
+    "breeder": {
+      "id": "900019",
+      "name": "日進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2012105471",
+      "name": "スールキートス"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -3223,6 +3253,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィーカ (Fika) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィーカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィーカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3292,9 +3352,9 @@
       "contentHash": "bdbf1fc038b50b06887b7edccde8e3bcbed3d2bdd8603455d1d77087174e0bb5",
       "byteLength": 66758,
       "rawPath": "netkeiba/horses/2019/2019103946/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:15:58.116Z"
+  "updatedAt": "2026-08-31T03:23:40.287Z"
 }

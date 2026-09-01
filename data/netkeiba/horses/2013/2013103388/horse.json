@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103388",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103388/",
-  "profile": null,
+  "profile": {
+    "name": "ペプチドコンドル",
+    "birthDate": "2013-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "500007",
+      "name": "沼川一彦"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ファーナリー Fernery(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2427,6 +2457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペプチドコンドル (Peptide Condor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペプチドコンドル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペプチドコンドル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2496,9 +2556,9 @@
       "contentHash": "b34fad5bddbe62d2ca69070e90c3bdaf589bfb859969af0db2296d6c49e0450e",
       "byteLength": 67025,
       "rawPath": "netkeiba/horses/2013/2013103388/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:37:54.589Z"
+  "updatedAt": "2026-08-26T05:46:26.928Z"
 }

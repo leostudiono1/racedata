@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105713",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105713/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーエイト",
+    "birthDate": "2019-04-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "833305",
+      "name": "ウエスタンファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2004105048",
+      "name": "ウエスタンダンサー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1846,6 +1876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーエイト (Mikki Eight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーエイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーエイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1915,9 +1975,9 @@
       "contentHash": "8473e0f6f9ed8cf67ea3656799a155cb144a70c8a7d24d81aa18d972ec294aa6",
       "byteLength": 66970,
       "rawPath": "netkeiba/horses/2019/2019105713/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:07:10.565Z"
+  "updatedAt": "2026-08-29T04:10:33.511Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105276",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105276/",
-  "profile": null,
+  "profile": {
+    "name": "セラピア",
+    "birthDate": "2016-04-07",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01062",
+      "name": "藤岡健一"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ララア Laragh(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2239,6 +2269,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セラピア (Therapeia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラピア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラピア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2308,9 +2368,9 @@
       "contentHash": "7191b4e368a2118d73ca28f795c222aa26b1c663390f9bc1479190817fddec7d",
       "byteLength": 66794,
       "rawPath": "netkeiba/horses/2016/2016105276/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:52:36.443Z"
+  "updatedAt": "2026-08-26T06:01:09.592Z"
 }

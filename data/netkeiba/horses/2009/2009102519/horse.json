@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009102519",
   "sourceUrl": "https://db.netkeiba.com/horse/2009102519/",
-  "profile": null,
+  "profile": {
+    "name": "ナリタスカイ",
+    "birthDate": "2009-02-03",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "1996104713",
+      "name": "オースミリンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Woodman"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2672,6 +2702,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナリタスカイ (Narita Sky) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタスカイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタスカイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2741,9 +2801,9 @@
       "contentHash": "b539de21648ca2aabe2da8efec6f78bb4847af09be8f834a9778354b93ddd046",
       "byteLength": 64753,
       "rawPath": "netkeiba/horses/2009/2009102519/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:51:05.322Z"
+  "updatedAt": "2026-08-25T07:58:35.135Z"
 }

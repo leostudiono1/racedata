@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101960",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101960/",
-  "profile": null,
+  "profile": {
+    "name": "フリフリ",
+    "birthDate": "2019-03-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤博紀"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "413348",
+      "name": "中川欽一"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2013101843",
+      "name": "ブライトエンプレス"
+    },
+    "damsire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -3508,6 +3538,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリフリ (Hulihuli) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリフリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリフリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3577,9 +3637,9 @@
       "contentHash": "09f48d7a64022a14d4211cc612a39c3bdf2c6544981878fe170052ee3bc24b77",
       "byteLength": 66836,
       "rawPath": "netkeiba/horses/2019/2019101960/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:28:58.385Z"
+  "updatedAt": "2026-08-27T05:32:36.654Z"
 }

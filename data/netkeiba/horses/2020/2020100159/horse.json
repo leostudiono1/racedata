@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100159",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100159/",
-  "profile": null,
+  "profile": {
+    "name": "ライオットビート",
+    "birthDate": "2020-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "373008",
+      "name": "中村祐子"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ハーフムーンII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Duke of Marmalade (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1033,6 +1063,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライオットビート (Riot Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライオットビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライオットビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1102,9 +1162,9 @@
       "contentHash": "c001e106e76e9167976f119abd57dba90c8392c736ef1e19e335bf16a33975ef",
       "byteLength": 66113,
       "rawPath": "netkeiba/horses/2020/2020100159/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:18:04.061Z"
+  "updatedAt": "2026-08-31T03:25:46.328Z"
 }

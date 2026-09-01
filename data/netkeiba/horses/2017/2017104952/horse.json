@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104952",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104952/",
-  "profile": null,
+  "profile": {
+    "name": "ティラミス",
+    "birthDate": "2017-02-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00438",
+      "name": "安田隆行"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "メイキアシー May Kiersey(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1422,6 +1452,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ティラミス (Tirami Su) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティラミス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティラミス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1491,9 +1551,9 @@
       "contentHash": "7306d4fd045c8c6ea634776fc8c9e1b72386670aec9accaf31e2423027d7bf78",
       "byteLength": 64708,
       "rawPath": "netkeiba/horses/2017/2017104952/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:07:26.813Z"
+  "updatedAt": "2026-08-31T03:15:09.143Z"
 }

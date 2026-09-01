@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101678",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101678/",
-  "profile": null,
+  "profile": {
+    "name": "リバーラ",
+    "birthDate": "2020-03-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "249031",
+      "name": "荒井泰樹"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "インドリヤ Indriya(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2302,6 +2332,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リバーラ (Rivara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リバーラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リバーラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2371,9 +2431,9 @@
       "contentHash": "06502e856c19b2478f78558471f8dc103c5519047c48819203d82d12aa4af549",
       "byteLength": 66753,
       "rawPath": "netkeiba/horses/2020/2020101678/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:29:36.433Z"
+  "updatedAt": "2026-08-25T08:37:06.005Z"
 }

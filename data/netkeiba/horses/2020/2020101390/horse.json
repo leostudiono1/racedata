@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101390",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101390/",
-  "profile": null,
+  "profile": {
+    "name": "ドゥライト",
+    "birthDate": "2020-04-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "後藤佑耶"
+    },
+    "owner": {
+      "id": "x0942e",
+      "name": "木部嚴生"
+    },
+    "breeder": {
+      "id": "680543",
+      "name": "木部ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スカーゲン Skagen(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dashing Blade"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -3767,6 +3797,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドゥライト (Dreist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドゥライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドゥライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3836,9 +3896,9 @@
       "contentHash": "a24707ebc374c27c04d9e5aae315ae8a95c7d374dc671509566700c345542cdc",
       "byteLength": 66822,
       "rawPath": "netkeiba/horses/2020/2020101390/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:40:30.163Z"
+  "updatedAt": "2026-08-28T04:50:26.977Z"
 }

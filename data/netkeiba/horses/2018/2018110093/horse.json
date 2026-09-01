@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110093",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110093/",
-  "profile": null,
+  "profile": {
+    "name": "フリード",
+    "birthDate": "2018-04-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "050880",
+      "name": "Lynch Bages Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "No Nay Never"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Arctic Freedom"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Chant"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2378,6 +2408,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリード (Freed) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2447,9 +2507,9 @@
       "contentHash": "c7b65f21562898fb4ce51a75830d4dd34f5ab430139c690a238e5889c5cadcd1",
       "byteLength": 66828,
       "rawPath": "netkeiba/horses/2018/2018110093/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:03:09.223Z"
+  "updatedAt": "2026-08-29T04:06:31.832Z"
 }

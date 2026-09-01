@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102236",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102236/",
-  "profile": null,
+  "profile": {
+    "name": "サイウン",
+    "birthDate": "2018-03-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05767",
+      "name": "松平幸秀"
+    },
+    "owner": {
+      "id": "525034",
+      "name": "渡辺優磨"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2001109302",
+      "name": "ライトアップ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -5747,6 +5777,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サイウン (Saiun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5816,9 +5876,9 @@
       "contentHash": "63c61a880aa2029ad65d560439eb9fa4f4d199f9fcc2a474311ebf4e73086849",
       "byteLength": 64837,
       "rawPath": "netkeiba/horses/2018/2018102236/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:24:49.460Z"
+  "updatedAt": "2026-08-27T05:28:28.553Z"
 }

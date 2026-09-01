@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103315",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103315/",
-  "profile": null,
+  "profile": {
+    "name": "タイコ",
+    "birthDate": "2016-04-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シンバルII Cymbal(愛)"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -1347,6 +1377,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイコ (Taiko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1416,9 +1476,9 @@
       "contentHash": "3f5d716abdf88a34f7a11273efab1b9a1af810ea9a1a55f26ce5ced7c0d3f65e",
       "byteLength": 65875,
       "rawPath": "netkeiba/horses/2016/2016103315/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:24:27.113Z"
+  "updatedAt": "2026-08-24T09:30:18.862Z"
 }

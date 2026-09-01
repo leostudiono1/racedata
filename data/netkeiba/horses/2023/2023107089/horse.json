@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107089",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107089/",
-  "profile": null,
+  "profile": {
+    "name": "ロブチェン",
+    "birthDate": "2023-04-09",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "350031",
+      "name": "フォレストレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016104854",
+      "name": "ワールドプレミア"
+    },
+    "dam": {
+      "id": "2013110090",
+      "name": "ソングライティング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104854",
@@ -1390,6 +1420,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロブチェン (Lovcen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロブチェン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロブチェン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1459,9 +1519,9 @@
       "contentHash": "f05934a56372400222ec7839e741b2eae4274cb50abff02453424c90c992be32",
       "byteLength": 67189,
       "rawPath": "netkeiba/horses/2023/2023107089/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:26:11.649Z"
+  "updatedAt": "2026-08-29T04:29:34.639Z"
 }

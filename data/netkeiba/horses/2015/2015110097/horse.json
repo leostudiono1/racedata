@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110097",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110097/",
-  "profile": null,
+  "profile": {
+    "name": "バトルマイスター",
+    "birthDate": "2015-04-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "766800",
+      "name": "グリーンフィールズ"
+    },
+    "breeder": {
+      "id": "830701",
+      "name": "Northwest Farms LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Bodemeister"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Elusive Horizon"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1581,6 +1611,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バトルマイスター (Battle Meister) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バトルマイスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バトルマイスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1650,9 +1710,9 @@
       "contentHash": "01605b2fb0393fde35e2f258593e443b23ee48534ca076774fac7667b37567d3",
       "byteLength": 65645,
       "rawPath": "netkeiba/horses/2015/2015110097/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:19:16.004Z"
+  "updatedAt": "2026-08-30T03:31:25.678Z"
 }

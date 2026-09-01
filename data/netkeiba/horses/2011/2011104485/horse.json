@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104485",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104485/",
-  "profile": null,
+  "profile": {
+    "name": "グリサージュ",
+    "birthDate": "2011-05-15",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2002100555",
+      "name": "リトルブレッシング"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2177,6 +2207,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリサージュ (Gris Sage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリサージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリサージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2246,9 +2306,9 @@
       "contentHash": "f64b0d5c519038d176073cb63b6b42cfb54b73d363eb32308d8e570465ff45eb",
       "byteLength": 66734,
       "rawPath": "netkeiba/horses/2011/2011104485/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:32:41.002Z"
+  "updatedAt": "2026-08-29T03:36:04.152Z"
 }

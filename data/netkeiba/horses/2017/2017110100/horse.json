@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110100",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110100/",
-  "profile": null,
+  "profile": {
+    "name": "ヘルスチェック",
+    "birthDate": "2017-04-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "000734",
+      "name": "Landseer Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Sir Percy (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Heart Stopping"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Chester House (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1256,6 +1286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘルスチェック (Health Check) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘルスチェック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘルスチェック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1325,9 +1385,9 @@
       "contentHash": "60a44b06d06cefdfb8ea809521f0bc8ac2bf68a6561829c631ae54639e105358",
       "byteLength": 64589,
       "rawPath": "netkeiba/horses/2017/2017110100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:57:40.994Z"
+  "updatedAt": "2026-08-26T06:06:13.979Z"
 }

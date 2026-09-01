@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110054",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110054/",
-  "profile": null,
+  "profile": {
+    "name": "メレク",
+    "birthDate": "2020-02-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "440736",
+      "name": "Phillistown House Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Lily's Angel"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dark Angel"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1265,6 +1295,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メレク (Melek) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メレク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メレク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1334,9 +1394,9 @@
       "contentHash": "cfe90019ba8bdb3af670e0b5c94f2afefa18e842d0c94c1c4bab93f5b77abc73",
       "byteLength": 64538,
       "rawPath": "netkeiba/horses/2020/2020110054/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:40:05.955Z"
+  "updatedAt": "2026-08-30T03:52:15.592Z"
 }

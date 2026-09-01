@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100067",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100067/",
-  "profile": null,
+  "profile": {
+    "name": "イキガイ",
+    "birthDate": "2022-02-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "495005",
+      "name": "伊東政清"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2012105774",
+      "name": "ナガラフラワー"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1148,6 +1178,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イキガイ (Ikigai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イキガイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イキガイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1217,9 +1277,9 @@
       "contentHash": "cd94df875ad18c330a44fe7ca18cd8c08eea33b95d231212f1b8b8202548b086",
       "byteLength": 64252,
       "rawPath": "netkeiba/horses/2022/2022100067/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:48:12.267Z"
+  "updatedAt": "2026-08-28T04:58:08.998Z"
 }

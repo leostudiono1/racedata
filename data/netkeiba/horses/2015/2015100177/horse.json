@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100177",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100177/",
-  "profile": null,
+  "profile": {
+    "name": "エスケイファースト",
+    "birthDate": "2015-05-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    },
+    "dam": {
+      "id": "2000104613",
+      "name": "ローレルデフィー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007105709",
@@ -8345,6 +8375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスケイファースト (S K First) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスケイファースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスケイファースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8414,9 +8474,9 @@
       "contentHash": "876237662dba228cb411229e93fb694f6e07ed36fee33add022041cd83f84deb",
       "byteLength": 67048,
       "rawPath": "netkeiba/horses/2015/2015100177/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:20:46.866Z"
+  "updatedAt": "2026-08-28T04:30:43.565Z"
 }

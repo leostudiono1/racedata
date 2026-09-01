@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102555",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102555/",
-  "profile": null,
+  "profile": {
+    "name": "フルグライト",
+    "birthDate": "2022-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05674",
+      "name": "米田英世"
+    },
+    "owner": {
+      "id": "730033",
+      "name": "豊井義次"
+    },
+    "breeder": {
+      "id": "630002",
+      "name": "林時春"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2016102280",
+      "name": "オーヴァルエース"
+    },
+    "dam": {
+      "id": "2012100501",
+      "name": "タガノディナー"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2016102280",
@@ -2145,6 +2175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルグライト (Fulgurite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルグライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルグライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2214,9 +2274,9 @@
       "contentHash": "7055f88b98d345cb43dd2d1c1bab8e4502ec0450325088a2034f78d3bdb3af59",
       "byteLength": 65674,
       "rawPath": "netkeiba/horses/2022/2022102555/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:38:59.987Z"
+  "updatedAt": "2026-08-25T08:46:29.757Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101468",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101468/",
-  "profile": null,
+  "profile": {
+    "name": "ラーケン",
+    "birthDate": "2014-03-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤博紀"
+    },
+    "owner": {
+      "id": "x04e37",
+      "name": "稲原美彦"
+    },
+    "breeder": {
+      "id": "000365",
+      "name": "稲原牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2002107012",
+      "name": "スズカグレイス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4458,6 +4488,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラーケン (Laken) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラーケン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラーケン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4527,9 +4587,9 @@
       "contentHash": "530340edf13bec399a17fbd8918dcab11fbdeb6afe7406d7b2f815847ea338aa",
       "byteLength": 65576,
       "rawPath": "netkeiba/horses/2014/2014101468/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:06:33.710Z"
+  "updatedAt": "2026-08-27T05:10:12.322Z"
 }

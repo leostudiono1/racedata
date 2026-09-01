@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101200",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101200/",
-  "profile": null,
+  "profile": {
+    "name": "クリノアレグロ",
+    "birthDate": "2021-03-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "970006",
+      "name": "栗本博晴"
+    },
+    "breeder": {
+      "id": "110353",
+      "name": "川島正広"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2011106628",
+      "name": "クリノハイスバル"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -999,6 +1029,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クリノアレグロ (Kurino Allegro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノアレグロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノアレグロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1068,9 +1128,9 @@
       "contentHash": "df3a65336a6f61bed8597734d6dcc258e480fffed266272838306b6d3333ecbe",
       "byteLength": 64500,
       "rawPath": "netkeiba/horses/2021/2021101200/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:41:08.869Z"
+  "updatedAt": "2026-08-30T03:53:18.842Z"
 }

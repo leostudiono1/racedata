@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105491",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105491/",
-  "profile": null,
+  "profile": {
+    "name": "ジェミナ",
+    "birthDate": "2013-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "x080c0",
+      "name": "池谷宏治"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2006102913",
+      "name": "ジェルミナル"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2054,6 +2084,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジェミナ (Zemyna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェミナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェミナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2123,9 +2183,9 @@
       "contentHash": "939ad10e58bf70f8f9bc27175c03119d932ecda61e68bbd6ec94433ecd998961",
       "byteLength": 66635,
       "rawPath": "netkeiba/horses/2013/2013105491/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:11:51.214Z"
+  "updatedAt": "2026-08-30T03:24:01.015Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103234",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103234/",
-  "profile": null,
+  "profile": {
+    "name": "コワン",
+    "birthDate": "2021-02-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2013103763",
+      "name": "シャインダイアン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -4127,6 +4157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コワン (Coin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4196,9 +4256,9 @@
       "contentHash": "323f0d6b1088ce4525ebd39caec1b410331657135a7d7ebb6ad9cfbfbcee88a1",
       "byteLength": 66811,
       "rawPath": "netkeiba/horses/2021/2021103234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:24:04.797Z"
+  "updatedAt": "2026-08-31T03:31:46.952Z"
 }

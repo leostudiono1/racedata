@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104646",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104646/",
-  "profile": null,
+  "profile": {
+    "name": "オンザライン",
+    "birthDate": "2018-05-12",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "308033",
+      "name": "久保田定"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2012104317",
+      "name": "ステラスターライト"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -5456,6 +5486,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オンザライン (On the Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5525,9 +5585,9 @@
       "contentHash": "a07ac265f8849c7bb6d26de7b5e2eaad6eeaf281efba03933cf0562bf24e3bda",
       "byteLength": 66905,
       "rawPath": "netkeiba/horses/2018/2018104646/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:33:47.593Z"
+  "updatedAt": "2026-08-24T09:39:39.007Z"
 }

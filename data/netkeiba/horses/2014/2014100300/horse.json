@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100300",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100300/",
-  "profile": null,
+  "profile": {
+    "name": "スマートアレス",
+    "birthDate": "2014-05-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01030",
+      "name": "星野忍"
+    },
+    "owner": {
+      "id": "073700",
+      "name": "トニー倶楽部"
+    },
+    "breeder": {
+      "id": "210543",
+      "name": "スカイビーチステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2003110152",
+      "name": "ミルククラウン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -1625,6 +1655,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートアレス (Smart Ares) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートアレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートアレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1694,9 +1754,9 @@
       "contentHash": "0d4fbdb1e74e9f8525644f0d18c22ed31f663265ef605f3cc15854f66b8b1e7e",
       "byteLength": 65316,
       "rawPath": "netkeiba/horses/2014/2014100300/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:02:14.110Z"
+  "updatedAt": "2026-08-25T08:09:43.971Z"
 }

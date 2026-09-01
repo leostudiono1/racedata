@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009100457",
   "sourceUrl": "https://db.netkeiba.com/horse/2009100457/",
-  "profile": null,
+  "profile": {
+    "name": "アポロパレス",
+    "birthDate": "2009-05-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "100006",
+      "name": "小林量"
+    },
+    "breeder": {
+      "id": "030010",
+      "name": "笹島政信"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2002104268",
+      "name": "アポロヘルム"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -7427,6 +7457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アポロパレス (Apollo Palace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポロパレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポロパレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7496,9 +7556,9 @@
       "contentHash": "0e748b206d6019d0ffa95c19497748c6900fd488c37a0fe1b3e578ca5c0224e3",
       "byteLength": 65331,
       "rawPath": "netkeiba/horses/2009/2009100457/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:28:30.912Z"
+  "updatedAt": "2026-08-26T05:37:03.250Z"
 }

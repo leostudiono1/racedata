@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019190001",
   "sourceUrl": "https://db.netkeiba.com/horse/2019190001/",
-  "profile": null,
+  "profile": {
+    "name": "マジカルラグーン",
+    "birthDate": "2019-04-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05761",
+      "name": "ハリント"
+    },
+    "owner": {
+      "id": "015060",
+      "name": "張月勝"
+    },
+    "breeder": {
+      "id": "710734",
+      "name": "Coolmore"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Night Lagoon"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lagunas"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1974,6 +2004,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マジカルラグーン (Magical Lagoon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジカルラグーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジカルラグーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2043,9 +2103,9 @@
       "contentHash": "70a5b17374ef401419cbefbe711926dccd20fc26d7d4aae764c99b2a0af2a1d5",
       "byteLength": 66898,
       "rawPath": "netkeiba/horses/2019/2019190001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:28:19.187Z"
+  "updatedAt": "2026-08-25T08:35:48.892Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105030",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105030/",
-  "profile": null,
+  "profile": {
+    "name": "セキゾウ",
+    "birthDate": "2023-03-17",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01180",
+      "name": "田中克典"
+    },
+    "owner": {
+      "id": "965031",
+      "name": "エースレーシング"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2010105141",
+      "name": "メイショウガンツ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1181,6 +1211,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セキゾウ (Seki Zo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セキゾウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セキゾウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1250,9 +1310,9 @@
       "contentHash": "2062a3fc0ce54c58a3a464f194ad1d453eb91c9da59ebb1aec75babb9b34fc53",
       "byteLength": 64674,
       "rawPath": "netkeiba/horses/2023/2023105030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:25:05.121Z"
+  "updatedAt": "2026-08-29T04:28:28.232Z"
 }

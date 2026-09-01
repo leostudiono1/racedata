@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107293",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107293/",
-  "profile": null,
+  "profile": {
+    "name": "デプレ",
+    "birthDate": "2023-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "465030",
+      "name": "大島昌也"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2010104304",
+      "name": "ラキシス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1449,6 +1479,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デプレ (De Pre) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デプレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デプレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1518,9 +1578,9 @@
       "contentHash": "cfa2bf3dfbca8e216e94f602c6fbb90c2e0c7d391816aa9a0a25456c966f5d27",
       "byteLength": 66082,
       "rawPath": "netkeiba/horses/2023/2023107293/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:50:40.481Z"
+  "updatedAt": "2026-08-27T05:54:19.033Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104169",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104169/",
-  "profile": null,
+  "profile": {
+    "name": "タブレット",
+    "birthDate": "2010-01-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2005102516",
+      "name": "スカーレット"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1557,6 +1587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タブレット (Tablet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タブレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タブレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1626,9 +1686,9 @@
       "contentHash": "94c6b5a803bb19cb84939c95e1e2487bf1d69afcf96885b8fbb9f9430b506bda",
       "byteLength": 65218,
       "rawPath": "netkeiba/horses/2010/2010104169/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:30:08.494Z"
+  "updatedAt": "2026-08-26T05:38:41.659Z"
 }

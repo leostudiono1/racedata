@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106693",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106693/",
-  "profile": null,
+  "profile": {
+    "name": "イトウ",
+    "birthDate": "2022-02-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05566",
+      "name": "月岡健二"
+    },
+    "owner": {
+      "id": "302031",
+      "name": "越村哲男"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2012104767",
+      "name": "アモーレエテルノ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2157,6 +2187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イトウ (Ito) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イトウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イトウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2226,9 +2286,9 @@
       "contentHash": "65afa5f898677aebdbd54b42ecf160f786048711513f13348efef337e0a20127",
       "byteLength": 66620,
       "rawPath": "netkeiba/horses/2022/2022106693/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:44:53.961Z"
+  "updatedAt": "2026-08-27T05:48:33.006Z"
 }

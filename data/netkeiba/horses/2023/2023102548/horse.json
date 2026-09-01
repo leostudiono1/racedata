@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102548",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102548/",
-  "profile": null,
+  "profile": {
+    "name": "テラシエスタ",
+    "birthDate": "2023-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "490800",
+      "name": "キヨタケ牧場"
+    },
+    "breeder": {
+      "id": "901079",
+      "name": "キヨタケ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2016105652",
+      "name": "ラストサマー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1297,6 +1327,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テラシエスタ (Tera Siesta) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テラシエスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テラシエスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1366,9 +1426,9 @@
       "contentHash": "720799b19812c4b6398897f94afed2c200cf9863c2aabedaf452523db53fa293",
       "byteLength": 65262,
       "rawPath": "netkeiba/horses/2023/2023102548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:23:30.593Z"
+  "updatedAt": "2026-08-29T04:26:53.810Z"
 }

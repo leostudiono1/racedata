@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104891",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104891/",
-  "profile": null,
+  "profile": {
+    "name": "フライトストリーム",
+    "birthDate": "2016-05-09",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05079",
+      "name": "井上孝彦"
+    },
+    "owner": {
+      "id": "282033",
+      "name": "川崎賢二"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    },
+    "dam": {
+      "id": "2002101011",
+      "name": "レースパイロット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3770,6 +3800,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フライトストリーム (Flight Stream) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライトストリーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライトストリーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3839,9 +3899,9 @@
       "contentHash": "5ae79ab8e598cb1f3cc32c8191e5fa83714ee5d54e334762ee5bc372221b145d",
       "byteLength": 67120,
       "rawPath": "netkeiba/horses/2016/2016104891/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:22:07.522Z"
+  "updatedAt": "2026-08-30T03:34:17.527Z"
 }

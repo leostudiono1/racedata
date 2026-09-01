@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104988",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104988/",
-  "profile": null,
+  "profile": {
+    "name": "ギレルモ",
+    "birthDate": "2018-03-15",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カルディーン Caldine(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Roman Ruler"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -6511,6 +6541,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ギレルモ (Guillermo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギレルモ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギレルモ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6580,9 +6640,9 @@
       "contentHash": "01d19bb5f45b85262057eee9100ef9c394771f1765eb819451022aa973a26b24",
       "byteLength": 66753,
       "rawPath": "netkeiba/horses/2018/2018104988/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:00:39.830Z"
+  "updatedAt": "2026-08-26T06:09:12.344Z"
 }

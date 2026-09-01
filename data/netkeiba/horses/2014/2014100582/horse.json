@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100582",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100582/",
-  "profile": null,
+  "profile": {
+    "name": "タルガ",
+    "birthDate": "2014-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05447",
+      "name": "松代真"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    },
+    "dam": {
+      "id": "2006104728",
+      "name": "カーナヴァル"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2051,6 +2081,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タルガ (Targa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タルガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タルガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2120,9 +2180,9 @@
       "contentHash": "cf6803464130f6fad52b778ef5875bb5e26de83d12397997866b33b2bd26e5c6",
       "byteLength": 66660,
       "rawPath": "netkeiba/horses/2014/2014100582/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:06:02.035Z"
+  "updatedAt": "2026-08-27T05:09:40.690Z"
 }

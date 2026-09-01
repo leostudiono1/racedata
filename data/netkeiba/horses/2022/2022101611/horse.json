@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101611",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101611/",
-  "profile": null,
+  "profile": {
+    "name": "カムイカル",
+    "birthDate": "2022-03-14",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "897030",
+      "name": "泉一郎"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2007105681",
+      "name": "エトピリカ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1763,6 +1793,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カムイカル (Kamuy Kar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムイカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムイカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1832,9 +1892,9 @@
       "contentHash": "ec1058e50c6beb825ae95bb3b8efb64892d0540dd67edd720f760d28734658f8",
       "byteLength": 66363,
       "rawPath": "netkeiba/horses/2022/2022101611/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:49:18.741Z"
+  "updatedAt": "2026-08-28T04:59:15.483Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104686",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104686/",
-  "profile": null,
+  "profile": {
+    "name": "オーシャンヒーロー",
+    "birthDate": "2011-05-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01009",
+      "name": "田所秀孝"
+    },
+    "owner": {
+      "id": "690009",
+      "name": "上田宗義"
+    },
+    "breeder": {
+      "id": "300339",
+      "name": "競優牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "1996101176",
+      "name": "エレガントマリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シャンハイ Shanghai(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1487,6 +1517,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーシャンヒーロー (Ocean Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーシャンヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーシャンヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1556,9 +1616,9 @@
       "contentHash": "19616b8e251addb2eb5fc5850f9fa54f02958b8d7db5e4adc574a131ec66a42e",
       "byteLength": 64640,
       "rawPath": "netkeiba/horses/2011/2011104686/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T06:57:23.938Z"
+  "updatedAt": "2026-08-27T05:01:02.638Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100130",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100130/",
-  "profile": null,
+  "profile": {
+    "name": "ダヨネ",
+    "birthDate": "2017-03-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01161",
+      "name": "武英智"
+    },
+    "owner": {
+      "id": "330007",
+      "name": "杉澤光雄"
+    },
+    "breeder": {
+      "id": "201346",
+      "name": "大江牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2006105247",
+      "name": "カネスヴィバーチェ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -1221,6 +1251,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダヨネ (Dayone) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダヨネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダヨネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1290,9 +1350,9 @@
       "contentHash": "ac4bfe3d5f96d6fc93cf5bc02623e49671fe59523156db3758bbb54abe57cf7f",
       "byteLength": 65330,
       "rawPath": "netkeiba/horses/2017/2017100130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:19:09.728Z"
+  "updatedAt": "2026-08-27T05:22:48.500Z"
 }

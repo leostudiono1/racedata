@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100145",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100145/",
-  "profile": null,
+  "profile": {
+    "name": "ロードリレーション",
+    "birthDate": "2021-03-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05199",
+      "name": "佐藤敏彦"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2012102295",
+      "name": "グラナダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3956,6 +3986,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードリレーション (Lord Relation) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードリレーション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードリレーション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4025,9 +4085,9 @@
       "contentHash": "05855f742fbd6da325046ca6d49e7a923649113f39c3f7b1c94ba186ddcba7ee",
       "byteLength": 67099,
       "rawPath": "netkeiba/horses/2021/2021100145/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:10:48.820Z"
+  "updatedAt": "2026-08-26T06:19:21.545Z"
 }

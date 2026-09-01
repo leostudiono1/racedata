@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101209",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101209/",
-  "profile": null,
+  "profile": {
+    "name": "レオアルティメット",
+    "birthDate": "2015-03-13",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "209800",
+      "name": "レオ"
+    },
+    "breeder": {
+      "id": "513353",
+      "name": "川端正博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "2003103577",
+      "name": "ユキノチャンプ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "タバスコキャット Tabasco Cat(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -3870,6 +3900,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオアルティメット (Leo Ultimate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオアルティメット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオアルティメット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3939,9 +3999,9 @@
       "contentHash": "16c99a801a452c96d85938977516fb98c5f89be953730a610d55083f3d49bf34",
       "byteLength": 67120,
       "rawPath": "netkeiba/horses/2015/2015101209/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:10:49.242Z"
+  "updatedAt": "2026-08-27T05:14:27.884Z"
 }

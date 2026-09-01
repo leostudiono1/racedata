@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110044",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110044/",
-  "profile": null,
+  "profile": {
+    "name": "ペスカドール",
+    "birthDate": "2023-02-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "245030",
+      "name": "前田葉子"
+    },
+    "breeder": {
+      "id": "080706",
+      "name": "North Hills Co. Limited"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    },
+    "dam": {
+      "id": "2015100600",
+      "name": "スカーレットカラー"
+    },
+    "damsire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1022,6 +1052,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペスカドール (Pescador) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペスカドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペスカドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1091,9 +1151,9 @@
       "contentHash": "d693fb7be25541fdf22a717df8ae8a0b2b9d66f0330d4700855e00f93e8dc098",
       "byteLength": 65769,
       "rawPath": "netkeiba/horses/2023/2023110044/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:26:46.717Z"
+  "updatedAt": "2026-08-29T04:30:09.785Z"
 }

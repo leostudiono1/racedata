@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107186",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107186/",
-  "profile": null,
+  "profile": {
+    "name": "フィールドノート",
+    "birthDate": "2022-04-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フィンレイズラッキーチャーム Finley'sluckycharm(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Twirling Candy"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1180,6 +1210,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィールドノート (Field Note) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィールドノート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィールドノート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1249,9 +1309,9 @@
       "contentHash": "ccf5aafe47f6f92a04ec860693e5034ba3c3f54204ebb127586a97564733ea14",
       "byteLength": 67478,
       "rawPath": "netkeiba/horses/2022/2022107186/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:48:33.572Z"
+  "updatedAt": "2026-08-30T04:00:43.220Z"
 }

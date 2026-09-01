@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105875",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105875/",
-  "profile": null,
+  "profile": {
+    "name": "レイフロレット",
+    "birthDate": "2021-02-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "050034",
+      "name": "犬飼優"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2014105837",
+      "name": "レイズアベール"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -3244,6 +3274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイフロレット (Ray Floret) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイフロレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイフロレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3313,9 +3373,9 @@
       "contentHash": "9b416600c325c2bc38bd8e3eaac4a1585ed0bf555fea556de32d4dc4021edd10",
       "byteLength": 66175,
       "rawPath": "netkeiba/horses/2021/2021105875/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:40:03.390Z"
+  "updatedAt": "2026-08-27T05:43:41.825Z"
 }

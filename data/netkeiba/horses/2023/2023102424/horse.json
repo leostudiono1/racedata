@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102424",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102424/",
-  "profile": null,
+  "profile": {
+    "name": "シーガルワールド",
+    "birthDate": "2023-03-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "518002",
+      "name": "山田弘"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ベンバトル Benbatl(英)"
+    },
+    "dam": {
+      "id": "2008110046",
+      "name": "メーヴェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Motivator"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1092,6 +1122,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーガルワールド (Seagull World) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーガルワールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーガルワールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1161,9 +1221,9 @@
       "contentHash": "86898a856edc6f8b83af3ac365cf9ec7ce9a189e0c1896a73689c5baf146758a",
       "byteLength": 67249,
       "rawPath": "netkeiba/horses/2023/2023102424/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:31:53.855Z"
+  "updatedAt": "2026-08-31T03:39:36.071Z"
 }

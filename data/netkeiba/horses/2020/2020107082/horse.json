@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020107082",
   "sourceUrl": "https://db.netkeiba.com/horse/2020107082/",
-  "profile": null,
+  "profile": {
+    "name": "ライジン",
+    "birthDate": "2020-03-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "097803",
+      "name": "ＬＥＶＥＬーＫ"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ケンジントンII Kensington(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kitten's Joy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2696,6 +2726,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライジン (Raijin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライジン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライジン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2765,9 +2825,9 @@
       "contentHash": "d52f5ec45cc41e8a0e585f519357ac3ead03d6f20f101fa35128d36393a2db36",
       "byteLength": 66926,
       "rawPath": "netkeiba/horses/2020/2020107082/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:10:27.999Z"
+  "updatedAt": "2026-08-26T06:19:00.529Z"
 }

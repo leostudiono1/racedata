@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104500",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104500/",
-  "profile": null,
+  "profile": {
+    "name": "ショウリュウスター",
+    "birthDate": "2013-03-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "445007",
+      "name": "上田亙"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "バンドゥッチ Banducci(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rossini"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1127,6 +1157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショウリュウスター (Shoryu Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウリュウスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウリュウスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1196,9 +1256,9 @@
       "contentHash": "f3b15de7345fac41a776d7626f3ff4b873df2e47f4543e6a7148d9c2e3115ec3",
       "byteLength": 65182,
       "rawPath": "netkeiba/horses/2013/2013104500/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:04:16.934Z"
+  "updatedAt": "2026-08-27T05:07:55.906Z"
 }

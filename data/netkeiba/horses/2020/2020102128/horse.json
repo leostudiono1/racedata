@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102128",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102128/",
-  "profile": null,
+  "profile": {
+    "name": "トムワールド",
+    "birthDate": "2020-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05460",
+      "name": "佐藤英明"
+    },
+    "owner": {
+      "id": "277008",
+      "name": "柳橋俊昭"
+    },
+    "breeder": {
+      "id": "913367",
+      "name": "船越牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103975",
+      "name": "トゥザワールド"
+    },
+    "dam": {
+      "id": "2012110014",
+      "name": "エイシンアポロニア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dalakhani"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103975",
@@ -6637,6 +6667,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トムワールド (Tom World) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トムワールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トムワールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6706,9 +6766,9 @@
       "contentHash": "508864978ce7771d5cf11af7b909c765cdc4d21e488dbf17bfde29eae73ea6e5",
       "byteLength": 65320,
       "rawPath": "netkeiba/horses/2020/2020102128/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:09:51.520Z"
+  "updatedAt": "2026-08-29T04:13:14.757Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110088",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110088/",
-  "profile": null,
+  "profile": {
+    "name": "ヴェントアウレオ",
+    "birthDate": "2011-04-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05370",
+      "name": "住吉朝男"
+    },
+    "owner": {
+      "id": "260006",
+      "name": "藤田孟司"
+    },
+    "breeder": {
+      "id": "570889",
+      "name": "Takeshi Fujita"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Red Duchess"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Helmsman"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3409,6 +3439,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴェントアウレオ (Vento Aureo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェントアウレオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェントアウレオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3478,9 +3538,9 @@
       "contentHash": "5910da62f2837a08c704f4319de9d9e57a584ea111951f3c1cdadf8909e24aab",
       "byteLength": 64506,
       "rawPath": "netkeiba/horses/2011/2011110088/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:04:23.146Z"
+  "updatedAt": "2026-08-30T03:16:33.069Z"
 }

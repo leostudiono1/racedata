@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100244",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100244/",
-  "profile": null,
+  "profile": {
+    "name": "グレンラグーン",
+    "birthDate": "2016-05-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01096",
+      "name": "粕谷昌央"
+    },
+    "owner": {
+      "id": "030803",
+      "name": "コスモヴューファーム"
+    },
+    "breeder": {
+      "id": "214514",
+      "name": "コスモヴューファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    },
+    "dam": {
+      "id": "2006106459",
+      "name": "サマーラグーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007105709",
@@ -1274,6 +1304,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレンラグーン (Glen Lagoon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレンラグーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレンラグーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1343,9 +1403,9 @@
       "contentHash": "b6531bf44ebbde175e591426d56db3665d459a3b113240f8a904d903f11a8d67",
       "byteLength": 65171,
       "rawPath": "netkeiba/horses/2016/2016100244/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:25:05.784Z"
+  "updatedAt": "2026-08-28T04:35:02.662Z"
 }

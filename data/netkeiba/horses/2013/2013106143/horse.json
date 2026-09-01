@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106143",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106143/",
-  "profile": null,
+  "profile": {
+    "name": "リアリスト",
+    "birthDate": "2013-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05728",
+      "name": "藤田輝信"
+    },
+    "owner": {
+      "id": "367008",
+      "name": "吉澤克己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リアリサトリス Realisatrice(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Numerous"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -4844,6 +4874,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアリスト (Realist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアリスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアリスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4913,9 +4973,9 @@
       "contentHash": "a94d16e74dac8b732575f55813a6a364a011e7654fa81063f02d9d645e8b4ab7",
       "byteLength": 66916,
       "rawPath": "netkeiba/horses/2013/2013106143/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:41:12.341Z"
+  "updatedAt": "2026-08-29T03:44:35.402Z"
 }

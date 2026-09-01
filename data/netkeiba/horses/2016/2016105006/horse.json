@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105006",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105006/",
-  "profile": null,
+  "profile": {
+    "name": "スワンレーク",
+    "birthDate": "2016-02-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "1997103458",
+      "name": "グランパドドゥ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1274,6 +1304,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スワンレーク (Swan Lake) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スワンレーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スワンレーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1343,9 +1403,9 @@
       "contentHash": "d09dca64fb1ffb5af4cdd61afea898855c0c16b414f400054317fa670b64d05f",
       "byteLength": 66089,
       "rawPath": "netkeiba/horses/2016/2016105006/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:27:22.312Z"
+  "updatedAt": "2026-08-28T04:37:19.090Z"
 }

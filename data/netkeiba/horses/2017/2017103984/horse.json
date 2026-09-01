@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103984",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103984/",
-  "profile": null,
+  "profile": {
+    "name": "バルセロナ",
+    "birthDate": "2017-05-15",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャタロニアン Catalonian(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1691,6 +1721,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バルセロナ (Barcelona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルセロナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルセロナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1760,9 +1820,9 @@
       "contentHash": "10f269fbd66d40488cd47eb6ce92e576fd290e46e7d64db226a962f2c4243c99",
       "byteLength": 66598,
       "rawPath": "netkeiba/horses/2017/2017103984/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:17:17.917Z"
+  "updatedAt": "2026-08-25T08:24:47.132Z"
 }

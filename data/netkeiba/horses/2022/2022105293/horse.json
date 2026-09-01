@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105293",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105293/",
-  "profile": null,
+  "profile": {
+    "name": "キャトルエピス",
+    "birthDate": "2022-02-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャリサガ Qualisaga(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sageburg"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1672,6 +1702,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャトルエピス (Quatre Epice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャトルエピス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャトルエピス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1741,9 +1801,9 @@
       "contentHash": "d78ecacd5ec2f24d00e6656df981dec5e34fe95ff1354b30982818be039a506d",
       "byteLength": 66906,
       "rawPath": "netkeiba/horses/2022/2022105293/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:51:24.822Z"
+  "updatedAt": "2026-08-28T05:01:21.657Z"
 }

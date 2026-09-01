@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106646",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106646/",
-  "profile": null,
+  "profile": {
+    "name": "レイヤー",
+    "birthDate": "2022-05-15",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田村彰啓"
+    },
+    "owner": {
+      "id": "x0792d",
+      "name": "曽和直栄"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2012103219",
+      "name": "デビュタント"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -3733,6 +3763,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイヤー (Layer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイヤー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイヤー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3802,9 +3862,9 @@
       "contentHash": "4931cabe7d0d846a7ac19e0bca618c0f6c950437126362711e8ac71ef6da4a91",
       "byteLength": 65283,
       "rawPath": "netkeiba/horses/2022/2022106646/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:41:26.994Z"
+  "updatedAt": "2026-08-25T08:48:56.641Z"
 }

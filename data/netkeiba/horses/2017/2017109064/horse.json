@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017109064",
   "sourceUrl": "https://db.netkeiba.com/horse/2017109064/",
-  "profile": null,
+  "profile": {
+    "name": "アークウェザー",
+    "birthDate": "2017-04-19",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "x09dc0",
+      "name": "中川健"
+    },
+    "breeder": {
+      "id": "033141",
+      "name": "町屋勝幸"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2006103308",
+      "name": "アンライバルド"
+    },
+    "dam": {
+      "id": "2005102110",
+      "name": "ウェザーヘルム"
+    },
+    "damsire": {
+      "id": "1996100292",
+      "name": "テイエムオペラオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103308",
@@ -2269,6 +2299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アークウェザー (Arc Weather) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークウェザー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークウェザー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2338,9 +2398,9 @@
       "contentHash": "82547ec1e8bb72b952b6c212986fcfdba434a9dce6475312e764e6d1457743a5",
       "byteLength": 66527,
       "rawPath": "netkeiba/horses/2017/2017109064/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:19:16.482Z"
+  "updatedAt": "2026-08-25T08:26:46.474Z"
 }

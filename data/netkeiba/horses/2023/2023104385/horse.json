@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104385",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104385/",
-  "profile": null,
+  "profile": {
+    "name": "チェカ",
+    "birthDate": "2023-04-22",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2010105836",
+      "name": "キングベイビー"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1275,6 +1305,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チェカ (Cheka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1344,9 +1404,9 @@
       "contentHash": "6d9425b5a4bc95fddc4670e71ab652447db5eae9c2a8c30bc91957d136558861",
       "byteLength": 64780,
       "rawPath": "netkeiba/horses/2023/2023104385/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:24:44.237Z"
+  "updatedAt": "2026-08-29T04:28:07.229Z"
 }

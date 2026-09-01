@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102086",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102086/",
-  "profile": null,
+  "profile": {
+    "name": "デルタ",
+    "birthDate": "2017-03-07",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05476",
+      "name": "鹿沼良和"
+    },
+    "owner": {
+      "id": "x0351d",
+      "name": "小林和義"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "エスケンデレヤ"
+    },
+    "dam": {
+      "id": "2003102538",
+      "name": "カウントオンミー"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -7886,6 +7916,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デルタ (Delta) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7955,9 +8015,9 @@
       "contentHash": "35f632cc8fea4b1f9aaeda02729ba53b18c2f9a455ff954f5a20ffdee609e5d9",
       "byteLength": 66691,
       "rawPath": "netkeiba/horses/2017/2017102086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:56:19.747Z"
+  "updatedAt": "2026-08-29T03:59:42.229Z"
 }

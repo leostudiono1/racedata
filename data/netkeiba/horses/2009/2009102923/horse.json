@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009102923",
   "sourceUrl": "https://db.netkeiba.com/horse/2009102923/",
-  "profile": null,
+  "profile": {
+    "name": "ロノ",
+    "birthDate": "2009-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2004102898",
+      "name": "ネネグース"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -4276,6 +4306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロノ (Lono) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロノ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロノ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4345,9 +4405,9 @@
       "contentHash": "75f4cacaa30c7e1050ddb1669908f66950c748f0469c94f27065f2a58be17e7f",
       "byteLength": 66745,
       "rawPath": "netkeiba/horses/2009/2009102923/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:28:48.024Z"
+  "updatedAt": "2026-08-26T05:37:20.837Z"
 }

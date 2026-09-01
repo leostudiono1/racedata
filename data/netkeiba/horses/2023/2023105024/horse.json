@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105024",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105024/",
-  "profile": null,
+  "profile": {
+    "name": "ダノンステート",
+    "birthDate": "2023-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "619800",
+      "name": "ダノックス"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マダムヴェステル Madame Vestal(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Into Mischief"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1378,6 +1408,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダノンステート (Danon State) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンステート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンステート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1447,9 +1507,9 @@
       "contentHash": "ad133007f95a19a934e399289c970d7309d104dd70488aa52f0461c02ca109ce",
       "byteLength": 65565,
       "rawPath": "netkeiba/horses/2023/2023105024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:21:36.539Z"
+  "updatedAt": "2026-08-26T06:30:09.389Z"
 }

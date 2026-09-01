@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102389",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102389/",
-  "profile": null,
+  "profile": {
+    "name": "ダストボウル",
+    "birthDate": "2022-04-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05759",
+      "name": "井樋明正"
+    },
+    "owner": {
+      "id": "748031",
+      "name": "吉田哲"
+    },
+    "breeder": {
+      "id": "230366",
+      "name": "原田新治"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2009102059",
+      "name": "フラワータッチ"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1473,6 +1503,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダストボウル (Dust Bowl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダストボウル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダストボウル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1542,9 +1602,9 @@
       "contentHash": "b5151198be0353715e25905a878de7ff5eaf5ef9a4f66e3f0937989d322b8714",
       "byteLength": 66826,
       "rawPath": "netkeiba/horses/2022/2022102389/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:27:10.318Z"
+  "updatedAt": "2026-08-31T03:34:52.536Z"
 }

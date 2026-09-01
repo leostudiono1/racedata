@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101455",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101455/",
-  "profile": null,
+  "profile": {
+    "name": "ゼアル",
+    "birthDate": "2019-05-05",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05177",
+      "name": "藤ヶ崎一"
+    },
+    "owner": {
+      "id": "x0a721",
+      "name": "安本卓史"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "グリーンアイズII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -2704,6 +2734,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼアル (There'll) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2773,9 +2833,9 @@
       "contentHash": "a05babb1158d4b3e914d7d9b2a74359a29e6cc35e65fe6ce0f1e436a78a777a6",
       "byteLength": 65947,
       "rawPath": "netkeiba/horses/2019/2019101455/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:36:59.999Z"
+  "updatedAt": "2026-08-24T09:42:52.042Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104084",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104084/",
-  "profile": null,
+  "profile": {
+    "name": "ベルーフ",
+    "birthDate": "2012-01-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2001103241",
+      "name": "レクレドール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3714,6 +3744,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルーフ (Beruf) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルーフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルーフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3783,9 +3843,9 @@
       "contentHash": "9e6f84ae6260359112f2112d510be506af5608b46018e4ac31719287359b0133",
       "byteLength": 67406,
       "rawPath": "netkeiba/horses/2012/2012104084/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:09:03.329Z"
+  "updatedAt": "2026-08-24T09:14:54.619Z"
 }

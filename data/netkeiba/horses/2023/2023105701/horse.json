@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105701",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105701/",
-  "profile": null,
+  "profile": {
+    "name": "ライトハウス",
+    "birthDate": "2023-02-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "847033",
+      "name": "清川信弘"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2013101099",
+      "name": "クナウ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1291,6 +1321,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライトハウス (Lighthouse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライトハウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライトハウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1360,9 +1420,9 @@
       "contentHash": "536f1362bae616c493e99ede37d04fb813504d10c445380cb8a9be37cdf1dda6",
       "byteLength": 66150,
       "rawPath": "netkeiba/horses/2023/2023105701/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:49:05.851Z"
+  "updatedAt": "2026-08-27T05:52:44.584Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103476",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103476/",
-  "profile": null,
+  "profile": {
+    "name": "キンシロウ",
+    "birthDate": "2016-04-18",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01051",
+      "name": "岩戸孝樹"
+    },
+    "owner": {
+      "id": "370008",
+      "name": "岡浩二"
+    },
+    "breeder": {
+      "id": "231397",
+      "name": "野島牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2006105871",
+      "name": "サクラサクラサクラ"
+    },
+    "damsire": {
+      "id": "1997100569",
+      "name": "アッミラーレ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1499,6 +1529,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キンシロウ (Kinshiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンシロウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンシロウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1568,9 +1628,9 @@
       "contentHash": "e8149a4ee959bfc8938c10a1dc3958e269fdf22717db02c4e16959b865baa8f7",
       "byteLength": 66736,
       "rawPath": "netkeiba/horses/2016/2016103476/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:24:30.702Z"
+  "updatedAt": "2026-08-24T09:30:22.325Z"
 }

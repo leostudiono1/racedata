@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101847",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101847/",
-  "profile": null,
+  "profile": {
+    "name": "ニューブラック",
+    "birthDate": "2020-03-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05390",
+      "name": "高橋俊之"
+    },
+    "owner": {
+      "id": "x006bc",
+      "name": "宮谷内文雄"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "モケット Moquette(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Maria's Mon"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1527,6 +1557,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ニューブラック (New Black) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニューブラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニューブラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1596,9 +1656,9 @@
       "contentHash": "78ea159ad6884c1a784aaba631dff69fde95a6afa62db2b69f6d6f16d8a735dc",
       "byteLength": 64597,
       "rawPath": "netkeiba/horses/2020/2020101847/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:09:30.619Z"
+  "updatedAt": "2026-08-29T04:12:53.474Z"
 }

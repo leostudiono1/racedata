@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110024",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110024/",
-  "profile": null,
+  "profile": {
+    "name": "キューバンスパーク",
+    "birthDate": "2019-04-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01121",
+      "name": "角田晃一"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "980739",
+      "name": "Dalwhinnie Bloodstock"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Havana Gold"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Bijou A Moi"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rainbow Quest (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1073,6 +1103,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キューバンスパーク (Cuban Spark) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キューバンスパーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キューバンスパーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1142,9 +1202,9 @@
       "contentHash": "748631c372aa84bae83f5d86b0027ea5463e3a421816f9e34f9803caf9b39331",
       "byteLength": 64582,
       "rawPath": "netkeiba/horses/2019/2019110024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:39:37.641Z"
+  "updatedAt": "2026-08-28T04:49:34.304Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102224",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102224/",
-  "profile": null,
+  "profile": {
+    "name": "シーカー",
+    "birthDate": "2015-04-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05601",
+      "name": "東眞市"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "000367",
+      "name": "びらとり牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "スウェプトオーヴァーボード Swept Overboard(米)"
+    },
+    "dam": {
+      "id": "2008102786",
+      "name": "ハリケーンタマ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4911,6 +4941,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーカー (Seeker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4980,9 +5040,9 @@
       "contentHash": "6805deeef0c9c0df642fc1c576a9e40532b9bb811a84deeb6af1b329bc403fda",
       "byteLength": 66659,
       "rawPath": "netkeiba/horses/2015/2015102224/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:07:36.285Z"
+  "updatedAt": "2026-08-25T08:15:06.083Z"
 }

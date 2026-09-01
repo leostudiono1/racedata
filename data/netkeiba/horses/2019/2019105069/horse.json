@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105069",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105069/",
-  "profile": null,
+  "profile": {
+    "name": "コリエンテス",
+    "birthDate": "2019-03-23",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "イスパニダ Hispanidad(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pure Prize"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2299,6 +2329,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コリエンテス (Corrientes) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コリエンテス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コリエンテス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2368,9 +2428,9 @@
       "contentHash": "b519f47ef8b73e7c617531bb389c21e51b04fe725d70b61c22ce7cd791edf36b",
       "byteLength": 67344,
       "rawPath": "netkeiba/horses/2019/2019105069/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:06:35.419Z"
+  "updatedAt": "2026-08-29T04:09:58.309Z"
 }

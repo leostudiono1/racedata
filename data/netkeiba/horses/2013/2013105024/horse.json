@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105024",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105024/",
-  "profile": null,
+  "profile": {
+    "name": "ピクシーカフェ",
+    "birthDate": "2013-04-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01165",
+      "name": "和田勇介"
+    },
+    "owner": {
+      "id": "505007",
+      "name": "西川恭子"
+    },
+    "breeder": {
+      "id": "013370",
+      "name": "市川牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "グリーティングス Greetings(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rainbow Quest (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -2428,6 +2458,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピクシーカフェ (Pixie Cafe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピクシーカフェ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピクシーカフェ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2497,9 +2557,9 @@
       "contentHash": "26dcff6df7383f894aa6ca8566b6bb4fcaaffc793d4d4f554f82f8a633944c9b",
       "byteLength": 65966,
       "rawPath": "netkeiba/horses/2013/2013105024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:40:33.794Z"
+  "updatedAt": "2026-08-29T03:43:57.306Z"
 }

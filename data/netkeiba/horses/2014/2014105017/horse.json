@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105017",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105017/",
-  "profile": null,
+  "profile": {
+    "name": "カレン",
+    "birthDate": "2014-04-03",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01174",
+      "name": "深山雅史"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "413304",
+      "name": "藤沢牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴェルナッツァ Vernazza(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -5128,6 +5158,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カレン (Karen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カレン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カレン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5197,9 +5257,9 @@
       "contentHash": "de2d3a9d763463fb8929f904a3f4190bc585a88e0d1251f07c6b6fb6eb2be8d2",
       "byteLength": 66916,
       "rawPath": "netkeiba/horses/2014/2014105017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:19:08.819Z"
+  "updatedAt": "2026-08-28T04:29:05.661Z"
 }

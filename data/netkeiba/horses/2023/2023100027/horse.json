@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100027",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100027/",
-  "profile": null,
+  "profile": {
+    "name": "ネオアカジョウ",
+    "birthDate": "2023-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01220",
+      "name": "松尾卓哉"
+    },
+    "owner": {
+      "id": "502033",
+      "name": "西田俊二"
+    },
+    "breeder": {
+      "id": "910090",
+      "name": "小河ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2012102685",
+      "name": "ステラグレイス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1339,6 +1369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネオアカジョウ (Neo Akajo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオアカジョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオアカジョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1408,9 +1468,9 @@
       "contentHash": "a77a2770908871893beea2b55e461c33ff7aa2762d42b93fdf0cc90a9eaaa50f",
       "byteLength": 64828,
       "rawPath": "netkeiba/horses/2023/2023100027/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:30:40.374Z"
+  "updatedAt": "2026-08-31T03:38:22.944Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103937",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103937/",
-  "profile": null,
+  "profile": {
+    "name": "フランチェスコ",
+    "birthDate": "2013-02-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01036",
+      "name": "高橋義博"
+    },
+    "owner": {
+      "id": "457002",
+      "name": "海谷幸司"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2006103973",
+      "name": "キアラ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -3028,6 +3058,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フランチェスコ (Francesco) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フランチェスコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フランチェスコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3097,9 +3157,9 @@
       "contentHash": "e42842ad50d527de25630e895ce96109076cb8e27817ee3174d3203a8dbc8190",
       "byteLength": 66843,
       "rawPath": "netkeiba/horses/2013/2013103937/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:12:57.660Z"
+  "updatedAt": "2026-08-24T09:18:49.221Z"
 }

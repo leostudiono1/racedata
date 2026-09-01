@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104942",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104942/",
-  "profile": null,
+  "profile": {
+    "name": "ルベリエ",
+    "birthDate": "2016-03-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01053",
+      "name": "角居勝彦"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴェルダ Velda(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Observatory"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1205,6 +1235,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルベリエ (Le Belier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルベリエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルベリエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1274,9 +1334,9 @@
       "contentHash": "d5786298b0d73c62829fe398a737ba2684b9f940b4bf065f6fdf6c235d97844d",
       "byteLength": 66912,
       "rawPath": "netkeiba/horses/2016/2016104942/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:27:18.947Z"
+  "updatedAt": "2026-08-28T04:37:16.015Z"
 }

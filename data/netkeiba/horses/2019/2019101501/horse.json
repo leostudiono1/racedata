@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101501",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101501/",
-  "profile": null,
+  "profile": {
+    "name": "クラウンパーチェ",
+    "birthDate": "2019-03-09",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "043033",
+      "name": "矢野恭裕"
+    },
+    "breeder": {
+      "id": "560543",
+      "name": "クラウン日高牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005102317",
+      "name": "シビルウォー"
+    },
+    "dam": {
+      "id": "2011109106",
+      "name": "スイートデュプレ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102317",
@@ -1140,6 +1170,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラウンパーチェ (Crown Pace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンパーチェ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンパーチェ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1209,9 +1269,9 @@
       "contentHash": "54e00d6029d5bf8a6838fc5d7054b9ae98c85cd485a3055f6827460b248a8c0f",
       "byteLength": 64878,
       "rawPath": "netkeiba/horses/2019/2019101501/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:36:49.492Z"
+  "updatedAt": "2026-08-28T04:46:46.504Z"
 }

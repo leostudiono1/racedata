@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105855",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105855/",
-  "profile": null,
+  "profile": {
+    "name": "レッドリターン",
+    "birthDate": "2020-04-07",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "358031",
+      "name": "紅露純"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2008106083",
+      "name": "レッドマロン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Aragorn"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1697,6 +1727,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドリターン (Red Return) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドリターン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドリターン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1766,9 +1826,9 @@
       "contentHash": "cfc13f183445efd30b4552e81f72ed907745e00d464e60345a45321535c11119",
       "byteLength": 66797,
       "rawPath": "netkeiba/horses/2020/2020105855/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:31:28.314Z"
+  "updatedAt": "2026-08-25T08:38:57.964Z"
 }

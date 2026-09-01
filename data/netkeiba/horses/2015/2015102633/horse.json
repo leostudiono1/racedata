@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102633",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102633/",
-  "profile": null,
+  "profile": {
+    "name": "ジャミン",
+    "birthDate": "2015-03-01",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "301803",
+      "name": "ニッシンレーシング"
+    },
+    "breeder": {
+      "id": "833058",
+      "name": "三石川上牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ボールルーム Ballroom(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1422,6 +1452,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャミン (Jammin') | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャミン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャミン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1491,9 +1551,9 @@
       "contentHash": "5d27c2d8c7cb3fe48b2e401cb8063a28d0e9a25265b6d5dbde60632e325ed26c",
       "byteLength": 64809,
       "rawPath": "netkeiba/horses/2015/2015102633/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:57:42.157Z"
+  "updatedAt": "2026-08-31T03:05:24.434Z"
 }

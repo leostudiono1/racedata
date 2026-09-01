@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103498",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103498/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンタイヨウ",
+    "birthDate": "2016-02-16",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "016030",
+      "name": "篠崎恒雄"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2005102154",
+      "name": "クルンプホルツ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1557,6 +1587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンタイヨウ (Hakusan Taiyo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンタイヨウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンタイヨウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1626,9 +1686,9 @@
       "contentHash": "585ad629d8a1c5331bedd44680e14c4d62e25329520a679f939b276e57ba4118",
       "byteLength": 65388,
       "rawPath": "netkeiba/horses/2016/2016103498/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:17:07.818Z"
+  "updatedAt": "2026-08-27T05:20:45.988Z"
 }

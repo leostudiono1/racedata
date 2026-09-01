@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101131",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101131/",
-  "profile": null,
+  "profile": {
+    "name": "ノーム",
+    "birthDate": "2014-02-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05549",
+      "name": "服部健一"
+    },
+    "owner": {
+      "id": "337803",
+      "name": "（有）ホースケア"
+    },
+    "breeder": {
+      "id": "133092",
+      "name": "佐藤陽一"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000110026",
+      "name": "ロードアルティマ"
+    },
+    "dam": {
+      "id": "1995107903",
+      "name": "ラクシャリーラス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノーザンテースト Northern Taste(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000110026",
@@ -1802,6 +1832,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノーム (Gnome) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1871,9 +1931,9 @@
       "contentHash": "aa36406fc424e0710a72a11964d5a813d086135462387f7b1b20d80aa98e32f4",
       "byteLength": 64292,
       "rawPath": "netkeiba/horses/2014/2014101131/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:42:15.258Z"
+  "updatedAt": "2026-08-29T03:45:38.395Z"
 }

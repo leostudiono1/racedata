@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104852",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104852/",
-  "profile": null,
+  "profile": {
+    "name": "インボルク",
+    "birthDate": "2015-03-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05089",
+      "name": "小林義明"
+    },
+    "owner": {
+      "id": "x08b8d",
+      "name": "遠藤正廣"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スプリングシーズンII Spring Season(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -6427,6 +6457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インボルク (Imbolc) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インボルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インボルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6496,9 +6556,9 @@
       "contentHash": "db5065178317c6540c3699d687f1ca03c94cfaa8531981d7c6b8b3a3d14d8334",
       "byteLength": 66832,
       "rawPath": "netkeiba/horses/2015/2015104852/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:48:20.937Z"
+  "updatedAt": "2026-08-26T05:56:54.022Z"
 }

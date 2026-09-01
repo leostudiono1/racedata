@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106629",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106629/",
-  "profile": null,
+  "profile": {
+    "name": "ブラックルパン",
+    "birthDate": "2019-04-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00428",
+      "name": "石毛善彦"
+    },
+    "owner": {
+      "id": "464030",
+      "name": "田畑利彦"
+    },
+    "breeder": {
+      "id": "130541",
+      "name": "ＰＲＩＤＥＲＯＣＫ"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2005100317",
+      "name": "アドマイヤアモーレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1826,6 +1856,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラックルパン (Black Lupin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックルパン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックルパン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1895,9 +1955,9 @@
       "contentHash": "f3e09611c406442f7c494d8b7862f892976cb259ea52779d3ff27cbc0586a9f2",
       "byteLength": 66876,
       "rawPath": "netkeiba/horses/2019/2019106629/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:40:15.999Z"
+  "updatedAt": "2026-08-24T09:46:08.038Z"
 }

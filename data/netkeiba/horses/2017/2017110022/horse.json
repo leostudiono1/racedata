@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110022",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110022/",
-  "profile": null,
+  "profile": {
+    "name": "リョウガ",
+    "birthDate": "2017-04-30",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "x09514",
+      "name": "太田雅貴"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Dubawi"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジェニーリンド Jenny Lind(英)"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -8020,6 +8050,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リョウガ (Ryoga) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リョウガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リョウガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8089,9 +8149,9 @@
       "contentHash": "ccf91ed3936962844be6e01df7b57608c504f097c5f429927dd247befe8cac76",
       "byteLength": 66562,
       "rawPath": "netkeiba/horses/2017/2017110022/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:31:55.482Z"
+  "updatedAt": "2026-08-28T04:41:52.200Z"
 }

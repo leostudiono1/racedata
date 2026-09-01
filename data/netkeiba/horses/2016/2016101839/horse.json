@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101839",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101839/",
-  "profile": null,
+  "profile": {
+    "name": "サマーアイランド",
+    "birthDate": "2016-05-06",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": null,
+      "name": "田中正人"
+    },
+    "owner": {
+      "id": "239033",
+      "name": "酒井美津子"
+    },
+    "breeder": {
+      "id": "903038",
+      "name": "酒井牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2009100447",
+      "name": "ジュリエットソング"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2963,6 +2993,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サマーアイランド (Summer Island) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サマーアイランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サマーアイランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3032,9 +3092,9 @@
       "contentHash": "64e003feaadf98eeaa1260643a04dedf369b2594a44f87bd76acb828163924a2",
       "byteLength": 67084,
       "rawPath": "netkeiba/horses/2016/2016101839/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:20:19.085Z"
+  "updatedAt": "2026-08-30T03:32:28.799Z"
 }

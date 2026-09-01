@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104093",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104093/",
-  "profile": null,
+  "profile": {
+    "name": "バサラ",
+    "birthDate": "2013-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01020",
+      "name": "相沢郁"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "013079",
+      "name": "神垣道弘"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "1995106509",
+      "name": "ハナランマン"
+    },
+    "damsire": {
+      "id": "1982101222",
+      "name": "サクラユタカオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -1323,6 +1353,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バサラ (Vajra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バサラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バサラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1392,9 +1452,9 @@
       "contentHash": "2019e063d6957581d473a5e6f09f0d9376ce945715181faf6c3f1008b448787d",
       "byteLength": 64514,
       "rawPath": "netkeiba/horses/2013/2013104093/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:38:32.840Z"
+  "updatedAt": "2026-08-26T05:47:05.525Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103688",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103688/",
-  "profile": null,
+  "profile": {
+    "name": "コンフィグシス",
+    "birthDate": "2023-02-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "960006",
+      "name": "薗部博之"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "シスキン Siskin(米)"
+    },
+    "dam": {
+      "id": "2018105426",
+      "name": "グラシアディヴィナ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1502,6 +1532,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コンフィグシス (Config Sys) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンフィグシス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンフィグシス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1571,9 +1631,9 @@
       "contentHash": "f315ed38f100824845cbde2cd6ea07c0f45bd99173047b5508d8dba7685881f9",
       "byteLength": 65796,
       "rawPath": "netkeiba/horses/2023/2023103688/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:55:15.833Z"
+  "updatedAt": "2026-08-28T05:05:12.709Z"
 }

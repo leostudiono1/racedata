@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100387",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100387/",
-  "profile": null,
+  "profile": {
+    "name": "バックシャン",
+    "birthDate": "2019-04-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "矢内博"
+    },
+    "owner": {
+      "id": "x00fcb",
+      "name": "嵯峨健民"
+    },
+    "breeder": {
+      "id": "080543",
+      "name": "大作ステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2005100303",
+      "name": "スズカシャンティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -1360,6 +1390,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バックシャン (Back Schon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バックシャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バックシャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1429,9 +1489,9 @@
       "contentHash": "e1c3dfcf9f11999ca021bf74820e6ac49f71018dcdcaae77011ae5c47eb7ae7a",
       "byteLength": 66101,
       "rawPath": "netkeiba/horses/2019/2019100387/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:36:14.774Z"
+  "updatedAt": "2026-08-24T09:42:06.118Z"
 }

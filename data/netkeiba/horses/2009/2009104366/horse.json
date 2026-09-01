@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009104366",
   "sourceUrl": "https://db.netkeiba.com/horse/2009104366/",
-  "profile": null,
+  "profile": {
+    "name": "マカハ",
+    "birthDate": "2009-04-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "820102",
+      "name": "大樹ファーム"
+    },
+    "birthplace": "大樹町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サークリング Circling(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Irish River (仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -5899,6 +5929,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マカハ (Makaha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マカハ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マカハ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5968,9 +6028,9 @@
       "contentHash": "b8c0142a06265f95bc660253122bed5eff5383a8a9f21ce1539138da99f506fa",
       "byteLength": 67166,
       "rawPath": "netkeiba/horses/2009/2009104366/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:04:12.553Z"
+  "updatedAt": "2026-08-28T04:14:09.231Z"
 }

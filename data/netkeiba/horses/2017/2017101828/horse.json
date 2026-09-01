@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101828",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101828/",
-  "profile": null,
+  "profile": {
+    "name": "ロニセラ",
+    "birthDate": "2017-03-24",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "245030",
+      "name": "前田葉子"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2006110090",
+      "name": "ラヴェリータ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2800,6 +2830,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロニセラ (Lonicera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロニセラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロニセラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2869,9 +2929,9 @@
       "contentHash": "756e918739be5db0b8896e716a1d7210010d60503c10c627004b05eff0d35041",
       "byteLength": 66742,
       "rawPath": "netkeiba/horses/2017/2017101828/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:16:00.527Z"
+  "updatedAt": "2026-08-25T08:23:30.167Z"
 }

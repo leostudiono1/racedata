@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105347",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105347/",
-  "profile": null,
+  "profile": {
+    "name": "ジロラータ",
+    "birthDate": "2022-04-11",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "941033",
+      "name": "村木克子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シティイメージ City Image(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive City"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1672,6 +1702,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジロラータ (Girolata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジロラータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジロラータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1741,9 +1801,9 @@
       "contentHash": "865f31e801d3a39a7d130a222931d9cc8841bf77851c6287dfdbee7f36381d67",
       "byteLength": 65264,
       "rawPath": "netkeiba/horses/2022/2022105347/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:47:34.122Z"
+  "updatedAt": "2026-08-30T03:59:43.710Z"
 }

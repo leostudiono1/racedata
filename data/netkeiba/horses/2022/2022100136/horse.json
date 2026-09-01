@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100136",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100136/",
-  "profile": null,
+  "profile": {
+    "name": "スカイブルー",
+    "birthDate": "2022-05-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05765",
+      "name": "加藤誠一"
+    },
+    "owner": {
+      "id": "934034",
+      "name": "岡本真二"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2006102794",
+      "name": "スカイノダン"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2822,6 +2852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイブルー (Sky Blue) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイブルー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイブルー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2891,9 +2951,9 @@
       "contentHash": "47c004de820eab7527a6a58e43d0013fb7f3cf4980ea8801cc5108758d85e035",
       "byteLength": 66800,
       "rawPath": "netkeiba/horses/2022/2022100136/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:37:36.145Z"
+  "updatedAt": "2026-08-25T08:45:05.627Z"
 }

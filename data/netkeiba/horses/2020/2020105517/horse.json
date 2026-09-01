@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105517",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105517/",
-  "profile": null,
+  "profile": {
+    "name": "ヒビキ",
+    "birthDate": "2020-03-25",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "904034",
+      "name": "上村勇人"
+    },
+    "breeder": {
+      "id": "400314",
+      "name": "長浜牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2009106052",
+      "name": "ジプシーマイラブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Manduro (独)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -3846,6 +3876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒビキ (Hibiki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒビキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒビキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3915,9 +3975,9 @@
       "contentHash": "6f27b3d4aa53c97cd11376d8a80fde1ae944a1bbbb99fc7ff91504dc57360ca4",
       "byteLength": 66738,
       "rawPath": "netkeiba/horses/2020/2020105517/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:43:56.699Z"
+  "updatedAt": "2026-08-24T09:49:48.642Z"
 }

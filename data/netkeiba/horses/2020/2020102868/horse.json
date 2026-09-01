@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102868",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102868/",
-  "profile": null,
+  "profile": {
+    "name": "ピクシレーション",
+    "birthDate": "2020-04-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シアードラマ Sheer Drama(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Burning Roma"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3300,6 +3330,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピクシレーション (Pixilation) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピクシレーション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピクシレーション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3369,9 +3429,9 @@
       "contentHash": "5547aa6842b439bf3556d065a4189aab9371d613ae4af0e63e413656d091e03f",
       "byteLength": 67450,
       "rawPath": "netkeiba/horses/2020/2020102868/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:34:06.106Z"
+  "updatedAt": "2026-08-27T05:37:44.741Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100284",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100284/",
-  "profile": null,
+  "profile": {
+    "name": "アウグスト",
+    "birthDate": "2019-03-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05650",
+      "name": "高橋優子"
+    },
+    "owner": {
+      "id": "x0a598",
+      "name": "石井啓之"
+    },
+    "breeder": {
+      "id": "730337",
+      "name": "須崎牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ザファクター"
+    },
+    "dam": {
+      "id": "2008103224",
+      "name": "アプレレクール"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5050,6 +5080,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウグスト (August) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウグスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウグスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5119,9 +5179,9 @@
       "contentHash": "d05ac2c729a4a7d472f59b0450c65f6832128c737810f3c77b549ee96af6a707",
       "byteLength": 66981,
       "rawPath": "netkeiba/horses/2019/2019100284/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:31:38.217Z"
+  "updatedAt": "2026-08-30T03:43:47.961Z"
 }

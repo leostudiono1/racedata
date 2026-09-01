@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110012",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110012/",
-  "profile": null,
+  "profile": {
+    "name": "アークドール",
+    "birthDate": "2021-04-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "356803",
+      "name": "インゼルレーシング"
+    },
+    "breeder": {
+      "id": "500737",
+      "name": "Keiffers Co Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Golden Horn (英)"
+    },
+    "dam": {
+      "id": "2013106126",
+      "name": "ラルク"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3718,6 +3748,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アークドール (Arc d'Or) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3787,9 +3847,9 @@
       "contentHash": "4be90e46fa79da7aa92b5e50addd25659ed38a63c62eb80003c4874c0480ed08",
       "byteLength": 67381,
       "rawPath": "netkeiba/horses/2021/2021110012/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:14:32.903Z"
+  "updatedAt": "2026-08-26T06:23:05.853Z"
 }

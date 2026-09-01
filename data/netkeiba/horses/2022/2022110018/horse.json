@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110018",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110018/",
-  "profile": null,
+  "profile": {
+    "name": "サカイシューター",
+    "birthDate": "2022-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01093",
+      "name": "松永康利"
+    },
+    "owner": {
+      "id": "397034",
+      "name": "坂井秀人"
+    },
+    "breeder": {
+      "id": "850738",
+      "name": "Sheltowee Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Vino Rosso (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Philadelphia Gold"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Touch Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1561,6 +1591,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サカイシューター (Sakai Shooter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サカイシューター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サカイシューター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1630,9 +1690,9 @@
       "contentHash": "2de8e0a78e5bb7ea643fd20ca52415fc87661f3d25d5894925de202e77d08a2c",
       "byteLength": 65367,
       "rawPath": "netkeiba/horses/2022/2022110018/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:55:16.198Z"
+  "updatedAt": "2026-08-24T10:01:07.507Z"
 }

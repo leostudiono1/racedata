@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101234",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101234/",
-  "profile": null,
+  "profile": {
+    "name": "ザゴート",
+    "birthDate": "2020-02-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "荒井朋弘"
+    },
+    "owner": {
+      "id": "659031",
+      "name": "野村一雄"
+    },
+    "breeder": {
+      "id": "503341",
+      "name": "新井昭二"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2013109020",
+      "name": "エルメスショコラ"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -6133,6 +6163,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザゴート (The Goat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザゴート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザゴート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6202,9 +6262,9 @@
       "contentHash": "d620edac52286aa49a05e33f0dbe40e50f371dc1390aacadc0f2323b08b46d2e",
       "byteLength": 64287,
       "rawPath": "netkeiba/horses/2020/2020101234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:41:57.761Z"
+  "updatedAt": "2026-08-24T09:47:49.348Z"
 }

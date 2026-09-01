@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101785",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101785/",
-  "profile": null,
+  "profile": {
+    "name": "ハヴェリー",
+    "birthDate": "2019-03-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "541543",
+      "name": "スマイルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2011100450",
+      "name": "アルカンシエル"
+    },
+    "damsire": {
+      "id": "2001103189",
+      "name": "スウィフトカレント"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1120,6 +1150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハヴェリー (Haveli) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハヴェリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハヴェリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1189,9 +1249,9 @@
       "contentHash": "45f3f898cbe2db019055eee8e3e188615981c5786b9ea42fe67e9a73e5c33679",
       "byteLength": 64333,
       "rawPath": "netkeiba/horses/2019/2019101785/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:37:00.470Z"
+  "updatedAt": "2026-08-28T04:46:56.777Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103000",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103000/",
-  "profile": null,
+  "profile": {
+    "name": "インブルーム",
+    "birthDate": "2015-02-19",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "987033",
+      "name": "田中純一"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2010104758",
+      "name": "タケショウナデシコ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -1759,6 +1789,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インブルーム (In Bloom) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インブルーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インブルーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1828,9 +1888,9 @@
       "contentHash": "9db30d3cf25d1ad38369a83a4c66b02f042d8b306819f98ecd9a810e42129481",
       "byteLength": 65532,
       "rawPath": "netkeiba/horses/2015/2015103000/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:58:10.120Z"
+  "updatedAt": "2026-08-31T03:05:52.558Z"
 }

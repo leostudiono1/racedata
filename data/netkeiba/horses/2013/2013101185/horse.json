@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101185",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101185/",
-  "profile": null,
+  "profile": {
+    "name": "マーヤ",
+    "birthDate": "2013-04-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "大宮和也"
+    },
+    "owner": {
+      "id": "573002",
+      "name": "中田和宏"
+    },
+    "breeder": {
+      "id": "940367",
+      "name": "船越伸也"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2002107137",
+      "name": "アティーナラビット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4258,6 +4288,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マーヤ (Maya) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーヤ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーヤ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4327,9 +4387,9 @@
       "contentHash": "82d1e870ab35ee17559234512ee977c05b0068fb468b6ca5aebc46ab0ddc75aa",
       "byteLength": 66820,
       "rawPath": "netkeiba/horses/2013/2013101185/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:02:49.438Z"
+  "updatedAt": "2026-08-27T05:06:28.244Z"
 }

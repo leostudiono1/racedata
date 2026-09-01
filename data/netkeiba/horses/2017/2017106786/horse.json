@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106786",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106786/",
-  "profile": null,
+  "profile": {
+    "name": "リベルター",
+    "birthDate": "2017-03-06",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "895030",
+      "name": "山口敦広"
+    },
+    "breeder": {
+      "id": "080543",
+      "name": "大作ステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2011104418",
+      "name": "ホットランナー"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -1374,6 +1404,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リベルター (Libertad) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベルター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベルター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1443,9 +1503,9 @@
       "contentHash": "09b1eb8473c9cd039312fed03ea5b48a02aa97e3d0ef67b9d7588d7f4fd003fd",
       "byteLength": 66029,
       "rawPath": "netkeiba/horses/2017/2017106786/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:57:27.059Z"
+  "updatedAt": "2026-08-26T06:05:59.787Z"
 }

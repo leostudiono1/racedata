@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105045",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105045/",
-  "profile": null,
+  "profile": {
+    "name": "ナムラカモン",
+    "birthDate": "2012-03-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00387",
+      "name": "目野哲也"
+    },
+    "owner": {
+      "id": "945004",
+      "name": "奈村信重"
+    },
+    "breeder": {
+      "id": "630002",
+      "name": "林時春"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2008103997",
+      "name": "ナムラシャルマン"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -4508,6 +4538,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナムラカモン (Namura Come On) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラカモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラカモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4577,9 +4637,9 @@
       "contentHash": "3d2400764a6bb257844cecaab2c753b8c744fea49e434788c9408e62f775763e",
       "byteLength": 65286,
       "rawPath": "netkeiba/horses/2012/2012105045/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:00:53.897Z"
+  "updatedAt": "2026-08-27T05:04:32.770Z"
 }

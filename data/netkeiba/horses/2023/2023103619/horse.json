@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103619",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103619/",
-  "profile": null,
+  "profile": {
+    "name": "リゾートライン",
+    "birthDate": "2023-02-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "311541",
+      "name": "アスラン"
+    },
+    "birthplace": "苫小牧市",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2016104561",
+      "name": "インバウンド"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1357,6 +1387,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リゾートライン (Resort Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リゾートライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リゾートライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1426,9 +1486,9 @@
       "contentHash": "b577aaafa20dd4fbfda368a05d3d398c43355df57bbc61b5ea9035e189f860cf",
       "byteLength": 66478,
       "rawPath": "netkeiba/horses/2023/2023103619/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:55:12.401Z"
+  "updatedAt": "2026-08-28T05:05:09.292Z"
 }

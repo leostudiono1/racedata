@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105548",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105548/",
-  "profile": null,
+  "profile": {
+    "name": "アルセナール",
+    "birthDate": "2021-03-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2010104050",
+      "name": "サンブルエミューズ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2152,6 +2182,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルセナール (Arsenaal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルセナール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルセナール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2221,9 +2281,9 @@
       "contentHash": "5e056c5714f9edf0a1e89880178dc1527434ad8602e409a6887571f2dbe72d90",
       "byteLength": 67357,
       "rawPath": "netkeiba/horses/2021/2021105548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:13:30.352Z"
+  "updatedAt": "2026-08-26T06:22:02.593Z"
 }

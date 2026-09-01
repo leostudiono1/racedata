@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103641",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103641/",
-  "profile": null,
+  "profile": {
+    "name": "ルアル",
+    "birthDate": "2019-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "吉田司"
+    },
+    "owner": {
+      "id": "x013b6",
+      "name": "古川忠一"
+    },
+    "breeder": {
+      "id": "380543",
+      "name": "グランデファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    },
+    "dam": {
+      "id": "2002104881",
+      "name": "シャイニングムーン"
+    },
+    "damsire": {
+      "id": "1993190001",
+      "name": "エリシオ Helissio(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102837",
@@ -5931,6 +5961,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルアル (Luar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6000,9 +6060,9 @@
       "contentHash": "ba8013b0701a161ff71ec105cd068295711329b3f37057e508443b60f453c0e1",
       "byteLength": 66636,
       "rawPath": "netkeiba/horses/2019/2019103641/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:38:31.176Z"
+  "updatedAt": "2026-08-24T09:44:22.759Z"
 }

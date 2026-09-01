@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104699",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104699/",
-  "profile": null,
+  "profile": {
+    "name": "フレッチア",
+    "birthDate": "2015-04-06",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "033803",
+      "name": "橋口"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Dansili"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴィアメディチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medicean"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4414,6 +4444,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フレッチア (Freccia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレッチア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレッチア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4483,9 +4543,9 @@
       "contentHash": "b67e18707633074450d3c4a21b281d5b6526539e0bfe920ec1c3b9b6395e91eb",
       "byteLength": 66912,
       "rawPath": "netkeiba/horses/2015/2015104699/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:59:23.676Z"
+  "updatedAt": "2026-08-31T03:07:06.087Z"
 }

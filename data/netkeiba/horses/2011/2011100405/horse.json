@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100405",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100405/",
-  "profile": null,
+  "profile": {
+    "name": "ラテンロック",
+    "birthDate": "2011-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2004102437",
+      "name": "ギガンティア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3598,6 +3628,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラテンロック (Latin Rock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラテンロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラテンロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3667,9 +3727,9 @@
       "contentHash": "7273c0825e2155a0c9ec301b6b6b45267baf521981b46b4e15bf8bbf64bc7080",
       "byteLength": 66842,
       "rawPath": "netkeiba/horses/2011/2011100405/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:52:15.374Z"
+  "updatedAt": "2026-08-25T07:59:45.508Z"
 }

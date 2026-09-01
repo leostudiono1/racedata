@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101266",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101266/",
-  "profile": null,
+  "profile": {
+    "name": "ファイアブランド",
+    "birthDate": "2013-04-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05780",
+      "name": "宇野木博"
+    },
+    "owner": {
+      "id": "088033",
+      "name": "津田浩一"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1997106560",
+      "name": "スターリングローズ"
+    },
+    "dam": {
+      "id": "1997110116",
+      "name": "ターミナルフラワー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Salt Lake"
+    }
+  },
   "pedigree": [
     {
       "id": "1997106560",
@@ -1213,6 +1243,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファイアブランド (Firebrand) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファイアブランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファイアブランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1282,9 +1342,9 @@
       "contentHash": "25555317ddee6cc0dbd657060e7a9f7d06349c7cc3e8a879766f33f2ed9a5e19",
       "byteLength": 65130,
       "rawPath": "netkeiba/horses/2013/2013101266/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:49:52.957Z"
+  "updatedAt": "2026-08-31T02:57:35.375Z"
 }

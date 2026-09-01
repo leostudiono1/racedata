@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100182",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100182/",
-  "profile": null,
+  "profile": {
+    "name": "ムイビエン",
+    "birthDate": "2012-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "763800",
+      "name": "協和牧場"
+    },
+    "breeder": {
+      "id": "700335",
+      "name": "協和牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2003100215",
+      "name": "ジーク"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -2721,6 +2751,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムイビエン (Muy Bien) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムイビエン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムイビエン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2790,9 +2850,9 @@
       "contentHash": "72163d5941900df84f76cae7efb6522476953d4496a33fab9f60e2a5181cb681",
       "byteLength": 66880,
       "rawPath": "netkeiba/horses/2012/2012100182/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:33:09.066Z"
+  "updatedAt": "2026-08-29T03:36:32.121Z"
 }

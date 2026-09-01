@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106401",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106401/",
-  "profile": null,
+  "profile": {
+    "name": "タツアレックス",
+    "birthDate": "2021-05-13",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "438034",
+      "name": "鈴木伸幸"
+    },
+    "breeder": {
+      "id": "083543",
+      "name": "大作ステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012106426",
+      "name": "タツゴウゲキ"
+    },
+    "dam": {
+      "id": "2007104224",
+      "name": "メグリ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012106426",
@@ -1368,6 +1398,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タツアレックス (Tatsu Alex) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タツアレックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タツアレックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1437,9 +1497,9 @@
       "contentHash": "182cda427f938b6703bf068e37cab57ca6cf9c18bec191d66ca225c501eebabd",
       "byteLength": 64394,
       "rawPath": "netkeiba/horses/2021/2021106401/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:49:12.078Z"
+  "updatedAt": "2026-08-24T09:55:03.370Z"
 }

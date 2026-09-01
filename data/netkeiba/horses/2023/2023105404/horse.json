@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105404",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105404/",
-  "profile": null,
+  "profile": {
+    "name": "カットソロ",
+    "birthDate": "2023-04-01",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "400317",
+      "name": "村田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "2012100889",
+      "name": "スルターナ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1451,6 +1481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カットソロ (Cut Solo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カットソロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カットソロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1520,9 +1580,9 @@
       "contentHash": "666b11fd05c9a42087c5cd93f77bcd495548aa435a2dc4fd9a8abb199fe0ae77",
       "byteLength": 67142,
       "rawPath": "netkeiba/horses/2023/2023105404/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:33:17.966Z"
+  "updatedAt": "2026-08-31T03:41:00.096Z"
 }

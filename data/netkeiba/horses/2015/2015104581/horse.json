@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104581",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104581/",
-  "profile": null,
+  "profile": {
+    "name": "コケット",
+    "birthDate": "2015-02-22",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "847030",
+      "name": "堀祥子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "モテック Moteck(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラストタイクーン Last Tycoon(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1533,6 +1563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コケット (Coquette) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コケット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コケット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1602,9 +1662,9 @@
       "contentHash": "e27c1b56b5f5d4fc83b8ba22ce95704ad857e6fd25da4360df063432e6f6621f",
       "byteLength": 64942,
       "rawPath": "netkeiba/horses/2015/2015104581/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:59:20.198Z"
+  "updatedAt": "2026-08-31T03:07:02.823Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102090",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102090/",
-  "profile": null,
+  "profile": {
+    "name": "クイーンアン",
+    "birthDate": "2023-03-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パドックシアトル Paddock Seattle(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seattle Fitz"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -1386,6 +1416,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クイーンアン (Queen Anne) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クイーンアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クイーンアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1455,9 +1515,9 @@
       "contentHash": "f05890ff7d0a70328b4c82a5e7797a7af527829684c5414802a9287dc5a7e207",
       "byteLength": 67697,
       "rawPath": "netkeiba/horses/2023/2023102090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:56:22.760Z"
+  "updatedAt": "2026-08-24T10:02:14.177Z"
 }

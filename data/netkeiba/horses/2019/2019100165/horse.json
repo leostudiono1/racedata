@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100165",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100165/",
-  "profile": null,
+  "profile": {
+    "name": "ジオパークタイド",
+    "birthDate": "2019-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "513033",
+      "name": "小関勝紀"
+    },
+    "breeder": {
+      "id": "700335",
+      "name": "協和牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2007104304",
+      "name": "キョウワフェアリー"
+    },
+    "damsire": {
+      "id": "2000190010",
+      "name": "アルカセット Alkaased(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1263,6 +1293,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジオパークタイド (Geopark Tide) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジオパークタイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジオパークタイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1332,9 +1392,9 @@
       "contentHash": "aaa1cb1de5d4ae71f9563813f41a57f1df3bffd0bfd4b8dcba960a214c149096",
       "byteLength": 65578,
       "rawPath": "netkeiba/horses/2019/2019100165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:36:11.279Z"
+  "updatedAt": "2026-08-24T09:42:02.685Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104001",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104001/",
-  "profile": null,
+  "profile": {
+    "name": "リープヘヴン",
+    "birthDate": "2018-04-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05180",
+      "name": "水野善太"
+    },
+    "owner": {
+      "id": "x09afa",
+      "name": "山本国広"
+    },
+    "breeder": {
+      "id": "633085",
+      "name": "棚川光男"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106525",
+      "name": "ヴァンセンヌ"
+    },
+    "dam": {
+      "id": "2000102403",
+      "name": "レトロトウショウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マイニング Mining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106525",
@@ -1657,6 +1687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リープヘヴン (Leap Heaven) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リープヘヴン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リープヘヴン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1726,9 +1786,9 @@
       "contentHash": "01a73bc1f74b34adcd2e6487e0c7b3de42b76535ecbb9e9880a04ac11b7f11ff",
       "byteLength": 64741,
       "rawPath": "netkeiba/horses/2018/2018104001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:11:10.897Z"
+  "updatedAt": "2026-08-31T03:18:53.297Z"
 }

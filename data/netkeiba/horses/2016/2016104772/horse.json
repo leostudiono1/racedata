@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104772",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104772/",
-  "profile": null,
+  "profile": {
+    "name": "ザダル",
+    "birthDate": "2016-02-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2008110096",
+      "name": "シーザシー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lemon Drop Kid"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -2616,6 +2646,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザダル (Zadar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザダル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザダル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2685,9 +2745,9 @@
       "contentHash": "dbc2df3b46363c696a9a4f627033201ac05abade89ff05444e290972efd6eaff",
       "byteLength": 67192,
       "rawPath": "netkeiba/horses/2016/2016104772/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:03:35.752Z"
+  "updatedAt": "2026-08-31T03:11:18.102Z"
 }

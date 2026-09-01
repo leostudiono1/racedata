@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100202",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100202/",
-  "profile": null,
+  "profile": {
+    "name": "グリンダ",
+    "birthDate": "2022-03-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05661",
+      "name": "石川浩文"
+    },
+    "owner": {
+      "id": "x09d53",
+      "name": "（株）アプエンテ"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014100222",
+      "name": "ウインブライト"
+    },
+    "dam": {
+      "id": "2015103575",
+      "name": "マジカルフラッシュ"
+    },
+    "damsire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014100222",
@@ -3437,6 +3467,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリンダ (Glinda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリンダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリンダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3506,9 +3566,9 @@
       "contentHash": "6e70bb0f5feb16ab6dc8fcdf16d868a80c46d9da4dc72e7ff483b823f619709c",
       "byteLength": 66757,
       "rawPath": "netkeiba/horses/2022/2022100202/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:48:26.257Z"
+  "updatedAt": "2026-08-28T04:58:23.042Z"
 }

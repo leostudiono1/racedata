@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103137",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103137/",
-  "profile": null,
+  "profile": {
+    "name": "ラヴィータ",
+    "birthDate": "2020-05-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "124008",
+      "name": "山本英俊"
+    },
+    "breeder": {
+      "id": "700380",
+      "name": "社台牧場"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ペルフォルマーダ Performada(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Jump Start"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -965,6 +995,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラヴィータ (La Vita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラヴィータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラヴィータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1034,9 +1094,9 @@
       "contentHash": "8002a46009af80e91b9948848c425ae21076595fffdf3ea5fddeef0efd0d4659",
       "byteLength": 65391,
       "rawPath": "netkeiba/horses/2020/2020103137/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:34:30.573Z"
+  "updatedAt": "2026-08-27T05:38:09.789Z"
 }

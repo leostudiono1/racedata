@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106937",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106937/",
-  "profile": null,
+  "profile": {
+    "name": "ルナソル",
+    "birthDate": "2019-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2005110048",
+      "name": "ピラミマ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1136,6 +1166,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルナソル (Luna Sol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナソル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナソル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1205,9 +1265,9 @@
       "contentHash": "af4f6f395eae87ebedbb3b6560f8b9f63fb9fdfc6dfa0611354a7ed19942c46c",
       "byteLength": 67151,
       "rawPath": "netkeiba/horses/2019/2019106937/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:32:17.525Z"
+  "updatedAt": "2026-08-27T05:35:56.263Z"
 }

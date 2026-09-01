@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103230",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103230/",
-  "profile": null,
+  "profile": {
+    "name": "スイートクラウン",
+    "birthDate": "2010-02-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "527009",
+      "name": "谷田元彦"
+    },
+    "breeder": {
+      "id": "333301",
+      "name": "福岡清"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002102324",
+      "name": "アドマイヤジャパン"
+    },
+    "dam": {
+      "id": "1992100685",
+      "name": "マツニシキ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラッキーソブリン"
+    }
+  },
   "pedigree": [
     {
       "id": "2002102324",
@@ -3276,6 +3306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スイートクラウン (Sweet Crown) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイートクラウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイートクラウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3345,9 +3405,9 @@
       "contentHash": "d6d3e049ed73a82e6133232a642987451059396b44314354c60c7c114666ad94",
       "byteLength": 64593,
       "rawPath": "netkeiba/horses/2010/2010103230/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T06:55:24.758Z"
+  "updatedAt": "2026-08-27T04:58:59.697Z"
 }

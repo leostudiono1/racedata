@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101675",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101675/",
-  "profile": null,
+  "profile": {
+    "name": "グランデサムライ",
+    "birthDate": "2012-04-27",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "910800",
+      "name": "グランデオーナーズ"
+    },
+    "breeder": {
+      "id": "033468",
+      "name": "ナカノファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2006110099",
+      "name": "パラダイスコースト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -2318,6 +2348,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランデサムライ (Grande Samurai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランデサムライ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランデサムライ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2387,9 +2447,9 @@
       "contentHash": "1d3999044af33728f2f68c9aa924043c52d7fddbccf0e0b5f3be2d11f62829af",
       "byteLength": 64706,
       "rawPath": "netkeiba/horses/2012/2012101675/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:08:55.857Z"
+  "updatedAt": "2026-08-28T04:18:52.857Z"
 }

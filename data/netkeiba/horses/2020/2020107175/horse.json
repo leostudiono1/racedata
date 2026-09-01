@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020107175",
   "sourceUrl": "https://db.netkeiba.com/horse/2020107175/",
-  "profile": null,
+  "profile": {
+    "name": "オレゴノミ",
+    "birthDate": "2020-03-22",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106599",
+      "name": "フェノーメノ"
+    },
+    "dam": {
+      "id": "2001105672",
+      "name": "アナタゴノミ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106599",
@@ -1262,6 +1292,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オレゴノミ (Oregonomi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オレゴノミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オレゴノミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1331,9 +1391,9 @@
       "contentHash": "b034b76eeff432fd50e0a5a901f38ee7be6ea5073b34784c47822cf57e65a095",
       "byteLength": 66002,
       "rawPath": "netkeiba/horses/2020/2020107175/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:36:50.683Z"
+  "updatedAt": "2026-08-27T05:40:29.335Z"
 }

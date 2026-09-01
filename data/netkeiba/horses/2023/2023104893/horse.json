@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104893",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104893/",
-  "profile": null,
+  "profile": {
+    "name": "レオスキーム",
+    "birthDate": "2023-04-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "209800",
+      "name": "レオ"
+    },
+    "breeder": {
+      "id": "830010",
+      "name": "惣田英幸"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010110127",
+      "name": "ベストウォーリア"
+    },
+    "dam": {
+      "id": "2014106428",
+      "name": "キャラメルフレンチ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110127",
@@ -1533,6 +1563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオスキーム (Leo Scheme) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオスキーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオスキーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1602,9 +1662,9 @@
       "contentHash": "2330e4c6dd285336b1f956285c532ccb86a2efaa0d40b310848920913cca3639",
       "byteLength": 66623,
       "rawPath": "netkeiba/horses/2023/2023104893/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:50:57.132Z"
+  "updatedAt": "2026-08-30T04:03:06.796Z"
 }

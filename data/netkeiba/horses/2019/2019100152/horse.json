@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100152",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100152/",
-  "profile": null,
+  "profile": {
+    "name": "バトルキャット",
+    "birthDate": "2019-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "沼澤英知"
+    },
+    "owner": {
+      "id": "x04465",
+      "name": "川島伸二"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2007104279",
+      "name": "ウインクリアビュー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2232,6 +2262,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バトルキャット (Battle Cat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バトルキャット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バトルキャット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2301,9 +2361,9 @@
       "contentHash": "6f80bb68cd632bca737dcc6d36fae455a8339118b026c1a65aa81ac469f2aa8f",
       "byteLength": 67110,
       "rawPath": "netkeiba/horses/2019/2019100152/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:13:44.981Z"
+  "updatedAt": "2026-08-31T03:21:27.492Z"
 }

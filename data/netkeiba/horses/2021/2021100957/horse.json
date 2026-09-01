@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100957",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100957/",
-  "profile": null,
+  "profile": {
+    "name": "マジカルプリンス",
+    "birthDate": "2021-02-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "細川忠義"
+    },
+    "owner": {
+      "id": "819008",
+      "name": "国田正忠"
+    },
+    "breeder": {
+      "id": "500055",
+      "name": "伏木田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014105979",
+      "name": "アドミラブル"
+    },
+    "dam": {
+      "id": "2016110162",
+      "name": "マジカルプリンセス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Temple City"
+    }
+  },
   "pedigree": [
     {
       "id": "2014105979",
@@ -5371,6 +5401,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マジカルプリンス (Magical Prince) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジカルプリンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジカルプリンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5440,9 +5500,9 @@
       "contentHash": "ddbc2cb3b40e9cf9f85749e5715ad1398e5e522482814979e2750c68eb66ae7a",
       "byteLength": 67025,
       "rawPath": "netkeiba/horses/2021/2021100957/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:44:14.300Z"
+  "updatedAt": "2026-08-28T04:54:11.028Z"
 }

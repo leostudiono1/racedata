@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106717",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106717/",
-  "profile": null,
+  "profile": {
+    "name": "フロル",
+    "birthDate": "2020-03-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "858800",
+      "name": "大塚亮一"
+    },
+    "breeder": {
+      "id": "064203",
+      "name": "ディアレストクラブ"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2013110006",
+      "name": "レディーガリレオ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -1304,6 +1334,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロル (Flor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1373,9 +1433,9 @@
       "contentHash": "5cf52fc29b0d01bd8658aeec9c8ca34fd4b01377599cc15b231dd7fc87613847",
       "byteLength": 65611,
       "rawPath": "netkeiba/horses/2020/2020106717/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:36:43.620Z"
+  "updatedAt": "2026-08-27T05:40:22.343Z"
 }

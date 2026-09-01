@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101803",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101803/",
-  "profile": null,
+  "profile": {
+    "name": "フェイトブレイカー",
+    "birthDate": "2023-03-13",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "550031",
+      "name": "鈴木淳人"
+    },
+    "breeder": {
+      "id": "900543",
+      "name": "富塚ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2013103184",
+      "name": "ナツ"
+    },
+    "damsire": {
+      "id": "2004102987",
+      "name": "アドマイヤオーラ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1243,6 +1273,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェイトブレイカー (Fate Breaker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイトブレイカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイトブレイカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1312,9 +1372,9 @@
       "contentHash": "896080a3e1cbb3045835013dbf83709765aa8ae98bd49ca62c9500b94b885f09",
       "byteLength": 65948,
       "rawPath": "netkeiba/horses/2023/2023101803/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:54:05.823Z"
+  "updatedAt": "2026-08-28T05:04:02.637Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101917",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101917/",
-  "profile": null,
+  "profile": {
+    "name": "フラーケン",
+    "birthDate": "2021-05-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "568031",
+      "name": "竹下佳利"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2014102393",
+      "name": "サンキャッチャー"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -1101,6 +1131,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラーケン (Flaken) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラーケン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラーケン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1170,9 +1230,9 @@
       "contentHash": "8f619803124dfa9609b59dcdaf0acac8e889fa3145c7173688ab1335bcb52935",
       "byteLength": 65257,
       "rawPath": "netkeiba/horses/2021/2021101917/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:14:06.926Z"
+  "updatedAt": "2026-08-29T04:17:30.239Z"
 }

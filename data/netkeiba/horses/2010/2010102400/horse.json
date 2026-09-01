@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010102400",
   "sourceUrl": "https://db.netkeiba.com/horse/2010102400/",
-  "profile": null,
+  "profile": {
+    "name": "ウエスタンソーレ",
+    "birthDate": "2010-04-20",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01007",
+      "name": "柴田政人"
+    },
+    "owner": {
+      "id": "929006",
+      "name": "西川賢"
+    },
+    "breeder": {
+      "id": "833305",
+      "name": "ウエスタンファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2002105288",
+      "name": "ウエスタンクィーン"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -6270,6 +6300,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウエスタンソーレ (Western Sole) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウエスタンソーレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウエスタンソーレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6339,9 +6399,9 @@
       "contentHash": "741b20f1beebf66a4b9d3475f14033b9952a2c0af0d44eb0682400372f5abc20",
       "byteLength": 67058,
       "rawPath": "netkeiba/horses/2010/2010102400/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T06:55:14.393Z"
+  "updatedAt": "2026-08-27T04:58:48.690Z"
 }

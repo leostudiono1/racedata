@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101904",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101904/",
-  "profile": null,
+  "profile": {
+    "name": "ワイウン",
+    "birthDate": "2020-04-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05671",
+      "name": "倉地学"
+    },
+    "owner": {
+      "id": "x0a2c7",
+      "name": "横田一男"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2016106394",
+      "name": "ワイオリ"
+    },
+    "damsire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -1708,6 +1738,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワイウン (Wai Un) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワイウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワイウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1777,9 +1837,9 @@
       "contentHash": "c087dabd8dd9ea04368cf3dfb8d650b0665d0fdbb85e5bb87fe2281c177a82ea",
       "byteLength": 65430,
       "rawPath": "netkeiba/horses/2020/2020101904/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:09:37.444Z"
+  "updatedAt": "2026-08-29T04:13:00.452Z"
 }

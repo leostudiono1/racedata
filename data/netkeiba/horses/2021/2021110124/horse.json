@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110124",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110124/",
-  "profile": null,
+  "profile": {
+    "name": "ソーユーアクト",
+    "birthDate": "2021-10-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "624007",
+      "name": "鈴木康弘"
+    },
+    "breeder": {
+      "id": "710738",
+      "name": "Parrakoola Park"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "So You Think (新)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Miss Presidential"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Encosta de Lago"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1056,6 +1086,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソーユーアクト (So You Act) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソーユーアクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソーユーアクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1125,9 +1185,9 @@
       "contentHash": "0ac5027c9bf57fc511949e8f3ee910a08017ffd23d54bb966cc0eaa89a3495f3",
       "byteLength": 65088,
       "rawPath": "netkeiba/horses/2021/2021110124/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:37:25.434Z"
+  "updatedAt": "2026-08-25T08:44:55.320Z"
 }

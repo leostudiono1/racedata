@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103373",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103373/",
-  "profile": null,
+  "profile": {
+    "name": "ネクスト",
+    "birthDate": "2013-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05709",
+      "name": "千葉博次"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "2008104511",
+      "name": "クリールダイナー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -9364,6 +9394,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネクスト (Next) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネクスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネクスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9433,9 +9493,9 @@
       "contentHash": "cd99e97bd12f008b3b983d43b1b9e8dfc20190240a2cb37753c4697587fed28a",
       "byteLength": 66638,
       "rawPath": "netkeiba/horses/2013/2013103373/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:12:26.562Z"
+  "updatedAt": "2026-08-24T09:18:17.896Z"
 }

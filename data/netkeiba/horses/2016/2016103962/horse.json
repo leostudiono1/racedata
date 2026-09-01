@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103962",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103962/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィント",
+    "birthDate": "2016-04-20",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "055803",
+      "name": "平山靖"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2010103790",
+      "name": "シャッツ"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3696,6 +3726,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィント (Wind) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3765,9 +3825,9 @@
       "contentHash": "059ff8a799da3ab255a1201fd95716487579ffdd306d0d2d3598433b360d13d6",
       "byteLength": 66694,
       "rawPath": "netkeiba/horses/2016/2016103962/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:51:51.211Z"
+  "updatedAt": "2026-08-26T06:00:24.092Z"
 }

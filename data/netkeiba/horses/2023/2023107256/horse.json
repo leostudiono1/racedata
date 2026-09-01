@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107256",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107256/",
-  "profile": null,
+  "profile": {
+    "name": "アローメタル",
+    "birthDate": "2023-04-28",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスベジル Miss Besilu(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1240,6 +1270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アローメタル (Arrow Metal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アローメタル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アローメタル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1309,9 +1369,9 @@
       "contentHash": "eff542ca2cc5d6f12922c1038256c4ca922dc550042eb897ce4462133239392e",
       "byteLength": 67531,
       "rawPath": "netkeiba/horses/2023/2023107256/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:50:29.905Z"
+  "updatedAt": "2026-08-27T05:54:08.562Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100009",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100009/",
-  "profile": null,
+  "profile": {
+    "name": "メダリスタ",
+    "birthDate": "2016-05-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01012",
+      "name": "大江原哲"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "800330",
+      "name": "赤石久夫"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ロージズインメイ Roses in May(米)"
+    },
+    "dam": {
+      "id": "2003100007",
+      "name": "アンドロメダ"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1092,6 +1122,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メダリスタ (Medallista) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メダリスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メダリスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1161,9 +1221,9 @@
       "contentHash": "8d121f05688beb31f79564738c16ec5e3b281586a8d20161982b04888a2f6ae1",
       "byteLength": 64374,
       "rawPath": "netkeiba/horses/2016/2016100009/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:00:44.696Z"
+  "updatedAt": "2026-08-31T03:08:26.473Z"
 }

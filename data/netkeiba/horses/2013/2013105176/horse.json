@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105176",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105176/",
-  "profile": null,
+  "profile": {
+    "name": "バースデイ",
+    "birthDate": "2013-03-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "768006",
+      "name": "薪浦亨"
+    },
+    "breeder": {
+      "id": "433378",
+      "name": "吉田三郎"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "1989107925",
+      "name": "クリアーチャンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ディクタス Dictus(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3470,6 +3500,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バースデイ (Birthday) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バースデイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バースデイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3539,9 +3599,9 @@
       "contentHash": "bf1ec4f6d9e9f9d8e3a9bce16c5492e37d8ecfe63be01bbde389a07530a21347",
       "byteLength": 64680,
       "rawPath": "netkeiba/horses/2013/2013105176/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:11:44.232Z"
+  "updatedAt": "2026-08-30T03:23:54.014Z"
 }

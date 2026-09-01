@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101318",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101318/",
-  "profile": null,
+  "profile": {
+    "name": "ウェルカミング",
+    "birthDate": "2012-02-09",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "041008",
+      "name": "下河邉行雄"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2007105546",
+      "name": "ウィステリアアーチ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1495,6 +1525,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウェルカミング (Welcoming) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェルカミング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェルカミング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1564,9 +1624,9 @@
       "contentHash": "db1cb10b8aa6f708260101fa605bf46308a32f442a11e8779208f516d4224de7",
       "byteLength": 64601,
       "rawPath": "netkeiba/horses/2012/2012101318/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T06:58:37.440Z"
+  "updatedAt": "2026-08-27T05:02:16.149Z"
 }

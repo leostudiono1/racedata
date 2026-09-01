@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105762",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105762/",
-  "profile": null,
+  "profile": {
+    "name": "メドック",
+    "birthDate": "2016-03-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ヶ崎一"
+    },
+    "owner": {
+      "id": "x09cf1",
+      "name": "伊藤彰敏"
+    },
+    "breeder": {
+      "id": "033080",
+      "name": "桜井牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エステフ Estephe(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -4320,6 +4350,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メドック (Medoc) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メドック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メドック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4389,9 +4449,9 @@
       "contentHash": "dd63a56682803a1854c4fcc9ba38d92dfefb7ef792d97fd623ababe0ac241d24",
       "byteLength": 65967,
       "rawPath": "netkeiba/horses/2016/2016105762/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:04:03.872Z"
+  "updatedAt": "2026-08-31T03:11:46.105Z"
 }

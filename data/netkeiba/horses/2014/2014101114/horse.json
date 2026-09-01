@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101114",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101114/",
-  "profile": null,
+  "profile": {
+    "name": "ケンブルース",
+    "birthDate": "2014-05-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01043",
+      "name": "石栗龍彦"
+    },
+    "owner": {
+      "id": "912002",
+      "name": "中西宏彰"
+    },
+    "breeder": {
+      "id": "094543",
+      "name": "ケンブリッジバレー"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004102987",
+      "name": "アドマイヤオーラ"
+    },
+    "dam": {
+      "id": "2005104975",
+      "name": "プレミアムキャノン"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2004102987",
@@ -1362,6 +1392,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケンブルース (Ken Blues) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンブルース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンブルース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1431,9 +1491,9 @@
       "contentHash": "27d2f544669a478878180984b7529b41e865ded00f2d91d65505d7a8ea23d486",
       "byteLength": 64511,
       "rawPath": "netkeiba/horses/2014/2014101114/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:06:12.511Z"
+  "updatedAt": "2026-08-27T05:09:51.284Z"
 }

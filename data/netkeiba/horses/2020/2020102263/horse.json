@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102263",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102263/",
-  "profile": null,
+  "profile": {
+    "name": "トリフィス",
+    "birthDate": "2020-05-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2007106172",
+      "name": "キョウエイカルラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1064,6 +1094,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリフィス (Triffis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリフィス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリフィス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1133,9 +1193,9 @@
       "contentHash": "c8a1f8500a85af5192e47a0ffe1897119f95d572e40ac318d9735341610ba5aa",
       "byteLength": 66347,
       "rawPath": "netkeiba/horses/2020/2020102263/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:36:21.822Z"
+  "updatedAt": "2026-08-30T03:48:31.603Z"
 }

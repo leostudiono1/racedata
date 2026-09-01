@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110092",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110092/",
-  "profile": null,
+  "profile": {
+    "name": "デルマミロク",
+    "birthDate": "2018-01-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01180",
+      "name": "田中克典"
+    },
+    "owner": {
+      "id": "274002",
+      "name": "浅沼廣幸"
+    },
+    "breeder": {
+      "id": "490707",
+      "name": "Don Alberto Corporation"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Diza"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1380,6 +1410,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デルマミロク (Derma Miroku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルマミロク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルマミロク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1449,9 +1509,9 @@
       "contentHash": "cd610320e269b8c82fb5149c34ded9abf67b794a9c0a9269def4b172c1838ef7",
       "byteLength": 64627,
       "rawPath": "netkeiba/horses/2018/2018110092/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:23:53.108Z"
+  "updatedAt": "2026-08-25T08:31:22.837Z"
 }

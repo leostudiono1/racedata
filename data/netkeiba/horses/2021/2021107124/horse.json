@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021107124",
   "sourceUrl": "https://db.netkeiba.com/horse/2021107124/",
-  "profile": null,
+  "profile": {
+    "name": "メイジイシン",
+    "birthDate": "2021-03-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "024031",
+      "name": "小菅誠"
+    },
+    "breeder": {
+      "id": "110340",
+      "name": "山岡ファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2010102979",
+      "name": "スカイグラフィティ"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1256,6 +1286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイジイシン (Meijiishin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイジイシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイジイシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1325,9 +1385,9 @@
       "contentHash": "121582fc8dded1393ddbd82d328aba5429c0c6df613469b77c1268f325199057",
       "byteLength": 64864,
       "rawPath": "netkeiba/horses/2021/2021107124/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:49:46.759Z"
+  "updatedAt": "2026-08-24T09:55:38.496Z"
 }

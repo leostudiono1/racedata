@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103996",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103996/",
-  "profile": null,
+  "profile": {
+    "name": "ルペルクス",
+    "birthDate": "2021-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "433085",
+      "name": "高橋ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    },
+    "dam": {
+      "id": "2015106227",
+      "name": "ボナデア"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102837",
@@ -1832,6 +1862,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルペルクス (Lupercus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルペルクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルペルクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1901,9 +1961,9 @@
       "contentHash": "b3341241851ba9a68124df80b5b3ad9318e327a22aeff9b110584334a9193ba3",
       "byteLength": 66447,
       "rawPath": "netkeiba/horses/2021/2021103996/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:46:16.734Z"
+  "updatedAt": "2026-08-28T04:56:13.896Z"
 }

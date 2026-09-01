@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103789",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103789/",
-  "profile": null,
+  "profile": {
+    "name": "カシマモンスター",
+    "birthDate": "2012-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "722800",
+      "name": "カシマ"
+    },
+    "breeder": {
+      "id": "343374",
+      "name": "上水牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2006103068",
+      "name": "カシマヴィーナス"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -1169,6 +1199,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシマモンスター (Kashima Monster) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシマモンスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシマモンスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1238,9 +1298,9 @@
       "contentHash": "2ba22e89b9929753c1fcc518f4ba321db3d8b038f94340dae49cd8f09e8f00c2",
       "byteLength": 64567,
       "rawPath": "netkeiba/horses/2012/2012103789/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:46:26.358Z"
+  "updatedAt": "2026-08-31T02:54:08.870Z"
 }

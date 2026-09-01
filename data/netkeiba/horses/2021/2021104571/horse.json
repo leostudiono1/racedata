@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104571",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104571/",
-  "profile": null,
+  "profile": {
+    "name": "ジェネレイティブ",
+    "birthDate": "2021-01-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "300803",
+      "name": "ＫＲジャパン"
+    },
+    "breeder": {
+      "id": "801307",
+      "name": "矢野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2007101000",
+      "name": "アンシェルブルー"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1246,6 +1276,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジェネレイティブ (Generative) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェネレイティブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェネレイティブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1315,9 +1375,9 @@
       "contentHash": "8cd7fb4e938cc78ba0f693d2159ac550d45f61f7a05cbb5fdda0cbe9d0129475",
       "byteLength": 65145,
       "rawPath": "netkeiba/horses/2021/2021104571/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:46:34.600Z"
+  "updatedAt": "2026-08-28T04:56:31.070Z"
 }

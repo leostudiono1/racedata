@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105429",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105429/",
-  "profile": null,
+  "profile": {
+    "name": "オータムレッド",
+    "birthDate": "2017-01-30",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "831800",
+      "name": "青芝商事"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2012104719",
+      "name": "ティッカーコード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -3035,6 +3065,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オータムレッド (Autumn Red) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オータムレッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オータムレッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3104,9 +3164,9 @@
       "contentHash": "febb462ffd749019ec2cbd0ad84320e4a4459051829274d3d5cebdcb3cef98ed",
       "byteLength": 67177,
       "rawPath": "netkeiba/horses/2017/2017105429/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:30:45.473Z"
+  "updatedAt": "2026-08-28T04:40:42.172Z"
 }

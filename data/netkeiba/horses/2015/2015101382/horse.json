@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101382",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101382/",
-  "profile": null,
+  "profile": {
+    "name": "グッドワード",
+    "birthDate": "2015-02-21",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01188",
+      "name": "畑端省吾"
+    },
+    "owner": {
+      "id": "185031",
+      "name": "下河辺俊行"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2005103132",
+      "name": "ブライダルブーケ"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3912,6 +3942,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グッドワード (Good Word) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グッドワード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グッドワード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3981,9 +4041,9 @@
       "contentHash": "2af7bddbcefd2fd9091752f779237feeafc43ccf9f7467db974efbd9b49e6008",
       "byteLength": 67063,
       "rawPath": "netkeiba/horses/2015/2015101382/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:21:49.835Z"
+  "updatedAt": "2026-08-28T04:31:46.529Z"
 }

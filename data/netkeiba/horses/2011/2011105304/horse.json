@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105304",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105304/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムステータス",
+    "birthDate": "2011-05-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シタール Sitar(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -2414,6 +2444,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムステータス (T M Status) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムステータス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムステータス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2483,9 +2543,9 @@
       "contentHash": "2fcd29c4e5a61eef62c708a068c3f3f44d8db9a520570581bd79e3846818f1e1",
       "byteLength": 65028,
       "rawPath": "netkeiba/horses/2011/2011105304/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:06:21.826Z"
+  "updatedAt": "2026-08-24T09:12:13.579Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102914",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102914/",
-  "profile": null,
+  "profile": {
+    "name": "ワンダールジール",
+    "birthDate": "2013-04-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01122",
+      "name": "日吉正和"
+    },
+    "owner": {
+      "id": "634001",
+      "name": "山本信行"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2005101426",
+      "name": "ストームクオリティ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1366,6 +1396,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワンダールジール (Wonder Luzir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンダールジール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンダールジール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1435,9 +1495,9 @@
       "contentHash": "e34487999c779a7940775d921319d5fe8e086c2499f1b8907d68c243a101f38b",
       "byteLength": 64604,
       "rawPath": "netkeiba/horses/2013/2013102914/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:10:27.226Z"
+  "updatedAt": "2026-08-30T03:22:37.042Z"
 }

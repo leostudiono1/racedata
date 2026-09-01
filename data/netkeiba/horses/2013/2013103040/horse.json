@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103040",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103040/",
-  "profile": null,
+  "profile": {
+    "name": "ザイーダ",
+    "birthDate": "2013-03-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "490006",
+      "name": "門野重雄"
+    },
+    "breeder": {
+      "id": "900543",
+      "name": "富塚ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2002100669",
+      "name": "ドーサイルサンダー"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4115,6 +4145,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザイーダ (Zaida) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザイーダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザイーダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4184,9 +4244,9 @@
       "contentHash": "0e8bed8b5bb54840aced0ac1195b441dd6ad0f76a506284ca84f029016eb0752",
       "byteLength": 66797,
       "rawPath": "netkeiba/horses/2013/2013103040/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:39:06.232Z"
+  "updatedAt": "2026-08-29T03:42:29.248Z"
 }

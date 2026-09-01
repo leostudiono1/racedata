@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104319",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104319/",
-  "profile": null,
+  "profile": {
+    "name": "シャリティ",
+    "birthDate": "2021-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "236031",
+      "name": "井上隆次"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2004103014",
+      "name": "プロミネント"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -1469,6 +1499,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャリティ (Charite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャリティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャリティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1538,9 +1598,9 @@
       "contentHash": "d5603fc390a16c28669888a8a9cc64d87844d317c1dfda5ca940ba51d4427e33",
       "byteLength": 64649,
       "rawPath": "netkeiba/horses/2021/2021104319/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:12:40.833Z"
+  "updatedAt": "2026-08-26T06:21:13.770Z"
 }

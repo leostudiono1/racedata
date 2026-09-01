@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103589",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103589/",
-  "profile": null,
+  "profile": {
+    "name": "トゥシャン",
+    "birthDate": "2019-03-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "510033",
+      "name": "天堀忠博"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103004",
+      "name": "ベルシャザール"
+    },
+    "dam": {
+      "id": "2011105704",
+      "name": "エスペランサナナ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103004",
@@ -1163,6 +1193,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トゥシャン (Touchant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トゥシャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トゥシャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1232,9 +1292,9 @@
       "contentHash": "19a33dcbdc95265f61e3a90f64cf246a1f633daedd60caeca623a2377211f648",
       "byteLength": 66789,
       "rawPath": "netkeiba/horses/2019/2019103589/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:15:33.520Z"
+  "updatedAt": "2026-08-31T03:23:15.864Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105234",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105234/",
-  "profile": null,
+  "profile": {
+    "name": "ユアソーラ",
+    "birthDate": "2017-01-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05180",
+      "name": "水野善太"
+    },
+    "owner": {
+      "id": "014034",
+      "name": "坂田栄一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2011110051",
+      "name": "ヴィリエルバクル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -4292,6 +4322,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユアソーラ (Your Sora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアソーラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアソーラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4361,9 +4421,9 @@
       "contentHash": "3e8173cad3f3f8e132b866314a5d35470f97fb28bbe8e2c8546d9ceeaa9dbaa8",
       "byteLength": 65542,
       "rawPath": "netkeiba/horses/2017/2017105234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:22:32.905Z"
+  "updatedAt": "2026-08-27T05:26:11.606Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104760",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104760/",
-  "profile": null,
+  "profile": {
+    "name": "コトル",
+    "birthDate": "2019-05-09",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05651",
+      "name": "川村守男"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ショーコ Shoko(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Efisio"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -5419,6 +5449,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コトル (Kotor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5488,9 +5548,9 @@
       "contentHash": "a192c306e7587fa825c4b365f8daaec4723e6e1f9df17ba5c248b2d30b493345",
       "byteLength": 66737,
       "rawPath": "netkeiba/horses/2019/2019104760/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:16:19.280Z"
+  "updatedAt": "2026-08-31T03:24:01.379Z"
 }

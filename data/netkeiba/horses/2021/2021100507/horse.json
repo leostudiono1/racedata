@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100507",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100507/",
-  "profile": null,
+  "profile": {
+    "name": "アプローチ",
+    "birthDate": "2021-03-20",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "宇都英樹"
+    },
+    "owner": {
+      "id": "562031",
+      "name": "近藤英二"
+    },
+    "breeder": {
+      "id": "813064",
+      "name": "元道牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2002100502",
+      "name": "アップルティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -1870,6 +1900,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アプローチ (Approach) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプローチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプローチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1939,9 +1999,9 @@
       "contentHash": "0a4ed35e3651839a029be1480ef407c3557bfe5154406c8b072b3adbf98e1efa",
       "byteLength": 65304,
       "rawPath": "netkeiba/horses/2021/2021100507/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:45:27.649Z"
+  "updatedAt": "2026-08-24T09:51:19.375Z"
 }

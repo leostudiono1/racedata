@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103212",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103212/",
-  "profile": null,
+  "profile": {
+    "name": "ニードルフェルト",
+    "birthDate": "2021-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "178033",
+      "name": "山口正行"
+    },
+    "breeder": {
+      "id": "900470",
+      "name": "まるとみ冨岡牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2015104979",
+      "name": "リーズン"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -1027,6 +1057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ニードルフェルト (Needle Felt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニードルフェルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニードルフェルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1096,9 +1156,9 @@
       "contentHash": "f16bc8216507b14d5ee231ffe7879451b1c94db64abf1c591e89b641f1d43437",
       "byteLength": 64744,
       "rawPath": "netkeiba/horses/2021/2021103212/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:45:31.189Z"
+  "updatedAt": "2026-08-28T04:55:28.361Z"
 }

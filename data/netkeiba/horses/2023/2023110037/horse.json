@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110037",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110037/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーコーヴ",
+    "birthDate": "2023-04-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "820713",
+      "name": "Virginia Moore & Malia Hopkins"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Bolt d'Oro"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Rosey Bay"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Golden Missile"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1058,6 +1088,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーコーヴ (Blue Cove) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーコーヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーコーヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1127,9 +1187,9 @@
       "contentHash": "b6b6f7e077d85041c9190094068c7435cf16f98c5fa8df252612692c1b0c7e50",
       "byteLength": 65733,
       "rawPath": "netkeiba/horses/2023/2023110037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:34:59.425Z"
+  "updatedAt": "2026-08-31T03:42:41.620Z"
 }

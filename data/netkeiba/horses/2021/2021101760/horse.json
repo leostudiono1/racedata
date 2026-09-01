@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101760",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101760/",
-  "profile": null,
+  "profile": {
+    "name": "グラス",
+    "birthDate": "2021-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05180",
+      "name": "水野善太"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "2008105731",
+      "name": "ヤマノグラス"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -2680,6 +2710,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラス (Grass) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2749,9 +2809,9 @@
       "contentHash": "b407596465e2169b2c68e0fbd102c8364d9831f1deeb0a4084c72b6f1d58964f",
       "byteLength": 66694,
       "rawPath": "netkeiba/horses/2021/2021101760/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:46:34.237Z"
+  "updatedAt": "2026-08-24T09:52:26.232Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102116",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102116/",
-  "profile": null,
+  "profile": {
+    "name": "ケルフィリー",
+    "birthDate": "2018-03-10",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "500319",
+      "name": "平山牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2010110073",
+      "name": "シアージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Raven's Pass"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1202,6 +1232,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケルフィリー (Caerphilly) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルフィリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルフィリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1271,9 +1331,9 @@
       "contentHash": "161390771b88d5c0b4d7487f3c98109c843be826f4dbe7d36cf780c6d6b2e66f",
       "byteLength": 64448,
       "rawPath": "netkeiba/horses/2018/2018102116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:33:22.961Z"
+  "updatedAt": "2026-08-28T04:43:19.813Z"
 }

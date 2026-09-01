@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106411",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106411/",
-  "profile": null,
+  "profile": {
+    "name": "フェルマータ",
+    "birthDate": "2020-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "橘友和"
+    },
+    "owner": {
+      "id": "530033",
+      "name": "星野隆男"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2005110212",
+      "name": "ラーナック"
+    },
+    "damsire": {
+      "id": "1996190001",
+      "name": "Montjeu (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1785,6 +1815,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェルマータ (Fermata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェルマータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェルマータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1854,9 +1914,9 @@
       "contentHash": "a3cb0d5f64df330ea8888cc81141351f6febb3849fa09b08882a05365bf06243",
       "byteLength": 66054,
       "rawPath": "netkeiba/horses/2020/2020106411/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:31:45.893Z"
+  "updatedAt": "2026-08-25T08:39:15.715Z"
 }

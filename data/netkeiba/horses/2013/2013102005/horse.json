@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102005",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102005/",
-  "profile": null,
+  "profile": {
+    "name": "ケルベロス",
+    "birthDate": "2013-06-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01012",
+      "name": "大江原哲"
+    },
+    "owner": {
+      "id": "351803",
+      "name": "ＯＲＴＥＧＡ"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "モーニングタイド Morningtide(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -4540,6 +4570,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケルベロス (Kerberos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルベロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルベロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4609,9 +4669,9 @@
       "contentHash": "87a8a95a2aedc9a6de6ece8857a78bd9f86df6e42cd5d2aecddea784d8c3d769",
       "byteLength": 66994,
       "rawPath": "netkeiba/horses/2013/2013102005/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:11:16.012Z"
+  "updatedAt": "2026-08-24T09:17:07.881Z"
 }

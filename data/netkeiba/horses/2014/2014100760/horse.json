@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100760",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100760/",
-  "profile": null,
+  "profile": {
+    "name": "ゴールドハンター",
+    "birthDate": "2014-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05436",
+      "name": "林正人"
+    },
+    "owner": {
+      "id": "712033",
+      "name": "居城寿与"
+    },
+    "breeder": {
+      "id": "003467",
+      "name": "北勝ファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1996107429",
+      "name": "ロサード"
+    },
+    "dam": {
+      "id": "1997103940",
+      "name": "アジヤタイリン"
+    },
+    "damsire": {
+      "id": "1982101222",
+      "name": "サクラユタカオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1996107429",
@@ -6741,6 +6771,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴールドハンター (Gold Hunter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールドハンター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールドハンター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6810,9 +6870,9 @@
       "contentHash": "028fd1c80e900b15897058718cc9c0839c82ea5882cda17cdfc5906faaf77483",
       "byteLength": 65272,
       "rawPath": "netkeiba/horses/2014/2014100760/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:02:45.655Z"
+  "updatedAt": "2026-08-25T08:10:15.458Z"
 }

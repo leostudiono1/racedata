@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100439",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100439/",
-  "profile": null,
+  "profile": {
+    "name": "ノーリス",
+    "birthDate": "2018-03-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "942006",
+      "name": "榊原源一郎"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2007105550",
+      "name": "マストバイアイテム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -2405,6 +2435,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノーリス (Nordlys) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2474,9 +2534,9 @@
       "contentHash": "16ce241aab30fb8f8a820486c7b3c6d4294d8ce8b92ba17c3208c803beb9838d",
       "byteLength": 66981,
       "rawPath": "netkeiba/horses/2018/2018100439/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:31:34.317Z"
+  "updatedAt": "2026-08-24T09:37:26.456Z"
 }

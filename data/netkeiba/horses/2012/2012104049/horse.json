@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104049",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104049/",
-  "profile": null,
+  "profile": {
+    "name": "ハイリープ",
+    "birthDate": "2012-02-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "231033",
+      "name": "吉田晴哉"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2000110052",
+      "name": "リーピングキャット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2928,6 +2958,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイリープ (High Leap) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイリープ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイリープ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2997,9 +3057,9 @@
       "contentHash": "a0a818c0c878773e8c0c6de27bb37fae697a5e746985be77df49841876eaaf08",
       "byteLength": 64335,
       "rawPath": "netkeiba/horses/2012/2012104049/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:00:05.091Z"
+  "updatedAt": "2026-08-27T05:03:43.608Z"
 }

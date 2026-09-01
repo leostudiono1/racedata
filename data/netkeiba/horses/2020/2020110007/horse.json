@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110007",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110007/",
-  "profile": null,
+  "profile": {
+    "name": "ペースセッティング",
+    "birthDate": "2020-03-26",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05768",
+      "name": "田中一巧"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "970704",
+      "name": "Northern Farm"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Showcasing"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジェットセッティング Jet Setting(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fast Company"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3687,6 +3717,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペースセッティング (Pace Setting) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペースセッティング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペースセッティング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3756,9 +3816,9 @@
       "contentHash": "69eaa449ebabba855c123a517024b9481ae2353133ebc7e512c430623fb3546f",
       "byteLength": 67092,
       "rawPath": "netkeiba/horses/2020/2020110007/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:13:03.990Z"
+  "updatedAt": "2026-08-29T04:16:26.901Z"
 }

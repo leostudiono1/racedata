@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102693",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102693/",
-  "profile": null,
+  "profile": {
+    "name": "ハルノヒ",
+    "birthDate": "2019-05-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "橘友和"
+    },
+    "owner": {
+      "id": "085031",
+      "name": "田中健一"
+    },
+    "breeder": {
+      "id": "900543",
+      "name": "富塚ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009102733",
+      "name": "ポアゾンブラック"
+    },
+    "dam": {
+      "id": "2011104227",
+      "name": "ピアノフィニッシュ"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102733",
@@ -1487,6 +1517,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハルノヒ (Haruno Hi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルノヒ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルノヒ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1556,9 +1616,9 @@
       "contentHash": "2106d15a06cfa11a661cfbee66f0ff93282bfceaab058b6549460d9c0ec2884e",
       "byteLength": 66523,
       "rawPath": "netkeiba/horses/2019/2019102693/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:05:07.807Z"
+  "updatedAt": "2026-08-29T04:08:30.898Z"
 }

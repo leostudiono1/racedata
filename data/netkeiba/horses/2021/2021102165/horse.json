@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102165",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102165/",
-  "profile": null,
+  "profile": {
+    "name": "バニッツア",
+    "birthDate": "2021-03-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "櫻田康二"
+    },
+    "owner": {
+      "id": "875006",
+      "name": "永田和彦"
+    },
+    "breeder": {
+      "id": "813326",
+      "name": "森永牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2007106175",
+      "name": "ザッハトルテ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2446,6 +2476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バニッツア (Banitsa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バニッツア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バニッツア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2515,9 +2575,9 @@
       "contentHash": "e1c8d6d8ef055d7743bea8c9fc5c251c59111b811c3fbb15ed8ba63155773a0e",
       "byteLength": 64905,
       "rawPath": "netkeiba/horses/2021/2021102165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:14:20.924Z"
+  "updatedAt": "2026-08-29T04:17:43.930Z"
 }

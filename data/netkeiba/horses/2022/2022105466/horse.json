@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105466",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105466/",
-  "profile": null,
+  "profile": {
+    "name": "レッドバンデ",
+    "birthDate": "2022-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フィオドラ Feodora(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lord of England"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1795,6 +1825,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドバンデ (Red Bande) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドバンデ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドバンデ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1864,9 +1924,9 @@
       "contentHash": "9fb79c70f0d039e8500f024527695dd46f25725dfc50876274cfba6e87012af0",
       "byteLength": 67532,
       "rawPath": "netkeiba/horses/2022/2022105466/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:47:37.513Z"
+  "updatedAt": "2026-08-30T03:59:47.243Z"
 }

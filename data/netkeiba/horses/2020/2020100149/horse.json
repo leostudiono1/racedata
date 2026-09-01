@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100149",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100149/",
-  "profile": null,
+  "profile": {
+    "name": "シザジー",
+    "birthDate": "2020-02-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2013110002",
+      "name": "キープセイク"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1107,6 +1137,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シザジー (Syzygy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シザジー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シザジー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1176,9 +1236,9 @@
       "contentHash": "dfa4db48611b31d70917c5daeaebe107af1a893c35cd8c4e27005b086a6ea27f",
       "byteLength": 66861,
       "rawPath": "netkeiba/horses/2020/2020100149/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:41:01.593Z"
+  "updatedAt": "2026-08-24T09:46:53.377Z"
 }

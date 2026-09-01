@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105176",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105176/",
-  "profile": null,
+  "profile": {
+    "name": "ハーモニクス",
+    "birthDate": "2017-02-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01089",
+      "name": "武市康男"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2001103378",
+      "name": "アコースティクス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cape Cross"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -1585,6 +1615,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハーモニクス (Harmonics) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーモニクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーモニクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1654,9 +1714,9 @@
       "contentHash": "632b46be4b67b741c1897ce3afa5a8733ecf8222c683354fbde0a3c061defa31",
       "byteLength": 65460,
       "rawPath": "netkeiba/horses/2017/2017105176/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:22:25.810Z"
+  "updatedAt": "2026-08-27T05:26:04.490Z"
 }

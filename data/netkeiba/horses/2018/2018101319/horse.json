@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101319",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101319/",
-  "profile": null,
+  "profile": {
+    "name": "シンタロウ",
+    "birthDate": "2018-02-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "573002",
+      "name": "中田和宏"
+    },
+    "breeder": {
+      "id": "610362",
+      "name": "中田牧場"
+    },
+    "birthplace": "平取",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2007106196",
+      "name": "ツクバエンジェル"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5747,6 +5777,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンタロウ (Shintaro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンタロウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンタロウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5816,9 +5876,9 @@
       "contentHash": "650a66f517527d7e6e6bb826a931303eefb56f96d3232796f0325aca2cd2d903",
       "byteLength": 66861,
       "rawPath": "netkeiba/horses/2018/2018101319/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:09:29.486Z"
+  "updatedAt": "2026-08-31T03:17:11.764Z"
 }

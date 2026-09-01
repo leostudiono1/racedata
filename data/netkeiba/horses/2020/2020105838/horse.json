@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105838",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105838/",
-  "profile": null,
+  "profile": {
+    "name": "マテキ",
+    "birthDate": "2020-04-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05759",
+      "name": "井樋明正"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "930317",
+      "name": "北星村田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2010106013",
+      "name": "アンケセナーメン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2055,6 +2085,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マテキ (Mateki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マテキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マテキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2124,9 +2184,9 @@
       "contentHash": "7c813611f65de24afb810f6fc9c86890681984864d219058c921ca2213a6f1aa",
       "byteLength": 66715,
       "rawPath": "netkeiba/horses/2020/2020105838/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:36:15.803Z"
+  "updatedAt": "2026-08-27T05:39:54.257Z"
 }

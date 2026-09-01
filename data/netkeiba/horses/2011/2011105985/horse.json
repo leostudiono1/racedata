@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105985",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105985/",
-  "profile": null,
+  "profile": {
+    "name": "スリーケーザル",
+    "birthDate": "2011-02-27",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "061800",
+      "name": "永井商事"
+    },
+    "breeder": {
+      "id": "100012",
+      "name": "信岡牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    },
+    "dam": {
+      "id": "1997102054",
+      "name": "スリーケープ"
+    },
+    "damsire": {
+      "id": "1988109110",
+      "name": "ミシル Misil(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6493,6 +6523,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリーケーザル (Three Caezar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーケーザル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーケーザル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6562,9 +6622,9 @@
       "contentHash": "78a6d8da8dd3613186fdfab40d6d0dcb0328b3ef97f74ea851447091dd3ed066",
       "byteLength": 66300,
       "rawPath": "netkeiba/horses/2011/2011105985/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:53:32.646Z"
+  "updatedAt": "2026-08-25T08:01:02.282Z"
 }

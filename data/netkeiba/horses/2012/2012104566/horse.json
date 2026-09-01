@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104566",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104566/",
-  "profile": null,
+  "profile": {
+    "name": "エナチャン",
+    "birthDate": "2012-05-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "836008",
+      "name": "桑畑隆信"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2001110022",
+      "name": "エンジェルシード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Broad Brush"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -1100,6 +1130,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エナチャン (Enachan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エナチャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エナチャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1169,9 +1229,9 @@
       "contentHash": "78972489807dfa74bfbe1a1b2bfc9c728cc4086f5fe1b21b119d8bf9180679f7",
       "byteLength": 64682,
       "rawPath": "netkeiba/horses/2012/2012104566/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:56:30.947Z"
+  "updatedAt": "2026-08-25T08:04:01.021Z"
 }

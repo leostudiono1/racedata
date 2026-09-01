@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100929",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100929/",
-  "profile": null,
+  "profile": {
+    "name": "モール",
+    "birthDate": "2019-03-31",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "真島正徳"
+    },
+    "owner": {
+      "id": "x08a7b",
+      "name": "西村健作"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008105189",
+      "name": "ダンシングロイヤル"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -6368,6 +6398,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モール (Maul) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6437,9 +6497,9 @@
       "contentHash": "d55cf2f1bea5a34d4d8358413b6f3d233a62e83e4824dad5f860d0eac67ab4d5",
       "byteLength": 66885,
       "rawPath": "netkeiba/horses/2019/2019100929/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:24:21.425Z"
+  "updatedAt": "2026-08-25T08:31:50.797Z"
 }

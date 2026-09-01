@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105702",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105702/",
-  "profile": null,
+  "profile": {
+    "name": "レディアエラ",
+    "birthDate": "2023-04-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05610",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "042803",
+      "name": "ファーストビジョン"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディマールボロ Lady Marlboro(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smoke Glacken"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -2836,6 +2866,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レディアエラ (Ready Aera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レディアエラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レディアエラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2905,9 +2965,9 @@
       "contentHash": "27eb61d50a62b56edc07b719ebbe86745b03f55db0dbb3db940147141ba160b6",
       "byteLength": 65610,
       "rawPath": "netkeiba/horses/2023/2023105702/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:56:46.942Z"
+  "updatedAt": "2026-08-28T05:06:44.080Z"
 }

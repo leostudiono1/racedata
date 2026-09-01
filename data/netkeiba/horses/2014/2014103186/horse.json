@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103186",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103186/",
-  "profile": null,
+  "profile": {
+    "name": "イイコトバカリ",
+    "birthDate": "2014-03-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "975030",
+      "name": "小田切光"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2000107503",
+      "name": "ワナ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3658,6 +3688,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イイコトバカリ (Iikoto Bakari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イイコトバカリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イイコトバカリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3727,9 +3787,9 @@
       "contentHash": "01589feb663806073feb3f2dcb7191fb5d4e860952ca29002f1e2b9103421158",
       "byteLength": 67027,
       "rawPath": "netkeiba/horses/2014/2014103186/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:07:29.535Z"
+  "updatedAt": "2026-08-27T05:11:08.270Z"
 }

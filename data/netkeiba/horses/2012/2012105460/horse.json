@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105460",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105460/",
-  "profile": null,
+  "profile": {
+    "name": "グラディス",
+    "birthDate": "2012-03-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "高橋純"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "900019",
+      "name": "日進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "スタチューオブリバティ Statue of Liberty(米)"
+    },
+    "dam": {
+      "id": "2000104138",
+      "name": "イソシギ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2776,6 +2806,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラディス (Gladys) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラディス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラディス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2845,9 +2905,9 @@
       "contentHash": "857c172b5ad9ea8ac3e041842fbdf9678bef874960f8cad583e0f51410517c06",
       "byteLength": 66837,
       "rawPath": "netkeiba/horses/2012/2012105460/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:48:04.388Z"
+  "updatedAt": "2026-08-31T02:55:47.465Z"
 }

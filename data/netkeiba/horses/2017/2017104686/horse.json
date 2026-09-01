@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104686",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104686/",
-  "profile": null,
+  "profile": {
+    "name": "チャームインレース",
+    "birthDate": "2017-02-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05753",
+      "name": "山下貴之"
+    },
+    "owner": {
+      "id": "751030",
+      "name": "高橋明裕"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2006103047",
+      "name": "エイブルインレース"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4547,6 +4577,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャームインレース (Charm in Race) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャームインレース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャームインレース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4616,9 +4676,9 @@
       "contentHash": "fdb7029368ef12356c73b81fc9b59fbd4ddc47fb84796bd7a3b85f93ad1a253b",
       "byteLength": 66191,
       "rawPath": "netkeiba/horses/2017/2017104686/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:57:43.186Z"
+  "updatedAt": "2026-08-29T04:01:06.240Z"
 }

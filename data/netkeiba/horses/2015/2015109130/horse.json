@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109130",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109130/",
-  "profile": null,
+  "profile": {
+    "name": "ズッチーナ",
+    "birthDate": "2015-04-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00397",
+      "name": "岩元市三"
+    },
+    "owner": {
+      "id": "158033",
+      "name": "山下良子"
+    },
+    "breeder": {
+      "id": "901188",
+      "name": "釘田義美"
+    },
+    "birthplace": "鹿児島県",
+    "sire": {
+      "id": "000",
+      "name": "ストラヴィンスキー"
+    },
+    "dam": {
+      "id": "2000106754",
+      "name": "シンコペーション"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1263,6 +1293,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ズッチーナ (Zutchina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ズッチーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ズッチーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1332,9 +1392,9 @@
       "contentHash": "eda94cddca6648ccf23d3fa712c0603c93627c08dfe04515963e917cc1648876",
       "byteLength": 66343,
       "rawPath": "netkeiba/horses/2015/2015109130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:50:18.821Z"
+  "updatedAt": "2026-08-29T03:53:41.486Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106854",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106854/",
-  "profile": null,
+  "profile": {
+    "name": "ヴェロス",
+    "birthDate": "2020-05-01",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05302",
+      "name": "内田勝義"
+    },
+    "owner": {
+      "id": "530033",
+      "name": "星野隆男"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2005106469",
+      "name": "アモーレヴォレ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2488,6 +2518,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴェロス (Velos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2557,9 +2617,9 @@
       "contentHash": "738b7e990eb1846688482102c91049b3d5fbff8af9846d15c51e3962e293d424",
       "byteLength": 66150,
       "rawPath": "netkeiba/horses/2020/2020106854/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:45:03.190Z"
+  "updatedAt": "2026-08-24T09:50:55.157Z"
 }

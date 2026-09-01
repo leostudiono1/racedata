@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100160",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100160/",
-  "profile": null,
+  "profile": {
+    "name": "ゲンショウ",
+    "birthDate": "2019-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中川雅之"
+    },
+    "owner": {
+      "id": "955033",
+      "name": "鈴木剛史"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008104407",
+      "name": "ルリニガナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スニッツェル Snitzel(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3334,6 +3364,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲンショウ (Gensho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲンショウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲンショウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3403,9 +3463,9 @@
       "contentHash": "da11c7acd2e3b365904f9aa7be1f50619b0f5bf86caeec434c45af4f90785bae",
       "byteLength": 66857,
       "rawPath": "netkeiba/horses/2019/2019100160/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:36:21.830Z"
+  "updatedAt": "2026-08-28T04:46:18.357Z"
 }

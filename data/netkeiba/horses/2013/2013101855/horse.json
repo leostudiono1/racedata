@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101855",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101855/",
-  "profile": null,
+  "profile": {
+    "name": "プロジェクト",
+    "birthDate": "2013-06-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "1990104480",
+      "name": "ブリリアントベリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノーザンテースト Northern Taste(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1423,6 +1453,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロジェクト (Project) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロジェクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロジェクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1492,9 +1552,9 @@
       "contentHash": "21cc33f5ae4f449e1d60c9715a1ea0281c893623b95df2ee1bc275cb9f1670c9",
       "byteLength": 66994,
       "rawPath": "netkeiba/horses/2013/2013101855/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:58:54.498Z"
+  "updatedAt": "2026-08-25T08:06:24.323Z"
 }

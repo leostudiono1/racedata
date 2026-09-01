@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105685",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105685/",
-  "profile": null,
+  "profile": {
+    "name": "ボンフェット",
+    "birthDate": "2020-05-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "290006",
+      "name": "栗坂崇"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2000101506",
+      "name": "フェートデュヴァン"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1676,6 +1706,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボンフェット (Bonne Fete) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボンフェット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボンフェット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1745,9 +1805,9 @@
       "contentHash": "1ac7e977e97e29d42e2f2930657b516291592566bdbacf98bb2dcc0490578d63",
       "byteLength": 66882,
       "rawPath": "netkeiba/horses/2020/2020105685/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:38:59.362Z"
+  "updatedAt": "2026-08-30T03:51:09.150Z"
 }

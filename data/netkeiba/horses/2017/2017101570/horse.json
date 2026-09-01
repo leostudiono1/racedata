@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101570",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101570/",
-  "profile": null,
+  "profile": {
+    "name": "ネルハ",
+    "birthDate": "2017-03-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "032800",
+      "name": "ローレルレーシング"
+    },
+    "breeder": {
+      "id": "000310",
+      "name": "高瀬牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2008104594",
+      "name": "アルボランシー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1388,6 +1418,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネルハ (Nerja) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネルハ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネルハ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1457,9 +1517,9 @@
       "contentHash": "0f672d859ff905520e6fb551fdb477e80d23d6ffa0a37ccdf4ebfa45bb41afb5",
       "byteLength": 66020,
       "rawPath": "netkeiba/horses/2017/2017101570/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:56:05.051Z"
+  "updatedAt": "2026-08-29T03:59:28.664Z"
 }

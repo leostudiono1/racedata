@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102164",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102164/",
-  "profile": null,
+  "profile": {
+    "name": "ハディア",
+    "birthDate": "2017-04-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "真島正徳"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "400317",
+      "name": "村田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004100933",
+      "name": "ローレルゲレイロ"
+    },
+    "dam": {
+      "id": "2009105351",
+      "name": "アルレガーロ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2004100933",
@@ -9244,6 +9274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハディア (Hadiah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハディア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハディア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9313,9 +9373,9 @@
       "contentHash": "1e13dab0010a26fe2f8616fa8a69b80f5859c187d20001cffc0353269e152d5c",
       "byteLength": 67020,
       "rawPath": "netkeiba/horses/2017/2017102164/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:16:14.707Z"
+  "updatedAt": "2026-08-25T08:23:44.133Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110001",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110001/",
-  "profile": null,
+  "profile": {
+    "name": "ポテンザ",
+    "birthDate": "2020-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05740",
+      "name": "長南和宏"
+    },
+    "owner": {
+      "id": "x07968",
+      "name": "舟坂孝治"
+    },
+    "breeder": {
+      "id": "720739",
+      "name": "Mr Takaya Kimura"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "U S Navy Flag"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アップルトンドローヴ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4390,6 +4420,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポテンザ (Potenza) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポテンザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポテンザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4459,9 +4519,9 @@
       "contentHash": "9408e3075cbc9b2bda49d05d7734a54ec7a63980b06398dddf423fac7ff634e5",
       "byteLength": 65967,
       "rawPath": "netkeiba/horses/2020/2020110001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:39:59.314Z"
+  "updatedAt": "2026-08-30T03:52:08.849Z"
 }

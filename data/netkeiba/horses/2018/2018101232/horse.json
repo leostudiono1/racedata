@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101232",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101232/",
-  "profile": null,
+  "profile": {
+    "name": "ヒヤ",
+    "birthDate": "2018-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "藤田弘治"
+    },
+    "owner": {
+      "id": "178033",
+      "name": "山口正行"
+    },
+    "breeder": {
+      "id": "230361",
+      "name": "若林順一"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2006100862",
+      "name": "ゴールドピアース"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -6750,6 +6780,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒヤ (Hiya) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒヤ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒヤ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6819,9 +6879,9 @@
       "contentHash": "3844d1fcaba91bce20fa19e0e9a4cd9faf346ba144949d5c4f7e8cbae6547277",
       "byteLength": 66710,
       "rawPath": "netkeiba/horses/2018/2018101232/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:32:55.663Z"
+  "updatedAt": "2026-08-28T04:42:51.911Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104479",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104479/",
-  "profile": null,
+  "profile": {
+    "name": "ハイハロー",
+    "birthDate": "2019-02-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01175",
+      "name": "宮田敬介"
+    },
+    "owner": {
+      "id": "831800",
+      "name": "青芝商事"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009106597",
+      "name": "ハイリリー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1561,6 +1591,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイハロー (Hi Hello) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイハロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイハロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1630,9 +1690,9 @@
       "contentHash": "19427cff978d07326e0d71867de76ff0545a35b0598140979252b3584346e2bf",
       "byteLength": 67150,
       "rawPath": "netkeiba/horses/2019/2019104479/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:39:02.862Z"
+  "updatedAt": "2026-08-24T09:44:54.208Z"
 }

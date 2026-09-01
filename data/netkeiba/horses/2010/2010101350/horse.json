@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101350",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101350/",
-  "profile": null,
+  "profile": {
+    "name": "ブリュネット",
+    "birthDate": "2010-04-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2004101198",
+      "name": "レディカーニバル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3962,6 +3992,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブリュネット (Brunette) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリュネット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリュネット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4031,9 +4091,9 @@
       "contentHash": "e0ce4792b4e907c7eb8c8fdc536c4ff3d96111b5caf0776e4898a97817f43f0d",
       "byteLength": 67450,
       "rawPath": "netkeiba/horses/2010/2010101350/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:01:20.986Z"
+  "updatedAt": "2026-08-30T03:13:30.789Z"
 }

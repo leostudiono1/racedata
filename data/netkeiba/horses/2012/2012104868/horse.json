@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104868",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104868/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンレイザー",
+    "birthDate": "2012-02-17",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00415",
+      "name": "菅原泰夫"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2007103145",
+      "name": "ミッキーパール"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1376,6 +1406,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンレイザー (Tosen Laser) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンレイザー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンレイザー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1445,9 +1505,9 @@
       "contentHash": "bf82979ec2852eab9e8f6f244a055854982482fce39c62eb11bcfaa1f1f10843",
       "byteLength": 64824,
       "rawPath": "netkeiba/horses/2012/2012104868/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:07:32.089Z"
+  "updatedAt": "2026-08-30T03:19:41.952Z"
 }

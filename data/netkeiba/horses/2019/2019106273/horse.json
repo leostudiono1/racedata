@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106273",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106273/",
-  "profile": null,
+  "profile": {
+    "name": "サクララプター",
+    "birthDate": "2019-05-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "019800",
+      "name": "さくらコマース"
+    },
+    "breeder": {
+      "id": "790085",
+      "name": "谷岡スタット"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2010103901",
+      "name": "サクラディソール"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -978,6 +1008,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サクララプター (Sakura Raptor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクララプター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクララプター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1047,9 +1107,9 @@
       "contentHash": "370436fa9f79b71ff4a1dbf5089586c4836dc7bac338543a84f449b140795c4c",
       "byteLength": 64481,
       "rawPath": "netkeiba/horses/2019/2019106273/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:31:52.995Z"
+  "updatedAt": "2026-08-27T05:35:31.794Z"
 }

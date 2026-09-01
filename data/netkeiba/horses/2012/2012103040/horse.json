@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103040",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103040/",
-  "profile": null,
+  "profile": {
+    "name": "サクラエアスター",
+    "birthDate": "2012-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "019800",
+      "name": "さくらコマース"
+    },
+    "breeder": {
+      "id": "513085",
+      "name": "高橋修"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002104686",
+      "name": "サクラオリオン"
+    },
+    "dam": {
+      "id": "2001104056",
+      "name": "サクラセレーネ"
+    },
+    "damsire": {
+      "id": "1991103498",
+      "name": "サクラローレル"
+    }
+  },
   "pedigree": [
     {
       "id": "2002104686",
@@ -992,6 +1022,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サクラエアスター (Sakura Erster) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクラエアスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクラエアスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1061,9 +1121,9 @@
       "contentHash": "4e4bcc4846196e9c0c4fff647bb9e3dac2afc15fb42cf5fa4be8bccd34ea1c39",
       "byteLength": 64563,
       "rawPath": "netkeiba/horses/2012/2012103040/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:45:41.111Z"
+  "updatedAt": "2026-08-31T02:53:23.285Z"
 }

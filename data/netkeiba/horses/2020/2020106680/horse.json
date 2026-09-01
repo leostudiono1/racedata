@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106680",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106680/",
-  "profile": null,
+  "profile": {
+    "name": "サスケ",
+    "birthDate": "2020-05-08",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マラジニア Malagenia(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Whipper"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2702,6 +2732,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サスケ (Sasuke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サスケ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サスケ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2771,9 +2831,9 @@
       "contentHash": "8c5059b1c55a0f471b13c3fe5d014aad3fec02291fd0b54061dc746599243ec7",
       "byteLength": 66722,
       "rawPath": "netkeiba/horses/2020/2020106680/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:12:32.418Z"
+  "updatedAt": "2026-08-29T04:15:55.495Z"
 }

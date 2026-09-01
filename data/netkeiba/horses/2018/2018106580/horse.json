@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106580",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106580/",
-  "profile": null,
+  "profile": {
+    "name": "アルナージ",
+    "birthDate": "2018-02-15",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2006102334",
+      "name": "フォルクスオーパー"
+    },
+    "damsire": {
+      "id": "1996100292",
+      "name": "テイエムオペラオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -1971,6 +2001,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルナージ (Arnage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルナージ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルナージ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2040,9 +2100,9 @@
       "contentHash": "b5f746101850795d56769ab1eba393118396d3fa6310c1614b23667259b3acc6",
       "byteLength": 64662,
       "rawPath": "netkeiba/horses/2018/2018106580/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:30:59.779Z"
+  "updatedAt": "2026-08-30T03:43:09.421Z"
 }

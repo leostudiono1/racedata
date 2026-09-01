@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101577",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101577/",
-  "profile": null,
+  "profile": {
+    "name": "ハガネ",
+    "birthDate": "2020-02-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "藤田弘治"
+    },
+    "owner": {
+      "id": "x0b64c",
+      "name": "松井要"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2005103189",
+      "name": "ダイワスピリット"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -7270,6 +7300,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハガネ (Hagane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハガネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハガネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7339,9 +7399,9 @@
       "contentHash": "1cc29a7b4620d63998d7da1af5eb311a81c3aa66447abdb103c3698af2ac0ba6",
       "byteLength": 66843,
       "rawPath": "netkeiba/horses/2020/2020101577/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:09:06.436Z"
+  "updatedAt": "2026-08-29T04:12:28.931Z"
 }

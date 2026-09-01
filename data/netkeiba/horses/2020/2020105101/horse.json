@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105101",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105101/",
-  "profile": null,
+  "profile": {
+    "name": "ロジホーム",
+    "birthDate": "2020-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "399030",
+      "name": "久米田正明"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006103140",
+      "name": "ロジユニヴァース"
+    },
+    "dam": {
+      "id": "2010105358",
+      "name": "ロジウエスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ケイムホーム Came Home(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103140",
@@ -1828,6 +1858,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロジホーム (Logi Home) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジホーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジホーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1897,9 +1957,9 @@
       "contentHash": "58f7fc68b90b186334e28dbbc90674adde1af3d9945d002ad50763b58b949a39",
       "byteLength": 66837,
       "rawPath": "netkeiba/horses/2020/2020105101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:38:31.340Z"
+  "updatedAt": "2026-08-30T03:50:41.286Z"
 }

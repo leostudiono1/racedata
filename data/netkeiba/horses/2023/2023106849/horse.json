@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106849",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106849/",
-  "profile": null,
+  "profile": {
+    "name": "イトシサ",
+    "birthDate": "2023-04-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "969031",
+      "name": "ＴＮレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015104688",
+      "name": "インディチャンプ"
+    },
+    "dam": {
+      "id": "2012110102",
+      "name": "アルビアーノ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104688",
@@ -1727,6 +1757,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イトシサ (Itoshisa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イトシサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イトシサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1796,9 +1856,9 @@
       "contentHash": "b5835c3cd18680a64a6d3caa83f81a8ebda5afe371d0a55beca27d460fe40105",
       "byteLength": 67039,
       "rawPath": "netkeiba/horses/2023/2023106849/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:25:51.085Z"
+  "updatedAt": "2026-08-29T04:29:13.745Z"
 }

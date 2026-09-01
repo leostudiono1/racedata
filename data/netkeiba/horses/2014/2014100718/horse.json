@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100718",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100718/",
-  "profile": null,
+  "profile": {
+    "name": "パフォーム",
+    "birthDate": "2014-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01010",
+      "name": "中野栄治"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "2005105499",
+      "name": "マイネアルデュール"
+    },
+    "damsire": {
+      "id": "1996106512",
+      "name": "アドマイヤコジーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -3509,6 +3539,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パフォーム (Perform) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パフォーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パフォーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3578,9 +3638,9 @@
       "contentHash": "5de92d67380ebd365ef4a6e65e191cd79f1ce70ad8fdc6f1508e2093fb2a3cf1",
       "byteLength": 66879,
       "rawPath": "netkeiba/horses/2014/2014100718/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:02:38.665Z"
+  "updatedAt": "2026-08-25T08:10:08.467Z"
 }

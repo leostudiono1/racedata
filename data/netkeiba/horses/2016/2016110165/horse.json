@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110165",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110165/",
-  "profile": null,
+  "profile": {
+    "name": "グランドクララ",
+    "birthDate": "2016-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "043008",
+      "name": "林千枝子"
+    },
+    "breeder": {
+      "id": "370860",
+      "name": "Mr Susumu Hayashi"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ファウヴェリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Polish Precedent (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -996,6 +1026,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランドクララ (Grand Clara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランドクララ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランドクララ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1065,9 +1125,9 @@
       "contentHash": "d5bea185f7e56b129619b9e6a8c78d26d29ad8664a88d5b4c8dd71adda19f113",
       "byteLength": 64650,
       "rawPath": "netkeiba/horses/2016/2016110165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:55:08.976Z"
+  "updatedAt": "2026-08-29T03:58:32.100Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101122",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101122/",
-  "profile": null,
+  "profile": {
+    "name": "ヒッグスボソン",
+    "birthDate": "2023-02-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2017110035",
+      "name": "サマーエモーション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -2215,6 +2245,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒッグスボソン (Higgs Boson) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒッグスボソン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒッグスボソン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2284,9 +2344,9 @@
       "contentHash": "3c6b69cc12d15e5b975cd5de8ef64c47748e78483384cc412bb8a2410328e0b9",
       "byteLength": 67329,
       "rawPath": "netkeiba/horses/2023/2023101122/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:53:37.841Z"
+  "updatedAt": "2026-08-28T05:03:34.657Z"
 }

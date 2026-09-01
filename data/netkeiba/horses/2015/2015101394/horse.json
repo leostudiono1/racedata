@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101394",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101394/",
-  "profile": null,
+  "profile": {
+    "name": "クイックファイア",
+    "birthDate": "2015-02-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "柳井宏之"
+    },
+    "owner": {
+      "id": "x007d6",
+      "name": "渋谷和広"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2006105536",
+      "name": "マジカルシェイプ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -5426,6 +5456,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クイックファイア (Quickfire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クイックファイア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クイックファイア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5495,9 +5555,9 @@
       "contentHash": "2a4fefd824896bdab40c674ca14bfe6cf82c5f6a0790db59d0d3045311b6166c",
       "byteLength": 67035,
       "rawPath": "netkeiba/horses/2015/2015101394/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:11:06.718Z"
+  "updatedAt": "2026-08-27T05:14:45.322Z"
 }

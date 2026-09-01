@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102975",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102975/",
-  "profile": null,
+  "profile": {
+    "name": "カップコルス",
+    "birthDate": "2020-02-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ノンザ Nonza(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zanzibari (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3377,6 +3407,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カップコルス (Cap Corse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カップコルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カップコルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3446,9 +3506,9 @@
       "contentHash": "7dc6df5a3cdd29990246ae388d94236d39a166315daceff39ad05e7c256f4646",
       "byteLength": 66843,
       "rawPath": "netkeiba/horses/2020/2020102975/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:34:13.230Z"
+  "updatedAt": "2026-08-27T05:37:51.699Z"
 }

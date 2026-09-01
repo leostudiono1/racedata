@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106915",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106915/",
-  "profile": null,
+  "profile": {
+    "name": "セサンパ",
+    "birthDate": "2022-01-20",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2016110020",
+      "name": "チャリオット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dark Angel"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1709,6 +1739,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セサンパ (C'est Sympa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セサンパ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セサンパ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1778,9 +1838,9 @@
       "contentHash": "41c08f7bf89e77688c23b68680cdaf52353f494b167156fd88eec5c258c466b7",
       "byteLength": 65127,
       "rawPath": "netkeiba/horses/2022/2022106915/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:22:10.069Z"
+  "updatedAt": "2026-08-29T04:25:33.175Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100502",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100502/",
-  "profile": null,
+  "profile": {
+    "name": "ルドヴィカ",
+    "birthDate": "2020-03-25",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05217",
+      "name": "佐々木由"
+    },
+    "owner": {
+      "id": "842033",
+      "name": "小泉修"
+    },
+    "breeder": {
+      "id": "610064",
+      "name": "元茂修一"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104929",
+      "name": "レーヴミストラル"
+    },
+    "dam": {
+      "id": "2007103975",
+      "name": "キテキ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スキャターザゴールド Scatter the Gold(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104929",
@@ -2575,6 +2605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルドヴィカ (Ludovica) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルドヴィカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルドヴィカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2644,9 +2704,9 @@
       "contentHash": "2cd13f0d5333e86344fa10563b2de8b6c53b4307440d901d6a21c105e2c6c25d",
       "byteLength": 64726,
       "rawPath": "netkeiba/horses/2020/2020100502/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:32:45.556Z"
+  "updatedAt": "2026-08-27T05:36:24.188Z"
 }

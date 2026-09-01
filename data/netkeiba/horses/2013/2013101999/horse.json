@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101999",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101999/",
-  "profile": null,
+  "profile": {
+    "name": "ロンドンタウン",
+    "birthDate": "2013-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "768006",
+      "name": "薪浦亨"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2003100823",
+      "name": "フェアリーバニヤン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Honour and Glory"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -4408,6 +4438,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロンドンタウン (London Town) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロンドンタウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロンドンタウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4477,9 +4537,9 @@
       "contentHash": "c774852ac807c5d51c087fed30eeedb2a89eb0add9a59b096e2e08ef14a622e9",
       "byteLength": 67244,
       "rawPath": "netkeiba/horses/2013/2013101999/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:03:14.081Z"
+  "updatedAt": "2026-08-27T05:06:52.704Z"
 }

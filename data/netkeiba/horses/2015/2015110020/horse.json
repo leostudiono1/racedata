@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110020",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110020/",
-  "profile": null,
+  "profile": {
+    "name": "ホリデーモード",
+    "birthDate": "2015-04-02",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05274",
+      "name": "今津勝之"
+    },
+    "owner": {
+      "id": "x09684",
+      "name": "小出水正男"
+    },
+    "breeder": {
+      "id": "180882",
+      "name": "Shimokobe Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Point of Entry"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スキーホリデー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5377,6 +5407,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホリデーモード (Holiday Mode) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホリデーモード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホリデーモード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5446,9 +5506,9 @@
       "contentHash": "fc5870019258220ed5defb05bd9e6cc612b03611b74f04f165e1675cfc949138",
       "byteLength": 67167,
       "rawPath": "netkeiba/horses/2015/2015110020/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:10:49.004Z"
+  "updatedAt": "2026-08-25T08:18:18.535Z"
 }

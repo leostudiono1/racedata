@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100405",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100405/",
-  "profile": null,
+  "profile": {
+    "name": "エアリエル",
+    "birthDate": "2018-03-12",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05033",
+      "name": "菅原右吉"
+    },
+    "owner": {
+      "id": "x09065",
+      "name": "後藤順男"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2005103162",
+      "name": "ストリートスタイル"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -10263,6 +10293,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エアリエル (Ariel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアリエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアリエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10332,9 +10392,9 @@
       "contentHash": "fb69fb6650b264525ed34788d5754da75dca21655b158adfd1cb7eba1458182b",
       "byteLength": 66680,
       "rawPath": "netkeiba/horses/2018/2018100405/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:31:31.493Z"
+  "updatedAt": "2026-08-24T09:37:22.520Z"
 }

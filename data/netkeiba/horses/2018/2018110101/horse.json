@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110101",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110101/",
-  "profile": null,
+  "profile": {
+    "name": "コスモシェルパ",
+    "birthDate": "2018-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05180",
+      "name": "水野善太"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "620708",
+      "name": "Chasemore Farm"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Kingman (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Bible Belt"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Big Bad Bob"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6451,6 +6481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスモシェルパ (Cosmo Sherpa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモシェルパ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモシェルパ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6520,9 +6580,9 @@
       "contentHash": "3cb04f64567e78ebb43c9925e266be31b80e873eb60f337749166b78ce20cbe4",
       "byteLength": 66782,
       "rawPath": "netkeiba/horses/2018/2018110101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:36:00.592Z"
+  "updatedAt": "2026-08-24T09:41:52.523Z"
 }

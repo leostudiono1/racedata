@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100617",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100617/",
-  "profile": null,
+  "profile": {
+    "name": "フィエルテ",
+    "birthDate": "2012-05-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2004110225",
+      "name": "ペルサントクリール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Point Given (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -3739,6 +3769,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィエルテ (Fierte) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィエルテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィエルテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3808,9 +3868,9 @@
       "contentHash": "7343c0bf5ec8c2b06589d1dfe482846fd0e183cc3a369c5bf769d40ca99aeae7",
       "byteLength": 66843,
       "rawPath": "netkeiba/horses/2012/2012100617/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:04:54.553Z"
+  "updatedAt": "2026-08-30T03:17:04.479Z"
 }

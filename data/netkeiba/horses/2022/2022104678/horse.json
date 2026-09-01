@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104678",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104678/",
-  "profile": null,
+  "profile": {
+    "name": "エルムラント",
+    "birthDate": "2022-02-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "379008",
+      "name": "村木隆"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015105075",
+      "name": "フィエールマン"
+    },
+    "dam": {
+      "id": "2012110045",
+      "name": "エクシードリミッツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Exceed And Excel"
+    }
+  },
   "pedigree": [
     {
       "id": "2015105075",
@@ -1903,6 +1933,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルムラント (Ermland) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルムラント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルムラント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1972,9 +2032,9 @@
       "contentHash": "8d32d827cc3864f793b0edb62cc6b68916c073e868752accdc2500caa56ade55",
       "byteLength": 65823,
       "rawPath": "netkeiba/horses/2022/2022104678/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:17:00.411Z"
+  "updatedAt": "2026-08-26T06:25:32.627Z"
 }

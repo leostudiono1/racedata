@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103268",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103268/",
-  "profile": null,
+  "profile": {
+    "name": "レザベーション",
+    "birthDate": "2023-04-19",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "036034",
+      "name": "中村伊三美"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015102367",
+      "name": "ダノンプレミアム"
+    },
+    "dam": {
+      "id": "2009104261",
+      "name": "プレノタート"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102367",
@@ -1646,6 +1676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レザベーション (Reservation) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レザベーション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レザベーション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1715,9 +1775,9 @@
       "contentHash": "5ce612073c6191deccb8483050ca86b9c1307cef2bccf730b295de14fb430161",
       "byteLength": 67447,
       "rawPath": "netkeiba/horses/2023/2023103268/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:57:04.381Z"
+  "updatedAt": "2026-08-24T10:02:56.019Z"
 }

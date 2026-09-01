@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102952",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102952/",
-  "profile": null,
+  "profile": {
+    "name": "クラウンキング",
+    "birthDate": "2016-03-13",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01090",
+      "name": "天間昭一"
+    },
+    "owner": {
+      "id": "826800",
+      "name": "クラウン"
+    },
+    "breeder": {
+      "id": "560543",
+      "name": "クラウン日高牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ブロッサムレーン Blossom Lane(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "New Approach"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1020,6 +1050,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラウンキング (Crown King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1089,9 +1149,9 @@
       "contentHash": "e92f676902f72e41b9909a497ea720a2bb53e4242dcb0a2a1b7f0f446d95b7f3",
       "byteLength": 64907,
       "rawPath": "netkeiba/horses/2016/2016102952/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:12:47.912Z"
+  "updatedAt": "2026-08-25T08:20:17.716Z"
 }

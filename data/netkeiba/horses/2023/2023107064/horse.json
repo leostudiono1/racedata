@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107064",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107064/",
-  "profile": null,
+  "profile": {
+    "name": "フィデリス",
+    "birthDate": "2023-01-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2017110136",
+      "name": "スイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Candy Ride"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1694,6 +1724,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィデリス (Fidelis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィデリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィデリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1763,9 +1823,9 @@
       "contentHash": "6812ccb64661fb0f2a46a82f5391282138fcb821d06f2dcb3e1c7c9917546386",
       "byteLength": 67423,
       "rawPath": "netkeiba/horses/2023/2023107064/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:50:08.942Z"
+  "updatedAt": "2026-08-27T05:53:47.633Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105635",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105635/",
-  "profile": null,
+  "profile": {
+    "name": "セイザン",
+    "birthDate": "2013-04-07",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05029",
+      "name": "伊藤和"
+    },
+    "owner": {
+      "id": "308033",
+      "name": "久保田定"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2003102468",
+      "name": "ホットレッグス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -8584,6 +8614,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイザン (Seizan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイザン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイザン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8653,9 +8713,9 @@
       "contentHash": "df0a2863422488a41b1a996c98042c4c097101f057bf0f3f77968f9a1bc17492",
       "byteLength": 65197,
       "rawPath": "netkeiba/horses/2013/2013105635/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:14:04.613Z"
+  "updatedAt": "2026-08-24T09:19:55.930Z"
 }

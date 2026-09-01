@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101480",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101480/",
-  "profile": null,
+  "profile": {
+    "name": "カラニ",
+    "birthDate": "2019-03-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05346",
+      "name": "荒巻透"
+    },
+    "owner": {
+      "id": "136030",
+      "name": "助川啓一"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2014101838",
+      "name": "パイナマナ"
+    },
+    "damsire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -7633,6 +7663,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラニ (Ka Lani) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7702,9 +7762,9 @@
       "contentHash": "eec50444fcc35491fb8eabf4a26d3dbbce8c754ba89064f0e94892dde1fa7c24",
       "byteLength": 66685,
       "rawPath": "netkeiba/horses/2019/2019101480/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:02:38.918Z"
+  "updatedAt": "2026-08-26T06:11:11.896Z"
 }

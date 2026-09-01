@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104604",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104604/",
-  "profile": null,
+  "profile": {
+    "name": "リナルド",
+    "birthDate": "2018-03-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "有馬澄男"
+    },
+    "owner": {
+      "id": "193033",
+      "name": "中本行則"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2003102486",
+      "name": "コイウタ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -4563,6 +4593,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リナルド (Rinaldo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リナルド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リナルド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4632,9 +4692,9 @@
       "contentHash": "e33b2323f255985581c34957b7309c356f7228824652806d71c85d64adcf1cf2",
       "byteLength": 65698,
       "rawPath": "netkeiba/horses/2018/2018104604/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:11:32.009Z"
+  "updatedAt": "2026-08-31T03:19:14.287Z"
 }

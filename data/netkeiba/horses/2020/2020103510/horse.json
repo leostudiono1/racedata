@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103510",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103510/",
-  "profile": null,
+  "profile": {
+    "name": "イストロス",
+    "birthDate": "2020-05-19",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "800031",
+      "name": "桑田照夫"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ドナブリーニ Donna Blini(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bertolini"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3957,6 +3987,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イストロス (Istros) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イストロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イストロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4026,9 +4086,9 @@
       "contentHash": "98d5f0ae52e1f20c68117c719b0a24f32e3e0f1c63107d6ac2927b9ce54e59c7",
       "byteLength": 66790,
       "rawPath": "netkeiba/horses/2020/2020103510/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:30:28.771Z"
+  "updatedAt": "2026-08-25T08:37:58.428Z"
 }

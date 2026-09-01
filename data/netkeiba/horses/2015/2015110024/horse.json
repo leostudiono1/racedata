@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110024",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110024/",
-  "profile": null,
+  "profile": {
+    "name": "マツカゼ",
+    "birthDate": "2015-03-05",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島寿"
+    },
+    "owner": {
+      "id": "165803",
+      "name": "（同）ＪＰＮ技研"
+    },
+    "breeder": {
+      "id": "510822",
+      "name": "Barronstown Stud"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "War Front"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Night Lagoon"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lagunas"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4479,6 +4509,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マツカゼ (Matsukaze) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マツカゼ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マツカゼ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4548,9 +4608,9 @@
       "contentHash": "3c4b93a8489179e3ceb35b3bca02a0c1bf2b694854ac59e27cbfe0c83b62ef41",
       "byteLength": 66417,
       "rawPath": "netkeiba/horses/2015/2015110024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:10:53.053Z"
+  "updatedAt": "2026-08-25T08:18:22.154Z"
 }

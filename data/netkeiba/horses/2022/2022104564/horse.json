@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104564",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104564/",
-  "profile": null,
+  "profile": {
+    "name": "インシーズン",
+    "birthDate": "2022-04-15",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05478",
+      "name": "野田忍"
+    },
+    "owner": {
+      "id": "x09d72",
+      "name": "グリーンウッド（株"
+    },
+    "breeder": {
+      "id": "801307",
+      "name": "矢野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マチュアード Matured(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Manduro (独)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -3099,6 +3129,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インシーズン (In Season) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インシーズン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インシーズン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3168,9 +3228,9 @@
       "contentHash": "117cc1226c1f189f6585b1f7c479a6e84f2968cfecd5304c88979752844d90c3",
       "byteLength": 65256,
       "rawPath": "netkeiba/horses/2022/2022104564/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:16:46.129Z"
+  "updatedAt": "2026-08-26T06:25:19.187Z"
 }

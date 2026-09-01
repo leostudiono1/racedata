@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102209",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102209/",
-  "profile": null,
+  "profile": {
+    "name": "コミックラン",
+    "birthDate": "2017-03-31",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "535006",
+      "name": "岡村善行"
+    },
+    "breeder": {
+      "id": "110340",
+      "name": "山岡ファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2007105126",
+      "name": "イイデサンドラ"
+    },
+    "damsire": {
+      "id": "2000102261",
+      "name": "サクラプレジデント"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1279,6 +1309,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コミックラン (Comic Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コミックラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コミックラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1348,9 +1408,9 @@
       "contentHash": "4bc2655d5e441f6962dc9ce26e760e3db415be7b23a46795984702fce44925f1",
       "byteLength": 64792,
       "rawPath": "netkeiba/horses/2017/2017102209/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:56:26.431Z"
+  "updatedAt": "2026-08-29T03:59:49.113Z"
 }

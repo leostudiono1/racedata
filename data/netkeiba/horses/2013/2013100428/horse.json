@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100428",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100428/",
-  "profile": null,
+  "profile": {
+    "name": "アネモイ",
+    "birthDate": "2013-03-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102461",
+      "name": "ソングオブウインド"
+    },
+    "dam": {
+      "id": "2006103643",
+      "name": "ブルームインハート"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102461",
@@ -1515,6 +1545,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アネモイ (Anemoi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アネモイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アネモイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1584,9 +1644,9 @@
       "contentHash": "12a2ccbdf38eb4110d19c502f6e901e297f05d64488349f0c83f73322c42d6b3",
       "byteLength": 66291,
       "rawPath": "netkeiba/horses/2013/2013100428/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:10:19.885Z"
+  "updatedAt": "2026-08-24T09:16:11.829Z"
 }

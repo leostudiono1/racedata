@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102379",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102379/",
-  "profile": null,
+  "profile": {
+    "name": "ポプラ",
+    "birthDate": "2015-02-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "373008",
+      "name": "中村祐子"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ハーフムーンII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Duke of Marmalade (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1045,6 +1075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポプラ (Poplar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポプラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポプラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1114,9 +1174,9 @@
       "contentHash": "b81eac645f4feeee7d4a95788ec5232391b149f40d122bd4b1ccb3db19ec34ca",
       "byteLength": 65451,
       "rawPath": "netkeiba/horses/2015/2015102379/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:57:28.184Z"
+  "updatedAt": "2026-08-31T03:05:10.438Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103200",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103200/",
-  "profile": null,
+  "profile": {
+    "name": "カシノタイム",
+    "birthDate": "2014-05-18",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05109",
+      "name": "古賀光範"
+    },
+    "owner": {
+      "id": "514009",
+      "name": "柏木務"
+    },
+    "breeder": {
+      "id": "500037",
+      "name": "近藤牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002102706",
+      "name": "エイシンデピュティ"
+    },
+    "dam": {
+      "id": "2004102128",
+      "name": "クリーマックス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002102706",
@@ -1826,6 +1856,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシノタイム (Kashino Time) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノタイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノタイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1895,9 +1955,9 @@
       "contentHash": "a2003b7c2d33619134801f4ef2412f8a5ccd474fbfca28e6fa5e9ed9c775d40e",
       "byteLength": 64508,
       "rawPath": "netkeiba/horses/2014/2014103200/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:18:23.068Z"
+  "updatedAt": "2026-08-28T04:28:19.923Z"
 }

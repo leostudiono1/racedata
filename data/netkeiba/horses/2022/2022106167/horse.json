@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106167",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106167/",
-  "profile": null,
+  "profile": {
+    "name": "ハギビス",
+    "birthDate": "2022-03-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "x04465",
+      "name": "川島伸二"
+    },
+    "breeder": {
+      "id": "903335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2004100181",
+      "name": "ウインアンジェラス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bertolini"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2680,6 +2710,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハギビス (Hagibis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハギビス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハギビス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2749,9 +2809,9 @@
       "contentHash": "04340904bd2978b6ac5c2617d9a1ded07283fdc8855b6fe7eaa6e65899cd7861",
       "byteLength": 64618,
       "rawPath": "netkeiba/horses/2022/2022106167/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:41:13.455Z"
+  "updatedAt": "2026-08-25T08:48:42.724Z"
 }

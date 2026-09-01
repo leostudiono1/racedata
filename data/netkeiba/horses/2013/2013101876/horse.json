@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101876",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101876/",
-  "profile": null,
+  "profile": {
+    "name": "キャンドヒート",
+    "birthDate": "2013-03-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "500319",
+      "name": "平山牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2005110125",
+      "name": "ラヴゴッデス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lemon Drop Kid"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1358,6 +1388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャンドヒート (Canned Heat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャンドヒート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャンドヒート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1427,9 +1487,9 @@
       "contentHash": "36d2b5ade8606ae4be7c3d595dddd609f8f56e18de4b946cfff46efc39a75fbb",
       "byteLength": 65577,
       "rawPath": "netkeiba/horses/2013/2013101876/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:03:03.554Z"
+  "updatedAt": "2026-08-27T05:06:42.233Z"
 }

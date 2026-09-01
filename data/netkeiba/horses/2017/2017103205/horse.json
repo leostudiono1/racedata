@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103205",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103205/",
-  "profile": null,
+  "profile": {
+    "name": "ポルトベーロ",
+    "birthDate": "2017-03-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "440030",
+      "name": "高嶋航"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2007102335",
+      "name": "ワインレッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -1121,6 +1151,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポルトベーロ (Porto Bello) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポルトベーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポルトベーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1190,9 +1250,9 @@
       "contentHash": "4d5a7f1edefc88725fe82eccac731b4d2f3e422c684ee22f4576c2a92f672b41",
       "byteLength": 66768,
       "rawPath": "netkeiba/horses/2017/2017103205/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:16:42.433Z"
+  "updatedAt": "2026-08-25T08:24:12.219Z"
 }

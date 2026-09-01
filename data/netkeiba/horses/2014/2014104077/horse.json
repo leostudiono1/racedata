@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104077",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104077/",
-  "profile": null,
+  "profile": {
+    "name": "アルマレー",
+    "birthDate": "2014-05-26",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "642800",
+      "name": "エーティー"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2002100567",
+      "name": "マチルド"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1345,6 +1375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルマレー (Al Murray) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルマレー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルマレー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1414,9 +1474,9 @@
       "contentHash": "6605598b8e33c809e68f2df0cfe6f7a784774e665433eae4db0ea0533c66b4ab",
       "byteLength": 64421,
       "rawPath": "netkeiba/horses/2014/2014104077/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:14:35.765Z"
+  "updatedAt": "2026-08-30T03:26:45.581Z"
 }

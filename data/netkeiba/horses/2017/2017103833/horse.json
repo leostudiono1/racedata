@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103833",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103833/",
-  "profile": null,
+  "profile": {
+    "name": "フェレッティ",
+    "birthDate": "2017-05-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2007100569",
+      "name": "ベストクルーズ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1131,6 +1161,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェレッティ (Ferretti) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェレッティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェレッティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1200,9 +1260,9 @@
       "contentHash": "e46174a837c9f1e61266472f77614870eb82bbd329a4064d0e2c1644e9d1053a",
       "byteLength": 64935,
       "rawPath": "netkeiba/horses/2017/2017103833/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:29:31.754Z"
+  "updatedAt": "2026-08-24T09:35:23.443Z"
 }

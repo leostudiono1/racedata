@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106256",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106256/",
-  "profile": null,
+  "profile": {
+    "name": "フォースライン",
+    "birthDate": "2014-03-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2005102733",
+      "name": "ローザブランカ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3441,6 +3471,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォースライン (Force Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォースライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォースライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3510,9 +3570,9 @@
       "contentHash": "347f5ea9abb6d89d79fb3dca9d0963b9fe82c2f954841b5e330a9e2f87a21752",
       "byteLength": 67025,
       "rawPath": "netkeiba/horses/2014/2014106256/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:56:07.568Z"
+  "updatedAt": "2026-08-31T03:03:49.896Z"
 }

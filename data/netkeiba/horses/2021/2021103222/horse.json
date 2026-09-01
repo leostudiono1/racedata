@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103222",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103222/",
-  "profile": null,
+  "profile": {
+    "name": "カフェロワン",
+    "birthDate": "2021-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "629007",
+      "name": "西川光一"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008101059",
+      "name": "カフェラピード"
+    },
+    "dam": {
+      "id": "2013103487",
+      "name": "エルドールカフェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロージズインメイ Roses in May(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008101059",
@@ -1279,6 +1309,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフェロワン (Cafe Loin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェロワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェロワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1348,9 +1408,9 @@
       "contentHash": "38574bb11512e0263679a67fa00dde7aba32e9af90e2e27ad1b1b32e4e8c9ee9",
       "byteLength": 64960,
       "rawPath": "netkeiba/horses/2021/2021103222/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:42:15.431Z"
+  "updatedAt": "2026-08-30T03:54:25.453Z"
 }

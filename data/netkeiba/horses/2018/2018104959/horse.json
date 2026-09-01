@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104959",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104959/",
-  "profile": null,
+  "profile": {
+    "name": "ラフストリーム",
+    "birthDate": "2018-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2010110129",
+      "name": "エジル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -2477,6 +2507,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラフストリーム (Rough Stream) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラフストリーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラフストリーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2546,9 +2606,9 @@
       "contentHash": "0218aae415d107cbef3c51b43d15dec95efd3db8a64fcd964e2138d0801625e9",
       "byteLength": 67057,
       "rawPath": "netkeiba/horses/2018/2018104959/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:11:45.986Z"
+  "updatedAt": "2026-08-31T03:19:28.204Z"
 }

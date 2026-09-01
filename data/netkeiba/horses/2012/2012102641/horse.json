@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102641",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102641/",
-  "profile": null,
+  "profile": {
+    "name": "サーティグランド",
+    "birthDate": "2012-04-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "x093af",
+      "name": "林由真"
+    },
+    "breeder": {
+      "id": "403069",
+      "name": "山本昇寿"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "1994109697",
+      "name": "サザンカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -6633,6 +6663,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サーティグランド (Thirty Grand) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーティグランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーティグランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6702,9 +6762,9 @@
       "contentHash": "52d7e5cbea28a86ad04f7e9b098d234bba5b0cfb60294c30db1429ef4195e3d6",
       "byteLength": 67022,
       "rawPath": "netkeiba/horses/2012/2012102641/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:34:05.490Z"
+  "updatedAt": "2026-08-29T03:37:28.242Z"
 }

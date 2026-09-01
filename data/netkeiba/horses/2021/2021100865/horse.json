@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100865",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100865/",
-  "profile": null,
+  "profile": {
+    "name": "タマハガネ",
+    "birthDate": "2021-03-31",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "池田敦"
+    },
+    "owner": {
+      "id": "553034",
+      "name": "服部知明"
+    },
+    "breeder": {
+      "id": "900543",
+      "name": "富塚ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2015103323",
+      "name": "フレッチャブランカ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -5003,6 +5033,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タマハガネ (Tamahagane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマハガネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマハガネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5072,9 +5132,9 @@
       "contentHash": "7e778d86bc3e7d4fdc92fdd147fe11d2b38dedad3463ae0976611b8c9c835857",
       "byteLength": 66176,
       "rawPath": "netkeiba/horses/2021/2021100865/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:13:32.482Z"
+  "updatedAt": "2026-08-29T04:16:55.015Z"
 }

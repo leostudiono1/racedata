@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104940",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104940/",
-  "profile": null,
+  "profile": {
+    "name": "エアアタック",
+    "birthDate": "2012-02-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05726",
+      "name": "那俄性哲"
+    },
+    "owner": {
+      "id": "190031",
+      "name": "須田靖之"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ローザロバータ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fire Maker"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -1704,6 +1734,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エアアタック (Air Attack) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアアタック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアアタック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1773,9 +1833,9 @@
       "contentHash": "37d17f94cd4c1f8902f9dcd20b774384b7f0ca02e53ad4c535e03638e7b3d1c7",
       "byteLength": 64607,
       "rawPath": "netkeiba/horses/2012/2012104940/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:07:35.612Z"
+  "updatedAt": "2026-08-30T03:19:45.802Z"
 }

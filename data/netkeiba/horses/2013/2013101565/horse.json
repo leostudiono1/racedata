@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101565",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101565/",
-  "profile": null,
+  "profile": {
+    "name": "ネコエルフ",
+    "birthDate": "2013-05-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00392",
+      "name": "古賀史生"
+    },
+    "owner": {
+      "id": "129005",
+      "name": "桐谷茂"
+    },
+    "breeder": {
+      "id": "000310",
+      "name": "高瀬牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2006106523",
+      "name": "ビバエルフ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コロナドズクエスト Coronado's Quest(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -2057,6 +2087,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネコエルフ (Neko Elf) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコエルフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコエルフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2126,9 +2186,9 @@
       "contentHash": "0859813554fda1f26311b0edba1c484ae3c29ad67fcffcd01fbe4b3785dde08c",
       "byteLength": 66746,
       "rawPath": "netkeiba/horses/2013/2013101565/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:09:38.215Z"
+  "updatedAt": "2026-08-30T03:21:48.053Z"
 }

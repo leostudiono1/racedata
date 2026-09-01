@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104455",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104455/",
-  "profile": null,
+  "profile": {
+    "name": "ミルノワール",
+    "birthDate": "2011-04-28",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2005102411",
+      "name": "ミルシャイナー"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2366,6 +2396,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミルノワール (Mill Noir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルノワール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルノワール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2435,9 +2495,9 @@
       "contentHash": "d19eacebc4f6c861336f36537574821bf31c2562a442508a4cf240a5fa798e88",
       "byteLength": 66804,
       "rawPath": "netkeiba/horses/2011/2011104455/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:31:49.985Z"
+  "updatedAt": "2026-08-26T05:40:22.785Z"
 }

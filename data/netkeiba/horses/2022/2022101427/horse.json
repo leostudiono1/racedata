@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101427",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101427/",
-  "profile": null,
+  "profile": {
+    "name": "ビーム",
+    "birthDate": "2022-04-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "倉兼育康"
+    },
+    "owner": {
+      "id": "165803",
+      "name": "（同）ＪＰＮ技研"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012101402",
+      "name": "グレーターロンドン"
+    },
+    "dam": {
+      "id": "2006105475",
+      "name": "タイキオードリー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012101402",
@@ -2723,6 +2753,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビーム (Beam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2792,9 +2852,9 @@
       "contentHash": "0bd508e45a82c4e33ac42131770f16e739bb4930543487cb774451ce8977e2dc",
       "byteLength": 64821,
       "rawPath": "netkeiba/horses/2022/2022101427/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:49:15.325Z"
+  "updatedAt": "2026-08-28T04:59:12.109Z"
 }

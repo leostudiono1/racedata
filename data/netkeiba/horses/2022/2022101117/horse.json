@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101117",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101117/",
-  "profile": null,
+  "profile": {
+    "name": "アイファーモービル",
+    "birthDate": "2022-04-07",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "119007",
+      "name": "中島稔"
+    },
+    "breeder": {
+      "id": "080541",
+      "name": "アースファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012110098",
+      "name": "アポロケンタッキー"
+    },
+    "dam": {
+      "id": "2008110087",
+      "name": "レディワシントン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Vindication"
+    }
+  },
   "pedigree": [
     {
       "id": "2012110098",
@@ -3207,6 +3237,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイファーモービル (Eifer Mobile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーモービル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーモービル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3276,9 +3336,9 @@
       "contentHash": "7225e2e62800ad6a6860f53a84d511e4aa6aaf528bffb0508b217e34bc8232f6",
       "byteLength": 67101,
       "rawPath": "netkeiba/horses/2022/2022101117/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:45:21.366Z"
+  "updatedAt": "2026-08-30T03:57:30.728Z"
 }

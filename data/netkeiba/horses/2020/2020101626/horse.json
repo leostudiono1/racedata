@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101626",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101626/",
-  "profile": null,
+  "profile": {
+    "name": "オークリッチ",
+    "birthDate": "2020-03-11",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "宮路洋一"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2008103156",
+      "name": "オークヒルパーク"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1347,6 +1377,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オークリッチ (Oak Rich) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オークリッチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オークリッチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1416,9 +1476,9 @@
       "contentHash": "14792f2cce2ef814efb42d42d3557a357791420f700d6af8952bbc7541c718a1",
       "byteLength": 65501,
       "rawPath": "netkeiba/horses/2020/2020101626/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:36:14.763Z"
+  "updatedAt": "2026-08-30T03:48:24.765Z"
 }

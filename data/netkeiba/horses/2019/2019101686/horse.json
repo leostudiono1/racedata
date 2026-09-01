@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101686",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101686/",
-  "profile": null,
+  "profile": {
+    "name": "アイリスハート",
+    "birthDate": "2019-05-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "細川忠義"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "733356",
+      "name": "庄野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2004101200",
+      "name": "センターグランタス"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -1969,6 +1999,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイリスハート (Iris Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリスハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリスハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2038,9 +2098,9 @@
       "contentHash": "71c40b1afb1c5a5560a2173970a2eb79dbd62d48bee8713ff3ad594b77481498",
       "byteLength": 65334,
       "rawPath": "netkeiba/horses/2019/2019101686/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:24:52.627Z"
+  "updatedAt": "2026-08-25T08:32:22.606Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105741",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105741/",
-  "profile": null,
+  "profile": {
+    "name": "リッター",
+    "birthDate": "2022-01-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "041002",
+      "name": "前田晋二"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ワンダーオブリップス Wonder of Lips(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Champs Elysees"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1174,6 +1204,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リッター (Ritter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リッター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リッター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1243,9 +1303,9 @@
       "contentHash": "bb66ccb76d7e0fd2ddb98cf430a1ac086ea2316a70b789c18cbd6a7707c3a565",
       "byteLength": 65148,
       "rawPath": "netkeiba/horses/2022/2022105741/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:47:44.489Z"
+  "updatedAt": "2026-08-30T03:59:54.225Z"
 }

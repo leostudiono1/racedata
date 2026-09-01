@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110043",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110043/",
-  "profile": null,
+  "profile": {
+    "name": "ヴァッシュモン",
+    "birthDate": "2016-01-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "849030",
+      "name": "山口功一郎"
+    },
+    "breeder": {
+      "id": "310733",
+      "name": "Gestut Hof Ittlingen"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Dubawi"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Daksha"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Authorized"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1464,6 +1494,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴァッシュモン (Vachement) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァッシュモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァッシュモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1533,9 +1593,9 @@
       "contentHash": "ee2eb409d10be49d66854fda5771610f377323d7309dec882d32c17a45d4ea82",
       "byteLength": 66960,
       "rawPath": "netkeiba/horses/2016/2016110043/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:23:03.595Z"
+  "updatedAt": "2026-08-30T03:35:13.758Z"
 }

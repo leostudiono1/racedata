@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101740",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101740/",
-  "profile": null,
+  "profile": {
+    "name": "ラッキーマーチ",
+    "birthDate": "2021-02-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "844031",
+      "name": "長谷川千代子"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2015105165",
+      "name": "ディープエクセル"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1052,6 +1082,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラッキーマーチ (Lucky March) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキーマーチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキーマーチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1121,9 +1181,9 @@
       "contentHash": "0b95a91ecd142ef22f64a2338f3744a2c45e838f0f2c889c511e8b26dbc564ea",
       "byteLength": 64700,
       "rawPath": "netkeiba/horses/2021/2021101740/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:37:53.691Z"
+  "updatedAt": "2026-08-27T05:41:32.363Z"
 }

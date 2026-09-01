@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021107165",
   "sourceUrl": "https://db.netkeiba.com/horse/2021107165/",
-  "profile": null,
+  "profile": {
+    "name": "トトリムク",
+    "birthDate": "2021-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05456",
+      "name": "土井道隆"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "790543",
+      "name": "村上進治"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2014105239",
+      "name": "メイビータイム"
+    },
+    "damsire": {
+      "id": "2005102216",
+      "name": "キャプテントゥーレ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -3374,6 +3404,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トトリムク (Dotorimuk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トトリムク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トトリムク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3443,9 +3503,9 @@
       "contentHash": "07309725d312df76c6b759e93f79f50d0cd236f1488f13bb9accad56b9c80862",
       "byteLength": 66148,
       "rawPath": "netkeiba/horses/2021/2021107165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:49:50.304Z"
+  "updatedAt": "2026-08-24T09:55:42.350Z"
 }

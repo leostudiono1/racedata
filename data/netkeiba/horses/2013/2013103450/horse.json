@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103450",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103450/",
-  "profile": null,
+  "profile": {
+    "name": "リュウセイ",
+    "birthDate": "2013-04-16",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01018",
+      "name": "宮徹"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "300010",
+      "name": "笹地牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2006102012",
+      "name": "シルクナデシコ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -4610,6 +4640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リュウセイ (Ryusei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リュウセイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リュウセイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4679,9 +4739,9 @@
       "contentHash": "bee895dedf9db713fe1d7fb102ee0a5ff51792484e2813c859af4fc679f1e659",
       "byteLength": 67376,
       "rawPath": "netkeiba/horses/2013/2013103450/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:59:40.504Z"
+  "updatedAt": "2026-08-25T08:07:09.816Z"
 }

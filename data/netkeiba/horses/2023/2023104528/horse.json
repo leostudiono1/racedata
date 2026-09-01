@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104528",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104528/",
-  "profile": null,
+  "profile": {
+    "name": "トップアタック",
+    "birthDate": "2023-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01197",
+      "name": "小椋研介"
+    },
+    "owner": {
+      "id": "358031",
+      "name": "紅露純"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "2019100848",
+      "name": "レッドアマルフィ"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -1802,6 +1832,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トップアタック (Top Attack) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップアタック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップアタック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1871,9 +1931,9 @@
       "contentHash": "84d003faaec4faf4ed011b9af1e4c2008cdc9399ceee02b58f7a8db591667077",
       "byteLength": 66965,
       "rawPath": "netkeiba/horses/2023/2023104528/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:50:43.132Z"
+  "updatedAt": "2026-08-30T04:02:52.792Z"
 }

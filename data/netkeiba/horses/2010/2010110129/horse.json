@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110129",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110129/",
-  "profile": null,
+  "profile": {
+    "name": "エジル",
+    "birthDate": "2010-03-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "140705",
+      "name": "White Cloud Bloodstock Jeffrey Lovinger & Pamela Lovinger"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    },
+    "dam": {
+      "id": "000",
+      "name": "One West"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2156,6 +2186,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エジル (Ozil) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エジル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エジル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2225,9 +2285,9 @@
       "contentHash": "1e25fae69a10a00e59c0feccea77e1f673499c9df6a08b68aef67c7cb6791568",
       "byteLength": 66059,
       "rawPath": "netkeiba/horses/2010/2010110129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:02:13.790Z"
+  "updatedAt": "2026-08-30T03:14:23.319Z"
 }

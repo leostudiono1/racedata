@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103274",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103274/",
-  "profile": null,
+  "profile": {
+    "name": "エイトマイル",
+    "birthDate": "2016-05-28",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "x0a13e",
+      "name": "宮崎豊治"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "グリーンアイズII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -8114,6 +8144,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイトマイル (Eight Mile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイトマイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイトマイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8183,9 +8243,9 @@
       "contentHash": "fbf4c683b8c16c5e48085f57dab463e7061d992a4cfabf79b1d1c8d75631ef55",
       "byteLength": 66887,
       "rawPath": "netkeiba/horses/2016/2016103274/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:21:05.089Z"
+  "updatedAt": "2026-08-30T03:33:14.306Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105080",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105080/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーサンズ",
+    "birthDate": "2022-02-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013106099",
+      "name": "ミッキーロケット"
+    },
+    "dam": {
+      "id": "2017105324",
+      "name": "ミッキーローズ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106099",
@@ -1216,6 +1246,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーサンズ (Mikki Suns) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーサンズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーサンズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1285,9 +1345,9 @@
       "contentHash": "d70d7fc521a99fe4fca4c3eba2c26aac9841c3e75afd8ab60368ef2d661edeba",
       "byteLength": 65256,
       "rawPath": "netkeiba/horses/2022/2022105080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:51:14.266Z"
+  "updatedAt": "2026-08-28T05:01:11.115Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009103068",
   "sourceUrl": "https://db.netkeiba.com/horse/2009103068/",
-  "profile": null,
+  "profile": {
+    "name": "クロタカ",
+    "birthDate": "2009-05-04",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "405800",
+      "name": "槇本牧場"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001110220",
+      "name": "シーキングザダイヤ"
+    },
+    "dam": {
+      "id": "2002106787",
+      "name": "ラプンツェル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001110220",
@@ -5157,6 +5187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロタカ (Kurotaka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロタカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロタカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5226,9 +5286,9 @@
       "contentHash": "3aed98619bee05162da5450065ac4b096303a6a2758c64bd63fc71e7c21bb816",
       "byteLength": 66259,
       "rawPath": "netkeiba/horses/2009/2009103068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:51:08.946Z"
+  "updatedAt": "2026-08-25T07:58:38.655Z"
 }

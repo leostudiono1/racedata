@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106093",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106093/",
-  "profile": null,
+  "profile": {
+    "name": "スマートレガシー",
+    "birthDate": "2018-02-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01185",
+      "name": "小林真也"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2006103037",
+      "name": "スマートパルス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1540,6 +1570,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートレガシー (Smart Legacy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートレガシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートレガシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1609,9 +1669,9 @@
       "contentHash": "36483ffc5c51a547344711f2c700737187263eba082074d25b3d22a44eec2832",
       "byteLength": 66979,
       "rawPath": "netkeiba/horses/2018/2018106093/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:35:43.016Z"
+  "updatedAt": "2026-08-28T04:45:39.967Z"
 }

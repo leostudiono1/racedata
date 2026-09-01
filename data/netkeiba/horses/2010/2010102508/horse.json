@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010102508",
   "sourceUrl": "https://db.netkeiba.com/horse/2010102508/",
-  "profile": null,
+  "profile": {
+    "name": "スターソード",
+    "birthDate": "2010-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01025",
+      "name": "佐藤正雄"
+    },
+    "owner": {
+      "id": "870004",
+      "name": "村上稔"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "1995100243",
+      "name": "カルメン"
+    },
+    "damsire": {
+      "id": "1977103827",
+      "name": "アンバーシャダイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2729,6 +2759,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターソード (Star Sword) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターソード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターソード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2798,9 +2858,9 @@
       "contentHash": "fe4eea440ebc3d99b0cdb39b98c2c2503803e704df2dd982d356efbc2d0dfdb4",
       "byteLength": 65592,
       "rawPath": "netkeiba/horses/2010/2010102508/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:42:07.319Z"
+  "updatedAt": "2026-08-31T02:49:49.853Z"
 }

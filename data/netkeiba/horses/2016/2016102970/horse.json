@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102970",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102970/",
-  "profile": null,
+  "profile": {
+    "name": "パークス",
+    "birthDate": "2016-02-05",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05661",
+      "name": "石川浩文"
+    },
+    "owner": {
+      "id": "165803",
+      "name": "（同）ＪＰＮ技研"
+    },
+    "breeder": {
+      "id": "123158",
+      "name": "グッドラック・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103004",
+      "name": "ベルシャザール"
+    },
+    "dam": {
+      "id": "2010110042",
+      "name": "ハタノボニート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103004",
@@ -4102,6 +4132,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パークス (Pax) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パークス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パークス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4171,9 +4231,9 @@
       "contentHash": "519df6ddab7617c7f7044da6544b1e725765b1b1560392692ed0ad817babf955",
       "byteLength": 65489,
       "rawPath": "netkeiba/horses/2016/2016102970/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:16:32.569Z"
+  "updatedAt": "2026-08-27T05:20:11.410Z"
 }

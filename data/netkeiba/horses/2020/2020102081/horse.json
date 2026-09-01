@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102081",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102081/",
-  "profile": null,
+  "profile": {
+    "name": "テンクウハット",
+    "birthDate": "2020-03-18",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "089002",
+      "name": "小島將之"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2007105969",
+      "name": "ナリタシルエット"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3198,6 +3228,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンクウハット (Tenku Hat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンクウハット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンクウハット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3267,9 +3327,9 @@
       "contentHash": "6c95ee43a098f08798bc6ac856e53a7d3ff7c085767eca7edb1b084e547815d8",
       "byteLength": 66999,
       "rawPath": "netkeiba/horses/2020/2020102081/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:08:04.810Z"
+  "updatedAt": "2026-08-26T06:16:37.456Z"
 }

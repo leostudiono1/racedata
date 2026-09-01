@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105288",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105288/",
-  "profile": null,
+  "profile": {
+    "name": "ダングラール",
+    "birthDate": "2022-02-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05705",
+      "name": "栗本陽一"
+    },
+    "owner": {
+      "id": "878031",
+      "name": "盛学志"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2014105462",
+      "name": "カンカンガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Exchange Rate"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -4139,6 +4169,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダングラール (Danglard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダングラール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダングラール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4208,9 +4268,9 @@
       "contentHash": "27b167e4ad5e4dda47c65d631cdb35f9a1e77687c3d22cbd99fa5a5ff91aff94",
       "byteLength": 66929,
       "rawPath": "netkeiba/horses/2022/2022105288/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:44:15.451Z"
+  "updatedAt": "2026-08-27T05:47:54.046Z"
 }

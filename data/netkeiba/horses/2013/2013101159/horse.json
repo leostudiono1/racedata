@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101159",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101159/",
-  "profile": null,
+  "profile": {
+    "name": "プレファイユ",
+    "birthDate": "2013-03-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "845008",
+      "name": "多田信尊"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2007106420",
+      "name": "クラリン"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -1074,6 +1104,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレファイユ (Prefailles) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレファイユ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレファイユ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1143,9 +1203,9 @@
       "contentHash": "78905bb362c507d1fe66dfbb3909ac3da8bace0b1d11f52beb6e96acab6619ee",
       "byteLength": 64348,
       "rawPath": "netkeiba/horses/2013/2013101159/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:58:26.535Z"
+  "updatedAt": "2026-08-25T08:05:56.383Z"
 }

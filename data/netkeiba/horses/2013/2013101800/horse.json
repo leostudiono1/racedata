@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101800",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101800/",
-  "profile": null,
+  "profile": {
+    "name": "フラワーオブライフ",
+    "birthDate": "2013-03-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "245030",
+      "name": "前田葉子"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2002110052",
+      "name": "エーゲリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1480,6 +1510,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラワーオブライフ (Flower of Life) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラワーオブライフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラワーオブライフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1549,9 +1609,9 @@
       "contentHash": "bb0734d64f2e410fce7032f51a92d5d8f299fcd4216e4bcdb4c865da411821b3",
       "byteLength": 66155,
       "rawPath": "netkeiba/horses/2013/2013101800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:37:49.564Z"
+  "updatedAt": "2026-08-29T03:41:12.305Z"
 }

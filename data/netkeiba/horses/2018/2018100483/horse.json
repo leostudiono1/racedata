@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100483",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100483/",
-  "profile": null,
+  "profile": {
+    "name": "ナリタエール",
+    "birthDate": "2018-04-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2009102519",
+      "name": "ナリタスカイ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1968,6 +1998,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナリタエール (Narita Yell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタエール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタエール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2037,9 +2097,9 @@
       "contentHash": "49b24b7e5d462ffd64f2ebb0d73a1244e32724d7f88299cfe6fb438b84a90308",
       "byteLength": 66946,
       "rawPath": "netkeiba/horses/2018/2018100483/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:27:47.128Z"
+  "updatedAt": "2026-08-30T03:39:56.926Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104762",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104762/",
-  "profile": null,
+  "profile": {
+    "name": "プライドランド",
+    "birthDate": "2016-01-31",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05718",
+      "name": "坂本和也"
+    },
+    "owner": {
+      "id": "900031",
+      "name": "前田良平"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ザズー Zazu(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -4045,6 +4075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プライドランド (Pride Land) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プライドランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プライドランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4114,9 +4174,9 @@
       "contentHash": "b07e47590b76b6ef557dc8330767f9e263393074167c5346865ddad648e9649c",
       "byteLength": 67041,
       "rawPath": "netkeiba/horses/2016/2016104762/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:21:53.525Z"
+  "updatedAt": "2026-08-30T03:34:03.227Z"
 }

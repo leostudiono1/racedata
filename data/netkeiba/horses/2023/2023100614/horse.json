@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100614",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100614/",
-  "profile": null,
+  "profile": {
+    "name": "エルリオ",
+    "birthDate": "2023-04-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "445030",
+      "name": "磯波勇"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014101976",
+      "name": "キセキ"
+    },
+    "dam": {
+      "id": "2008105124",
+      "name": "ゴールドカルラ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014101976",
@@ -2268,6 +2298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルリオ (El Rio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2337,9 +2397,9 @@
       "contentHash": "aefdf74c34e3ca5b44abea9026bb380b1a2557f4cada99f7e049bf5974800121",
       "byteLength": 65338,
       "rawPath": "netkeiba/horses/2023/2023100614/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:45:39.933Z"
+  "updatedAt": "2026-08-27T05:49:18.028Z"
 }

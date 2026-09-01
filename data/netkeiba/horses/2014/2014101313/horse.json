@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101313",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101313/",
-  "profile": null,
+  "profile": {
+    "name": "ケルビン",
+    "birthDate": "2014-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05759",
+      "name": "井樋明正"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "301060",
+      "name": "本桐牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2000107270",
+      "name": "ハギノオマージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -3582,6 +3612,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケルビン (Kelvin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルビン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルビン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3651,9 +3711,9 @@
       "contentHash": "22dda97198d94308488123c84e95aaf118ebba9a5ba8d8309621387833e8720b",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2014/2014101313/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:42:29.547Z"
+  "updatedAt": "2026-08-29T03:45:52.322Z"
 }

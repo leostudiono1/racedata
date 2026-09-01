@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100128",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100128/",
-  "profile": null,
+  "profile": {
+    "name": "サラダ",
+    "birthDate": "2022-03-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01161",
+      "name": "武英智"
+    },
+    "owner": {
+      "id": "334803",
+      "name": "ケーエスＨＤ"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2017102871",
+      "name": "エピファレーヌ"
+    },
+    "damsire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2498,6 +2528,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サラダ (Salad) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2567,9 +2627,9 @@
       "contentHash": "09352cb7129cad6348d0dea222b9b493bebc803482525325137490e5851c0237",
       "byteLength": 66667,
       "rawPath": "netkeiba/horses/2022/2022100128/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:26:17.817Z"
+  "updatedAt": "2026-08-31T03:34:00.574Z"
 }

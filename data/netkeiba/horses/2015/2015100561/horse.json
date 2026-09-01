@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100561",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100561/",
-  "profile": null,
+  "profile": {
+    "name": "カーティバル",
+    "birthDate": "2015-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "258033",
+      "name": "野嶋祥二"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "プリンセスルーシー Princess Lucy(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Strategic Prince"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1718,6 +1748,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カーティバル (Cautivar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーティバル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーティバル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1787,9 +1847,9 @@
       "contentHash": "111fb4b70b5c02dda0a64641a3ae2c1565695b404ac027a0305012ac616f0e88",
       "byteLength": 66729,
       "rawPath": "netkeiba/horses/2015/2015100561/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:46:09.924Z"
+  "updatedAt": "2026-08-29T03:49:33.393Z"
 }

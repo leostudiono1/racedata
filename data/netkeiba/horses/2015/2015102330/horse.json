@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102330",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102330/",
-  "profile": null,
+  "profile": {
+    "name": "イセベル",
+    "birthDate": "2015-02-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01012",
+      "name": "大江原哲"
+    },
+    "owner": {
+      "id": "727008",
+      "name": "谷掛龍夫"
+    },
+    "breeder": {
+      "id": "013094",
+      "name": "片山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "1996107132",
+      "name": "ベルクラシック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -2678,6 +2708,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イセベル (Iceberg) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イセベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イセベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2747,9 +2807,9 @@
       "contentHash": "53bc82dcc9b22e5a28a8c2c8544909c2fab0e5eb58a55c931e414432d60830fd",
       "byteLength": 66892,
       "rawPath": "netkeiba/horses/2015/2015102330/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:17:55.496Z"
+  "updatedAt": "2026-08-30T03:30:05.238Z"
 }

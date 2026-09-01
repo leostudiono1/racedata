@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101567",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101567/",
-  "profile": null,
+  "profile": {
+    "name": "ターコイズ",
+    "birthDate": "2015-04-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ハードスパン Hard Spun(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アクアリスト Aquarist(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コロナドズクエスト Coronado's Quest(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1415,6 +1445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ターコイズ (Turquoise) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ターコイズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ターコイズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1484,9 +1544,9 @@
       "contentHash": "b7c734051c19c2d7f0874109d3ad7becb453612c3a58af3b5572d7a7a85531a0",
       "byteLength": 64699,
       "rawPath": "netkeiba/horses/2015/2015101567/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:07:08.254Z"
+  "updatedAt": "2026-08-25T08:14:38.306Z"
 }

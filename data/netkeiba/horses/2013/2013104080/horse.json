@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104080",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104080/",
-  "profile": null,
+  "profile": {
+    "name": "キニスキー",
+    "birthDate": "2013-05-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01040",
+      "name": "服部利之"
+    },
+    "owner": {
+      "id": "303803",
+      "name": "藤井聡一郎"
+    },
+    "breeder": {
+      "id": "933075",
+      "name": "カタオカファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101550",
+      "name": "オレハマッテルゼ"
+    },
+    "dam": {
+      "id": "1998104086",
+      "name": "イーエルブロッサム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラストタイクーン Last Tycoon(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101550",
@@ -2739,6 +2769,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キニスキー (Kiniski) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キニスキー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キニスキー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2808,9 +2868,9 @@
       "contentHash": "f4e36d21fa8c344f2ed4004914691b9ab98dbf0d6a96aad7db9b464dee2a6ed4",
       "byteLength": 65057,
       "rawPath": "netkeiba/horses/2013/2013104080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:11:05.901Z"
+  "updatedAt": "2026-08-30T03:23:15.583Z"
 }

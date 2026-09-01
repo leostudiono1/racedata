@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110029",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110029/",
-  "profile": null,
+  "profile": {
+    "name": "ケープルーウィン",
+    "birthDate": "2016-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "000733",
+      "name": "Marcella & Mike Foley"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Cape Cross"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Salt Rose"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sleeping Indian"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1193,6 +1223,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケープルーウィン (Cape Leeuwin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケープルーウィン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケープルーウィン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1262,9 +1322,9 @@
       "contentHash": "9157692b7f67f3e74a256a3cf6cb0976d52aa2f4ea0d1e67e386aced868cdcb6",
       "byteLength": 64895,
       "rawPath": "netkeiba/horses/2016/2016110029/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:14:46.901Z"
+  "updatedAt": "2026-08-25T08:22:16.709Z"
 }

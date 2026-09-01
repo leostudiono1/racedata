@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103431",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103431/",
-  "profile": null,
+  "profile": {
+    "name": "キボウホー",
+    "birthDate": "2023-04-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "Zarak (仏)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シーユーオールウェイズ See You Always(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Siyouni"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1608,6 +1638,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キボウホー (Kiboho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キボウホー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キボウホー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1677,9 +1737,9 @@
       "contentHash": "b85e1cbf24ea239aa0adcfc208fe184d8bde1aa7b12b20744d273c60236f022d",
       "byteLength": 65439,
       "rawPath": "netkeiba/horses/2023/2023103431/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:32:25.371Z"
+  "updatedAt": "2026-08-31T03:40:07.628Z"
 }

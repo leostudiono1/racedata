@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100539",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100539/",
-  "profile": null,
+  "profile": {
+    "name": "タイセイドクター",
+    "birthDate": "2020-04-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01116",
+      "name": "新開幸一"
+    },
+    "owner": {
+      "id": "224007",
+      "name": "田中成奉"
+    },
+    "breeder": {
+      "id": "303062",
+      "name": "米田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011105266",
+      "name": "ゴールドアクター"
+    },
+    "dam": {
+      "id": "2002106343",
+      "name": "チアズフィアレス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011105266",
@@ -1240,6 +1270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイセイドクター (Taisei Doctor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイドクター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイドクター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1309,9 +1369,9 @@
       "contentHash": "db97737240f236d89c140652d3a366a0676ff313709ee213e4bada5b49e78d18",
       "byteLength": 66989,
       "rawPath": "netkeiba/horses/2020/2020100539/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:08:34.324Z"
+  "updatedAt": "2026-08-29T04:11:57.434Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101607",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101607/",
-  "profile": null,
+  "profile": {
+    "name": "ズコット",
+    "birthDate": "2012-02-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラドルチェ La Dolce(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -9233,6 +9263,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ズコット (Zuccotto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ズコット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ズコット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9302,9 +9362,9 @@
       "contentHash": "0137e70f8eccee4df97dac1d4488cd62bc6bebdf93c0b11d09f1c8e02b858fb1",
       "byteLength": 66833,
       "rawPath": "netkeiba/horses/2012/2012101607/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:08:45.875Z"
+  "updatedAt": "2026-08-28T04:18:42.236Z"
 }

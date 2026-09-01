@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100214",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100214/",
-  "profile": null,
+  "profile": {
+    "name": "スナークスター",
+    "birthDate": "2016-04-11",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "木村健"
+    },
+    "owner": {
+      "id": "478030",
+      "name": "杉本豊"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2007109141",
+      "name": "スナークヒロイン"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -7852,6 +7882,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スナークスター (Snark Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スナークスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スナークスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7921,9 +7981,9 @@
       "contentHash": "290148264b07d6e5b5a224ee2306bf0ae2357c37891f4d008378d55e6de68162",
       "byteLength": 67002,
       "rawPath": "netkeiba/horses/2016/2016100214/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:14:47.609Z"
+  "updatedAt": "2026-08-27T05:18:25.964Z"
 }

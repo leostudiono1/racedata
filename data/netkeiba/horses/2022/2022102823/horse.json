@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102823",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102823/",
-  "profile": null,
+  "profile": {
+    "name": "アゼム",
+    "birthDate": "2022-04-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "550031",
+      "name": "鈴木淳人"
+    },
+    "breeder": {
+      "id": "830034",
+      "name": "松栄牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015104813",
+      "name": "ヘンリーバローズ"
+    },
+    "dam": {
+      "id": "2010102595",
+      "name": "シャルロッカ"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104813",
@@ -1845,6 +1875,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アゼム (Azem) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アゼム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アゼム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1914,9 +1974,9 @@
       "contentHash": "c1fb328ef42910a94e39eafbe94e21b46e277e7d667e86afa0046f3118298ccd",
       "byteLength": 66782,
       "rawPath": "netkeiba/horses/2022/2022102823/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:39:13.902Z"
+  "updatedAt": "2026-08-25T08:46:43.586Z"
 }

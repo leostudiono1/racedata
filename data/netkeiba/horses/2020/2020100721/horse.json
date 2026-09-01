@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100721",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100721/",
-  "profile": null,
+  "profile": {
+    "name": "アンナプルナ",
+    "birthDate": "2020-04-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05709",
+      "name": "千葉博次"
+    },
+    "owner": {
+      "id": "349803",
+      "name": "住宅データ"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007104877",
+      "name": "ドリームバレンチノ"
+    },
+    "dam": {
+      "id": "2013103249",
+      "name": "グランドサッチャー"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2007104877",
@@ -3321,6 +3351,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンナプルナ (Annapurna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンナプルナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンナプルナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3390,9 +3450,9 @@
       "contentHash": "22c2c6a53f88c09268d3debd5dce5436d340b24fdbb488ba49f40b892efd0e43",
       "byteLength": 66901,
       "rawPath": "netkeiba/horses/2020/2020100721/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:06:54.228Z"
+  "updatedAt": "2026-08-26T06:15:27.050Z"
 }

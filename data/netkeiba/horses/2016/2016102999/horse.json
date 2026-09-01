@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102999",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102999/",
-  "profile": null,
+  "profile": {
+    "name": "アイベックス",
+    "birthDate": "2016-03-16",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "812008",
+      "name": "石瀬浩三"
+    },
+    "breeder": {
+      "id": "313355",
+      "name": "佐々木康治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2002106090",
+      "name": "ゴールドバニヤン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1157,6 +1187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイベックス (Ibex) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイベックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイベックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1226,9 +1286,9 @@
       "contentHash": "c3decbc41d6d144067fe5379776ecfbeec3ac1f5c1fab9a5f846b89a3acb8562",
       "byteLength": 64590,
       "rawPath": "netkeiba/horses/2016/2016102999/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:24:23.670Z"
+  "updatedAt": "2026-08-24T09:30:15.459Z"
 }

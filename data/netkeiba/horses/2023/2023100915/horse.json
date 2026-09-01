@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100915",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100915/",
-  "profile": null,
+  "profile": {
+    "name": "ララアルカー",
+    "birthDate": "2023-02-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "851800",
+      "name": "フジイ興産"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2013100389",
+      "name": "クリーンファンキー"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1209,6 +1239,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ララアルカー (La La Alkaa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララアルカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララアルカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1278,9 +1338,9 @@
       "contentHash": "0ff917f73756894554857f85826bdd8ce88da644be55e6cc23344c42093da296",
       "byteLength": 64952,
       "rawPath": "netkeiba/horses/2023/2023100915/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:45:53.297Z"
+  "updatedAt": "2026-08-27T05:49:31.916Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102465",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102465/",
-  "profile": null,
+  "profile": {
+    "name": "ゲールズヒーロー",
+    "birthDate": "2019-04-22",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01012",
+      "name": "大江原哲"
+    },
+    "owner": {
+      "id": "898005",
+      "name": "大原詔宏"
+    },
+    "breeder": {
+      "id": "390543",
+      "name": "大原ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009101682",
+      "name": "トウケイヘイロー"
+    },
+    "dam": {
+      "id": "2009100978",
+      "name": "ベスタルキュート"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009101682",
@@ -1183,6 +1213,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲールズヒーロー (Gael's Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲールズヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲールズヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1252,9 +1312,9 @@
       "contentHash": "7060ed2b965166fe802e37601a31a51d04095f337141bb57dd57fdfeae66732e",
       "byteLength": 65013,
       "rawPath": "netkeiba/horses/2019/2019102465/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:29:22.466Z"
+  "updatedAt": "2026-08-27T05:33:01.213Z"
 }

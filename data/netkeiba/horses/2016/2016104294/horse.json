@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104294",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104294/",
-  "profile": null,
+  "profile": {
+    "name": "レヨン",
+    "birthDate": "2016-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2007102689",
+      "name": "ディミータ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1072,6 +1102,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レヨン (Rayon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レヨン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レヨン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1141,9 +1201,9 @@
       "contentHash": "3f1ba0bb5a7e6da9c8ec5898ccad60847cd8285e6000e09f5c4db6498e1c15dc",
       "byteLength": 65142,
       "rawPath": "netkeiba/horses/2016/2016104294/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:52:04.861Z"
+  "updatedAt": "2026-08-26T06:00:37.805Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104398",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104398/",
-  "profile": null,
+  "profile": {
+    "name": "パスカル",
+    "birthDate": "2017-02-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2007103376",
+      "name": "トーセンキャッスル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -2146,6 +2176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パスカル (Pascal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パスカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パスカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2215,9 +2275,9 @@
       "contentHash": "764e7f6067ef28cd499a4a0e881de49adf32b387d64c82de1184a5460a4e4cb7",
       "byteLength": 65258,
       "rawPath": "netkeiba/horses/2017/2017104398/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:29:53.148Z"
+  "updatedAt": "2026-08-24T09:35:44.641Z"
 }

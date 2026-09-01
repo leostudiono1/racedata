@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110105",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110105/",
-  "profile": null,
+  "profile": {
+    "name": "マリーナベイ",
+    "birthDate": "2011-09-12",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "590709",
+      "name": "Valeata Bloodstock Pty Ltd Cap Jaluca Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Lonhro (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Household"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Chester House (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2459,6 +2489,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マリーナベイ (Marina Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリーナベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリーナベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2528,9 +2588,9 @@
       "contentHash": "6f36d40a91f69186ec06fc69f3f3da7a01ea1e43d1df45c8fee9343b1eef3e42",
       "byteLength": 65487,
       "rawPath": "netkeiba/horses/2011/2011110105/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T06:57:51.761Z"
+  "updatedAt": "2026-08-27T05:01:30.625Z"
 }

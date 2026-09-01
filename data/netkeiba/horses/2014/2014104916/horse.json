@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104916",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104916/",
-  "profile": null,
+  "profile": {
+    "name": "メインスピーチ",
+    "birthDate": "2014-03-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "764001",
+      "name": "谷水雄三"
+    },
+    "breeder": {
+      "id": "533087",
+      "name": "西村和夫"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2007100204",
+      "name": "テーブルスピーチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1163,6 +1193,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メインスピーチ (Main Speech) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メインスピーチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メインスピーチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1232,9 +1292,9 @@
       "contentHash": "3d798c997decce32a0600af979fd7727431313714dbc9ea48fceb8f30caa6f57",
       "byteLength": 64429,
       "rawPath": "netkeiba/horses/2014/2014104916/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:08:32.598Z"
+  "updatedAt": "2026-08-27T05:12:11.263Z"
 }

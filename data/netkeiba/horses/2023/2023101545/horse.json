@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101545",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101545/",
-  "profile": null,
+  "profile": {
+    "name": "ロミオ",
+    "birthDate": "2023-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "310328",
+      "name": "門別尚省"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100783",
+      "name": "シュウジ"
+    },
+    "dam": {
+      "id": "2014100216",
+      "name": "ペンデュラム"
+    },
+    "damsire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100783",
@@ -1609,6 +1639,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロミオ (Romeo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロミオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロミオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1678,9 +1738,9 @@
       "contentHash": "d10cc89cd058a9306a08a2a85ff5f70583866efcba310432d74023e600c2b542",
       "byteLength": 66979,
       "rawPath": "netkeiba/horses/2023/2023101545/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:31:33.023Z"
+  "updatedAt": "2026-08-31T03:39:15.064Z"
 }

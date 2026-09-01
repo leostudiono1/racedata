@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105344",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105344/",
-  "profile": null,
+  "profile": {
+    "name": "トピックス",
+    "birthDate": "2018-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01047",
+      "name": "勢司和浩"
+    },
+    "owner": {
+      "id": "493033",
+      "name": "齋藤秀昭"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2012104911",
+      "name": "リュナティク"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -2116,6 +2146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トピックス (Topics) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トピックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トピックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2185,9 +2245,9 @@
       "contentHash": "6630b7c678aae78486dec1a3eb131746645b20f6342d7205cc00f18e3161843b",
       "byteLength": 65960,
       "rawPath": "netkeiba/horses/2018/2018105344/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:34:32.963Z"
+  "updatedAt": "2026-08-24T09:40:24.647Z"
 }

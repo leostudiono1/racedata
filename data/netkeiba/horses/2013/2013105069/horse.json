@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105069",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105069/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウフェスタ",
+    "birthDate": "2013-05-25",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01121",
+      "name": "角田晃一"
+    },
+    "owner": {
+      "id": "911008",
+      "name": "松本好隆"
+    },
+    "breeder": {
+      "id": "001377",
+      "name": "佐久間孝司"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2003106781",
+      "name": "ミンナシアワセ"
+    },
+    "damsire": {
+      "id": "1997103684",
+      "name": "フサイチソニック"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -1381,6 +1411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウフェスタ (Meisho Festa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウフェスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウフェスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1450,9 +1510,9 @@
       "contentHash": "ec3c34406f4f8c85a1afc2792956829e772ea2c2fcfc5e85781b6ede2d1021cf",
       "byteLength": 65189,
       "rawPath": "netkeiba/horses/2013/2013105069/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:13:46.800Z"
+  "updatedAt": "2026-08-24T09:19:38.157Z"
 }

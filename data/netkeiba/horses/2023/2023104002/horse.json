@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104002",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104002/",
-  "profile": null,
+  "profile": {
+    "name": "ハルノアメ",
+    "birthDate": "2023-04-09",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "930318",
+      "name": "大林ファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103548",
+      "name": "ダノンバラード"
+    },
+    "dam": {
+      "id": "2013100079",
+      "name": "スプリングガール"
+    },
+    "damsire": {
+      "id": "2001103660",
+      "name": "トーセンブライト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103548",
@@ -1831,6 +1861,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハルノアメ (Haruno Ame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルノアメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルノアメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1900,9 +1960,9 @@
       "contentHash": "b41362bf6dad1ef6eed7752d688945430602aed5d43fe1b668dd9510be78d4fa",
       "byteLength": 65143,
       "rawPath": "netkeiba/horses/2023/2023104002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:55:47.412Z"
+  "updatedAt": "2026-08-28T05:05:44.214Z"
 }

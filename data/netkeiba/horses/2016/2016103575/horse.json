@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103575",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103575/",
-  "profile": null,
+  "profile": {
+    "name": "サーチュイン",
+    "birthDate": "2016-02-21",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05106",
+      "name": "真島元徳"
+    },
+    "owner": {
+      "id": "446006",
+      "name": "加藤厚子"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2007105970",
+      "name": "トウカイライフ"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -4447,6 +4477,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サーチュイン (Sirtuin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーチュイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーチュイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4516,9 +4576,9 @@
       "contentHash": "e1e0b3553ab5d80936afaeb9419b27b57bdaded47a7a057b74440ef6339f7d96",
       "byteLength": 67023,
       "rawPath": "netkeiba/horses/2016/2016103575/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:51:37.522Z"
+  "updatedAt": "2026-08-26T06:00:09.774Z"
 }

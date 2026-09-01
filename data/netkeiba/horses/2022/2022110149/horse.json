@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110149",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110149/",
-  "profile": null,
+  "profile": {
+    "name": "ドウジャスティ",
+    "birthDate": "2022-02-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "280713",
+      "name": "Misty For Me Syndicate"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Justify (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Misty For Me"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1337,6 +1367,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドウジャスティ (Do Justi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドウジャスティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドウジャスティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1406,9 +1466,9 @@
       "contentHash": "6909107688f7921a2b833302d4c4e1853961dad82b6bacadfa252afd3567b313",
       "byteLength": 66345,
       "rawPath": "netkeiba/horses/2022/2022110149/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:42:01.947Z"
+  "updatedAt": "2026-08-25T08:49:31.909Z"
 }

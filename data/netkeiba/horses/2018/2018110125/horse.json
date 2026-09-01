@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110125",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110125/",
-  "profile": null,
+  "profile": {
+    "name": "バジェットライン",
+    "birthDate": "2018-03-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "玉井昇"
+    },
+    "owner": {
+      "id": "x08f1b",
+      "name": "角谷守正"
+    },
+    "breeder": {
+      "id": "970707",
+      "name": "Chiyoda Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Fraulein"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2932,6 +2962,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バジェットライン (Budget Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バジェットライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バジェットライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3001,9 +3061,9 @@
       "contentHash": "28214dedb584ea22dd36bf68c8e21089783e1a1cc25e5afe45404744f7957d17",
       "byteLength": 64618,
       "rawPath": "netkeiba/horses/2018/2018110125/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:27:58.648Z"
+  "updatedAt": "2026-08-27T05:31:37.090Z"
 }

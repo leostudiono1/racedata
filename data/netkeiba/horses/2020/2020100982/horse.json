@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100982",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100982/",
-  "profile": null,
+  "profile": {
+    "name": "ランマ",
+    "birthDate": "2020-05-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05623",
+      "name": "栗林徹治"
+    },
+    "owner": {
+      "id": "520008",
+      "name": "北嶋佳和"
+    },
+    "breeder": {
+      "id": "430052",
+      "name": "村下清志"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2000103853",
+      "name": "エミリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1741,6 +1771,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランマ (Run Ma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1810,9 +1870,9 @@
       "contentHash": "5cc6e0bea9156dbbdaed092d35b52548662f30949185d6fd103a582eb4c2acfb",
       "byteLength": 64521,
       "rawPath": "netkeiba/horses/2020/2020100982/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:29:11.746Z"
+  "updatedAt": "2026-08-25T08:36:41.406Z"
 }

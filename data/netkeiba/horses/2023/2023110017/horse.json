@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110017",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110017/",
-  "profile": null,
+  "profile": {
+    "name": "ラッキーモア",
+    "birthDate": "2023-02-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "015060",
+      "name": "張月勝"
+    },
+    "breeder": {
+      "id": "140713",
+      "name": "Yulong Investments"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Lucky Vega"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Class Act"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1276,6 +1306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラッキーモア (Lucky More) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキーモア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキーモア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1345,9 +1405,9 @@
       "contentHash": "e6a32f5b9336254cc66bc3dd99330ba748b531f5b4fa9cc74cf2962a11e1b533",
       "byteLength": 66633,
       "rawPath": "netkeiba/horses/2023/2023110017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:46:00.100Z"
+  "updatedAt": "2026-08-25T08:53:30.025Z"
 }

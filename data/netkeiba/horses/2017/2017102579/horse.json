@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102579",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102579/",
-  "profile": null,
+  "profile": {
+    "name": "ワールドピース",
+    "birthDate": "2017-02-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "879033",
+      "name": "江馬由将"
+    },
+    "breeder": {
+      "id": "333028",
+      "name": "広田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パーフェクトワールド Perfect World(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1098,6 +1128,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワールドピース (World Peace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワールドピース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワールドピース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1167,9 +1227,9 @@
       "contentHash": "00441a2e4f0f6e5393598b1223ed02b4d4276506346aa2fe31d67436773f6cea",
       "byteLength": 65237,
       "rawPath": "netkeiba/horses/2017/2017102579/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:16:24.997Z"
+  "updatedAt": "2026-08-25T08:23:54.703Z"
 }

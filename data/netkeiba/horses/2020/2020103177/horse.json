@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103177",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103177/",
-  "profile": null,
+  "profile": {
+    "name": "ミマンキ",
+    "birthDate": "2020-03-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "800380",
+      "name": "習志野牧場"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2013102355",
+      "name": "アースビーガ"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1143,6 +1173,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミマンキ (Mi Manchi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミマンキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミマンキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1212,9 +1272,9 @@
       "contentHash": "f9189a610d0463232c42303a1a63c2571ba48595ddd03256bae705f79c241572",
       "byteLength": 64748,
       "rawPath": "netkeiba/horses/2020/2020103177/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:30:14.763Z"
+  "updatedAt": "2026-08-25T08:37:44.449Z"
 }

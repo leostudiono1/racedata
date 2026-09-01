@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101500",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101500/",
-  "profile": null,
+  "profile": {
+    "name": "ケントホープ",
+    "birthDate": "2016-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "竹下太"
+    },
+    "owner": {
+      "id": "x0a64f",
+      "name": "服部豊"
+    },
+    "breeder": {
+      "id": "113069",
+      "name": "山野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2010110092",
+      "name": "ココロノスポーツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monarchos"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -9979,6 +10009,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケントホープ (Kento Hope) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントホープ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントホープ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10048,9 +10108,9 @@
       "contentHash": "458ab58b5a32b4d79f7d658af3b26e2bd158d07524f3f95d8c39b5e6f873a2ea",
       "byteLength": 65534,
       "rawPath": "netkeiba/horses/2016/2016101500/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:50:13.073Z"
+  "updatedAt": "2026-08-26T05:58:45.844Z"
 }

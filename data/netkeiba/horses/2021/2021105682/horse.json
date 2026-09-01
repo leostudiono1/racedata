@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105682",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105682/",
-  "profile": null,
+  "profile": {
+    "name": "ハイボーン",
+    "birthDate": "2021-03-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "370033",
+      "name": "長谷川守正"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2012104578",
+      "name": "ノーブルリーズン"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2251,6 +2281,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイボーン (High Born) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイボーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイボーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2320,9 +2380,9 @@
       "contentHash": "504c2b8774cb03c6d615a5d5bbc9548ac78ea71b575f42a48ac3cd732aefe8bc",
       "byteLength": 65137,
       "rawPath": "netkeiba/horses/2021/2021105682/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:48:36.799Z"
+  "updatedAt": "2026-08-24T09:54:28.553Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103146",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103146/",
-  "profile": null,
+  "profile": {
+    "name": "カンシン",
+    "birthDate": "2022-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01196",
+      "name": "西園翔太"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "330661",
+      "name": "ビクトリーホースランチ"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2015100398",
+      "name": "コスモダリア"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -2338,6 +2368,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カンシン (Kanshin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2407,9 +2467,9 @@
       "contentHash": "db3b39b874d4e2d85cbf11b68e75c5847e99a8da85fc6263492142795564d16b",
       "byteLength": 66743,
       "rawPath": "netkeiba/horses/2022/2022103146/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:52:17.379Z"
+  "updatedAt": "2026-08-24T09:58:09.346Z"
 }

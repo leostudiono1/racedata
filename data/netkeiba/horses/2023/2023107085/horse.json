@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107085",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107085/",
-  "profile": null,
+  "profile": {
+    "name": "セルレーヴ",
+    "birthDate": "2023-03-15",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01221",
+      "name": "室井潔"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2016104638",
+      "name": "セリユーズ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1300,6 +1330,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セルレーヴ (C'est le Reve) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルレーヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルレーヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1369,9 +1429,9 @@
       "contentHash": "dbc7b0a95dd0fe4ddf84257ccdab03a276e30e70a0d4880f74641a1260031a24",
       "byteLength": 66362,
       "rawPath": "netkeiba/horses/2023/2023107085/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:52:38.777Z"
+  "updatedAt": "2026-08-30T04:04:48.470Z"
 }

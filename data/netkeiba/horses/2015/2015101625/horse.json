@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101625",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101625/",
-  "profile": null,
+  "profile": {
+    "name": "アイコン",
+    "birthDate": "2015-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2008104079",
+      "name": "セレブリティ"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1628,6 +1658,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイコン (Icon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイコン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイコン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1697,9 +1757,9 @@
       "contentHash": "908bb87f5044e81c07afd15e3e187a7af712d9cc20550eb331c3d597d25038ce",
       "byteLength": 65428,
       "rawPath": "netkeiba/horses/2015/2015101625/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:45:36.365Z"
+  "updatedAt": "2026-08-26T05:54:09.107Z"
 }

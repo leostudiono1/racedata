@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101112",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101112/",
-  "profile": null,
+  "profile": {
+    "name": "アイファーリーオー",
+    "birthDate": "2022-04-03",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05671",
+      "name": "倉地学"
+    },
+    "owner": {
+      "id": "119007",
+      "name": "中島稔"
+    },
+    "breeder": {
+      "id": "080541",
+      "name": "アースファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008100386",
+      "name": "アイファーソング"
+    },
+    "dam": {
+      "id": "2012104470",
+      "name": "エアリーチューン"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2008100386",
@@ -1650,6 +1680,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイファーリーオー (Eifer Leo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーリーオー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーリーオー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1719,9 +1779,9 @@
       "contentHash": "c265b2c51e3f7cc73c4908ec06ed06cb868fc1e8ca740031be685287b2e32504",
       "byteLength": 66127,
       "rawPath": "netkeiba/horses/2022/2022101112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:38:17.946Z"
+  "updatedAt": "2026-08-25T08:45:47.594Z"
 }

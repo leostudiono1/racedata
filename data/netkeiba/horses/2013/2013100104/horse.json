@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100104",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100104/",
-  "profile": null,
+  "profile": {
+    "name": "ホットアンドクール",
+    "birthDate": "2013-03-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102870",
+      "name": "トーセンファントム"
+    },
+    "dam": {
+      "id": "2007105292",
+      "name": "トーセンピナクル"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102870",
@@ -1121,6 +1151,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホットアンドクール (Hot and Cool) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホットアンドクール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホットアンドクール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1190,9 +1250,9 @@
       "contentHash": "4ed78fa25a5670f74227254fe88870487030e9e0b761ddb1af9a1483d7ec5e9a",
       "byteLength": 64620,
       "rawPath": "netkeiba/horses/2013/2013100104/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:48:57.009Z"
+  "updatedAt": "2026-08-31T02:56:39.257Z"
 }

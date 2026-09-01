@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105396",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105396/",
-  "profile": null,
+  "profile": {
+    "name": "グラミス",
+    "birthDate": "2016-05-12",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "宇都英樹"
+    },
+    "owner": {
+      "id": "x09dd9",
+      "name": "小林伸幸"
+    },
+    "breeder": {
+      "id": "433066",
+      "name": "荒木貴宏"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2011104066",
+      "name": "アンテプリッツ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -4060,6 +4090,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラミス (Glamis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラミス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラミス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4129,9 +4189,9 @@
       "contentHash": "d63ee7a93dc910676dbb6af8b670d597a7e13ca4ed7816b3f0d7d25fd3c6b94a",
       "byteLength": 66819,
       "rawPath": "netkeiba/horses/2016/2016105396/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:03:53.327Z"
+  "updatedAt": "2026-08-31T03:11:35.905Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102702",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102702/",
-  "profile": null,
+  "profile": {
+    "name": "ペントハウス",
+    "birthDate": "2023-02-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05675",
+      "name": "笹野博司"
+    },
+    "owner": {
+      "id": "x0a519",
+      "name": "福原聡"
+    },
+    "breeder": {
+      "id": "100541",
+      "name": "サンデーヒルズ"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2014100617",
+      "name": "ピンクガーベラ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1740,6 +1770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペントハウス (Penthouse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペントハウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペントハウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1809,9 +1869,9 @@
       "contentHash": "aa84d8f356953fedde4884bf96bdb406355c338f2269399ac971a359bbbce0e2",
       "byteLength": 64710,
       "rawPath": "netkeiba/horses/2023/2023102702/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:47:03.573Z"
+  "updatedAt": "2026-08-27T05:50:42.192Z"
 }

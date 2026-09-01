@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110115",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110115/",
-  "profile": null,
+  "profile": {
+    "name": "ジャスパージャガー",
+    "birthDate": "2017-02-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "672033",
+      "name": "加藤和夫"
+    },
+    "breeder": {
+      "id": "160734",
+      "name": "Relentless Racing"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Flatbow"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Broken Vow"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1566,6 +1596,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャスパージャガー (Jasper Jaguar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャスパージャガー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャスパージャガー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1635,9 +1695,9 @@
       "contentHash": "c7774d7ba3f58e2c429ed429dfe36caf7ae4de1a5e6c58646c017b14346ea827",
       "byteLength": 64826,
       "rawPath": "netkeiba/horses/2017/2017110115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:23:35.813Z"
+  "updatedAt": "2026-08-27T05:27:14.572Z"
 }

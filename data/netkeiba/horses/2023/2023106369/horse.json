@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106369",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106369/",
-  "profile": null,
+  "profile": {
+    "name": "メリティス",
+    "birthDate": "2023-04-23",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01195",
+      "name": "嘉藤貴行"
+    },
+    "owner": {
+      "id": "046803",
+      "name": "フクキタル"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2017106544",
+      "name": "テイストオブハニー"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1381,6 +1411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メリティス (Mellitus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリティス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリティス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1450,9 +1510,9 @@
       "contentHash": "ce92b1c83d31b6d680eef9d2c1c0aca1aa6c2c93ee1796b11abc8e1431bba326",
       "byteLength": 67330,
       "rawPath": "netkeiba/horses/2023/2023106369/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:49:44.424Z"
+  "updatedAt": "2026-08-27T05:53:23.030Z"
 }

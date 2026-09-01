@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102273",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102273/",
-  "profile": null,
+  "profile": {
+    "name": "エイシンティンクル",
+    "birthDate": "2013-03-08",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01168",
+      "name": "上村洋行"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "403095",
+      "name": "木田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャタリナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3112,6 +3142,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシンティンクル (A Shin Twinkle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンティンクル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンティンクル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3181,9 +3241,9 @@
       "contentHash": "fb1fc1b028f704872421b14fc33b04b713a0032c840499b9382eef1b296623b7",
       "byteLength": 67266,
       "rawPath": "netkeiba/horses/2013/2013102273/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:50:24.593Z"
+  "updatedAt": "2026-08-31T02:58:06.785Z"
 }

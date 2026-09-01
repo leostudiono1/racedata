@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101448",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101448/",
-  "profile": null,
+  "profile": {
+    "name": "タイセイリアル",
+    "birthDate": "2021-02-20",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "224007",
+      "name": "田中成奉"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Arrogate (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラフタ Lafta(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kitten's Joy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1268,6 +1298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイセイリアル (Taisei Real) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイリアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイリアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1337,9 +1397,9 @@
       "contentHash": "578c45df8f7570f03074d62fe52e4d3d79221da625e62355dc60a56ebd5e7bef",
       "byteLength": 65540,
       "rawPath": "netkeiba/horses/2021/2021101448/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:44:32.083Z"
+  "updatedAt": "2026-08-28T04:54:28.518Z"
 }

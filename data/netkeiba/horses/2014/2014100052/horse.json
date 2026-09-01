@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100052",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100052/",
-  "profile": null,
+  "profile": {
+    "name": "アラロケ",
+    "birthDate": "2014-04-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00412",
+      "name": "高橋裕"
+    },
+    "owner": {
+      "id": "471800",
+      "name": "アラキファーム"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2006104117",
+      "name": "アラマサローズ"
+    },
+    "damsire": {
+      "id": "1997106560",
+      "name": "スターリングローズ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -5350,6 +5380,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラロケ (Ara Loke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラロケ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラロケ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5419,9 +5479,9 @@
       "contentHash": "49ce52bff3cf243cbe604a565b76e5bbd868836f22ca355a44a003d9d7e5619d",
       "byteLength": 64865,
       "rawPath": "netkeiba/horses/2014/2014100052/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:41:37.345Z"
+  "updatedAt": "2026-08-29T03:45:00.091Z"
 }

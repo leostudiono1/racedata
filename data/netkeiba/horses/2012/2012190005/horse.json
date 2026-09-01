@@ -2,7 +2,34 @@
   "schemaVersion": 1,
   "id": "2012190005",
   "sourceUrl": "https://db.netkeiba.com/horse/2012190005/",
-  "profile": null,
+  "profile": {
+    "name": "Western Express",
+    "birthDate": "2012-12-14",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05611",
+      "name": "サイズ"
+    },
+    "owner": {
+      "id": "080007",
+      "name": "Ｌ．ヨン"
+    },
+    "breeder": null,
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Encosta de Lago"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Alsatia"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Marauding"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3048,6 +3075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Western Express (ウエスタンエクスプレス) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Western Express関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Western Express関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3117,9 +3174,9 @@
       "contentHash": "0bf3185359ca8ed91dc6d3ad2b7f9494937ec35a797eb36a9da74bd3e96cf695",
       "byteLength": 65126,
       "rawPath": "netkeiba/horses/2012/2012190005/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:36:28.729Z"
+  "updatedAt": "2026-08-29T03:39:51.715Z"
 }

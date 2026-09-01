@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104623",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104623/",
-  "profile": null,
+  "profile": {
+    "name": "リベラル",
+    "birthDate": "2023-03-20",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01171",
+      "name": "小手川準"
+    },
+    "owner": {
+      "id": "022803",
+      "name": "パニオロ"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2009105803",
+      "name": "ダイワミストレス"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1021,6 +1051,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リベラル (Liberal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベラル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベラル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1090,9 +1150,9 @@
       "contentHash": "f63214caa5d8ba1d0d33232419883d3908a68d584693100c67b4710371787465",
       "byteLength": 64820,
       "rawPath": "netkeiba/horses/2023/2023104623/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:56:05.001Z"
+  "updatedAt": "2026-08-28T05:06:01.671Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106024",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106024/",
-  "profile": null,
+  "profile": {
+    "name": "セラード",
+    "birthDate": "2022-04-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "甲田悟史"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "640343",
+      "name": "安達牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2005102303",
+      "name": "ゴールデンプライズ"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -3564,6 +3594,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セラード (Cerrado) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3633,9 +3693,9 @@
       "contentHash": "4213a34e95be01e56cc3e26a8da0a2573be99deef42963784e03bd9069cdbac8",
       "byteLength": 65364,
       "rawPath": "netkeiba/horses/2022/2022106024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:21:49.263Z"
+  "updatedAt": "2026-08-29T04:25:12.177Z"
 }

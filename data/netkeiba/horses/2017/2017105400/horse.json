@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105400",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105400/",
-  "profile": null,
+  "profile": {
+    "name": "ステラータ",
+    "birthDate": "2017-02-06",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05729",
+      "name": "高橋清顕"
+    },
+    "owner": {
+      "id": "127008",
+      "name": "小菅定雄"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セットプレイ Set Play(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Van Nistelrooy"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -4407,6 +4437,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ステラータ (Stellata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステラータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステラータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4476,9 +4536,9 @@
       "contentHash": "866589069c7fd6d43258151e10d4ce94142289e76b3690f1cba7f020920e28f8",
       "byteLength": 66150,
       "rawPath": "netkeiba/horses/2017/2017105400/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:22:43.406Z"
+  "updatedAt": "2026-08-27T05:26:22.220Z"
 }

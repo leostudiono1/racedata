@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100101",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100101/",
-  "profile": null,
+  "profile": {
+    "name": "サブリュウシン",
+    "birthDate": "2020-05-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05281",
+      "name": "塚田隆男"
+    },
+    "owner": {
+      "id": "a00ad3",
+      "name": "堀井真知子"
+    },
+    "breeder": {
+      "id": "633094",
+      "name": "川端英幸"
+    },
+    "birthplace": "新ひだか",
+    "sire": {
+      "id": "2010110058",
+      "name": "エーシントップ"
+    },
+    "dam": {
+      "id": "1996100003",
+      "name": "エイシンルーデンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110058",
@@ -6494,6 +6524,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サブリュウシン (Sabu Ryu Shin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サブリュウシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サブリュウシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6563,9 +6623,9 @@
       "contentHash": "c03e232aa3e145d7742ddd5127b6411911525b291eda503336660e31fcc5d298",
       "byteLength": 67106,
       "rawPath": "netkeiba/horses/2020/2020100101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:17:53.693Z"
+  "updatedAt": "2026-08-31T03:25:35.873Z"
 }

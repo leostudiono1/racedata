@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105810",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105810/",
-  "profile": null,
+  "profile": {
+    "name": "オックスアイ",
+    "birthDate": "2023-03-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01110",
+      "name": "清水久詞"
+    },
+    "owner": {
+      "id": "373008",
+      "name": "中村祐子"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015102367",
+      "name": "ダノンプレミアム"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ハリケーンフラッグ Hurricane Flag(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102367",
@@ -1805,6 +1835,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オックスアイ (Ox's Eye) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オックスアイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オックスアイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1874,9 +1934,9 @@
       "contentHash": "8001f4e7cee2f8ce810446ac20e3b2131bd28789a4938478fd72c8fd5265ed4d",
       "byteLength": 67207,
       "rawPath": "netkeiba/horses/2023/2023105810/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:56:57.445Z"
+  "updatedAt": "2026-08-28T05:06:54.299Z"
 }

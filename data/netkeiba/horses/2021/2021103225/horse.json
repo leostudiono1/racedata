@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103225",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103225/",
-  "profile": null,
+  "profile": {
+    "name": "チカミリオン",
+    "birthDate": "2021-04-25",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "384031",
+      "name": "松島千佳"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オペラデイム Opera Dame(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2308,6 +2338,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チカミリオン (Chika Million) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカミリオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカミリオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2377,9 +2437,9 @@
       "contentHash": "cbc92aef43c6525f72c9ca97c7a5108ef5ee216fd983df92713753a1e515d0f0",
       "byteLength": 66404,
       "rawPath": "netkeiba/horses/2021/2021103225/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:24:01.237Z"
+  "updatedAt": "2026-08-31T03:31:43.689Z"
 }

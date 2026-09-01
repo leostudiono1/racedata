@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100444",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100444/",
-  "profile": null,
+  "profile": {
+    "name": "リヴァーブ",
+    "birthDate": "2022-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "織田誠"
+    },
+    "owner": {
+      "id": "515031",
+      "name": "藤井猛"
+    },
+    "breeder": {
+      "id": "430052",
+      "name": "村下清志"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2010103059",
+      "name": "ブーケトウショウ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1676,6 +1706,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リヴァーブ (Reverb) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リヴァーブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リヴァーブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1745,9 +1805,9 @@
       "contentHash": "2f9bb693e851e9955dcf134748ee377f6305c08ee81113e18f830b6cb4e863a4",
       "byteLength": 64896,
       "rawPath": "netkeiba/horses/2022/2022100444/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:44:53.011Z"
+  "updatedAt": "2026-08-30T03:57:02.768Z"
 }

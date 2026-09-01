@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102243",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102243/",
-  "profile": null,
+  "profile": {
+    "name": "オズマ",
+    "birthDate": "2013-04-15",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "x00b47",
+      "name": "丹羽和子"
+    },
+    "breeder": {
+      "id": "013094",
+      "name": "片山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2008103478",
+      "name": "キャリーウェーブ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -4594,6 +4624,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オズマ (Ozma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オズマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オズマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4663,9 +4723,9 @@
       "contentHash": "7a5b7b42a79b560023e6b06f121c8029378738cf95919eef1ec9e6c9e57c59c3",
       "byteLength": 65051,
       "rawPath": "netkeiba/horses/2013/2013102243/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:37:12.121Z"
+  "updatedAt": "2026-08-26T05:45:45.116Z"
 }

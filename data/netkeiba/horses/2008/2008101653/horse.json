@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008101653",
   "sourceUrl": "https://db.netkeiba.com/horse/2008101653/",
-  "profile": null,
+  "profile": {
+    "name": "イデア",
+    "birthDate": "2008-03-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01072",
+      "name": "河内洋"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "1994108583",
+      "name": "メイクマイバンドル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -4039,6 +4069,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イデア (Idea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イデア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イデア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4108,9 +4168,9 @@
       "contentHash": "6616c635964f91da625c492f15da30aaee5f089c29ffdb8d7357feecaf07e9a9",
       "byteLength": 64839,
       "rawPath": "netkeiba/horses/2008/2008101653/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:28:09.437Z"
+  "updatedAt": "2026-08-26T05:36:42.363Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103837",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103837/",
-  "profile": null,
+  "profile": {
+    "name": "カンプウ",
+    "birthDate": "2022-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "331007",
+      "name": "幅田昌伸"
+    },
+    "breeder": {
+      "id": "233078",
+      "name": "坂本智広"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2015110006",
+      "name": "ラスエモーショネス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -3391,6 +3421,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カンプウ (Kampu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンプウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンプウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3460,9 +3520,9 @@
       "contentHash": "1f83dca7ee7736495789ccc3e0086006c538c162f221d292f0416cf769b0850c",
       "byteLength": 66198,
       "rawPath": "netkeiba/horses/2022/2022103837/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:16:21.438Z"
+  "updatedAt": "2026-08-26T06:24:54.251Z"
 }

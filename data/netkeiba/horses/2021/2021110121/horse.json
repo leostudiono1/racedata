@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110121",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110121/",
-  "profile": null,
+  "profile": {
+    "name": "アメリカンランナー",
+    "birthDate": "2021-01-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01181",
+      "name": "茶木太樹"
+    },
+    "owner": {
+      "id": "346803",
+      "name": "吉澤ホールディングス"
+    },
+    "breeder": {
+      "id": "700738",
+      "name": "Michael J Snyder & Winchell Thoroughbreds LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Gun Runner (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Acqua Fresh"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Ecclesiastic"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2951,6 +2981,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アメリカンランナー (American Runner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメリカンランナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメリカンランナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3020,9 +3080,9 @@
       "contentHash": "f23cc7029e49494d988eea6f56c1b9221b18300a8aba55f3a0c19b087720cc72",
       "byteLength": 67020,
       "rawPath": "netkeiba/horses/2021/2021110121/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:37:22.438Z"
+  "updatedAt": "2026-08-25T08:44:51.835Z"
 }

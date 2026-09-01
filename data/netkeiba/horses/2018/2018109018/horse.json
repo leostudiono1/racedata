@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018109018",
   "sourceUrl": "https://db.netkeiba.com/horse/2018109018/",
-  "profile": null,
+  "profile": {
+    "name": "トップライン",
+    "birthDate": "2018-03-04",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "439031",
+      "name": "成瀬篤司"
+    },
+    "breeder": {
+      "id": "401131",
+      "name": "伊藤牧場"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2001100266",
+      "name": "ペプチドモアー"
+    },
+    "damsire": {
+      "id": "1991103498",
+      "name": "サクラローレル"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -1011,6 +1041,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トップライン (Top Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1080,9 +1140,9 @@
       "contentHash": "b6616a5c41afc90f11b6cb488bc91a71cee3d59c1005422ad69f5fbedd0c1c3e",
       "byteLength": 64740,
       "rawPath": "netkeiba/horses/2018/2018109018/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:01:36.063Z"
+  "updatedAt": "2026-08-26T06:10:08.458Z"
 }

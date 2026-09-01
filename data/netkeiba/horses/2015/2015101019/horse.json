@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101019",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101019/",
-  "profile": null,
+  "profile": {
+    "name": "プレイズラン",
+    "birthDate": "2015-03-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "535006",
+      "name": "岡村善行"
+    },
+    "breeder": {
+      "id": "003341",
+      "name": "天羽牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ブルーオアシス Blue Oasis(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -2306,6 +2336,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレイズラン (Praise Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレイズラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレイズラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2375,9 +2435,9 @@
       "contentHash": "8696c51b1124fa6ea83857443fb5fffad106594ea1fef31e6136eeff2e05eb90",
       "byteLength": 67064,
       "rawPath": "netkeiba/horses/2015/2015101019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:45:15.234Z"
+  "updatedAt": "2026-08-26T05:53:48.019Z"
 }

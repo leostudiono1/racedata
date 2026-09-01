@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102429",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102429/",
-  "profile": null,
+  "profile": {
+    "name": "ショウサンカーズ",
+    "birthDate": "2012-05-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "305030",
+      "name": "鈴木昭和"
+    },
+    "breeder": {
+      "id": "403025",
+      "name": "仲野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2006103006",
+      "name": "Triple Threat"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1662,6 +1692,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショウサンカーズ (Shosan Kazu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウサンカーズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウサンカーズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1731,9 +1791,9 @@
       "contentHash": "9b14baee8688810f06852dd9650cdb257ac9f2be8c234c229a7515659793ade3",
       "byteLength": 65324,
       "rawPath": "netkeiba/horses/2012/2012102429/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:55:24.429Z"
+  "updatedAt": "2026-08-25T08:02:54.801Z"
 }

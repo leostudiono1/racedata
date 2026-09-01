@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103750",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103750/",
-  "profile": null,
+  "profile": {
+    "name": "ジョナ",
+    "birthDate": "2021-05-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "726031",
+      "name": "吉岡寛行"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ニューイヤーズデイ"
+    },
+    "dam": {
+      "id": "2008100289",
+      "name": "ファーストレディ"
+    },
+    "damsire": {
+      "id": "1995100385",
+      "name": "スマートボーイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1433,6 +1463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョナ (Jonah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1502,9 +1562,9 @@
       "contentHash": "bde712053f2713b15ef83095f16d99b561b83dbc08e213803f572687b6a13dbe",
       "byteLength": 65897,
       "rawPath": "netkeiba/horses/2021/2021103750/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:15:16.974Z"
+  "updatedAt": "2026-08-29T04:18:40.399Z"
 }

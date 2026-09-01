@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103221",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103221/",
-  "profile": null,
+  "profile": {
+    "name": "モーニングカム",
+    "birthDate": "2014-05-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01146",
+      "name": "奥村豊"
+    },
+    "owner": {
+      "id": "866800",
+      "name": "サンライズ"
+    },
+    "breeder": {
+      "id": "230037",
+      "name": "佐々木恵一"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "1998102778",
+      "name": "ラストアイドル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラストタイクーン Last Tycoon(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1209,6 +1239,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーニングカム (Morning Come) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーニングカム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーニングカム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1278,9 +1338,9 @@
       "contentHash": "19dd54bcf955bab16f9143dd65c6143751310e2b95fc01c46439889f6bb6604c",
       "byteLength": 64897,
       "rawPath": "netkeiba/horses/2014/2014103221/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T04:54:22.567Z"
+  "updatedAt": "2026-08-31T03:02:04.860Z"
 }

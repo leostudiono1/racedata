@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104243",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104243/",
-  "profile": null,
+  "profile": {
+    "name": "コパカツ",
+    "birthDate": "2022-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宮下瞳"
+    },
+    "owner": {
+      "id": "966007",
+      "name": "小林祥晃"
+    },
+    "breeder": {
+      "id": "510087",
+      "name": "西村牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2006105934",
+      "name": "コパノチカチャン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -3758,6 +3788,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コパカツ (Copa Katsu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパカツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパカツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3827,9 +3887,9 @@
       "contentHash": "408a2e2de7ae8dba04d86bb59897d53c26126176bb9b266f7c4c9b7e826d22cd",
       "byteLength": 64533,
       "rawPath": "netkeiba/horses/2022/2022104243/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:53:13.369Z"
+  "updatedAt": "2026-08-24T09:59:05.350Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103736",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103736/",
-  "profile": null,
+  "profile": {
+    "name": "アフェシス",
+    "birthDate": "2022-03-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "379803",
+      "name": "ＯＵＭＡ"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エントロピア Entropia(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mount Nelson (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1872,6 +1902,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アフェシス (Aphesis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アフェシス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アフェシス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1941,9 +2001,9 @@
       "contentHash": "fc63a4ac8b11e45660e55daff527712cf450b48efcf618773fa6d50e813f5042",
       "byteLength": 65455,
       "rawPath": "netkeiba/horses/2022/2022103736/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:46:34.483Z"
+  "updatedAt": "2026-08-30T03:58:44.509Z"
 }

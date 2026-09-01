@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105800",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105800/",
-  "profile": null,
+  "profile": {
+    "name": "オーパ",
+    "birthDate": "2013-02-14",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "431002",
+      "name": "馬場幸夫"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴィヤダーナ Viyadana(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Azamour (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -2528,6 +2558,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーパ (Opa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーパ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーパ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2597,9 +2657,9 @@
       "contentHash": "7888daab5694db9674411f17a22d6dd40db3267afa42d18f6eb9e3c5c4aa2063",
       "byteLength": 66798,
       "rawPath": "netkeiba/horses/2013/2013105800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T07:39:18.680Z"
+  "updatedAt": "2026-08-26T05:47:51.438Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103820",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103820/",
-  "profile": null,
+  "profile": {
+    "name": "トーセングラート",
+    "birthDate": "2016-03-08",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00420",
+      "name": "宗像義忠"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2004110159",
+      "name": "トーセンアート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Woodman"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -1557,6 +1587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセングラート (Tosen Grato) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセングラート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセングラート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1626,9 +1686,9 @@
       "contentHash": "efdd1191588ff34855daa2d14072288b0a6d8cb12ec2724bee49ea82e5086a37",
       "byteLength": 65391,
       "rawPath": "netkeiba/horses/2016/2016103820/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T05:21:18.426Z"
+  "updatedAt": "2026-08-30T03:33:28.313Z"
 }

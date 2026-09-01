@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105270",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105270/",
-  "profile": null,
+  "profile": {
+    "name": "ラファータ",
+    "birthDate": "2013-03-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "1999110226",
+      "name": "フェアリーワルツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lear Fan"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -1415,6 +1445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラファータ (La Fata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラファータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラファータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1484,9 +1544,9 @@
       "contentHash": "b8aaedd8ac08f5e1d1f5ef4c3e6762a2746ecd71b91a1de6c3f4aa5a6d683b6c",
       "byteLength": 64886,
       "rawPath": "netkeiba/horses/2013/2013105270/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T10:01:04.401Z"
+  "updatedAt": "2026-08-25T08:08:33.948Z"
 }

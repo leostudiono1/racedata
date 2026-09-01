@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104857",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104857/",
-  "profile": null,
+  "profile": {
+    "name": "アリアス",
+    "birthDate": "2023-04-23",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "938031",
+      "name": "越村洋子"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "2011105685",
+      "name": "アンジェリック"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1634,6 +1664,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリアス (Arias) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1703,9 +1763,9 @@
       "contentHash": "a410e76ef2a2e27d9a955729d71e65ddc476ac5eb9422b9345631d1b6e991c91",
       "byteLength": 66945,
       "rawPath": "netkeiba/horses/2023/2023104857/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T06:24:58.200Z"
+  "updatedAt": "2026-08-29T04:28:21.231Z"
 }

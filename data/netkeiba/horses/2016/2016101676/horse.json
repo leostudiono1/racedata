@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101676",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101676/",
-  "profile": null,
+  "profile": {
+    "name": "エイシンホープ",
+    "birthDate": "2016-04-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "x093af",
+      "name": "林由真"
+    },
+    "breeder": {
+      "id": "300033",
+      "name": "栄進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103388",
+      "name": "グランプリボス"
+    },
+    "dam": {
+      "id": "2005110027",
+      "name": "エーシントゥーゴー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103388",
@@ -6408,6 +6438,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシンホープ (A Shin Hope) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンホープ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンホープ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6477,9 +6537,9 @@
       "contentHash": "2e538fbbe6e02db921586205f59344df4f6dacea0ae2ec8d18f6e1fdbb8c2016",
       "byteLength": 67041,
       "rawPath": "netkeiba/horses/2016/2016101676/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:51:35.450Z"
+  "updatedAt": "2026-08-29T03:54:58.963Z"
 }

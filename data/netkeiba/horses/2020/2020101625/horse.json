@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101625",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101625/",
-  "profile": null,
+  "profile": {
+    "name": "エストラーダ",
+    "birthDate": "2020-03-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05287",
+      "name": "井手上慎"
+    },
+    "owner": {
+      "id": "x0989e",
+      "name": "田口順子"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2009104517",
+      "name": "ヴェルーテ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4927,6 +4957,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エストラーダ (Estrada) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エストラーダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エストラーダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4996,9 +5056,9 @@
       "contentHash": "1594632560cade2f55333df043d20ace78c531aadec3cbfd83f7bc296668a623",
       "byteLength": 66942,
       "rawPath": "netkeiba/horses/2020/2020101625/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:19:00.281Z"
+  "updatedAt": "2026-08-31T03:26:42.437Z"
 }

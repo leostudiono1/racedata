@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105352",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105352/",
-  "profile": null,
+  "profile": {
+    "name": "ホルス",
+    "birthDate": "2020-03-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05770",
+      "name": "北村欣也"
+    },
+    "owner": {
+      "id": "x09e10",
+      "name": "藤木隆之"
+    },
+    "breeder": {
+      "id": "610310",
+      "name": "タニグチ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2011104867",
+      "name": "ヴェルサイユパーク"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "チチカステナンゴ Chichicastenango(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -4157,6 +4187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホルス (Horus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4226,9 +4286,9 @@
       "contentHash": "92e78bf5baf0084a245e190879f0024212430cffaf32d37707e9199b74b060bb",
       "byteLength": 66802,
       "rawPath": "netkeiba/horses/2020/2020105352/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T08:10:03.443Z"
+  "updatedAt": "2026-08-26T06:18:36.092Z"
 }

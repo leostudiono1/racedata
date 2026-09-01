@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101212",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101212/",
-  "profile": null,
+  "profile": {
+    "name": "ブライティアランド",
+    "birthDate": "2017-02-15",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05772",
+      "name": "高野毅"
+    },
+    "owner": {
+      "id": "531006",
+      "name": "小林昌志"
+    },
+    "breeder": {
+      "id": "910369",
+      "name": "雅牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2010100127",
+      "name": "ノードブライティア"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3142,6 +3172,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライティアランド (Brightia Land) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライティアランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライティアランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3211,9 +3271,9 @@
       "contentHash": "7321091c7135c95bc58d88c9e32fdedda6a9065cb47086ed9c33d5ee6420ac90",
       "byteLength": 65823,
       "rawPath": "netkeiba/horses/2017/2017101212/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T06:28:39.396Z"
+  "updatedAt": "2026-08-28T04:38:36.239Z"
 }

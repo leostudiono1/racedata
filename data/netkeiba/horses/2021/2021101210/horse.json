@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101210",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101210/",
-  "profile": null,
+  "profile": {
+    "name": "ジェンマ",
+    "birthDate": "2021-04-11",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "川野勇馬"
+    },
+    "owner": {
+      "id": "951033",
+      "name": "諸岡慶"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104539",
+      "name": "キングリオ"
+    },
+    "dam": {
+      "id": "2014101816",
+      "name": "チェス"
+    },
+    "damsire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104539",
@@ -4221,6 +4251,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジェンマ (Gemma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェンマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェンマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4290,9 +4350,9 @@
       "contentHash": "7fc0789953678f950d516866e142c52c8e98fd3d030d960b056ef404894f973c",
       "byteLength": 66903,
       "rawPath": "netkeiba/horses/2021/2021101210/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:46:02.752Z"
+  "updatedAt": "2026-08-24T09:51:54.379Z"
 }

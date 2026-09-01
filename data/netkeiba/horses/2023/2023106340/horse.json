@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106340",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106340/",
-  "profile": null,
+  "profile": {
+    "name": "シルバークラフト",
+    "birthDate": "2023-02-24",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05109",
+      "name": "古賀光範"
+    },
+    "owner": {
+      "id": "190031",
+      "name": "須田靖之"
+    },
+    "breeder": {
+      "id": "213321",
+      "name": "藤本ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2012110121",
+      "name": "シルバージェニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lantana Mob"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -1790,6 +1820,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シルバークラフト (Silver Craft) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバークラフト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバークラフト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1859,9 +1919,9 @@
       "contentHash": "cd0b11190b154df8346e4ad0aef00dd2f03d438f66eb401c9344e5139bdd7bb2",
       "byteLength": 67268,
       "rawPath": "netkeiba/horses/2023/2023106340/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T07:49:37.388Z"
+  "updatedAt": "2026-08-27T05:53:16.041Z"
 }

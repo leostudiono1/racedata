@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101411",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101411/",
-  "profile": null,
+  "profile": {
+    "name": "グレンデール",
+    "birthDate": "2011-03-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "641030",
+      "name": "日下部勝徳"
+    },
+    "breeder": {
+      "id": "204025",
+      "name": "中村和夫"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    },
+    "dam": {
+      "id": "1999101541",
+      "name": "ロングモニュメント"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンダーガルチ Thunder Gulch(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1997101264",
@@ -3387,6 +3417,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレンデール (Glendale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレンデール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレンデール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3456,9 +3516,9 @@
       "contentHash": "33d2d9e1bee8714615fce7fad021ab993537eda3a611939ae23e9bb132082380",
       "byteLength": 64549,
       "rawPath": "netkeiba/horses/2011/2011101411/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T09:52:32.914Z"
+  "updatedAt": "2026-08-25T08:00:02.829Z"
 }

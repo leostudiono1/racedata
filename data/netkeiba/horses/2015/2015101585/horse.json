@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101585",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101585/",
-  "profile": null,
+  "profile": {
+    "name": "メメント",
+    "birthDate": "2015-03-31",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "677009",
+      "name": "西森鶴"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Dubawi"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エヴァモア Evermore(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6456,6 +6486,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メメント (Memento) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メメント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メメント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6525,9 +6585,9 @@
       "contentHash": "2bfcd6acd2efc9368301d6495704d24376c52f1c712eb3c51c797291f5580994",
       "byteLength": 66046,
       "rawPath": "netkeiba/horses/2015/2015101585/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T05:47:02.405Z"
+  "updatedAt": "2026-08-29T03:50:25.422Z"
 }

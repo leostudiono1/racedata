@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106848",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106848/",
-  "profile": null,
+  "profile": {
+    "name": "コネクテッド",
+    "birthDate": "2018-04-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "063700",
+      "name": "池袋レーシング"
+    },
+    "breeder": {
+      "id": "933537",
+      "name": "ダイヤモンドファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2003107141",
+      "name": "トーセンレジェンド"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1151,6 +1181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コネクテッド (Connected) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コネクテッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コネクテッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1220,9 +1280,9 @@
       "contentHash": "c6192557786a197a4ce39e950cd91f8ca8c0581753bd745f83cd3f2a02e4e1fe",
       "byteLength": 64722,
       "rawPath": "netkeiba/horses/2018/2018106848/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:35:49.948Z"
+  "updatedAt": "2026-08-24T09:41:41.933Z"
 }

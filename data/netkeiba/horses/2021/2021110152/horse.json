@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110152",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110152/",
-  "profile": null,
+  "profile": {
+    "name": "ケンジョー",
+    "birthDate": "2021-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "坂井英光"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "880738",
+      "name": "Lara Run LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Gun Runner (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Be Fair"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Exchange Rate"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2067,6 +2097,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケンジョー (Kenjo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンジョー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンジョー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2136,9 +2196,9 @@
       "contentHash": "515ecc019652503792f973b4dc4252281886933c4d2a0c694be9027cb2d30148",
       "byteLength": 65073,
       "rawPath": "netkeiba/horses/2021/2021110152/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T11:50:18.228Z"
+  "updatedAt": "2026-08-24T09:56:10.264Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100055",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100055/",
-  "profile": null,
+  "profile": {
+    "name": "イワナ",
+    "birthDate": "2018-02-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05645",
+      "name": "久保勇"
+    },
+    "owner": {
+      "id": "869030",
+      "name": "大野春男"
+    },
+    "breeder": {
+      "id": "503341",
+      "name": "新井昭二"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2010103815",
+      "name": "ダンスフェイム"
+    },
+    "damsire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1714,6 +1744,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イワナ (Iwana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イワナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イワナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1783,9 +1843,9 @@
       "contentHash": "51044196882a2e8dbc18328d49fba356f38a7a1317390d0900ef79360dafdba4",
       "byteLength": 64585,
       "rawPath": "netkeiba/horses/2018/2018100055/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T05:09:04.978Z"
+  "updatedAt": "2026-08-31T03:16:47.613Z"
 }
