@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110102",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110102/",
-  "profile": null,
+  "profile": {
+    "name": "ストロマンテ",
+    "birthDate": "2017-04-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "399009",
+      "name": "嶋田賢"
+    },
+    "breeder": {
+      "id": "420701",
+      "name": "Brittas House Stud"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Zoffany"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Height of Elegance"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2020,6 +2050,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストロマンテ (Stromanthe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストロマンテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストロマンテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2089,9 +2149,9 @@
       "contentHash": "a0bac2e452167d2be086f3270c9c958039c0048908287dfe023e63a455922034",
       "byteLength": 66266,
       "rawPath": "netkeiba/horses/2017/2017110102/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:01:53.668Z"
+  "updatedAt": "2026-08-29T01:20:00.552Z"
 }

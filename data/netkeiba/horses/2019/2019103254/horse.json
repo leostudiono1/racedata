@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103254",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103254/",
-  "profile": null,
+  "profile": {
+    "name": "マーテン",
+    "birthDate": "2019-06-07",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "820009",
+      "name": "鈴木義孝"
+    },
+    "breeder": {
+      "id": "710470",
+      "name": "前田ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2009105991",
+      "name": "ターフデライト"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1256,6 +1286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マーテン (Marten) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーテン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーテン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1325,9 +1385,9 @@
       "contentHash": "bdf198d0683538289ab5f235e17d9757771f7e1ce614e729c1ef907b7d7eadaa",
       "byteLength": 66349,
       "rawPath": "netkeiba/horses/2019/2019103254/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:35:24.707Z"
+  "updatedAt": "2026-08-25T05:46:31.670Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101680",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101680/",
-  "profile": null,
+  "profile": {
+    "name": "カンナ",
+    "birthDate": "2014-04-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "x0008a",
+      "name": "吉田銘一"
+    },
+    "breeder": {
+      "id": "203513",
+      "name": "永村侑"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "1999104840",
+      "name": "ダーリンキスミー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -5165,6 +5195,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カンナ (Canna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カンナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5234,9 +5294,9 @@
       "contentHash": "fe0dc1f8fb62a3da7010016aceb776c421ebb779f860d726fb8e7f261c3c4b08",
       "byteLength": 66645,
       "rawPath": "netkeiba/horses/2014/2014101680/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:12:42.768Z"
+  "updatedAt": "2026-08-25T05:23:49.489Z"
 }

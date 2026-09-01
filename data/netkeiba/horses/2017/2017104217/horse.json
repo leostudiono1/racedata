@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104217",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104217/",
-  "profile": null,
+  "profile": {
+    "name": "アルファレディ",
+    "birthDate": "2017-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00405",
+      "name": "小西一男"
+    },
+    "owner": {
+      "id": "472800",
+      "name": "貴悦"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2004110127",
+      "name": "ピュアーフレーム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Deputy"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1211,6 +1241,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルファレディ (Alpha Lady) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファレディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファレディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1280,9 +1340,9 @@
       "contentHash": "1cb6c8368356401bc132b73f565ddcd78104d222cc6e194afbdadfdc434ed9a9",
       "byteLength": 64469,
       "rawPath": "netkeiba/horses/2017/2017104217/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:12:44.161Z"
+  "updatedAt": "2026-08-31T00:27:20.895Z"
 }

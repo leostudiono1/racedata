@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105012",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105012/",
-  "profile": null,
+  "profile": {
+    "name": "フロンティエール",
+    "birthDate": "2022-01-29",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01216",
+      "name": "柴田卓"
+    },
+    "owner": {
+      "id": "350031",
+      "name": "フォレストレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ブレステイキングルック Breathtaking Look(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bated Breath"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2437,6 +2467,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロンティエール (Frontiere) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロンティエール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロンティエール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2506,9 +2566,9 @@
       "contentHash": "a19aca3a8f33d313620b8c5e2e3dc3be06daf148fb086f3e36068f8f45a7f024",
       "byteLength": 67027,
       "rawPath": "netkeiba/horses/2022/2022105012/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:57:46.173Z"
+  "updatedAt": "2026-08-30T01:09:13.875Z"
 }

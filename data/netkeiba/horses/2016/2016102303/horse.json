@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102303",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102303/",
-  "profile": null,
+  "profile": {
+    "name": "パレニア",
+    "birthDate": "2016-04-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "466033",
+      "name": "今村明浩"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2002103741",
+      "name": "オオシマパンジー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スキャン Scan(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2788,6 +2818,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パレニア (Perennia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレニア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレニア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2857,9 +2917,9 @@
       "contentHash": "84a1d3a86cdb3bb421645524b74d509491dd3354bf19d5b30024e20f86ee88fb",
       "byteLength": 65900,
       "rawPath": "netkeiba/horses/2016/2016102303/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:31:10.001Z"
+  "updatedAt": "2026-08-30T00:42:37.602Z"
 }

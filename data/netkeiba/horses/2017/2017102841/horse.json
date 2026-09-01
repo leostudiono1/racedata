@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102841",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102841/",
-  "profile": null,
+  "profile": {
+    "name": "パレット",
+    "birthDate": "2017-02-07",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05553",
+      "name": "黒木豊"
+    },
+    "owner": {
+      "id": "x00a8f",
+      "name": "関昭一"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    },
+    "dam": {
+      "id": "2000103218",
+      "name": "フォーティカラーズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005101358",
@@ -2339,6 +2369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パレット (Pallet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2408,9 +2468,9 @@
       "contentHash": "d6e422be936ffedf3ca65bd605b56c91d4df64b2e3f08e6e448572f86f68e3d8",
       "byteLength": 66746,
       "rawPath": "netkeiba/horses/2017/2017102841/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:22:05.278Z"
+  "updatedAt": "2026-08-27T02:32:36.579Z"
 }

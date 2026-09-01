@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100047",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100047/",
-  "profile": null,
+  "profile": {
+    "name": "アラマサル",
+    "birthDate": "2012-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05713",
+      "name": "山田信大"
+    },
+    "owner": {
+      "id": "x05902",
+      "name": "加藤尋康"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "1997110116",
+      "name": "ターミナルフラワー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Salt Lake"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -5008,6 +5038,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラマサル (Ara Masaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラマサル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラマサル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5077,9 +5137,9 @@
       "contentHash": "f56f098c7d083f688739da0587c4af60a9476d3661a9e1ef4b2388ce460031f3",
       "byteLength": 64919,
       "rawPath": "netkeiba/horses/2012/2012100047/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:13:32.488Z"
+  "updatedAt": "2026-08-24T06:18:42.127Z"
 }

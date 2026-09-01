@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104007",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104007/",
-  "profile": null,
+  "profile": {
+    "name": "チュウアイ",
+    "birthDate": "2017-05-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00434",
+      "name": "西橋豊治"
+    },
+    "owner": {
+      "id": "254033",
+      "name": "西本資史"
+    },
+    "breeder": {
+      "id": "803469",
+      "name": "原弘之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2002105126",
+      "name": "ジャネットハウス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1522,6 +1552,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チュウアイ (Chuai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュウアイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュウアイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1591,9 +1651,9 @@
       "contentHash": "3914722b185ca5662259434ec7d9a2e85d66b81496d481cc9ef9742a40a3d4fe",
       "byteLength": 64825,
       "rawPath": "netkeiba/horses/2017/2017104007/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:00:01.616Z"
+  "updatedAt": "2026-08-29T01:18:08.586Z"
 }

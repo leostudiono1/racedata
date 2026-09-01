@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110084",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110084/",
-  "profile": null,
+  "profile": {
+    "name": "ベストドライヴ",
+    "birthDate": "2013-02-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01022",
+      "name": "石坂正"
+    },
+    "owner": {
+      "id": "431002",
+      "name": "馬場幸夫"
+    },
+    "breeder": {
+      "id": "760706",
+      "name": "Dorsey Brown & Richard Palmer"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Trappe Shot"
+    },
+    "dam": {
+      "id": "000",
+      "name": "High Moment"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "High Yield (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1659,6 +1689,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベストドライヴ (Best Drive) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストドライヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストドライヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1728,9 +1788,9 @@
       "contentHash": "7114211be73181453187522015ae60ac5c60681bfe6f1f966f0020ccc59f20c3",
       "byteLength": 66832,
       "rawPath": "netkeiba/horses/2013/2013110084/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:21:17.821Z"
+  "updatedAt": "2026-08-30T00:32:46.053Z"
 }

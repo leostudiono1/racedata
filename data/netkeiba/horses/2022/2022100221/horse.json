@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100221",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100221/",
-  "profile": null,
+  "profile": {
+    "name": "アルバーチョ",
+    "birthDate": "2022-05-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "779008",
+      "name": "高樽秀夫"
+    },
+    "breeder": {
+      "id": "800042",
+      "name": "小島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2002103870",
+      "name": "ナナヨーティアラ"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1434,6 +1464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルバーチョ (Al Bacio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバーチョ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバーチョ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1503,9 +1563,9 @@
       "contentHash": "3daacf94218d9d3a554ee9586bed2e9a41185eeaa492a853530e7d8bef1296f1",
       "byteLength": 64363,
       "rawPath": "netkeiba/horses/2022/2022100221/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:21:15.696Z"
+  "updatedAt": "2026-08-26T03:26:32.329Z"
 }

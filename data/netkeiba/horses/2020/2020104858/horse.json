@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104858",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104858/",
-  "profile": null,
+  "profile": {
+    "name": "アプロ",
+    "birthDate": "2020-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05777",
+      "name": "吉見真幸"
+    },
+    "owner": {
+      "id": "x00732",
+      "name": "徳丸初盛"
+    },
+    "breeder": {
+      "id": "333302",
+      "name": "前田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009102733",
+      "name": "ポアゾンブラック"
+    },
+    "dam": {
+      "id": "2007102089",
+      "name": "アマノブラウニイー"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102733",
@@ -1969,6 +1999,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アプロ (Apeulo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2038,9 +2098,9 @@
       "contentHash": "36a30767d6a292dcef69c9661306fddc957085a23ec2ab243e1c662890966fb4",
       "byteLength": 64230,
       "rawPath": "netkeiba/horses/2020/2020104858/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:25:03.433Z"
+  "updatedAt": "2026-08-31T00:39:39.659Z"
 }

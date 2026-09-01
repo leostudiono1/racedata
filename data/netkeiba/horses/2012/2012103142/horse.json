@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103142",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103142/",
-  "profile": null,
+  "profile": {
+    "name": "センリツ",
+    "birthDate": "2012-04-23",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "149002",
+      "name": "井山登"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2002104902",
+      "name": "ヴィフォルテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1970,6 +2000,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "センリツ (Senritsu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "センリツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "センリツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2039,9 +2099,9 @@
       "contentHash": "50cde9ab2dc1613cfb4fba7fce2a3f8abd963731bbac4849db9879fed6140a41",
       "byteLength": 65678,
       "rawPath": "netkeiba/horses/2012/2012103142/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:02:35.840Z"
+  "updatedAt": "2026-08-27T02:13:07.158Z"
 }

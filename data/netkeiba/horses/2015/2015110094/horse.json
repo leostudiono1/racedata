@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110094",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110094/",
-  "profile": null,
+  "profile": {
+    "name": "アンカーテソーロ",
+    "birthDate": "2015-02-19",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01130",
+      "name": "吉村圭司"
+    },
+    "owner": {
+      "id": "089803",
+      "name": "了徳寺健二ホールディングス"
+    },
+    "breeder": {
+      "id": "320706",
+      "name": "Dr. Christoph Berglar"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Anchorage"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1363,6 +1393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンカーテソーロ (Anchor Tesoro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンカーテソーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンカーテソーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1432,9 +1492,9 @@
       "contentHash": "478640824689706ae4d0b84808d3041bfa41494850da863836c6ed6beadb9091",
       "byteLength": 64769,
       "rawPath": "netkeiba/horses/2015/2015110094/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:30:06.809Z"
+  "updatedAt": "2026-08-24T06:35:16.767Z"
 }

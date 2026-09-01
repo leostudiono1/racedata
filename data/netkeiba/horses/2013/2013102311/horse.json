@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102311",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102311/",
-  "profile": null,
+  "profile": {
+    "name": "パッソ",
+    "birthDate": "2013-02-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00362",
+      "name": "橋田満"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2007103589",
+      "name": "レディハピネス"
+    },
+    "damsire": {
+      "id": "1996190001",
+      "name": "Montjeu (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1279,6 +1309,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パッソ (Passo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パッソ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パッソ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1348,9 +1408,9 @@
       "contentHash": "47451b5da95681c6354704f75051929123a5408b09bc471efb66e3d9314e6ce3",
       "byteLength": 67217,
       "rawPath": "netkeiba/horses/2013/2013102311/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:05:41.006Z"
+  "updatedAt": "2026-08-27T02:16:12.737Z"
 }

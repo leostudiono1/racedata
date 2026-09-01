@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105503",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105503/",
-  "profile": null,
+  "profile": {
+    "name": "カルドウェル",
+    "birthDate": "2022-02-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "487034",
+      "name": "吉田一成"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2014105605",
+      "name": "プロキシマ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -2822,6 +2852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カルドウェル (Caldwell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルドウェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルドウェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2891,9 +2951,9 @@
       "contentHash": "935a8512038dd25487cfcf9848d88ed4c1abaf7a8652e75464b9bf1ae6d54629",
       "byteLength": 66880,
       "rawPath": "netkeiba/horses/2022/2022105503/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:58:21.245Z"
+  "updatedAt": "2026-08-30T01:09:48.895Z"
 }

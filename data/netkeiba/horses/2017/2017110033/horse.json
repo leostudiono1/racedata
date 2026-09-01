@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110033",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110033/",
-  "profile": null,
+  "profile": {
+    "name": "トリプルエース",
+    "birthDate": "2017-05-12",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    },
+    "dam": {
+      "id": "2003110264",
+      "name": "トリプルピルエット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3020,6 +3050,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリプルエース (Triple Ace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリプルエース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリプルエース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3089,9 +3149,9 @@
       "contentHash": "d2f9949795db7dc1a639aa65545d9af7a1793240e126ce26f6572fa4cf2295bc",
       "byteLength": 67139,
       "rawPath": "netkeiba/horses/2017/2017110033/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:04:12.913Z"
+  "updatedAt": "2026-08-26T03:09:29.976Z"
 }

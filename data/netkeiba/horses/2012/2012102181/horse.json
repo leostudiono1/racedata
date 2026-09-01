@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102181",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102181/",
-  "profile": null,
+  "profile": {
+    "name": "エクセルワンダー",
+    "birthDate": "2012-04-22",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "012033",
+      "name": "谷川正純"
+    },
+    "breeder": {
+      "id": "713058",
+      "name": "稲葉牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    },
+    "dam": {
+      "id": "1999106714",
+      "name": "アドリアーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Theatrical"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108676",
@@ -2621,6 +2651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エクセルワンダー (Excel Wonder) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクセルワンダー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクセルワンダー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2690,9 +2750,9 @@
       "contentHash": "6be74cd52270c2577a7d009c1b7739164e81b4f471309f2b91d78492558a5284",
       "byteLength": 65500,
       "rawPath": "netkeiba/horses/2012/2012102181/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:50:37.035Z"
+  "updatedAt": "2026-08-31T00:05:13.975Z"
 }

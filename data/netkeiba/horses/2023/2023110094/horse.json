@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110094",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110094/",
-  "profile": null,
+  "profile": {
+    "name": "フルミネブル",
+    "birthDate": "2023-04-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01199",
+      "name": "千葉直人"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "510878",
+      "name": "Spendthrift Farm LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Bolt d'Oro"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Thundering Sky"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Mesa"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1260,6 +1290,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルミネブル (Fulmine Blu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルミネブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルミネブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1329,9 +1389,9 @@
       "contentHash": "8fb3637b3de6625197c863896e5a91aa1edebcd21013de1e76515f4fcc6d046f",
       "byteLength": 67108,
       "rawPath": "netkeiba/horses/2023/2023110094/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:05:25.072Z"
+  "updatedAt": "2026-08-24T07:10:34.655Z"
 }

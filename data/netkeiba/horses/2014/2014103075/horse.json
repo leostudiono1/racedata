@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103075",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103075/",
-  "profile": null,
+  "profile": {
+    "name": "キングファースト",
+    "birthDate": "2014-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05704",
+      "name": "飯田良弘"
+    },
+    "owner": {
+      "id": "411030",
+      "name": "平口信行"
+    },
+    "breeder": {
+      "id": "940031",
+      "name": "大柳ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2007101337",
+      "name": "アンダルシア"
+    },
+    "damsire": {
+      "id": "2000190010",
+      "name": "アルカセット Alkaased(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -4976,6 +5006,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングファースト (King First) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングファースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングファースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5045,9 +5105,9 @@
       "contentHash": "b51816fad240482db1d047673213aad5db7a95396f82dc2f995287498a29e974",
       "byteLength": 65951,
       "rawPath": "netkeiba/horses/2014/2014103075/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:23:31.000Z"
+  "updatedAt": "2026-08-30T00:34:58.752Z"
 }

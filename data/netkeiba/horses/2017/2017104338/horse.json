@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104338",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104338/",
-  "profile": null,
+  "profile": {
+    "name": "ザナイツ",
+    "birthDate": "2017-03-23",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "甲田悟史"
+    },
+    "owner": {
+      "id": "405031",
+      "name": "竹下浩一"
+    },
+    "breeder": {
+      "id": "263201",
+      "name": "福本次雄"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "2003101567",
+      "name": "ホワイトポイント"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デザートキング Desert King(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -2657,6 +2687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザナイツ (The Knights) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザナイツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザナイツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2726,9 +2786,9 @@
       "contentHash": "6037f031731972d915e9bb475150f3dfb953e0cd15fb040ec3ad3166b032c615",
       "byteLength": 64502,
       "rawPath": "netkeiba/horses/2017/2017104338/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:34:36.750Z"
+  "updatedAt": "2026-08-28T01:39:04.401Z"
 }

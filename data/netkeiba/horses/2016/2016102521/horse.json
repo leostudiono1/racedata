@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102521",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102521/",
-  "profile": null,
+  "profile": {
+    "name": "ショートボブ",
+    "birthDate": "2016-05-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01093",
+      "name": "松永康利"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "540052",
+      "name": "高松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2009105938",
+      "name": "ダンスインザマミー"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -1014,6 +1044,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショートボブ (Short Bob) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショートボブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショートボブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1083,9 +1143,9 @@
       "contentHash": "afb7cde371326f7c0d2eb7f60deab2dd94189637be2281e0c836bdc75bf3d483",
       "byteLength": 64476,
       "rawPath": "netkeiba/horses/2016/2016102521/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:17:00.668Z"
+  "updatedAt": "2026-08-27T02:27:32.348Z"
 }

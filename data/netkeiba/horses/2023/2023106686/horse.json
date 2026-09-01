@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106686",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106686/",
-  "profile": null,
+  "profile": {
+    "name": "エッジランナー",
+    "birthDate": "2023-02-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2015106454",
+      "name": "アスールダリア"
+    },
+    "damsire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1450,6 +1480,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エッジランナー (Edge Runner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エッジランナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エッジランナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1519,9 +1579,9 @@
       "contentHash": "751526c8c6e8fd873ce633079104d475b05fd2cae02766f3edd6d1955764d7de",
       "byteLength": 65507,
       "rawPath": "netkeiba/horses/2023/2023106686/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:24:04.061Z"
+  "updatedAt": "2026-08-29T01:42:11.350Z"
 }

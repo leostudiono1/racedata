@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104356",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104356/",
-  "profile": null,
+  "profile": {
+    "name": "ルナスティール",
+    "birthDate": "2020-04-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05395",
+      "name": "中塚猛"
+    },
+    "owner": {
+      "id": "520030",
+      "name": "大戸志浦"
+    },
+    "breeder": {
+      "id": "513085",
+      "name": "高橋修"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2015100839",
+      "name": "マーティンルナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1722,6 +1752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルナスティール (Luna Steel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナスティール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナスティール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1791,9 +1851,9 @@
       "contentHash": "67d7eb82d00d3d552156749bfec3efd0fb3d51c29d65f8991fe1ccfda5463458",
       "byteLength": 66468,
       "rawPath": "netkeiba/horses/2020/2020104356/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:40:25.858Z"
+  "updatedAt": "2026-08-25T05:51:32.390Z"
 }

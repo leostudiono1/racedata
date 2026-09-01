@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008102748",
   "sourceUrl": "https://db.netkeiba.com/horse/2008102748/",
-  "profile": null,
+  "profile": {
+    "name": "フルアクセル",
+    "birthDate": "2008-04-13",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01047",
+      "name": "勢司和浩"
+    },
+    "owner": {
+      "id": "588006",
+      "name": "山田和正"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アクセラレイション Acceleration(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Acatenango"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101516",
@@ -3217,6 +3247,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルアクセル (Full Accel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルアクセル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルアクセル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3286,9 +3346,9 @@
       "contentHash": "7731a983a01e8dc68c61181f1e38685ca8813ac9dbe762469cf0131c7cba6674",
       "byteLength": 66600,
       "rawPath": "netkeiba/horses/2008/2008102748/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:34:20.254Z"
+  "updatedAt": "2026-08-26T02:39:37.338Z"
 }

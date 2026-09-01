@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110111",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110111/",
-  "profile": null,
+  "profile": {
+    "name": "ピンクソレイユ",
+    "birthDate": "2020-03-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05076",
+      "name": "伊藤強一"
+    },
+    "owner": {
+      "id": "x06c0c",
+      "name": "川上和彦"
+    },
+    "breeder": {
+      "id": "890706",
+      "name": "Doug Branham & Felicia Branham"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Stoweshoe"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Flatter"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2059,6 +2089,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピンクソレイユ (Pink Soleil) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンクソレイユ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンクソレイユ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2128,9 +2188,9 @@
       "contentHash": "fc85106e3fbac4f1cd603b0cae1f7831608097a7fe156cee133b2dd850ef26f5",
       "byteLength": 66872,
       "rawPath": "netkeiba/horses/2020/2020110111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:13:02.374Z"
+  "updatedAt": "2026-08-29T01:31:09.257Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100912",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100912/",
-  "profile": null,
+  "profile": {
+    "name": "ランディーニ",
+    "birthDate": "2014-03-05",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00436",
+      "name": "堀井雅広"
+    },
+    "owner": {
+      "id": "029007",
+      "name": "吉田好雄"
+    },
+    "breeder": {
+      "id": "400340",
+      "name": "山岡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2003110105",
+      "name": "ノーモアクライ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2652,6 +2682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランディーニ (Landini) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランディーニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランディーニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2721,9 +2781,9 @@
       "contentHash": "4fe336d81b85c0ea0b17e8131fa3f4544eac5b8988b733c86c595181aeefa4d9",
       "byteLength": 66807,
       "rawPath": "netkeiba/horses/2014/2014100912/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:20:36.280Z"
+  "updatedAt": "2026-08-28T01:25:04.302Z"
 }

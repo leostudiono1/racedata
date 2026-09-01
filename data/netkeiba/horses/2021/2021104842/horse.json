@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104842",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104842/",
-  "profile": null,
+  "profile": {
+    "name": "カルマンフィルター",
+    "birthDate": "2021-04-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2008102645",
+      "name": "カルマート"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -2416,6 +2446,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カルマンフィルター (Kalman Filter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルマンフィルター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルマンフィルター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2485,9 +2545,9 @@
       "contentHash": "bb91a0b31d7044fc9dbbbf200ff3b7b03a20dab64cc601e41594037710518349",
       "byteLength": 67213,
       "rawPath": "netkeiba/horses/2021/2021104842/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:28:36.518Z"
+  "updatedAt": "2026-08-31T00:43:13.197Z"
 }

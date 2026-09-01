@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105754",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105754/",
-  "profile": null,
+  "profile": {
+    "name": "リマーカブル",
+    "birthDate": "2023-03-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "永田幸宏"
+    },
+    "owner": {
+      "id": "853030",
+      "name": "小原準一郎"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010103783",
+      "name": "ロゴタイプ"
+    },
+    "dam": {
+      "id": "2012110104",
+      "name": "ミタイナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Denman"
+    }
+  },
   "pedigree": [
     {
       "id": "2010103783",
@@ -1407,6 +1437,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リマーカブル (Remarkable) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リマーカブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リマーカブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1476,9 +1536,9 @@
       "contentHash": "e3d08f7db8c2ac1ef02fd394765be9071acda0e7a809a043f82dffa46824a118",
       "byteLength": 64891,
       "rawPath": "netkeiba/horses/2023/2023105754/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T03:01:58.367Z"
+  "updatedAt": "2026-08-30T01:13:25.976Z"
 }

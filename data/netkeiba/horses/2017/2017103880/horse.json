@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103880",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103880/",
-  "profile": null,
+  "profile": {
+    "name": "ラザビー",
+    "birthDate": "2017-04-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "703082",
+      "name": "飛野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "プレイガール Playgirl(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Caerleon (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2240,6 +2270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラザビー (Rather Be) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラザビー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラザビー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2309,9 +2369,9 @@
       "contentHash": "00edb872d95b99fcbc0df9b352b110922d0ec201ab4aa41e5d2fce6f68a1a67f",
       "byteLength": 64570,
       "rawPath": "netkeiba/horses/2017/2017103880/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:26:18.459Z"
+  "updatedAt": "2026-08-25T05:37:24.929Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102243",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102243/",
-  "profile": null,
+  "profile": {
+    "name": "リコーシュペル",
+    "birthDate": "2022-04-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05768",
+      "name": "田中一巧"
+    },
+    "owner": {
+      "id": "444034",
+      "name": "土橋正雄"
+    },
+    "breeder": {
+      "id": "133543",
+      "name": "リコーファーム"
+    },
+    "birthplace": "日高",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2013102653",
+      "name": "テラザフィーリア"
+    },
+    "damsire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -3132,6 +3162,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リコーシュペル (Riko Super) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リコーシュペル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リコーシュペル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3201,9 +3261,9 @@
       "contentHash": "8530fdbbf68d6f99de26ec14374ff3f0592caa381785ec190acfde99ac9e5085",
       "byteLength": 65323,
       "rawPath": "netkeiba/horses/2022/2022102243/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:56:54.156Z"
+  "updatedAt": "2026-08-28T02:01:21.670Z"
 }

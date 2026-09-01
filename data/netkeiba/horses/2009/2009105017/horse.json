@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009105017",
   "sourceUrl": "https://db.netkeiba.com/horse/2009105017/",
-  "profile": null,
+  "profile": {
+    "name": "フォーチュンスター",
+    "birthDate": "2009-03-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "830464",
+      "name": "ノースヒルズマネジメント"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2001110046",
+      "name": "グローリーブラッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3596,6 +3626,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォーチュンスター (Fortune Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーチュンスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーチュンスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3665,9 +3725,9 @@
       "contentHash": "6bc969ba041b9b0c181b36afdd0259e21186c61e2ae2a09e2aa50fecac348283",
       "byteLength": 67099,
       "rawPath": "netkeiba/horses/2009/2009105017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T03:57:45.360Z"
+  "updatedAt": "2026-08-27T02:08:16.531Z"
 }

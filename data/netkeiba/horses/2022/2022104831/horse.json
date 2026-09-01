@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104831",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104831/",
-  "profile": null,
+  "profile": {
+    "name": "スカイタワー",
+    "birthDate": "2022-01-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シーブルック Seabrook(新)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hinchinbrook"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1071,6 +1101,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイタワー (Sky Tower) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイタワー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイタワー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1140,9 +1200,9 @@
       "contentHash": "bcf6263f9eaf9147bccdd660764e14beeafcf6c3335363a5b2e9db20be8be17b",
       "byteLength": 67009,
       "rawPath": "netkeiba/horses/2022/2022104831/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:24:55.808Z"
+  "updatedAt": "2026-08-26T03:30:12.654Z"
 }

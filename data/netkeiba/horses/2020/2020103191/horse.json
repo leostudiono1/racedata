@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103191",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103191/",
-  "profile": null,
+  "profile": {
+    "name": "ブライトサイン",
+    "birthDate": "2020-02-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01181",
+      "name": "茶木太樹"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2013105820",
+      "name": "アウェイク"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2659,6 +2689,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライトサイン (Bright Sign) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトサイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトサイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2728,9 +2788,9 @@
       "contentHash": "f440653723b646290eeca4876db427822435495ecd539e7df65456f75bcfbaf0",
       "byteLength": 67348,
       "rawPath": "netkeiba/horses/2020/2020103191/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:34:40.137Z"
+  "updatedAt": "2026-08-27T02:45:09.418Z"
 }

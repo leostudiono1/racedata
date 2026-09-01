@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018190004",
   "sourceUrl": "https://db.netkeiba.com/horse/2018190004/",
-  "profile": null,
+  "profile": {
+    "name": "ムゲン",
+    "birthDate": "2018-11-07",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05782",
+      "name": "ン"
+    },
+    "owner": {
+      "id": "074803",
+      "name": "インフィニテュード・シンジケート"
+    },
+    "breeder": {
+      "id": null,
+      "name": "Catalina Pastoral Co Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Deep Field"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Little Favours"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Falvelon (豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2945,6 +2975,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムゲン (Mugen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムゲン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムゲン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3014,9 +3074,9 @@
       "contentHash": "397198e2622a9877cf44640f397c00e1911d1af88bd7e68d32a3eab208656e64",
       "byteLength": 65622,
       "rawPath": "netkeiba/horses/2018/2018190004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:41:46.978Z"
+  "updatedAt": "2026-08-30T00:53:14.584Z"
 }

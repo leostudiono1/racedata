@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103638",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103638/",
-  "profile": null,
+  "profile": {
+    "name": "トップボス",
+    "birthDate": "2021-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01043",
+      "name": "石栗龍彦"
+    },
+    "owner": {
+      "id": "989031",
+      "name": "谷脇智恵子"
+    },
+    "breeder": {
+      "id": "913074",
+      "name": "織田正敏"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103212",
+      "name": "ノーザンリバー"
+    },
+    "dam": {
+      "id": "2011106541",
+      "name": "ブラックスワン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アジュディケーティング Adjudicating(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103212",
@@ -1351,6 +1381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トップボス (Top Boss) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップボス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップボス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1420,9 +1480,9 @@
       "contentHash": "1452be4d747b01601058baeb5985cff759bde98d75ae9c3e687773264da4b746",
       "byteLength": 65366,
       "rawPath": "netkeiba/horses/2021/2021103638/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:39:44.574Z"
+  "updatedAt": "2026-08-27T02:50:13.908Z"
 }

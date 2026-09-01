@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100084",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100084/",
-  "profile": null,
+  "profile": {
+    "name": "パナプリ",
+    "birthDate": "2018-02-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "x02e3e",
+      "name": "蟹江知彦"
+    },
+    "breeder": {
+      "id": "833345",
+      "name": "石原牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2006104848",
+      "name": "コスモハート"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2940,6 +2970,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パナプリ (Panoply) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パナプリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パナプリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3009,9 +3069,9 @@
       "contentHash": "ac96a1e19c3618b36bdc2fc1688f1cc9b3b9e68f48a1db9bfbf916e7983a4037",
       "byteLength": 65168,
       "rawPath": "netkeiba/horses/2018/2018100084/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:25:06.945Z"
+  "updatedAt": "2026-08-27T02:35:38.697Z"
 }

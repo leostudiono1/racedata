@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102400",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102400/",
-  "profile": null,
+  "profile": {
+    "name": "ホウオウライセンス",
+    "birthDate": "2023-05-22",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01167",
+      "name": "稲垣幸雄"
+    },
+    "owner": {
+      "id": "906033",
+      "name": "小笹芳央"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マインドユアビスケッツ Mind Your Biscuits(米)"
+    },
+    "dam": {
+      "id": "2011104628",
+      "name": "ハナズリベンジ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1251,6 +1281,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホウオウライセンス (Ho O License) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホウオウライセンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホウオウライセンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1320,9 +1380,9 @@
       "contentHash": "38ee7541f087ce975c627b07ba805dc5bf05ea468b814f0bc60ea5daddfc1065",
       "byteLength": 67032,
       "rawPath": "netkeiba/horses/2023/2023102400/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:34:44.116Z"
+  "updatedAt": "2026-08-31T00:49:20.915Z"
 }

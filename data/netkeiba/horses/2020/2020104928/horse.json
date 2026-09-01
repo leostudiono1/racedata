@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104928",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104928/",
-  "profile": null,
+  "profile": {
+    "name": "アンジェリア",
+    "birthDate": "2020-03-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ケ崎一"
+    },
+    "owner": {
+      "id": "028030",
+      "name": "服部康夫"
+    },
+    "breeder": {
+      "id": "433308",
+      "name": "山際智"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2011100354",
+      "name": "カイドウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -2233,6 +2263,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンジェリア (Angelia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンジェリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンジェリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2302,9 +2362,9 @@
       "contentHash": "2944550711a791ca853065ebc2d1812c30700f824b0920989953ea877a3f9398",
       "byteLength": 66690,
       "rawPath": "netkeiba/horses/2020/2020104928/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:25:07.028Z"
+  "updatedAt": "2026-08-31T00:39:43.163Z"
 }

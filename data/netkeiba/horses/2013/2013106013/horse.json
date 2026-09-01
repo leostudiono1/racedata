@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106013",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106013/",
-  "profile": null,
+  "profile": {
+    "name": "ビッシュ",
+    "birthDate": "2013-01-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "208008",
+      "name": "窪田芳郎"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "バランセラ Barancella(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Acatenango"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2218,6 +2248,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビッシュ (Biche) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2287,9 +2347,9 @@
       "contentHash": "12cf312b3b93d1941d922cbce0afa297055a878c3f4c4d8c5634d450c925a046",
       "byteLength": 66671,
       "rawPath": "netkeiba/horses/2013/2013106013/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:20:43.145Z"
+  "updatedAt": "2026-08-24T06:25:52.836Z"
 }

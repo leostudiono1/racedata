@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106882",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106882/",
-  "profile": null,
+  "profile": {
+    "name": "カイキアス",
+    "birthDate": "2023-02-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "542800",
+      "name": "ライオンレースホース"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "イースト East(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Frankel"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -1205,6 +1235,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カイキアス (Kaikias) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイキアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイキアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1274,9 +1334,9 @@
       "contentHash": "44a5a3d4549ce0dabde75517b38ef4b67d1e81898063f117772ce6228943f2ea",
       "byteLength": 67475,
       "rawPath": "netkeiba/horses/2023/2023106882/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:50:22.083Z"
+  "updatedAt": "2026-08-27T03:00:51.594Z"
 }

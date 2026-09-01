@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110047",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110047/",
-  "profile": null,
+  "profile": {
+    "name": "タニノフランケル",
+    "birthDate": "2015-02-09",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "764001",
+      "name": "谷水雄三"
+    },
+    "breeder": {
+      "id": "540705",
+      "name": "Yuzo Tanimizu"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "2004104258",
+      "name": "ウオッカ"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3537,6 +3567,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タニノフランケル (Tanino Frankel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タニノフランケル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タニノフランケル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3606,9 +3666,9 @@
       "contentHash": "e349fe4eb36151a1c4d11876c1a8af349d18637b350d0106fd878c6295dbac79",
       "byteLength": 67340,
       "rawPath": "netkeiba/horses/2015/2015110047/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:28:22.309Z"
+  "updatedAt": "2026-08-28T01:32:49.915Z"
 }

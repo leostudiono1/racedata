@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110119",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110119/",
-  "profile": null,
+  "profile": {
+    "name": "カクシン",
+    "birthDate": "2017-02-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05553",
+      "name": "黒木豊"
+    },
+    "owner": {
+      "id": "784033",
+      "name": "風早信昭"
+    },
+    "breeder": {
+      "id": "400734",
+      "name": "Thomas Scucci Renee Scucci Dividing Ridge Farm LLC & Doug Smith"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Malibu Moon"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Switcheroo"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Exchange Rate"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -10359,6 +10389,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カクシン (Kakushin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カクシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カクシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10428,9 +10488,9 @@
       "contentHash": "efdb46115027ad254acfd09ebe6d3727dbb68a480e3ee96f85992f38b2bba0be",
       "byteLength": 66841,
       "rawPath": "netkeiba/horses/2017/2017110119/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:01:57.402Z"
+  "updatedAt": "2026-08-29T01:20:04.052Z"
 }

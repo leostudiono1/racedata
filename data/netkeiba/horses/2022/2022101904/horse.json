@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101904",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101904/",
-  "profile": null,
+  "profile": {
+    "name": "ホープリュミエール",
+    "birthDate": "2022-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "703030",
+      "name": "工藤圭司"
+    },
+    "breeder": {
+      "id": "510320",
+      "name": "春木ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2011100013",
+      "name": "エクセレントビュー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "チチカステナンゴ Chichicastenango(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1397,6 +1427,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホープリュミエール (Hope Lumiere) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホープリュミエール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホープリュミエール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1466,9 +1526,9 @@
       "contentHash": "4c0f4a50dd013af23c1ae764f72b56c13c0992158fef282b408b175772fa888f",
       "byteLength": 64824,
       "rawPath": "netkeiba/horses/2022/2022101904/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:18:06.950Z"
+  "updatedAt": "2026-08-29T01:36:13.843Z"
 }

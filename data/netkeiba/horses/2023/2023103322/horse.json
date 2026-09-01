@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103322",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103322/",
-  "profile": null,
+  "profile": {
+    "name": "グスタフ",
+    "birthDate": "2023-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05731",
+      "name": "加藤和義"
+    },
+    "owner": {
+      "id": "088033",
+      "name": "津田浩一"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2016104458",
+      "name": "クリソベリル"
+    },
+    "dam": {
+      "id": "2011104360",
+      "name": "アンズチャン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104458",
@@ -2344,6 +2374,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グスタフ (Gustav) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グスタフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グスタフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2413,9 +2473,9 @@
       "contentHash": "c94f0ff92204a3d11e535aec9b0c5b6c5a67e0ecae4e206885e8db364babfab6",
       "byteLength": 65607,
       "rawPath": "netkeiba/horses/2023/2023103322/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:22:43.604Z"
+  "updatedAt": "2026-08-29T01:40:50.522Z"
 }

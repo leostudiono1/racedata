@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107446",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107446/",
-  "profile": null,
+  "profile": {
+    "name": "ラスエル",
+    "birthDate": "2023-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05771",
+      "name": "鮫島克也"
+    },
+    "owner": {
+      "id": "258033",
+      "name": "野嶋祥二"
+    },
+    "breeder": {
+      "id": "233078",
+      "name": "坂本智広"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104458",
+      "name": "クリソベリル"
+    },
+    "dam": {
+      "id": "2015110006",
+      "name": "ラスエモーショネス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104458",
@@ -2403,6 +2433,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラスエル (Las Elle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2472,9 +2532,9 @@
       "contentHash": "9ba9f405d4632f4b7423b594d8f83a4e1c4ebea068a37935e2c697efc4fe9293",
       "byteLength": 67037,
       "rawPath": "netkeiba/horses/2023/2023107446/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:24:32.080Z"
+  "updatedAt": "2026-08-29T01:42:39.346Z"
 }

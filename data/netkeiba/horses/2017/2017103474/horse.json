@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103474",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103474/",
-  "profile": null,
+  "profile": {
+    "name": "プルセイラ",
+    "birthDate": "2017-03-03",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05691",
+      "name": "新子雅司"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2004104304",
+      "name": "スズカエンジェル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "High Yield (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1944,6 +1974,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プルセイラ (Pulseira) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プルセイラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プルセイラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2013,9 +2073,9 @@
       "contentHash": "572125d5d052ae8817ab7acf9b4c5e83c4846b64ac9dd668acdfd9d0ae779875",
       "byteLength": 64551,
       "rawPath": "netkeiba/horses/2017/2017103474/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:34:19.031Z"
+  "updatedAt": "2026-08-28T01:38:47.012Z"
 }

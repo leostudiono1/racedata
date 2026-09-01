@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100092",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100092/",
-  "profile": null,
+  "profile": {
+    "name": "ナムラテス",
+    "birthDate": "2018-04-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "972002",
+      "name": "奈村睦弘"
+    },
+    "breeder": {
+      "id": "913344",
+      "name": "いとう牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2002105626",
+      "name": "ナムラシゲコ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1407,6 +1437,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナムラテス (Namura Tess) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラテス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラテス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1476,9 +1536,9 @@
       "contentHash": "06fb3bdaff50f6f77feadeee60afe4600db3de698157b260d3a092d19736ba12",
       "byteLength": 65981,
       "rawPath": "netkeiba/horses/2018/2018100092/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:39:16.927Z"
+  "updatedAt": "2026-08-24T06:44:26.233Z"
 }

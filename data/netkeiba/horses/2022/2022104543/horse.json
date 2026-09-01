@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104543",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104543/",
-  "profile": null,
+  "profile": {
+    "name": "デザーヴ",
+    "birthDate": "2022-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05646",
+      "name": "川島正一"
+    },
+    "owner": {
+      "id": "853030",
+      "name": "小原準一郎"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ディスクリートキャット Discreet Cat(米)"
+    },
+    "dam": {
+      "id": "2012110104",
+      "name": "ミタイナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Denman"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2490,6 +2520,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デザーヴ (Deserve) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デザーヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デザーヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2559,9 +2619,9 @@
       "contentHash": "73c045538f9e964613c2bfe702557a277cac1dd34ec1f656bbb5e0cba0f5ae24",
       "byteLength": 64490,
       "rawPath": "netkeiba/horses/2022/2022104543/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:24:38.325Z"
+  "updatedAt": "2026-08-26T03:29:55.403Z"
 }

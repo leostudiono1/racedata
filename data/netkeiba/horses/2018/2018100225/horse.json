@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100225",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100225/",
-  "profile": null,
+  "profile": {
+    "name": "サンビーム",
+    "birthDate": "2018-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "951033",
+      "name": "諸岡慶"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103004",
+      "name": "ベルシャザール"
+    },
+    "dam": {
+      "id": "2007103483",
+      "name": "スズオリヅル"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103004",
@@ -1016,6 +1046,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンビーム (Sun Beam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンビーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンビーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1085,9 +1145,9 @@
       "contentHash": "6560009c23e5bad32fcc87bc9b1889a09b397abcf9e74ee9503169b0128b9966",
       "byteLength": 64467,
       "rawPath": "netkeiba/horses/2018/2018100225/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:04:27.258Z"
+  "updatedAt": "2026-08-26T03:09:43.740Z"
 }

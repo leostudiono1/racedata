@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106410",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106410/",
-  "profile": null,
+  "profile": {
+    "name": "キューブリック",
+    "birthDate": "2017-02-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "307803",
+      "name": "キキアシ"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2008101781",
+      "name": "メイショウチルチェ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1333,6 +1363,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キューブリック (Kubrick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キューブリック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キューブリック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1402,9 +1462,9 @@
       "contentHash": "554f60eab8cb21339eb1652d6090ebe4bc5e383144911edb212738713fdf4e35",
       "byteLength": 66613,
       "rawPath": "netkeiba/horses/2017/2017106410/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:14:15.475Z"
+  "updatedAt": "2026-08-31T00:28:52.102Z"
 }

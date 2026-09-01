@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100101",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100101/",
-  "profile": null,
+  "profile": {
+    "name": "ベルコルポ",
+    "birthDate": "2015-03-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "895030",
+      "name": "山口敦広"
+    },
+    "breeder": {
+      "id": "330512",
+      "name": "大狩部牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    },
+    "dam": {
+      "id": "2010103247",
+      "name": "スノードロップ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102837",
@@ -4057,6 +4087,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルコルポ (Bel Corpo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルコルポ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルコルポ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4126,9 +4186,9 @@
       "contentHash": "9961ae742dc484e811781223491dd146e724333e74e01994144446d034f2ee94",
       "byteLength": 64129,
       "rawPath": "netkeiba/horses/2015/2015100101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:25:44.409Z"
+  "updatedAt": "2026-08-24T06:30:53.952Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105324",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105324/",
-  "profile": null,
+  "profile": {
+    "name": "コルテ",
+    "birthDate": "2016-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05601",
+      "name": "東眞市"
+    },
+    "owner": {
+      "id": "x081db",
+      "name": "（有）藤田自動車"
+    },
+    "breeder": {
+      "id": "600543",
+      "name": "加藤重治"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2009102618",
+      "name": "ダンツスウィフト"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6446,6 +6476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コルテ (Corte) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コルテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コルテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6515,9 +6575,9 @@
       "contentHash": "c6306b9db67822fd2811eb008f207925e48bf7ad0ef74ea7c0a289e97bad9ddc",
       "byteLength": 66780,
       "rawPath": "netkeiba/horses/2016/2016105324/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:19:13.604Z"
+  "updatedAt": "2026-08-27T02:29:44.956Z"
 }

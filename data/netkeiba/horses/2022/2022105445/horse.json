@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105445",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105445/",
-  "profile": null,
+  "profile": {
+    "name": "イスラコラソン",
+    "birthDate": "2022-05-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ハートシェイプト Heart Shaped(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -1921,6 +1951,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イスラコラソン (Isla Corazon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イスラコラソン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イスラコラソン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1990,9 +2050,9 @@
       "contentHash": "08772997bfd5219319ee79e3d05ce5083f129fafbb96ea21b5d39c06f721f961",
       "byteLength": 66868,
       "rawPath": "netkeiba/horses/2022/2022105445/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:48:43.084Z"
+  "updatedAt": "2026-08-25T05:59:49.534Z"
 }

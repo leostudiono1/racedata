@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101400",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101400/",
-  "profile": null,
+  "profile": {
+    "name": "ハイソリア",
+    "birthDate": "2023-02-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "381803",
+      "name": "エラドゥーラ"
+    },
+    "breeder": {
+      "id": "923541",
+      "name": "ＢｌｏｏｍｉｎｇＦａｒｍ"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マリーファー Marifah(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1009,6 +1039,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイソリア (Haisoria) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイソリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイソリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1078,9 +1138,9 @@
       "contentHash": "3d0f3e98f492daec5e5054b96c9079c15c06e8b28acb988e83f3b7b5c5789cf7",
       "byteLength": 64714,
       "rawPath": "netkeiba/horses/2023/2023101400/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T04:01:02.578Z"
+  "updatedAt": "2026-08-28T02:05:30.267Z"
 }

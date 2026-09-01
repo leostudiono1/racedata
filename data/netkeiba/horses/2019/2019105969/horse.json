@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105969",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105969/",
-  "profile": null,
+  "profile": {
+    "name": "モモサン",
+    "birthDate": "2019-03-31",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05388",
+      "name": "佐々木仁"
+    },
+    "owner": {
+      "id": "370803",
+      "name": "是枝浩平"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2008110014",
+      "name": "ゴールドフェスタ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2352,6 +2382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モモサン (Momosan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モモサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モモサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2421,9 +2481,9 @@
       "contentHash": "7c00e685237063ccae5ea8b2a98b729059f52066fce67ca3a4db1f655774f378",
       "byteLength": 66172,
       "rawPath": "netkeiba/horses/2019/2019105969/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:37:20.267Z"
+  "updatedAt": "2026-08-25T05:48:26.856Z"
 }

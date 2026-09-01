@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110104",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110104/",
-  "profile": null,
+  "profile": {
+    "name": "ミタイナ",
+    "birthDate": "2012-10-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "220702",
+      "name": "Mr R Gorton"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Denman"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Qualia"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3331,6 +3361,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミタイナ (Mitaina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミタイナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミタイナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3400,9 +3460,9 @@
       "contentHash": "adb39da067a8acdee8680cb9564a3a430581db13c7a2a5c428c02175bf08287a",
       "byteLength": 65827,
       "rawPath": "netkeiba/horses/2012/2012110104/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:15:59.622Z"
+  "updatedAt": "2026-08-28T01:20:27.409Z"
 }

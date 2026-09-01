@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102046",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102046/",
-  "profile": null,
+  "profile": {
+    "name": "レオレコメンド",
+    "birthDate": "2023-03-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "209800",
+      "name": "レオ"
+    },
+    "breeder": {
+      "id": "263543",
+      "name": "笹島智則"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014103121",
+      "name": "エピカリス"
+    },
+    "dam": {
+      "id": "2016105010",
+      "name": "ゴットパシオン"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "2014103121",
@@ -1163,6 +1193,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオレコメンド (Leo Recommend) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオレコメンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオレコメンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1232,9 +1292,9 @@
       "contentHash": "46141a59ded55af873a2f3ee8079c07aa6ac5aec1f3a0242832f36014d3dd7f9",
       "byteLength": 65601,
       "rawPath": "netkeiba/horses/2023/2023102046/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:47:30.576Z"
+  "updatedAt": "2026-08-27T02:57:59.776Z"
 }

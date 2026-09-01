@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104915",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104915/",
-  "profile": null,
+  "profile": {
+    "name": "グランシルク",
+    "birthDate": "2012-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ルシルク Le Cirque(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dynaformer"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -3394,6 +3424,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランシルク (Grand Silk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランシルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランシルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3463,9 +3523,9 @@
       "contentHash": "a284c7d50774cde1da4986d755b475392d7d1e0bbd9f9d1745521860ba26e7bc",
       "byteLength": 67644,
       "rawPath": "netkeiba/horses/2012/2012104915/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:15:38.298Z"
+  "updatedAt": "2026-08-30T00:27:06.140Z"
 }

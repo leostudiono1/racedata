@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102164",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102164/",
-  "profile": null,
+  "profile": {
+    "name": "ムーンナイト",
+    "birthDate": "2022-01-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "591031",
+      "name": "小島章義"
+    },
+    "breeder": {
+      "id": "803327",
+      "name": "門別牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2014110071",
+      "name": "ゴールドスカイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kyllachy"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -1655,6 +1685,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムーンナイト (Moon Knight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーンナイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーンナイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1724,9 +1784,9 @@
       "contentHash": "b01e9e7a62b81514260390b69e4506baab96049329864b928652244e6bc4b439",
       "byteLength": 64980,
       "rawPath": "netkeiba/horses/2022/2022102164/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:43:32.541Z"
+  "updatedAt": "2026-08-27T02:54:02.010Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105000",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105000/",
-  "profile": null,
+  "profile": {
+    "name": "イサイ",
+    "birthDate": "2020-04-05",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "600330",
+      "name": "アサヒ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フォーシンズ Four Sins(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sinndar (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1419,6 +1449,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イサイ (Isai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イサイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イサイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1488,9 +1548,9 @@
       "contentHash": "795e7c194ef9df305db75ad44c372e8da27738e4277c316fd790e18450e90d39",
       "byteLength": 66819,
       "rawPath": "netkeiba/horses/2020/2020105000/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:15:11.131Z"
+  "updatedAt": "2026-08-26T03:20:27.815Z"
 }

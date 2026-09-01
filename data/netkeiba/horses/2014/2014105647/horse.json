@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105647",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105647/",
-  "profile": null,
+  "profile": {
+    "name": "ファヴール",
+    "birthDate": "2014-01-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "1996107237",
+      "name": "フォルナリーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Capote"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -9793,6 +9823,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファヴール (Faveur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファヴール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファヴール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9862,9 +9922,9 @@
       "contentHash": "4d5928737a31fe757662a32c063091a5e7497e0ad930f06a5887815fc05e9318",
       "byteLength": 65805,
       "rawPath": "netkeiba/horses/2014/2014105647/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:48:43.331Z"
+  "updatedAt": "2026-08-29T01:06:49.280Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104326",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104326/",
-  "profile": null,
+  "profile": {
+    "name": "モルドレッド",
+    "birthDate": "2015-02-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "379008",
+      "name": "村木隆"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008102851",
+      "name": "サトノレジーナ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2468,6 +2498,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モルドレッド (Mordred) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モルドレッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モルドレッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2537,9 +2597,9 @@
       "contentHash": "c02431bda31c3eeee1319fd1ed59429bcf6995407004e4e7a34c480fc13f409d",
       "byteLength": 66588,
       "rawPath": "netkeiba/horses/2015/2015104326/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:04:02.900Z"
+  "updatedAt": "2026-08-31T00:18:39.228Z"
 }

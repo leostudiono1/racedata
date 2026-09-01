@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103046",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103046/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウカチョウ",
+    "birthDate": "2015-04-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "500037",
+      "name": "近藤牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2010104847",
+      "name": "ワンダフルムーン"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -1334,6 +1364,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウカチョウ (Meisho Kacho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウカチョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウカチョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1403,9 +1463,9 @@
       "contentHash": "5403e7aeb2ba562973b8bee12ddb14f1daa6c3318319079e4de5c9ad23b86c85",
       "byteLength": 66382,
       "rawPath": "netkeiba/horses/2015/2015103046/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:18:08.240Z"
+  "updatedAt": "2026-08-25T05:29:15.312Z"
 }

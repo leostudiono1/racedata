@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104631",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104631/",
-  "profile": null,
+  "profile": {
+    "name": "エレディータ",
+    "birthDate": "2012-03-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01146",
+      "name": "奥村豊"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "スニッツェル Snitzel(豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サンスプリング Sun Spring(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サザンヘイロー Southern Halo(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2142,6 +2172,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エレディータ (Eredita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレディータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレディータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2211,9 +2271,9 @@
       "contentHash": "3cbbc2b9639fd5f468b58fa17c78e304557a7250b148db804cafbe1ee828fcdb",
       "byteLength": 65898,
       "rawPath": "netkeiba/horses/2012/2012104631/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:52:08.676Z"
+  "updatedAt": "2026-08-31T00:06:45.262Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102334",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102334/",
-  "profile": null,
+  "profile": {
+    "name": "コパノエミリア",
+    "birthDate": "2022-02-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宇都英樹"
+    },
+    "owner": {
+      "id": "966007",
+      "name": "小林祥晃"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2010100159",
+      "name": "アンジェラスベル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Oratorio"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -3203,6 +3233,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コパノエミリア (Copano Emilia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパノエミリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパノエミリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3272,9 +3332,9 @@
       "contentHash": "b130cbf60786f3ffea3932550b10c04ced989a6ed1da6ca066e2a3554d1d2ff3",
       "byteLength": 67045,
       "rawPath": "netkeiba/horses/2022/2022102334/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:18:14.063Z"
+  "updatedAt": "2026-08-29T01:36:21.002Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103841",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103841/",
-  "profile": null,
+  "profile": {
+    "name": "スズカモービル",
+    "birthDate": "2019-04-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00362",
+      "name": "橋田満"
+    },
+    "owner": {
+      "id": "382004",
+      "name": "永井啓弍"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2011105913",
+      "name": "スズカローラー"
+    },
+    "damsire": {
+      "id": "2001103890",
+      "name": "スズカマンボ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1339,6 +1369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズカモービル (Suzuka Mobile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカモービル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカモービル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1408,9 +1468,9 @@
       "contentHash": "1fbf428588f6e64eab7d0dedb265c076a03cf37b8e31c1e1756abc6f27391742",
       "byteLength": 64611,
       "rawPath": "netkeiba/horses/2019/2019103841/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:35:42.276Z"
+  "updatedAt": "2026-08-25T05:46:49.255Z"
 }

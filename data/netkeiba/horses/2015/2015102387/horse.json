@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102387",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102387/",
-  "profile": null,
+  "profile": {
+    "name": "ソルファ",
+    "birthDate": "2015-04-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01173",
+      "name": "長谷川浩"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "1997110261",
+      "name": "レディバラード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2903,6 +2933,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソルファ (Solfa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソルファ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソルファ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2972,9 +3032,9 @@
       "contentHash": "2e2a6855a40e8143e206387120d997fdbe5872b966a356a99abd1c8b5cf05d4b",
       "byteLength": 66519,
       "rawPath": "netkeiba/horses/2015/2015102387/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:26:02.011Z"
+  "updatedAt": "2026-08-28T01:30:29.868Z"
 }

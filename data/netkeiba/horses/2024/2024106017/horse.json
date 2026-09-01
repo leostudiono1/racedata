@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024106017",
   "sourceUrl": "https://db.netkeiba.com/horse/2024106017/",
-  "profile": null,
+  "profile": {
+    "name": "アウアリイ",
+    "birthDate": "2024-04-06",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2015104313",
+      "name": "ブルーハワイアン"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1051,6 +1081,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウアリイ (Aualii) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウアリイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウアリイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1120,9 +1180,9 @@
       "contentHash": "4d3d7e6e52cc7597ab561a626bb51889f33a8e28406f6144a68fa400b01cead7",
       "byteLength": 64581,
       "rawPath": "netkeiba/horses/2024/2024106017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T04:06:10.702Z"
+  "updatedAt": "2026-08-28T02:10:38.371Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106073",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106073/",
-  "profile": null,
+  "profile": {
+    "name": "ビートマッチ",
+    "birthDate": "2014-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2002100962",
+      "name": "パーフェクトマッチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1397,6 +1427,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビートマッチ (Beat Match) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビートマッチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビートマッチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1466,9 +1526,9 @@
       "contentHash": "6b52a6f7eed949d44e849558698e42a06e6d8d1aeaeb214cc68463febe613980",
       "byteLength": 67473,
       "rawPath": "netkeiba/horses/2014/2014106073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:00:46.485Z"
+  "updatedAt": "2026-08-31T00:15:23.248Z"
 }

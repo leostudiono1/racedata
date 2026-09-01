@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110066",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110066/",
-  "profile": null,
+  "profile": {
+    "name": "ララモンストル",
+    "birthDate": "2021-01-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "310736",
+      "name": "Cove Springs LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Mitole"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Speightstastic"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3946,6 +3976,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ララモンストル (La La Monstre) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララモンストル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララモンストル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4015,9 +4075,9 @@
       "contentHash": "4055af265bed7cbe11c0f1b6f0b52579a8b6900267b0b3e053eb4fc97eebbc5c",
       "byteLength": 66924,
       "rawPath": "netkeiba/horses/2021/2021110066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:54:54.824Z"
+  "updatedAt": "2026-08-30T01:06:22.447Z"
 }

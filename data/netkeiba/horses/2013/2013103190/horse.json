@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103190",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103190/",
-  "profile": null,
+  "profile": {
+    "name": "スナークウルフ",
+    "birthDate": "2013-04-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "木村健"
+    },
+    "owner": {
+      "id": "478030",
+      "name": "杉本豊"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    },
+    "dam": {
+      "id": "2008105794",
+      "name": "スナークサークル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smarty Jones (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007105709",
@@ -5214,6 +5244,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スナークウルフ (Snark Wolf) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スナークウルフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スナークウルフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5283,9 +5343,9 @@
       "contentHash": "167c894dd524ab2b4323551ff4ab9eccd52872780f4ec0cda8a210e95c2d5a94",
       "byteLength": 66050,
       "rawPath": "netkeiba/horses/2013/2013103190/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:17:30.718Z"
+  "updatedAt": "2026-08-28T01:21:58.381Z"
 }

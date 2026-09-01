@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104703",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104703/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンスマイル",
+    "birthDate": "2014-01-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "963031",
+      "name": "前田敏文"
+    },
+    "breeder": {
+      "id": "613084",
+      "name": "田湯牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    },
+    "dam": {
+      "id": "2008101063",
+      "name": "ダイアンスマイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "1990109700",
@@ -1352,6 +1382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンスマイル (Hakusan Smile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンスマイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンスマイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1421,9 +1481,9 @@
       "contentHash": "c6e2b83314acba3c71a603fce5f771332ccfaad103c2b2c46a00b85f9f48ef3e",
       "byteLength": 64585,
       "rawPath": "netkeiba/horses/2014/2014104703/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:14:24.125Z"
+  "updatedAt": "2026-08-25T05:25:30.674Z"
 }

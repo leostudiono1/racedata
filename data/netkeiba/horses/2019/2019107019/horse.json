@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019107019",
   "sourceUrl": "https://db.netkeiba.com/horse/2019107019/",
-  "profile": null,
+  "profile": {
+    "name": "アシタカ",
+    "birthDate": "2019-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2002110196",
+      "name": "ミスペンバリー"
+    },
+    "damsire": {
+      "id": "1996190001",
+      "name": "Montjeu (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1209,6 +1239,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アシタカ (Ashitaka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アシタカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アシタカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1278,9 +1338,9 @@
       "contentHash": "2b20c1dc5458a8d9e6505d3ef6d7844652027fdc5c118e3dd5f421695fb6bb99",
       "byteLength": 67073,
       "rawPath": "netkeiba/horses/2019/2019107019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:45:10.588Z"
+  "updatedAt": "2026-08-28T01:49:37.976Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105811",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105811/",
-  "profile": null,
+  "profile": {
+    "name": "セプトラム",
+    "birthDate": "2022-03-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05770",
+      "name": "北村欣也"
+    },
+    "owner": {
+      "id": "382803",
+      "name": "本城"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ソベラニア Soberania(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -3540,6 +3570,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セプトラム (Sceptrum) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セプトラム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セプトラム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3609,9 +3669,9 @@
       "contentHash": "4db63885e47076af2bb3ad0b71d616c82dd806b756336a301f4872a3d9716423",
       "byteLength": 66742,
       "rawPath": "netkeiba/horses/2022/2022105811/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:00:17.113Z"
+  "updatedAt": "2026-08-24T07:05:26.653Z"
 }

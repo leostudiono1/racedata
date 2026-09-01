@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100903",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100903/",
-  "profile": null,
+  "profile": {
+    "name": "サンデーヒーロー",
+    "birthDate": "2020-04-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "513008",
+      "name": "山田裕仁"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "2012106045",
+      "name": "ブラックショコラ"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -3532,6 +3562,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンデーヒーロー (Sunday Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンデーヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンデーヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3601,9 +3661,9 @@
       "contentHash": "79b801f5ed3181613d14620a835b4dea9c3f4348c95e71271c5af28cd1994105",
       "byteLength": 67067,
       "rawPath": "netkeiba/horses/2020/2020100903/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:46:26.982Z"
+  "updatedAt": "2026-08-30T00:57:54.669Z"
 }

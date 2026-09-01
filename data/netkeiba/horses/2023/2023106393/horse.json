@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106393",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106393/",
-  "profile": null,
+  "profile": {
+    "name": "ナイア",
+    "birthDate": "2023-02-26",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "2016110160",
+      "name": "ストームハート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Uncaptured"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -977,6 +1007,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナイア (Naia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナイア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナイア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1046,9 +1106,9 @@
       "contentHash": "f45dcdcd389cfcc608670b8e096273664bac60f50194561846702fef48b7df37",
       "byteLength": 65814,
       "rawPath": "netkeiba/horses/2023/2023106393/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:52:55.228Z"
+  "updatedAt": "2026-08-25T06:04:01.645Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105264",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105264/",
-  "profile": null,
+  "profile": {
+    "name": "ボーデン",
+    "birthDate": "2018-02-16",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01192",
+      "name": "上原佑紀"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2011103749",
+      "name": "ボージェスト"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3016,6 +3046,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボーデン (Boden) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボーデン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボーデン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3085,9 +3145,9 @@
       "contentHash": "45001f7b9cd531e9a7ce3d2f62a1870fb801d51f33aa8d012b0041e1d8438f87",
       "byteLength": 67034,
       "rawPath": "netkeiba/horses/2018/2018105264/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:06:57.545Z"
+  "updatedAt": "2026-08-26T03:12:14.224Z"
 }

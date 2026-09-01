@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011190008",
   "sourceUrl": "https://db.netkeiba.com/horse/2011190008/",
-  "profile": null,
+  "profile": {
+    "name": "Lucky Bubbles",
+    "birthDate": "2011-10-16",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05724",
+      "name": "ルイ"
+    },
+    "owner": {
+      "id": "308803",
+      "name": "ラッキー・シンジケート"
+    },
+    "breeder": {
+      "id": "580731",
+      "name": "Gilgai Farm"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Sebring"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Bubble Below"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hussonet"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3547,6 +3577,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Lucky Bubbles (ラッキーバブルズ) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Lucky Bubbles関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Lucky Bubbles関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3616,9 +3676,9 @@
       "contentHash": "8731570770fd06dcb2adfe5ed1ddc502bb46b4c3f290090f897b3bd11b296347",
       "byteLength": 66158,
       "rawPath": "netkeiba/horses/2011/2011190008/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:13:29.089Z"
+  "updatedAt": "2026-08-24T06:18:38.868Z"
 }

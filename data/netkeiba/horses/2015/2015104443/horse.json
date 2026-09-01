@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104443",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104443/",
-  "profile": null,
+  "profile": {
+    "name": "メジャードリーム",
+    "birthDate": "2015-01-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05765",
+      "name": "加藤誠一"
+    },
+    "owner": {
+      "id": "215008",
+      "name": "田畑憲士"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ナドー Nadeaud(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Soave"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2504,6 +2534,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メジャードリーム (Major Dream) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メジャードリーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メジャードリーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2573,9 +2633,9 @@
       "contentHash": "893be8ccd76da9c42cc5f6c34b60c720abcb891d7fc15464cc75899d1e704cb2",
       "byteLength": 67163,
       "rawPath": "netkeiba/horses/2015/2015104443/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:19:07.867Z"
+  "updatedAt": "2026-08-25T05:30:14.405Z"
 }

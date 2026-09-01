@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104638",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104638/",
-  "profile": null,
+  "profile": {
+    "name": "ナックフローラ",
+    "birthDate": "2019-02-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "立花貢"
+    },
+    "owner": {
+      "id": "931033",
+      "name": "小松欣也"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008102887",
+      "name": "アルマフローラ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3371,6 +3401,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナックフローラ (Nac Flora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナックフローラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナックフローラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3440,9 +3500,9 @@
       "contentHash": "7ee727c9f004562c4d4a04fd307e234a7025a150e65a0af3f2a9ab873c082cd3",
       "byteLength": 67238,
       "rawPath": "netkeiba/horses/2019/2019104638/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:36:24.351Z"
+  "updatedAt": "2026-08-25T05:47:30.714Z"
 }

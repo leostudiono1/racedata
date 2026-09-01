@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100350",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100350/",
-  "profile": null,
+  "profile": {
+    "name": "シャイニーネーム",
+    "birthDate": "2013-02-27",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05193",
+      "name": "山中輝久"
+    },
+    "owner": {
+      "id": "337803",
+      "name": "ホースケア"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "1996102781",
+      "name": "スーパーシンガー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -3299,6 +3329,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャイニーネーム (Shiny Name) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニーネーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニーネーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3368,9 +3428,9 @@
       "contentHash": "77ac45e2f568e8bb4b3193c490135418829c6c2a4c371de9b5cd9ceefb5007f5",
       "byteLength": 67140,
       "rawPath": "netkeiba/horses/2013/2013100350/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:41:06.566Z"
+  "updatedAt": "2026-08-26T02:46:23.495Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101463",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101463/",
-  "profile": null,
+  "profile": {
+    "name": "フクノヘップバーン",
+    "birthDate": "2020-03-31",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "670543",
+      "name": "ケイズ"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012102774",
+      "name": "ヤマカツエース"
+    },
+    "dam": {
+      "id": "2013106452",
+      "name": "サンヘレナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102774",
@@ -2415,6 +2445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フクノヘップバーン (Fukuno Hepburn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フクノヘップバーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フクノヘップバーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2484,9 +2544,9 @@
       "contentHash": "6aaf02a68efd6dd7c24c27ada2e22b7049b08ff54f0abc9893e7d7a7caa2197a",
       "byteLength": 65030,
       "rawPath": "netkeiba/horses/2020/2020101463/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:12:30.517Z"
+  "updatedAt": "2026-08-26T03:17:46.941Z"
 }

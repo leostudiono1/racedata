@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105727",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105727/",
-  "profile": null,
+  "profile": {
+    "name": "モズジェネラル",
+    "birthDate": "2023-04-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01180",
+      "name": "田中克典"
+    },
+    "owner": {
+      "id": "936034",
+      "name": "北側雅司"
+    },
+    "breeder": {
+      "id": "400005",
+      "name": "猿倉牧場"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2014110031",
+      "name": "モズアスコット"
+    },
+    "dam": {
+      "id": "2017110055",
+      "name": "モズアーントモー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014110031",
@@ -1782,6 +1812,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モズジェネラル (Mozu General) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズジェネラル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズジェネラル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1851,9 +1911,9 @@
       "contentHash": "32781b3474e5db2cd15e793170e5ac74d5108c3a370d22c4caa1e3fb426cabea",
       "byteLength": 67161,
       "rawPath": "netkeiba/horses/2023/2023105727/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:49:43.323Z"
+  "updatedAt": "2026-08-27T03:00:12.994Z"
 }

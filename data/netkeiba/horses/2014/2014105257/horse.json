@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105257",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105257/",
-  "profile": null,
+  "profile": {
+    "name": "レイダー",
+    "birthDate": "2014-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05773",
+      "name": "市村誠"
+    },
+    "owner": {
+      "id": "x098c2",
+      "name": "八嶋長久"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "1999110202",
+      "name": "エグジジェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Capote"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2616,6 +2646,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイダー (Raider) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイダー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイダー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2685,9 +2745,9 @@
       "contentHash": "fe3235a7fab2f71eab78bf84b3a9fde15d6c655619bdb6c9b3331d4b2da11645",
       "byteLength": 66691,
       "rawPath": "netkeiba/horses/2014/2014105257/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:49:34.537Z"
+  "updatedAt": "2026-08-26T02:54:50.886Z"
 }

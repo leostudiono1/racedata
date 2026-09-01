@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103223",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103223/",
-  "profile": null,
+  "profile": {
+    "name": "ニューハイ",
+    "birthDate": "2023-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01189",
+      "name": "堀内岳志"
+    },
+    "owner": {
+      "id": "685030",
+      "name": "和泉憲一"
+    },
+    "breeder": {
+      "id": "103309",
+      "name": "北洋牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2016106295",
+      "name": "ローズギフト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Siyouni"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -1228,6 +1258,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ニューハイ (New High) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニューハイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニューハイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1297,9 +1357,9 @@
       "contentHash": "2323720de038a429ac4b473c5d6b0ccedc20fb95ec278a39607046c2fc93db5a",
       "byteLength": 65616,
       "rawPath": "netkeiba/horses/2023/2023103223/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:51:34.985Z"
+  "updatedAt": "2026-08-25T06:02:41.088Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105177",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105177/",
-  "profile": null,
+  "profile": {
+    "name": "マスタング",
+    "birthDate": "2014-05-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05157",
+      "name": "及川良春"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "220543",
+      "name": "ムーンシェル・インベストメンツ"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "2009106022",
+      "name": "キャンディチャン"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -2482,6 +2512,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マスタング (Mustang) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスタング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスタング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2551,9 +2611,9 @@
       "contentHash": "c3968ada07a1b47ccb5d6c90609a66786af667331ad54b9aa24717fb9d03fa11",
       "byteLength": 64045,
       "rawPath": "netkeiba/horses/2014/2014105177/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:24:30.747Z"
+  "updatedAt": "2026-08-24T06:29:40.353Z"
 }

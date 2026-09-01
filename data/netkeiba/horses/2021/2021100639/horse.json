@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100639",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100639/",
-  "profile": null,
+  "profile": {
+    "name": "アストラカ",
+    "birthDate": "2021-03-13",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05755",
+      "name": "永島太郎"
+    },
+    "owner": {
+      "id": "482002",
+      "name": "水上行雄"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2013102846",
+      "name": "アカカホール"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3174,6 +3204,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アストラカ (Astraka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストラカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストラカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3243,9 +3303,9 @@
       "contentHash": "c7426cc68722625cc3c1e357696e81b7eb2f19eb22c79c4faeeb33469f02739c",
       "byteLength": 66796,
       "rawPath": "netkeiba/horses/2021/2021100639/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:50:53.017Z"
+  "updatedAt": "2026-08-30T01:02:20.730Z"
 }

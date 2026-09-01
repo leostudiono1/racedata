@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101777",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101777/",
-  "profile": null,
+  "profile": {
+    "name": "シゲルミライ",
+    "birthDate": "2020-04-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01003",
+      "name": "川村禎彦"
+    },
+    "owner": {
+      "id": "088034",
+      "name": "關美和"
+    },
+    "breeder": {
+      "id": "901358",
+      "name": "田端牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "クァンタムミス Quantum Miss(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smoke Glacken"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2707,6 +2737,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シゲルミライ (Shigeru Mirai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シゲルミライ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シゲルミライ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2776,9 +2836,9 @@
       "contentHash": "550afe27e0744b6d3ceca0246e748286fe1be53d558eaf1e7643cf745dba7d39",
       "byteLength": 66924,
       "rawPath": "netkeiba/horses/2020/2020101777/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:46:37.850Z"
+  "updatedAt": "2026-08-28T01:51:05.658Z"
 }

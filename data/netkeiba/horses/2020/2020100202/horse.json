@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100202",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100202/",
-  "profile": null,
+  "profile": {
+    "name": "ゼットスティール",
+    "birthDate": "2020-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "730800",
+      "name": "フォーレスト"
+    },
+    "breeder": {
+      "id": "103097",
+      "name": "嶋田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2009101565",
+      "name": "ソロデビュー"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2227,6 +2257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼットスティール (Z Steel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼットスティール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼットスティール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2296,9 +2356,9 @@
       "contentHash": "06510ef90845cbd93b04742b8a7cf17fdeff4ec044b3a4bd59d2229018b40e94",
       "byteLength": 66453,
       "rawPath": "netkeiba/horses/2020/2020100202/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:45:34.839Z"
+  "updatedAt": "2026-08-28T01:50:02.576Z"
 }

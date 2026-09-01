@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102160",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102160/",
-  "profile": null,
+  "profile": {
+    "name": "サターン",
+    "birthDate": "2016-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01183",
+      "name": "辻野泰之"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シャンロッサ Chanrossa(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2204,6 +2234,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サターン (Saturn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サターン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サターン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2273,9 +2333,9 @@
       "contentHash": "3e90c359cca2a02377fdb80a0d17a27b50601bf5c9cd4936f4d758f8ee957b7b",
       "byteLength": 66509,
       "rawPath": "netkeiba/horses/2016/2016102160/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:31:02.849Z"
+  "updatedAt": "2026-08-24T06:36:12.586Z"
 }

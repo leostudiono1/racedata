@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101265",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101265/",
-  "profile": null,
+  "profile": {
+    "name": "クラストリック",
+    "birthDate": "2013-02-27",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "009060",
+      "name": "Ｋ．Ｃ．タン"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103018",
+      "name": "ハットトリック"
+    },
+    "dam": {
+      "id": "000",
+      "name": "クラシーアセッツ Classy Assets(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ジェイドハンター Jade Hunter(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103018",
@@ -1091,6 +1121,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラストリック (Class Trick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラストリック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラストリック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1160,9 +1220,9 @@
       "contentHash": "d8b1391001dc182c1e416e6f950aa216a40f235602e6fa9d508ee84d5ae23d19",
       "byteLength": 64805,
       "rawPath": "netkeiba/horses/2013/2013101265/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:16:38.119Z"
+  "updatedAt": "2026-08-28T01:21:06.249Z"
 }

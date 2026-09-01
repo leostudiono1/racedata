@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103873",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103873/",
-  "profile": null,
+  "profile": {
+    "name": "サーロー",
+    "birthDate": "2023-02-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01047",
+      "name": "勢司和浩"
+    },
+    "owner": {
+      "id": "320803",
+      "name": "古賀禎彦"
+    },
+    "breeder": {
+      "id": "313378",
+      "name": "橋本牧場"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015104813",
+      "name": "ヘンリーバローズ"
+    },
+    "dam": {
+      "id": "2018101016",
+      "name": "フォルリベルター"
+    },
+    "damsire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104813",
@@ -1496,6 +1526,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サーロー (Thorough) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1565,9 +1625,9 @@
       "contentHash": "3beae1ceefe58691cb1d1489fbf8f0382c0a132c32e74d33cde4abf865bbce26",
       "byteLength": 67114,
       "rawPath": "netkeiba/horses/2023/2023103873/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T03:00:41.250Z"
+  "updatedAt": "2026-08-30T01:12:09.009Z"
 }

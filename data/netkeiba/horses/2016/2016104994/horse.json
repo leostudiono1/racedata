@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104994",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104994/",
-  "profile": null,
+  "profile": {
+    "name": "リゴメール",
+    "birthDate": "2016-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "2001103073",
+      "name": "ギミーシェルター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -1470,6 +1500,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リゴメール (Rigomer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リゴメール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リゴメール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1539,9 +1599,9 @@
       "contentHash": "63c410726dd85573af383b2f5f60c9bfe350266f33aabc8567edbaad895243bc",
       "byteLength": 67137,
       "rawPath": "netkeiba/horses/2016/2016104994/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:32:58.157Z"
+  "updatedAt": "2026-08-30T00:44:25.988Z"
 }

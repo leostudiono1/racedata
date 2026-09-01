@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110072",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110072/",
-  "profile": null,
+  "profile": {
+    "name": "レイワエポック",
+    "birthDate": "2022-02-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "阿井正雄"
+    },
+    "owner": {
+      "id": "855030",
+      "name": "田頭勇貴"
+    },
+    "breeder": {
+      "id": "180710",
+      "name": "Teneri Farms Inc"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Mendelssohn"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Birdie Gold"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Birdstone"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3229,6 +3259,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイワエポック (Reiwa Epoch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイワエポック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイワエポック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3298,9 +3358,9 @@
       "contentHash": "85b7a9ce4976e61a540550fe7d3b747ae225483eeeb8ac339e7a67124717095d",
       "byteLength": 65463,
       "rawPath": "netkeiba/horses/2022/2022110072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:21:16.068Z"
+  "updatedAt": "2026-08-29T01:39:22.979Z"
 }

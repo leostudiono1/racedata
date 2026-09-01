@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103928",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103928/",
-  "profile": null,
+  "profile": {
+    "name": "ハイアーレート",
+    "birthDate": "2011-02-01",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2002100888",
+      "name": "スルーレート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -3066,6 +3096,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイアーレート (Higher Rate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイアーレート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイアーレート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3135,9 +3195,9 @@
       "contentHash": "d82d206f38f1a45ba4e685c53a8888f0f6616809f1063a23d204c4bbba4eb584",
       "byteLength": 67375,
       "rawPath": "netkeiba/horses/2011/2011103928/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:11:30.008Z"
+  "updatedAt": "2026-08-28T01:15:57.884Z"
 }

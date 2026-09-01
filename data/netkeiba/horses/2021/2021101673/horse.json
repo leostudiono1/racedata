@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101673",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101673/",
-  "profile": null,
+  "profile": {
+    "name": "エスカルチャ",
+    "birthDate": "2021-05-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05688",
+      "name": "小野望"
+    },
+    "owner": {
+      "id": "131031",
+      "name": "会田裕一"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "デザートチル Desert Chill(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Red Ransom"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -5146,6 +5176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスカルチャ (Escarcha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスカルチャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスカルチャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5215,9 +5275,9 @@
       "contentHash": "0a21823aec778b4342a0e106cf19926aadd27cc405427948c384ae763bb66f4f",
       "byteLength": 66209,
       "rawPath": "netkeiba/horses/2021/2021101673/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:51:45.714Z"
+  "updatedAt": "2026-08-30T01:03:13.564Z"
 }

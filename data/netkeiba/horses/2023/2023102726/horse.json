@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102726",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102726/",
-  "profile": null,
+  "profile": {
+    "name": "タロ",
+    "birthDate": "2023-04-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01172",
+      "name": "新谷功一"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "803080",
+      "name": "静内ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006102923",
+      "name": "リーチザクラウン"
+    },
+    "dam": {
+      "id": "2014105434",
+      "name": "エンゲージスマイル"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102923",
@@ -1868,6 +1898,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タロ (Taro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1937,9 +1997,9 @@
       "contentHash": "698bb09246b747445deb0f9d7c855b6f8b26cdb7b97615a4e429fe145cf0b0e8",
       "byteLength": 66079,
       "rawPath": "netkeiba/horses/2023/2023102726/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:34:58.090Z"
+  "updatedAt": "2026-08-31T00:49:34.794Z"
 }

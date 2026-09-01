@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101997",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101997/",
-  "profile": null,
+  "profile": {
+    "name": "オールウェイ",
+    "birthDate": "2015-03-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島寿"
+    },
+    "owner": {
+      "id": "708030",
+      "name": "林田憲次"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "2004106292",
+      "name": "マキハタターキー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サザンヘイロー Southern Halo(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -6975,6 +7005,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オールウェイ (All Way) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールウェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールウェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7044,9 +7104,9 @@
       "contentHash": "5299cd4836040729f46fc41c25501dcfa39569e120c4cdcc24a11779ee3284cd",
       "byteLength": 65545,
       "rawPath": "netkeiba/horses/2015/2015101997/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:26:51.138Z"
+  "updatedAt": "2026-08-30T00:38:18.384Z"
 }

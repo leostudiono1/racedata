@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101129",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101129/",
-  "profile": null,
+  "profile": {
+    "name": "グリントスター",
+    "birthDate": "2018-04-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05702",
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "504007",
+      "name": "田島政光"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006103308",
+      "name": "アンライバルド"
+    },
+    "dam": {
+      "id": "2009100344",
+      "name": "ドリームスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "カリズマティック Charismatic(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103308",
@@ -5651,6 +5681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリントスター (Glint Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリントスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリントスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5720,9 +5780,9 @@
       "contentHash": "d66f348e5118ce7a7a233e1ec946cbe7316d270d4fb1d7e602435911569a8fff",
       "byteLength": 66912,
       "rawPath": "netkeiba/horses/2018/2018101129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:02:42.678Z"
+  "updatedAt": "2026-08-29T01:20:49.578Z"
 }

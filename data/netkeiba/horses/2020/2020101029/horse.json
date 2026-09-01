@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101029",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101029/",
-  "profile": null,
+  "profile": {
+    "name": "アスクメークシェア",
+    "birthDate": "2020-04-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01210",
+      "name": "前川恭子"
+    },
+    "owner": {
+      "id": "539002",
+      "name": "廣崎利洋"
+    },
+    "breeder": {
+      "id": "020541",
+      "name": "ＡＳＫＳＴＵＤ"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008106602",
+      "name": "ディープインアスク"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2786,6 +2816,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アスクメークシェア (Ask Make Share) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスクメークシェア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスクメークシェア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2855,9 +2915,9 @@
       "contentHash": "bdbdbb560e8c2d3b52a1eed2314929fff7fa999e2557846972312d2cf8923f86",
       "byteLength": 66557,
       "rawPath": "netkeiba/horses/2020/2020101029/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:10:11.268Z"
+  "updatedAt": "2026-08-29T01:28:17.695Z"
 }

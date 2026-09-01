@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103144",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103144/",
-  "profile": null,
+  "profile": {
+    "name": "サノノスピード",
+    "birthDate": "2021-04-30",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "042803",
+      "name": "ファーストビジョン"
+    },
+    "breeder": {
+      "id": "100012",
+      "name": "信岡牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011104416",
+      "name": "レッドファルクス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ペイドリン Paidrin(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pulpit"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104416",
@@ -4110,6 +4140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サノノスピード (Sanono Speed) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サノノスピード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サノノスピード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4179,9 +4239,9 @@
       "contentHash": "599f65cc4a109a86d13af8aa806599e87c04b10d930470263903a30e82f151a2",
       "byteLength": 67149,
       "rawPath": "netkeiba/horses/2021/2021103144/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:43:35.443Z"
+  "updatedAt": "2026-08-25T05:54:41.716Z"
 }

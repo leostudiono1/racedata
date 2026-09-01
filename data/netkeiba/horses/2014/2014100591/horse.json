@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100591",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100591/",
-  "profile": null,
+  "profile": {
+    "name": "マナローラ",
+    "birthDate": "2014-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "1997110147",
+      "name": "シェープアップ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -4023,6 +4053,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マナローラ (Manarola) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マナローラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マナローラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4092,9 +4152,9 @@
       "contentHash": "43ae0fbbefe98c5da016067d749867cad7e32c50b449e80bf689be2e293df332",
       "byteLength": 66691,
       "rawPath": "netkeiba/horses/2014/2014100591/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:21:46.318Z"
+  "updatedAt": "2026-08-24T06:26:55.847Z"
 }

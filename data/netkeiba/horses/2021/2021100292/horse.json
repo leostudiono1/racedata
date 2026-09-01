@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100292",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100292/",
-  "profile": null,
+  "profile": {
+    "name": "パフ",
+    "birthDate": "2021-04-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01154",
+      "name": "橋口慎介"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2010105828",
+      "name": "アンジュエ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -3339,6 +3369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パフ (Puff) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3408,9 +3468,9 @@
       "contentHash": "eaa24404bde9a1a0dc0b193fc7a7f8eb086372a1e04322b634515b72c713e0b4",
       "byteLength": 66748,
       "rawPath": "netkeiba/horses/2021/2021100292/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:37:49.038Z"
+  "updatedAt": "2026-08-27T02:48:18.768Z"
 }

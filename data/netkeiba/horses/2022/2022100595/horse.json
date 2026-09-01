@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100595",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100595/",
-  "profile": null,
+  "profile": {
+    "name": "グロリオン",
+    "birthDate": "2022-02-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "061034",
+      "name": "仲尾正人"
+    },
+    "breeder": {
+      "id": "440543",
+      "name": "グローリーファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    },
+    "dam": {
+      "id": "2010105177",
+      "name": "シャインエタニティ"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106867",
@@ -1260,6 +1290,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グロリオン (Glory On) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グロリオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グロリオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1329,9 +1389,9 @@
       "contentHash": "d9db54f29c82763793515c27ffd54cf7266c5d2cb739a07b8ef4f977152a95dd",
       "byteLength": 64614,
       "rawPath": "netkeiba/horses/2022/2022100595/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:55:12.153Z"
+  "updatedAt": "2026-08-30T01:06:39.943Z"
 }

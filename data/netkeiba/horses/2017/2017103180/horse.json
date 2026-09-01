@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103180",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103180/",
-  "profile": null,
+  "profile": {
+    "name": "スターペストニー",
+    "birthDate": "2017-04-12",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "710002",
+      "name": "河野和香子"
+    },
+    "breeder": {
+      "id": "310056",
+      "name": "村中牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "1999105923",
+      "name": "スターペスキサコ"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -1452,6 +1482,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターペストニー (Stapes Tony) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターペストニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターペストニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1521,9 +1581,9 @@
       "contentHash": "53301ae454013501990a942166a4722134a2b980e45b170dce32ce3e930a7776",
       "byteLength": 64567,
       "rawPath": "netkeiba/horses/2017/2017103180/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:22:36.351Z"
+  "updatedAt": "2026-08-27T02:33:08.453Z"
 }

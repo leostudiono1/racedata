@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104042",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104042/",
-  "profile": null,
+  "profile": {
+    "name": "ピンクシティー",
+    "birthDate": "2021-05-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05460",
+      "name": "佐藤英明"
+    },
+    "owner": {
+      "id": "277008",
+      "name": "柳橋俊昭"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2008102449",
+      "name": "ニシノカーリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1546,6 +1576,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピンクシティー (Pink City) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンクシティー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンクシティー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1615,9 +1675,9 @@
       "contentHash": "ef0a578b2f708a68d7f7611ba558532a7caea9e9b089c55b55e42d1de0648b34",
       "byteLength": 64218,
       "rawPath": "netkeiba/horses/2021/2021104042/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:54:33.931Z"
+  "updatedAt": "2026-08-24T06:59:43.563Z"
 }

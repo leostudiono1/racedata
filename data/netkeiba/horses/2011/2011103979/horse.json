@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103979",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103979/",
-  "profile": null,
+  "profile": {
+    "name": "ストーリーセラー",
+    "birthDate": "2011-02-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00353",
+      "name": "和田正道"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2002100946",
+      "name": "トップセラー"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -3859,6 +3889,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストーリーセラー (Story Seller) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーリーセラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーリーセラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3928,9 +3988,9 @@
       "contentHash": "5c579c0e1362fcce126007b609bd9d0b5a8689465a90753ca9d96bccf916a5db",
       "byteLength": 67392,
       "rawPath": "netkeiba/horses/2011/2011103979/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:11:33.523Z"
+  "updatedAt": "2026-08-28T01:16:01.330Z"
 }

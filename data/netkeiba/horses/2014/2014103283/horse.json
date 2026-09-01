@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103283",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103283/",
-  "profile": null,
+  "profile": {
+    "name": "A Shin Rook",
+    "birthDate": "2014-04-15",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "フリード"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "010013",
+      "name": "多田善弘"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "1995108756",
+      "name": "エイシンリンデン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Alydeed"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1936,6 +1966,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "A Shin Rook (エイシンルーク) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "A Shin Rook関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "A Shin Rook関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2005,9 +2065,9 @@
       "contentHash": "9200a0460bea98f106cfdb95d23ba2cb9fdabecdc735bcc1704023ed3c8e7e38",
       "byteLength": 65410,
       "rawPath": "netkeiba/horses/2014/2014103283/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:13:24.676Z"
+  "updatedAt": "2026-08-25T05:24:31.254Z"
 }

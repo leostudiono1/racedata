@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100955",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100955/",
-  "profile": null,
+  "profile": {
+    "name": "デア",
+    "birthDate": "2017-04-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05465",
+      "name": "田辺陽一"
+    },
+    "owner": {
+      "id": "802800",
+      "name": "（有）トニーステーブ"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2011100974",
+      "name": "アストレア"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3747,6 +3777,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デア (Dea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3816,9 +3876,9 @@
       "contentHash": "c4c99afc7b612a58c520efe18968041f24a6c3a55c04e8394d0c08584d8e23f9",
       "byteLength": 64196,
       "rawPath": "netkeiba/horses/2017/2017100955/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:24:47.664Z"
+  "updatedAt": "2026-08-25T05:35:54.029Z"
 }

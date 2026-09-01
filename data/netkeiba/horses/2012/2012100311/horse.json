@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100311",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100311/",
-  "profile": null,
+  "profile": {
+    "name": "ピサーロ",
+    "birthDate": "2012-04-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "514008",
+      "name": "窪田康志"
+    },
+    "breeder": {
+      "id": "730337",
+      "name": "須崎牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コンキスタドレス Conquistadoress(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1320,6 +1350,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピサーロ (Pizarro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピサーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピサーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1389,9 +1449,9 @@
       "contentHash": "038bdee52fe4430226e920a76e399ea27fbaae3a73c97ab873b5ace8c234950a",
       "byteLength": 65691,
       "rawPath": "netkeiba/horses/2012/2012100311/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:13:35.957Z"
+  "updatedAt": "2026-08-24T06:18:45.612Z"
 }

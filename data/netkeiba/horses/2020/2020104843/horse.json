@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104843",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104843/",
-  "profile": null,
+  "profile": {
+    "name": "インスタキング",
+    "birthDate": "2020-04-05",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "399009",
+      "name": "嶋田賢"
+    },
+    "breeder": {
+      "id": "533302",
+      "name": "前谷武志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2010103794",
+      "name": "アガサ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2856,6 +2886,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インスタキング (Insta King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスタキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスタキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2925,9 +2985,9 @@
       "contentHash": "e5d895235c7ef77ff852ee8339b71603c0ae8cc7b3b67fa1230e9dfdfd766e53",
       "byteLength": 66768,
       "rawPath": "netkeiba/horses/2020/2020104843/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:51:21.310Z"
+  "updatedAt": "2026-08-24T06:56:30.997Z"
 }

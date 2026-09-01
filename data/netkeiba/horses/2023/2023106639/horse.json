@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106639",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106639/",
-  "profile": null,
+  "profile": {
+    "name": "キャスパン",
+    "birthDate": "2023-03-29",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "小林俊彦"
+    },
+    "owner": {
+      "id": "x04852",
+      "name": "大西充秋"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2014101392",
+      "name": "キャスパリーグ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1798,6 +1828,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャスパン (Cathpan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャスパン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャスパン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1867,9 +1927,9 @@
       "contentHash": "c35012ad64996696a82c7fdbfa34f377611969ae0a4b2b636ff1388c1829dd71",
       "byteLength": 66164,
       "rawPath": "netkeiba/horses/2023/2023106639/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:04:57.054Z"
+  "updatedAt": "2026-08-24T07:10:06.762Z"
 }

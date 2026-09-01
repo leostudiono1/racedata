@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110119",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110119/",
-  "profile": null,
+  "profile": {
+    "name": "エスペランサフラグ",
+    "birthDate": "2020-04-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "826800",
+      "name": "クラウン"
+    },
+    "breeder": {
+      "id": "920737",
+      "name": "Crown Farm USA"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Point of Entry"
+    },
+    "dam": {
+      "id": "000",
+      "name": "プレイスオブアーナー Place of Honor(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "First Samurai"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1604,6 +1634,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスペランサフラグ (Esperanza Flag) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスペランサフラグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスペランサフラグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1673,9 +1733,9 @@
       "contentHash": "49a09810f48055abdcd520d5833a6bf29f13b08f4b6480f23fe84593b378ef05",
       "byteLength": 67089,
       "rawPath": "netkeiba/horses/2020/2020110119/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:37:35.364Z"
+  "updatedAt": "2026-08-27T02:48:04.802Z"
 }

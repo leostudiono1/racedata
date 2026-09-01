@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104529",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104529/",
-  "profile": null,
+  "profile": {
+    "name": "サンドロック",
+    "birthDate": "2023-05-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "2010104187",
+      "name": "ロンギングシャネル"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2991,6 +3021,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンドロック (Sandrock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンドロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンドロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3060,9 +3120,9 @@
       "contentHash": "abbfd9a0856260428b8bcf247a618ef2e4c572ccc34dbe01b4e6ef170796388a",
       "byteLength": 66072,
       "rawPath": "netkeiba/horses/2023/2023104529/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:49:15.732Z"
+  "updatedAt": "2026-08-27T02:59:45.080Z"
 }

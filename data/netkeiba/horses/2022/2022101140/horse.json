@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101140",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101140/",
-  "profile": null,
+  "profile": {
+    "name": "ガイ",
+    "birthDate": "2022-02-07",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "089034",
+      "name": "黒岩初美"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013110045",
+      "name": "ラニ"
+    },
+    "dam": {
+      "id": "2017104339",
+      "name": "グラニュエル"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013110045",
@@ -1922,6 +1952,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガイ (Guy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1991,9 +2051,9 @@
       "contentHash": "7f27b88dfa43885536584d1500fc61dc9f3026a31d838ce857122c4b241f4e85",
       "byteLength": 66647,
       "rawPath": "netkeiba/horses/2022/2022101140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:55:29.637Z"
+  "updatedAt": "2026-08-30T01:06:57.342Z"
 }

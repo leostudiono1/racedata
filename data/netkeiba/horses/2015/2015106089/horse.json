@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106089",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106089/",
-  "profile": null,
+  "profile": {
+    "name": "グリム",
+    "birthDate": "2015-04-28",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2002100937",
+      "name": "ブランシュネージュ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -2982,6 +3012,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリム (Grimm) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3051,9 +3111,9 @@
       "contentHash": "a42ff09f0355e0086ff6b136b6957d32adc6ca50134a24f18efc65eefe9345d0",
       "byteLength": 66735,
       "rawPath": "netkeiba/horses/2015/2015106089/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:20:21.399Z"
+  "updatedAt": "2026-08-25T05:31:27.809Z"
 }

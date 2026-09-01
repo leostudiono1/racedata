@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102051",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102051/",
-  "profile": null,
+  "profile": {
+    "name": "スズカハイヤー",
+    "birthDate": "2012-04-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "382004",
+      "name": "永井啓弍"
+    },
+    "breeder": {
+      "id": "000365",
+      "name": "稲原牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2000106983",
+      "name": "アイシースズカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1381,6 +1411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズカハイヤー (Suzuka Hire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカハイヤー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカハイヤー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1450,9 +1510,9 @@
       "contentHash": "e12c99751b6a40f57cee7c07ee02efc233fbd351216a7b4edbe2f715d2c0ef19",
       "byteLength": 65141,
       "rawPath": "netkeiba/horses/2012/2012102051/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:37:43.380Z"
+  "updatedAt": "2026-08-26T02:43:00.235Z"
 }

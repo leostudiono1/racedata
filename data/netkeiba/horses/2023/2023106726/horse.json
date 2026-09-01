@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106726",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106726/",
-  "profile": null,
+  "profile": {
+    "name": "フェンリル",
+    "birthDate": "2023-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ユーブゴットイット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1396,6 +1426,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェンリル (Fenrir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェンリル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェンリル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1465,9 +1525,9 @@
       "contentHash": "8485b6ba48dc0b5e553276d75d0f02ecc670ec94b133371629f3275a69207bf2",
       "byteLength": 66985,
       "rawPath": "netkeiba/horses/2023/2023106726/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:37:25.107Z"
+  "updatedAt": "2026-08-31T00:52:01.883Z"
 }

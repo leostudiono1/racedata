@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100068",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100068/",
-  "profile": null,
+  "profile": {
+    "name": "エンパイアフリート",
+    "birthDate": "2013-03-03",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "518002",
+      "name": "山田弘"
+    },
+    "breeder": {
+      "id": "503342",
+      "name": "浦新徳司"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サルガソシー Sargasso Sea(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Affirmed (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3947,6 +3977,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エンパイアフリート (Empire Fleet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンパイアフリート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンパイアフリート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4016,9 +4076,9 @@
       "contentHash": "ce0bb960bdaf853ce18f9c69ef5cc2370ffe129001e70dbd29839fa50a812b50",
       "byteLength": 64851,
       "rawPath": "netkeiba/horses/2013/2013100068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:40:49.166Z"
+  "updatedAt": "2026-08-26T02:46:05.630Z"
 }

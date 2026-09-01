@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110110",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110110/",
-  "profile": null,
+  "profile": {
+    "name": "スピードグラマー",
+    "birthDate": "2019-02-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "260701",
+      "name": "Machmer Hall"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Into Mischief"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Island Escape"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Petionville"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1639,6 +1669,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スピードグラマー (Speed Glamour) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スピードグラマー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スピードグラマー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1708,9 +1768,9 @@
       "contentHash": "88eb34080d5818dae02d895986f5e23ec314c2d821051df9a31903f650162ef1",
       "byteLength": 66737,
       "rawPath": "netkeiba/horses/2019/2019110110/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:48:57.724Z"
+  "updatedAt": "2026-08-24T06:54:07.439Z"
 }

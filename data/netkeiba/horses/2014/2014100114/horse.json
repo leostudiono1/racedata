@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100114",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100114/",
-  "profile": null,
+  "profile": {
+    "name": "カワイアラ",
+    "birthDate": "2014-05-01",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "463800",
+      "name": "名古屋友豊"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2008104319",
+      "name": "パイシーズ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1619,6 +1649,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カワイアラ (Ka Wai Ala) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カワイアラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カワイアラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1688,9 +1748,9 @@
       "contentHash": "6ee93c377780b4d4332737cd7c633e977a5fade84c39a35d41cbc490eb9f13a4",
       "byteLength": 65738,
       "rawPath": "netkeiba/horses/2014/2014100114/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:11:39.752Z"
+  "updatedAt": "2026-08-25T05:22:46.151Z"
 }

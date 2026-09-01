@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102545",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102545/",
-  "profile": null,
+  "profile": {
+    "name": "ミルトハーバー",
+    "birthDate": "2023-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01179",
+      "name": "鈴木慎太"
+    },
+    "owner": {
+      "id": "186803",
+      "name": "永山勝敏レーシング"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2014101520",
+      "name": "レジーナフォルテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アルデバランII Aldebaran(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1452,6 +1482,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミルトハーバー (Mild Harbor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルトハーバー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルトハーバー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1521,9 +1581,9 @@
       "contentHash": "0acdd15abefe3f292c7e80db591ebd4c0b39c45d59cb892a1eb4ca92ae7f2162",
       "byteLength": 65227,
       "rawPath": "netkeiba/horses/2023/2023102545/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:27:51.279Z"
+  "updatedAt": "2026-08-26T03:33:07.600Z"
 }

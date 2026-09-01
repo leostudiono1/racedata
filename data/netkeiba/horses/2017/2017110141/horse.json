@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110141",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110141/",
-  "profile": null,
+  "profile": {
+    "name": "シルバージャック",
+    "birthDate": "2017-04-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "445031",
+      "name": "阿津昌弘"
+    },
+    "breeder": {
+      "id": "590708",
+      "name": "C. Kidder & N. Cole"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Fed Biz"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Silver Bean"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Deputy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1569,6 +1599,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シルバージャック (Silver Jack) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバージャック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバージャック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1638,9 +1698,9 @@
       "contentHash": "b96fe28d45e39841d47a4b25b1c465aff78ac3dfe442a306635212415445e2e2",
       "byteLength": 64671,
       "rawPath": "netkeiba/horses/2017/2017110141/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:28:49.018Z"
+  "updatedAt": "2026-08-25T05:39:55.485Z"
 }

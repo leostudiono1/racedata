@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104402",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104402/",
-  "profile": null,
+  "profile": {
+    "name": "マッタナシ",
+    "birthDate": "2014-02-10",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05775",
+      "name": "石橋満"
+    },
+    "owner": {
+      "id": "247030",
+      "name": "芳賀克也"
+    },
+    "breeder": {
+      "id": "333072",
+      "name": "久保秀雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "1994101773",
+      "name": "グランシェール"
+    },
+    "damsire": {
+      "id": "1981106396",
+      "name": "ビゼンニシキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -8970,6 +9000,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マッタナシ (Matta Nashi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マッタナシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マッタナシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9039,9 +9099,9 @@
       "contentHash": "a76517135af4e80a63382df65b292f8cf15dbaacd0ff6de9730f138de33faba6",
       "byteLength": 66890,
       "rawPath": "netkeiba/horses/2014/2014104402/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:10:46.326Z"
+  "updatedAt": "2026-08-27T02:21:17.444Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104019",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104019/",
-  "profile": null,
+  "profile": {
+    "name": "アルバート",
+    "birthDate": "2011-02-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01154",
+      "name": "橋口慎介"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999107052",
+      "name": "アドマイヤドン"
+    },
+    "dam": {
+      "id": "1999106943",
+      "name": "フォルクローレ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1999107052",
@@ -4680,6 +4710,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルバート (Albert) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4749,9 +4809,9 @@
       "contentHash": "60d5711888d30c6fafb3532c6091bfaf0dc218c3de46f3122ff3a883cee1034b",
       "byteLength": 67037,
       "rawPath": "netkeiba/horses/2011/2011104019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:36:26.465Z"
+  "updatedAt": "2026-08-26T02:41:43.274Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009110092",
   "sourceUrl": "https://db.netkeiba.com/horse/2009110092/",
-  "profile": null,
+  "profile": {
+    "name": "コリンブレッセ",
+    "birthDate": "2009-04-12",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01130",
+      "name": "吉村圭司"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "610701",
+      "name": "Caroline C Stautberg"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Corinthian (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Berry Blessed"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "St. Jovite (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3277,6 +3307,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コリンブレッセ (Corin Blesse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コリンブレッセ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コリンブレッセ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3346,9 +3406,9 @@
       "contentHash": "45489c6ac47f1537351ea73292b7b6bddd6d1be72281c12b047a5a6e10d84815",
       "byteLength": 65450,
       "rawPath": "netkeiba/horses/2009/2009110092/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:10:23.420Z"
+  "updatedAt": "2026-08-24T06:15:33.056Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101890",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101890/",
-  "profile": null,
+  "profile": {
+    "name": "カガスター",
+    "birthDate": "2015-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05555",
+      "name": "三野宮通"
+    },
+    "owner": {
+      "id": "x04e4b",
+      "name": "熊谷孝也"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007103404",
+      "name": "ローズキングダム"
+    },
+    "dam": {
+      "id": "2006105944",
+      "name": "スイリンカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103404",
@@ -6640,6 +6670,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カガスター (Kaga Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カガスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カガスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6709,9 +6769,9 @@
       "contentHash": "c73932acfe27efe0b985d798e036924a02afb072026e7efb535a0c24d1a1b6e5",
       "byteLength": 66762,
       "rawPath": "netkeiba/horses/2015/2015101890/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:51:33.268Z"
+  "updatedAt": "2026-08-26T02:56:50.311Z"
 }

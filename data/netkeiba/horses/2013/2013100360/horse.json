@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100360",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100360/",
-  "profile": null,
+  "profile": {
+    "name": "フルオブライト",
+    "birthDate": "2013-04-07",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2001106137",
+      "name": "トリアノンパレス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1228,6 +1258,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルオブライト (Full of Light) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルオブライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルオブライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1297,9 +1357,9 @@
       "contentHash": "565d0166fee2f0f26dafbbca431eedf4ea784f4d3f548b6a9ac499b5cd758ad8",
       "byteLength": 64500,
       "rawPath": "netkeiba/horses/2013/2013100360/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:16:10.168Z"
+  "updatedAt": "2026-08-28T01:20:38.425Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102249",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102249/",
-  "profile": null,
+  "profile": {
+    "name": "アイラブユー",
+    "birthDate": "2020-04-20",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01131",
+      "name": "蛯名利弘"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "703322",
+      "name": "三輪牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013106099",
+      "name": "ミッキーロケット"
+    },
+    "dam": {
+      "id": "2008103551",
+      "name": "ミライポケット"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106099",
@@ -1863,6 +1893,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイラブユー (I Love You) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイラブユー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイラブユー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1932,9 +1992,9 @@
       "contentHash": "022803b5616ab4defaa2697294fa3a1285ebbe99392363290afab7444efa49c2",
       "byteLength": 66662,
       "rawPath": "netkeiba/horses/2020/2020102249/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:50:00.812Z"
+  "updatedAt": "2026-08-24T06:55:10.355Z"
 }

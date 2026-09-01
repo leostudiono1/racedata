@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100973",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100973/",
-  "profile": null,
+  "profile": {
+    "name": "フドーシン",
+    "birthDate": "2011-04-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "1991105775",
+      "name": "ナカミファンタジア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "モガミ Mogami(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -3406,6 +3436,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フドーシン (Fudoshin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フドーシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フドーシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3475,9 +3535,9 @@
       "contentHash": "ddaf52424d6de1187668ac5e04fe48d0349f610a2b1ea33a1721458a912fa113",
       "byteLength": 64855,
       "rawPath": "netkeiba/horses/2011/2011100973/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:11:43.953Z"
+  "updatedAt": "2026-08-24T06:16:53.723Z"
 }

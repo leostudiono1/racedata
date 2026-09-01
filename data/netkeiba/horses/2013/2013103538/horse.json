@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103538",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103538/",
-  "profile": null,
+  "profile": {
+    "name": "リーズ",
+    "birthDate": "2013-03-11",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01091",
+      "name": "羽月友彦"
+    },
+    "owner": {
+      "id": "985033",
+      "name": "阿部東亜子"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2007106060",
+      "name": "リトルジュン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -1553,6 +1583,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リーズ (Leeds) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リーズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リーズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1622,9 +1682,9 @@
       "contentHash": "1d1a9bcce407035c5089adfc7b7e9db7f46a035804114b5228c5fa32093aa47b",
       "byteLength": 64910,
       "rawPath": "netkeiba/horses/2013/2013103538/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:18:36.804Z"
+  "updatedAt": "2026-08-30T00:30:04.705Z"
 }

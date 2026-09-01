@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101833",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101833/",
-  "profile": null,
+  "profile": {
+    "name": "イナフセド",
+    "birthDate": "2020-04-18",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "520031",
+      "name": "福盛訓之"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2011100540",
+      "name": "ハッシュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3820,6 +3850,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イナフセド (Enough Said) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イナフセド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イナフセド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3889,9 +3949,9 @@
       "contentHash": "ad5c25531888b69572f6cea259b445a874f6abcd2b58e220361ac4f5ba812592",
       "byteLength": 66806,
       "rawPath": "netkeiba/horses/2020/2020101833/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:38:55.037Z"
+  "updatedAt": "2026-08-25T05:50:01.262Z"
 }

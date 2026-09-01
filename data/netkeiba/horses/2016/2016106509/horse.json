@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106509",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106509/",
-  "profile": null,
+  "profile": {
+    "name": "ライデン",
+    "birthDate": "2016-02-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "奥高平"
+    },
+    "owner": {
+      "id": "x011aa",
+      "name": "村瀬正"
+    },
+    "breeder": {
+      "id": "430362",
+      "name": "高橋啓"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ティンバーカントリー Timber Country(米)"
+    },
+    "dam": {
+      "id": "2004109160",
+      "name": "トゥインクルタイム"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3639,6 +3669,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライデン (Raiden) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライデン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライデン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3708,9 +3768,9 @@
       "contentHash": "a3165f0b586cdab573aab1d1d20d24e9459be4e7ec21c289582ed4285a7b016b",
       "byteLength": 65322,
       "rawPath": "netkeiba/horses/2016/2016106509/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:58:50.846Z"
+  "updatedAt": "2026-08-26T03:04:07.596Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106435",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106435/",
-  "profile": null,
+  "profile": {
+    "name": "アルファ",
+    "birthDate": "2016-06-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05684",
+      "name": "三小田幸"
+    },
+    "owner": {
+      "id": "208006",
+      "name": "新井原博"
+    },
+    "breeder": {
+      "id": "430335",
+      "name": "川上悦夫"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2009103077",
+      "name": "ラスリーズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -5262,6 +5292,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルファ (Alpha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5331,9 +5391,9 @@
       "contentHash": "f33550e4efeb7ece35e90e3e82b67a7a622a9d4274175bab001286fe3cbdf070",
       "byteLength": 66814,
       "rawPath": "netkeiba/horses/2016/2016106435/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:56:56.245Z"
+  "updatedAt": "2026-08-29T01:15:03.192Z"
 }

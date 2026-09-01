@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105131",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105131/",
-  "profile": null,
+  "profile": {
+    "name": "セファーラジエル",
+    "birthDate": "2018-03-04",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01159",
+      "name": "高柳大輔"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2000110186",
+      "name": "ダークサファイア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Out of Place"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -4372,6 +4402,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セファーラジエル (Sefer Rasiel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セファーラジエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セファーラジエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4441,9 +4501,9 @@
       "contentHash": "8adb6b5ff68e942eb245a8b3aa374cd7b0579746d586c24d56d032497dcde785",
       "byteLength": 67370,
       "rawPath": "netkeiba/horses/2018/2018105131/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:32:08.687Z"
+  "updatedAt": "2026-08-25T05:43:15.070Z"
 }

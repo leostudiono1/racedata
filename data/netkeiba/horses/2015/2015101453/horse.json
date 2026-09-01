@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101453",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101453/",
-  "profile": null,
+  "profile": {
+    "name": "ドストライク",
+    "birthDate": "2015-02-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "232033",
+      "name": "門脇竜一"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2001110017",
+      "name": "リリーポンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -3385,6 +3415,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドストライク (Do Strike) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドストライク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドストライク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3454,9 +3514,9 @@
       "contentHash": "f2a5fa5e949d43da16873d2125e0be7c6b7c33f593f57b24735eb735c467e227",
       "byteLength": 66262,
       "rawPath": "netkeiba/horses/2015/2015101453/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:16:44.418Z"
+  "updatedAt": "2026-08-25T05:27:50.819Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105241",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105241/",
-  "profile": null,
+  "profile": {
+    "name": "レクセランス",
+    "birthDate": "2017-03-16",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エクセレンスII Xcellence(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Champs Elysees"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2603,6 +2633,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レクセランス (L'Excellence) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レクセランス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レクセランス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2672,9 +2732,9 @@
       "contentHash": "917f9924e2ee248ed01a65737817bb3b9d28239c35e09b2afd2c74c0426b8739",
       "byteLength": 67403,
       "rawPath": "netkeiba/horses/2017/2017105241/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:35:18.699Z"
+  "updatedAt": "2026-08-28T01:39:46.233Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103770",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103770/",
-  "profile": null,
+  "profile": {
+    "name": "モンシュシュ",
+    "birthDate": "2010-03-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シンディ Sindy(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "1995103211",
@@ -3831,6 +3861,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンシュシュ (Mon Chouchou) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンシュシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンシュシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3900,9 +3960,9 @@
       "contentHash": "90981a544bb0e3e8f43ea5928941d9178dbbc05d655ffde5f95034248e4e1351",
       "byteLength": 65871,
       "rawPath": "netkeiba/horses/2010/2010103770/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T03:58:40.858Z"
+  "updatedAt": "2026-08-27T02:09:12.835Z"
 }

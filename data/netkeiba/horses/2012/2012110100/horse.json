@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110100",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110100/",
-  "profile": null,
+  "profile": {
+    "name": "ゴールデンバローズ",
+    "birthDate": "2012-02-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "859007",
+      "name": "猪熊広次"
+    },
+    "breeder": {
+      "id": "240702",
+      "name": "Crossed Sabres Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マザーロシア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mayakovsky"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3512,6 +3542,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴールデンバローズ (Golden Barows) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデンバローズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデンバローズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3581,9 +3641,9 @@
       "contentHash": "5c80dbcd0ed3f28f69262263ba7142092be9846413d5e502d6b58dab7ac8d426",
       "byteLength": 67383,
       "rawPath": "netkeiba/horses/2012/2012110100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:04:16.996Z"
+  "updatedAt": "2026-08-27T02:14:49.001Z"
 }

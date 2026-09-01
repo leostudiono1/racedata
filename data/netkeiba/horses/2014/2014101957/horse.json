@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101957",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101957/",
-  "profile": null,
+  "profile": {
+    "name": "オースタラ",
+    "birthDate": "2014-03-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "875006",
+      "name": "永田和彦"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2001106137",
+      "name": "トリアノンパレス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -7833,6 +7863,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オースタラ (Ostara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースタラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースタラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7902,9 +7962,9 @@
       "contentHash": "496266f55e5cd15279130bd14c88e9cab16420b8cdeaa1fad18a10d40b917932",
       "byteLength": 66311,
       "rawPath": "netkeiba/horses/2014/2014101957/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:58:19.370Z"
+  "updatedAt": "2026-08-31T00:12:56.157Z"
 }

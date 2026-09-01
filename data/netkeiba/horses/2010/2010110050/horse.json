@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110050",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110050/",
-  "profile": null,
+  "profile": {
+    "name": "ゴドリー",
+    "birthDate": "2010-04-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "110873",
+      "name": "Sanford R. Robertson"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Aldebaran Light"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seattle Slew"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1881,6 +1911,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴドリー (Godly) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴドリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴドリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1950,9 +2010,9 @@
       "contentHash": "5e54ad809f8048b440e96a7111cf3bbf4fea7870143ffb1023ee5977c4b846ca",
       "byteLength": 65137,
       "rawPath": "netkeiba/horses/2010/2010110050/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T03:59:19.744Z"
+  "updatedAt": "2026-08-27T02:09:51.359Z"
 }

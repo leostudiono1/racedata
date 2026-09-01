@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104370",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104370/",
-  "profile": null,
+  "profile": {
+    "name": "マカニ",
+    "birthDate": "2022-03-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "413304",
+      "name": "藤沢牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2004104972",
+      "name": "デヒアバーズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1676,6 +1706,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マカニ (Makani) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マカニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マカニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1745,9 +1805,9 @@
       "contentHash": "118af773aa4d98e59512d63ebf1adbfa25833d4e794cd9c0b5fa83981ea99e55",
       "byteLength": 65380,
       "rawPath": "netkeiba/horses/2022/2022104370/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:59:10.500Z"
+  "updatedAt": "2026-08-24T07:04:20.039Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110001",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110001/",
-  "profile": null,
+  "profile": {
+    "name": "ストロングタイタン",
+    "birthDate": "2013-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "660709",
+      "name": "Northern Racing"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Regal Ransom"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タイタンクイーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3628,6 +3658,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストロングタイタン (Strong Titan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストロングタイタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストロングタイタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3697,9 +3757,9 @@
       "contentHash": "af6eeeae7910a161fef60364dc80952e4ffa395534bec61f5f4920448d387991",
       "byteLength": 67491,
       "rawPath": "netkeiba/horses/2013/2013110001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:08:22.618Z"
+  "updatedAt": "2026-08-27T02:18:53.875Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110110",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110110/",
-  "profile": null,
+  "profile": {
+    "name": "エイシンテキサス",
+    "birthDate": "2010-02-28",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05741",
+      "name": "池田忠好"
+    },
+    "owner": {
+      "id": "x09514",
+      "name": "太田雅貴"
+    },
+    "breeder": {
+      "id": "340705",
+      "name": "Redmon Farm LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Stylish Wildcat"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Forest Wildcat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -10466,6 +10496,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシンテキサス (Eishin Texas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンテキサス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンテキサス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10535,9 +10595,9 @@
       "contentHash": "78e190fd0cfb043349a4363a239c0b4c83061d0354397c595c659c8d5188850c",
       "byteLength": 66868,
       "rawPath": "netkeiba/horses/2010/2010110110/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:11:33.641Z"
+  "updatedAt": "2026-08-24T06:16:43.140Z"
 }

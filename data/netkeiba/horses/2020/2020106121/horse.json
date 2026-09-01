@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106121",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106121/",
-  "profile": null,
+  "profile": {
+    "name": "カッテミル",
+    "birthDate": "2020-02-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "有馬澄男"
+    },
+    "owner": {
+      "id": "165803",
+      "name": "（同）ＪＰＮ技研"
+    },
+    "breeder": {
+      "id": "330001",
+      "name": "能登浩"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2013105749",
+      "name": "ディスグラース"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -5955,6 +5985,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カッテミル (Kattemiru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カッテミル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カッテミル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6024,9 +6084,9 @@
       "contentHash": "3255238818c9af22074df6f0803f257312a0f758bb4467db2652236563abc610",
       "byteLength": 66897,
       "rawPath": "netkeiba/horses/2020/2020106121/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:12:44.894Z"
+  "updatedAt": "2026-08-29T01:30:51.736Z"
 }

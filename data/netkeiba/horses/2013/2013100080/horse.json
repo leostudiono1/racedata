@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100080",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100080/",
-  "profile": null,
+  "profile": {
+    "name": "デフィノワール",
+    "birthDate": "2013-04-22",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103660",
+      "name": "トーセンブライト"
+    },
+    "dam": {
+      "id": "2005102481",
+      "name": "シャトーノワール"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103660",
@@ -5351,6 +5381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デフィノワール (Defi Noir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デフィノワール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デフィノワール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5420,9 +5480,9 @@
       "contentHash": "fcf49648afd626e6ff8ba26ee38e87f11f0a46b08cb4ad88f51aa09f999ea94a",
       "byteLength": 66852,
       "rawPath": "netkeiba/horses/2013/2013100080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:07:31.342Z"
+  "updatedAt": "2026-08-25T05:18:37.666Z"
 }

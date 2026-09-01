@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100800",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100800/",
-  "profile": null,
+  "profile": {
+    "name": "マジックボックス",
+    "birthDate": "2012-05-05",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "高馬元紘"
+    },
+    "owner": {
+      "id": "499033",
+      "name": "藤田岳彦"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004110245",
+      "name": "ピサノデイラニ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マジックペイントブラッシュ Magic Paintbrush(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pirate's Bounty"
+    }
+  },
   "pedigree": [
     {
       "id": "2004110245",
@@ -5621,6 +5651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マジックボックス (Magic Box) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジックボックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジックボックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5690,9 +5750,9 @@
       "contentHash": "086657b2498593b53136fe9c6c1c80b1775b387f92d1c74f69860ca65384a015",
       "byteLength": 64782,
       "rawPath": "netkeiba/horses/2012/2012100800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:04:01.711Z"
+  "updatedAt": "2026-08-25T05:15:07.862Z"
 }

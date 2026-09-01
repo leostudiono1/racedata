@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110129",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110129/",
-  "profile": null,
+  "profile": {
+    "name": "オールドマイン",
+    "birthDate": "2021-03-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05610",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "x06e26",
+      "name": "（株）ファーストビジ"
+    },
+    "breeder": {
+      "id": "490861",
+      "name": "Farfellow Farms Ltd."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Catalina Cruiser (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Natchez Trace"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Consolidator (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1977,6 +2007,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オールドマイン (Old Mine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールドマイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールドマイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2046,9 +2106,9 @@
       "contentHash": "9a9ca5dce5db8d9ce5a8d7f92e665eb773912c7113f9120c11ec6e757a388a46",
       "byteLength": 64461,
       "rawPath": "netkeiba/horses/2021/2021110129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:16:53.649Z"
+  "updatedAt": "2026-08-29T01:35:00.495Z"
 }

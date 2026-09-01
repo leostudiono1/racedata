@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101803",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101803/",
-  "profile": null,
+  "profile": {
+    "name": "メトゥス",
+    "birthDate": "2021-05-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05106",
+      "name": "真島元徳"
+    },
+    "owner": {
+      "id": "937034",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "413348",
+      "name": "中川欽一"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013104704",
+      "name": "ディーマジェスティ"
+    },
+    "dam": {
+      "id": "2005102870",
+      "name": "グレイスサンセット"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2013104704",
@@ -5239,6 +5269,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メトゥス (Metus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メトゥス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メトゥス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5308,9 +5368,9 @@
       "contentHash": "dbfb1629ed2c0466b8d471c670037bce07c3dc06c045c4cfc4c871063a26698b",
       "byteLength": 66531,
       "rawPath": "netkeiba/horses/2021/2021101803/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:51:52.592Z"
+  "updatedAt": "2026-08-30T01:03:20.253Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101248",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101248/",
-  "profile": null,
+  "profile": {
+    "name": "コウジクン",
+    "birthDate": "2018-04-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "x09dca",
+      "name": "横山育生"
+    },
+    "breeder": {
+      "id": "500364",
+      "name": "赤石牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2005105993",
+      "name": "フレンチフレイバー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -3776,6 +3806,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コウジクン (Kojikun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウジクン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウジクン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3845,9 +3905,9 @@
       "contentHash": "39bf5b76898a0f269f869a4afd46e801604e477643a1fd42bbfa675d8425a13e",
       "byteLength": 64980,
       "rawPath": "netkeiba/horses/2018/2018101248/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:15:18.228Z"
+  "updatedAt": "2026-08-31T00:29:54.965Z"
 }

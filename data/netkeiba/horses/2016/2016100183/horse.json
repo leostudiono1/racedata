@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100183",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100183/",
-  "profile": null,
+  "profile": {
+    "name": "カフジサターン",
+    "birthDate": "2016-04-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "019004",
+      "name": "加藤守"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1997110169",
+      "name": "クリストワイニング"
+    },
+    "dam": {
+      "id": "2011104651",
+      "name": "カフジウインド"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110169",
@@ -1245,6 +1275,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフジサターン (Kafuji Saturn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジサターン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジサターン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1314,9 +1374,9 @@
       "contentHash": "e89703a80565d94bf600fa815ba77cd062ac93ef9f1691530625e639e6331382",
       "byteLength": 65179,
       "rawPath": "netkeiba/horses/2016/2016100183/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:30:17.441Z"
+  "updatedAt": "2026-08-24T06:35:27.181Z"
 }

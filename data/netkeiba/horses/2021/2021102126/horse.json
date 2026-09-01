@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102126",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102126/",
-  "profile": null,
+  "profile": {
+    "name": "バエル",
+    "birthDate": "2021-03-10",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "x0a03e",
+      "name": "Ｉレーシング（株）"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ホークビル Hawkbill(米)"
+    },
+    "dam": {
+      "id": "2011100918",
+      "name": "リシャールサーバー"
+    },
+    "damsire": {
+      "id": "2003102955",
+      "name": "フサイチリシャール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6015,6 +6045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バエル (Baeru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6084,9 +6144,9 @@
       "contentHash": "a0ff83fbd076a3df072c38cd30e3a08df9d7a89af4f7c39c98c8956104c3b430",
       "byteLength": 66026,
       "rawPath": "netkeiba/horses/2021/2021102126/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:18:02.938Z"
+  "updatedAt": "2026-08-26T03:23:19.786Z"
 }

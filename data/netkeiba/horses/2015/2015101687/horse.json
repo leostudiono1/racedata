@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101687",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101687/",
-  "profile": null,
+  "profile": {
+    "name": "モアイ",
+    "birthDate": "2015-02-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "岡田一男"
+    },
+    "owner": {
+      "id": "x0a376",
+      "name": "山田信明"
+    },
+    "breeder": {
+      "id": "639391",
+      "name": "千葉飯田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "2008105607",
+      "name": "ラパヌイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -6404,6 +6434,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モアイ (Moai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モアイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モアイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6473,9 +6533,9 @@
       "contentHash": "ad2afd68190e1516b7cded44c62abd9c76924f8f06e07fc0e63176aeda90f14b",
       "byteLength": 66185,
       "rawPath": "netkeiba/horses/2015/2015101687/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:02:24.598Z"
+  "updatedAt": "2026-08-31T00:17:01.377Z"
 }

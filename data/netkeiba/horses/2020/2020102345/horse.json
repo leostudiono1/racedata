@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102345",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102345/",
-  "profile": null,
+  "profile": {
+    "name": "ヒューゴ",
+    "birthDate": "2020-03-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "377008",
+      "name": "山本茂"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2009106146",
+      "name": "リントス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -3538,6 +3568,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒューゴ (Hyugo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒューゴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒューゴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3607,9 +3667,9 @@
       "contentHash": "1942863b4756043e985afb4a718435fdd0847eb1ffb7cd50712549554b05375f",
       "byteLength": 66524,
       "rawPath": "netkeiba/horses/2020/2020102345/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:50:04.289Z"
+  "updatedAt": "2026-08-24T06:55:13.899Z"
 }

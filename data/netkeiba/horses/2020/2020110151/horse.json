@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110151",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110151/",
-  "profile": null,
+  "profile": {
+    "name": "グレン",
+    "birthDate": "2020-04-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "坂井英光"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "920735",
+      "name": "Orpendale/Chelston/Wynatt"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Union Rags"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Purely Hot"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pure Prize"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2475,6 +2505,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレン (Guren) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2544,9 +2604,9 @@
       "contentHash": "c7cff54f7e9d56ba8a74905e23ff42574a09bcd3c66d2ac64dc893cee9452ae2",
       "byteLength": 66961,
       "rawPath": "netkeiba/horses/2020/2020110151/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:42:03.956Z"
+  "updatedAt": "2026-08-25T05:53:10.301Z"
 }

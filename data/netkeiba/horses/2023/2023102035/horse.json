@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102035",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102035/",
-  "profile": null,
+  "profile": {
+    "name": "ラルス",
+    "birthDate": "2023-06-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "380543",
+      "name": "グランデファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミリオンウィッシーズ Million Wishes(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Darshaan"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1329,6 +1359,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラルス (La Luz) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1398,9 +1458,9 @@
       "contentHash": "d3dd63b1c40309ba008cf9bde4ea997c57523c43add5e370c0ce460363c491c3",
       "byteLength": 65064,
       "rawPath": "netkeiba/horses/2023/2023102035/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:59:59.256Z"
+  "updatedAt": "2026-08-30T01:11:26.919Z"
 }

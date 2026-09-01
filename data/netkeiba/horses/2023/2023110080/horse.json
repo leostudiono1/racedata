@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110080",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110080/",
-  "profile": null,
+  "profile": {
+    "name": "アメリカンサクラ",
+    "birthDate": "2023-02-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "346803",
+      "name": "吉澤ホールディングス"
+    },
+    "breeder": {
+      "id": "850711",
+      "name": "Benson Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Liam's Map"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Schon"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1449,6 +1479,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アメリカンサクラ (American Sakura) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメリカンサクラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメリカンサクラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1518,9 +1578,9 @@
       "contentHash": "7320e6329afc56b7b40a831bf466d28689c6ba8eb3c7e61f8b2a8644761440e4",
       "byteLength": 67053,
       "rawPath": "netkeiba/horses/2023/2023110080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:30:31.985Z"
+  "updatedAt": "2026-08-26T03:35:49.063Z"
 }

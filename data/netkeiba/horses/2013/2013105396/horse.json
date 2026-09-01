@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105396",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105396/",
-  "profile": null,
+  "profile": {
+    "name": "エアビートワン",
+    "birthDate": "2013-04-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "x05744",
+      "name": "高沢正幸"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2007102724",
+      "name": "エアツイッター"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -4314,6 +4344,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エアビートワン (Air Beat One) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアビートワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアビートワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4383,9 +4443,9 @@
       "contentHash": "3cdc182a238b11868a1f1f6ccb95feab7061f115647149fd41698b88ebab6e9e",
       "byteLength": 65164,
       "rawPath": "netkeiba/horses/2013/2013105396/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:20:08.174Z"
+  "updatedAt": "2026-08-24T06:25:18.347Z"
 }

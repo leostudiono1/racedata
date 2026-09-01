@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102707",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102707/",
-  "profile": null,
+  "profile": {
+    "name": "シャウエン",
+    "birthDate": "2016-04-22",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05316",
+      "name": "西川精治"
+    },
+    "owner": {
+      "id": "411033",
+      "name": "清水敏"
+    },
+    "breeder": {
+      "id": "630047",
+      "name": "猿橋義昭"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2010100683",
+      "name": "デイドリーマー"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5356,6 +5386,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャウエン (Chaouen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャウエン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャウエン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5425,9 +5485,9 @@
       "contentHash": "db3e09707881f78a877d064a47a1d1361100d70a7c2f9472853cb6ca6b22b5be",
       "byteLength": 65690,
       "rawPath": "netkeiba/horses/2016/2016102707/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:07:18.633Z"
+  "updatedAt": "2026-08-31T00:21:55.394Z"
 }

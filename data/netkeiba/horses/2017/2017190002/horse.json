@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017190002",
   "sourceUrl": "https://db.netkeiba.com/horse/2017190002/",
-  "profile": null,
+  "profile": {
+    "name": "イレジン",
+    "birthDate": "2017-04-15",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05776",
+      "name": "ゴーヴァ"
+    },
+    "owner": {
+      "id": "086034",
+      "name": "Ｂ．ミリエール"
+    },
+    "breeder": {
+      "id": null,
+      "name": "P.Joyaux & Bnne ML.Van Dedem"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Manduro (独)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Inanga"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Oasis Dream (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3256,6 +3286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イレジン (Iresine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イレジン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イレジン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3325,9 +3385,9 @@
       "contentHash": "e717481031f375b06118e2e4759d79312df949a4dbab4e67efb3fd2b60c2edaf",
       "byteLength": 66680,
       "rawPath": "netkeiba/horses/2017/2017190002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:37:59.268Z"
+  "updatedAt": "2026-08-30T00:49:27.085Z"
 }

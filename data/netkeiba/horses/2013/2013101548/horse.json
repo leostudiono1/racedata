@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101548",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101548/",
-  "profile": null,
+  "profile": {
+    "name": "デビルウイング",
+    "birthDate": "2013-04-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00405",
+      "name": "小西一男"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000107407",
+      "name": "ウインクリューガー"
+    },
+    "dam": {
+      "id": "2007104480",
+      "name": "リュウジョ"
+    },
+    "damsire": {
+      "id": "1997106560",
+      "name": "スターリングローズ"
+    }
+  },
   "pedigree": [
     {
       "id": "2000107407",
@@ -1373,6 +1403,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デビルウイング (Devil Wing) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デビルウイング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デビルウイング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1442,9 +1502,9 @@
       "contentHash": "c3e63969ab50348703237454e5935ace427235686992cc9d71dbd107967d2ae9",
       "byteLength": 64503,
       "rawPath": "netkeiba/horses/2013/2013101548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:16:52.170Z"
+  "updatedAt": "2026-08-28T01:21:19.974Z"
 }

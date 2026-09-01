@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105866",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105866/",
-  "profile": null,
+  "profile": {
+    "name": "ティティナ",
+    "birthDate": "2022-02-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2015104841",
+      "name": "レッドイリーゼ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1643,6 +1673,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ティティナ (Titina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティティナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティティナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1712,9 +1772,9 @@
       "contentHash": "423af45e319cc02a8dfec2e23b1677ff9065d351ef6a3e722bf511684c648d25",
       "byteLength": 65266,
       "rawPath": "netkeiba/horses/2022/2022105866/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:32:45.666Z"
+  "updatedAt": "2026-08-31T00:47:21.878Z"
 }

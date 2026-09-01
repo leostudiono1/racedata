@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103210",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103210/",
-  "profile": null,
+  "profile": {
+    "name": "カドフィール",
+    "birthDate": "2017-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05644",
+      "name": "三宅直之"
+    },
+    "owner": {
+      "id": "042803",
+      "name": "ファーストビジョン"
+    },
+    "breeder": {
+      "id": "433066",
+      "name": "荒木貴宏"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2011104066",
+      "name": "アンテプリッツ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -14558,6 +14588,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カドフィール (Cadfael) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カドフィール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カドフィール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -14627,9 +14687,9 @@
       "contentHash": "dd595eec86a0605fb6831cab6988126565c766478469780fcb360274c2568c41",
       "byteLength": 66913,
       "rawPath": "netkeiba/horses/2017/2017103210/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:12:03.015Z"
+  "updatedAt": "2026-08-31T00:26:39.027Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105998",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105998/",
-  "profile": null,
+  "profile": {
+    "name": "サトノホルス",
+    "birthDate": "2014-02-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05646",
+      "name": "川島正一"
+    },
+    "owner": {
+      "id": "790031",
+      "name": "里見治"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セルキス Selkis(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1905,6 +1935,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノホルス (Satono Horus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノホルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノホルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1974,9 +2034,9 @@
       "contentHash": "0acbe58f45aa776e3edbd7a56df8e73b6bee3e67b8b59e844a3411fdead3ed8b",
       "byteLength": 66932,
       "rawPath": "netkeiba/horses/2014/2014105998/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:48:56.386Z"
+  "updatedAt": "2026-08-29T01:07:03.257Z"
 }

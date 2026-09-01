@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024102908",
   "sourceUrl": "https://db.netkeiba.com/horse/2024102908/",
-  "profile": null,
+  "profile": {
+    "name": "イドム",
+    "birthDate": "2024-04-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "380033",
+      "name": "佐藤理"
+    },
+    "breeder": {
+      "id": "600330",
+      "name": "アサヒ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2012104820",
+      "name": "ジーニアスドール"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -1056,6 +1086,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イドム (Idomu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イドム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イドム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1125,9 +1185,9 @@
       "contentHash": "4f3bbc7ed23b06968f833ab8361ef4e9fcd9305212a242aeb1e2c8f787b6b815",
       "byteLength": 64596,
       "rawPath": "netkeiba/horses/2024/2024102908/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:51:11.076Z"
+  "updatedAt": "2026-08-27T03:01:40.140Z"
 }

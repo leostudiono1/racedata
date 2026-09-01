@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102966",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102966/",
-  "profile": null,
+  "profile": {
+    "name": "サンダーロード",
+    "birthDate": "2022-03-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "Authentic (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "グァカモーレ Guacamole(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Flat Out"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2571,6 +2601,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンダーロード (Thunder Road) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンダーロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンダーロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2640,9 +2700,9 @@
       "contentHash": "249e0b7826f7f6e0a11919560e8ff6942afa3c643b2108f1d42d04095d40b9b1",
       "byteLength": 66899,
       "rawPath": "netkeiba/horses/2022/2022102966/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:23:28.418Z"
+  "updatedAt": "2026-08-26T03:28:45.355Z"
 }

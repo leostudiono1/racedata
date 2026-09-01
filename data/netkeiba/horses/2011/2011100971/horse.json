@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100971",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100971/",
-  "profile": null,
+  "profile": {
+    "name": "カフジホーク",
+    "birthDate": "2011-03-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "平和人"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1997110169",
+      "name": "クリストワイニング"
+    },
+    "dam": {
+      "id": "2005110120",
+      "name": "ウツセミ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Machiavellian"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110169",
@@ -6585,6 +6615,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフジホーク (Kafuji Hawk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジホーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジホーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6654,9 +6714,9 @@
       "contentHash": "dae752002bf8e0f2f71d6fb9b8114ed0ce07e7b7b938438a026c8151211d74ac",
       "byteLength": 64787,
       "rawPath": "netkeiba/horses/2011/2011100971/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:11:54.175Z"
+  "updatedAt": "2026-08-30T00:23:22.234Z"
 }

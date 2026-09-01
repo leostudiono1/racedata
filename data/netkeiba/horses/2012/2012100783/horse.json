@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100783",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100783/",
-  "profile": null,
+  "profile": {
+    "name": "ディベルティード",
+    "birthDate": "2012-05-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "573033",
+      "name": "武井祥久"
+    },
+    "breeder": {
+      "id": "330316",
+      "name": "前川隆範"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アナスコール Anascaul(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -6388,6 +6418,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディベルティード (Divertido) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディベルティード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディベルティード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6457,9 +6517,9 @@
       "contentHash": "965f14745e6f9709b2488023f7ab3fba7220a6e4838f76eb0d7b12aa7ed09ed0",
       "byteLength": 65676,
       "rawPath": "netkeiba/horses/2012/2012100783/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:13:56.992Z"
+  "updatedAt": "2026-08-24T06:19:06.751Z"
 }

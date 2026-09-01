@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102402",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102402/",
-  "profile": null,
+  "profile": {
+    "name": "シャイロー",
+    "birthDate": "2013-05-08",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "876006",
+      "name": "会田満雄"
+    },
+    "breeder": {
+      "id": "403021",
+      "name": "土田農場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2006103744",
+      "name": "タッキーナ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2169,6 +2199,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャイロー (Shiloh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2238,9 +2298,9 @@
       "contentHash": "06abe99975f479714a787a53cabd2d944dcc43b87b3e7ea2bb84f753d8b26368",
       "byteLength": 64418,
       "rawPath": "netkeiba/horses/2013/2013102402/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:54:35.200Z"
+  "updatedAt": "2026-08-31T00:09:12.134Z"
 }

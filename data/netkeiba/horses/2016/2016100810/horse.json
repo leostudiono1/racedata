@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100810",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100810/",
-  "profile": null,
+  "profile": {
+    "name": "ルナール",
+    "birthDate": "2016-02-08",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01110",
+      "name": "清水久詞"
+    },
+    "owner": {
+      "id": "754033",
+      "name": "槙和美"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミストラルグリーン Mistral Green(豪)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -1321,6 +1351,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルナール (Renard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1390,9 +1450,9 @@
       "contentHash": "4b946551e699c2eaec179bf3e5772fba26e6dde4fda6ba2f8acb83a9c452084a",
       "byteLength": 64372,
       "rawPath": "netkeiba/horses/2016/2016100810/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:05:58.498Z"
+  "updatedAt": "2026-08-31T00:20:34.814Z"
 }

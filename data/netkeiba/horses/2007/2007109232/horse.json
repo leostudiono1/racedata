@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2007109232",
   "sourceUrl": "https://db.netkeiba.com/horse/2007109232/",
-  "profile": null,
+  "profile": {
+    "name": "タムロスカイ",
+    "birthDate": "2007-05-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "586006",
+      "name": "谷口屯"
+    },
+    "breeder": {
+      "id": "603144",
+      "name": "諏訪牧場"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "1999109271",
+      "name": "タムロチェリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "セクレト Secreto(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -6210,6 +6240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タムロスカイ (Tamuro Sky) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タムロスカイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タムロスカイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6279,9 +6339,9 @@
       "contentHash": "37a705dc39ceddad3bc5ee54c52366f435c2eeea4262eb6ce04aae150d2257d7",
       "byteLength": 66851,
       "rawPath": "netkeiba/horses/2007/2007109232/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:46:25.021Z"
+  "updatedAt": "2026-08-31T00:01:02.098Z"
 }

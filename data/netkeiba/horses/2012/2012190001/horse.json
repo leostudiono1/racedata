@@ -2,7 +2,34 @@
   "schemaVersion": 1,
   "id": "2012190001",
   "sourceUrl": "https://db.netkeiba.com/horse/2012190001/",
-  "profile": null,
+  "profile": {
+    "name": "Erupt",
+    "birthDate": "2012-02-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05701",
+      "name": "グラファ"
+    },
+    "owner": {
+      "id": "732800",
+      "name": "ニアルコス・ファミリー"
+    },
+    "breeder": null,
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Dubawi"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Mare Nostrum"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Caerleon (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2580,6 +2607,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Erupt (イラプト) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Erupt関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Erupt関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2649,9 +2706,9 @@
       "contentHash": "65e0a5cf1ca53581af3d9419c64e6ae91d6e778ffe13e61e629609101ff45760",
       "byteLength": 66445,
       "rawPath": "netkeiba/horses/2012/2012190001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:40:41.918Z"
+  "updatedAt": "2026-08-26T02:45:58.621Z"
 }

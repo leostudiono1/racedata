@@ -2,7 +2,28 @@
   "schemaVersion": 1,
   "id": "2017101564",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101564/",
-  "profile": null,
+  "profile": {
+    "name": "ライフイズクール",
+    "birthDate": null,
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": null,
+    "owner": null,
+    "breeder": null,
+    "birthplace": null,
+    "sire": {
+      "id": "2011103975",
+      "name": "トゥザワールド"
+    },
+    "dam": {
+      "id": "2002102057",
+      "name": "コリンナ"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103975",
@@ -1386,6 +1407,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライフイズクール (Life Is Cool) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライフイズクール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライフイズクール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1455,9 +1506,9 @@
       "contentHash": "11006506432bca11d16547eca2ac2718f2c6175877aedb08ab783e6a1583ee76",
       "byteLength": 66095,
       "rawPath": "netkeiba/horses/2017/2017101564/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:58:09.573Z"
+  "updatedAt": "2026-08-29T01:16:16.540Z"
 }

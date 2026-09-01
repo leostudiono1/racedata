@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104206",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104206/",
-  "profile": null,
+  "profile": {
+    "name": "ファラオ",
+    "birthDate": "2022-04-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01183",
+      "name": "辻野泰之"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "703082",
+      "name": "飛野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リトルブック Little Book(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Librettist"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1027,6 +1057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファラオ (Pharaoh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファラオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファラオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1096,9 +1156,9 @@
       "contentHash": "f5cdc8e09eef8e9e459ad6a147682f144365d5bdcc36500baa7a0c5915561817",
       "byteLength": 66694,
       "rawPath": "netkeiba/horses/2022/2022104206/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:24:24.740Z"
+  "updatedAt": "2026-08-26T03:29:41.348Z"
 }

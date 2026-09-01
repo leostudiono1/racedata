@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102689",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102689/",
-  "profile": null,
+  "profile": {
+    "name": "カキュウ",
+    "birthDate": "2023-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "x0be73",
+      "name": "古川裕"
+    },
+    "breeder": {
+      "id": "103463",
+      "name": "サンコウ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015105075",
+      "name": "フィエールマン"
+    },
+    "dam": {
+      "id": "2016105793",
+      "name": "チークハート"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2015105075",
@@ -1740,6 +1770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カキュウ (Kakyu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カキュウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カキュウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1809,9 +1869,9 @@
       "contentHash": "a2206a3e4e7834b274722fc35bac74cfc20c1281a41364a1c7db4110b5ba7ea6",
       "byteLength": 66559,
       "rawPath": "netkeiba/horses/2023/2023102689/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:02:26.515Z"
+  "updatedAt": "2026-08-24T07:07:36.379Z"
 }

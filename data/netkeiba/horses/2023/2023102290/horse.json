@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102290",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102290/",
-  "profile": null,
+  "profile": {
+    "name": "イクヒロ",
+    "birthDate": "2023-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "244031",
+      "name": "佐々木將吉"
+    },
+    "breeder": {
+      "id": "150100",
+      "name": "リトルブルーファーム"
+    },
+    "birthplace": "清水町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2008100755",
+      "name": "ルアス"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -1669,6 +1699,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イクヒロ (Ikuhiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イクヒロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イクヒロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1738,9 +1798,9 @@
       "contentHash": "29dbb6e7bbf1d2c9089d9deabad37a0401607d65ec64bad160a34c413a1612a3",
       "byteLength": 65287,
       "rawPath": "netkeiba/horses/2023/2023102290/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:02:19.500Z"
+  "updatedAt": "2026-08-24T07:07:29.219Z"
 }

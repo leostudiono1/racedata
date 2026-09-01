@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104675",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104675/",
-  "profile": null,
+  "profile": {
+    "name": "ランドアーティスト",
+    "birthDate": "2017-03-16",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01182",
+      "name": "辻哲英"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2002100510",
+      "name": "ヴァインドレッサー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -3086,6 +3116,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランドアーティスト (Land Artist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランドアーティスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランドアーティスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3155,9 +3215,9 @@
       "contentHash": "d38e2434dcf901bb5ead65944d9b3b7adbdf1d80bb60919c271aca1bddf39f9c",
       "byteLength": 66745,
       "rawPath": "netkeiba/horses/2017/2017104675/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:37:45.578Z"
+  "updatedAt": "2026-08-24T06:42:55.174Z"
 }

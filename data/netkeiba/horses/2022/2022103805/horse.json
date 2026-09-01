@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103805",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103805/",
-  "profile": null,
+  "profile": {
+    "name": "モリオン",
+    "birthDate": "2022-05-23",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "今井輝和"
+    },
+    "owner": {
+      "id": "x0aa53",
+      "name": "内山啓"
+    },
+    "breeder": {
+      "id": "733072",
+      "name": "今牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2011104125",
+      "name": "モントボーゲン"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -3069,6 +3099,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モリオン (Morion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モリオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モリオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3138,9 +3198,9 @@
       "contentHash": "2d96c9765a1fb8a3193ea7a05ee184acb6930f33283f2d3d271e4e1fa4be23a2",
       "byteLength": 65506,
       "rawPath": "netkeiba/horses/2022/2022103805/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:57:36.335Z"
+  "updatedAt": "2026-08-28T02:02:03.971Z"
 }

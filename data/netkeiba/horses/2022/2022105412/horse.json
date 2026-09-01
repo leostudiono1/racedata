@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105412",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105412/",
-  "profile": null,
+  "profile": {
+    "name": "テクニコス",
+    "birthDate": "2022-03-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "後藤佑耶"
+    },
+    "owner": {
+      "id": "800031",
+      "name": "桑田照夫"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2006103101",
+      "name": "テクニカルラン"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2787,6 +2817,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テクニコス (Technikos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テクニコス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テクニコス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2856,9 +2916,9 @@
       "contentHash": "0068e202fe20e7a15641ef86bb7cdd8d4f320310b8c53250c2332575b5626ea5",
       "byteLength": 66811,
       "rawPath": "netkeiba/horses/2022/2022105412/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:58:28.530Z"
+  "updatedAt": "2026-08-28T02:02:56.727Z"
 }

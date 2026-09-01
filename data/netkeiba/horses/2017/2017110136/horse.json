@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110136",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110136/",
-  "profile": null,
+  "profile": {
+    "name": "スイ",
+    "birthDate": "2017-01-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "220707",
+      "name": "Machmer Hall Carrie Brogden & Craig Brogden"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Candy Ride"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Eltimaas"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Ghostzapper"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1499,6 +1529,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スイ (Sui) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1568,9 +1628,9 @@
       "contentHash": "4a0d9cc6a2c8804293ddd99feb11001a25a78870abd3ee12df19f2c311aee1ce",
       "byteLength": 66853,
       "rawPath": "netkeiba/horses/2017/2017110136/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:37:55.767Z"
+  "updatedAt": "2026-08-30T00:49:24.171Z"
 }

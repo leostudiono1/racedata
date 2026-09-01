@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110150",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110150/",
-  "profile": null,
+  "profile": {
+    "name": "チカクール",
+    "birthDate": "2022-02-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "600713",
+      "name": "Sun Bloodstock SARL"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Dubawi"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sans Equivoque"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy River"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1146,6 +1176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チカクール (Chika Cool) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカクール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカクール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1215,9 +1275,9 @@
       "contentHash": "3d6d3789d6e40b4a96e1975ceb5f5a95df6f75b84ed3a177869ee123370bdb4c",
       "byteLength": 65627,
       "rawPath": "netkeiba/horses/2022/2022110150/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:33:58.541Z"
+  "updatedAt": "2026-08-31T00:48:35.322Z"
 }

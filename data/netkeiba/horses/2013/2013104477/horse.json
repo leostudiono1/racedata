@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104477",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104477/",
-  "profile": null,
+  "profile": {
+    "name": "ダイワトラスト",
+    "birthDate": "2013-01-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "587008",
+      "name": "大城敬三"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2006101214",
+      "name": "スマイルトゥゲザー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1328,6 +1358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダイワトラスト (Daiwa Trust) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイワトラスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイワトラスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1397,9 +1457,9 @@
       "contentHash": "d6feb8df3f33f8f21c85bb67b852fa3f6361c625cb58b7d800eee1c242324752",
       "byteLength": 65767,
       "rawPath": "netkeiba/horses/2013/2013104477/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:09:54.576Z"
+  "updatedAt": "2026-08-25T05:21:01.178Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110006",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110006/",
-  "profile": null,
+  "profile": {
+    "name": "オストファーレン",
+    "birthDate": "2020-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "800031",
+      "name": "桑田照夫"
+    },
+    "breeder": {
+      "id": "370732",
+      "name": "Owaseyf Syndicate"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "2015100991",
+      "name": "Saxon Warrior (安平町)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Owaseyf"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2015100991",
@@ -4556,6 +4586,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オストファーレン (Ostfalen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オストファーレン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オストファーレン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4625,9 +4685,9 @@
       "contentHash": "a76d208bd88ab42dce30ffd3018aeaa04d76405d0290e3ba8fe174987a3fcbb7",
       "byteLength": 66913,
       "rawPath": "netkeiba/horses/2020/2020110006/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:12:59.056Z"
+  "updatedAt": "2026-08-29T01:31:05.756Z"
 }

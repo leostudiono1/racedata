@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102908",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102908/",
-  "profile": null,
+  "profile": {
+    "name": "ミサコ",
+    "birthDate": "2015-04-08",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "044803",
+      "name": "由井健太郎"
+    },
+    "breeder": {
+      "id": "903038",
+      "name": "酒井牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2010104825",
+      "name": "リミックスアルバム"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1843,6 +1873,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミサコ (Misako) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミサコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミサコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1912,9 +1972,9 @@
       "contentHash": "e953437a2dcb095a774e95979463ef7f269f96de2cfc5841169f1ff589bde087",
       "byteLength": 66614,
       "rawPath": "netkeiba/horses/2015/2015102908/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:27:22.411Z"
+  "updatedAt": "2026-08-24T06:32:31.993Z"
 }

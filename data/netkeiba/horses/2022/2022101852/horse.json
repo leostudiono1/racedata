@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101852",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101852/",
-  "profile": null,
+  "profile": {
+    "name": "グランドクロス",
+    "birthDate": "2022-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01131",
+      "name": "蛯名利弘"
+    },
+    "owner": {
+      "id": "855030",
+      "name": "田頭勇貴"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2017103096",
+      "name": "クリノフィニッシュ"
+    },
+    "damsire": {
+      "id": "2003104100",
+      "name": "バンブーエール"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -989,6 +1019,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランドクロス (Grand Cross) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランドクロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランドクロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1058,9 +1118,9 @@
       "contentHash": "089456253ea4abfbc3de9bc73d2644746397671c41e37a9f9ad6667ab428890e",
       "byteLength": 64407,
       "rawPath": "netkeiba/horses/2022/2022101852/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:18:03.692Z"
+  "updatedAt": "2026-08-29T01:36:10.333Z"
 }

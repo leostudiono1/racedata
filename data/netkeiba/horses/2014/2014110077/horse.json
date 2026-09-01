@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110077",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110077/",
-  "profile": null,
+  "profile": {
+    "name": "ストロボスコープ",
+    "birthDate": "2014-03-25",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "760702",
+      "name": "Fred W. Hertrich III & John D. Fielding"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Glimmering"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2382,6 +2412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストロボスコープ (Stroboscope) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストロボスコープ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストロボスコープ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2451,9 +2511,9 @@
       "contentHash": "22e3a4c5202c2bf190113d279a535ff80456284660a5c86b890404d1603ab9af",
       "byteLength": 66758,
       "rawPath": "netkeiba/horses/2014/2014110077/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:24:48.327Z"
+  "updatedAt": "2026-08-28T01:29:16.189Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105161",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105161/",
-  "profile": null,
+  "profile": {
+    "name": "コウセイ",
+    "birthDate": "2020-04-07",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "458033",
+      "name": "仲谷善彰"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011105266",
+      "name": "ゴールドアクター"
+    },
+    "dam": {
+      "id": "2013101419",
+      "name": "グッドプリン"
+    },
+    "damsire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    }
+  },
   "pedigree": [
     {
       "id": "2011105266",
@@ -1857,6 +1887,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コウセイ (Kosei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウセイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウセイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1926,9 +1986,9 @@
       "contentHash": "6107bb29e7e6e0d827f8b1f66f96e98a8c0d88b6ace3375ff94ebcb166fc025a",
       "byteLength": 66731,
       "rawPath": "netkeiba/horses/2020/2020105161/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:49:08.003Z"
+  "updatedAt": "2026-08-30T01:00:35.719Z"
 }

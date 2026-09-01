@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105561",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105561/",
-  "profile": null,
+  "profile": {
+    "name": "ミルトシャトル",
+    "birthDate": "2015-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "平田正一"
+    },
+    "owner": {
+      "id": "695033",
+      "name": "永山勝敏"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2007105559",
+      "name": "ベネディーレ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -3610,6 +3640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミルトシャトル (Mild Shuttle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルトシャトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミルトシャトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3679,9 +3739,9 @@
       "contentHash": "e98a64fb7c305170bd70275e70222c8948305997a19099a340dce80e694bd2ff",
       "byteLength": 67033,
       "rawPath": "netkeiba/horses/2015/2015105561/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:14:40.381Z"
+  "updatedAt": "2026-08-27T02:25:11.839Z"
 }

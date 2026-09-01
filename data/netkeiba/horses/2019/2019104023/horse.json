@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104023",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104023/",
-  "profile": null,
+  "profile": {
+    "name": "ソアリング",
+    "birthDate": "2019-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "290006",
+      "name": "栗坂崇"
+    },
+    "breeder": {
+      "id": "800533",
+      "name": "丸幸小林牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2002103275",
+      "name": "パッショナルダンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1469,6 +1499,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソアリング (Soaring) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソアリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソアリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1538,9 +1598,9 @@
       "contentHash": "9508afda1fd1efe10f2484daafa77fb56f9ddcd752a09ae95d13db3d051d98d1",
       "byteLength": 65241,
       "rawPath": "netkeiba/horses/2019/2019104023/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:30:50.455Z"
+  "updatedAt": "2026-08-27T02:41:21.826Z"
 }

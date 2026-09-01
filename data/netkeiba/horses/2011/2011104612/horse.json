@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104612",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104612/",
-  "profile": null,
+  "profile": {
+    "name": "ラディウス",
+    "birthDate": "2011-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "463800",
+      "name": "名古屋友豊"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2001104111",
+      "name": "ポポラス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -5105,6 +5135,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラディウス (Radius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラディウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラディウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5174,9 +5234,9 @@
       "contentHash": "d2fc27e0ee755514517cb8f26938ff62ef554b6ad76157a8b7ea4842461a1462",
       "byteLength": 66777,
       "rawPath": "netkeiba/horses/2011/2011104612/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:13:01.010Z"
+  "updatedAt": "2026-08-24T06:18:10.712Z"
 }

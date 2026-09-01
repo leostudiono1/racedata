@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104333",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104333/",
-  "profile": null,
+  "profile": {
+    "name": "コスタネラ",
+    "birthDate": "2015-03-06",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サンタテレジータ Santa Teresita(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lemon Drop Kid"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2867,6 +2897,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスタネラ (Costanera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスタネラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスタネラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2936,9 +2996,9 @@
       "contentHash": "723087f2263d773bf861923ce8badfc306e1daef99b876a1c69c0e7b2f6b038b",
       "byteLength": 67531,
       "rawPath": "netkeiba/horses/2015/2015104333/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:19:04.349Z"
+  "updatedAt": "2026-08-25T05:30:10.866Z"
 }

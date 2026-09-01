@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104100",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104100/",
-  "profile": null,
+  "profile": {
+    "name": "オーデットエール",
+    "birthDate": "2015-01-29",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01074",
+      "name": "奥平雅士"
+    },
+    "owner": {
+      "id": "422006",
+      "name": "中村昭博"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スカイアライアンス Sky Alliance(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Classic"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2822,6 +2852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーデットエール (Audit Ale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーデットエール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーデットエール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2891,9 +2951,9 @@
       "contentHash": "6ee86cd6dc6aa63822ca8adbdfab8f63dbc803f1cd6b32a9927dc98b6a16aa1f",
       "byteLength": 66976,
       "rawPath": "netkeiba/horses/2015/2015104100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:27:15.577Z"
+  "updatedAt": "2026-08-28T01:31:43.196Z"
 }

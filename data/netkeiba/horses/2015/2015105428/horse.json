@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105428",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105428/",
-  "profile": null,
+  "profile": {
+    "name": "サエズリ",
+    "birthDate": "2015-05-08",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "684030",
+      "name": "岡田壮史"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "1994109326",
+      "name": "ソニックバード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Phone Trick"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -1734,6 +1764,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サエズリ (Saezuri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サエズリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サエズリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1803,9 +1863,9 @@
       "contentHash": "5c18aa369fa1842864077970327ac9e63352ca8fdb57315e63f31d1fb7ebb6c6",
       "byteLength": 64809,
       "rawPath": "netkeiba/horses/2015/2015105428/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:29:14.335Z"
+  "updatedAt": "2026-08-24T06:34:24.416Z"
 }

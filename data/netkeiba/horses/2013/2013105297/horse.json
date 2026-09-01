@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105297",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105297/",
-  "profile": null,
+  "profile": {
+    "name": "ミネット",
+    "birthDate": "2013-01-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "514008",
+      "name": "窪田康志"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レッドキャット Red Cat(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2836,6 +2866,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミネット (Minette) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミネット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミネット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2905,9 +2965,9 @@
       "contentHash": "73c26f4dc0be09ea5051610f2535e025ae6341341049009b162806f798625ac4",
       "byteLength": 66629,
       "rawPath": "netkeiba/horses/2013/2013105297/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:19:57.584Z"
+  "updatedAt": "2026-08-24T06:25:07.260Z"
 }

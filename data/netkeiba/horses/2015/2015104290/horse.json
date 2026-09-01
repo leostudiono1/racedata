@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104290",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104290/",
-  "profile": null,
+  "profile": {
+    "name": "ボルティモア",
+    "birthDate": "2015-03-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01018",
+      "name": "宮徹"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カチバ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sir Cat"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2014,6 +2044,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボルティモア (Baltimore) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボルティモア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボルティモア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2083,9 +2143,9 @@
       "contentHash": "c3a8a99744977edcabefc46ee4f657629b83a31158999f3041ceac0c9c8c8754",
       "byteLength": 67448,
       "rawPath": "netkeiba/horses/2015/2015104290/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:19:01.102Z"
+  "updatedAt": "2026-08-25T05:30:07.559Z"
 }

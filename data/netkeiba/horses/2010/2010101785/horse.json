@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101785",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101785/",
-  "profile": null,
+  "profile": {
+    "name": "エリモフローラ",
+    "birthDate": "2010-03-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "953030",
+      "name": "山本三津子"
+    },
+    "breeder": {
+      "id": "510000",
+      "name": "エクセルマネジメント"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2001104869",
+      "name": "ユニバーサル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -3872,6 +3902,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エリモフローラ (Erimo Flora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリモフローラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリモフローラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3941,9 +4001,9 @@
       "contentHash": "cce03fdad2e07762eabae3cc05ce059f8aba832c54be04863d5226f0b1516151",
       "byteLength": 65458,
       "rawPath": "netkeiba/horses/2010/2010101785/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:10:51.107Z"
+  "updatedAt": "2026-08-30T00:22:19.107Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104004",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104004/",
-  "profile": null,
+  "profile": {
+    "name": "ステイハッピー",
+    "birthDate": "2012-02-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2001110194",
+      "name": "スプレッドスマイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bianconi"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2188,6 +2218,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ステイハッピー (Stay Happy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステイハッピー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステイハッピー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2257,9 +2317,9 @@
       "contentHash": "1b8a44cf7ac81596bba8812a9e503780ef2674b9bd19d1b8565b0eda1d889210",
       "byteLength": 65672,
       "rawPath": "netkeiba/horses/2012/2012104004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:51:33.108Z"
+  "updatedAt": "2026-08-31T00:06:09.988Z"
 }

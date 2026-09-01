@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104559",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104559/",
-  "profile": null,
+  "profile": {
+    "name": "エフティベス",
+    "birthDate": "2012-01-28",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "034030",
+      "name": "吉野英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2005102499",
+      "name": "エフティマイア"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2414,6 +2444,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エフティベス (F T Beth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エフティベス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エフティベス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2483,9 +2543,9 @@
       "contentHash": "0026a3c5b5b3a2908e8daf940a909d6621d9fe66e5f4dfec37b0c31a627cc647",
       "byteLength": 65966,
       "rawPath": "netkeiba/horses/2012/2012104559/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:40:18.171Z"
+  "updatedAt": "2026-08-29T00:58:25.221Z"
 }

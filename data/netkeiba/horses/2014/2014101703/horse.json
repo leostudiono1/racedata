@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101703",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101703/",
-  "profile": null,
+  "profile": {
+    "name": "プリメラ",
+    "birthDate": "2014-03-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00392",
+      "name": "古賀史生"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102870",
+      "name": "トーセンファントム"
+    },
+    "dam": {
+      "id": "2005102280",
+      "name": "トーセンクレスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102870",
@@ -1081,6 +1111,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プリメラ (Primera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プリメラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プリメラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1150,9 +1210,9 @@
       "contentHash": "7fa85b7cc6c72ba117321da0e569f90bd8f9e8d755d4597e8193e84dfea31b49",
       "byteLength": 64735,
       "rawPath": "netkeiba/horses/2014/2014101703/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:46:56.721Z"
+  "updatedAt": "2026-08-26T02:52:13.349Z"
 }

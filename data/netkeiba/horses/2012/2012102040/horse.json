@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102040",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102040/",
-  "profile": null,
+  "profile": {
+    "name": "ダイメイエンパイア",
+    "birthDate": "2012-02-11",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "688006",
+      "name": "宮本孝一"
+    },
+    "breeder": {
+      "id": "733363",
+      "name": "横井哲"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2007104165",
+      "name": "ダイメイダーク"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4485,6 +4515,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダイメイエンパイア (Daimei Empire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイメイエンパイア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイメイエンパイア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4554,9 +4614,9 @@
       "contentHash": "1a93c21f15b3912a46741fb10021a06c890fd7e5175aef259971929563a6d3bf",
       "byteLength": 65150,
       "rawPath": "netkeiba/horses/2012/2012102040/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:50:30.093Z"
+  "updatedAt": "2026-08-31T00:05:07.015Z"
 }

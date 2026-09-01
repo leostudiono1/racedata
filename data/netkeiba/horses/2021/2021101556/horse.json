@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101556",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101556/",
-  "profile": null,
+  "profile": {
+    "name": "オラクル",
+    "birthDate": "2021-02-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01130",
+      "name": "吉村圭司"
+    },
+    "owner": {
+      "id": "300803",
+      "name": "ＫＲジャパン"
+    },
+    "breeder": {
+      "id": "541543",
+      "name": "スマイルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シャイスター Shyster(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Equal Stripes"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1190,6 +1220,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オラクル (Oracle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オラクル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オラクル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1259,9 +1319,9 @@
       "contentHash": "106b3dd386f030c78133509cabe2650b35415529d77db106b839cd763c1e9fb6",
       "byteLength": 65315,
       "rawPath": "netkeiba/horses/2021/2021101556/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:42:49.462Z"
+  "updatedAt": "2026-08-25T05:53:55.838Z"
 }

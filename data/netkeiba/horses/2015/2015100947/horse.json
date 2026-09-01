@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100947",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100947/",
-  "profile": null,
+  "profile": {
+    "name": "アイリーデイ",
+    "birthDate": "2015-04-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01090",
+      "name": "天間昭一"
+    },
+    "owner": {
+      "id": "376006",
+      "name": "増田恒次"
+    },
+    "breeder": {
+      "id": "400340",
+      "name": "山岡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2006110110",
+      "name": "ワイズドリーム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Yes It's True"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1189,6 +1219,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイリーデイ (Irie Day) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリーデイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリーデイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1258,9 +1318,9 @@
       "contentHash": "9a6719ec664de98d5582840780a69a385376d65fd9d9e3e55d566ba48dbbf553",
       "byteLength": 64816,
       "rawPath": "netkeiba/horses/2015/2015100947/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:26:18.990Z"
+  "updatedAt": "2026-08-30T00:37:46.769Z"
 }

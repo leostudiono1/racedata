@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104423",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104423/",
-  "profile": null,
+  "profile": {
+    "name": "アザレ",
+    "birthDate": "2017-02-11",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00392",
+      "name": "古賀史生"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006103169",
+      "name": "トーセンジョーダン"
+    },
+    "dam": {
+      "id": "2011104012",
+      "name": "トーセンミルキー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103169",
@@ -1346,6 +1376,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アザレ (Azalee) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アザレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アザレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1415,9 +1475,9 @@
       "contentHash": "bd138f7096c09822a73f26e45424b0fec21da8c17000e485b82e09ca0b8a3a2b",
       "byteLength": 64519,
       "rawPath": "netkeiba/horses/2017/2017104423/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:12:54.583Z"
+  "updatedAt": "2026-08-31T00:27:31.489Z"
 }

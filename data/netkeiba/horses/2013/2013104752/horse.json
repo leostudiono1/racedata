@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104752",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104752/",
-  "profile": null,
+  "profile": {
+    "name": "ガイナ",
+    "birthDate": "2013-03-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00353",
+      "name": "和田正道"
+    },
+    "owner": {
+      "id": "251800",
+      "name": "和田牧場"
+    },
+    "breeder": {
+      "id": "413304",
+      "name": "藤沢牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001104554",
+      "name": "アジュディミツオー"
+    },
+    "dam": {
+      "id": "2007104799",
+      "name": "アナンダ"
+    },
+    "damsire": {
+      "id": "2000190010",
+      "name": "アルカセット Alkaased(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001104554",
@@ -4622,6 +4652,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガイナ (Gaina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガイナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガイナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4691,9 +4751,9 @@
       "contentHash": "2126c5bf1c89e531b09482c80fb6152174cc17815f16051a6eccf58faf2e5efb",
       "byteLength": 65509,
       "rawPath": "netkeiba/horses/2013/2013104752/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:44:19.797Z"
+  "updatedAt": "2026-08-29T01:02:26.787Z"
 }

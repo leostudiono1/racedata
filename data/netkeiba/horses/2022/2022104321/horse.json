@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104321",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104321/",
-  "profile": null,
+  "profile": {
+    "name": "ボンマティ",
+    "birthDate": "2022-03-01",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05546",
+      "name": "高岩孝敏"
+    },
+    "owner": {
+      "id": "x09067",
+      "name": "遠藤喜和"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2009110002",
+      "name": "マスターエクレール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -3300,6 +3330,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボンマティ (Bonmati) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボンマティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボンマティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3369,9 +3429,9 @@
       "contentHash": "b49edbb7bb3e1a0545562593689d1f9922f63e4359fed3b8372d0d30a1c72158",
       "byteLength": 66803,
       "rawPath": "netkeiba/horses/2022/2022104321/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:57:53.695Z"
+  "updatedAt": "2026-08-28T02:02:21.403Z"
 }

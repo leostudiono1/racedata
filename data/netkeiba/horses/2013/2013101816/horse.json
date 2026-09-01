@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101816",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101816/",
-  "profile": null,
+  "profile": {
+    "name": "バナキュラー",
+    "birthDate": "2013-03-17",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01013",
+      "name": "小島太"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sweet Win"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングオブキングス King of Kings(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1116,6 +1146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バナキュラー (Vernacular) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バナキュラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バナキュラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1185,9 +1245,9 @@
       "contentHash": "3c0a88a117abb66cebee8a128f069df48d7f4e998f70d8f303fecccff1b518b8",
       "byteLength": 64488,
       "rawPath": "netkeiba/horses/2013/2013101816/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:42:34.855Z"
+  "updatedAt": "2026-08-29T01:00:41.736Z"
 }

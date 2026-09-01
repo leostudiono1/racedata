@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100020",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100020/",
-  "profile": null,
+  "profile": {
+    "name": "アイゼンハイム",
+    "birthDate": "2023-04-16",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01183",
+      "name": "辻野泰之"
+    },
+    "owner": {
+      "id": "879033",
+      "name": "江馬由将"
+    },
+    "breeder": {
+      "id": "133090",
+      "name": "上村清志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2009101407",
+      "name": "ベラルーナ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1282,6 +1312,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイゼンハイム (Eisenheim) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイゼンハイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイゼンハイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1351,9 +1411,9 @@
       "contentHash": "c66b4f9aa4c1db2369646852ce7ad60b7e1373b16664f30df3f70749ea7eae29",
       "byteLength": 64669,
       "rawPath": "netkeiba/horses/2023/2023100020/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:49:39.095Z"
+  "updatedAt": "2026-08-25T06:00:45.483Z"
 }

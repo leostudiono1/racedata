@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104195",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104195/",
-  "profile": null,
+  "profile": {
+    "name": "ノーフェイク",
+    "birthDate": "2015-01-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05470",
+      "name": "黒田隆男"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リーサルヒート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unusual Heat"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -8826,6 +8856,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノーフェイク (No Fake) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーフェイク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーフェイク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8895,9 +8955,9 @@
       "contentHash": "46c0646610ca75a10ed55e36bba986f2a309f3d22da79f2a89fed4bcd584d6c1",
       "byteLength": 66875,
       "rawPath": "netkeiba/horses/2015/2015104195/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:14:01.936Z"
+  "updatedAt": "2026-08-27T02:24:33.397Z"
 }

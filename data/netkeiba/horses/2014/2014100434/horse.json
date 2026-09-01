@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100434",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100434/",
-  "profile": null,
+  "profile": {
+    "name": "リオファンク",
+    "birthDate": "2014-05-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "571033",
+      "name": "阿部善武"
+    },
+    "breeder": {
+      "id": "300313",
+      "name": "堤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006104736",
+      "name": "トランセンド"
+    },
+    "dam": {
+      "id": "2005104487",
+      "name": "シルクロザリオ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2006104736",
@@ -2476,6 +2506,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リオファンク (Rio Funk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リオファンク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リオファンク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2545,9 +2605,9 @@
       "contentHash": "14bee2228035390b95acf60e4ef94d5dadce8715b8a1c95692c71bb6572ae36d",
       "byteLength": 65632,
       "rawPath": "netkeiba/horses/2014/2014100434/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:57:40.766Z"
+  "updatedAt": "2026-08-31T00:12:17.925Z"
 }

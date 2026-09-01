@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101552",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101552/",
-  "profile": null,
+  "profile": {
+    "name": "フラッグタワー",
+    "birthDate": "2017-05-07",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05157",
+      "name": "及川良春"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009106599",
+      "name": "フェノーメノ"
+    },
+    "dam": {
+      "id": "2007104474",
+      "name": "ハニーカラー"
+    },
+    "damsire": {
+      "id": "1994109494",
+      "name": "スピードワールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106599",
@@ -3911,6 +3941,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラッグタワー (Flag Tower) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラッグタワー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラッグタワー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3980,9 +4040,9 @@
       "contentHash": "525d6136ee7eb3d3a54162386ad62f30fc3a817b6de147c948f0650c663d8526",
       "byteLength": 66954,
       "rawPath": "netkeiba/horses/2017/2017101552/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:32:58.511Z"
+  "updatedAt": "2026-08-28T01:37:26.290Z"
 }

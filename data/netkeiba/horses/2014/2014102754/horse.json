@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102754",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102754/",
-  "profile": null,
+  "profile": {
+    "name": "シュラブ",
+    "birthDate": "2014-02-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "酒井仁"
+    },
+    "owner": {
+      "id": "x0132a",
+      "name": "千葉達也"
+    },
+    "breeder": {
+      "id": "733484",
+      "name": "大川牧場"
+    },
+    "birthplace": "厚真町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2004110243",
+      "name": "シルキーメイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Barathea"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -8820,6 +8850,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュラブ (Shrub) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュラブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュラブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8889,9 +8949,9 @@
       "contentHash": "c6d07ba09568355a4fbde49f2d80f9088e194a76cae17374becb1614770ee6b6",
       "byteLength": 66219,
       "rawPath": "netkeiba/horses/2014/2014102754/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:58:54.331Z"
+  "updatedAt": "2026-08-31T00:13:31.411Z"
 }

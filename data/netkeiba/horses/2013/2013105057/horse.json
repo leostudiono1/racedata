@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105057",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105057/",
-  "profile": null,
+  "profile": {
+    "name": "ラオコーン",
+    "birthDate": "2013-05-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "733484",
+      "name": "大川牧場"
+    },
+    "birthplace": "厚真町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2006103880",
+      "name": "マイスイートベス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Haafhd (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -1450,6 +1480,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラオコーン (Laocoon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラオコーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラオコーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1519,9 +1579,9 @@
       "contentHash": "cb829c47ed7730410c51bfbc1650e9928389d9fd49064c0f26a92b23d67aeb03",
       "byteLength": 65370,
       "rawPath": "netkeiba/horses/2013/2013105057/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:10:15.512Z"
+  "updatedAt": "2026-08-25T05:21:22.083Z"
 }

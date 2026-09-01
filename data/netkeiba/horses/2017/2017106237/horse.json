@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106237",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106237/",
-  "profile": null,
+  "profile": {
+    "name": "グラナリー",
+    "birthDate": "2017-02-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2005102410",
+      "name": "グレインライン"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2766,6 +2796,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラナリー (Granary) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラナリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラナリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2835,9 +2895,9 @@
       "contentHash": "66cd4530593a93a32118e2f8ee84c4cab4548133693976d6f71e1e4d893cef58",
       "byteLength": 66189,
       "rawPath": "netkeiba/horses/2017/2017106237/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:01:36.174Z"
+  "updatedAt": "2026-08-29T01:19:43.130Z"
 }

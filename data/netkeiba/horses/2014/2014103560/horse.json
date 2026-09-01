@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103560",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103560/",
-  "profile": null,
+  "profile": {
+    "name": "トモリエール",
+    "birthDate": "2014-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ベルナール Bernhardt(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Alzao"
+    }
+  },
   "pedigree": [
     {
       "id": "2007105709",
@@ -1509,6 +1539,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トモリエール (Tomo Lierre) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トモリエール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トモリエール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1578,9 +1638,9 @@
       "contentHash": "66e00e881a99c843a6acf92936160f4967c7015ccee7d7d0bcb20080c03bb6c9",
       "byteLength": 64947,
       "rawPath": "netkeiba/horses/2014/2014103560/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:10:21.107Z"
+  "updatedAt": "2026-08-27T02:20:52.911Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105053",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105053/",
-  "profile": null,
+  "profile": {
+    "name": "タービランス",
+    "birthDate": "2013-04-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05788",
+      "name": "水野貴史"
+    },
+    "owner": {
+      "id": "755030",
+      "name": "吉木伸彦"
+    },
+    "breeder": {
+      "id": "733484",
+      "name": "大川牧場"
+    },
+    "birthplace": "厚真",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2005110222",
+      "name": "チャームエンジェル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Theatrical"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5301,6 +5331,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タービランス (Turbulence) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タービランス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タービランス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5370,9 +5430,9 @@
       "contentHash": "09b0389fefd586d689ab96e2cadaab70d2278f4c0248e9437dd3d54e0f174c8d",
       "byteLength": 67025,
       "rawPath": "netkeiba/horses/2013/2013105053/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:44:29.634Z"
+  "updatedAt": "2026-08-26T02:49:46.223Z"
 }

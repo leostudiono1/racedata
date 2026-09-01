@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103322",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103322/",
-  "profile": null,
+  "profile": {
+    "name": "シューイチ",
+    "birthDate": "2012-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00380",
+      "name": "柄崎孝"
+    },
+    "owner": {
+      "id": "949030",
+      "name": "益田修一"
+    },
+    "breeder": {
+      "id": "433086",
+      "name": "西川富岡牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1995100385",
+      "name": "スマートボーイ"
+    },
+    "dam": {
+      "id": "2007103854",
+      "name": "メルシーミヨ"
+    },
+    "damsire": {
+      "id": "1997103699",
+      "name": "アドマイヤボス"
+    }
+  },
   "pedigree": [
     {
       "id": "1995100385",
@@ -1421,6 +1451,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シューイチ (Shuichi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シューイチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シューイチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1490,9 +1550,9 @@
       "contentHash": "252e6fcf332a89ec8de375901f3de1427c39e1e522cc30341063242c4d672542",
       "byteLength": 64359,
       "rawPath": "netkeiba/horses/2012/2012103322/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:14:07.897Z"
+  "updatedAt": "2026-08-28T01:18:35.534Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104901",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104901/",
-  "profile": null,
+  "profile": {
+    "name": "モートゥス",
+    "birthDate": "2015-04-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "713033",
+      "name": "西岡透"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2006103357",
+      "name": "トップモーション"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -7463,6 +7493,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モートゥス (Motus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モートゥス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モートゥス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7532,9 +7592,9 @@
       "contentHash": "196e501465157007a7336942db72aa4ce59de59d70e913b896af74660ebec116",
       "byteLength": 64997,
       "rawPath": "netkeiba/horses/2015/2015104901/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:04:23.620Z"
+  "updatedAt": "2026-08-31T00:19:00.471Z"
 }

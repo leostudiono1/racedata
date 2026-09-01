@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110049",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110049/",
-  "profile": null,
+  "profile": {
+    "name": "ダシータピット",
+    "birthDate": "2022-04-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05628",
+      "name": "山中尊徳"
+    },
+    "owner": {
+      "id": "944030",
+      "name": "加藤誠"
+    },
+    "breeder": {
+      "id": "490707",
+      "name": "Don Alberto Corporation"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Dacita (智)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Scat Daddy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2164,6 +2194,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダシータピット (Dacitapit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダシータピット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダシータピット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2233,9 +2293,9 @@
       "contentHash": "2a91a45c5b3f7b8287ae985f13c4cc92e223ed8d27c53acf4e4da9a21c943d36",
       "byteLength": 66740,
       "rawPath": "netkeiba/horses/2022/2022110049/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:01:30.501Z"
+  "updatedAt": "2026-08-24T07:06:40.111Z"
 }

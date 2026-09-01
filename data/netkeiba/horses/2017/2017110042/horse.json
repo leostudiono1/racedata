@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110042",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110042/",
-  "profile": null,
+  "profile": {
+    "name": "オールプリンセス",
+    "birthDate": "2017-02-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05323",
+      "name": "松野勝己"
+    },
+    "owner": {
+      "id": "x011aa",
+      "name": "村瀬正"
+    },
+    "breeder": {
+      "id": "250887",
+      "name": "Gestut Brummerhof"
+    },
+    "birthplace": "独",
+    "sire": {
+      "id": "000",
+      "name": "Adlerflug"
+    },
+    "dam": {
+      "id": "000",
+      "name": "All Saints"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Goofalik"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1691,6 +1721,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オールプリンセス (All Princess) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールプリンセス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールプリンセス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1760,9 +1820,9 @@
       "contentHash": "279dc72cce5d9b611a4073d837a635cac21cead627a6d5122256a50d83b990c0",
       "byteLength": 65701,
       "rawPath": "netkeiba/horses/2017/2017110042/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:04:16.823Z"
+  "updatedAt": "2026-08-26T03:09:33.507Z"
 }

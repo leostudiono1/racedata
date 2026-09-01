@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100420",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100420/",
-  "profile": null,
+  "profile": {
+    "name": "ルアナ",
+    "birthDate": "2015-02-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "242033",
+      "name": "平澤孝"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007103404",
+      "name": "ローズキングダム"
+    },
+    "dam": {
+      "id": "2003100263",
+      "name": "チャームラブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103404",
@@ -1952,6 +1982,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルアナ (Luana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルアナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルアナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2021,9 +2081,9 @@
       "contentHash": "702dbfd43291143930670feabcbce4071b8a80d5f0887f4eaf8ea15077725a2e",
       "byteLength": 64378,
       "rawPath": "netkeiba/horses/2015/2015100420/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:49:34.832Z"
+  "updatedAt": "2026-08-29T01:07:41.786Z"
 }

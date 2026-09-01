@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105640",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105640/",
-  "profile": null,
+  "profile": {
+    "name": "カイト",
+    "birthDate": "2019-03-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2013105205",
+      "name": "ツボミ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1511,6 +1541,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カイト (Kite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1580,9 +1640,9 @@
       "contentHash": "b61cf352f80266cad4316b0f35d4437fbbe1f6f4cbdbd994519c65fd62731aa7",
       "byteLength": 66620,
       "rawPath": "netkeiba/horses/2019/2019105640/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:44:55.912Z"
+  "updatedAt": "2026-08-30T00:56:23.711Z"
 }

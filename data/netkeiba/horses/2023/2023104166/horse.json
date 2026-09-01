@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104166",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104166/",
-  "profile": null,
+  "profile": {
+    "name": "ストームアイ",
+    "birthDate": "2023-03-25",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "櫻田康二"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2008104574",
+      "name": "ライステラス"
+    },
+    "damsire": {
+      "id": "2003102461",
+      "name": "ソングオブウインド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1521,6 +1551,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストームアイ (Storm Eye) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストームアイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストームアイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1590,9 +1650,9 @@
       "contentHash": "0237b796e4af8e2cbf16b2e90e45780cf2c4c4285c83e6b423df627c97024a92",
       "byteLength": 66691,
       "rawPath": "netkeiba/horses/2023/2023104166/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T03:00:51.706Z"
+  "updatedAt": "2026-08-30T01:12:19.759Z"
 }

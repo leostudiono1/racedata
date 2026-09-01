@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009110003",
   "sourceUrl": "https://db.netkeiba.com/horse/2009110003/",
-  "profile": null,
+  "profile": {
+    "name": "ダノンクリエーター",
+    "birthDate": "2009-04-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "619800",
+      "name": "ダノックス"
+    },
+    "breeder": {
+      "id": "000888",
+      "name": "Waterford Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Half Ours"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ディフィカルト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Concern"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3492,6 +3522,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダノンクリエーター (Danon Creator) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンクリエーター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンクリエーター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3561,9 +3621,9 @@
       "contentHash": "0653c242e815b9e1c59c874cfe8ff48e5deb38b213abf324e20f6ae6369aee78",
       "byteLength": 65996,
       "rawPath": "netkeiba/horses/2009/2009110003/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:47:07.393Z"
+  "updatedAt": "2026-08-31T00:01:43.891Z"
 }

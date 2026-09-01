@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106007",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106007/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィブロス",
+    "birthDate": "2013-04-09",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "006030",
+      "name": "佐々木主浩"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2001103409",
+      "name": "ハルーワスウィート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Machiavellian"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2688,6 +2718,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィブロス (Vivlos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィブロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィブロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2757,9 +2817,9 @@
       "contentHash": "160a2debbf13064854d8e3811dc418303c2f101bbaa86813b8b589cecfd7daf5",
       "byteLength": 67020,
       "rawPath": "netkeiba/horses/2013/2013106007/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:45:29.790Z"
+  "updatedAt": "2026-08-29T01:03:36.695Z"
 }

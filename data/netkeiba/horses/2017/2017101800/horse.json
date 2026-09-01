@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101800",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101800/",
-  "profile": null,
+  "profile": {
+    "name": "エヴァン",
+    "birthDate": "2017-03-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2009105021",
+      "name": "ケープジャスミン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2440,6 +2470,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エヴァン (Evan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エヴァン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エヴァン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2509,9 +2569,9 @@
       "contentHash": "9ad01528bd0bef0031f3c9d549738abeed1b1bbfe3c6e86373ba531d7ff8ed99",
       "byteLength": 65962,
       "rawPath": "netkeiba/horses/2017/2017101800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:58:23.661Z"
+  "updatedAt": "2026-08-29T01:16:30.452Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101267",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101267/",
-  "profile": null,
+  "profile": {
+    "name": "エルパソ",
+    "birthDate": "2019-04-09",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "345803",
+      "name": "磯波勇Ｆ"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2008105124",
+      "name": "ゴールドカルラ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2846,6 +2876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルパソ (El Paso) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルパソ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルパソ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2915,9 +2975,9 @@
       "contentHash": "42ef7bbef611787c702d7ec304d073528558e625ee351c06917925f8c4ca9835",
       "byteLength": 66748,
       "rawPath": "netkeiba/horses/2019/2019101267/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:41:47.257Z"
+  "updatedAt": "2026-08-28T01:46:14.903Z"
 }

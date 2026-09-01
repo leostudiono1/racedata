@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103455",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103455/",
-  "profile": null,
+  "profile": {
+    "name": "セラドナイト",
+    "birthDate": "2020-04-03",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Mendelssohn"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セラドン"
+    },
+    "damsire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1723,6 +1753,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セラドナイト (Celadonite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラドナイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラドナイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1792,9 +1852,9 @@
       "contentHash": "7bbc7ce3dc8eb4608098e2d2fb4135f514af1ac5208e4c455e06c467b3a0d110",
       "byteLength": 67204,
       "rawPath": "netkeiba/horses/2020/2020103455/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:13:43.990Z"
+  "updatedAt": "2026-08-26T03:19:00.378Z"
 }

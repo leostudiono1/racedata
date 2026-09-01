@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103518",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103518/",
-  "profile": null,
+  "profile": {
+    "name": "ハッピーバンド",
+    "birthDate": "2020-04-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01166",
+      "name": "石坂公一"
+    },
+    "owner": {
+      "id": "431002",
+      "name": "馬場幸夫"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011104010",
+      "name": "バンドワゴン"
+    },
+    "dam": {
+      "id": "2009106070",
+      "name": "ハッピーアビラ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104010",
@@ -1240,6 +1270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハッピーバンド (Happy Band) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーバンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーバンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1309,9 +1369,9 @@
       "contentHash": "17fe8eb6a35a29bd2a85ddb56aea10658bf2c63f802c1a6702ed76d8816a9489",
       "byteLength": 65603,
       "rawPath": "netkeiba/horses/2020/2020103518/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:47:54.487Z"
+  "updatedAt": "2026-08-30T00:59:22.295Z"
 }

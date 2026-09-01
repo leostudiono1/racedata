@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104017",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104017/",
-  "profile": null,
+  "profile": {
+    "name": "ステラート",
+    "birthDate": "2020-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00823",
+      "name": "錦見勇夫"
+    },
+    "owner": {
+      "id": "x03917",
+      "name": "錦見日出雄"
+    },
+    "breeder": {
+      "id": "303074",
+      "name": "岡野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    },
+    "dam": {
+      "id": "2011101445",
+      "name": "スターリーオレンジ"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106867",
@@ -2526,6 +2556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ステラート (Stellato) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステラート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステラート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2595,9 +2655,9 @@
       "contentHash": "925fd45d31045a088b541f0913b63fd58e4feb5fc93d3a7eb5228e932e989d39",
       "byteLength": 64569,
       "rawPath": "netkeiba/horses/2020/2020104017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:24:34.946Z"
+  "updatedAt": "2026-08-31T00:39:11.702Z"
 }

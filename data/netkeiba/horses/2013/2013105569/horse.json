@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105569",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105569/",
-  "profile": null,
+  "profile": {
+    "name": "レアファインド",
+    "birthDate": "2013-05-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "1998110059",
+      "name": "ネットオークション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Bird"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2579,6 +2609,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レアファインド (Rare Find) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアファインド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアファインド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2648,9 +2708,9 @@
       "contentHash": "ff559bb13aca5f24c297696464a13faebc508cb3bd564d15601d0ef733ff01ea",
       "byteLength": 67497,
       "rawPath": "netkeiba/horses/2013/2013105569/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:56:37.910Z"
+  "updatedAt": "2026-08-31T00:11:14.610Z"
 }

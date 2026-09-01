@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104253",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104253/",
-  "profile": null,
+  "profile": {
+    "name": "マジック",
+    "birthDate": "2018-05-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01159",
+      "name": "高柳大輔"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ディアレストトリックスキ Dearest Trickski(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Proudest Romeo"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -1684,6 +1714,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マジック (Magic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1753,9 +1813,9 @@
       "contentHash": "1b22097f6d79180b79454821c54cd81d976b3186908711db41d9f6d12d3342e5",
       "byteLength": 64621,
       "rawPath": "netkeiba/horses/2018/2018104253/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:31:26.601Z"
+  "updatedAt": "2026-08-25T05:42:33.069Z"
 }

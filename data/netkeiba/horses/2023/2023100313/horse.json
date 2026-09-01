@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100313",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100313/",
-  "profile": null,
+  "profile": {
+    "name": "オーキッドワン",
+    "birthDate": "2023-02-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01094",
+      "name": "水野貴広"
+    },
+    "owner": {
+      "id": "136030",
+      "name": "助川啓一"
+    },
+    "breeder": {
+      "id": "301060",
+      "name": "本桐牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2007103866",
+      "name": "クレーンズラヴァー"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2244,6 +2274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーキッドワン (Orchid One) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーキッドワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーキッドワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2313,9 +2373,9 @@
       "contentHash": "66af8cb15a093997f0ccdf741654e818d6df5d9c2c0ff6fc680402f21580141a",
       "byteLength": 67177,
       "rawPath": "netkeiba/horses/2023/2023100313/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:59:28.125Z"
+  "updatedAt": "2026-08-30T01:10:55.554Z"
 }

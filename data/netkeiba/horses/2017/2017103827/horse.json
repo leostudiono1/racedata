@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103827",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103827/",
-  "profile": null,
+  "profile": {
+    "name": "ミューティー",
+    "birthDate": "2017-02-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宮路洋一"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2001110158",
+      "name": "フェミニンガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -5927,6 +5957,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミューティー (Muty) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミューティー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミューティー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5996,9 +6056,9 @@
       "contentHash": "e52e6451c1129b3658d773ea95595fab7a709ad4e8f65c457b33c5243ec6c876",
       "byteLength": 65543,
       "rawPath": "netkeiba/horses/2017/2017103827/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:23:08.019Z"
+  "updatedAt": "2026-08-27T02:33:40.025Z"
 }

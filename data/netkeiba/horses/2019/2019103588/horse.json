@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103588",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103588/",
-  "profile": null,
+  "profile": {
+    "name": "ライラック",
+    "birthDate": "2019-04-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01020",
+      "name": "相沢郁"
+    },
+    "owner": {
+      "id": "683002",
+      "name": "芹澤精一"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2006100776",
+      "name": "ヴィーヴァブーケ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -3451,6 +3481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライラック (Lilac) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3520,9 +3580,9 @@
       "contentHash": "27431523b2f52d471d43ae58d50268b44daffbafaac789ff3139462fda9f25c8",
       "byteLength": 66754,
       "rawPath": "netkeiba/horses/2019/2019103588/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:46:16.855Z"
+  "updatedAt": "2026-08-24T06:51:26.368Z"
 }

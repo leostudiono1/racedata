@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103516",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103516/",
-  "profile": null,
+  "profile": {
+    "name": "サンライマ",
+    "birthDate": "2016-03-07",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05417",
+      "name": "佐藤雅彦"
+    },
+    "owner": {
+      "id": "624031",
+      "name": "佐藤弘樹"
+    },
+    "breeder": {
+      "id": "333320",
+      "name": "原田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003110139",
+      "name": "アポロキングダム"
+    },
+    "dam": {
+      "id": "2009102819",
+      "name": "マイイブキ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "グランデラ Grandera(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110139",
@@ -3349,6 +3379,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンライマ (Sun Lima) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンライマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンライマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3418,9 +3478,9 @@
       "contentHash": "ab40dd713235719a5d1af93771401b090d92558e886e6098ba671dd14107cdc3",
       "byteLength": 64467,
       "rawPath": "netkeiba/horses/2016/2016103516/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:55:11.025Z"
+  "updatedAt": "2026-08-29T01:13:18.000Z"
 }

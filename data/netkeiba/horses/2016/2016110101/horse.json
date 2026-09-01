@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110101",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110101/",
-  "profile": null,
+  "profile": {
+    "name": "カタールパール",
+    "birthDate": "2016-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05071",
+      "name": "森山英雄"
+    },
+    "owner": {
+      "id": "849033",
+      "name": "松谷翔太"
+    },
+    "breeder": {
+      "id": "550730",
+      "name": "Hall Of Fame Stud Ltd."
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パールオブアフリカ (愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Jeremy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2302,6 +2332,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カタールパール (Qatar Pearl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カタールパール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カタールパール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2371,9 +2431,9 @@
       "contentHash": "4eff4f5985c89fdd1178891a0ba529ff6b8cc5e999068a83c28994712f59c581",
       "byteLength": 64755,
       "rawPath": "netkeiba/horses/2016/2016110101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:56:59.494Z"
+  "updatedAt": "2026-08-29T01:15:06.598Z"
 }

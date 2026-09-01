@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008105524",
   "sourceUrl": "https://db.netkeiba.com/horse/2008105524/",
-  "profile": null,
+  "profile": {
+    "name": "タナトス",
+    "birthDate": "2008-04-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "703030",
+      "name": "工藤圭司"
+    },
+    "breeder": {
+      "id": "903466",
+      "name": "三城牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2002105936",
+      "name": "ジョウノビクトリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -7246,6 +7276,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タナトス (Tanatos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タナトス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タナトス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7315,9 +7375,9 @@
       "contentHash": "bfc03389ab370dda63193232440bf33725e59b895cb1deeefeb9945630861f75",
       "byteLength": 66825,
       "rawPath": "netkeiba/horses/2008/2008105524/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T03:57:17.010Z"
+  "updatedAt": "2026-08-27T02:07:48.436Z"
 }

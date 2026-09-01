@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104529",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104529/",
-  "profile": null,
+  "profile": {
+    "name": "ポッドヒストリー",
+    "birthDate": "2013-04-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "042033",
+      "name": "小川眞査雄"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2001104235",
+      "name": "メイクヒストリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1071,6 +1101,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポッドヒストリー (Pod History) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドヒストリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドヒストリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1140,9 +1200,9 @@
       "contentHash": "6faafcba1c0712e3057ae7e65e5095df8cb5d3a5509a28141d0bc92309939387",
       "byteLength": 64543,
       "rawPath": "netkeiba/horses/2013/2013104529/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:56:02.846Z"
+  "updatedAt": "2026-08-31T00:10:39.561Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100281",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100281/",
-  "profile": null,
+  "profile": {
+    "name": "ラパン",
+    "birthDate": "2019-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "300337",
+      "name": "シンユウファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2006104710",
+      "name": "ビクトリーレディー"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -1562,6 +1592,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラパン (Lapin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラパン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラパン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1631,9 +1691,9 @@
       "contentHash": "9d9c125a8cf024374c7736c5b0dfa0401e874b555fac8cb52733333133ae59f1",
       "byteLength": 64330,
       "rawPath": "netkeiba/horses/2019/2019100281/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:05:48.267Z"
+  "updatedAt": "2026-08-29T01:23:55.112Z"
 }

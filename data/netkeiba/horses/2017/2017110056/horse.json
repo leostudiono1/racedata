@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110056",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110056/",
-  "profile": null,
+  "profile": {
+    "name": "モズデコレーション",
+    "birthDate": "2017-04-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05768",
+      "name": "田中一巧"
+    },
+    "owner": {
+      "id": "005803",
+      "name": "キャピタル・システム"
+    },
+    "breeder": {
+      "id": "350733",
+      "name": "Waymore LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Cappagh Strand"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1385,6 +1415,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モズデコレーション (Mozu Decoration) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズデコレーション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズデコレーション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1454,9 +1514,9 @@
       "contentHash": "fe0be756fa16ae12dc60f506f5db865487f928f43d09735fffcb941ed5ba927d",
       "byteLength": 64776,
       "rawPath": "netkeiba/horses/2017/2017110056/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:36:39.176Z"
+  "updatedAt": "2026-08-28T01:41:07.116Z"
 }

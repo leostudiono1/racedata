@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101941",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101941/",
-  "profile": null,
+  "profile": {
+    "name": "シックスマイル",
+    "birthDate": "2015-04-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "017009",
+      "name": "古川嘉治"
+    },
+    "breeder": {
+      "id": "003325",
+      "name": "豊洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "1999106978",
+      "name": "カレンバレリーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -1434,6 +1464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シックスマイル (Chic Smile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シックスマイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シックスマイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1503,9 +1563,9 @@
       "contentHash": "6cf135e044974dc6305ec323538ac48a48dbb7dae303a369b7a5df750ba49faf",
       "byteLength": 65020,
       "rawPath": "netkeiba/horses/2015/2015101941/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:12:59.097Z"
+  "updatedAt": "2026-08-27T02:23:30.407Z"
 }

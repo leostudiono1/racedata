@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100140",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100140/",
-  "profile": null,
+  "profile": {
+    "name": "ブルベアバレル",
+    "birthDate": "2017-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "843800",
+      "name": "ブルアンドベア"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2011100517",
+      "name": "アンタークティカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -1035,6 +1065,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルベアバレル (Bullbear Barrel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルベアバレル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルベアバレル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1104,9 +1164,9 @@
       "contentHash": "62b7b32fb424baf579211323cf6adacfab2cf8b7c707192436a8ed9e5ce8ef00",
       "byteLength": 64586,
       "rawPath": "netkeiba/horses/2017/2017100140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:20:26.816Z"
+  "updatedAt": "2026-08-27T02:30:58.835Z"
 }

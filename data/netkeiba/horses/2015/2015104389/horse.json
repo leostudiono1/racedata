@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104389",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104389/",
-  "profile": null,
+  "profile": {
+    "name": "オークレール",
+    "birthDate": "2015-02-25",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05352",
+      "name": "岡田利一"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セリメーヌ Celimene(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dr Fong (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -9591,6 +9621,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オークレール (Eau Clair) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オークレール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オークレール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9660,9 +9720,9 @@
       "contentHash": "191fce4f3613c8920696a6e5c8b145eacb255cb652f41939eb4a19bf2908bcac",
       "byteLength": 66958,
       "rawPath": "netkeiba/horses/2015/2015104389/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:52:13.168Z"
+  "updatedAt": "2026-08-29T01:10:19.352Z"
 }

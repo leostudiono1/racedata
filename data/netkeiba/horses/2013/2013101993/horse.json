@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101993",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101993/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムクック",
+    "birthDate": "2013-06-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01043",
+      "name": "石栗龍彦"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "1994106263",
+      "name": "エキセントリック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マルゼンスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1847,6 +1877,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムクック (T M Cook) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムクック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムクック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1916,9 +1976,9 @@
       "contentHash": "8208610d0d4c67eae6e8143e6fdc7f2665eedd61b877741379d8badda963c3d6",
       "byteLength": 65230,
       "rawPath": "netkeiba/horses/2013/2013101993/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:42:48.670Z"
+  "updatedAt": "2026-08-29T01:00:55.671Z"
 }

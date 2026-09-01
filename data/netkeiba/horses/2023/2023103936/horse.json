@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103936",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103936/",
-  "profile": null,
+  "profile": {
+    "name": "ハネマン",
+    "birthDate": "2023-03-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "590033",
+      "name": "前川俊行"
+    },
+    "breeder": {
+      "id": "640343",
+      "name": "安達牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2017100272",
+      "name": "オルレアンシェリ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -1834,6 +1864,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハネマン (Haneman) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハネマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハネマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1903,9 +1963,9 @@
       "contentHash": "0340046712c0197f1fd657ce7b07034905eae20fa7ca468ebdb06a7799f60c5a",
       "byteLength": 65852,
       "rawPath": "netkeiba/horses/2023/2023103936/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:48:40.605Z"
+  "updatedAt": "2026-08-27T02:59:10.061Z"
 }

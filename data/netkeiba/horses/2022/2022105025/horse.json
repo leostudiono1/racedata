@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105025",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105025/",
-  "profile": null,
+  "profile": {
+    "name": "アラマンダ",
+    "birthDate": "2022-03-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2012104913",
+      "name": "プルメリアスター"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1360,6 +1390,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラマンダ (Allamanda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラマンダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラマンダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1429,9 +1489,9 @@
       "contentHash": "6d514524f995c4dd1161478ee295e149ac28ad17397432c190c98b82130886bb",
       "byteLength": 66224,
       "rawPath": "netkeiba/horses/2022/2022105025/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:25:06.316Z"
+  "updatedAt": "2026-08-26T03:30:23.131Z"
 }

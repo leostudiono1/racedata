@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105997",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105997/",
-  "profile": null,
+  "profile": {
+    "name": "アルトコイン",
+    "birthDate": "2015-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "855030",
+      "name": "田頭勇貴"
+    },
+    "breeder": {
+      "id": "233086",
+      "name": "友田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2004110113",
+      "name": "クロノグラフ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1019,6 +1049,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルトコイン (Altcoin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルトコイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルトコイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1088,9 +1148,9 @@
       "contentHash": "bf98cb8d588d8c805d77a429ed0617258c51b654e9c3b2370bfa7efb197631ab",
       "byteLength": 64729,
       "rawPath": "netkeiba/horses/2015/2015105997/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:20:17.833Z"
+  "updatedAt": "2026-08-25T05:31:24.398Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103877",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103877/",
-  "profile": null,
+  "profile": {
+    "name": "パッセ",
+    "birthDate": "2015-02-10",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01131",
+      "name": "蛯名利弘"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2006102113",
+      "name": "パドブレ"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2030,6 +2060,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パッセ (Passe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パッセ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パッセ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2099,9 +2159,9 @@
       "contentHash": "64765f7f413aa7ead8f865b4da025b7da9b062c84fa4db43e8130230a02c8e3c",
       "byteLength": 66836,
       "rawPath": "netkeiba/horses/2015/2015103877/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:03:51.933Z"
+  "updatedAt": "2026-08-31T00:18:28.723Z"
 }

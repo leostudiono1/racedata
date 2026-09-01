@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103288",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103288/",
-  "profile": null,
+  "profile": {
+    "name": "ロココ",
+    "birthDate": "2023-04-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "411034",
+      "name": "内田裕美"
+    },
+    "breeder": {
+      "id": "801307",
+      "name": "矢野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015110096",
+      "name": "ミスターメロディ"
+    },
+    "dam": {
+      "id": "2012104769",
+      "name": "ジュモートリステ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015110096",
@@ -2170,6 +2200,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロココ (Rococo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロココ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロココ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2239,9 +2299,9 @@
       "contentHash": "55e04899a83b7bfb5cbd68f2c0f153943c1677f73bb25529bdfe570596c4b074",
       "byteLength": 66994,
       "rawPath": "netkeiba/horses/2023/2023103288/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:35:15.977Z"
+  "updatedAt": "2026-08-31T00:49:52.350Z"
 }

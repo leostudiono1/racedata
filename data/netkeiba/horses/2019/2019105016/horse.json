@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105016",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105016/",
-  "profile": null,
+  "profile": {
+    "name": "グランセザム",
+    "birthDate": "2019-05-26",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "661030",
+      "name": "飯田訓大"
+    },
+    "breeder": {
+      "id": "800380",
+      "name": "習志野牧場"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2005104290",
+      "name": "アースシンボル"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1545,6 +1575,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランセザム (Grand Sesame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランセザム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランセザム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1614,9 +1674,9 @@
       "contentHash": "1d048b877d893804982b90c80f089e1605d9358eedf2961de0f19bdf65b87701",
       "byteLength": 65803,
       "rawPath": "netkeiba/horses/2019/2019105016/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:47:26.749Z"
+  "updatedAt": "2026-08-24T06:52:36.568Z"
 }

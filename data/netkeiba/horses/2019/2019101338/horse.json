@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101338",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101338/",
-  "profile": null,
+  "profile": {
+    "name": "アイビーテーラー",
+    "birthDate": "2019-03-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川添明弘"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011105072",
+      "name": "ワンアンドオンリー"
+    },
+    "dam": {
+      "id": "2010103921",
+      "name": "ゴールドテーラー"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2011105072",
@@ -4162,6 +4192,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイビーテーラー (Ivy Tailor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイビーテーラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイビーテーラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4231,9 +4291,9 @@
       "contentHash": "7a43428637531b857e2056526de0b3c571ee5b7d67508529bfeacb5c03ebb529",
       "byteLength": 67128,
       "rawPath": "netkeiba/horses/2019/2019101338/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:06:26.742Z"
+  "updatedAt": "2026-08-29T01:24:33.582Z"
 }

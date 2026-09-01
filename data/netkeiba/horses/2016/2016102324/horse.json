@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102324",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102324/",
-  "profile": null,
+  "profile": {
+    "name": "ヒッチコック",
+    "birthDate": "2016-04-01",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "040030",
+      "name": "薪浦英稔"
+    },
+    "breeder": {
+      "id": "400049",
+      "name": "荻伏三好ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2008102566",
+      "name": "ホワイトアルバム"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -3956,6 +3986,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒッチコック (Hitchcock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒッチコック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒッチコック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4025,9 +4085,9 @@
       "contentHash": "b9736ea67dfab5bfb01fba73c77dfa417a88e46cfe6803c6535e18cb3b5455a0",
       "byteLength": 66928,
       "rawPath": "netkeiba/horses/2016/2016102324/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:31:13.101Z"
+  "updatedAt": "2026-08-30T00:42:40.853Z"
 }

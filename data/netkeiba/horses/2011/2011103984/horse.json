@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103984",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103984/",
-  "profile": null,
+  "profile": {
+    "name": "ハドソンヤード",
+    "birthDate": "2011-04-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2001103400",
+      "name": "ドリームスケイプ"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -2766,6 +2796,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハドソンヤード (Hudson Yard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハドソンヤード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハドソンヤード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2835,9 +2895,9 @@
       "contentHash": "13ecead8c05c8431d27de470c382808a5af11ac910b2ca961631af4ad8a39334",
       "byteLength": 67461,
       "rawPath": "netkeiba/horses/2011/2011103984/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:48:34.569Z"
+  "updatedAt": "2026-08-31T00:03:11.506Z"
 }

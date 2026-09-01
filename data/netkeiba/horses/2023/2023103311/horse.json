@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103311",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103311/",
-  "profile": null,
+  "profile": {
+    "name": "ビリージェイ",
+    "birthDate": "2023-05-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "011008",
+      "name": "平田修"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2005102283",
+      "name": "アクアリング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Anabaa"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1539,6 +1569,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビリージェイ (Billy J) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビリージェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビリージェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1608,9 +1668,9 @@
       "contentHash": "8d7fb40a31263765afa4dc281b8c91b9ff01a6a204327b1418b6d315473917eb",
       "byteLength": 67116,
       "rawPath": "netkeiba/horses/2023/2023103311/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:35:19.093Z"
+  "updatedAt": "2026-08-31T00:49:55.918Z"
 }

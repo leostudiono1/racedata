@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101868",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101868/",
-  "profile": null,
+  "profile": {
+    "name": "セリナピース",
+    "birthDate": "2022-04-10",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01041",
+      "name": "藤沢則雄"
+    },
+    "owner": {
+      "id": "722033",
+      "name": "樋口雅彦"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006102923",
+      "name": "リーチザクラウン"
+    },
+    "dam": {
+      "id": "2016106570",
+      "name": "フラワープリンセス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102923",
@@ -1133,6 +1163,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セリナピース (Selina Peace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セリナピース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セリナピース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1202,9 +1262,9 @@
       "contentHash": "b1a6563f02217967b03730fbe47720e18da94fe5608dd40bddc862a8f16919cc",
       "byteLength": 64568,
       "rawPath": "netkeiba/horses/2022/2022101868/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:22:32.321Z"
+  "updatedAt": "2026-08-26T03:27:49.440Z"
 }

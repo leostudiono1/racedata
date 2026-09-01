@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110030",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110030/",
-  "profile": null,
+  "profile": {
+    "name": "エンシュラウド",
+    "birthDate": "2016-03-19",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "030733",
+      "name": "Mark Johnston Racing Ltd"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Authorized"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Screen Star"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tobougg (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2273,6 +2303,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エンシュラウド (Enshroud) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンシュラウド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンシュラウド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2342,9 +2402,9 @@
       "contentHash": "49cb63c8e947bfa69b0f89583d145088eff3d3af828473f13796b7b3917caccb",
       "byteLength": 66911,
       "rawPath": "netkeiba/horses/2016/2016110030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:59:08.369Z"
+  "updatedAt": "2026-08-26T03:04:25.077Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105848",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105848/",
-  "profile": null,
+  "profile": {
+    "name": "リコリコ",
+    "birthDate": "2021-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01190",
+      "name": "村田一誠"
+    },
+    "owner": {
+      "id": "680031",
+      "name": "カカムーチョレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ランニングボブキャッツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Running Stag"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -990,6 +1020,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リコリコ (Rico Rico) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リコリコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リコリコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1059,9 +1119,9 @@
       "contentHash": "e2f1141d260ba99084f08e83a7a08d42d825e3a7ea0c39119eea6ca6857d5daf",
       "byteLength": 66580,
       "rawPath": "netkeiba/horses/2021/2021105848/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:41:01.540Z"
+  "updatedAt": "2026-08-27T02:51:30.966Z"
 }

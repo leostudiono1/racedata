@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101148",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101148/",
-  "profile": null,
+  "profile": {
+    "name": "スプレンデレ",
+    "birthDate": "2012-02-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "425030",
+      "name": "堂守貴志"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カーリア Carlea(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Carson City"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1585,6 +1615,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スプレンデレ (Splendere) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スプレンデレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スプレンデレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1654,9 +1714,9 @@
       "contentHash": "f3ecadb54b5b354518f45a73286572cfe13c94f0021c085107811d15cf73dd29",
       "byteLength": 66075,
       "rawPath": "netkeiba/horses/2012/2012101148/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:12:47.012Z"
+  "updatedAt": "2026-08-28T01:17:14.842Z"
 }

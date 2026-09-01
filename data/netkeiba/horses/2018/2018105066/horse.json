@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105066",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105066/",
-  "profile": null,
+  "profile": {
+    "name": "マンインザミラー",
+    "birthDate": "2018-03-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シルヴァースカヤ Silverskaya(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Hawk"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1933,6 +1963,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マンインザミラー (Man in the Mirror) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンインザミラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンインザミラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2002,9 +2062,9 @@
       "contentHash": "320538dba217193102c94f62b6336562fcca43b10713da061013ea208c5ba965",
       "byteLength": 66974,
       "rawPath": "netkeiba/horses/2018/2018105066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:31:58.128Z"
+  "updatedAt": "2026-08-25T05:43:04.686Z"
 }

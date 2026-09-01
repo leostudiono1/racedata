@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104366",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104366/",
-  "profile": null,
+  "profile": {
+    "name": "ガルソン",
+    "birthDate": "2015-04-08",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジャズプリンセス Jazz Princess(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bahhare"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1193,6 +1223,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガルソン (Garcon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガルソン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガルソン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1262,9 +1322,9 @@
       "contentHash": "0912c6f4913314ce40c20b41907c000712532413e3de738ea046fd69f8f5b0ae",
       "byteLength": 65250,
       "rawPath": "netkeiba/horses/2015/2015104366/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:53:00.755Z"
+  "updatedAt": "2026-08-26T02:58:17.461Z"
 }

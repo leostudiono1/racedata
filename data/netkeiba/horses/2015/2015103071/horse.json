@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103071",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103071/",
-  "profile": null,
+  "profile": {
+    "name": "フラミンゴ",
+    "birthDate": "2015-04-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "260543",
+      "name": "笹島智則"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102542",
+      "name": "マルカシェンク"
+    },
+    "dam": {
+      "id": "2004110076",
+      "name": "エーシンアクセント"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102542",
@@ -1507,6 +1537,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラミンゴ (Flamingo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラミンゴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラミンゴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1576,9 +1636,9 @@
       "contentHash": "886e72e3b1cfd884eb70f14aa6863821e9a55969e89ce0db48b4a854388f2d58",
       "byteLength": 64677,
       "rawPath": "netkeiba/horses/2015/2015103071/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:18:15.312Z"
+  "updatedAt": "2026-08-25T05:29:21.840Z"
 }

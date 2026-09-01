@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009102081",
   "sourceUrl": "https://db.netkeiba.com/horse/2009102081/",
-  "profile": null,
+  "profile": {
+    "name": "カロッサル",
+    "birthDate": "2009-05-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01080",
+      "name": "清水英克"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "000367",
+      "name": "びらとり牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    },
+    "dam": {
+      "id": "2001107336",
+      "name": "レオコマチ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1992102988",
@@ -9940,6 +9970,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カロッサル (Colossal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カロッサル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カロッサル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10009,9 +10069,9 @@
       "contentHash": "1179dea4c652f371c681115b0cd2d7ff4d816012c31c51c21956f6025e8c1278",
       "byteLength": 66694,
       "rawPath": "netkeiba/horses/2009/2009102081/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:35:31.304Z"
+  "updatedAt": "2026-08-29T00:53:38.106Z"
 }

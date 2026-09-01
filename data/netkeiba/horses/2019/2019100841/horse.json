@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100841",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100841/",
-  "profile": null,
+  "profile": {
+    "name": "テラフォーミング",
+    "birthDate": "2019-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01020",
+      "name": "相沢郁"
+    },
+    "owner": {
+      "id": "812008",
+      "name": "石瀬浩三"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2015100779",
+      "name": "ウインシップ"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -3522,6 +3552,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テラフォーミング (Terraforming) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テラフォーミング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テラフォーミング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3591,9 +3651,9 @@
       "contentHash": "1c24b51d00ffe7bca045419ed7bf92f959b258f9bdef715a4b9bb7acc080473c",
       "byteLength": 66984,
       "rawPath": "netkeiba/horses/2019/2019100841/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:19:09.340Z"
+  "updatedAt": "2026-08-31T00:33:46.088Z"
 }

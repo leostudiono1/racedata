@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104548",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104548/",
-  "profile": null,
+  "profile": {
+    "name": "グラスチアー",
+    "birthDate": "2021-04-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "竹下太"
+    },
+    "owner": {
+      "id": "x0888e",
+      "name": "武村學"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2008103055",
+      "name": "グラスルビー"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -6538,6 +6568,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラスチアー (Grass Cheer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラスチアー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラスチアー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6607,9 +6667,9 @@
       "contentHash": "4179740583ff8d2e469cc93f56a132adbf0439e18fde7004ece64a95a8a10126",
       "byteLength": 66880,
       "rawPath": "netkeiba/horses/2021/2021104548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:15:19.165Z"
+  "updatedAt": "2026-08-29T01:33:25.881Z"
 }

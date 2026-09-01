@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103798",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103798/",
-  "profile": null,
+  "profile": {
+    "name": "アルバタックス",
+    "birthDate": "2010-03-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01022",
+      "name": "石坂正"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "1998101580",
+      "name": "タックスシェルター"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -4683,6 +4713,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルバタックス (Arbatax) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバタックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバタックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4752,9 +4812,9 @@
       "contentHash": "b11fca9ddb401f2917779aa0829820308512a363b0e844f7c0bd53f947e881ef",
       "byteLength": 67589,
       "rawPath": "netkeiba/horses/2010/2010103798/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:35:12.836Z"
+  "updatedAt": "2026-08-26T02:40:29.622Z"
 }

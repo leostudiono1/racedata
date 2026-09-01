@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102211",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102211/",
-  "profile": null,
+  "profile": {
+    "name": "レッドランサー",
+    "birthDate": "2015-04-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01167",
+      "name": "稲垣幸雄"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008102761",
+      "name": "ブランシェール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3947,6 +3977,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドランサー (Red Lancer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドランサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドランサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4016,9 +4076,9 @@
       "contentHash": "7ec945a1090e6ae2bfcca1a34f0911b107431a9dc75edf4fbbe6dade48b98ab3",
       "byteLength": 67306,
       "rawPath": "netkeiba/horses/2015/2015102211/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:17:29.836Z"
+  "updatedAt": "2026-08-25T05:28:36.523Z"
 }

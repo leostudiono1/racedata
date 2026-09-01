@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103557",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103557/",
-  "profile": null,
+  "profile": {
+    "name": "ローハイド",
+    "birthDate": "2011-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00348",
+      "name": "松田博資"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アドアード Adored(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2528,6 +2558,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローハイド (Rawhide) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローハイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローハイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2597,9 +2657,9 @@
       "contentHash": "7d79f53a22f56b184fb38d5ef37681c518b87a3559e4f684413039a3a7ca1c85",
       "byteLength": 65299,
       "rawPath": "netkeiba/horses/2011/2011103557/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:37:33.604Z"
+  "updatedAt": "2026-08-29T00:55:40.559Z"
 }

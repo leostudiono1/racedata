@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105571",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105571/",
-  "profile": null,
+  "profile": {
+    "name": "レイフォール",
+    "birthDate": "2020-04-12",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05709",
+      "name": "千葉博次"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2012104909",
+      "name": "バリアーモ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -8240,6 +8270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイフォール (Raifort) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイフォール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイフォール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8309,9 +8369,9 @@
       "contentHash": "bb0891f10cd72818655ef5608ee482ac6ce22b14eb123847cdc68fa7922fae1e",
       "byteLength": 66905,
       "rawPath": "netkeiba/horses/2020/2020105571/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:49:22.648Z"
+  "updatedAt": "2026-08-28T01:53:50.139Z"
 }

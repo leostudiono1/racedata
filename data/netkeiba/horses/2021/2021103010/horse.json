@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103010",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103010/",
-  "profile": null,
+  "profile": {
+    "name": "オウケンベリー",
+    "birthDate": "2021-03-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01093",
+      "name": "松永康利"
+    },
+    "owner": {
+      "id": "731006",
+      "name": "福井明"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2014103350",
+      "name": "ブルースガール"
+    },
+    "damsire": {
+      "id": "2005102548",
+      "name": "オウケンブルースリ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -1696,6 +1726,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オウケンベリー (Oken Berry) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オウケンベリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オウケンベリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1765,9 +1825,9 @@
       "contentHash": "dd4806436961d1886e9b144146c810d19b8f749dfbde350cd119f12ba30a7535",
       "byteLength": 65191,
       "rawPath": "netkeiba/horses/2021/2021103010/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:18:27.260Z"
+  "updatedAt": "2026-08-26T03:23:43.857Z"
 }

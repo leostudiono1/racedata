@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103443",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103443/",
-  "profile": null,
+  "profile": {
+    "name": "アリハム",
+    "birthDate": "2023-02-22",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05731",
+      "name": "加藤和義"
+    },
+    "owner": {
+      "id": "x0a2a1",
+      "name": "（株）マフィン"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "2012104152",
+      "name": "ジルダ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1352,6 +1382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリハム (Ali Ham) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリハム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリハム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1421,9 +1481,9 @@
       "contentHash": "5b78fd6c44207b5d31cbe76a9dd644a077edd13edf65b784057663a3c4e0c343",
       "byteLength": 67228,
       "rawPath": "netkeiba/horses/2023/2023103443/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:02:47.645Z"
+  "updatedAt": "2026-08-24T07:07:57.214Z"
 }

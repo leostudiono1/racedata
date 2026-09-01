@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100640",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100640/",
-  "profile": null,
+  "profile": {
+    "name": "サイラス",
+    "birthDate": "2019-03-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2010105834",
+      "name": "シャスターデイジー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1786,6 +1816,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サイラス (Cyrus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1855,9 +1915,9 @@
       "contentHash": "06797316456c9a7f4a96a7950b528ce69e08280db59317dc3b1e848287707785",
       "byteLength": 66692,
       "rawPath": "netkeiba/horses/2019/2019100640/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:29:15.780Z"
+  "updatedAt": "2026-08-27T02:39:47.322Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106163",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106163/",
-  "profile": null,
+  "profile": {
+    "name": "ミアグア",
+    "birthDate": "2015-05-06",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "968006",
+      "name": "五影隆則"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2004103260",
+      "name": "ダイワジェラート"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -3558,6 +3588,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミアグア (Mi Agua) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミアグア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミアグア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3627,9 +3687,9 @@
       "contentHash": "bf3b06e06806092ce2815fcb70673e8c936ac366b32125c61100a071c83feee3",
       "byteLength": 66880,
       "rawPath": "netkeiba/horses/2015/2015106163/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:53:22.434Z"
+  "updatedAt": "2026-08-29T01:11:29.467Z"
 }

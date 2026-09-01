@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100356",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100356/",
-  "profile": null,
+  "profile": {
+    "name": "スタイラス",
+    "birthDate": "2014-04-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "900517",
+      "name": "高橋忍"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2000105891",
+      "name": "チチンプイプイ"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -4957,6 +4987,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スタイラス (Stylus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタイラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタイラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5026,9 +5086,9 @@
       "contentHash": "cc377e4e634d522c310d339f29c7c0fffedbec47d28b4cc1e03b25a77ff0cfbb",
       "byteLength": 64792,
       "rawPath": "netkeiba/horses/2014/2014100356/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:11:46.747Z"
+  "updatedAt": "2026-08-25T05:22:53.134Z"
 }

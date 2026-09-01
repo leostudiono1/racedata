@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100234",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100234/",
-  "profile": null,
+  "profile": {
+    "name": "アルビレオ",
+    "birthDate": "2018-02-27",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "010033",
+      "name": "山内晃"
+    },
+    "breeder": {
+      "id": "680543",
+      "name": "木部ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006102923",
+      "name": "リーチザクラウン"
+    },
+    "dam": {
+      "id": "2013104096",
+      "name": "デネブ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102923",
@@ -3745,6 +3775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルビレオ (Albireo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルビレオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルビレオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3814,9 +3874,9 @@
       "contentHash": "619198a24e1d95a58c4111785c1da02ebe459a0b25643781dc165706204b9486",
       "byteLength": 66848,
       "rawPath": "netkeiba/horses/2018/2018100234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:38:09.879Z"
+  "updatedAt": "2026-08-30T00:49:37.501Z"
 }

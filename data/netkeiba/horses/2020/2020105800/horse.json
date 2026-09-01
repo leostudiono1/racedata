@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105800",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105800/",
-  "profile": null,
+  "profile": {
+    "name": "ハンモック",
+    "birthDate": "2020-03-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "x09de9",
+      "name": "畠山浩司"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "2006101614",
+      "name": "ラヴリードリーム"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -2268,6 +2298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハンモック (Hammock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハンモック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハンモック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2337,9 +2397,9 @@
       "contentHash": "a51488e99b34de679ecfc308f3b1f6513af313d2f251c5edda23108396f95af4",
       "byteLength": 66822,
       "rawPath": "netkeiba/horses/2020/2020105800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:25:37.988Z"
+  "updatedAt": "2026-08-31T00:40:14.676Z"
 }

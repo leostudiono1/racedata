@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103433",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103433/",
-  "profile": null,
+  "profile": {
+    "name": "クラウンアート",
+    "birthDate": "2015-06-13",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "030041",
+      "name": "山口義彦"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2006102923",
+      "name": "リーチザクラウン"
+    },
+    "dam": {
+      "id": "2000107634",
+      "name": "ラビットポーズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シャンハイ Shanghai(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102923",
@@ -1370,6 +1400,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラウンアート (Crown Art) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンアート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンアート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1439,9 +1499,9 @@
       "contentHash": "db931553b633d4d4e73ff8ffcac6d4bf19259f06804e271c9f0f2a7d5a919863",
       "byteLength": 65035,
       "rawPath": "netkeiba/horses/2015/2015103433/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:27:46.529Z"
+  "updatedAt": "2026-08-30T00:39:14.381Z"
 }

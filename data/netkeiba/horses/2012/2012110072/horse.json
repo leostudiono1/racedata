@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110072",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110072/",
-  "profile": null,
+  "profile": {
+    "name": "エイシンハリケーン",
+    "birthDate": "2012-03-05",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "480702",
+      "name": "Glennwood Farm Inc"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Zensational"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ship's Cat"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Forest Wildcat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1551,6 +1581,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシンハリケーン (A Shin Hurricane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンハリケーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンハリケーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1620,9 +1680,9 @@
       "contentHash": "051d78cc1e7694b99b308632537f970ad4d7c052892d0cf1318ca5695fcbb3a8",
       "byteLength": 66946,
       "rawPath": "netkeiba/horses/2012/2012110072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:41:32.023Z"
+  "updatedAt": "2026-08-29T00:59:38.724Z"
 }

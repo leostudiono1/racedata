@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101107",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101107/",
-  "profile": null,
+  "profile": {
+    "name": "メロウハート",
+    "birthDate": "2014-02-01",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2002110047",
+      "name": "レディマーメイド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3611,6 +3641,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メロウハート (Merrow Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メロウハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メロウハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3680,9 +3740,9 @@
       "contentHash": "a39c39b1595cbc575edb277bb71a1ef49ff3c05eabaa5369da6fe83a10ae5758",
       "byteLength": 65080,
       "rawPath": "netkeiba/horses/2014/2014101107/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:12:21.735Z"
+  "updatedAt": "2026-08-25T05:23:28.155Z"
 }

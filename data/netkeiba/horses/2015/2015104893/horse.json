@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104893",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104893/",
-  "profile": null,
+  "profile": {
+    "name": "ピラータ",
+    "birthDate": "2015-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2006103281",
+      "name": "ディナシー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1363,6 +1393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピラータ (Pirata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピラータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピラータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1432,9 +1492,9 @@
       "contentHash": "766b48ca023f6dfc391ad29f0fb1e85b82a5c9deff45b85c33428e1ab290159a",
       "byteLength": 65158,
       "rawPath": "netkeiba/horses/2015/2015104893/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:27:33.056Z"
+  "updatedAt": "2026-08-28T01:32:00.779Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105788",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105788/",
-  "profile": null,
+  "profile": {
+    "name": "リフルフォース",
+    "birthDate": "2023-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01168",
+      "name": "上村洋行"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "イトワズマジック It Was Magic(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Front"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1346,6 +1376,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リフルフォース (Riffle Force) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リフルフォース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リフルフォース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1415,9 +1475,9 @@
       "contentHash": "63e67a194236ae57648c7817cdf3222f17eb6aac4464951effb57994984b1d39",
       "byteLength": 65220,
       "rawPath": "netkeiba/horses/2023/2023105788/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T04:04:15.204Z"
+  "updatedAt": "2026-08-28T02:08:42.905Z"
 }

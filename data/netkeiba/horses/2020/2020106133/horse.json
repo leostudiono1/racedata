@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106133",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106133/",
-  "profile": null,
+  "profile": {
+    "name": "ナディスター",
+    "birthDate": "2020-05-11",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "玉垣光章"
+    },
+    "owner": {
+      "id": "237031",
+      "name": "赤松敬之"
+    },
+    "breeder": {
+      "id": "100005",
+      "name": "様似共栄牧場"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2003102096",
+      "name": "ヘイローマジック"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -4681,6 +4711,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナディスター (Nadi Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナディスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナディスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4750,9 +4810,9 @@
       "contentHash": "abc1a91f3c4e855eb6d961f7e6669160a47584685e76c06aa6d30484282eafae",
       "byteLength": 66827,
       "rawPath": "netkeiba/horses/2020/2020106133/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:49:46.536Z"
+  "updatedAt": "2026-08-30T01:01:14.332Z"
 }

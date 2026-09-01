@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106972",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106972/",
-  "profile": null,
+  "profile": {
+    "name": "ココネ",
+    "birthDate": "2023-02-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01192",
+      "name": "上原佑紀"
+    },
+    "owner": {
+      "id": "696031",
+      "name": "ＦＡレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "クイーンビーII Queen Bee(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Le Havre"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -1019,6 +1049,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ココネ (Kokone) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ココネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ココネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1088,9 +1148,9 @@
       "contentHash": "1248d0844486b7bfef836993618f9c27ccaea218190e7eb26765eed7f1bfcb92",
       "byteLength": 64626,
       "rawPath": "netkeiba/horses/2023/2023106972/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:53:16.433Z"
+  "updatedAt": "2026-08-25T06:04:22.636Z"
 }

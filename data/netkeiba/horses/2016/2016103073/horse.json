@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103073",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103073/",
-  "profile": null,
+  "profile": {
+    "name": "アレミティ",
+    "birthDate": "2016-02-24",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05390",
+      "name": "高橋俊之"
+    },
+    "owner": {
+      "id": "x011aa",
+      "name": "村瀬正"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2007105530",
+      "name": "ジルコニア"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1716,6 +1746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アレミティ (Are Miti) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アレミティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アレミティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1785,9 +1845,9 @@
       "contentHash": "08ba3362b4b9452b245d61276b43dc6bf97605b191926dd1db40cec52a6c884d",
       "byteLength": 66290,
       "rawPath": "netkeiba/horses/2016/2016103073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:31:37.614Z"
+  "updatedAt": "2026-08-30T00:43:05.395Z"
 }

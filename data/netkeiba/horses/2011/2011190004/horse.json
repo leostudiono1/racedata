@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011190004",
   "sourceUrl": "https://db.netkeiba.com/horse/2011190004/",
-  "profile": null,
+  "profile": {
+    "name": "Beauty Only",
+    "birthDate": "2011-03-14",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05433",
+      "name": "クルーズ"
+    },
+    "owner": {
+      "id": "060803",
+      "name": "Ｋ．クォック＆Ｈ．クォック"
+    },
+    "breeder": {
+      "id": "a000cf",
+      "name": "Massimo Parri"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Holy Roman Emperor"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Goldendale"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Ali-Royal"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5755,6 +5785,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Beauty Only (ビューティーオンリー) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Beauty Only関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Beauty Only関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5824,9 +5884,9 @@
       "contentHash": "893a6e4eaae603bee61824fafdc62d0b5f7f4e22d7588d25bba20eabed72933e",
       "byteLength": 66404,
       "rawPath": "netkeiba/horses/2011/2011190004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:01:25.502Z"
+  "updatedAt": "2026-08-27T02:11:57.488Z"
 }

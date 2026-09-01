@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106586",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106586/",
-  "profile": null,
+  "profile": {
+    "name": "ロット",
+    "birthDate": "2023-06-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "903515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103548",
+      "name": "ダノンバラード"
+    },
+    "dam": {
+      "id": "2011106140",
+      "name": "オクリモノ"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103548",
@@ -2261,6 +2291,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロット (Lot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2330,9 +2390,9 @@
       "contentHash": "9e845d4607e023fd05b202cff054e012f6f96160f9b042e52fee35ab46a65629",
       "byteLength": 66782,
       "rawPath": "netkeiba/horses/2023/2023106586/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T09:04:50.118Z"
+  "updatedAt": "2026-08-24T07:09:59.673Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101392",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101392/",
-  "profile": null,
+  "profile": {
+    "name": "ファインデイ",
+    "birthDate": "2021-05-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05571",
+      "name": "松浦裕之"
+    },
+    "owner": {
+      "id": "724031",
+      "name": "石田勇"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コンクエストハーラネイト Conquest Harlanate(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -5703,6 +5733,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインデイ (Fine Day) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインデイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインデイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5772,9 +5832,9 @@
       "contentHash": "aa24789654e76e8d8cdaf1b4bee363e24445f6cb840f836afee643842a111f79",
       "byteLength": 66874,
       "rawPath": "netkeiba/horses/2021/2021101392/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:51:46.048Z"
+  "updatedAt": "2026-08-28T01:56:13.873Z"
 }

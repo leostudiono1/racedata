@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104298",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104298/",
-  "profile": null,
+  "profile": {
+    "name": "トロイメント",
+    "birthDate": "2016-04-04",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2011110055",
+      "name": "トラウム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3896,6 +3926,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トロイメント (Traumend) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トロイメント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トロイメント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3965,9 +4025,9 @@
       "contentHash": "fda50fe6083f2c4aa31666264a2acf3609af6611bdafda70b97b5b2432dc13b3",
       "byteLength": 67467,
       "rawPath": "netkeiba/horses/2016/2016104298/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:18:24.367Z"
+  "updatedAt": "2026-08-27T02:28:56.300Z"
 }

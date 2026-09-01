@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103767",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103767/",
-  "profile": null,
+  "profile": {
+    "name": "ルプス",
+    "birthDate": "2015-04-22",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2006100557",
+      "name": "ルージュバンブー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マリエンバード Marienbard(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1942,6 +1972,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルプス (Lupus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルプス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルプス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2011,9 +2071,9 @@
       "contentHash": "6a4b5cf30ac63a95a8f5c13514e858f4d91535cd23d0785d8e2271d0510a6db5",
       "byteLength": 66758,
       "rawPath": "netkeiba/horses/2015/2015103767/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:13:48.117Z"
+  "updatedAt": "2026-08-27T02:24:19.402Z"
 }

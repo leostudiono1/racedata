@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021109101",
   "sourceUrl": "https://db.netkeiba.com/horse/2021109101/",
-  "profile": null,
+  "profile": {
+    "name": "メイオリビア",
+    "birthDate": "2021-05-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01047",
+      "name": "勢司和浩"
+    },
+    "owner": {
+      "id": "075800",
+      "name": "千明牧場"
+    },
+    "breeder": {
+      "id": "230123",
+      "name": "千明牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2015109094",
+      "name": "メイロビン"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1434,6 +1464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイオリビア (May Olivia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイオリビア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイオリビア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1503,9 +1563,9 @@
       "contentHash": "af29538180cf9c07748e3e66819230696bf2857fbc4ddeb7e5c1b668af8619f6",
       "byteLength": 64801,
       "rawPath": "netkeiba/horses/2021/2021109101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:20:50.769Z"
+  "updatedAt": "2026-08-26T03:26:07.524Z"
 }

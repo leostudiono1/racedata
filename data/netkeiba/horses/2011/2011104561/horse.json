@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104561",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104561/",
-  "profile": null,
+  "profile": {
+    "name": "アラフジ",
+    "birthDate": "2011-05-15",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00412",
+      "name": "高橋裕"
+    },
+    "owner": {
+      "id": "471800",
+      "name": "アラキファーム"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スプリングシティ Spring City(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -1647,6 +1677,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラフジ (Ara Fuji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラフジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラフジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1716,9 +1776,9 @@
       "contentHash": "4d58cbbd68677aef9276e120dcb255c0d6ffdac5845b37aa176082aab09f6450",
       "byteLength": 65714,
       "rawPath": "netkeiba/horses/2011/2011104561/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:49:02.542Z"
+  "updatedAt": "2026-08-31T00:03:39.818Z"
 }

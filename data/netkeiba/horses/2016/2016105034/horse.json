@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105034",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105034/",
-  "profile": null,
+  "profile": {
+    "name": "オンザタウン",
+    "birthDate": "2016-03-05",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00411",
+      "name": "浅見秀一"
+    },
+    "owner": {
+      "id": "872800",
+      "name": "三田昌宏"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "Kendargent"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ザルソバ Zarusoba(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zamindar"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -985,6 +1015,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オンザタウン (On the Town) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザタウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザタウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1054,9 +1114,9 @@
       "contentHash": "1814ddb95eff82caba1b9594e30771ea8e01499470d47278017baa88f91fa850",
       "byteLength": 64471,
       "rawPath": "netkeiba/horses/2016/2016105034/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:57:54.762Z"
+  "updatedAt": "2026-08-26T03:03:11.542Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101920",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101920/",
-  "profile": null,
+  "profile": {
+    "name": "アーキタイプ",
+    "birthDate": "2014-05-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "041008",
+      "name": "下河邉行雄"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2007105546",
+      "name": "ウィステリアアーチ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1317,6 +1347,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アーキタイプ (Archetype) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーキタイプ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーキタイプ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1386,9 +1446,9 @@
       "contentHash": "60dfb2a6d2bc4c13b48cb97d5ab96a6aa426da6eca56330d9689e27e7d3d122e",
       "byteLength": 64556,
       "rawPath": "netkeiba/horses/2014/2014101920/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:21:28.859Z"
+  "updatedAt": "2026-08-28T01:25:56.554Z"
 }

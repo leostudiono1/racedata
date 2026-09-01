@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106480",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106480/",
-  "profile": null,
+  "profile": {
+    "name": "クーシェル",
+    "birthDate": "2018-02-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05744",
+      "name": "渡瀬寛彰"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "110017",
+      "name": "松田牧場"
+    },
+    "birthplace": "浦河",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2008102452",
+      "name": "ニシノラメール"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -7427,6 +7457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クーシェル (Kuschel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クーシェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クーシェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7496,9 +7556,9 @@
       "contentHash": "9d1d65656d9071fb3ceab0365d84329727384ccd1ae94f6f660fc2368c5b111c",
       "byteLength": 65423,
       "rawPath": "netkeiba/horses/2018/2018106480/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:33:08.499Z"
+  "updatedAt": "2026-08-25T05:44:14.674Z"
 }

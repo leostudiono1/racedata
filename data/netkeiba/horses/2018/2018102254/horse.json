@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102254",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102254/",
-  "profile": null,
+  "profile": {
+    "name": "ギルベルト",
+    "birthDate": "2018-05-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "610316",
+      "name": "的場牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ホワイトウォーター Whitewater(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Forestry"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1019,6 +1049,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ギルベルト (Gilbert) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギルベルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギルベルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1088,9 +1148,9 @@
       "contentHash": "62efeb019f2696131f70169acc2941897889c176120a0c1f8da629881f75b590",
       "byteLength": 64128,
       "rawPath": "netkeiba/horses/2018/2018102254/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:40:58.036Z"
+  "updatedAt": "2026-08-24T06:46:07.705Z"
 }

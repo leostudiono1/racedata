@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102507",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102507/",
-  "profile": null,
+  "profile": {
+    "name": "シュラハト",
+    "birthDate": "2021-04-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01166",
+      "name": "石坂公一"
+    },
+    "owner": {
+      "id": "965800",
+      "name": "東豊物産"
+    },
+    "breeder": {
+      "id": "400005",
+      "name": "猿倉牧場"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2010103698",
+      "name": "エアマスカット"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1315,6 +1345,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュラハト (Schlacht) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュラハト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュラハト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1384,9 +1444,9 @@
       "contentHash": "9b3ad7aab487e02dda8542acde902f008c24cbb678c6c1711593504eda6d5a2a",
       "byteLength": 65183,
       "rawPath": "netkeiba/horses/2021/2021102507/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:14:26.523Z"
+  "updatedAt": "2026-08-29T01:32:33.392Z"
 }

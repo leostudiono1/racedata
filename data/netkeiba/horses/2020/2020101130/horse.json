@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101130",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101130/",
-  "profile": null,
+  "profile": {
+    "name": "サスティーン",
+    "birthDate": "2020-05-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2008110012",
+      "name": "ゼマティス"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1094,6 +1124,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サスティーン (Sustain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サスティーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サスティーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1163,9 +1223,9 @@
       "contentHash": "9143c39433c327764013251c7dc32dac64d9a6e6aedce5f311a49e01a2a3571b",
       "byteLength": 67273,
       "rawPath": "netkeiba/horses/2020/2020101130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:23:35.400Z"
+  "updatedAt": "2026-08-31T00:38:12.129Z"
 }

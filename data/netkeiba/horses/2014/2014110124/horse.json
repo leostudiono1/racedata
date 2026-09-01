@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110124",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110124/",
-  "profile": null,
+  "profile": {
+    "name": "エアシャマール",
+    "birthDate": "2014-03-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "493030",
+      "name": "瀬戸竜男"
+    },
+    "breeder": {
+      "id": "190880",
+      "name": "Winchester Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Chez La Femme"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Afternoon Deelites"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6997,6 +7027,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エアシャマール (Air Shamal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアシャマール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアシャマール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7066,9 +7126,9 @@
       "contentHash": "26e46fbfe0323ce17e04e1d32aced047d0f014a2b51e78a0f0dc503231e37721",
       "byteLength": 66840,
       "rawPath": "netkeiba/horses/2014/2014110124/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:25:37.449Z"
+  "updatedAt": "2026-08-24T06:30:46.902Z"
 }

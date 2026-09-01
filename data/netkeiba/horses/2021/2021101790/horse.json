@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101790",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101790/",
-  "profile": null,
+  "profile": {
+    "name": "ブイキャット",
+    "birthDate": "2021-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01078",
+      "name": "北出成人"
+    },
+    "owner": {
+      "id": "482007",
+      "name": "岩崎伸道"
+    },
+    "breeder": {
+      "id": "833394",
+      "name": "戸川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008105828",
+      "name": "ブイアスカ"
+    },
+    "damsire": {
+      "id": "1999107052",
+      "name": "アドマイヤドン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1546,6 +1576,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブイキャット (V Cat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブイキャット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブイキャット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1615,9 +1675,9 @@
       "contentHash": "3812d5cd717b52639c26ab320ae3cd113b7576369fc70e68bc590ccbb15267f7",
       "byteLength": 66127,
       "rawPath": "netkeiba/horses/2021/2021101790/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:17:49.058Z"
+  "updatedAt": "2026-08-26T03:23:05.834Z"
 }

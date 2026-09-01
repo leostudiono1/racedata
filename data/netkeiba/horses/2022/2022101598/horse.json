@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101598",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101598/",
-  "profile": null,
+  "profile": {
+    "name": "アルサクレイグ",
+    "birthDate": "2022-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "x0b544",
+      "name": "小澤徳定"
+    },
+    "breeder": {
+      "id": "733393",
+      "name": "竹島幸治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012101402",
+      "name": "グレーターロンドン"
+    },
+    "dam": {
+      "id": "2014101323",
+      "name": "トーホウアイランド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Power"
+    }
+  },
   "pedigree": [
     {
       "id": "2012101402",
@@ -1832,6 +1862,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルサクレイグ (Ailsa Craig) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルサクレイグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルサクレイグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1901,9 +1961,9 @@
       "contentHash": "46c13747dcdd283450f6b3b6a06031826453e43adfddb40737df72180334b699",
       "byteLength": 65028,
       "rawPath": "netkeiba/horses/2022/2022101598/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:30:49.512Z"
+  "updatedAt": "2026-08-31T00:45:26.266Z"
 }

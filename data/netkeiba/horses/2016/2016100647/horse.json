@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100647",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100647/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムハイウェイ",
+    "birthDate": "2016-02-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2000101506",
+      "name": "フェートデュヴァン"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1376,6 +1406,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムハイウェイ (T M Highway) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムハイウェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムハイウェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1445,9 +1505,9 @@
       "contentHash": "0739023693f13dde84c6253829ffad0c118fcfb142ae60fd5cf23530641b9eed",
       "byteLength": 65477,
       "rawPath": "netkeiba/horses/2016/2016100647/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:53:44.041Z"
+  "updatedAt": "2026-08-29T01:11:50.365Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101806",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101806/",
-  "profile": null,
+  "profile": {
+    "name": "リピネ",
+    "birthDate": "2017-05-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005105410",
+      "name": "アーネストリー"
+    },
+    "dam": {
+      "id": "2002110053",
+      "name": "シャインリザルト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Victory Gallop"
+    }
+  },
   "pedigree": [
     {
       "id": "2005105410",
@@ -1919,6 +1949,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リピネ (Lipine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リピネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リピネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1988,9 +2048,9 @@
       "contentHash": "9ed70b11a89964b6285f62ad43b27f81a3f89f27d1ea83b651e7ad88c367249c",
       "byteLength": 65076,
       "rawPath": "netkeiba/horses/2017/2017101806/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:21:16.269Z"
+  "updatedAt": "2026-08-27T02:31:47.743Z"
 }

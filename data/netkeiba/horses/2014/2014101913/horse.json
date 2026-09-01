@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101913",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101913/",
-  "profile": null,
+  "profile": {
+    "name": "マイラビング",
+    "birthDate": "2014-03-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00434",
+      "name": "西橋豊治"
+    },
+    "owner": {
+      "id": "768006",
+      "name": "薪浦亨"
+    },
+    "breeder": {
+      "id": "233356",
+      "name": "下川茂広"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    },
+    "dam": {
+      "id": "2005103719",
+      "name": "マッキーマイハート"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2027,6 +2057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイラビング (My Loving) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイラビング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイラビング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2096,9 +2156,9 @@
       "contentHash": "907381e39986102304d1b68c747993ada3b69d95a7280e3a7f717b92fd6b5412",
       "byteLength": 65294,
       "rawPath": "netkeiba/horses/2014/2014101913/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:22:38.430Z"
+  "updatedAt": "2026-08-30T00:34:06.263Z"
 }

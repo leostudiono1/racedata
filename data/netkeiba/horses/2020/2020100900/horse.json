@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100900",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100900/",
-  "profile": null,
+  "profile": {
+    "name": "ピーシャ",
+    "birthDate": "2020-04-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05727",
+      "name": "福永敏"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シヤボナ Siyabona(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -1596,6 +1626,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピーシャ (Bixia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーシャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーシャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1665,9 +1725,9 @@
       "contentHash": "3b205717e9e14c98f69f0d14a08db84071356c7ef940a9bc86ab3c730f8093a3",
       "byteLength": 66749,
       "rawPath": "netkeiba/horses/2020/2020100900/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:33:00.074Z"
+  "updatedAt": "2026-08-27T02:43:31.723Z"
 }

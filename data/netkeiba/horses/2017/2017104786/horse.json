@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104786",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104786/",
-  "profile": null,
+  "profile": {
+    "name": "ハナテ",
+    "birthDate": "2017-02-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "x0aa25",
+      "name": "（株）ムラタプロパテ"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スキア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Motivator"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -7022,6 +7052,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハナテ (Hanate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7091,9 +7151,9 @@
       "contentHash": "00ca8d008891dece9d07f30a7c1b4861af63b932ffa1f7354cd72a1fd8f2fadd",
       "byteLength": 66831,
       "rawPath": "netkeiba/horses/2017/2017104786/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:35:01.455Z"
+  "updatedAt": "2026-08-28T01:39:28.743Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101618",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101618/",
-  "profile": null,
+  "profile": {
+    "name": "テンザリッチ",
+    "birthDate": "2012-03-20",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00405",
+      "name": "小西一男"
+    },
+    "owner": {
+      "id": "075006",
+      "name": "天白泰司"
+    },
+    "breeder": {
+      "id": "639391",
+      "name": "千葉飯田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2006105716",
+      "name": "コロナドズベイビー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コロナドズクエスト Coronado's Quest(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1710,6 +1740,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンザリッチ (Ten the Rich) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンザリッチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンザリッチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1779,9 +1839,9 @@
       "contentHash": "5263893c65637a060845fca5b36006cff801c2e10c3d0a12d9ab220e667f5caf",
       "byteLength": 64485,
       "rawPath": "netkeiba/horses/2012/2012101618/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:39:04.616Z"
+  "updatedAt": "2026-08-29T00:57:11.602Z"
 }

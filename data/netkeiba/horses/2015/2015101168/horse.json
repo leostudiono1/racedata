@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101168",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101168/",
-  "profile": null,
+  "profile": {
+    "name": "メメディーン",
+    "birthDate": "2015-03-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01050",
+      "name": "飯田雄三"
+    },
+    "owner": {
+      "id": "118030",
+      "name": "本谷惠"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2010104269",
+      "name": "メメキューティー"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1370,6 +1400,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メメディーン (Meme Dean) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メメディーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メメディーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1439,9 +1499,9 @@
       "contentHash": "52964045473643a205fbaf388313e1583ba5cc0a75a2a8faef05cbcdfbd5cac7",
       "byteLength": 64899,
       "rawPath": "netkeiba/horses/2015/2015101168/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:01:53.091Z"
+  "updatedAt": "2026-08-31T00:16:29.795Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105659",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105659/",
-  "profile": null,
+  "profile": {
+    "name": "ピオレ",
+    "birthDate": "2015-04-11",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "559033",
+      "name": "新井康司"
+    },
+    "breeder": {
+      "id": "033078",
+      "name": "酒井秀紀"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006100529",
+      "name": "ジョーカプチーノ"
+    },
+    "dam": {
+      "id": "2003105146",
+      "name": "ラブリークレセント"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2006100529",
@@ -1034,6 +1064,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピオレ (Piore) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピオレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピオレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1103,9 +1163,9 @@
       "contentHash": "8b3c58c5016e6052a047dbef6ab3320ca230307acbbb48d9c529ced437969036",
       "byteLength": 64386,
       "rawPath": "netkeiba/horses/2015/2015105659/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:14:50.776Z"
+  "updatedAt": "2026-08-27T02:25:22.755Z"
 }

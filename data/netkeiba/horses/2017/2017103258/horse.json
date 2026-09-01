@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103258",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103258/",
-  "profile": null,
+  "profile": {
+    "name": "ペルージュ",
+    "birthDate": "2017-03-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    },
+    "dam": {
+      "id": "2008100123",
+      "name": "ウインディーヒル"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1623,6 +1653,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペルージュ (Perouges) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペルージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペルージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1692,9 +1752,9 @@
       "contentHash": "ade8a2c49f197a0712afe0539342e4bb4a16913f16440918919de6cd86786ca7",
       "byteLength": 65680,
       "rawPath": "netkeiba/horses/2017/2017103258/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:36:45.948Z"
+  "updatedAt": "2026-08-24T06:41:55.698Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105011",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105011/",
-  "profile": null,
+  "profile": {
+    "name": "オーライカモン",
+    "birthDate": "2023-04-22",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01180",
+      "name": "田中克典"
+    },
+    "owner": {
+      "id": "973031",
+      "name": "ＳＳレーシング"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016102179",
+      "name": "ダノンキングリー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サラーバ Saraaba(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "New Approach"
+    }
+  },
   "pedigree": [
     {
       "id": "2016102179",
@@ -1503,6 +1533,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーライカモン (All Right Come On) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーライカモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーライカモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1572,9 +1632,9 @@
       "contentHash": "bf929f8f340df8b510223b02fa63b7466b82eb92df471acbd02136683c547ac3",
       "byteLength": 66654,
       "rawPath": "netkeiba/horses/2023/2023105011/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T04:03:33.402Z"
+  "updatedAt": "2026-08-28T02:08:01.038Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100165",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100165/",
-  "profile": null,
+  "profile": {
+    "name": "ゼトス",
+    "birthDate": "2012-02-21",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00413",
+      "name": "田中章博"
+    },
+    "owner": {
+      "id": "330007",
+      "name": "杉澤光雄"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2002101848",
+      "name": "タッソーニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "テンビー Tenby(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -8046,6 +8076,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼトス (Zethos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼトス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼトス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8115,9 +8175,9 @@
       "contentHash": "59fcdb7efb874fc7e215b864cd4aa541fab362b258c5691d478b34bc62b2f817",
       "byteLength": 65052,
       "rawPath": "netkeiba/horses/2012/2012100165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:38:15.853Z"
+  "updatedAt": "2026-08-29T00:56:22.683Z"
 }

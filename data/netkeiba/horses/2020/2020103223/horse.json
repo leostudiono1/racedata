@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103223",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103223/",
-  "profile": null,
+  "profile": {
+    "name": "アルメリア",
+    "birthDate": "2020-03-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01192",
+      "name": "上原佑紀"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2012110102",
+      "name": "アルビアーノ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1617,6 +1647,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルメリア (Armeria) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルメリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルメリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1686,9 +1746,9 @@
       "contentHash": "e8104bee7b10e720e3158bc91635426c63126058801958ca62b4e34868285a68",
       "byteLength": 67394,
       "rawPath": "netkeiba/horses/2020/2020103223/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:39:40.510Z"
+  "updatedAt": "2026-08-25T05:50:46.748Z"
 }

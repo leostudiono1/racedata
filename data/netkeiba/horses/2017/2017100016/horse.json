@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100016",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100016/",
-  "profile": null,
+  "profile": {
+    "name": "ブラックリスト",
+    "birthDate": "2017-03-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "永田幸宏"
+    },
+    "owner": {
+      "id": "x09c79",
+      "name": "吉川真ノ介"
+    },
+    "breeder": {
+      "id": "903343",
+      "name": "旭牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2002109286",
+      "name": "プリンセスゴーラン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -2945,6 +2975,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラックリスト (Blacklist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックリスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックリスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3014,9 +3074,9 @@
       "contentHash": "64f51282c3134c2d7513753d2f8779985f83ed75d3dabcede486d742723ad137",
       "byteLength": 64453,
       "rawPath": "netkeiba/horses/2017/2017100016/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:24:26.433Z"
+  "updatedAt": "2026-08-25T05:35:33.196Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102104",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102104/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウカイカ",
+    "birthDate": "2016-05-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01083",
+      "name": "松永昌博"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "610012",
+      "name": "林孝輝"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2010104485",
+      "name": "メイショウキズナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "チチカステナンゴ Chichicastenango(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -1236,6 +1266,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウカイカ (Meisho Kaika) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウカイカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウカイカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1305,9 +1365,9 @@
       "contentHash": "0c4d4f38cda9a1511854636286ae3201f8af02ebb2a996b73c37b28592fdf12b",
       "byteLength": 64994,
       "rawPath": "netkeiba/horses/2016/2016102104/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:30:52.102Z"
+  "updatedAt": "2026-08-30T00:42:19.865Z"
 }

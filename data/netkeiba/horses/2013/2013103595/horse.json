@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103595",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103595/",
-  "profile": null,
+  "profile": {
+    "name": "バンタム",
+    "birthDate": "2013-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05586",
+      "name": "柏原誠路"
+    },
+    "owner": {
+      "id": "547008",
+      "name": "竹森幹雄"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2002100611",
+      "name": "ミユキ"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -8998,6 +9028,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バンタム (Bantam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バンタム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バンタム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9067,9 +9127,9 @@
       "contentHash": "9217c5285a964f7d96b5f0ecbd3172eac6079d81d5fd7413991874f657f35c46",
       "byteLength": 66866,
       "rawPath": "netkeiba/horses/2013/2013103595/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:43:33.606Z"
+  "updatedAt": "2026-08-26T02:48:50.585Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105620",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105620/",
-  "profile": null,
+  "profile": {
+    "name": "アラメア",
+    "birthDate": "2018-04-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05726",
+      "name": "那俄性哲"
+    },
+    "owner": {
+      "id": "x0a98a",
+      "name": "岩田雅之"
+    },
+    "breeder": {
+      "id": "343374",
+      "name": "上水牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2011110021",
+      "name": "ロアジス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -3523,6 +3553,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラメア (Alamea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラメア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラメア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3592,9 +3652,9 @@
       "contentHash": "f64abd9d6100727171bb50c6ebe48577ede1bca2983aab423fcc7200874f4016",
       "byteLength": 64518,
       "rawPath": "netkeiba/horses/2018/2018105620/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:17:59.303Z"
+  "updatedAt": "2026-08-31T00:32:36.167Z"
 }

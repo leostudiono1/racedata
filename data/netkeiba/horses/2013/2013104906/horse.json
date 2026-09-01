@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104906",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104906/",
-  "profile": null,
+  "profile": {
+    "name": "フィレール",
+    "birthDate": "2013-02-22",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "801307",
+      "name": "矢野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "1996105673",
+      "name": "ヒシバイタル"
+    },
+    "damsire": {
+      "id": "1983109006",
+      "name": "トニービン Tony Bin(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1019,6 +1049,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィレール (Filer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィレール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィレール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1088,9 +1148,9 @@
       "contentHash": "6e3c81205121c39fee2ed7fe70ccb6a8a9ed11aac6bd198bc13edf21f7f8eb47",
       "byteLength": 64899,
       "rawPath": "netkeiba/horses/2013/2013104906/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:10:05.327Z"
+  "updatedAt": "2026-08-25T05:21:11.658Z"
 }

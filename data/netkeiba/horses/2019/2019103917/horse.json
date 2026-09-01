@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103917",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103917/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウジブリ",
+    "birthDate": "2019-03-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01121",
+      "name": "角田晃一"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2005106459",
+      "name": "メイショウフェーヴ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2839,6 +2869,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウジブリ (Meisho Ghibli) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウジブリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウジブリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2908,9 +2968,9 @@
       "contentHash": "15e5e8cd72fb47b72830aa251d1ae35b0a79ef04b52d90ff173536fab26d94dd",
       "byteLength": 67124,
       "rawPath": "netkeiba/horses/2019/2019103917/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:42:53.802Z"
+  "updatedAt": "2026-08-28T01:47:21.528Z"
 }

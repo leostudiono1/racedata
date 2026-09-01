@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100492",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100492/",
-  "profile": null,
+  "profile": {
+    "name": "ボタニスト",
+    "birthDate": "2018-02-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2011104372",
+      "name": "ブルーロータス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -1352,6 +1382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボタニスト (Botanist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボタニスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボタニスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1421,9 +1481,9 @@
       "contentHash": "592e512f6a707da26a0c6e8dc5f80659de564dd64a590e5bcc86bd95a70c9c95",
       "byteLength": 66087,
       "rawPath": "netkeiba/horses/2018/2018100492/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:29:03.079Z"
+  "updatedAt": "2026-08-25T05:40:09.659Z"
 }

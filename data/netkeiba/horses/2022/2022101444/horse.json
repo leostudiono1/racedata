@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101444",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101444/",
-  "profile": null,
+  "profile": {
+    "name": "モラド",
+    "birthDate": "2022-02-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "098803",
+      "name": "Ｇリビエール・レーシング"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "2013100364",
+      "name": "パレード"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1014,6 +1044,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モラド (Morado) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モラド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モラド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1083,9 +1143,9 @@
       "contentHash": "2d030b12cfdc9c3c4d5c6d83d19d114b7bd5c5071ddcb0b450d881d79e4ea07f",
       "byteLength": 65585,
       "rawPath": "netkeiba/horses/2022/2022101444/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:43:11.458Z"
+  "updatedAt": "2026-08-27T02:53:40.984Z"
 }

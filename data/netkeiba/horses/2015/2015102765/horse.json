@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102765",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102765/",
-  "profile": null,
+  "profile": {
+    "name": "ペイシャジャン",
+    "birthDate": "2015-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "163002",
+      "name": "北所直人"
+    },
+    "breeder": {
+      "id": "230005",
+      "name": "清水スタッド"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "1998105285",
+      "name": "セイントリーフ"
+    },
+    "damsire": {
+      "id": "1992109612",
+      "name": "タヤスツヨシ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1682,6 +1712,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペイシャジャン (Peisha Jun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイシャジャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイシャジャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1751,9 +1811,9 @@
       "contentHash": "8c5ce81c57abb409932e0da58d8a73cbf739f3276c58976d260809229f2ec855",
       "byteLength": 64617,
       "rawPath": "netkeiba/horses/2015/2015102765/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:17:43.715Z"
+  "updatedAt": "2026-08-25T05:28:50.235Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104191",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104191/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウブコウ",
+    "birthDate": "2016-04-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01041",
+      "name": "藤沢則雄"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "313378",
+      "name": "橋本牧場"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2004110225",
+      "name": "ペルサントクリール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Point Given (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -1044,6 +1074,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウブコウ (Meisho Buko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウブコウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウブコウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1113,9 +1173,9 @@
       "contentHash": "b5070296f21497c0cb99a3422e3fcb6e128be39df9f28d56096430b19ef402f8",
       "byteLength": 64363,
       "rawPath": "netkeiba/horses/2016/2016104191/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:32:51.847Z"
+  "updatedAt": "2026-08-24T06:38:01.006Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105379",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105379/",
-  "profile": null,
+  "profile": {
+    "name": "ルシフェル",
+    "birthDate": "2021-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01196",
+      "name": "西園翔太"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アルアリングスター Alluring Star(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Exchange Rate"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2380,6 +2410,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルシフェル (Lucifer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルシフェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルシフェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2449,9 +2509,9 @@
       "contentHash": "9192bb5482c3730258e6fc8c47c8a66298fd0a1c03055cd706cf46f3e0a77bbe",
       "byteLength": 67312,
       "rawPath": "netkeiba/horses/2021/2021105379/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:54:09.471Z"
+  "updatedAt": "2026-08-28T01:58:37.568Z"
 }

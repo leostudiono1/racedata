@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100623",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100623/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィヴ",
+    "birthDate": "2015-03-03",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00378",
+      "name": "沖芳夫"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2005110122",
+      "name": "フロムスクラッチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1266,6 +1296,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィヴ (Vive) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1335,9 +1395,9 @@
       "contentHash": "bd189f8ca54c7e688a39751c69334abe1e3896cf5a244729afab0c3e91842dd0",
       "byteLength": 65883,
       "rawPath": "netkeiba/horses/2015/2015100623/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:01:31.835Z"
+  "updatedAt": "2026-08-31T00:16:08.751Z"
 }

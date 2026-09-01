@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110109",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110109/",
-  "profile": null,
+  "profile": {
+    "name": "ロケットダッシュ",
+    "birthDate": "2010-04-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "830701",
+      "name": "Northwest Farms LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Bluegrass Cat"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Unfinished Dream"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Deputy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4472,6 +4502,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロケットダッシュ (Rocket Dash) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロケットダッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロケットダッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4541,9 +4601,9 @@
       "contentHash": "c775511cd4befd7db9004915b21a19b381f736c1db5cc94f9dad157b9f584398",
       "byteLength": 65815,
       "rawPath": "netkeiba/horses/2010/2010110109/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T03:59:26.455Z"
+  "updatedAt": "2026-08-27T02:09:58.035Z"
 }

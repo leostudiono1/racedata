@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102814",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102814/",
-  "profile": null,
+  "profile": {
+    "name": "ジャスリー",
+    "birthDate": "2020-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "938031",
+      "name": "越村洋子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2009105757",
+      "name": "オールドパサデナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -3556,6 +3586,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャスリー (Jasri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャスリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャスリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3625,9 +3685,9 @@
       "contentHash": "aa5ec021117b3f53d003dd288cd511f7604b02f8c3584599d1aa625366fe633c",
       "byteLength": 67042,
       "rawPath": "netkeiba/horses/2020/2020102814/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:13:12.282Z"
+  "updatedAt": "2026-08-26T03:18:29.163Z"
 }

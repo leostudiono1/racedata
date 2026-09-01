@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110030",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110030/",
-  "profile": null,
+  "profile": {
+    "name": "フィトック",
+    "birthDate": "2019-02-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05771",
+      "name": "鮫島克也"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "240739",
+      "name": "M.S.& C.S. Griffiths"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Raven's Pass"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Macnas"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Orientate"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4656,6 +4686,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィトック (Fitheach) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィトック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィトック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4725,9 +4785,9 @@
       "contentHash": "7e4476bafb34b932614297f13d8c2ecffc44d5b040733ac8d927df835902fd0c",
       "byteLength": 66465,
       "rawPath": "netkeiba/horses/2019/2019110030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:48:54.318Z"
+  "updatedAt": "2026-08-24T06:54:03.827Z"
 }

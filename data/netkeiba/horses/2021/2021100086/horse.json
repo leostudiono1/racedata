@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100086",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100086/",
-  "profile": null,
+  "profile": {
+    "name": "シリウス",
+    "birthDate": "2021-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05435",
+      "name": "碇清次郎"
+    },
+    "owner": {
+      "id": "527031",
+      "name": "小濱正智"
+    },
+    "breeder": {
+      "id": "633094",
+      "name": "川端英幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2005104183",
+      "name": "アイラインローザー"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -3906,6 +3936,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シリウス (Sirius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シリウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シリウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3975,9 +4035,9 @@
       "contentHash": "8120b282fd0795df3a8f693276c5cef1c01fe59148071babcd0cf5e3785ad1bf",
       "byteLength": 66842,
       "rawPath": "netkeiba/horses/2021/2021100086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:37:42.155Z"
+  "updatedAt": "2026-08-27T02:48:11.785Z"
 }

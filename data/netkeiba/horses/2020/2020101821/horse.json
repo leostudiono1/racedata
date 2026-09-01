@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101821",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101821/",
-  "profile": null,
+  "profile": {
+    "name": "ストーリーテラー",
+    "birthDate": "2020-04-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "2014102207",
+      "name": "セヴンゴシック"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1722,6 +1752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストーリーテラー (Storyteller) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーリーテラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーリーテラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1791,9 +1851,9 @@
       "contentHash": "0f172d2729af4ddef74a6e5b122b5522df59645a0d55788ba58f36fd322a2c6f",
       "byteLength": 66248,
       "rawPath": "netkeiba/horses/2020/2020101821/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:12:37.102Z"
+  "updatedAt": "2026-08-26T03:17:54.144Z"
 }

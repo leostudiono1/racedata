@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101141",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101141/",
-  "profile": null,
+  "profile": {
+    "name": "テイルウインド",
+    "birthDate": "2018-02-28",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川野勇馬"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "333328",
+      "name": "門別敏朗"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2012104714",
+      "name": "スターウインド"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -6815,6 +6845,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイルウインド (Tail Wind) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイルウインド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイルウインド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6884,9 +6944,9 @@
       "contentHash": "194dbc8656b0aa202ff81186b00e1107a56e6e712c58960e95b864a6af55b125",
       "byteLength": 67004,
       "rawPath": "netkeiba/horses/2018/2018101141/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:15:11.285Z"
+  "updatedAt": "2026-08-31T00:29:48.048Z"
 }

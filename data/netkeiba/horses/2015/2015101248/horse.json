@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101248",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101248/",
-  "profile": null,
+  "profile": {
+    "name": "フロイデ",
+    "birthDate": "2015-03-07",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "684030",
+      "name": "岡田壮史"
+    },
+    "breeder": {
+      "id": "123158",
+      "name": "グッドラック・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2009106640",
+      "name": "アイルゴーバック"
+    },
+    "damsire": {
+      "id": "1997100569",
+      "name": "アッミラーレ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -4340,6 +4370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロイデ (Freude) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロイデ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロイデ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4409,9 +4469,9 @@
       "contentHash": "5748318aa98af716d3cf98239603950dba0ca7223f1619367f474152d1680a0c",
       "byteLength": 65765,
       "rawPath": "netkeiba/horses/2015/2015101248/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:01:56.623Z"
+  "updatedAt": "2026-08-31T00:16:33.203Z"
 }

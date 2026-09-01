@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100784",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100784/",
-  "profile": null,
+  "profile": {
+    "name": "ハイマウンテン",
+    "birthDate": "2010-04-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00387",
+      "name": "目野哲也"
+    },
+    "owner": {
+      "id": "338008",
+      "name": "北前孔一郎"
+    },
+    "breeder": {
+      "id": "413393",
+      "name": "豊郷牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "アルデバランII Aldebaran(米)"
+    },
+    "dam": {
+      "id": "2001106526",
+      "name": "ラブポエット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Daylami (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5011,6 +5041,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイマウンテン (High Mountain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイマウンテン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイマウンテン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5080,9 +5140,9 @@
       "contentHash": "af95644250918d49e35f5420b080bcf16a67edb209bac4e9a330585206ec386f",
       "byteLength": 67181,
       "rawPath": "netkeiba/horses/2010/2010100784/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T02:36:02.769Z"
+  "updatedAt": "2026-08-29T00:54:09.587Z"
 }

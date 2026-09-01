@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100840",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100840/",
-  "profile": null,
+  "profile": {
+    "name": "チェキ",
+    "birthDate": "2014-03-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "459800",
+      "name": "イクタ"
+    },
+    "breeder": {
+      "id": "130317",
+      "name": "ムラカミファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2007103413",
+      "name": "ショコラン"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2393,6 +2423,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チェキ (Check It) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2462,9 +2522,9 @@
       "contentHash": "4fd4f07612f6beeb1751e4f0d876878377fc3acc74a87ded94d201b1ea8a6ec3",
       "byteLength": 64711,
       "rawPath": "netkeiba/horses/2014/2014100840/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:22:06.903Z"
+  "updatedAt": "2026-08-30T00:33:34.799Z"
 }

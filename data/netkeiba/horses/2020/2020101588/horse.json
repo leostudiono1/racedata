@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101588",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101588/",
-  "profile": null,
+  "profile": {
+    "name": "ロンドンプラン",
+    "birthDate": "2020-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "272008",
+      "name": "下河辺隆行"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012101402",
+      "name": "グレーターロンドン"
+    },
+    "dam": {
+      "id": "2005103173",
+      "name": "パッションローズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012101402",
@@ -2446,6 +2476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロンドンプラン (London Plan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロンドンプラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロンドンプラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2515,9 +2575,9 @@
       "contentHash": "f965dfc75c4c7c1139b104b5dcef98ef316e59e4b608779a499e3fcc44ace03a",
       "byteLength": 66678,
       "rawPath": "netkeiba/horses/2020/2020101588/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:49:40.120Z"
+  "updatedAt": "2026-08-24T06:54:49.355Z"
 }

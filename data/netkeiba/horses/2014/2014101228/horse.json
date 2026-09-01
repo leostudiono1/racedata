@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101228",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101228/",
-  "profile": null,
+  "profile": {
+    "name": "アットザトップ",
+    "birthDate": "2014-03-10",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05607",
+      "name": "堀千亜樹"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "2004101364",
+      "name": "セレブラール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -2964,6 +2994,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アットザトップ (At the Top) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アットザトップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アットザトップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3033,9 +3093,9 @@
       "contentHash": "11ac5cc7f0e065890dcc2b6af44ad2d6c39997247dbcfadde054e7ecca75974a",
       "byteLength": 66663,
       "rawPath": "netkeiba/horses/2014/2014101228/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:22:17.715Z"
+  "updatedAt": "2026-08-24T06:27:27.401Z"
 }

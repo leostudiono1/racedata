@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104985",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104985/",
-  "profile": null,
+  "profile": {
+    "name": "バーマン",
+    "birthDate": "2019-05-14",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05688",
+      "name": "小野望"
+    },
+    "owner": {
+      "id": "845008",
+      "name": "多田信尊"
+    },
+    "breeder": {
+      "id": "700380",
+      "name": "社台牧場"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2006105511",
+      "name": "レッドスパーダ"
+    },
+    "dam": {
+      "id": "2014103294",
+      "name": "ラユロット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006105511",
@@ -1702,6 +1732,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バーマン (Barman) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バーマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バーマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1771,9 +1831,9 @@
       "contentHash": "feec32b35d6fc8a31dde1197f09a5d660df29230011a5b6ba0a5c2b42a540559",
       "byteLength": 64408,
       "rawPath": "netkeiba/horses/2019/2019104985/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:10:34.999Z"
+  "updatedAt": "2026-08-26T03:15:51.571Z"
 }

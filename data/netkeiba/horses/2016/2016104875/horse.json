@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104875",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104875/",
-  "profile": null,
+  "profile": {
+    "name": "シングルアップ",
+    "birthDate": "2016-01-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2004102803",
+      "name": "ラフアップ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2729,6 +2759,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シングルアップ (Single Up) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シングルアップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シングルアップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2798,9 +2858,9 @@
       "contentHash": "afc96cd731934cb87d47a6f93a6681321c320c97590bbbb4cd6c99ef617cf0d8",
       "byteLength": 67303,
       "rawPath": "netkeiba/horses/2016/2016104875/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:33:22.889Z"
+  "updatedAt": "2026-08-24T06:38:33.007Z"
 }

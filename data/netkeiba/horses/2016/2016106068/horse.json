@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106068",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106068/",
-  "profile": null,
+  "profile": {
+    "name": "ユラニュス",
+    "birthDate": "2016-05-10",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05465",
+      "name": "田辺陽一"
+    },
+    "owner": {
+      "id": "201033",
+      "name": "永見貴昭"
+    },
+    "breeder": {
+      "id": "833082",
+      "name": "泊寿幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2002105248",
+      "name": "マイウィル"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -7851,6 +7881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユラニュス (Uranus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユラニュス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユラニュス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7920,9 +7980,9 @@
       "contentHash": "25792ea7f7dc2711b506b9e635030ac05a806e93c16812d6af57553136adf6aa",
       "byteLength": 65735,
       "rawPath": "netkeiba/horses/2016/2016106068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:09:56.454Z"
+  "updatedAt": "2026-08-31T00:24:32.930Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102109",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102109/",
-  "profile": null,
+  "profile": {
+    "name": "テンマ",
+    "birthDate": "2021-02-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05739",
+      "name": "齋藤雄一"
+    },
+    "owner": {
+      "id": "635031",
+      "name": "増田江利子"
+    },
+    "breeder": {
+      "id": "413329",
+      "name": "前野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2008101644",
+      "name": "マルヨパトリオット"
+    },
+    "damsire": {
+      "id": "2000190010",
+      "name": "アルカセット Alkaased(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3239,6 +3269,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンマ (Temma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3308,9 +3368,9 @@
       "contentHash": "b07de12a6f7abe05e19ab9a04992296cadbfe0d03caad54243f81d10d09195c4",
       "byteLength": 64428,
       "rawPath": "netkeiba/horses/2021/2021102109/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:14:15.971Z"
+  "updatedAt": "2026-08-29T01:32:22.869Z"
 }

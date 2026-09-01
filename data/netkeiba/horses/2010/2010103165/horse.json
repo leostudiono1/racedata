@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103165",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103165/",
-  "profile": null,
+  "profile": {
+    "name": "シュミット",
+    "birthDate": "2010-03-05",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "053803",
+      "name": "杉山忠国"
+    },
+    "breeder": {
+      "id": "303300",
+      "name": "畠山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ソーゴル Sohgol(愛)"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4597,6 +4627,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュミット (Schmied) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュミット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュミット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4666,9 +4726,9 @@
       "contentHash": "6b77ed5ab360c7ae48fc83b50561753370b9aec085de11e2e0eb8ef72762f282",
       "byteLength": 66887,
       "rawPath": "netkeiba/horses/2010/2010103165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:01:51.341Z"
+  "updatedAt": "2026-08-25T05:12:57.934Z"
 }

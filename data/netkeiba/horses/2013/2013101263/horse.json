@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101263",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101263/",
-  "profile": null,
+  "profile": {
+    "name": "スズオーフェン",
+    "birthDate": "2013-02-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00412",
+      "name": "高橋裕"
+    },
+    "owner": {
+      "id": "591033",
+      "name": "森達郎"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2008103434",
+      "name": "スズノエミー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -1750,6 +1780,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズオーフェン (Suzu Orphen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズオーフェン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズオーフェン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1819,9 +1879,9 @@
       "contentHash": "f673499769fdd443dd800933f782e2c50dd3de91649b0afb0916568eff58a0e9",
       "byteLength": 66889,
       "rawPath": "netkeiba/horses/2013/2013101263/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:16:34.659Z"
+  "updatedAt": "2026-08-28T01:21:02.654Z"
 }

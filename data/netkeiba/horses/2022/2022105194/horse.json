@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105194",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105194/",
-  "profile": null,
+  "profile": {
+    "name": "ラトラース",
+    "birthDate": "2022-01-27",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2010104278",
+      "name": "ローブティサージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2071,6 +2101,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラトラース (La Trace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラトラース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラトラース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2140,9 +2200,9 @@
       "contentHash": "eb47e99d4dba51184853cc572f26903b49981a8435836b46fb949c18ac2b5e7e",
       "byteLength": 67221,
       "rawPath": "netkeiba/horses/2022/2022105194/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:58:10.655Z"
+  "updatedAt": "2026-08-30T01:09:38.499Z"
 }

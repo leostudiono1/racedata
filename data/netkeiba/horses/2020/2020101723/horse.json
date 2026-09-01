@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101723",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101723/",
-  "profile": null,
+  "profile": {
+    "name": "マケン",
+    "birthDate": "2020-05-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05417",
+      "name": "佐藤雅彦"
+    },
+    "owner": {
+      "id": "153033",
+      "name": "井手慶祐"
+    },
+    "breeder": {
+      "id": "541543",
+      "name": "スマイルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2012104379",
+      "name": "プリンセスケイ"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -3832,6 +3862,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マケン (Maken) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マケン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マケン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3901,9 +3961,9 @@
       "contentHash": "206720f4c9e13fd096160ad4a16676a00cba053c4f8dd4685a4d2330d2f1a2ce",
       "byteLength": 65125,
       "rawPath": "netkeiba/horses/2020/2020101723/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:49:43.472Z"
+  "updatedAt": "2026-08-24T06:54:52.871Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110004",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110004/",
-  "profile": null,
+  "profile": {
+    "name": "フジマサグッド",
+    "birthDate": "2020-02-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "507007",
+      "name": "藤原正一"
+    },
+    "breeder": {
+      "id": "060732",
+      "name": "Beverage Queen Syndicate"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Good Samaritan"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ビヴァレッジクイーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Indygo Shiner"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1185,6 +1215,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フジマサグッド (Fujimasa Good) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジマサグッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジマサグッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1254,9 +1314,9 @@
       "contentHash": "f268d742b191c443d252cc83c9df8af495bf668b412ff9e619b45398801ba2d7",
       "byteLength": 65343,
       "rawPath": "netkeiba/horses/2020/2020110004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:12:55.398Z"
+  "updatedAt": "2026-08-29T01:31:02.570Z"
 }

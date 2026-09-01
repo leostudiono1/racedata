@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100251",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100251/",
-  "profile": null,
+  "profile": {
+    "name": "ランドマックス",
+    "birthDate": "2021-04-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05575",
+      "name": "矢野義幸"
+    },
+    "owner": {
+      "id": "862009",
+      "name": "木村昌三"
+    },
+    "breeder": {
+      "id": "303020",
+      "name": "田中春美"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012110091",
+      "name": "モーニン"
+    },
+    "dam": {
+      "id": "2008103634",
+      "name": "シャークサッカー"
+    },
+    "damsire": {
+      "id": "1996107315",
+      "name": "ブラックタキシード"
+    }
+  },
   "pedigree": [
     {
       "id": "2012110091",
@@ -4433,6 +4463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランドマックス (Land Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランドマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランドマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4502,9 +4562,9 @@
       "contentHash": "c5334a646603bc9b48cc2618127dacdb04676aa63b9b4825aa08d5faaa656dbd",
       "byteLength": 66961,
       "rawPath": "netkeiba/horses/2021/2021100251/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:17:03.786Z"
+  "updatedAt": "2026-08-26T03:22:19.941Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100739",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100739/",
-  "profile": null,
+  "profile": {
+    "name": "モンスター",
+    "birthDate": "2022-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05654",
+      "name": "櫻田浩樹"
+    },
+    "owner": {
+      "id": "926034",
+      "name": "高山義朋"
+    },
+    "breeder": {
+      "id": "043063",
+      "name": "タツヤファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2017104915",
+      "name": "ビビットラブ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -2702,6 +2732,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンスター (Monster) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2771,9 +2831,9 @@
       "contentHash": "e4d0fb0c3743ef6fcd284ffcf9962a2f4e8daee17d08043ed4f45c81e664dd15",
       "byteLength": 66015,
       "rawPath": "netkeiba/horses/2022/2022100739/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:17:25.001Z"
+  "updatedAt": "2026-08-29T01:35:31.910Z"
 }

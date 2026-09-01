@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101556",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101556/",
-  "profile": null,
+  "profile": {
+    "name": "アーカート",
+    "birthDate": "2016-04-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05733",
+      "name": "平山真希"
+    },
+    "owner": {
+      "id": "367033",
+      "name": "杉浦和也"
+    },
+    "breeder": {
+      "id": "930005",
+      "name": "澤井義一"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    },
+    "dam": {
+      "id": "2002104848",
+      "name": "フサイチシルヴィ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1997101264",
@@ -1751,6 +1781,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アーカート (Urquhart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーカート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーカート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1820,9 +1880,9 @@
       "contentHash": "a34b71ac5df9d5b369815353bfc3631a040587f0327e476a24bcd5f15494e120",
       "byteLength": 64644,
       "rawPath": "netkeiba/horses/2016/2016101556/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T04:54:59.778Z"
+  "updatedAt": "2026-08-26T03:00:16.847Z"
 }

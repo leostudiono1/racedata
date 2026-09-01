@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104282",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104282/",
-  "profile": null,
+  "profile": {
+    "name": "モンアムール",
+    "birthDate": "2015-04-11",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オンヴェラ On Verra(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2524,6 +2554,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンアムール (Mon Amour) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンアムール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンアムール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2593,9 +2653,9 @@
       "contentHash": "210ea9c811533de23ec5ec4f19623a3feded1caf5d1333150ec97a259a7701dc",
       "byteLength": 65731,
       "rawPath": "netkeiba/horses/2015/2015104282/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:28:25.296Z"
+  "updatedAt": "2026-08-24T06:33:35.060Z"
 }

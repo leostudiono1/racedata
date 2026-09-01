@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110118",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110118/",
-  "profile": null,
+  "profile": {
+    "name": "ナローエース",
+    "birthDate": "2017-01-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "838033",
+      "name": "北尾龍典"
+    },
+    "breeder": {
+      "id": "180734",
+      "name": "Rookie Thoroughbred Racing Stable Inc. & The Brigade Stable Ltd."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Giftie Gie"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Master Command"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -959,6 +989,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナローエース (Narrow Ace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナローエース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナローエース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1028,9 +1088,9 @@
       "contentHash": "4a803d8c56e9e18a806a706bc61f67f1e3898bafe1f1d28030943177965293fc",
       "byteLength": 64495,
       "rawPath": "netkeiba/horses/2017/2017110118/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:36:46.207Z"
+  "updatedAt": "2026-08-28T01:41:13.782Z"
 }

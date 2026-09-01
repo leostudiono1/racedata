@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106943",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106943/",
-  "profile": null,
+  "profile": {
+    "name": "リエラ",
+    "birthDate": "2021-03-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "032800",
+      "name": "ローレルレーシング"
+    },
+    "breeder": {
+      "id": "140337",
+      "name": "松木加代"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2008100552",
+      "name": "ルージュマジック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -1761,6 +1791,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リエラ (Riera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リエラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リエラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1830,9 +1890,9 @@
       "contentHash": "b6f2ff1dd02019bdf221ebc4177001fa18be5e68ede4492be703d4203d58c949",
       "byteLength": 66935,
       "rawPath": "netkeiba/horses/2021/2021106943/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:20:29.815Z"
+  "updatedAt": "2026-08-26T03:25:46.418Z"
 }

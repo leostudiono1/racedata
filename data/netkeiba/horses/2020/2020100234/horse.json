@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100234",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100234/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムアンジェロ",
+    "birthDate": "2020-04-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05738",
+      "name": "平山宏秀"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "810098",
+      "name": "田上徹"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2010104001",
+      "name": "ソリーソアンジェロ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1805,6 +1835,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムアンジェロ (T M Angelo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムアンジェロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムアンジェロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1874,9 +1934,9 @@
       "contentHash": "aba361bbd3d1678f006fa20571caa20d57102785390ef2cf7a5f35f05ec7d295",
       "byteLength": 65467,
       "rawPath": "netkeiba/horses/2020/2020100234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:46:02.750Z"
+  "updatedAt": "2026-08-30T00:57:30.249Z"
 }

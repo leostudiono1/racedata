@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107141",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107141/",
-  "profile": null,
+  "profile": {
+    "name": "ペトリコール",
+    "birthDate": "2023-02-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01168",
+      "name": "上村洋行"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Justify (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ナイセスト Nicest(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1299,6 +1329,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペトリコール (Petrichor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペトリコール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペトリコール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1368,9 +1428,9 @@
       "contentHash": "d9e6c7ee815b2a6faaae23385585cc75fdeb93ea04e9d976decbf36d45e5fe8c",
       "byteLength": 67526,
       "rawPath": "netkeiba/horses/2023/2023107141/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:53:30.190Z"
+  "updatedAt": "2026-08-25T06:04:36.659Z"
 }

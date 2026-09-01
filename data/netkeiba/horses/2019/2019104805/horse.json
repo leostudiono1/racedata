@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104805",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104805/",
-  "profile": null,
+  "profile": {
+    "name": "デコラシオン",
+    "birthDate": "2019-05-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ダリシア Dalicia(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Acatenango"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -4218,6 +4248,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デコラシオン (Decoration) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デコラシオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デコラシオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4287,9 +4347,9 @@
       "contentHash": "f43f28148997c048cb9ce1f30d4233a2b3279d4cb97ab46b98d08568cb651a5b",
       "byteLength": 67293,
       "rawPath": "netkeiba/horses/2019/2019104805/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T08:47:09.245Z"
+  "updatedAt": "2026-08-24T06:52:18.798Z"
 }

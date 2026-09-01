@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101635",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101635/",
-  "profile": null,
+  "profile": {
+    "name": "ルクルス",
+    "birthDate": "2020-03-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01214",
+      "name": "井上智史"
+    },
+    "owner": {
+      "id": "356803",
+      "name": "インゼルレーシング"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2001107654",
+      "name": "チリエージェ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1995,6 +2025,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルクルス (Lucullus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルクルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルクルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2064,9 +2124,9 @@
       "contentHash": "b8c22ca58f7516635333ca7a5062df93eefe16f51b8eccb74c90b33f207f7580",
       "byteLength": 67108,
       "rawPath": "netkeiba/horses/2020/2020101635/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:38:47.813Z"
+  "updatedAt": "2026-08-25T05:49:54.307Z"
 }

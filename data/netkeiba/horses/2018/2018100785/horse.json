@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100785",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100785/",
-  "profile": null,
+  "profile": {
+    "name": "グラッドビート",
+    "birthDate": "2018-03-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "木村健"
+    },
+    "owner": {
+      "id": "x0a247",
+      "name": "有馬久和"
+    },
+    "breeder": {
+      "id": "833394",
+      "name": "戸川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "エスケンデレヤ"
+    },
+    "dam": {
+      "id": "2008102528",
+      "name": "メジロクロユリ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2122,6 +2152,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラッドビート (Glad Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラッドビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラッドビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2191,9 +2251,9 @@
       "contentHash": "507858f4491a791377290240c50f23f1bd66aabb40a503175ab6e97a774d9f1c",
       "byteLength": 67082,
       "rawPath": "netkeiba/horses/2018/2018100785/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T07:29:20.599Z"
+  "updatedAt": "2026-08-25T05:40:27.031Z"
 }

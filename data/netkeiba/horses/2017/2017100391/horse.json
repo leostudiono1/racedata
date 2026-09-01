@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100391",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100391/",
-  "profile": null,
+  "profile": {
+    "name": "ウェルシー",
+    "birthDate": "2017-01-17",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01190",
+      "name": "村田一誠"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タミーン Tameen(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shirocco"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2602,6 +2632,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウェルシー (Wealthy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェルシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェルシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2671,9 +2731,9 @@
       "contentHash": "d7d115b0ef643675408a251692f099729f94c17aa7ffd13576d2e3d5299cc2bb",
       "byteLength": 64685,
       "rawPath": "netkeiba/horses/2017/2017100391/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:32:13.112Z"
+  "updatedAt": "2026-08-28T01:36:40.698Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100676",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100676/",
-  "profile": null,
+  "profile": {
+    "name": "イディル",
+    "birthDate": "2012-03-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "1999109265",
+      "name": "ウォーニングムスメ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーニング Warning(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -12139,6 +12169,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イディル (Idylle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イディル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イディル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -12208,9 +12268,9 @@
       "contentHash": "51aacc91ad9c5378a60aedc5382f42a44e2cc13a21283fba99ed3ef1309ebda3",
       "byteLength": 66859,
       "rawPath": "netkeiba/horses/2012/2012100676/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:13:18.490Z"
+  "updatedAt": "2026-08-30T00:24:46.094Z"
 }

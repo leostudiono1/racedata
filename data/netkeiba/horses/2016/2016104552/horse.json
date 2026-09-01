@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104552",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104552/",
-  "profile": null,
+  "profile": {
+    "name": "スピンク",
+    "birthDate": "2016-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05331",
+      "name": "山崎尋美"
+    },
+    "owner": {
+      "id": "514008",
+      "name": "窪田康志"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2011103897",
+      "name": "ディープラヴ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2278,6 +2308,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スピンク (Spink) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スピンク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スピンク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2347,9 +2407,9 @@
       "contentHash": "5f306703eecfeaad5b4a669ad6c0060c93651f4d694e15753e0cd5499424683e",
       "byteLength": 65488,
       "rawPath": "netkeiba/horses/2016/2016104552/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T03:30:31.491Z"
+  "updatedAt": "2026-08-28T01:34:59.259Z"
 }

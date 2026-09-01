@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110088",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110088/",
-  "profile": null,
+  "profile": {
+    "name": "アースライジング",
+    "birthDate": "2012-04-11",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00353",
+      "name": "和田正道"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "940702",
+      "name": "Larkspur Thoroughbreds & David Soblick"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Oelectra"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gulch"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1056,6 +1086,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アースライジング (Earth Rising) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースライジング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースライジング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1125,9 +1185,9 @@
       "contentHash": "ba2cb4883279a355abb1247f52ab0364e4b95610c92f3eff81579578865f7a4b",
       "byteLength": 65449,
       "rawPath": "netkeiba/horses/2012/2012110088/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:16:37.686Z"
+  "updatedAt": "2026-08-30T00:28:05.632Z"
 }

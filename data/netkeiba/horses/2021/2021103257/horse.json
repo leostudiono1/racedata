@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103257",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103257/",
-  "profile": null,
+  "profile": {
+    "name": "チャコール",
+    "birthDate": "2021-03-29",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2015103352",
+      "name": "マリエット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2528,6 +2558,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャコール (Charcoal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャコール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャコール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2597,9 +2657,9 @@
       "contentHash": "371b81354ef18234baa8fa9b920258ff07ef60b1def096c06f056213ca1a18df",
       "byteLength": 66768,
       "rawPath": "netkeiba/horses/2021/2021103257/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:27:43.941Z"
+  "updatedAt": "2026-08-31T00:42:20.950Z"
 }

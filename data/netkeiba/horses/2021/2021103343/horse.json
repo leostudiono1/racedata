@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103343",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103343/",
-  "profile": null,
+  "profile": {
+    "name": "ハヌル",
+    "birthDate": "2021-02-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01051",
+      "name": "岩戸孝樹"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2012104460",
+      "name": "ムサ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -3750,6 +3780,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハヌル (Haneul) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハヌル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハヌル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3819,9 +3879,9 @@
       "contentHash": "c68e99a34041adad11d81d28131d5ec12072e47cfd8169ff587502c8efe696c1",
       "byteLength": 66635,
       "rawPath": "netkeiba/horses/2021/2021103343/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T03:14:50.947Z"
+  "updatedAt": "2026-08-29T01:32:57.778Z"
 }

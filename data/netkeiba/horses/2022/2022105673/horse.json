@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105673",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105673/",
-  "profile": null,
+  "profile": {
+    "name": "トープ",
+    "birthDate": "2022-02-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パイアルディーナ Paiardina(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Casamento (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2084,6 +2114,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トープ (Taupe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トープ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トープ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2153,9 +2213,9 @@
       "contentHash": "215cd1baaa451a928d502291c197efd9e88c0d5d14419f5105697268ac54cba6",
       "byteLength": 64659,
       "rawPath": "netkeiba/horses/2022/2022105673/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T02:58:24.735Z"
+  "updatedAt": "2026-08-30T01:09:52.458Z"
 }

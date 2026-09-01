@@ -2,7 +2,28 @@
   "schemaVersion": 1,
   "id": "2020101268",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101268/",
-  "profile": null,
+  "profile": {
+    "name": "モズバンディット",
+    "birthDate": null,
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": null,
+    "owner": null,
+    "breeder": null,
+    "birthplace": null,
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2013106245",
+      "name": "アマルティア"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3322,6 +3343,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モズバンディット (Mozu Bandit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズバンディット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズバンディット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3391,9 +3442,9 @@
       "contentHash": "a074f010b93e4c012b6e78d16efc2b67f97d7ef258039e248df7b112533a9ace",
       "byteLength": 66487,
       "rawPath": "netkeiba/horses/2020/2020101268/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:12:26.670Z"
+  "updatedAt": "2026-08-26T03:17:43.691Z"
 }

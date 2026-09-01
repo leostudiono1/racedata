@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100570",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100570/",
-  "profile": null,
+  "profile": {
+    "name": "エヴェット",
+    "birthDate": "2014-05-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2000110100",
+      "name": "アジアンミーティア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1129,6 +1159,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エヴェット (Evet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エヴェット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エヴェット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1198,9 +1258,9 @@
       "contentHash": "aee7626aa2e9af0b80089619a616565a8571ccf016322968d7df80d577b65227",
       "byteLength": 64312,
       "rawPath": "netkeiba/horses/2014/2014100570/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:08:39.643Z"
+  "updatedAt": "2026-08-27T02:19:11.589Z"
 }

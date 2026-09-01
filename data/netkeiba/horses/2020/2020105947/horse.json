@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105947",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105947/",
-  "profile": null,
+  "profile": {
+    "name": "ピュアハルカ",
+    "birthDate": "2020-03-11",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "480033",
+      "name": "鶴見芳子"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2008100102",
+      "name": "ピュアプレジャー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1311,6 +1341,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピュアハルカ (Pure Haruka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピュアハルカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピュアハルカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1380,9 +1440,9 @@
       "contentHash": "fdff9baeac2b3f1b5ffcb8f2c08e40eaf2433d885c8c1140f7b6c055a403e512",
       "byteLength": 65092,
       "rawPath": "netkeiba/horses/2020/2020105947/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T05:15:46.216Z"
+  "updatedAt": "2026-08-26T03:21:03.169Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110041",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110041/",
-  "profile": null,
+  "profile": {
+    "name": "カハンガハンガ",
+    "birthDate": "2022-02-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "046803",
+      "name": "フクキタル"
+    },
+    "breeder": {
+      "id": "160736",
+      "name": "Paca Paca Farm"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Pinatubo (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Kitten's Roar"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kitten's Joy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1181,6 +1211,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カハンガハンガ (Kahanga Hanga) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カハンガハンガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カハンガハンガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1250,9 +1310,9 @@
       "contentHash": "ff93558e982101e8bf8474f51388d9cf19ffc2faa047d6305b63fae6ff6a791b",
       "byteLength": 65935,
       "rawPath": "netkeiba/horses/2022/2022110041/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T02:33:51.612Z"
+  "updatedAt": "2026-08-31T00:48:28.341Z"
 }

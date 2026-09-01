@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106250",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106250/",
-  "profile": null,
+  "profile": {
+    "name": "メグリアイ",
+    "birthDate": "2013-03-09",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "341002",
+      "name": "川島吉男"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2007104224",
+      "name": "メグリ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1158,6 +1188,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メグリアイ (Meguriai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メグリアイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メグリアイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1227,9 +1287,9 @@
       "contentHash": "05d25c43d0f4dae14af85564957057bbed86ce5e577cb2d29df0fc5c953454ed",
       "byteLength": 64633,
       "rawPath": "netkeiba/horses/2013/2013106250/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T01:57:09.160Z"
+  "updatedAt": "2026-08-31T00:11:46.201Z"
 }

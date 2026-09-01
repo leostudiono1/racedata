@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104722",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104722/",
-  "profile": null,
+  "profile": {
+    "name": "ハリスホーク",
+    "birthDate": "2016-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Rio de La Plata (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ウイングステルス Wing Stealth(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hawk Wing"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1409,6 +1439,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハリスホーク (Harris Hawk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハリスホーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハリスホーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1478,9 +1538,9 @@
       "contentHash": "6a68b1cf4237a801c4f8ae1f11671588dc1578fa01a5065eece622a057ba83ec",
       "byteLength": 67288,
       "rawPath": "netkeiba/horses/2016/2016104722/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T04:18:49.222Z"
+  "updatedAt": "2026-08-27T02:29:20.451Z"
 }
