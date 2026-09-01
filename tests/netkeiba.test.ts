@@ -1,11 +1,12 @@
 import { mkdtemp, readFile, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { writeJsonAtomic } from '../src/archive/store.js'
+import { deterministicGzip, readJson, writeFileAtomic, writeJsonAtomic } from '../src/archive/store.js'
+import { archiveNetkeibaHorse, netkeibaHorseDirectory } from '../src/netkeiba/archive.js'
 import { updateNetkeibaArchive, updateNetkeibaHorseShard, updateNetkeibaRaceYear } from '../src/netkeiba/crawler.js'
 import { decodeNetkeibaBytes, detectNetkeibaCharset } from '../src/netkeiba/http.js'
 import { netkeibaRaceIdFor, parseHorseCareer, parseHorsePedigree, parseHorseProfile, parseNetkeibaRace } from '../src/netkeiba/parse.js'
-import { reparseNetkeibaArchive } from '../src/netkeiba/reparse.js'
+import { reparseNetkeibaArchive, reparseNetkeibaHorseShard } from '../src/netkeiba/reparse.js'
 import { netkeibaHorseShard } from '../src/netkeiba/shard.js'
 import type { NetkeibaFetchResponse } from '../src/netkeiba/types.js'
 import { verifyNetkeibaArchive, verifyNetkeibaHorseShard } from '../src/netkeiba/verify.js'
@@ -88,6 +89,20 @@ describe('netkeiba parsing', () => {
     expect(career[0]).toMatchObject({ raceId: '202604030207', surface: '芝', distanceMeters: 1600, prizeYen: 10_000_000 })
   })
 
+  it('prefers the horse profile title over an earlier site heading', async () => {
+    const html = (await fixture('netkeiba-profile.html'))
+      .replace('<body>', '<body><header><h1>netkeiba</h1></header>')
+    const expected = parseHorseProfile(await fixture('netkeiba-profile.html')).name
+    expect(parseHorseProfile(html).name).toBe(expected)
+  })
+
+  it('does not treat an unrelated horse-link table as pedigree data', async () => {
+    const html = '<main><div class="horse_title"><h1>Horse</h1></div><table><tr><th>Related</th>'
+      + '<td><a href="/horse/1/">One</a><a href="/horse/2/">Two</a><a href="/horse/3/">Three</a></td>'
+      + '</tr></table></main>'
+    expect(parseHorseProfile(html)).toMatchObject({ name: 'Horse', sire: null, dam: null, damsire: null })
+  })
+
   it('recognizes supported response encodings', () => {
     const bytes = new TextEncoder().encode('<meta charset="EUC-JP"><p>test</p>')
     expect(detectNetkeibaCharset(bytes, 'text/html')).toBe('euc-jp')
@@ -142,8 +157,33 @@ describe('netkeiba archive integration', () => {
     const horses = await updateNetkeibaHorseShard({ root, shard: 0, shardCount: 1, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
     expect(horses).toMatchObject({ fetched: 6, changed: 6, timeLimitReached: false, errors: [] })
     expect((await verifyNetkeibaHorseShard(root, 0, 1)).errors).toEqual([])
+    const horse = await readJson<{ profile: { sire: { id: string | null } | null; dam: { id: string | null } | null; damsire: { id: string | null } | null } | null }>(
+      join(netkeibaHorseDirectory(root, '2022100001'), 'horse.json'),
+    )
+    expect(horse?.profile).toMatchObject({
+      sire: { id: '2010100001' },
+      dam: { id: '2010100002' },
+      damsire: { id: '2000100003' },
+    })
 
     const repeated = await updateNetkeibaHorseShard({ root, shard: 0, shardCount: 1, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
     expect(repeated).toMatchObject({ fetched: 0, skipped: 6, errors: [] })
+  })
+
+  it('reparses failed horse raw pages within one hash shard without fetching', async () => {
+    const horseId = '2022100001'
+    const url = `https://db.netkeiba.com/horse/${horseId}/`
+    const failed = await archiveNetkeibaHorse(response(url, '<html><body><h1></h1></body></html>'), horseId, 'horse-profile', root)
+    expect(failed.error).toBe('Unable to parse netkeiba horse name')
+
+    const rawPath = join(netkeibaHorseDirectory(root, horseId), 'raw', 'horse-profile.html.gz')
+    const bytes = new TextEncoder().encode(await fixture('netkeiba-profile.html'))
+    await writeFileAtomic(rawPath, deterministicGzip(bytes))
+    const shard = netkeibaHorseShard(horseId, 2)
+    const report = await reparseNetkeibaHorseShard({ root, shard, shardCount: 2 })
+    expect(report).toEqual({ parsed: 1, errors: [] })
+    const record = await readJson<{ profile: { name: string } | null }>(join(netkeibaHorseDirectory(root, horseId), 'horse.json'))
+    expect(record?.profile?.name).toBe(parseHorseProfile(await fixture('netkeiba-profile.html')).name)
+    expect((await verifyNetkeibaHorseShard(root, shard, 2)).errors).toEqual([])
   })
 })

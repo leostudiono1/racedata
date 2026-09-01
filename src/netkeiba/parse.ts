@@ -212,7 +212,10 @@ function labeledEntity(
 
 export function parseHorseProfile(html: string): NetkeibaHorseProfile {
   const $ = cheerio.load(html)
-  const name = compact($('.horse_title h1, .HorseTitle h1, h1').first().text()).replace(/\s+/g, ' ')
+  const name = ['.horse_title h1', '.HorseTitle h1', '.db_prof_area h1', 'main h1', '#contents h1', 'h1']
+    .flatMap((selector) => $(selector).toArray())
+    .map((element) => compact($(element).text()).replace(/\s+/g, ' '))
+    .find(Boolean) ?? ''
   if (!name) throw new Error('Unable to parse netkeiba horse name')
   const description = compact($('.horse_title, .HorseTitle, .db_prof_area').first().text())
   const born = labeledValue($, /生年月日/) ?? description
@@ -243,7 +246,12 @@ export function parseHorseProfile(html: string): NetkeibaHorseProfile {
 
 export function parseHorsePedigree(html: string): NetkeibaPedigreeNode[] {
   const $ = cheerio.load(html)
-  const table = $('table.blood_table, table').filter((_, element) => $(element).find('a[href*="/horse/"]').length >= 3).first()
+  const hasPedigreeLinks = (_: number, element: AnyNode) => $(element).find('a[href*="/horse/"]').length >= 3
+  let table = $('table.blood_table').filter(hasPedigreeLinks).first()
+  if (!table.length) {
+    table = $('table').filter((index, element) => hasPedigreeLinks(index, element)
+      && $(element).find('[rowspan]').length > 0).first()
+  }
   if (!table.length) throw new Error('Unable to find netkeiba pedigree table')
   const occupied: number[] = []
   const nodes: NetkeibaPedigreeNode[] = []

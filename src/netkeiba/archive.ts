@@ -15,11 +15,32 @@ import { emptyHorseRecord, parseHorseCareer, parseHorsePedigree, parseHorseProfi
 import type {
   NetkeibaEntityManifest,
   NetkeibaFetchResponse,
+  NetkeibaHorseProfile,
   NetkeibaHorseRecord,
+  NetkeibaPedigreeNode,
   NetkeibaPageManifest,
   NetkeibaPageType,
   NetkeibaRaceRecord,
 } from './types.js'
+
+function profileWithPedigree(
+  profile: NetkeibaHorseProfile | null,
+  pedigree: NetkeibaPedigreeNode[],
+) {
+  if (!profile) return null
+  const directParents = pedigree.filter((node) => node.generation === 0)
+  const sire = directParents[0]
+  const dam = directParents[1]
+  const damsire = dam
+    ? pedigree.find((node) => node.generation === 1 && node.row >= dam.row && node.row < dam.row + dam.rowSpan)
+    : null
+  return {
+    ...profile,
+    sire: sire ? { id: sire.id, name: sire.name } : profile.sire,
+    dam: dam ? { id: dam.id, name: dam.name } : profile.dam,
+    damsire: damsire ? { id: damsire.id, name: damsire.name } : profile.damsire,
+  }
+}
 
 export interface NetkeibaArchiveResult<T> {
   changed: boolean
@@ -144,9 +165,12 @@ export async function archiveNetkeibaHorse(
   let record = existingRecord ?? emptyHorseRecord(horseId, `https://db.netkeiba.com/horse/${horseId}/`, response.fetchedAt)
   let error: string | null = null
   try {
-    if (pageType === 'horse-profile') record = { ...record, profile: parseHorseProfile(response.html) }
-    else if (pageType === 'horse-pedigree') record = { ...record, pedigree: parseHorsePedigree(response.html) }
-    else record = { ...record, career: parseHorseCareer(response.html) }
+    if (pageType === 'horse-profile') {
+      record = { ...record, profile: profileWithPedigree(parseHorseProfile(response.html), record.pedigree) }
+    } else if (pageType === 'horse-pedigree') {
+      const pedigree = parseHorsePedigree(response.html)
+      record = { ...record, pedigree, profile: profileWithPedigree(record.profile, pedigree) }
+    } else record = { ...record, career: parseHorseCareer(response.html) }
     record = {
       ...record,
       pageDocuments: {

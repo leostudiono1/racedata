@@ -1,0 +1,157 @@
+name: Repair netkeiba archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: netkeiba-enrichment-archive
+  cancel-in-progress: false
+
+jobs:
+  reparse_profiles:
+    name: Reparse horse profiles ${{ matrix.shard }}/8
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Synchronize archive
+        run: git pull --ff-only origin main
+      - id: reparse
+        name: Reparse failed raw pages
+        continue-on-error: true
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: npm run data:netkeiba:reparse-horses -- --shard "$SHARD" --shard-count 8
+      - id: verify
+        name: Verify reparsed horse shard
+        continue-on-error: true
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: npm run data:netkeiba:verify-horses -- --shard "$SHARD" --shard-count 8
+      - name: Save reparsed horse shard
+        if: always()
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/netkeiba
+          if ! git diff --cached --quiet; then
+            git commit -m "data: reparse netkeiba horse profiles shard $SHARD"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Propagate reparse failure
+        if: steps.reparse.outcome == 'failure' || steps.verify.outcome == 'failure'
+        run: exit 1
+
+  repair_missing_horse_pages:
+    name: Repair horse pages shard ${{ matrix.shard }}/64
+    needs: reparse_profiles
+    if: ${{ always() && needs.reparse_profiles.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        shard: [13, 58]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Synchronize archive
+        run: git pull --ff-only origin main
+      - id: collect
+        name: Fetch missing horse pages
+        continue-on-error: true
+        env:
+          SHARD: ${{ matrix.shard }}
+          NETKEIBA_REQUEST_DELAY_MS: '3500'
+          NETKEIBA_REQUEST_RETRIES: '2'
+        run: npm run data:netkeiba:horses -- --shard "$SHARD" --shard-count 64 --max-runtime-minutes 330
+      - id: verify
+        name: Verify repaired horse shard
+        continue-on-error: true
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: npm run data:netkeiba:verify-horses -- --shard "$SHARD" --shard-count 64
+      - name: Save repaired horse shard
+        if: always()
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/netkeiba
+          if ! git diff --cached --quiet; then
+            git commit -m "data: repair netkeiba horse pages shard $SHARD"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Propagate repair failure
+        if: steps.collect.outcome == 'failure' || steps.verify.outcome == 'failure'
+        run: exit 1
+
+  repair_current_races:
+    name: Repair races 2026
+    needs: repair_missing_horse_pages
+    if: ${{ always() && needs.repair_missing_horse_pages.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Synchronize archive
+        run: git pull --ff-only origin main
+      - id: collect
+        name: Fetch missing 2026 race results
+        continue-on-error: true
+        env:
+          NETKEIBA_REQUEST_DELAY_MS: '3500'
+          NETKEIBA_REQUEST_RETRIES: '2'
+        run: npm run data:netkeiba:races -- --year 2026 --max-runtime-minutes 330
+      - id: verify
+        name: Verify races 2026
+        continue-on-error: true
+        run: npm run data:netkeiba:verify -- --year 2026
+      - name: Save repaired races
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/netkeiba
+          if ! git diff --cached --quiet; then
+            git commit -m "data: repair netkeiba races 2026"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Propagate repair failure
+        if: steps.collect.outcome == 'failure' || steps.verify.outcome == 'failure'
+        run: exit 1
