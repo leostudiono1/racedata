@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105620",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105620/",
-  "profile": null,
+  "profile": {
+    "name": "イイチョ",
+    "birthDate": "2011-03-26",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "320030",
+      "name": "幅田京子"
+    },
+    "breeder": {
+      "id": "100034",
+      "name": "岡本牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フィリグリーレース Filigree Lace(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2105,6 +2135,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イイチョ (Iicho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イイチョ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イイチョ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2174,9 +2234,9 @@
       "contentHash": "c5405865b876c5ecac0695a22b817566146332845f4f5fd9235d3ef18477415b",
       "byteLength": 64934,
       "rawPath": "netkeiba/horses/2011/2011105620/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:01:41.893Z"
+  "updatedAt": "2026-08-28T13:06:51.498Z"
 }

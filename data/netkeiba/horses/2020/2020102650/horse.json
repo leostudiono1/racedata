@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102650",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102650/",
-  "profile": null,
+  "profile": {
+    "name": "ドラクロワ",
+    "birthDate": "2020-01-24",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2011104485",
+      "name": "グリサージュ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1256,6 +1286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドラクロワ (Delacroix) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドラクロワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドラクロワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1325,9 +1385,9 @@
       "contentHash": "6e2612133a0322aec8e532f967864ca7dd55184bbe116dffec0af2969acefacf",
       "byteLength": 66734,
       "rawPath": "netkeiba/horses/2020/2020102650/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:10:54.291Z"
+  "updatedAt": "2026-08-24T18:23:11.162Z"
 }

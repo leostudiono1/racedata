@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104378",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104378/",
-  "profile": null,
+  "profile": {
+    "name": "リードザウインド",
+    "birthDate": "2015-03-23",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "1995107985",
+      "name": "ストームティグレス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2436,6 +2466,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リードザウインド (Read the Wind) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リードザウインド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リードザウインド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2505,9 +2565,9 @@
       "contentHash": "ce0c6e8ed703f92e0c4a65a40a96bb348b37cd834c2509c242f80255d3e06516",
       "byteLength": 67119,
       "rawPath": "netkeiba/horses/2015/2015104378/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:11:32.455Z"
+  "updatedAt": "2026-08-30T12:21:35.942Z"
 }

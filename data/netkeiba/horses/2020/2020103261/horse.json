@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103261",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103261/",
-  "profile": null,
+  "profile": {
+    "name": "アウクソー",
+    "birthDate": "2020-02-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "465030",
+      "name": "大島昌也"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "2011110051",
+      "name": "ヴィリエルバクル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -3597,6 +3627,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウクソー (Auxo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウクソー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウクソー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3666,9 +3726,9 @@
       "contentHash": "4e5020494930586f0bf1d10d795923a0a374a0abd5ef70d06ba95e5b9fac5067",
       "byteLength": 66918,
       "rawPath": "netkeiba/horses/2020/2020103261/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:32:11.719Z"
+  "updatedAt": "2026-08-30T12:42:15.288Z"
 }

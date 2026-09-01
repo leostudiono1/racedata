@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105613",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105613/",
-  "profile": null,
+  "profile": {
+    "name": "マンティコア",
+    "birthDate": "2020-04-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05607",
+      "name": "堀千亜樹"
+    },
+    "owner": {
+      "id": "638009",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2010110070",
+      "name": "ヴォルドニュイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Mesa"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2815,6 +2845,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マンティコア (Manticore) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンティコア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マンティコア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2884,9 +2944,9 @@
       "contentHash": "1fbd412e0957037efb9ee9e1335c155304bddc0d846091cbf48758757b32cc76",
       "byteLength": 66856,
       "rawPath": "netkeiba/horses/2020/2020105613/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:39:02.688Z"
+  "updatedAt": "2026-08-28T13:44:12.245Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104775",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104775/",
-  "profile": null,
+  "profile": {
+    "name": "ポロタン",
+    "birthDate": "2010-02-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00413",
+      "name": "田中章博"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2004109293",
+      "name": "シキノイロドリ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -5740,6 +5770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポロタン (Porotan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポロタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポロタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5809,9 +5869,9 @@
       "contentHash": "f21e2909186cf5e5249922615ab5b5470f9b350f778e2a6d5e1373890fc4e2e4",
       "byteLength": 66600,
       "rawPath": "netkeiba/horses/2010/2010104775/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:35:07.975Z"
+  "updatedAt": "2026-08-24T17:47:24.782Z"
 }

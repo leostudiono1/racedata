@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106956",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106956/",
-  "profile": null,
+  "profile": {
+    "name": "サングラント",
+    "birthDate": "2023-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "268033",
+      "name": "野田努"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2007103149",
+      "name": "カールファターレ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1393,6 +1423,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サングラント (Sangrant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サングラント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サングラント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1462,9 +1522,9 @@
       "contentHash": "013a475d94f04cea6f9f7f0202d67d8d6712db4bec5dc3790b319bd1e66a56a3",
       "byteLength": 67124,
       "rawPath": "netkeiba/horses/2023/2023106956/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:14:11.453Z"
+  "updatedAt": "2026-08-29T13:22:37.162Z"
 }

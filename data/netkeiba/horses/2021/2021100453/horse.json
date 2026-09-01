@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100453",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100453/",
-  "profile": null,
+  "profile": {
+    "name": "スコア",
+    "birthDate": "2021-03-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05230",
+      "name": "迫田清美"
+    },
+    "owner": {
+      "id": "x02e3e",
+      "name": "蟹江知彦"
+    },
+    "breeder": {
+      "id": "833058",
+      "name": "三石川上牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2014101364",
+      "name": "ケーズノーツ"
+    },
+    "damsire": {
+      "id": "2000102261",
+      "name": "サクラプレジデント"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -4110,6 +4140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スコア (Score) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スコア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スコア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4179,9 +4239,9 @@
       "contentHash": "b14e30695627862db814a80ded5b219ed16c09d712325ee6f3811f0d04c17c1b",
       "byteLength": 66736,
       "rawPath": "netkeiba/horses/2021/2021100453/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:06:23.428Z"
+  "updatedAt": "2026-08-27T14:15:38.014Z"
 }

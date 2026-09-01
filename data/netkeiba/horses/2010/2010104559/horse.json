@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104559",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104559/",
-  "profile": null,
+  "profile": {
+    "name": "クロスボウ",
+    "birthDate": "2010-04-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2001103006",
+      "name": "マンティスハント"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -4666,6 +4696,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロスボウ (Crossbow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロスボウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロスボウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4735,9 +4795,9 @@
       "contentHash": "9f062752f90bee893d312dad3b1092bb486a392f3bbb8f02bfc0fa2637142f6c",
       "byteLength": 67272,
       "rawPath": "netkeiba/horses/2010/2010104559/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T13:55:32.785Z"
+  "updatedAt": "2026-08-30T12:05:36.677Z"
 }

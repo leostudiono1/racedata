@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110049",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110049/",
-  "profile": null,
+  "profile": {
+    "name": "ブラカー",
+    "birthDate": "2019-02-06",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "350873",
+      "name": "J. S. Bolger"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Dawn Approach (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Lonrach"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Holy Roman Emperor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4864,6 +4894,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラカー (Breacadh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4933,9 +4993,9 @@
       "contentHash": "3c6b0111e70bc03835164aaa47836b6d8dbc11dcc7384f0ac0ab9353851f8f3f",
       "byteLength": 66385,
       "rawPath": "netkeiba/horses/2019/2019110049/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:36:18.141Z"
+  "updatedAt": "2026-08-28T13:41:27.719Z"
 }

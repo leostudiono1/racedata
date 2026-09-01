@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103228",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103228/",
-  "profile": null,
+  "profile": {
+    "name": "グレイテスト",
+    "birthDate": "2016-02-24",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05728",
+      "name": "藤田輝信"
+    },
+    "owner": {
+      "id": "374008",
+      "name": "荒井元明"
+    },
+    "breeder": {
+      "id": "541543",
+      "name": "スマイルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2004101095",
+      "name": "コリンシアン"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3869,6 +3899,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレイテスト (Greatest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレイテスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレイテスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3938,9 +3998,9 @@
       "contentHash": "c5591a165e5d18f02522503f398030127b0b8841f6e5337a52bebe7ed63d4a19",
       "byteLength": 66917,
       "rawPath": "netkeiba/horses/2016/2016103228/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:20:18.745Z"
+  "updatedAt": "2026-08-28T13:25:28.367Z"
 }

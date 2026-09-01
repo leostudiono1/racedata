@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103473",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103473/",
-  "profile": null,
+  "profile": {
+    "name": "ベルサ",
+    "birthDate": "2022-05-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "334803",
+      "name": "ケーエスＨＤ"
+    },
+    "breeder": {
+      "id": "533068",
+      "name": "上野正恵"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2008100052",
+      "name": "ローズアダージョ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2446,6 +2476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルサ (Bersa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2515,9 +2575,9 @@
       "contentHash": "7d8e9211c8743dd10fbaaa66cb1186a3843d867fa99ae7ab5ee45ac040b1438a",
       "byteLength": 65859,
       "rawPath": "netkeiba/horses/2022/2022103473/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:01:36.580Z"
+  "updatedAt": "2026-08-26T15:08:52.568Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101399",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101399/",
-  "profile": null,
+  "profile": {
+    "name": "ザウリ",
+    "birthDate": "2019-04-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "541334",
+      "name": "奥山博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2004103033",
+      "name": "ディマクコンダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "バチアー Bachir(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -4701,6 +4731,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザウリ (Zaouli) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザウリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザウリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4770,9 +4830,9 @@
       "contentHash": "d82a59e890ebf23c8dec1819d74a5e96a853d4edc960b637a8db1e01bd3986bf",
       "byteLength": 67134,
       "rawPath": "netkeiba/horses/2019/2019101399/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:32:34.260Z"
+  "updatedAt": "2026-08-28T13:37:43.564Z"
 }

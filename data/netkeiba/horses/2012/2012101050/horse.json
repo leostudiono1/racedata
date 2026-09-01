@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101050",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101050/",
-  "profile": null,
+  "profile": {
+    "name": "キングコースト",
+    "birthDate": "2012-05-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01091",
+      "name": "羽月友彦"
+    },
+    "owner": {
+      "id": "763004",
+      "name": "宮本貞雄"
+    },
+    "breeder": {
+      "id": "833345",
+      "name": "石原牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "2005102842",
+      "name": "ハッピーラベンダー"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -1880,6 +1910,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングコースト (King Coast) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングコースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングコースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1949,9 +2009,9 @@
       "contentHash": "a85e3690b9dd4a76fb2f9564c06aee42baea40fc623401e5d977230eaf9ebd85",
       "byteLength": 64568,
       "rawPath": "netkeiba/horses/2012/2012101050/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:23:04.304Z"
+  "updatedAt": "2026-08-29T12:31:30.073Z"
 }

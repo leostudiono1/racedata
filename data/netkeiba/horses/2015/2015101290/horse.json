@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101290",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101290/",
-  "profile": null,
+  "profile": {
+    "name": "スニッファー",
+    "birthDate": "2015-04-05",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "910006",
+      "name": "伊達敏明"
+    },
+    "breeder": {
+      "id": "935496",
+      "name": "サンシャイン牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102831",
+      "name": "フェデラリスト"
+    },
+    "dam": {
+      "id": "2007105476",
+      "name": "アンペラトリス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102831",
@@ -1872,6 +1902,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スニッファー (Sniffer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スニッファー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スニッファー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1941,9 +2001,9 @@
       "contentHash": "f3ef089f097e0f91e642ee8c02f65eb02678450e893bb94bf79292e57c63fa3f",
       "byteLength": 64470,
       "rawPath": "netkeiba/horses/2015/2015101290/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:14:46.110Z"
+  "updatedAt": "2026-08-28T13:19:55.844Z"
 }

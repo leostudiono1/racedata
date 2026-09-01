@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104765",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104765/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーゴールド",
+    "birthDate": "2022-02-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "グローバルビューティ Global Beauty(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Global Hunter"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1995,6 +2025,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーゴールド (Mikki Gold) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーゴールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーゴールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2064,9 +2124,9 @@
       "contentHash": "0139dbbd52db512b14418e7a357aa56249824da808b8e629dbe878d02ee3c278",
       "byteLength": 67169,
       "rawPath": "netkeiba/horses/2022/2022104765/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:41:28.276Z"
+  "updatedAt": "2026-08-30T12:51:32.208Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110130",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110130/",
-  "profile": null,
+  "profile": {
+    "name": "テンプルステイ",
+    "birthDate": "2013-10-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "320707",
+      "name": "Cressfield Indian Pacific Bloodstock"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Sepoy"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Absolutelyfabulous"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Langfuhr (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -963,6 +993,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンプルステイ (Temple Stay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンプルステイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンプルステイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1032,9 +1092,9 @@
       "contentHash": "dea7b1a0a5f495c47178367a2cb1e3170fb121f6a4cdd0b694fe6f97602e2b09",
       "byteLength": 64572,
       "rawPath": "netkeiba/horses/2013/2013110130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:25:29.169Z"
+  "updatedAt": "2026-08-26T14:32:45.496Z"
 }

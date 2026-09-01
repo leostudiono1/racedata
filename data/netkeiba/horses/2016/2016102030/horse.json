@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102030",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102030/",
-  "profile": null,
+  "profile": {
+    "name": "ロロペニ",
+    "birthDate": "2016-03-21",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2006103148",
+      "name": "マカロンドナンシー"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1174,6 +1204,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロロペニ (Loropeni) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロロペニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロロペニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1243,9 +1303,9 @@
       "contentHash": "abf1f1f94be4f869ce91662a677961f8b45be23a5d037934637741ad3f87941c",
       "byteLength": 64598,
       "rawPath": "netkeiba/horses/2016/2016102030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:56:04.126Z"
+  "updatedAt": "2026-08-31T12:04:57.766Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103815",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103815/",
-  "profile": null,
+  "profile": {
+    "name": "トーセングラン",
+    "birthDate": "2016-04-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スタイルアンドクラス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2492,6 +2522,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセングラン (Tosen Grand) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセングラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセングラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2561,9 +2621,9 @@
       "contentHash": "289568ac916be95c09ed5ebf5e9d98adc495e971ea51dee75d8a8ad7711e6042",
       "byteLength": 66977,
       "rawPath": "netkeiba/horses/2016/2016103815/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:41:41.659Z"
+  "updatedAt": "2026-08-29T12:50:07.017Z"
 }

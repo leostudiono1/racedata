@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024106942",
   "sourceUrl": "https://db.netkeiba.com/horse/2024106942/",
-  "profile": null,
+  "profile": {
+    "name": "レインボースター",
+    "birthDate": "2024-03-23",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01215",
+      "name": "加藤公太"
+    },
+    "owner": {
+      "id": "492034",
+      "name": "伊藤泰子"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2007104556",
+      "name": "レインボーダリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1311,6 +1341,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レインボースター (Rainbow Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レインボースター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レインボースター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1380,9 +1440,9 @@
       "contentHash": "696270b1cc035d48103d4139270d33b80efcfcc89afffc5d7b3d6d5fe8ae9915",
       "byteLength": 64866,
       "rawPath": "netkeiba/horses/2024/2024106942/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:10:14.865Z"
+  "updatedAt": "2026-08-26T15:17:30.782Z"
 }

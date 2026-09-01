@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103213",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103213/",
-  "profile": null,
+  "profile": {
+    "name": "キュムラス",
+    "birthDate": "2020-03-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2013106072",
+      "name": "アドマイヤリード"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1234,6 +1264,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キュムラス (Cumulus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュムラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュムラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1303,9 +1363,9 @@
       "contentHash": "563bcc670fcd0e34f8af35edcd104e9e0ada133358b4bcae3a006f61752900b5",
       "byteLength": 66325,
       "rawPath": "netkeiba/horses/2020/2020103213/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:15:22.824Z"
+  "updatedAt": "2026-08-31T12:24:16.625Z"
 }

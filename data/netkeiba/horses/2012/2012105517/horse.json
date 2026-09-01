@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105517",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105517/",
-  "profile": null,
+  "profile": {
+    "name": "イオ",
+    "birthDate": "2012-03-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01029",
+      "name": "根本康広"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "033018",
+      "name": "平成ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "1997100930",
+      "name": "クラウンガルチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gulch"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -1324,6 +1354,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イオ (Io) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1393,9 +1453,9 @@
       "contentHash": "12e0a3be6d0f76d7a626be10dba39ef50a2ceee29d041a3dbbe46a52b678b5ec",
       "byteLength": 64434,
       "rawPath": "netkeiba/horses/2012/2012105517/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:24:56.282Z"
+  "updatedAt": "2026-08-29T12:33:22.211Z"
 }

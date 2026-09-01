@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104297",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104297/",
-  "profile": null,
+  "profile": {
+    "name": "ポイントブランク",
+    "birthDate": "2010-04-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Ghostzapper"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ポイントアシュリー Point Ashley(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Point Given (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3573,6 +3603,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポイントブランク (Pointblank) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポイントブランク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポイントブランク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3642,9 +3702,9 @@
       "contentHash": "7f6f741bb26419a7605059ef7a19f374fd2961284b91079076b0bfa67ae5467a",
       "byteLength": 67404,
       "rawPath": "netkeiba/horses/2010/2010104297/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:26:39.068Z"
+  "updatedAt": "2026-08-27T13:35:53.789Z"
 }

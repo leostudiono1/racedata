@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106653",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106653/",
-  "profile": null,
+  "profile": {
+    "name": "ローメット",
+    "birthDate": "2023-03-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "053803",
+      "name": "杉山忠国"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2015102657",
+      "name": "リュニヴェール"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1733,6 +1763,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローメット (Rommet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローメット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローメット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1802,9 +1862,9 @@
       "contentHash": "d622dc9ac1b2ee469cc072c75fbe9852dbf4e0de45649c0bbca5106d69957fe2",
       "byteLength": 66153,
       "rawPath": "netkeiba/horses/2023/2023106653/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:08:50.695Z"
+  "updatedAt": "2026-08-26T15:16:06.605Z"
 }

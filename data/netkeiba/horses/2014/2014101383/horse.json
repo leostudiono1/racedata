@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101383",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101383/",
-  "profile": null,
+  "profile": {
+    "name": "ショルト",
+    "birthDate": "2014-06-03",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05727",
+      "name": "福永敏"
+    },
+    "owner": {
+      "id": "053803",
+      "name": "杉山忠国"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2009110111",
+      "name": "アンコンソールド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3010,6 +3040,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショルト (Chort) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3079,9 +3139,9 @@
       "contentHash": "59cc4f0b38287af1b7493a6d92ff992cae381c11952e02a645b3b37016e6a466",
       "byteLength": 64625,
       "rawPath": "netkeiba/horses/2014/2014101383/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:30:39.485Z"
+  "updatedAt": "2026-08-29T12:39:05.856Z"
 }

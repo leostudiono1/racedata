@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100238",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100238/",
-  "profile": null,
+  "profile": {
+    "name": "サニースマイル",
+    "birthDate": "2022-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01091",
+      "name": "羽月友彦"
+    },
+    "owner": {
+      "id": "071803",
+      "name": "大森悌次"
+    },
+    "breeder": {
+      "id": "230047",
+      "name": "鮫川啓一"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2017102970",
+      "name": "ガラシャ"
+    },
+    "damsire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1463,6 +1493,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サニースマイル (Sunny Smile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サニースマイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サニースマイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1532,9 +1592,9 @@
       "contentHash": "fcf0c643bcc606f46d683169ecaca4058040cde6b3adb3f96dbfe0ac1bac7eaf",
       "byteLength": 65786,
       "rawPath": "netkeiba/horses/2022/2022100238/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:38:47.182Z"
+  "updatedAt": "2026-08-30T12:48:51.032Z"
 }

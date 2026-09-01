@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2012100310",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100310/",
-  "profile": null,
+  "profile": {
+    "name": "アウリン",
+    "birthDate": "2012-03-03",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "777004",
+      "name": "山本弥恵子"
+    },
+    "breeder": {
+      "id": "730337",
+      "name": "須崎牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "アウリン (Aulin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "4fa65dab057e26f0895d7407e1ac86743f8f2f2d13dc976f74af7376d8dd4834",
       "byteLength": 64438,
       "rawPath": "netkeiba/horses/2012/2012100310/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T16:55:11.243Z"

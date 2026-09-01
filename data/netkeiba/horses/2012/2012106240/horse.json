@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106240",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106240/",
-  "profile": null,
+  "profile": {
+    "name": "ソチ",
+    "birthDate": "2012-04-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01122",
+      "name": "日吉正和"
+    },
+    "owner": {
+      "id": "279008",
+      "name": "石川幸司"
+    },
+    "breeder": {
+      "id": "033071",
+      "name": "大滝康晴"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アドベンチャーオン Adventure On(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Relaunch"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -4346,6 +4376,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソチ (Sochi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4415,9 +4475,9 @@
       "contentHash": "ba93d9753b95050ea99d704d1f0a7f2e56efa76a80e11cddb351f39bb3e8b7d6",
       "byteLength": 64227,
       "rawPath": "netkeiba/horses/2012/2012106240/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:25:20.899Z"
+  "updatedAt": "2026-08-29T12:33:46.654Z"
 }

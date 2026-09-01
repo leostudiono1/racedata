@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110033",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110033/",
-  "profile": null,
+  "profile": {
+    "name": "ベルサリエーレ",
+    "birthDate": "2010-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05370",
+      "name": "住吉朝男"
+    },
+    "owner": {
+      "id": "260006",
+      "name": "藤田孟司"
+    },
+    "breeder": {
+      "id": "570889",
+      "name": "Takeshi Fujita"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Smarty Jones (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Knight Prospector"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Native Prospector"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5690,6 +5720,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルサリエーレ (Bersagliere) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルサリエーレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルサリエーレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5759,9 +5819,9 @@
       "contentHash": "d066b3b9defd9fb393352c52903f3b06408e12e76557a0172d3e616be97b5798",
       "byteLength": 66695,
       "rawPath": "netkeiba/horses/2010/2010110033/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:00:03.850Z"
+  "updatedAt": "2026-08-28T13:05:13.533Z"
 }

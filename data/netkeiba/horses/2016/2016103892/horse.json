@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103892",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103892/",
-  "profile": null,
+  "profile": {
+    "name": "トシエ",
+    "birthDate": "2016-02-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05462",
+      "name": "小林真治"
+    },
+    "owner": {
+      "id": "959030",
+      "name": "井上久光"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2003105692",
+      "name": "マヤノプリヤ"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -3481,6 +3511,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トシエ (Toshie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トシエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トシエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3550,9 +3610,9 @@
       "contentHash": "bfc0bb2e1309765ddebf40f1891c4d75789cb49292e94f83242c39fc6f25eae6",
       "byteLength": 66759,
       "rawPath": "netkeiba/horses/2016/2016103892/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:41:44.987Z"
+  "updatedAt": "2026-08-29T12:50:10.480Z"
 }

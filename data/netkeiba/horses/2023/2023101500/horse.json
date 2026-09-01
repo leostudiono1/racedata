@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101500",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101500/",
-  "profile": null,
+  "profile": {
+    "name": "クロカミジョウ",
+    "birthDate": "2023-04-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "321004",
+      "name": "河内孝夫"
+    },
+    "breeder": {
+      "id": "733329",
+      "name": "増尾牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2016103684",
+      "name": "キタノオドリコ"
+    },
+    "damsire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1857,6 +1887,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロカミジョウ (Kurokami Jo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロカミジョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロカミジョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1926,9 +1986,9 @@
       "contentHash": "0e3fb81e145b623956bfb65ada9217989184e4130f9698510a165e5cbba27c39",
       "byteLength": 65035,
       "rawPath": "netkeiba/horses/2023/2023101500/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:50:21.873Z"
+  "updatedAt": "2026-08-28T13:55:31.544Z"
 }

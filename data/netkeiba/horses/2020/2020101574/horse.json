@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101574",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101574/",
-  "profile": null,
+  "profile": {
+    "name": "ギョウネン",
+    "birthDate": "2020-03-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "044803",
+      "name": "由井健太郎"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2006105475",
+      "name": "タイキオードリー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2340,6 +2370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ギョウネン (Gyonen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギョウネン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギョウネン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2409,9 +2469,9 @@
       "contentHash": "6998f5b536b1ce5de8fe927cfc431f07059100f7004ea695d12015410b4c0934",
       "byteLength": 66807,
       "rawPath": "netkeiba/horses/2020/2020101574/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:31:19.119Z"
+  "updatedAt": "2026-08-30T12:41:22.764Z"
 }

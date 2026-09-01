@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100253",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100253/",
-  "profile": null,
+  "profile": {
+    "name": "ベルホルト",
+    "birthDate": "2013-05-06",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00405",
+      "name": "小西一男"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "903354",
+      "name": "庫宝牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "2001100193",
+      "name": "マイネオルビット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -1452,6 +1482,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルホルト (Berthold) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルホルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルホルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1521,9 +1581,9 @@
       "contentHash": "e30d63e739353d6200fa2d6ca6d477c48ccbb03f339421df7398b3cd0e30cdf1",
       "byteLength": 64968,
       "rawPath": "netkeiba/horses/2013/2013100253/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:25:52.328Z"
+  "updatedAt": "2026-08-29T12:34:18.128Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105605",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105605/",
-  "profile": null,
+  "profile": {
+    "name": "アイルドリアン",
+    "birthDate": "2021-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01214",
+      "name": "井上智史"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2004110007",
+      "name": "スターアイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1752,6 +1782,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイルドリアン (Isle du Lien) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイルドリアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイルドリアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1821,9 +1881,9 @@
       "contentHash": "ad35ff80ca5f76bffd7c812f125ae4066e35594b83ff5a1e03e7fe7b86fe927c",
       "byteLength": 67033,
       "rawPath": "netkeiba/horses/2021/2021105605/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:37:19.648Z"
+  "updatedAt": "2026-08-30T12:47:23.355Z"
 }

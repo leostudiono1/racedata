@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103739",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103739/",
-  "profile": null,
+  "profile": {
+    "name": "ベアマックス",
+    "birthDate": "2020-02-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "372033",
+      "name": "熊木浩"
+    },
+    "breeder": {
+      "id": "310383",
+      "name": "登別上水牧場"
+    },
+    "birthplace": "登別市",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2007102734",
+      "name": "ダンシングマオ"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1039,6 +1069,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベアマックス (Bear Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1108,9 +1168,9 @@
       "contentHash": "4d73febe93eeb121f2ef81fab89800b3410d10b097a2b96c6ccec2db2bea9405",
       "byteLength": 64706,
       "rawPath": "netkeiba/horses/2020/2020103739/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:32:36.081Z"
+  "updatedAt": "2026-08-30T12:42:39.803Z"
 }

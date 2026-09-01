@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105319",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105319/",
-  "profile": null,
+  "profile": {
+    "name": "レウィシア",
+    "birthDate": "2014-01-20",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "221007",
+      "name": "吉田安惠"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2005102084",
+      "name": "リュートフルシティ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1182,6 +1212,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レウィシア (Lewisia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レウィシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レウィシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1251,9 +1311,9 @@
       "contentHash": "58912b33ac3235f08a2ebabb637cf9db6be380ad69b47109f36643933769f905",
       "byteLength": 64387,
       "rawPath": "netkeiba/horses/2014/2014105319/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:28:27.892Z"
+  "updatedAt": "2026-08-26T14:35:43.911Z"
 }

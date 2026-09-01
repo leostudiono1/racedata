@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110091",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110091/",
-  "profile": null,
+  "profile": {
+    "name": "ベラポーサ",
+    "birthDate": "2013-05-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "151006",
+      "name": "吉田和子"
+    },
+    "breeder": {
+      "id": "300825",
+      "name": "Gainesway Thoroughbreds Ltd."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Livin Lovin"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Birdstone"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2494,6 +2524,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベラポーサ (Bella Posa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベラポーサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベラポーサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2563,9 +2623,9 @@
       "contentHash": "241d3b33ae8c179f376a7cc652f4eda89cacfef9be784bdd82a0100d18c0499f",
       "byteLength": 67030,
       "rawPath": "netkeiba/horses/2013/2013110091/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:05:14.384Z"
+  "updatedAt": "2026-08-30T12:15:17.919Z"
 }

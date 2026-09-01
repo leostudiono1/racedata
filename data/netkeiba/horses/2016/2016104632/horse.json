@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104632",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104632/",
-  "profile": null,
+  "profile": {
+    "name": "カントル",
+    "birthDate": "2016-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2006103348",
+      "name": "ミスアンコール"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3447,6 +3477,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カントル (Cantor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カントル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カントル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3516,9 +3576,9 @@
       "contentHash": "1dcbb97d3ce330ac65a350320146319ec89eb125d054f8ba2f60fb7d1ade62b6",
       "byteLength": 67052,
       "rawPath": "netkeiba/horses/2016/2016104632/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:56:15.413Z"
+  "updatedAt": "2026-08-24T18:08:32.252Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110010",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110010/",
-  "profile": null,
+  "profile": {
+    "name": "メートルソヴァール",
+    "birthDate": "2017-03-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "970730",
+      "name": "La Mere Co. Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Lawman"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ユーブゴットイット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1099,6 +1129,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メートルソヴァール (Maitre Sauveur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メートルソヴァール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メートルソヴァール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1168,9 +1228,9 @@
       "contentHash": "527b47c5aeb2398a3c06c09c18f68246c3a3cddf6497425bbcf2314570f39255",
       "byteLength": 65152,
       "rawPath": "netkeiba/horses/2017/2017110010/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:03:32.129Z"
+  "updatedAt": "2026-08-31T12:12:25.934Z"
 }

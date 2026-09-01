@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101397",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101397/",
-  "profile": null,
+  "profile": {
+    "name": "チェルビート",
+    "birthDate": "2019-05-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "669033",
+      "name": "中村智幸"
+    },
+    "breeder": {
+      "id": "541334",
+      "name": "奥山博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2001100015",
+      "name": "チェルビム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1100,6 +1130,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チェルビート (Cheru Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェルビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェルビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1169,9 +1229,9 @@
       "contentHash": "0c65cd0ededaf62c05b8e2d148945606dccbe362d70a8bc70291a5058cefe476",
       "byteLength": 65258,
       "rawPath": "netkeiba/horses/2019/2019101397/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:25:39.428Z"
+  "updatedAt": "2026-08-30T12:35:43.165Z"
 }

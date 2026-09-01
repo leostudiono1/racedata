@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103539",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103539/",
-  "profile": null,
+  "profile": {
+    "name": "タマノオータム",
+    "birthDate": "2014-02-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "960030",
+      "name": "玉腰勇吉"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "グリーンダンディ Green Dandy(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1404,6 +1434,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タマノオータム (Tamano Autumn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマノオータム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマノオータム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1473,9 +1533,9 @@
       "contentHash": "5e1557801cd563fcaefd91815b979bf5b1149b971f5e215a5252525e1e296ae0",
       "byteLength": 66832,
       "rawPath": "netkeiba/horses/2014/2014103539/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:27:28.637Z"
+  "updatedAt": "2026-08-26T14:34:44.250Z"
 }

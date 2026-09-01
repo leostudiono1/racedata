@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106550",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106550/",
-  "profile": null,
+  "profile": {
+    "name": "ナンナ",
+    "birthDate": "2017-04-08",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05688",
+      "name": "小野望"
+    },
+    "owner": {
+      "id": "046803",
+      "name": "フクキタル"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ナン Nan(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "High Yield (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -1620,6 +1650,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナンナ (Nanna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナンナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナンナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1689,9 +1749,9 @@
       "contentHash": "160d7d509e14702e8efa5581c77d203471bd1df2360155935665906d89deb081",
       "byteLength": 67259,
       "rawPath": "netkeiba/horses/2017/2017106550/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:01:30.526Z"
+  "updatedAt": "2026-08-24T18:13:47.308Z"
 }

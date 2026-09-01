@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102588",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102588/",
-  "profile": null,
+  "profile": {
+    "name": "ハナギリ",
+    "birthDate": "2016-03-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "後藤正義"
+    },
+    "owner": {
+      "id": "309008",
+      "name": "山科統"
+    },
+    "breeder": {
+      "id": "401466",
+      "name": "バンダム牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    },
+    "dam": {
+      "id": "2008102207",
+      "name": "ロックドクトリン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1820,6 +1850,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハナギリ (Hanagiri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナギリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナギリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1889,9 +1949,9 @@
       "contentHash": "65797df1545e39dae96ca97bf2b39bdcac8d6b4c9877b7570cb0ec1de559f27d",
       "byteLength": 66014,
       "rawPath": "netkeiba/horses/2016/2016102588/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:56:42.682Z"
+  "updatedAt": "2026-08-31T12:05:36.736Z"
 }

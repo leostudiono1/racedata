@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105583",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105583/",
-  "profile": null,
+  "profile": {
+    "name": "ストーンズ",
+    "birthDate": "2021-02-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "199031",
+      "name": "エムズレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジェイウォーク Jaywalk(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cross Traffic"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -2168,6 +2198,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストーンズ (Stones) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーンズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーンズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2237,9 +2297,9 @@
       "contentHash": "8c73e46f9b47253893b2f249dcba998f7f6053497f153afdbd591a816551e19f",
       "byteLength": 67003,
       "rawPath": "netkeiba/horses/2021/2021105583/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:20:38.131Z"
+  "updatedAt": "2026-08-31T12:29:31.670Z"
 }

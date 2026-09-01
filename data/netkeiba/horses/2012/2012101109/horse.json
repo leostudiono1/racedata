@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101109",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101109/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンアイランド",
+    "birthDate": "2012-03-18",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00433",
+      "name": "成島英春"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102870",
+      "name": "トーセンファントム"
+    },
+    "dam": {
+      "id": "2007103369",
+      "name": "トーセンモアムード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102870",
@@ -2322,6 +2352,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンアイランド (Tosen Island) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンアイランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンアイランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2391,9 +2451,9 @@
       "contentHash": "65ac7ea9fbff47b34282ad74eae35f9a9eae85204d4349668bcceea2c13baad2",
       "byteLength": 65804,
       "rawPath": "netkeiba/horses/2012/2012101109/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T13:57:59.797Z"
+  "updatedAt": "2026-08-30T12:08:03.841Z"
 }

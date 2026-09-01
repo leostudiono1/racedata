@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105888",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105888/",
-  "profile": null,
+  "profile": {
+    "name": "イナホ",
+    "birthDate": "2020-04-03",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "辻野豊"
+    },
+    "owner": {
+      "id": "981002",
+      "name": "中村勝彦"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2001109302",
+      "name": "ライトアップ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -3564,6 +3594,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イナホ (Inaho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イナホ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イナホ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3633,9 +3693,9 @@
       "contentHash": "7d6c822e26239dcf7622e57c8cb83c8d6e1c742a6a86a5cf58c5b23623b295c5",
       "byteLength": 66684,
       "rawPath": "netkeiba/horses/2020/2020105888/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:12:35.750Z"
+  "updatedAt": "2026-08-24T18:24:52.494Z"
 }

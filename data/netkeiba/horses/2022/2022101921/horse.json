@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101921",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101921/",
-  "profile": null,
+  "profile": {
+    "name": "キタノロジック",
+    "birthDate": "2022-05-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "x0a72d",
+      "name": "北所拓也"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2012100351",
+      "name": "トリルビー"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -1740,6 +1770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キタノロジック (Kitano Logic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キタノロジック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キタノロジック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1809,9 +1869,9 @@
       "contentHash": "7f927692e1fe16d103e3494896da9671fbedcaf5414027c15462a808792a09ec",
       "byteLength": 64499,
       "rawPath": "netkeiba/horses/2022/2022101921/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:11:35.001Z"
+  "updatedAt": "2026-08-27T14:20:49.589Z"
 }

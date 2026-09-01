@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100116",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100116/",
-  "profile": null,
+  "profile": {
+    "name": "アクションプラン",
+    "birthDate": "2020-03-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "044030",
+      "name": "関田光男"
+    },
+    "breeder": {
+      "id": "913095",
+      "name": "木下牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2014106290",
+      "name": "シャプレドサクレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -3421,6 +3451,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アクションプラン (Action Plan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクションプラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクションプラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3490,9 +3550,9 @@
       "contentHash": "d849a02c39598021f548c0961a7cb1fc0858c9eb680a240bebd9e79925fc9aa7",
       "byteLength": 67057,
       "rawPath": "netkeiba/horses/2020/2020100116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:30:19.587Z"
+  "updatedAt": "2026-08-30T12:40:23.628Z"
 }

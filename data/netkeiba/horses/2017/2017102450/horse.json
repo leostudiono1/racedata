@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102450",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102450/",
-  "profile": null,
+  "profile": {
+    "name": "ハーディン",
+    "birthDate": "2017-03-30",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "森山広大"
+    },
+    "owner": {
+      "id": "849033",
+      "name": "松谷翔太"
+    },
+    "breeder": {
+      "id": "310098",
+      "name": "城地牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    },
+    "dam": {
+      "id": "2011104109",
+      "name": "フォワードカール"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007105709",
@@ -9975,6 +10005,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハーディン (Hardin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーディン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーディン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10044,9 +10104,9 @@
       "contentHash": "eb88a093a52cbff5cae4780a22f0e4446eeb234ebd3b77186093353acce8e2cd",
       "byteLength": 66830,
       "rawPath": "netkeiba/horses/2017/2017102450/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:50:55.722Z"
+  "updatedAt": "2026-08-27T14:00:10.293Z"
 }

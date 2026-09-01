@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100540",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100540/",
-  "profile": null,
+  "profile": {
+    "name": "タガノヒロック",
+    "birthDate": "2019-03-25",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "859002",
+      "name": "八木良司"
+    },
+    "breeder": {
+      "id": "790540",
+      "name": "新冠タガノファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "2007104689",
+      "name": "タガノガルーダ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1404,6 +1434,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タガノヒロック (Tagano Hillock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノヒロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノヒロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1473,9 +1533,9 @@
       "contentHash": "4093cace36f9ae08d64fb29b5ee1714f54e42af25d63807b87a30effd2fc38a7",
       "byteLength": 65530,
       "rawPath": "netkeiba/horses/2019/2019100540/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:58:34.186Z"
+  "updatedAt": "2026-08-27T14:07:48.868Z"
 }

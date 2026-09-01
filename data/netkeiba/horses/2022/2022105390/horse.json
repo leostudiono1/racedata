@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105390",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105390/",
-  "profile": null,
+  "profile": {
+    "name": "パッションリッチ",
+    "birthDate": "2022-05-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "039030",
+      "name": "宇田豊"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2013105487",
+      "name": "セータコローナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -2222,6 +2252,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パッションリッチ (Passion Rich) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パッションリッチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パッションリッチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2291,9 +2351,9 @@
       "contentHash": "9478514d02f23a22f6ed21d4924916f3976c5afe74b003d20c361b3ec13796cc",
       "byteLength": 66950,
       "rawPath": "netkeiba/horses/2022/2022105390/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:21:45.416Z"
+  "updatedAt": "2026-08-24T18:34:02.241Z"
 }

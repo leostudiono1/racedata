@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101134",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101134/",
-  "profile": null,
+  "profile": {
+    "name": "パイロマンサー",
+    "birthDate": "2023-03-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01130",
+      "name": "吉村圭司"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2015101637",
+      "name": "セントリフュージ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハードスパン Hard Spun(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1450,6 +1480,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パイロマンサー (Pyromancer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パイロマンサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パイロマンサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1519,9 +1579,9 @@
       "contentHash": "20abe2f8c2387fb56ff23b7f1ff489e63cfc6e9cb942bf0f740a002d7cdd6a14",
       "byteLength": 67297,
       "rawPath": "netkeiba/horses/2023/2023101134/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:15:22.579Z"
+  "updatedAt": "2026-08-27T14:24:37.179Z"
 }

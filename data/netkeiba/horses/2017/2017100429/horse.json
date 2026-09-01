@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100429",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100429/",
-  "profile": null,
+  "profile": {
+    "name": "ムーンレース",
+    "birthDate": "2017-03-03",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05744",
+      "name": "渡瀬寛彰"
+    },
+    "owner": {
+      "id": "086803",
+      "name": "レッドマジック"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2006105516",
+      "name": "モンローライン"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2133,6 +2163,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムーンレース (Moon Race) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーンレース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーンレース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2202,9 +2262,9 @@
       "contentHash": "b759b864576847a89117d9d8285729babb5db423f15a5ad214a0743546ee312f",
       "byteLength": 65788,
       "rawPath": "netkeiba/horses/2017/2017100429/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:49:34.970Z"
+  "updatedAt": "2026-08-27T13:58:49.668Z"
 }

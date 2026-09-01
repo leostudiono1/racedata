@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105135",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105135/",
-  "profile": null,
+  "profile": {
+    "name": "ケルト",
+    "birthDate": "2018-02-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "166033",
+      "name": "小濱忠一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2001103381",
+      "name": "チャイナドール"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2810,6 +2840,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケルト (Celt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2879,9 +2939,9 @@
       "contentHash": "17179bb1e612644f7d3ddf9b353ef3741afe6a69d58b94bcbc84d40214dfc159",
       "byteLength": 66733,
       "rawPath": "netkeiba/horses/2018/2018105135/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:23:57.870Z"
+  "updatedAt": "2026-08-30T12:34:01.640Z"
 }

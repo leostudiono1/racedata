@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104787",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104787/",
-  "profile": null,
+  "profile": {
+    "name": "ショウボート",
+    "birthDate": "2012-02-11",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "431002",
+      "name": "馬場幸夫"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "1999106943",
+      "name": "フォルクローレ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5276,6 +5306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショウボート (Show Boat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウボート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウボート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5345,9 +5405,9 @@
       "contentHash": "a7ca6899e7001a6d7e5fffc12a0c3982df36075082f1913fd53bb84464011eba",
       "byteLength": 66992,
       "rawPath": "netkeiba/horses/2012/2012104787/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:20:25.101Z"
+  "updatedAt": "2026-08-26T14:27:40.559Z"
 }

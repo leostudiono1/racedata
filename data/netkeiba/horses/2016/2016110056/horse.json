@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110056",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110056/",
-  "profile": null,
+  "profile": {
+    "name": "ファインスティール",
+    "birthDate": "2016-05-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "150733",
+      "name": "Wynnstay LLC Greg Baer & Deann Baer"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "シャンハイボビー Shanghai Bobby(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Steel Courage"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Corredor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3953,6 +3983,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインスティール (Fine Steel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインスティール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインスティール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4022,9 +4082,9 @@
       "contentHash": "962cd43bd6e2a2fb1d1470bab98c178e04211790aa192be1753e462216cf57e1",
       "byteLength": 67140,
       "rawPath": "netkeiba/horses/2016/2016110056/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:49:20.921Z"
+  "updatedAt": "2026-08-27T13:58:35.669Z"
 }

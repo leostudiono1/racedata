@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104824",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104824/",
-  "profile": null,
+  "profile": {
+    "name": "サルパ",
+    "birthDate": "2016-05-04",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2010106209",
+      "name": "ピクシーホロウ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1067,6 +1097,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サルパ (Salpa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルパ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルパ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1136,9 +1196,9 @@
       "contentHash": "dec8fd5240bbdbb4e8cb59ed3b043ca8dbdfe3ce7db4cde1b9ec82040574798e",
       "byteLength": 64280,
       "rawPath": "netkeiba/horses/2016/2016104824/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:20:57.300Z"
+  "updatedAt": "2026-08-28T13:26:06.969Z"
 }

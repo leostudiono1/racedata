@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102258",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102258/",
-  "profile": null,
+  "profile": {
+    "name": "ナツハヨル",
+    "birthDate": "2018-04-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00873",
+      "name": "野口孝"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "600531",
+      "name": "三村卓也"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2003100858",
+      "name": "ハルワカ"
+    },
+    "damsire": {
+      "id": "1981100841",
+      "name": "ワカオライデン"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -6846,6 +6876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナツハヨル (Natsuwa Yoru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナツハヨル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナツハヨル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6915,9 +6975,9 @@
       "contentHash": "0e3f8459c467054ae17ea24298207242d48b43addae504541628e3b764540a3a",
       "byteLength": 66894,
       "rawPath": "netkeiba/horses/2018/2018102258/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:49:30.604Z"
+  "updatedAt": "2026-08-29T12:57:56.050Z"
 }

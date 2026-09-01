@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100448",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100448/",
-  "profile": null,
+  "profile": {
+    "name": "トモダチ",
+    "birthDate": "2014-05-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "410311",
+      "name": "中地康弘"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    },
+    "dam": {
+      "id": "2004100544",
+      "name": "イカガデスカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999107004",
@@ -2022,6 +2052,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トモダチ (Tomodachi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トモダチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トモダチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2091,9 +2151,9 @@
       "contentHash": "1e8f479f2cd8ca2e50d46b8f41516638842ffa119576a1b29661427d1f5e480e",
       "byteLength": 65671,
       "rawPath": "netkeiba/horses/2014/2014100448/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:30:15.032Z"
+  "updatedAt": "2026-08-29T12:38:40.664Z"
 }

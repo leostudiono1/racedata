@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104451",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104451/",
-  "profile": null,
+  "profile": {
+    "name": "シークレットラン",
+    "birthDate": "2016-02-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "164008",
+      "name": "亀井哲也"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2007103149",
+      "name": "カールファターレ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3881,6 +3911,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シークレットラン (Secret Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シークレットラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シークレットラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3950,9 +4010,9 @@
       "contentHash": "05729ed23fdddcfabc3dac3d5be7a1877a7593f22e39ce72fac22b688fc41f03",
       "byteLength": 67229,
       "rawPath": "netkeiba/horses/2016/2016104451/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:55:57.877Z"
+  "updatedAt": "2026-08-24T18:08:14.771Z"
 }

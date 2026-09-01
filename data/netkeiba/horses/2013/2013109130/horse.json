@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013109130",
   "sourceUrl": "https://db.netkeiba.com/horse/2013109130/",
-  "profile": null,
+  "profile": {
+    "name": "カシノショウ",
+    "birthDate": "2013-04-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05098",
+      "name": "山下定文"
+    },
+    "owner": {
+      "id": "514009",
+      "name": "柏木務"
+    },
+    "breeder": {
+      "id": "735404",
+      "name": "本田土寿"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "1994109361",
+      "name": "ブラックホーク"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ゴーンプロフェッショナル Gone Professional(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109361",
@@ -1737,6 +1767,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシノショウ (Kashino Sho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノショウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノショウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1806,9 +1866,9 @@
       "contentHash": "4c13d5231bfbea99c3a8294519c7ee804bb9031d7534aa2e88bc3c7d86834117",
       "byteLength": 64568,
       "rawPath": "netkeiba/horses/2013/2013109130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:29:53.977Z"
+  "updatedAt": "2026-08-29T12:38:19.704Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110030",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110030/",
-  "profile": null,
+  "profile": {
+    "name": "アンパドゥ",
+    "birthDate": "2021-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "830708",
+      "name": "Godolphin"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Iffraaj"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Latharna Skies"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1579,6 +1609,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンパドゥ (Ampadu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンパドゥ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンパドゥ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1648,9 +1708,9 @@
       "contentHash": "b3eeef0b24aa1ca6be2269629342b99ff8368c0509293620d9d48e598f860458",
       "byteLength": 66874,
       "rawPath": "netkeiba/horses/2021/2021110030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:10:03.867Z"
+  "updatedAt": "2026-08-27T14:19:18.601Z"
 }

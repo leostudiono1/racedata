@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106698",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106698/",
-  "profile": null,
+  "profile": {
+    "name": "バラジ",
+    "birthDate": "2019-04-10",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01214",
+      "name": "井上智史"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "603302",
+      "name": "増本牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106525",
+      "name": "ヴァンセンヌ"
+    },
+    "dam": {
+      "id": "1999101059",
+      "name": "シーダーアラジ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アラジ Arazi(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106525",
@@ -4364,6 +4394,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バラジ (Balaji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バラジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バラジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4433,9 +4493,9 @@
       "contentHash": "d3418217a7fbe11753caddd3815860deb7162e6754f26d507829ae8084af33fd",
       "byteLength": 66827,
       "rawPath": "netkeiba/horses/2019/2019106698/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:01:22.433Z"
+  "updatedAt": "2026-08-27T14:10:36.908Z"
 }

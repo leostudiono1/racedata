@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100061",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100061/",
-  "profile": null,
+  "profile": {
+    "name": "モックモック",
+    "birthDate": "2020-05-15",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "178033",
+      "name": "山口正行"
+    },
+    "breeder": {
+      "id": "590543",
+      "name": "オギオギ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2002110212",
+      "name": "ジュピターズビコー"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -2420,6 +2450,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モックモック (Mokku Mokku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モックモック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モックモック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2489,9 +2549,9 @@
       "contentHash": "d282a17ad07518e6df8540b8eb72352a8cb6272eeaab0dd158a3fe58404711a3",
       "byteLength": 66925,
       "rawPath": "netkeiba/horses/2020/2020100061/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:01:46.770Z"
+  "updatedAt": "2026-08-27T14:11:01.563Z"
 }

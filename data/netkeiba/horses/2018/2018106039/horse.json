@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106039",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106039/",
-  "profile": null,
+  "profile": {
+    "name": "ラウディ",
+    "birthDate": "2018-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "500659",
+      "name": "鎌田正嗣"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2010103803",
+      "name": "アルマーズビコー"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -6027,6 +6057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラウディ (Rowdy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラウディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラウディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6096,9 +6156,9 @@
       "contentHash": "de51ce635ded168988bca633e18f693caab24b9185e74269d45ee41f1571b7bf",
       "byteLength": 66811,
       "rawPath": "netkeiba/horses/2018/2018106039/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:31:20.551Z"
+  "updatedAt": "2026-08-28T13:36:30.168Z"
 }

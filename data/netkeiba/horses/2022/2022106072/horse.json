@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106072",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106072/",
-  "profile": null,
+  "profile": {
+    "name": "メルローズ",
+    "birthDate": "2022-03-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "065803",
+      "name": "京都ホースレーシング"
+    },
+    "breeder": {
+      "id": "910331",
+      "name": "イワミ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "2017104132",
+      "name": "ハイスピードカム"
+    },
+    "damsire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1399,6 +1429,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メルローズ (Melrose) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メルローズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メルローズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1468,9 +1528,9 @@
       "contentHash": "6170de6a42510ffb98a5d8f7f40601cb43238555827eeca188cbcba3286daec8",
       "byteLength": 65535,
       "rawPath": "netkeiba/horses/2022/2022106072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:03:28.954Z"
+  "updatedAt": "2026-08-26T15:10:44.838Z"
 }

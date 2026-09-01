@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103733",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103733/",
-  "profile": null,
+  "profile": {
+    "name": "スーパージョック",
+    "birthDate": "2022-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01218",
+      "name": "橋田宜長"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2010102632",
+      "name": "イチリュウ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2481,6 +2511,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スーパージョック (Superjock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スーパージョック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スーパージョック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2550,9 +2610,9 @@
       "contentHash": "f959fbd0852c4038e28c09f9d2a5aa3163587547b22406f406456374319ac051",
       "byteLength": 67077,
       "rawPath": "netkeiba/horses/2022/2022103733/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:01:47.151Z"
+  "updatedAt": "2026-08-26T15:09:03.049Z"
 }

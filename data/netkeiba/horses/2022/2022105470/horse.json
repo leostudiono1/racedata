@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105470",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105470/",
-  "profile": null,
+  "profile": {
+    "name": "コスモグローリー",
+    "birthDate": "2022-05-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01078",
+      "name": "北出成人"
+    },
+    "owner": {
+      "id": "360803",
+      "name": "コスモ・コスモ"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フォルト Fault(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Blame"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2069,6 +2099,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスモグローリー (Cosmo Glory) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモグローリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモグローリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2138,9 +2198,9 @@
       "contentHash": "0579c26e9438f24c4e6b65873c94fe1cf16be9fbf55441d0d139b5b7dd40c31d",
       "byteLength": 67071,
       "rawPath": "netkeiba/horses/2022/2022105470/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:42:17.333Z"
+  "updatedAt": "2026-08-30T12:52:21.079Z"
 }

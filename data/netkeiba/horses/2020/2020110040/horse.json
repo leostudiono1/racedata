@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110040",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110040/",
-  "profile": null,
+  "profile": {
+    "name": "ヤクシマ",
+    "birthDate": "2020-02-11",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "260739",
+      "name": "Whitsbury Manor Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Havana Grey"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Satsuma"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Compton Place"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3262,6 +3292,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヤクシマ (Yakushima) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤクシマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤクシマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3331,9 +3391,9 @@
       "contentHash": "caf20ae3f8f2c057f64cb8414ea0e049f1ce4e5f682aaac83bafc59f62a573bc",
       "byteLength": 66930,
       "rawPath": "netkeiba/horses/2020/2020110040/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:13:35.478Z"
+  "updatedAt": "2026-08-24T18:25:52.034Z"
 }

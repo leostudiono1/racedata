@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101286",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101286/",
-  "profile": null,
+  "profile": {
+    "name": "ダイダロス",
+    "birthDate": "2016-04-30",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2004100663",
+      "name": "ノータブルアート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1445,6 +1475,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダイダロス (Daedalus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイダロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイダロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1514,9 +1574,9 @@
       "contentHash": "b0c05dc50ca4a7eeb5f49aa140fcba42a1bcf4452e53c626467d2dcf9f90914b",
       "byteLength": 65227,
       "rawPath": "netkeiba/horses/2016/2016101286/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:13:34.802Z"
+  "updatedAt": "2026-08-30T12:23:38.412Z"
 }

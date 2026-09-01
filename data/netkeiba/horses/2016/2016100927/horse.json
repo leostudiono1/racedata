@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100927",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100927/",
-  "profile": null,
+  "profile": {
+    "name": "モテモテ",
+    "birthDate": "2016-04-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01193",
+      "name": "緒方努"
+    },
+    "owner": {
+      "id": "459800",
+      "name": "イクタ"
+    },
+    "breeder": {
+      "id": "200317",
+      "name": "村本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2000104924",
+      "name": "シマノラピス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3615,6 +3645,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モテモテ (Motemote) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モテモテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モテモテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3684,9 +3744,9 @@
       "contentHash": "690908e0675853a06c561be1d1d6c90f1ad894c1e38a0b45af7896cfa7e3c577",
       "byteLength": 66871,
       "rawPath": "netkeiba/horses/2016/2016100927/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:40:13.761Z"
+  "updatedAt": "2026-08-29T12:48:39.431Z"
 }

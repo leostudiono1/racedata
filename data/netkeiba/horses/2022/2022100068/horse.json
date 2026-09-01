@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100068",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100068/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウキンタイ",
+    "birthDate": "2022-03-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "911008",
+      "name": "松本好隆"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015105075",
+      "name": "フィエールマン"
+    },
+    "dam": {
+      "id": "2016102307",
+      "name": "ビーマイステディ"
+    },
+    "damsire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015105075",
@@ -2397,6 +2427,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウキンタイ (Meisho Kintai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウキンタイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウキンタイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2466,9 +2526,9 @@
       "contentHash": "e0fdf7c9fa7123ccfa510a74ad32e35a4a86d87d1807aa979d38dabb5725c9fb",
       "byteLength": 67164,
       "rawPath": "netkeiba/horses/2022/2022100068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:45:24.342Z"
+  "updatedAt": "2026-08-28T13:50:33.944Z"
 }

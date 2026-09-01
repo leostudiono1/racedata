@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103643",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103643/",
-  "profile": null,
+  "profile": {
+    "name": "ディアメラク",
+    "birthDate": "2013-05-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "013803",
+      "name": "ディアレストクラブ"
+    },
+    "breeder": {
+      "id": "430019",
+      "name": "南部功"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2004102155",
+      "name": "ミスターキン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オジジアン Ogygian(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -3882,6 +3912,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディアメラク (Dear Merak) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディアメラク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディアメラク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3951,9 +4011,9 @@
       "contentHash": "576a88b0f831c02284df99df304a5b726a370830efeb89e53ef5e0ede64bc9cb",
       "byteLength": 65242,
       "rawPath": "netkeiba/horses/2013/2013103643/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:44:52.063Z"
+  "updatedAt": "2026-08-31T11:53:45.581Z"
 }

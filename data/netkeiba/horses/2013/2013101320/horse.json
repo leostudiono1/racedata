@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101320",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101320/",
-  "profile": null,
+  "profile": {
+    "name": "パステルモーブ",
+    "birthDate": "2013-02-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "942006",
+      "name": "榊原源一郎"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2003106788",
+      "name": "パパラチア"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1605,6 +1635,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パステルモーブ (Pastel Mauve) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パステルモーブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パステルモーブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1674,9 +1734,9 @@
       "contentHash": "da3267000aed83b8ff9e72c1e093c57f960ee23620e04ec38e1c6782597efd4c",
       "byteLength": 65151,
       "rawPath": "netkeiba/horses/2013/2013101320/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:02:11.857Z"
+  "updatedAt": "2026-08-30T12:12:15.720Z"
 }

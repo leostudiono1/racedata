@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101299",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101299/",
-  "profile": null,
+  "profile": {
+    "name": "クニ",
+    "birthDate": "2020-03-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05263",
+      "name": "瀬戸口悟"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2012101292",
+      "name": "ジョウノアドバンス"
+    },
+    "damsire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2250,6 +2280,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クニ (Kuni) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2319,9 +2379,9 @@
       "contentHash": "ed09354d13c2a407d68426c6315e0ff341213bbfc7071ace0b6d1158dcc46b61",
       "byteLength": 65812,
       "rawPath": "netkeiba/horses/2020/2020101299/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:13:55.372Z"
+  "updatedAt": "2026-08-31T12:22:49.283Z"
 }

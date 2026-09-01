@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024101610",
   "sourceUrl": "https://db.netkeiba.com/horse/2024101610/",
-  "profile": null,
+  "profile": {
+    "name": "カナデ",
+    "birthDate": "2024-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "239008",
+      "name": "野崎宗信"
+    },
+    "breeder": {
+      "id": "940017",
+      "name": "絵笛牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ホットロッドチャーリー Hot Rod Charlie(米)"
+    },
+    "dam": {
+      "id": "2018105330",
+      "name": "ラヴィエント"
+    },
+    "damsire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1116,6 +1146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カナデ (Kanade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カナデ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カナデ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1185,9 +1245,9 @@
       "contentHash": "6175ef17706aa1c76f2763dc40cfd1eea3021beaa816605962440a6a0e631f0e",
       "byteLength": 64448,
       "rawPath": "netkeiba/horses/2024/2024101610/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:09:43.372Z"
+  "updatedAt": "2026-08-26T15:16:59.236Z"
 }

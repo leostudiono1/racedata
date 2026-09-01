@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104858",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104858/",
-  "profile": null,
+  "profile": {
+    "name": "ジョディー",
+    "birthDate": "2016-02-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "166033",
+      "name": "小濱忠一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスティークII Mystique(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3236,6 +3266,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョディー (Jodie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョディー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョディー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3305,9 +3365,9 @@
       "contentHash": "e6cb255f4ae02b7da5e157b7259d6f94e3235c62db4f18c3af2343a11e8caabe",
       "byteLength": 67118,
       "rawPath": "netkeiba/horses/2016/2016104858/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:15:40.762Z"
+  "updatedAt": "2026-08-30T12:25:44.963Z"
 }

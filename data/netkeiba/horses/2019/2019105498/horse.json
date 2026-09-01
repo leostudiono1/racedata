@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105498",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105498/",
-  "profile": null,
+  "profile": {
+    "name": "フィデル",
+    "birthDate": "2019-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "199031",
+      "name": "エムズレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラッキートゥビーミー Lucky to Be Me(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernstein"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2174,6 +2204,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィデル (Fidele) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィデル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィデル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2243,9 +2303,9 @@
       "contentHash": "479afa306f533b31925b06f6a7782edc8d41f547bcea940bf97528c3b96dd653",
       "byteLength": 66966,
       "rawPath": "netkeiba/horses/2019/2019105498/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:56:06.095Z"
+  "updatedAt": "2026-08-29T13:04:31.773Z"
 }

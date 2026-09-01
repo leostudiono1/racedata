@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100654",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100654/",
-  "profile": null,
+  "profile": {
+    "name": "エデュース",
+    "birthDate": "2021-03-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05706",
+      "name": "川島洋人"
+    },
+    "owner": {
+      "id": "482002",
+      "name": "水上行雄"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2009101019",
+      "name": "モンクール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -3404,6 +3434,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エデュース (Educe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エデュース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エデュース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3473,9 +3533,9 @@
       "contentHash": "bfcf968548c8731a6109eba4ad8858ddeb9fecd6bba3bdd71aef771878b5d5b8",
       "byteLength": 64910,
       "rawPath": "netkeiba/horses/2021/2021100654/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:06:37.337Z"
+  "updatedAt": "2026-08-27T14:15:52.097Z"
 }

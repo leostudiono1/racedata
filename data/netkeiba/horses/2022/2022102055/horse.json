@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102055",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102055/",
-  "profile": null,
+  "profile": {
+    "name": "スマートシエラ",
+    "birthDate": "2022-03-25",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05571",
+      "name": "松浦裕之"
+    },
+    "owner": {
+      "id": "x0b5e5",
+      "name": "平本淳一"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2008102832",
+      "name": "グランス"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2740,6 +2770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートシエラ (Smart Sierra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートシエラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートシエラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2809,9 +2869,9 @@
       "contentHash": "37ad8e59cfafbad79833f1b4634d81d517ca8389edf539976f9bb64470cc1e7b",
       "byteLength": 65714,
       "rawPath": "netkeiba/horses/2022/2022102055/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:19:18.424Z"
+  "updatedAt": "2026-08-24T18:31:35.214Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103335",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103335/",
-  "profile": null,
+  "profile": {
+    "name": "キスメット",
+    "birthDate": "2022-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05270",
+      "name": "竹下直人"
+    },
+    "owner": {
+      "id": "042803",
+      "name": "ファーストビジョン"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2010102611",
+      "name": "ミナレット"
+    },
+    "damsire": {
+      "id": "2001103890",
+      "name": "スズカマンボ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -4244,6 +4274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キスメット (Kismet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キスメット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キスメット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4313,9 +4373,9 @@
       "contentHash": "51eb09dbeb43eed2ba050507d3fee6f8d3d73989890c48dd0ff97a962609abb8",
       "byteLength": 66688,
       "rawPath": "netkeiba/horses/2022/2022103335/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:20:07.412Z"
+  "updatedAt": "2026-08-24T18:32:24.187Z"
 }

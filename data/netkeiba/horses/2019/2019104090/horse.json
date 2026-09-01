@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104090",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104090/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウモヒート",
+    "birthDate": "2019-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05755",
+      "name": "永島太郎"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2012105598",
+      "name": "メイショウサワヤカ"
+    },
+    "damsire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -2627,6 +2657,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウモヒート (Meisho Mojito) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウモヒート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウモヒート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2696,9 +2756,9 @@
       "contentHash": "967fd0cdc6f2f999faa6ab685ced709ba138128ea5eebb6ef31db63a5ba8a7c8",
       "byteLength": 65123,
       "rawPath": "netkeiba/horses/2019/2019104090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:11:00.256Z"
+  "updatedAt": "2026-08-31T12:19:54.501Z"
 }

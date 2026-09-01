@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110045",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110045/",
-  "profile": null,
+  "profile": {
+    "name": "マージャング",
+    "birthDate": "2022-03-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "310710",
+      "name": "Qatar Bloodstock Limited"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Kameko (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Glories"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1282,6 +1312,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マージャング (Mar Jung) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マージャング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マージャング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1351,9 +1411,9 @@
       "contentHash": "2d10e6017f6df3782f8931a7c054bda21fcd771a87bd40cb13a3dd692764e957",
       "byteLength": 64276,
       "rawPath": "netkeiba/horses/2022/2022110045/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:05:00.009Z"
+  "updatedAt": "2026-08-26T15:12:15.536Z"
 }

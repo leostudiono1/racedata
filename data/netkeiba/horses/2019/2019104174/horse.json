@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104174",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104174/",
-  "profile": null,
+  "profile": {
+    "name": "クォーツ",
+    "birthDate": "2019-04-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "荒井朋弘"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "340043",
+      "name": "モトスファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2006101225",
+      "name": "フサイチセブン"
+    },
+    "dam": {
+      "id": "2014102021",
+      "name": "ビバジャンティ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006101225",
@@ -2526,6 +2556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クォーツ (Quartz) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クォーツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クォーツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2595,9 +2655,9 @@
       "contentHash": "c2d51609e9b9dc254982fbcac210cea4f46f3d103d1dbf53265db0dfe6bfb04e",
       "byteLength": 66738,
       "rawPath": "netkeiba/horses/2019/2019104174/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:48:22.247Z"
+  "updatedAt": "2026-08-26T14:55:37.766Z"
 }

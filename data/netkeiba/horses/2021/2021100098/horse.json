@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100098",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100098/",
-  "profile": null,
+  "profile": {
+    "name": "ミスティカ",
+    "birthDate": "2021-04-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "403095",
+      "name": "木田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2015103236",
+      "name": "ミスティック"
+    },
+    "damsire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1432,6 +1462,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミスティカ (Mystica) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスティカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスティカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1501,9 +1561,9 @@
       "contentHash": "41afb166ccb18bef279f7dfdc7e50d0f47e90d133f10ce22240fca9966a458d8",
       "byteLength": 64418,
       "rawPath": "netkeiba/horses/2021/2021100098/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:06:16.302Z"
+  "updatedAt": "2026-08-27T14:15:30.990Z"
 }

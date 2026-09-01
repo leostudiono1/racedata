@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101111",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101111/",
-  "profile": null,
+  "profile": {
+    "name": "マクギリス",
+    "birthDate": "2020-05-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中川雅之"
+    },
+    "owner": {
+      "id": "708031",
+      "name": "横田秀明"
+    },
+    "breeder": {
+      "id": "050365",
+      "name": "二風谷ファーム"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008103289",
+      "name": "フィエラメンテ"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -5774,6 +5804,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マクギリス (McGillis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクギリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクギリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5843,9 +5903,9 @@
       "contentHash": "ea6f34677db002f52874676d37f0780cd0c5f98b3e2a1ee5756b49138d888bcd",
       "byteLength": 66817,
       "rawPath": "netkeiba/horses/2020/2020101111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:13:41.343Z"
+  "updatedAt": "2026-08-31T12:22:35.131Z"
 }

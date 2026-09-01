@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100646",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100646/",
-  "profile": null,
+  "profile": {
+    "name": "バトナージュ",
+    "birthDate": "2012-04-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2000101506",
+      "name": "フェートデュヴァン"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1380,6 +1410,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バトナージュ (Batonnage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バトナージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バトナージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1449,9 +1509,9 @@
       "contentHash": "862a3ac149b69d863fc1694d2ff42b309c0688edac32e6ec2baf92c66f6d272d",
       "byteLength": 65187,
       "rawPath": "netkeiba/horses/2012/2012100646/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:29:02.482Z"
+  "updatedAt": "2026-08-27T13:38:17.506Z"
 }

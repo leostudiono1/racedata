@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009110048",
   "sourceUrl": "https://db.netkeiba.com/horse/2009110048/",
-  "profile": null,
+  "profile": {
+    "name": "レッドシャンクス",
+    "birthDate": "2009-03-28",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "170701",
+      "name": "Robert Power Bloodstock Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ardbrae Lady"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Overbury"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3448,6 +3478,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドシャンクス (Red Shanks) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドシャンクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドシャンクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3517,9 +3577,9 @@
       "contentHash": "4edf1b9a14cdde1a1ca07682434da95f5924b65baa0c7b9e00303304407b5e1f",
       "byteLength": 67412,
       "rawPath": "netkeiba/horses/2009/2009110048/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T14:59:11.269Z"
+  "updatedAt": "2026-08-28T13:04:21.051Z"
 }

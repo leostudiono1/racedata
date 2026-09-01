@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104931",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104931/",
-  "profile": null,
+  "profile": {
+    "name": "マウロア",
+    "birthDate": "2012-02-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2004102985",
+      "name": "レースドール"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -3109,6 +3139,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マウロア (Mau Loa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マウロア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マウロア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3178,9 +3238,9 @@
       "contentHash": "4a1852d01e518723cc94754d78804aaceefaa44980b6db57a49d5cffeed325be",
       "byteLength": 64995,
       "rawPath": "netkeiba/horses/2012/2012104931/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:31:36.528Z"
+  "updatedAt": "2026-08-27T13:40:51.303Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102083",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102083/",
-  "profile": null,
+  "profile": {
+    "name": "キララ",
+    "birthDate": "2017-02-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05662",
+      "name": "堀江仁"
+    },
+    "owner": {
+      "id": "022803",
+      "name": "パニオロ"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2002110005",
+      "name": "ウインルミエール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Saint Ballado"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -2745,6 +2775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キララ (Kirara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キララ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キララ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2814,9 +2874,9 @@
       "contentHash": "18256780b2966d26d262e904488a262518671869c0f735bb86ef2d436862760c",
       "byteLength": 64631,
       "rawPath": "netkeiba/horses/2017/2017102083/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:58:46.054Z"
+  "updatedAt": "2026-08-24T18:11:02.737Z"
 }

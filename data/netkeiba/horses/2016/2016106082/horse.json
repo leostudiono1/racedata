@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106082",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106082/",
-  "profile": null,
+  "profile": {
+    "name": "マイコート",
+    "birthDate": "2016-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05741",
+      "name": "池田忠好"
+    },
+    "owner": {
+      "id": "395031",
+      "name": "小林克己"
+    },
+    "breeder": {
+      "id": "713086",
+      "name": "鳥谷勝彦"
+    },
+    "birthplace": "新ひだか",
+    "sire": {
+      "id": "2006103140",
+      "name": "ロジユニヴァース"
+    },
+    "dam": {
+      "id": "2005100733",
+      "name": "エリザベスサクラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アラムシャー Alamshar(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103140",
@@ -6209,6 +6239,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイコート (My Coat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイコート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイコート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6278,9 +6338,9 @@
       "contentHash": "2cf277434167454fd0e4fcc2e79863c23f2cb4a3caa194dcd2e428f08c3f8dd3",
       "byteLength": 67011,
       "rawPath": "netkeiba/horses/2016/2016106082/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:57:08.474Z"
+  "updatedAt": "2026-08-24T18:09:24.772Z"
 }

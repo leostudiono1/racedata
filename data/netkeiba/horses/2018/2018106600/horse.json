@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106600",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106600/",
-  "profile": null,
+  "profile": {
+    "name": "ベンタロン",
+    "birthDate": "2018-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05279",
+      "name": "宮本仁"
+    },
+    "owner": {
+      "id": "367033",
+      "name": "杉浦和也"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2010105212",
+      "name": "タプローム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ケイムホーム Came Home(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -1950,6 +1980,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベンタロン (Ventarron) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベンタロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベンタロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2019,9 +2079,9 @@
       "contentHash": "998a3ce5f71bb161119dc21fd1bb93b99fab8579da2212f51cfc130950dc7438",
       "byteLength": 65972,
       "rawPath": "netkeiba/horses/2018/2018106600/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:52:29.026Z"
+  "updatedAt": "2026-08-29T13:00:54.701Z"
 }

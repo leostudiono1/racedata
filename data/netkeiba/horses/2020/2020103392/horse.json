@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103392",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103392/",
-  "profile": null,
+  "profile": {
+    "name": "ロジザキア",
+    "birthDate": "2020-01-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "399030",
+      "name": "久米田正明"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ザキア Zakia(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "New Approach"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1176,6 +1206,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロジザキア (Logi Zakia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジザキア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジザキア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1245,9 +1305,9 @@
       "contentHash": "d9766beeae4bdf12a6efea0afe9fc8d1c6c82460cd94e772a141f59e810e5601",
       "byteLength": 64492,
       "rawPath": "netkeiba/horses/2020/2020103392/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:52:05.940Z"
+  "updatedAt": "2026-08-26T14:59:21.802Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105405",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105405/",
-  "profile": null,
+  "profile": {
+    "name": "インファイター",
+    "birthDate": "2021-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2014106099",
+      "name": "インヘリットデール"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1570,6 +1600,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インファイター (Infighter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インファイター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インファイター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1639,9 +1699,9 @@
       "contentHash": "c7ee59af4c1d1050f1eb4add612b6c952105fb070ea5448ccac9d7bd93b4cc00",
       "byteLength": 67372,
       "rawPath": "netkeiba/horses/2021/2021105405/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:43:46.302Z"
+  "updatedAt": "2026-08-28T13:48:55.786Z"
 }

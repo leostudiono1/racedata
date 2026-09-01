@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011106181",
   "sourceUrl": "https://db.netkeiba.com/horse/2011106181/",
-  "profile": null,
+  "profile": {
+    "name": "プレスリー",
+    "birthDate": "2011-03-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "307033",
+      "name": "田畑富子"
+    },
+    "breeder": {
+      "id": "030041",
+      "name": "山口義彦"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2003102358",
+      "name": "リヒター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -4015,6 +4045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレスリー (Presley) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレスリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレスリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4084,9 +4144,9 @@
       "contentHash": "07afcbd4ff3dec8001ce7cecd702db8d4c2617c35cfc00f31126ec0c25f5262b",
       "byteLength": 66771,
       "rawPath": "netkeiba/horses/2011/2011106181/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:28:03.230Z"
+  "updatedAt": "2026-08-27T13:37:17.730Z"
 }

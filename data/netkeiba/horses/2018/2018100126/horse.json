@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100126",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100126/",
-  "profile": null,
+  "profile": {
+    "name": "クリノクラール",
+    "birthDate": "2018-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01161",
+      "name": "武英智"
+    },
+    "owner": {
+      "id": "970006",
+      "name": "栗本博晴"
+    },
+    "breeder": {
+      "id": "203513",
+      "name": "永村侑"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    },
+    "dam": {
+      "id": "2007103852",
+      "name": "アスカトップレディ"
+    },
+    "damsire": {
+      "id": "1997103699",
+      "name": "アドマイヤボス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3652,6 +3682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クリノクラール (Kurino Kral) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノクラール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノクラール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3721,9 +3781,9 @@
       "contentHash": "10277f90fd949b6645b5c3bae70c48c2f0addf07fe08dfff490e6f74256d7141",
       "byteLength": 67001,
       "rawPath": "netkeiba/horses/2018/2018100126/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:54:04.751Z"
+  "updatedAt": "2026-08-27T14:03:19.358Z"
 }

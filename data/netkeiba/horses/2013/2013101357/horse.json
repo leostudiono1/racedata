@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2013101357",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101357/",
-  "profile": null,
+  "profile": {
+    "name": "ヒナタ",
+    "birthDate": "2013-04-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "149002",
+      "name": "井山登"
+    },
+    "breeder": {
+      "id": "430335",
+      "name": "川上悦夫"
+    },
+    "birthplace": "新冠町",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "ヒナタ (Hinata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒナタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒナタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "372ff6b205d29cc1bb02f24511ecbdf88cc0ca13edff2401ccc8c5316064266c",
       "byteLength": 65676,
       "rawPath": "netkeiba/horses/2013/2013101357/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T17:00:08.704Z"

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106218",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106218/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーザー",
+    "birthDate": "2023-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "463800",
+      "name": "名古屋友豊"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2014106047",
+      "name": "ピスカデーラ"
+    },
+    "damsire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1860,6 +1890,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーザー (Bruiser) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーザー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーザー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1929,9 +1989,9 @@
       "contentHash": "600b4baa30525d4a47852324ea924ca1f6f3ba177faf3e0c505c9a8240afc6c6",
       "byteLength": 66991,
       "rawPath": "netkeiba/horses/2023/2023106218/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:30:15.828Z"
+  "updatedAt": "2026-08-31T12:39:09.660Z"
 }

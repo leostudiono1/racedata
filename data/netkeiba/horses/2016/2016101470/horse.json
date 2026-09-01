@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101470",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101470/",
-  "profile": null,
+  "profile": {
+    "name": "バイオダイナミック",
+    "birthDate": "2016-02-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05769",
+      "name": "福田真広"
+    },
+    "owner": {
+      "id": "053803",
+      "name": "杉山忠国"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2007110051",
+      "name": "レジェンドキャット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1593,6 +1623,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バイオダイナミック (Biodynamic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイオダイナミック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイオダイナミック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1662,9 +1722,9 @@
       "contentHash": "7eea73e089b677b128083d8bfb5880cfe157af58dbe37b56d79c585c5a1da0a2",
       "byteLength": 65290,
       "rawPath": "netkeiba/horses/2016/2016101470/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:13:41.737Z"
+  "updatedAt": "2026-08-30T12:23:45.443Z"
 }

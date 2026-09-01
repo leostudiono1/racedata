@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106186",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106186/",
-  "profile": null,
+  "profile": {
+    "name": "マカラス",
+    "birthDate": "2023-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05509",
+      "name": "米川昇"
+    },
+    "owner": {
+      "id": "x0bee9",
+      "name": "眞保栄健太"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2017110034",
+      "name": "グローバリズム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1492,6 +1522,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マカラス (Macalas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マカラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マカラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1561,9 +1621,9 @@
       "contentHash": "55ab45a8fe8e4bbe93e651aa47c74e8dc13622e1aea6defda5c744b05f97d1ca",
       "byteLength": 64631,
       "rawPath": "netkeiba/horses/2023/2023106186/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:13:43.497Z"
+  "updatedAt": "2026-08-29T13:22:09.047Z"
 }

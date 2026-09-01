@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105370",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105370/",
-  "profile": null,
+  "profile": {
+    "name": "グラシアムヘール",
+    "birthDate": "2023-02-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "133803",
+      "name": "モンレーヴ"
+    },
+    "breeder": {
+      "id": "705079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カレドニアロード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Quality Road"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1293,6 +1323,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラシアムヘール (Gracia Mujer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラシアムヘール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラシアムヘール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1362,9 +1422,9 @@
       "contentHash": "fd413420830d53dd5ee0726a4cb607af976b2487c4bf79baa4eeb003ada06834",
       "byteLength": 65943,
       "rawPath": "netkeiba/horses/2023/2023105370/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:13:15.476Z"
+  "updatedAt": "2026-08-29T13:21:41.002Z"
 }

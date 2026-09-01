@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100055",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100055/",
-  "profile": null,
+  "profile": {
+    "name": "ウォーターキリンジ",
+    "birthDate": "2022-02-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "312006",
+      "name": "山岡正人"
+    },
+    "breeder": {
+      "id": "000049",
+      "name": "王蔵牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014104010",
+      "name": "ウォータービルド"
+    },
+    "dam": {
+      "id": "2016105896",
+      "name": "ウォーターボヌール"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2014104010",
@@ -1103,6 +1133,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウォーターキリンジ (Water Kirinji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウォーターキリンジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウォーターキリンジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1172,9 +1232,9 @@
       "contentHash": "90a652e26ad8759b0eedee9678e61bc76a58cc008a93bea91d520beb7a30657c",
       "byteLength": 65475,
       "rawPath": "netkeiba/horses/2022/2022100055/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:05:05.293Z"
+  "updatedAt": "2026-08-29T13:13:30.943Z"
 }

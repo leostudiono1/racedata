@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100290",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100290/",
-  "profile": null,
+  "profile": {
+    "name": "リナシタ",
+    "birthDate": "2023-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01080",
+      "name": "清水英克"
+    },
+    "owner": {
+      "id": "567031",
+      "name": "大崎将行"
+    },
+    "breeder": {
+      "id": "333028",
+      "name": "広田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2009106178",
+      "name": "エポキシ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1593,6 +1623,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リナシタ (Rinascita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リナシタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リナシタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1662,9 +1722,9 @@
       "contentHash": "8390e3fce0e2ff9427745519fc1c3d522d2a7c1379cddcad89317dde973e859b",
       "byteLength": 65105,
       "rawPath": "netkeiba/horses/2023/2023100290/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:05:13.637Z"
+  "updatedAt": "2026-08-26T15:12:29.571Z"
 }

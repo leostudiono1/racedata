@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101380",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101380/",
-  "profile": null,
+  "profile": {
+    "name": "クリノチャンプ",
+    "birthDate": "2020-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "488007",
+      "name": "栗本守"
+    },
+    "breeder": {
+      "id": "513353",
+      "name": "川端正博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2003103577",
+      "name": "ユキノチャンプ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "タバスコキャット Tabasco Cat(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -4675,6 +4705,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クリノチャンプ (Kurino Champ) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノチャンプ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノチャンプ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4744,9 +4804,9 @@
       "contentHash": "a23ab4c426cf45c60cf951732de68b5a80676e11f57ee209525e82bbd18da669",
       "byteLength": 65861,
       "rawPath": "netkeiba/horses/2020/2020101380/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:10:01.706Z"
+  "updatedAt": "2026-08-24T18:22:18.500Z"
 }

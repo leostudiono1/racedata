@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100782",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100782/",
-  "profile": null,
+  "profile": {
+    "name": "カムカム",
+    "birthDate": "2014-03-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "729008",
+      "name": "共田義夫"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "2005102490",
+      "name": "カムアラウンド"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -5037,6 +5067,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カムカム (Come Come) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムカム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムカム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5106,9 +5166,9 @@
       "contentHash": "2b50ddf013ca188f4abd8bd981e92e8474c5395976ff164df7b1aa5bdc197bc4",
       "byteLength": 66940,
       "rawPath": "netkeiba/horses/2014/2014100782/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:30:22.027Z"
+  "updatedAt": "2026-08-29T12:38:48.334Z"
 }

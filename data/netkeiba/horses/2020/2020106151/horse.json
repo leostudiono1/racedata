@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106151",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106151/",
-  "profile": null,
+  "profile": {
+    "name": "アステーラス",
+    "birthDate": "2020-04-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "x09afa",
+      "name": "山本国広"
+    },
+    "breeder": {
+      "id": "930005",
+      "name": "澤井義一"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2010104916",
+      "name": "インカンテーション"
+    },
+    "dam": {
+      "id": "2015101374",
+      "name": "ショウナンダズル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シャンハイボビー Shanghai Bobby(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104916",
@@ -2210,6 +2240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アステーラス (Asteras) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アステーラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アステーラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2279,9 +2339,9 @@
       "contentHash": "a01b01d611e18bfabfb101464536aa619fcaf5b5dbc8a486b54d905fb5484d98",
       "byteLength": 65225,
       "rawPath": "netkeiba/horses/2020/2020106151/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:12:49.738Z"
+  "updatedAt": "2026-08-24T18:25:06.604Z"
 }

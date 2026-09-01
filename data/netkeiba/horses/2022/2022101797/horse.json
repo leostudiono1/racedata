@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101797",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101797/",
-  "profile": null,
+  "profile": {
+    "name": "エントロピー",
+    "birthDate": "2022-03-02",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05553",
+      "name": "黒木豊"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "513395",
+      "name": "道見牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103548",
+      "name": "ダノンバラード"
+    },
+    "dam": {
+      "id": "2007102514",
+      "name": "ニシノマドカ"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103548",
@@ -2062,6 +2092,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エントロピー (Entropy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エントロピー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エントロピー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2131,9 +2191,9 @@
       "contentHash": "a1e80d3d8ea09b72a7c7204f169960022e5718192c999131eb33f1943f83bd5d",
       "byteLength": 65494,
       "rawPath": "netkeiba/horses/2022/2022101797/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:39:33.031Z"
+  "updatedAt": "2026-08-30T12:49:36.485Z"
 }

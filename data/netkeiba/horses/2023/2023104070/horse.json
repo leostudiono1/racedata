@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104070",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104070/",
-  "profile": null,
+  "profile": {
+    "name": "オンザ",
+    "birthDate": "2023-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01206",
+      "name": "高橋一哉"
+    },
+    "owner": {
+      "id": "334803",
+      "name": "ケーエスＨＤ"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2015110096",
+      "name": "ミスターメロディ"
+    },
+    "dam": {
+      "id": "2006100647",
+      "name": "コウエイテンプウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015110096",
@@ -1285,6 +1315,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オンザ (On the) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1354,9 +1414,9 @@
       "contentHash": "ae989f7d9cc6d972b333f148bbe8799c0b4e23d64b7c3a2ae8a0e0c3adfa44cd",
       "byteLength": 65663,
       "rawPath": "netkeiba/horses/2023/2023104070/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:17:14.742Z"
+  "updatedAt": "2026-08-27T14:26:29.189Z"
 }

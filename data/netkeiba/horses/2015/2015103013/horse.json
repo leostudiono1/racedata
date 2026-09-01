@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103013",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103013/",
-  "profile": null,
+  "profile": {
+    "name": "レイデマー",
+    "birthDate": "2015-04-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "秋田大助"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2010103906",
+      "name": "レッドサーガ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -5227,6 +5257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイデマー (Rey de Ma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイデマー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイデマー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5296,9 +5356,9 @@
       "contentHash": "3ffa7683b4fcbe2f7a3704169c985382ee8ddf3eb565a7e88eddf30da246acc3",
       "byteLength": 66854,
       "rawPath": "netkeiba/horses/2015/2015103013/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:51:48.707Z"
+  "updatedAt": "2026-08-31T12:00:42.147Z"
 }

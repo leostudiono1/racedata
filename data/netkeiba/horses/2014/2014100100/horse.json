@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100100",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100100/",
-  "profile": null,
+  "profile": {
+    "name": "ベリーグレート",
+    "birthDate": "2014-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05709",
+      "name": "千葉博次"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "330512",
+      "name": "大狩部牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2000100642",
+      "name": "バタラバ"
+    },
+    "damsire": {
+      "id": "1986100672",
+      "name": "バンブービギン"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -3682,6 +3712,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベリーグレート (Very Great) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリーグレート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリーグレート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3751,9 +3811,9 @@
       "contentHash": "a4a75c615fc81a5529f5f2282b55fe6b4abd8748e5b111c9821df427ad62ca7c",
       "byteLength": 65104,
       "rawPath": "netkeiba/horses/2014/2014100100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:05:20.959Z"
+  "updatedAt": "2026-08-30T12:15:24.785Z"
 }

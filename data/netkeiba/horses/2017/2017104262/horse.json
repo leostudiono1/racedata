@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104262",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104262/",
-  "profile": null,
+  "profile": {
+    "name": "タシロ",
+    "birthDate": "2017-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "（有）ミルファーム"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2006102113",
+      "name": "パドブレ"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5528,6 +5558,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タシロ (Tasiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タシロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タシロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5597,9 +5657,9 @@
       "contentHash": "7e8c23cc7372525e9fd37ae64fca8a89a1e2861105a5a7b3377a56735a356665",
       "byteLength": 66732,
       "rawPath": "netkeiba/horses/2017/2017104262/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:51:55.151Z"
+  "updatedAt": "2026-08-27T14:01:10.283Z"
 }

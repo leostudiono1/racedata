@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104378",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104378/",
-  "profile": null,
+  "profile": {
+    "name": "リーヴル",
+    "birthDate": "2016-01-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2006102820",
+      "name": "プラージュ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6920,6 +6950,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リーヴル (Livre) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リーヴル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リーヴル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6989,9 +7049,9 @@
       "contentHash": "1a1c7d677bad8a04936d24fb76440418f02c917a0d6a5515eeb03437550455cd",
       "byteLength": 66872,
       "rawPath": "netkeiba/horses/2016/2016104378/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:57:38.718Z"
+  "updatedAt": "2026-08-31T12:06:32.239Z"
 }

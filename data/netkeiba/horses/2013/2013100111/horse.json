@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100111",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100111/",
-  "profile": null,
+  "profile": {
+    "name": "ハレルヤボーイ",
+    "birthDate": "2013-02-04",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102870",
+      "name": "トーセンファントム"
+    },
+    "dam": {
+      "id": "2008105252",
+      "name": "トーセンミネルバ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102870",
@@ -2273,6 +2303,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハレルヤボーイ (Hallelujah Boy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハレルヤボーイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハレルヤボーイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2342,9 +2402,9 @@
       "contentHash": "24e81e638a7f107c488036bd332c15f8e7849213a941aaa52327e1b6ef608c69",
       "byteLength": 66959,
       "rawPath": "netkeiba/horses/2013/2013100111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:06:32.452Z"
+  "updatedAt": "2026-08-28T13:11:42.212Z"
 }

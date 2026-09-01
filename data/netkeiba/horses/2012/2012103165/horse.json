@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103165",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103165/",
-  "profile": null,
+  "profile": {
+    "name": "コメート",
+    "birthDate": "2012-03-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "026700",
+      "name": "ケンレーシング組合"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2006101260",
+      "name": "ジューンブライド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1792,6 +1822,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コメート (Komet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コメート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コメート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1861,9 +1921,9 @@
       "contentHash": "af38b29d18daa74e41f57242912715d2358e0d3db0e13a5bbb44e414e24c2ec2",
       "byteLength": 67094,
       "rawPath": "netkeiba/horses/2012/2012103165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:19:32.047Z"
+  "updatedAt": "2026-08-26T14:26:48.392Z"
 }

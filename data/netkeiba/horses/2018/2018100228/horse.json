@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100228",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100228/",
-  "profile": null,
+  "profile": {
+    "name": "サンミラー",
+    "birthDate": "2018-05-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "桜田康二"
+    },
+    "owner": {
+      "id": "951033",
+      "name": "諸岡慶"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2000110031",
+      "name": "ハートオンウェーブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -3726,6 +3756,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンミラー (Sun Mirror) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンミラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンミラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3795,9 +3855,9 @@
       "contentHash": "a3544489d1de40e22f6fd473da329c5d1ec781cb782b83349f57b106bad3b2c3",
       "byteLength": 64916,
       "rawPath": "netkeiba/horses/2018/2018100228/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:26:30.104Z"
+  "updatedAt": "2026-08-28T13:31:39.754Z"
 }

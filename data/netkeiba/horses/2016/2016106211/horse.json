@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106211",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106211/",
-  "profile": null,
+  "profile": {
+    "name": "アケル",
+    "birthDate": "2016-05-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "細川忠義"
+    },
+    "owner": {
+      "id": "316031",
+      "name": "西森功"
+    },
+    "breeder": {
+      "id": "733301",
+      "name": "藤川ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2009103837",
+      "name": "ミークレイチェル"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -2445,6 +2475,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アケル (Acer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アケル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アケル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2514,9 +2574,9 @@
       "contentHash": "996731dd0611c9476956db99c8f6f5e45793ab94b474d53605d6f621d72adf42",
       "byteLength": 66226,
       "rawPath": "netkeiba/horses/2016/2016106211/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:57:11.428Z"
+  "updatedAt": "2026-08-24T18:09:28.399Z"
 }

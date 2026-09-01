@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110077",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110077/",
-  "profile": null,
+  "profile": {
+    "name": "モンテルナ",
+    "birthDate": "2020-03-22",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05772",
+      "name": "高野毅"
+    },
+    "owner": {
+      "id": "331007",
+      "name": "幅田昌伸"
+    },
+    "breeder": {
+      "id": "930736",
+      "name": "Peter J. Callahan Runnymede Farm Inc. Enid Cafritz & Haras d'Etr"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Union Rags"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Light the Sky"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1793,6 +1823,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンテルナ (Monte Luna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンテルナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンテルナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1862,9 +1922,9 @@
       "contentHash": "7b88bd0f50722dd59025facd4553dfe3f87bdf280e62a0ef132517978c3e9216",
       "byteLength": 65272,
       "rawPath": "netkeiba/horses/2020/2020110077/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:54:22.430Z"
+  "updatedAt": "2026-08-26T15:01:38.661Z"
 }

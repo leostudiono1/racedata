@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105085",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105085/",
-  "profile": null,
+  "profile": {
+    "name": "ドリス",
+    "birthDate": "2012-04-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "330007",
+      "name": "杉澤光雄"
+    },
+    "breeder": {
+      "id": "730036",
+      "name": "浦河小林牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103890",
+      "name": "スズカマンボ"
+    },
+    "dam": {
+      "id": "1998103216",
+      "name": "ソルトレイクスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マイニング Mining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103890",
@@ -2044,6 +2074,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドリス (Doris) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2113,9 +2173,9 @@
       "contentHash": "3fa68d247e0ba51e484bdff3ffd2d4da61dc4fc366fde8ede31f2389a2008c4a",
       "byteLength": 64531,
       "rawPath": "netkeiba/horses/2012/2012105085/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:00:33.993Z"
+  "updatedAt": "2026-08-30T12:10:38.298Z"
 }

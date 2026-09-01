@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100849",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100849/",
-  "profile": null,
+  "profile": {
+    "name": "ドンマネー",
+    "birthDate": "2010-03-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "440006",
+      "name": "山田貢一"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    },
+    "dam": {
+      "id": "2004102121",
+      "name": "ドナビジュー"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110025",
@@ -6358,6 +6388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドンマネー (Don Money) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドンマネー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドンマネー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6427,9 +6487,9 @@
       "contentHash": "dab8dd743d9b6936da2d0ba35653a472a01a593f99777af2485589685e6e7822",
       "byteLength": 64916,
       "rawPath": "netkeiba/horses/2010/2010100849/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:26:00.646Z"
+  "updatedAt": "2026-08-27T13:35:15.294Z"
 }

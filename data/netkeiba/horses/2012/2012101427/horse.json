@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101427",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101427/",
-  "profile": null,
+  "profile": {
+    "name": "ナリタイナズマ",
+    "birthDate": "2012-04-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2002106061",
+      "name": "ナリタシークレット"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1352,6 +1382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナリタイナズマ (Narita Inazuma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタイナズマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタイナズマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1421,9 +1481,9 @@
       "contentHash": "aca7b1158f692fd7102d4259cfd4cb60d8dced079ac314e86caf8778399ba1f5",
       "byteLength": 64710,
       "rawPath": "netkeiba/horses/2012/2012101427/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:02:41.374Z"
+  "updatedAt": "2026-08-28T13:07:51.114Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101481",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101481/",
-  "profile": null,
+  "profile": {
+    "name": "サザンレイク",
+    "birthDate": "2020-04-08",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05204",
+      "name": "村上頼章"
+    },
+    "owner": {
+      "id": "096006",
+      "name": "村山忠弘"
+    },
+    "breeder": {
+      "id": "633355",
+      "name": "坂牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2014102575",
+      "name": "ローズゴールド"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5210,6 +5240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サザンレイク (Southern Lake) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サザンレイク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サザンレイク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5279,9 +5339,9 @@
       "contentHash": "ed39ec1acfa4a17a17673d17b2150277855a6021b6a75d807da288b4fabfa67b",
       "byteLength": 67011,
       "rawPath": "netkeiba/horses/2020/2020101481/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:57:09.124Z"
+  "updatedAt": "2026-08-29T13:05:35.013Z"
 }

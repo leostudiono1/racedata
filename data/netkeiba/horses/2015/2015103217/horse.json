@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103217",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103217/",
-  "profile": null,
+  "profile": {
+    "name": "アルドーレ",
+    "birthDate": "2015-04-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2006102841",
+      "name": "ティックルピンク"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -6863,6 +6893,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルドーレ (Ardore) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルドーレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルドーレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6932,9 +6992,9 @@
       "contentHash": "77ecd099d918abcdf228ba5a81c2ba2180de6bbeb01cf1a82ecfc816f154a97f",
       "byteLength": 66830,
       "rawPath": "netkeiba/horses/2015/2015103217/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:10:43.160Z"
+  "updatedAt": "2026-08-30T12:20:47.121Z"
 }

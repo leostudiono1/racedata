@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100201",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100201/",
-  "profile": null,
+  "profile": {
+    "name": "ナムラケンシロウ",
+    "birthDate": "2010-03-30",
+    "sex": "牡",
+    "coatColor": "栃栗毛",
+    "trainer": {
+      "id": "00396",
+      "name": "福島信晴"
+    },
+    "owner": {
+      "id": "945004",
+      "name": "奈村信重"
+    },
+    "breeder": {
+      "id": "913344",
+      "name": "いとう牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102955",
+      "name": "フサイチリシャール"
+    },
+    "dam": {
+      "id": "2003105753",
+      "name": "ナムラクニヒメ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キンググローリアス King Glorious(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102955",
@@ -3176,6 +3206,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナムラケンシロウ (Namura Kenshiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラケンシロウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラケンシロウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3245,9 +3305,9 @@
       "contentHash": "6a58df2d56274aab7b7dc7c5cbffe90290064f7d4d80a2f0844d0d07aa28da10",
       "byteLength": 64875,
       "rawPath": "netkeiba/horses/2010/2010100201/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T13:54:47.319Z"
+  "updatedAt": "2026-08-30T12:04:51.139Z"
 }

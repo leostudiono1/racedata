@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104160",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104160/",
-  "profile": null,
+  "profile": {
+    "name": "コルサーレ",
+    "birthDate": "2011-03-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アロングザシー Along the Sea(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Anees"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2592,6 +2622,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コルサーレ (Corsale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コルサーレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コルサーレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2661,9 +2721,9 @@
       "contentHash": "7ff812d25c414815efb5dc333d458adf8f82395840cf3553f7ccd7286fd1bb10",
       "byteLength": 66963,
       "rawPath": "netkeiba/horses/2011/2011104160/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:01:20.994Z"
+  "updatedAt": "2026-08-28T13:06:30.496Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105733",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105733/",
-  "profile": null,
+  "profile": {
+    "name": "オオフジ",
+    "birthDate": "2019-04-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "136007",
+      "name": "平川浩之"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2010110048",
+      "name": "アンカジャポニカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Authorized"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -1395,6 +1425,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オオフジ (Ofuji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オオフジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オオフジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1464,9 +1524,9 @@
       "contentHash": "3b194ac7923b3c103c4b12012b78298d0449c82f99ceba3afb53e3885f870f2b",
       "byteLength": 66259,
       "rawPath": "netkeiba/horses/2019/2019105733/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:08:20.162Z"
+  "updatedAt": "2026-08-24T18:20:36.996Z"
 }

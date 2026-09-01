@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100522",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100522/",
-  "profile": null,
+  "profile": {
+    "name": "レッドルキフェル",
+    "birthDate": "2020-02-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "203065",
+      "name": "山際牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2012104919",
+      "name": "ハッピーパウダー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1348,6 +1378,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドルキフェル (Red Lucifer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドルキフェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドルキフェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1417,9 +1477,9 @@
       "contentHash": "bc6dd4a5cf06453f0a2f12acbd66ac61216c186118a8963fadd8ac6ebdec9275",
       "byteLength": 67402,
       "rawPath": "netkeiba/horses/2020/2020100522/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:36:36.235Z"
+  "updatedAt": "2026-08-28T13:41:45.229Z"
 }

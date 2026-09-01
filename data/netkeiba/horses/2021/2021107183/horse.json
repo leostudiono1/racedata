@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021107183",
   "sourceUrl": "https://db.netkeiba.com/horse/2021107183/",
-  "profile": null,
+  "profile": {
+    "name": "ペクトラル",
+    "birthDate": "2021-02-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "553034",
+      "name": "服部知明"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2003110090",
+      "name": "マチカネタマカズラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -2639,6 +2669,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペクトラル (Pectoral) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペクトラル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペクトラル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2708,9 +2768,9 @@
       "contentHash": "b6463664d7aebe857a7dbb713bb9a35b517f332252e4462a1084608077c1c923",
       "byteLength": 66787,
       "rawPath": "netkeiba/horses/2021/2021107183/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:21:23.670Z"
+  "updatedAt": "2026-08-31T12:30:17.226Z"
 }

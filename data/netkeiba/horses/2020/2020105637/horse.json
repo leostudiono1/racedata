@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105637",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105637/",
-  "profile": null,
+  "profile": {
+    "name": "ジグラート",
+    "birthDate": "2020-04-05",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05768",
+      "name": "田中一巧"
+    },
+    "owner": {
+      "id": "x0afd7",
+      "name": "曽和由行"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013110045",
+      "name": "ラニ"
+    },
+    "dam": {
+      "id": "2012110057",
+      "name": "ナギット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013110045",
@@ -4288,6 +4318,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジグラート (Ziggurat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジグラート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジグラート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4357,9 +4417,9 @@
       "contentHash": "56634271e238781f9a524282de4767d4ae8a016b97196a77dd8c6e4f92775ff1",
       "byteLength": 66800,
       "rawPath": "netkeiba/horses/2020/2020105637/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:05:06.350Z"
+  "updatedAt": "2026-08-27T14:14:21.154Z"
 }

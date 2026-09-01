@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110090",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110090/",
-  "profile": null,
+  "profile": {
+    "name": "アンクルダイチ",
+    "birthDate": "2012-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "952006",
+      "name": "塚本能交"
+    },
+    "breeder": {
+      "id": "990702",
+      "name": "Sheltowee Farm Tom McCrocklin & Mark Toothaker"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Discreetly Mine"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Darling Monique"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Corredor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2556,6 +2586,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンクルダイチ (Uncle Daichi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンクルダイチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンクルダイチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2625,9 +2685,9 @@
       "contentHash": "62dc246c9386343d98b75b900c7d070f2e345c850299742dc6e1815c6ec43d33",
       "byteLength": 65328,
       "rawPath": "netkeiba/horses/2012/2012110090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:32:43.092Z"
+  "updatedAt": "2026-08-27T13:41:57.806Z"
 }

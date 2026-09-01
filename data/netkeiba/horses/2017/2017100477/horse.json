@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100477",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100477/",
-  "profile": null,
+  "profile": {
+    "name": "リスペクト",
+    "birthDate": "2017-03-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2010100289",
+      "name": "ラヴィアンフルール"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2480,6 +2510,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リスペクト (Respect) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リスペクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リスペクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2549,9 +2609,9 @@
       "contentHash": "801f4e7d4de8f949158eeb5b4628f4791d865b5b945a30d062c6c4eed5af2373",
       "byteLength": 66833,
       "rawPath": "netkeiba/horses/2017/2017100477/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:17:29.285Z"
+  "updatedAt": "2026-08-30T12:27:33.082Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106244",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106244/",
-  "profile": null,
+  "profile": {
+    "name": "ハナジロー",
+    "birthDate": "2013-04-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05333",
+      "name": "矢野久美"
+    },
+    "owner": {
+      "id": "648006",
+      "name": "坂本忠教"
+    },
+    "breeder": {
+      "id": "303345",
+      "name": "幾千世牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    },
+    "dam": {
+      "id": "2001106203",
+      "name": "アスール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005101358",
@@ -3094,6 +3124,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハナジロー (Hanajiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナジロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナジロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3163,9 +3223,9 @@
       "contentHash": "126c33fe0a0681c9529f9894234b810363f0a374d85564106c84bb1e40e58681",
       "byteLength": 66910,
       "rawPath": "netkeiba/horses/2013/2013106244/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:42:53.560Z"
+  "updatedAt": "2026-08-24T17:55:10.516Z"
 }

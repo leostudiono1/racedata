@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103742",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103742/",
-  "profile": null,
+  "profile": {
+    "name": "ムガ",
+    "birthDate": "2019-05-08",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01206",
+      "name": "高橋一哉"
+    },
+    "owner": {
+      "id": "497031",
+      "name": "村田博司"
+    },
+    "breeder": {
+      "id": "310013",
+      "name": "田中スタッド"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2010104501",
+      "name": "チョコレートリリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3339,6 +3369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムガ (Muga) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3408,9 +3468,9 @@
       "contentHash": "884e00347290ebde4d7e676783a093ed9f2ef18e6aedde1cec80de1660541c7c",
       "byteLength": 66759,
       "rawPath": "netkeiba/horses/2019/2019103742/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:27:14.586Z"
+  "updatedAt": "2026-08-30T12:37:17.768Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105263",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105263/",
-  "profile": null,
+  "profile": {
+    "name": "コーディアル",
+    "birthDate": "2018-04-23",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2010105912",
+      "name": "ボンジュールココロ"
+    },
+    "damsire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2327,6 +2357,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コーディアル (Cordial) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コーディアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コーディアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2396,9 +2456,9 @@
       "contentHash": "f01ac82206af751aac2c22e01890508a60169176aaabd6dc99988c0877499c13",
       "byteLength": 67293,
       "rawPath": "netkeiba/horses/2018/2018105263/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:44:41.193Z"
+  "updatedAt": "2026-08-26T14:51:57.127Z"
 }

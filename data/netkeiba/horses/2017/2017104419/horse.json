@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104419",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104419/",
-  "profile": null,
+  "profile": {
+    "name": "バロネ",
+    "birthDate": "2017-04-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2009102231",
+      "name": "トーセンベニザクラ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1164,6 +1194,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バロネ (Ballonne) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バロネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バロネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1233,9 +1293,9 @@
       "contentHash": "6247a72fa6009e3563ba47a9556151dd141a1206aeb7c3f49d660dee2e501ec5",
       "byteLength": 65030,
       "rawPath": "netkeiba/horses/2017/2017104419/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:24:44.897Z"
+  "updatedAt": "2026-08-28T13:29:54.461Z"
 }

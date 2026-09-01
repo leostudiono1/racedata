@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104944",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104944/",
-  "profile": null,
+  "profile": {
+    "name": "ネコタイショウ",
+    "birthDate": "2010-04-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00436",
+      "name": "堀井雅広"
+    },
+    "owner": {
+      "id": "129005",
+      "name": "桐谷茂"
+    },
+    "breeder": {
+      "id": "600013",
+      "name": "大道牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "1995101917",
+      "name": "パシェンテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ダンシングブレーヴ Dancing Brave(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -5016,6 +5046,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネコタイショウ (Neko Taisho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコタイショウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコタイショウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5085,9 +5145,9 @@
       "contentHash": "c6f7441f56999c3d122ac3c370594d82b1dc031a05f8e83f5741bd86185de4c0",
       "byteLength": 66965,
       "rawPath": "netkeiba/horses/2010/2010104944/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:26:49.731Z"
+  "updatedAt": "2026-08-27T13:36:04.881Z"
 }

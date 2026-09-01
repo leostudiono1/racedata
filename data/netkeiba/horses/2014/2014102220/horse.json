@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102220",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102220/",
-  "profile": null,
+  "profile": {
+    "name": "シャープセンス",
+    "birthDate": "2014-05-09",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラッシュカッター Rushcutter(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Red Ransom"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1720,6 +1750,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャープセンス (Sharp Sense) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャープセンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャープセンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1789,9 +1849,9 @@
       "contentHash": "ff398dd37ce8f8e06082ab31dabc0e70c7b7a113baaa0ad76967e7e893a1b9aa",
       "byteLength": 64896,
       "rawPath": "netkeiba/horses/2014/2014102220/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:47:29.193Z"
+  "updatedAt": "2026-08-31T11:56:23.263Z"
 }

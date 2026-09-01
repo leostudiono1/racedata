@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102837",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102837/",
-  "profile": null,
+  "profile": {
+    "name": "アプロム",
+    "birthDate": "2013-01-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05553",
+      "name": "黒木豊"
+    },
+    "owner": {
+      "id": "x029d6",
+      "name": "中田了也"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2002103785",
+      "name": "アメリカーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -3869,6 +3899,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アプロム (Aplomb) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプロム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプロム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3938,9 +3998,9 @@
       "contentHash": "577cfe503d5eace7a86269a8fc7387e0fbbfe3f3fa1273df15cad384d736c0de",
       "byteLength": 64315,
       "rawPath": "netkeiba/horses/2013/2013102837/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:22:51.821Z"
+  "updatedAt": "2026-08-26T14:30:07.638Z"
 }

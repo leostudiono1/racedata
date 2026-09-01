@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104141",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104141/",
-  "profile": null,
+  "profile": {
+    "name": "シャローム",
+    "birthDate": "2021-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2013104506",
+      "name": "ビバパーチェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -3445,6 +3475,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャローム (Shalom) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャローム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャローム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3514,9 +3574,9 @@
       "contentHash": "56d6824f161119e458a65adf55042ad175db948d4fd671dbb715086d53544d70",
       "byteLength": 65750,
       "rawPath": "netkeiba/horses/2021/2021104141/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:42:32.763Z"
+  "updatedAt": "2026-08-28T13:47:42.386Z"
 }

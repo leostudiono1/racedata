@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106667",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106667/",
-  "profile": null,
+  "profile": {
+    "name": "サーストントラスト",
+    "birthDate": "2018-04-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05696",
+      "name": "立花伸"
+    },
+    "owner": {
+      "id": "x0a8eb",
+      "name": "斉藤宣彰"
+    },
+    "breeder": {
+      "id": "400005",
+      "name": "猿倉牧場"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2003105026",
+      "name": "パープルカフェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Vettori"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -5227,6 +5257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サーストントラスト (Thurston Trust) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーストントラスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーストントラスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5296,9 +5356,9 @@
       "contentHash": "80bee8172fcdbacbd06d00955b62dec4eab7d785fb6b0d5706aa09b8604036ed",
       "byteLength": 66050,
       "rawPath": "netkeiba/horses/2018/2018106667/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:45:44.546Z"
+  "updatedAt": "2026-08-26T14:53:00.455Z"
 }

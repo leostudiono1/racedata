@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104111",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104111/",
-  "profile": null,
+  "profile": {
+    "name": "プレスアテンション",
+    "birthDate": "2011-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リードストーリー Lead Story(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Editor's Note"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -4084,6 +4114,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレスアテンション (Press Attention) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレスアテンション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレスアテンション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4153,9 +4213,9 @@
       "contentHash": "2470801c1daf0253db49285c2a63924c6bbb4313ec697b26558aa3f9bf14c464",
       "byteLength": 67112,
       "rawPath": "netkeiba/horses/2011/2011104111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:36:14.431Z"
+  "updatedAt": "2026-08-24T17:48:31.361Z"
 }

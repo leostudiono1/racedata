@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110080",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110080/",
-  "profile": null,
+  "profile": {
+    "name": "チャイマックス",
+    "birthDate": "2013-01-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "151006",
+      "name": "吉田和子"
+    },
+    "breeder": {
+      "id": "610709",
+      "name": "Clearsky Farms"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Congrats (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Icy Tea"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2975,6 +3005,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャイマックス (Chai Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャイマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャイマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3044,9 +3104,9 @@
       "contentHash": "e17a59bee4e1e0143ae7d5266e0966784d8f1ce4570a83475580d03a5e5b9d44",
       "byteLength": 66985,
       "rawPath": "netkeiba/horses/2013/2013110080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:25:22.759Z"
+  "updatedAt": "2026-08-26T14:32:38.081Z"
 }

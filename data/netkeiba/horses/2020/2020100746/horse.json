@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100746",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100746/",
-  "profile": null,
+  "profile": {
+    "name": "ショーエース",
+    "birthDate": "2020-01-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "905033",
+      "name": "吉冨学"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2006100383",
+      "name": "マスターチアフル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2209,6 +2239,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショーエース (Show Ace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショーエース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショーエース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2278,9 +2338,9 @@
       "contentHash": "4e84d04fb92e43f3b172ddcf11c6195416c7b4b73269ff5d80fda7c4ffa11215",
       "byteLength": 66043,
       "rawPath": "netkeiba/horses/2020/2020100746/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:50:20.837Z"
+  "updatedAt": "2026-08-26T14:57:36.694Z"
 }

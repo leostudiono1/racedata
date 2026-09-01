@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103582",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103582/",
-  "profile": null,
+  "profile": {
+    "name": "パルティータ",
+    "birthDate": "2015-05-23",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "117800",
+      "name": "高昭牧場"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "2006100363",
+      "name": "オールオールオール"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1558,6 +1588,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パルティータ (Partita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パルティータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パルティータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1627,9 +1687,9 @@
       "contentHash": "d4d506689b6fe8801ba7c35018c45bbd66d074d90d503568ea62512d1436a3c8",
       "byteLength": 65206,
       "rawPath": "netkeiba/horses/2015/2015103582/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:36:54.274Z"
+  "updatedAt": "2026-08-29T12:45:19.796Z"
 }

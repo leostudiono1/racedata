@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105457",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105457/",
-  "profile": null,
+  "profile": {
+    "name": "ヒナタ",
+    "birthDate": "2023-04-06",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05585",
+      "name": "畠山信一"
+    },
+    "owner": {
+      "id": "554008",
+      "name": "吉田勝利"
+    },
+    "breeder": {
+      "id": "700048",
+      "name": "大北牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2016103235",
+      "name": "アモローサ"
+    },
+    "damsire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -2127,6 +2157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒナタ (Hinata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒナタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒナタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2196,9 +2256,9 @@
       "contentHash": "3560bfc8613527294895725ae82164be1671242b66729ec117e46698ad21c616",
       "byteLength": 66963,
       "rawPath": "netkeiba/horses/2023/2023105457/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:52:45.715Z"
+  "updatedAt": "2026-08-28T13:57:55.006Z"
 }

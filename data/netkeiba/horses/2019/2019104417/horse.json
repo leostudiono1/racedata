@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104417",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104417/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンフィジカル",
+    "birthDate": "2019-04-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2007106428",
+      "name": "トーセンフリージア"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -1351,6 +1381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンフィジカル (Tosen Physical) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンフィジカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンフィジカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1420,9 +1480,9 @@
       "contentHash": "196fa742cf21b369508f59657a18060485fd07b009c48bda7c4204120f3ccafa",
       "byteLength": 65758,
       "rawPath": "netkeiba/horses/2019/2019104417/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:55:03.630Z"
+  "updatedAt": "2026-08-29T13:03:28.754Z"
 }

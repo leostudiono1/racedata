@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100901",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100901/",
-  "profile": null,
+  "profile": {
+    "name": "ローザ",
+    "birthDate": "2020-04-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "櫻田康二"
+    },
+    "owner": {
+      "id": "x04e4c",
+      "name": "鶴谷義雄"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2013105728",
+      "name": "ドゥラセア"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -4728,6 +4758,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローザ (Roza) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4797,9 +4857,9 @@
       "contentHash": "efed8fb2d3890d1a31a676cdf4fc7144da066046b298accc75a1ca61cd04b19e",
       "byteLength": 65948,
       "rawPath": "netkeiba/horses/2020/2020100901/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:09:47.860Z"
+  "updatedAt": "2026-08-24T18:22:04.797Z"
 }

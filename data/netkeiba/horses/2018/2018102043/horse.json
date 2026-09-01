@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102043",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102043/",
-  "profile": null,
+  "profile": {
+    "name": "ノーブルファミリー",
+    "birthDate": "2018-04-28",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2001110046",
+      "name": "グローリーブラッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1201,6 +1231,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノーブルファミリー (Noble Family) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーブルファミリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノーブルファミリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1270,9 +1330,9 @@
       "contentHash": "5643302b640a049916b273529fc80d93816a3a7010c4094ac68723f1ef960579",
       "byteLength": 64692,
       "rawPath": "netkeiba/horses/2018/2018102043/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:22:30.491Z"
+  "updatedAt": "2026-08-30T12:32:34.192Z"
 }

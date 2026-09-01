@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104781",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104781/",
-  "profile": null,
+  "profile": {
+    "name": "トリック",
+    "birthDate": "2016-03-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2006103169",
+      "name": "トーセンジョーダン"
+    },
+    "dam": {
+      "id": "2010104094",
+      "name": "スターシンフォニー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103169",
@@ -1146,6 +1176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリック (Trick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1215,9 +1275,9 @@
       "contentHash": "a419bb40f5e2e6b24aeea5d8623de143eb40189073d5293e96545d5921cd1d05",
       "byteLength": 65254,
       "rawPath": "netkeiba/horses/2016/2016104781/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:42:26.707Z"
+  "updatedAt": "2026-08-29T12:50:52.397Z"
 }

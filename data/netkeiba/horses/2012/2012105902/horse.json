@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105902",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105902/",
-  "profile": null,
+  "profile": {
+    "name": "チトセチヨ",
+    "birthDate": "2012-03-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00388",
+      "name": "山内研二"
+    },
+    "owner": {
+      "id": "342033",
+      "name": "小嶋將則"
+    },
+    "breeder": {
+      "id": "800042",
+      "name": "小島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2007105252",
+      "name": "ナムラフェアリ"
+    },
+    "damsire": {
+      "id": "1992109612",
+      "name": "タヤスツヨシ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1493,6 +1523,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チトセチヨ (Chitose Chiyo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チトセチヨ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チトセチヨ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1562,9 +1622,9 @@
       "contentHash": "8dd3542a6d7fb9037b26b8126c6ff95987cf65e65d5ac9229913966238fbb449",
       "byteLength": 64431,
       "rawPath": "netkeiba/horses/2012/2012105902/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:25:10.348Z"
+  "updatedAt": "2026-08-29T12:33:36.198Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106975",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106975/",
-  "profile": null,
+  "profile": {
+    "name": "スキップアビート",
+    "birthDate": "2020-04-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05237",
+      "name": "藤田正治"
+    },
+    "owner": {
+      "id": "x08b5e",
+      "name": "菅原洋充"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103548",
+      "name": "ダノンバラード"
+    },
+    "dam": {
+      "id": "2015103877",
+      "name": "パッセ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103548",
@@ -4526,6 +4556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スキップアビート (Skip a Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキップアビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキップアビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4595,9 +4655,9 @@
       "contentHash": "cb170d24ff5b4efd40f576afcdde6344e6f99150d59ed71d834c99b1ddb552ba",
       "byteLength": 67049,
       "rawPath": "netkeiba/horses/2020/2020106975/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:05:58.884Z"
+  "updatedAt": "2026-08-27T14:15:13.503Z"
 }

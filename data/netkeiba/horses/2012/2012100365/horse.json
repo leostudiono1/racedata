@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100365",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100365/",
-  "profile": null,
+  "profile": {
+    "name": "スキュラ",
+    "birthDate": "2012-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "057006",
+      "name": "谷口貞保"
+    },
+    "breeder": {
+      "id": "610310",
+      "name": "タニグチ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    },
+    "dam": {
+      "id": "1999107016",
+      "name": "アドマイヤパール"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4428,6 +4458,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スキュラ (Scylla) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキュラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキュラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4497,9 +4557,9 @@
       "contentHash": "5bbc50f90abe7927b65ad17eae438b6c42c5d7190c4189ea02026e2bbf236fe9",
       "byteLength": 64685,
       "rawPath": "netkeiba/horses/2012/2012100365/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:40:08.109Z"
+  "updatedAt": "2026-08-31T11:49:02.106Z"
 }

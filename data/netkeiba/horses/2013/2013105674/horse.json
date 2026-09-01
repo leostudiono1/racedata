@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2013105674",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105674/",
-  "profile": null,
+  "profile": {
+    "name": "ジェネレーション",
+    "birthDate": "2013-03-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "ジェネレーション (Generation) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェネレーション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェネレーション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "2a1725b14d362afd9515838d471b51e97be61739cc00396709780cd9dbdbf931",
       "byteLength": 66034,
       "rawPath": "netkeiba/horses/2013/2013105674/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T17:02:56.708Z"

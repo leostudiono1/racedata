@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101502",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101502/",
-  "profile": null,
+  "profile": {
+    "name": "ミツバ",
+    "birthDate": "2012-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "959800",
+      "name": "協栄"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2001106421",
+      "name": "セントクリスマス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -6173,6 +6203,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミツバ (Mitsuba) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミツバ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミツバ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6242,9 +6302,9 @@
       "contentHash": "0bbd0e02e2f99ad71ed01a5d68b7b34fdfedcbca4579b32533618052c1cabb01",
       "byteLength": 66784,
       "rawPath": "netkeiba/horses/2012/2012101502/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:29:30.821Z"
+  "updatedAt": "2026-08-27T13:38:45.594Z"
 }

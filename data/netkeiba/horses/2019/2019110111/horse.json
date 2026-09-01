@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110111",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110111/",
-  "profile": null,
+  "profile": {
+    "name": "シーヴィクセン",
+    "birthDate": "2019-02-05",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "040736",
+      "name": "Breeze Easy LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Into Mischief"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sly Warrior"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "First Samurai"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1761,6 +1791,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーヴィクセン (Sea Vixen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーヴィクセン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーヴィクセン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1830,9 +1890,9 @@
       "contentHash": "6b2dd6ddb97d4ea17560d6cc1b52599324ecb64f5090a976145c1529d68e0767",
       "byteLength": 66978,
       "rawPath": "netkeiba/horses/2019/2019110111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:30:09.028Z"
+  "updatedAt": "2026-08-30T12:40:12.715Z"
 }

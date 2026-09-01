@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103849",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103849/",
-  "profile": null,
+  "profile": {
+    "name": "ベージョ",
+    "birthDate": "2013-02-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "吉田司"
+    },
+    "owner": {
+      "id": "x013b6",
+      "name": "古川忠一"
+    },
+    "breeder": {
+      "id": "430041",
+      "name": "山田昇史"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "スタチューオブリバティ Statue of Liberty(米)"
+    },
+    "dam": {
+      "id": "2001103679",
+      "name": "ビューヤマザクラ"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2145,6 +2175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベージョ (Bello) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベージョ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベージョ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2214,9 +2274,9 @@
       "contentHash": "f4cb66053d62670c97286e4ce19205fe295926162b0ec7c2bc709e8ca553047a",
       "byteLength": 66492,
       "rawPath": "netkeiba/horses/2013/2013103849/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:35:27.593Z"
+  "updatedAt": "2026-08-27T13:44:42.407Z"
 }

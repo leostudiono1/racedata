@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102296",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102296/",
-  "profile": null,
+  "profile": {
+    "name": "トンバ",
+    "birthDate": "2016-05-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "875006",
+      "name": "永田和彦"
+    },
+    "breeder": {
+      "id": "010057",
+      "name": "エムエム、ヤマダファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2008103280",
+      "name": "ローザディアマント"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1746,6 +1776,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トンバ (Tomba) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トンバ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トンバ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1815,9 +1875,9 @@
       "contentHash": "1e3aa40a42bee144dc4d55e1f02f5816fd6cd44370d9bdb9ce6d74acc6dc6eaa",
       "byteLength": 66612,
       "rawPath": "netkeiba/horses/2016/2016102296/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:14:09.697Z"
+  "updatedAt": "2026-08-30T12:24:13.533Z"
 }

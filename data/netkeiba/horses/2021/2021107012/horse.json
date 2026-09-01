@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021107012",
   "sourceUrl": "https://db.netkeiba.com/horse/2021107012/",
-  "profile": null,
+  "profile": {
+    "name": "キングプロフィット",
+    "birthDate": "2021-05-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01090",
+      "name": "天間昭一"
+    },
+    "owner": {
+      "id": "945031",
+      "name": "飯島利彦"
+    },
+    "breeder": {
+      "id": "790543",
+      "name": "村上進治"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サパス Sapas(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -3348,6 +3378,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングプロフィット (King Profit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングプロフィット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングプロフィット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3417,9 +3477,9 @@
       "contentHash": "1573be1cdc1420524ba02f27d921d3ce3129667b245042674a16636bbffbab76",
       "byteLength": 66961,
       "rawPath": "netkeiba/horses/2021/2021107012/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:09:46.378Z"
+  "updatedAt": "2026-08-27T14:19:01.220Z"
 }

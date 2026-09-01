@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105777",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105777/",
-  "profile": null,
+  "profile": {
+    "name": "シェルム",
+    "birthDate": "2012-03-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "895030",
+      "name": "山口敦広"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2001110015",
+      "name": "ピットエンジェル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pulpit"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1461,6 +1491,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シェルム (Schelm) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シェルム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シェルム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1530,9 +1590,9 @@
       "contentHash": "76c53e218a84d6c980c0df04dd194583ae22a060f963a31fb8522c1dee86b3b5",
       "byteLength": 64330,
       "rawPath": "netkeiba/horses/2012/2012105777/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:32:15.043Z"
+  "updatedAt": "2026-08-27T13:41:30.202Z"
 }

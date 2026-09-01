@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105340",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105340/",
-  "profile": null,
+  "profile": {
+    "name": "アピア",
+    "birthDate": "2011-06-05",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05667",
+      "name": "渡辺和雄"
+    },
+    "owner": {
+      "id": "x08ece",
+      "name": "宮崎時子"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2006104297",
+      "name": "ウインプレセア"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4308,6 +4338,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アピア (Appear) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アピア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アピア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4377,9 +4437,9 @@
       "contentHash": "51580576426c548769e4fd0565d4b201d76487f5e05b229ccb3a5e9dfb578e6f",
       "byteLength": 66481,
       "rawPath": "netkeiba/horses/2011/2011105340/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:22:29.500Z"
+  "updatedAt": "2026-08-29T12:30:55.000Z"
 }

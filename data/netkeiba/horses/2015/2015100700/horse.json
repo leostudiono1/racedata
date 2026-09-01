@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100700",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100700/",
-  "profile": null,
+  "profile": {
+    "name": "ベルノート",
+    "birthDate": "2015-05-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2004110238",
+      "name": "コスモベル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Formal Dinner"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -8790,6 +8820,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルノート (Belle Note) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルノート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルノート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8859,9 +8919,9 @@
       "contentHash": "3be99403e455c766b60fbd3f5b0aa8d78e45ac0609ad72ba9333af21e6a8f18a",
       "byteLength": 66716,
       "rawPath": "netkeiba/horses/2015/2015100700/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:48:05.829Z"
+  "updatedAt": "2026-08-24T18:00:22.110Z"
 }

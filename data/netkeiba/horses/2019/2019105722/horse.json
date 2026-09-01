@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105722",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105722/",
-  "profile": null,
+  "profile": {
+    "name": "スクナ",
+    "birthDate": "2019-05-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05717",
+      "name": "張田京"
+    },
+    "owner": {
+      "id": "x0b012",
+      "name": "茂木和久"
+    },
+    "breeder": {
+      "id": "533068",
+      "name": "上野正恵"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2008104071",
+      "name": "マイネリスペクト"
+    },
+    "damsire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -2446,6 +2476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スクナ (Sukuna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スクナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スクナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2515,9 +2575,9 @@
       "contentHash": "09fcbc6ef32d64230472ae646e6ddbbc0df8eb78bcadbb7902b3358db08bf621",
       "byteLength": 66762,
       "rawPath": "netkeiba/horses/2019/2019105722/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:12:17.763Z"
+  "updatedAt": "2026-08-31T12:21:11.168Z"
 }

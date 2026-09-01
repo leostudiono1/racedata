@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105699",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105699/",
-  "profile": null,
+  "profile": {
+    "name": "カシノビルボード",
+    "birthDate": "2020-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05109",
+      "name": "古賀光範"
+    },
+    "owner": {
+      "id": "514009",
+      "name": "柏木務"
+    },
+    "breeder": {
+      "id": "900315",
+      "name": "浜口牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2011105144",
+      "name": "ジギースンナー"
+    },
+    "damsire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -3221,6 +3251,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシノビルボード (Kashino Billboard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノビルボード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノビルボード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3290,9 +3350,9 @@
       "contentHash": "1a34586a12d6bee26d3257366dca4aee78c17aa56416056803e12f5107d05d94",
       "byteLength": 66300,
       "rawPath": "netkeiba/horses/2020/2020105699/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:05:13.462Z"
+  "updatedAt": "2026-08-27T14:14:27.975Z"
 }

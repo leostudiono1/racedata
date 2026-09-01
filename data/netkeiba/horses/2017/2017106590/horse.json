@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106590",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106590/",
-  "profile": null,
+  "profile": {
+    "name": "レアード",
+    "birthDate": "2017-01-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "526008",
+      "name": "角井紀夫"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ディスメイ Dismay(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -2272,6 +2302,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レアード (Laird) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2341,9 +2401,9 @@
       "contentHash": "099a6f00b8b01e73d99340afcb0eea3c11404c319820f9cebb3c80032a23a327",
       "byteLength": 66751,
       "rawPath": "netkeiba/horses/2017/2017106590/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:03:21.599Z"
+  "updatedAt": "2026-08-31T12:12:15.472Z"
 }

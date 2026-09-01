@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104756",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104756/",
-  "profile": null,
+  "profile": {
+    "name": "サンルイス",
+    "birthDate": "2016-02-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "桜田康二"
+    },
+    "owner": {
+      "id": "963031",
+      "name": "前田敏文"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2007104061",
+      "name": "コンカラン"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3228,6 +3258,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンルイス (San Luis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンルイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンルイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3297,9 +3357,9 @@
       "contentHash": "fd7f574953b42c63b94cc10a56aa47e035dd39dbc9a5f08fb1574cf7311d60b3",
       "byteLength": 66831,
       "rawPath": "netkeiba/horses/2016/2016104756/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:15:26.684Z"
+  "updatedAt": "2026-08-30T12:25:30.533Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100570",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100570/",
-  "profile": null,
+  "profile": {
+    "name": "セリシア",
+    "birthDate": "2018-02-22",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "728008",
+      "name": "西田彰宏"
+    },
+    "breeder": {
+      "id": "541543",
+      "name": "スマイルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011101273",
+      "name": "エイシンヒカリ"
+    },
+    "dam": {
+      "id": "2007101431",
+      "name": "サワノパルファン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011101273",
@@ -4018,6 +4048,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セリシア (Celisia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セリシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セリシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4087,9 +4147,9 @@
       "contentHash": "99634a61ddba47585efd8de3d27aaa6d37944d9a9cd64dc13abace46f8084890",
       "byteLength": 67049,
       "rawPath": "netkeiba/horses/2018/2018100570/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:02:16.021Z"
+  "updatedAt": "2026-08-24T18:14:32.803Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106601",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106601/",
-  "profile": null,
+  "profile": {
+    "name": "メイポール",
+    "birthDate": "2023-02-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "903515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2011102915",
+      "name": "ファンファーレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -1440,6 +1470,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイポール (Maypole) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイポール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイポール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1509,9 +1569,9 @@
       "contentHash": "676ebf1a7273641e79a34dfaea1189a8c3f36c9dd01f89f768ff7c260b13c32d",
       "byteLength": 65210,
       "rawPath": "netkeiba/horses/2023/2023106601/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:25:29.514Z"
+  "updatedAt": "2026-08-24T18:37:46.488Z"
 }

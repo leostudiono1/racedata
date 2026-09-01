@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103404",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103404/",
-  "profile": null,
+  "profile": {
+    "name": "バケットリスト",
+    "birthDate": "2015-04-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "818008",
+      "name": "宮城寛也"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2009106251",
+      "name": "レチャーダ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -3554,6 +3584,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バケットリスト (Bucket List) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バケットリスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バケットリスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3623,9 +3683,9 @@
       "contentHash": "0ef055dd48393c03214a7aa829f8fbf99b9b3237851abc8791dcb093965789e7",
       "byteLength": 67162,
       "rawPath": "netkeiba/horses/2015/2015103404/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:10:57.092Z"
+  "updatedAt": "2026-08-30T12:21:01.000Z"
 }

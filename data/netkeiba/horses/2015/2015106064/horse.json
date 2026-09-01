@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106064",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106064/",
-  "profile": null,
+  "profile": {
+    "name": "ジャンケル",
+    "birthDate": "2015-04-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "303300",
+      "name": "畠山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2003105285",
+      "name": "ウスイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オース Oath(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1146,6 +1176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャンケル (Jankel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャンケル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャンケル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1215,9 +1275,9 @@
       "contentHash": "d60111d9a1a6095de6ab4721835de1469ab13a43a5516315022efa5653b0e9d2",
       "byteLength": 64638,
       "rawPath": "netkeiba/horses/2015/2015106064/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:18:12.726Z"
+  "updatedAt": "2026-08-28T13:23:22.320Z"
 }

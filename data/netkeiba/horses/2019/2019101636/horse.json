@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101636",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101636/",
-  "profile": null,
+  "profile": {
+    "name": "ピオニール",
+    "birthDate": "2019-01-11",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "272008",
+      "name": "下河辺隆行"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Pioneerof the Nile"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スカイランダーガール Skylander Girl(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stroll"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1291,6 +1321,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピオニール (Pionier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピオニール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピオニール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1360,9 +1420,9 @@
       "contentHash": "10654534a8d2f7151eafe9c46f497a85b164568f63d131efafd222b3e4829075",
       "byteLength": 66153,
       "rawPath": "netkeiba/horses/2019/2019101636/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:09:25.703Z"
+  "updatedAt": "2026-08-31T12:18:19.454Z"
 }

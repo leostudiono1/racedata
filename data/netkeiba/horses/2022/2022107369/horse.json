@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107369",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107369/",
-  "profile": null,
+  "profile": {
+    "name": "アラック",
+    "birthDate": "2022-02-10",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05137",
+      "name": "石川栄"
+    },
+    "owner": {
+      "id": "x06a42",
+      "name": "菅野直彦"
+    },
+    "breeder": {
+      "id": "360232",
+      "name": "宝寄山拓樹"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "2018106733",
+      "name": "インカインリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -2318,6 +2348,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラック (Arrack) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2387,9 +2447,9 @@
       "contentHash": "faf571a72c3652f10321393da35c83baa1a074ba2e473395b879d362ad2f4e3c",
       "byteLength": 65600,
       "rawPath": "netkeiba/horses/2022/2022107369/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:04:45.672Z"
+  "updatedAt": "2026-08-26T15:12:02.314Z"
 }

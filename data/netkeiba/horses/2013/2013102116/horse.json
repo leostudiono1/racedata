@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102116",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102116/",
-  "profile": null,
+  "profile": {
+    "name": "タイセイリアン",
+    "birthDate": "2013-05-23",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "224007",
+      "name": "田中成奉"
+    },
+    "breeder": {
+      "id": "130318",
+      "name": "守矢牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "2001102448",
+      "name": "ブルーアイ"
+    },
+    "damsire": {
+      "id": "1994105719",
+      "name": "サニーブライアン"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -1080,6 +1110,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイセイリアン (Taisei Lien) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイリアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイセイリアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1149,9 +1209,9 @@
       "contentHash": "ca297cbf566fa885c6b0a5c22b42fd9efcd2a702a18ae4b027e24ad38eda095a",
       "byteLength": 64578,
       "rawPath": "netkeiba/horses/2013/2013102116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:26:34.365Z"
+  "updatedAt": "2026-08-29T12:35:00.178Z"
 }

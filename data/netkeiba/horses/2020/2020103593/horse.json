@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103593",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103593/",
-  "profile": null,
+  "profile": {
+    "name": "リックスター",
+    "birthDate": "2020-04-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中川雅之"
+    },
+    "owner": {
+      "id": "x0b9b7",
+      "name": "橋本宗保"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2011103739",
+      "name": "プロレタリアト"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2357,6 +2387,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リックスター (Ric Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リックスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リックスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2426,9 +2486,9 @@
       "contentHash": "1aff7dc15fd894474072e0f554f01c2a77a0a4a9147f4f2ae1782bca017574ba",
       "byteLength": 66859,
       "rawPath": "netkeiba/horses/2020/2020103593/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:11:36.322Z"
+  "updatedAt": "2026-08-24T18:23:53.325Z"
 }

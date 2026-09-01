@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101841",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101841/",
-  "profile": null,
+  "profile": {
+    "name": "クールボス",
+    "birthDate": "2019-05-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05684",
+      "name": "三小田幸"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ザファクター"
+    },
+    "dam": {
+      "id": "1999107089",
+      "name": "アフレイタス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3844,6 +3874,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クールボス (Cool Boss) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールボス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールボス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3913,9 +3973,9 @@
       "contentHash": "d378fc5692a4b702b9542e64cfc7ee891fc021bd223c1d4ea21a8225d9769fe4",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2019/2019101841/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:47:15.290Z"
+  "updatedAt": "2026-08-26T14:54:31.318Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104066",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104066/",
-  "profile": null,
+  "profile": {
+    "name": "アシャカウイング",
+    "birthDate": "2022-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "905033",
+      "name": "吉冨学"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015100991",
+      "name": "Saxon Warrior (安平町)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ランドガール Land Girl(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Front"
+    }
+  },
   "pedigree": [
     {
       "id": "2015100991",
@@ -983,6 +1013,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アシャカウイング (Ashaka Wing) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アシャカウイング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アシャカウイング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1052,9 +1112,9 @@
       "contentHash": "95cf8cbc33fa7151a763ef76ed979b2e22400871926bb45993f9076e0be2fae9",
       "byteLength": 64959,
       "rawPath": "netkeiba/horses/2022/2022104066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:20:38.874Z"
+  "updatedAt": "2026-08-24T18:32:55.917Z"
 }

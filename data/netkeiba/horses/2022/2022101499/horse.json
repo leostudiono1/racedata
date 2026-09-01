@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101499",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101499/",
-  "profile": null,
+  "profile": {
+    "name": "ロワン",
+    "birthDate": "2022-03-01",
+    "sex": "牝",
+    "coatColor": "栃栗毛",
+    "trainer": {
+      "id": "05275",
+      "name": "八木正喜"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2010100534",
+      "name": "ベイビーイッツユー"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3658,6 +3688,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロワン (Loin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3727,9 +3787,9 @@
       "contentHash": "77acc322899185d860dc65770ffe4800b2ac032907cc4cc6f5f044f29f37b001",
       "byteLength": 66675,
       "rawPath": "netkeiba/horses/2022/2022101499/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:11:17.621Z"
+  "updatedAt": "2026-08-27T14:20:32.335Z"
 }

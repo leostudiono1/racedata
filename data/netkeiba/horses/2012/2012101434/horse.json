@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101434",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101434/",
-  "profile": null,
+  "profile": {
+    "name": "モエルア",
+    "birthDate": "2012-02-28",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05311",
+      "name": "角川秀樹"
+    },
+    "owner": {
+      "id": "053030",
+      "name": "白井岳"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2001110017",
+      "name": "リリーポンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4014,6 +4044,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モエルア (Moe Elua) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モエルア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モエルア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4083,9 +4143,9 @@
       "contentHash": "3a2832f5372c3ea13fbdec0bf8dabe38e5dbfa1d9c3e5a1c0014d99f6cc853b2",
       "byteLength": 65182,
       "rawPath": "netkeiba/horses/2012/2012101434/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:37:13.893Z"
+  "updatedAt": "2026-08-24T17:49:30.819Z"
 }

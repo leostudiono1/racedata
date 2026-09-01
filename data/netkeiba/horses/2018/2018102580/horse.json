@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102580",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102580/",
-  "profile": null,
+  "profile": {
+    "name": "ティフォーザ",
+    "birthDate": "2018-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01197",
+      "name": "小椋研介"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サッカーマム Soccer Mom(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2541,6 +2571,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ティフォーザ (Tifosa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティフォーザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティフォーザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2610,9 +2670,9 @@
       "contentHash": "d5db125f3aa38385fb1b224130050696c35b30804aa754020d551ed978461e89",
       "byteLength": 67375,
       "rawPath": "netkeiba/horses/2018/2018102580/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:28:11.419Z"
+  "updatedAt": "2026-08-28T13:33:21.014Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102400",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102400/",
-  "profile": null,
+  "profile": {
+    "name": "プリメイラ",
+    "birthDate": "2021-03-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05204",
+      "name": "村上頼章"
+    },
+    "owner": {
+      "id": "x0b04e",
+      "name": "（株）ランドプロジエ"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ブリックスアンドモルタル Bricks and Mortar(米)"
+    },
+    "dam": {
+      "id": "2016104770",
+      "name": "アトラクティヴ"
+    },
+    "damsire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3538,6 +3568,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プリメイラ (Primera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プリメイラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プリメイラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3607,9 +3667,9 @@
       "contentHash": "abfbb37372de61ac870fb141a8f14fd3d539b664b9796b8b7d71184bbd958f17",
       "byteLength": 66811,
       "rawPath": "netkeiba/horses/2021/2021102400/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:01:42.192Z"
+  "updatedAt": "2026-08-29T13:10:07.787Z"
 }

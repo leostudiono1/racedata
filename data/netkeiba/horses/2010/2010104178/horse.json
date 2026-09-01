@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104178",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104178/",
-  "profile": null,
+  "profile": {
+    "name": "ディープサウス",
+    "birthDate": "2010-03-26",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "514008",
+      "name": "窪田康志"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ストレイトフロムテキサス Strait From Texas(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Judge T C"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2742,6 +2772,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディープサウス (Deep South) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープサウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープサウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2811,9 +2871,9 @@
       "contentHash": "6f5108740c18a8d20304982bf6aa13db688340fd5ed4b95253e2166cf325783b",
       "byteLength": 66297,
       "rawPath": "netkeiba/horses/2010/2010104178/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:26:31.991Z"
+  "updatedAt": "2026-08-27T13:35:46.792Z"
 }

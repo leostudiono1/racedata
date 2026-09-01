@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105305",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105305/",
-  "profile": null,
+  "profile": {
+    "name": "コンティ",
+    "birthDate": "2023-03-20",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セレスタ Seresta(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Jump Start"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1226,6 +1256,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コンティ (Conti) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コンティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1295,9 +1355,9 @@
       "contentHash": "6db3482dee44d76b6b5352a18aac125b986efc4fcf3e84ac7c74f95747186711",
       "byteLength": 66052,
       "rawPath": "netkeiba/horses/2023/2023105305/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:29:40.609Z"
+  "updatedAt": "2026-08-31T12:38:34.386Z"
 }

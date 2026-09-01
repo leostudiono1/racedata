@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101587",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101587/",
-  "profile": null,
+  "profile": {
+    "name": "ラスジャン",
+    "birthDate": "2021-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "林幻"
+    },
+    "owner": {
+      "id": "x0a6ba",
+      "name": "組）リノレーシング"
+    },
+    "breeder": {
+      "id": "503393",
+      "name": "高山牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2006101198",
+      "name": "クリアソウル"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -3677,6 +3707,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラスジャン (Las Jun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスジャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスジャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3746,9 +3806,9 @@
       "contentHash": "0801cb25b8491bc4e78126e4298724f16a8906518578e4fc6e5af932c5e9c5df",
       "byteLength": 66964,
       "rawPath": "netkeiba/horses/2021/2021101587/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:06:58.421Z"
+  "updatedAt": "2026-08-27T14:16:13.112Z"
 }

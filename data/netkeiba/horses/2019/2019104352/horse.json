@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104352",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104352/",
-  "profile": null,
+  "profile": {
+    "name": "ウロボン",
+    "birthDate": "2019-02-08",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "149002",
+      "name": "井山登"
+    },
+    "breeder": {
+      "id": "013370",
+      "name": "市川牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2007110110",
+      "name": "アンソニカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Purge"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2546,6 +2576,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウロボン (Urobon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウロボン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウロボン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2615,9 +2675,9 @@
       "contentHash": "0fc6111742674c6433b97fe5661046ebfb1addde376053c960cf7dff25b7d2cd",
       "byteLength": 66770,
       "rawPath": "netkeiba/horses/2019/2019104352/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:34:05.107Z"
+  "updatedAt": "2026-08-28T13:39:14.662Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104895",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104895/",
-  "profile": null,
+  "profile": {
+    "name": "マーブルヒル",
+    "birthDate": "2012-01-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "岡野尚光"
+    },
+    "owner": {
+      "id": "745800",
+      "name": "富士ファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2004102803",
+      "name": "ラフアップ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1905,6 +1935,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マーブルヒル (Marble Hill) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーブルヒル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーブルヒル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1974,9 +2034,9 @@
       "contentHash": "882d4508e7708ce453bd38fae02836cfb13769a64f85085ba6b82ac7ee5545f9",
       "byteLength": 65262,
       "rawPath": "netkeiba/horses/2012/2012104895/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:05:11.875Z"
+  "updatedAt": "2026-08-28T13:10:21.586Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106874",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106874/",
-  "profile": null,
+  "profile": {
+    "name": "グローバリスト",
+    "birthDate": "2020-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "酒井忍"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2014103583",
+      "name": "ジャポニウム"
+    },
+    "damsire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2922,6 +2952,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グローバリスト (Globalist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グローバリスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グローバリスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2991,9 +3051,9 @@
       "contentHash": "8d415b99ca8731e5cb097e57043fc8cd3f8342a888420b81a423bb2414ee97b1",
       "byteLength": 66870,
       "rawPath": "netkeiba/horses/2020/2020106874/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:54:15.436Z"
+  "updatedAt": "2026-08-26T15:01:31.662Z"
 }

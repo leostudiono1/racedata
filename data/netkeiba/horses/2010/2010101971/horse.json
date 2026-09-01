@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101971",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101971/",
-  "profile": null,
+  "profile": {
+    "name": "テンカイチ",
+    "birthDate": "2010-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "898005",
+      "name": "大原詔宏"
+    },
+    "breeder": {
+      "id": "390543",
+      "name": "大原ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    },
+    "dam": {
+      "id": "2005101466",
+      "name": "ニュウモダン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101561",
@@ -5695,6 +5725,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンカイチ (Tenkaichi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンカイチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンカイチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5764,9 +5824,9 @@
       "contentHash": "3747918d7c25c69cda5945afb6213ee17cb7997f06cabe27f328b84d153e32db",
       "byteLength": 65645,
       "rawPath": "netkeiba/horses/2010/2010101971/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:37:27.148Z"
+  "updatedAt": "2026-08-31T11:46:20.923Z"
 }

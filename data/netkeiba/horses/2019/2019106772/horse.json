@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106772",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106772/",
-  "profile": null,
+  "profile": {
+    "name": "カルド",
+    "birthDate": "2019-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05774",
+      "name": "保利良平"
+    },
+    "owner": {
+      "id": "895030",
+      "name": "山口敦広"
+    },
+    "breeder": {
+      "id": "330512",
+      "name": "大狩部牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ディスクリートキャット Discreet Cat(米)"
+    },
+    "dam": {
+      "id": "2009104487",
+      "name": "グラントリノ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "グランデラ Grandera(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2411,6 +2441,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カルド (Caldo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2480,9 +2540,9 @@
       "contentHash": "3babff83555abe424ef1fd020f3bf7ad58365fea2e124f395585cad8d5dabd1d",
       "byteLength": 64575,
       "rawPath": "netkeiba/horses/2019/2019106772/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:01:25.811Z"
+  "updatedAt": "2026-08-27T14:10:40.519Z"
 }

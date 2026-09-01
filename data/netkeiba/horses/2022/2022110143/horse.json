@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110143",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110143/",
-  "profile": null,
+  "profile": {
+    "name": "ソングコレクター",
+    "birthDate": "2022-05-18",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01215",
+      "name": "加藤公太"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "620713",
+      "name": "Marette Farrell Canice Farrell & Zoe Cadman"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Collected"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Kylers Song"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Corredor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2151,6 +2181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソングコレクター (Song Collector) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソングコレクター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソングコレクター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2220,9 +2280,9 @@
       "contentHash": "b25e4ed5853f39c44d23975ede0f275ebfdbff75fa9de0071326808d73ab5354",
       "byteLength": 66147,
       "rawPath": "netkeiba/horses/2022/2022110143/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:05:10.593Z"
+  "updatedAt": "2026-08-26T15:12:26.484Z"
 }

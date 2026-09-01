@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105090",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105090/",
-  "profile": null,
+  "profile": {
+    "name": "レッドレオン",
+    "birthDate": "2015-01-30",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01053",
+      "name": "角居勝彦"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2010110011",
+      "name": "レッドエルザ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1836,6 +1866,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドレオン (Red Leon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドレオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドレオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1905,9 +1965,9 @@
       "contentHash": "498040831e53d9c05a4e89ea2d09f15e724b018b1e3e2c7187134ecd5eb5e64a",
       "byteLength": 67399,
       "rawPath": "netkeiba/horses/2015/2015105090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:53:26.349Z"
+  "updatedAt": "2026-08-31T12:02:20.158Z"
 }

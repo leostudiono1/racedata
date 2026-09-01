@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102123",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102123/",
-  "profile": null,
+  "profile": {
+    "name": "ヒキュウ",
+    "birthDate": "2017-05-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05670",
+      "name": "林隆之"
+    },
+    "owner": {
+      "id": "986033",
+      "name": "佐久間拓士"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2004100904",
+      "name": "ロキロキ"
+    },
+    "damsire": {
+      "id": "1994109717",
+      "name": "プレミアムサンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3334,6 +3364,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒキュウ (Hikyu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒキュウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒキュウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3403,9 +3463,9 @@
       "contentHash": "fb6918c964203916e185238e73a7162847122b0aaa568526192b269cf6df534f",
       "byteLength": 64803,
       "rawPath": "netkeiba/horses/2017/2017102123/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:39:01.672Z"
+  "updatedAt": "2026-08-26T14:46:17.490Z"
 }

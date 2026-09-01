@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105854",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105854/",
-  "profile": null,
+  "profile": {
+    "name": "トップビート",
+    "birthDate": "2020-03-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "358031",
+      "name": "紅露純"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2011103439",
+      "name": "レッドキャンティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヨハネスブルグ Johannesburg(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1180,6 +1210,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トップビート (Top Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1249,9 +1309,9 @@
       "contentHash": "1cb09b1e8cb70feed882fb451b3808c7d67241d7cac0a4085ff3c5b5725d2505",
       "byteLength": 64632,
       "rawPath": "netkeiba/horses/2020/2020105854/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:05:23.831Z"
+  "updatedAt": "2026-08-27T14:14:38.522Z"
 }

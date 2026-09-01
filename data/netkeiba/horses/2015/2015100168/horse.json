@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100168",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100168/",
-  "profile": null,
+  "profile": {
+    "name": "カタギ",
+    "birthDate": "2015-04-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "330007",
+      "name": "杉澤光雄"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "1999106988",
+      "name": "ジュリアビコー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ジェイドロバリー Jade Robbery(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1682,6 +1712,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カタギ (Katagi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カタギ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カタギ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1751,9 +1811,9 @@
       "contentHash": "fadffad0811ae733e275676e84e5d46c1ba62a2fc76734effcf176dbbb6b1963",
       "byteLength": 65602,
       "rawPath": "netkeiba/horses/2015/2015100168/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:09:08.700Z"
+  "updatedAt": "2026-08-30T12:19:12.531Z"
 }

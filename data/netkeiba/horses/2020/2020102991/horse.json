@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102991",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102991/",
-  "profile": null,
+  "profile": {
+    "name": "ヒシアン",
+    "birthDate": "2020-03-25",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "044008",
+      "name": "阿部雅英"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2009110115",
+      "name": "ヒシラストレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Posse"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1147,6 +1177,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒシアン (Hishi Ann) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒシアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒシアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1216,9 +1276,9 @@
       "contentHash": "a081ab9076ee57d9e9cf5d2fa35675e9e019baa4ebc1b18c279f6283f7d3f50a",
       "byteLength": 66034,
       "rawPath": "netkeiba/horses/2020/2020102991/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:15:01.814Z"
+  "updatedAt": "2026-08-31T12:23:55.925Z"
 }

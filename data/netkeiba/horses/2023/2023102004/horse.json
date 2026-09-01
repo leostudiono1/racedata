@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102004",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102004/",
-  "profile": null,
+  "profile": {
+    "name": "メイアイリス",
+    "birthDate": "2023-04-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01174",
+      "name": "深山雅史"
+    },
+    "owner": {
+      "id": "075800",
+      "name": "千明牧場"
+    },
+    "breeder": {
+      "id": "500659",
+      "name": "鎌田正嗣"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016104458",
+      "name": "クリソベリル"
+    },
+    "dam": {
+      "id": "2002102806",
+      "name": "スターペスミツコ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "カーネギー Carnegie(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104458",
@@ -1439,6 +1469,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイアイリス (May Iris) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイアイリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイアイリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1508,9 +1568,9 @@
       "contentHash": "2fac1f46e09d4abf9f9a7535728cdd75bd0c9c610f717928989d6f66616acbe5",
       "byteLength": 67108,
       "rawPath": "netkeiba/horses/2023/2023102004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:15:46.972Z"
+  "updatedAt": "2026-08-27T14:25:01.762Z"
 }

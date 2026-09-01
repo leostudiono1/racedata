@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024106077",
   "sourceUrl": "https://db.netkeiba.com/horse/2024106077/",
-  "profile": null,
+  "profile": {
+    "name": "リアルメッセージ",
+    "birthDate": "2024-03-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01185",
+      "name": "小林真也"
+    },
+    "owner": {
+      "id": "571031",
+      "name": "井内康之"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リーサルヒート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unusual Heat"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1028,6 +1058,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアルメッセージ (Real Message) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルメッセージ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルメッセージ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1097,9 +1157,9 @@
       "contentHash": "19319a24c51c0135ffbfe3fbe352858f3423bb5611d4f378c3e68769f76edfc2",
       "byteLength": 65904,
       "rawPath": "netkeiba/horses/2024/2024106077/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:54:41.003Z"
+  "updatedAt": "2026-08-28T13:59:50.634Z"
 }

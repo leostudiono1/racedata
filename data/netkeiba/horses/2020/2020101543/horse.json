@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101543",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101543/",
-  "profile": null,
+  "profile": {
+    "name": "グランテスト",
+    "birthDate": "2020-03-19",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "272008",
+      "name": "下河辺隆行"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2013100339",
+      "name": "オーヴィレール"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3217,6 +3247,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランテスト (Grand Est) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランテスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランテスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3286,9 +3346,9 @@
       "contentHash": "3da4d751c6b6d05921e2042b30a752fb393def5a40972ee227bdcc0058b4bc1f",
       "byteLength": 66993,
       "rawPath": "netkeiba/horses/2020/2020101543/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:14:02.411Z"
+  "updatedAt": "2026-08-31T12:22:56.039Z"
 }

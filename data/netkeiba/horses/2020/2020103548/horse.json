@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2020103548",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103548/",
-  "profile": null,
+  "profile": {
+    "name": "キトリ",
+    "birthDate": "2020-03-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "キトリ (Kitri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キトリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キトリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "3e4583520839d0509771b8f0e0ffe51fa9049bbf8187285fef7cdade7261c83f",
       "byteLength": 65526,
       "rawPath": "netkeiba/horses/2020/2020103548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T17:29:43.655Z"

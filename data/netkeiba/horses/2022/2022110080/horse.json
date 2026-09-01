@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110080",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110080/",
-  "profile": null,
+  "profile": {
+    "name": "スリーニューウェイ",
+    "birthDate": "2022-03-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "061800",
+      "name": "永井商事"
+    },
+    "breeder": {
+      "id": "420710",
+      "name": "Mr Nagai"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "New Bay (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ルーディカ Roodica(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Due Diligence"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -990,6 +1020,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリーニューウェイ (Three New Way) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーニューウェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーニューウェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1059,9 +1119,9 @@
       "contentHash": "0d0b096cbbcb6c078c94a3f0c49eb3e01f81a5e3dc02d0473057ba6d482362c5",
       "byteLength": 64608,
       "rawPath": "netkeiba/horses/2022/2022110080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:43:16.827Z"
+  "updatedAt": "2026-08-30T12:53:20.451Z"
 }

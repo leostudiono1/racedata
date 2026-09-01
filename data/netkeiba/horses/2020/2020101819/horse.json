@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2020101819",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101819/",
-  "profile": null,
+  "profile": {
+    "name": "ヒサメ",
+    "birthDate": "2020-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "ヒサメ (Hisame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒサメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒサメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "a8976e30dc9150b058c71df9c43c930d8bd938c5804dccedc6b5704e1a871ac7",
       "byteLength": 65849,
       "rawPath": "netkeiba/horses/2020/2020101819/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T17:28:40.698Z"

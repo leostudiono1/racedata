@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102254",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102254/",
-  "profile": null,
+  "profile": {
+    "name": "モリガン",
+    "birthDate": "2023-01-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01208",
+      "name": "柄崎将寿"
+    },
+    "owner": {
+      "id": "473008",
+      "name": "武田茂男"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2015103724",
+      "name": "ミク"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -1105,6 +1135,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モリガン (Morrigan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モリガン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モリガン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1174,9 +1234,9 @@
       "contentHash": "4d445ae32eaae31e56705ba43e7455012e84f5bb9f8bd2a3a13ef508ccbd09a3",
       "byteLength": 64545,
       "rawPath": "netkeiba/horses/2023/2023102254/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:27:10.347Z"
+  "updatedAt": "2026-08-31T12:36:03.758Z"
 }

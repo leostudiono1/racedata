@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110073",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110073/",
-  "profile": null,
+  "profile": {
+    "name": "マルシェ",
+    "birthDate": "2022-04-09",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "x0af2d",
+      "name": "梅ケ枝容晃"
+    },
+    "breeder": {
+      "id": "240731",
+      "name": "Mr Teruya Yoshida"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Le Havre"
+    },
+    "dam": {
+      "id": "2017104754",
+      "name": "Savarin (千歳市)"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2439,6 +2469,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マルシェ (Marche) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マルシェ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マルシェ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2508,9 +2568,9 @@
       "contentHash": "f6abb3bd8e65446e6664c266967b48ec9d66a9843f102ae11bad26858084a68a",
       "byteLength": 64859,
       "rawPath": "netkeiba/horses/2022/2022110073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:05:03.185Z"
+  "updatedAt": "2026-08-26T15:12:19.404Z"
 }

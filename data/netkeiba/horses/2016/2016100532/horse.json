@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100532",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100532/",
-  "profile": null,
+  "profile": {
+    "name": "タガノコルソ",
+    "birthDate": "2016-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "木村健"
+    },
+    "owner": {
+      "id": "859002",
+      "name": "八木良司"
+    },
+    "breeder": {
+      "id": "790540",
+      "name": "新冠タガノファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2007102801",
+      "name": "ブランジェリーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smarty Jones (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3457,6 +3487,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タガノコルソ (Tagano Corso) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノコルソ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノコルソ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3526,9 +3586,9 @@
       "contentHash": "cb293810226de85402a97bc8840a99e9cdc745fbd48b884d582a118aadce1232",
       "byteLength": 66732,
       "rawPath": "netkeiba/horses/2016/2016100532/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:18:51.218Z"
+  "updatedAt": "2026-08-28T13:24:01.075Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101713",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101713/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーピーナッツ",
+    "birthDate": "2019-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2007103134",
+      "name": "ミッキーオリーブ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1258,6 +1288,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーピーナッツ (Mikki Peanuts) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーピーナッツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーピーナッツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1327,9 +1387,9 @@
       "contentHash": "a5541cba9b8839e9a96eabae8654c5843d81dcd78fb8e0ccc07abfe5cfd2e350",
       "byteLength": 66672,
       "rawPath": "netkeiba/horses/2019/2019101713/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:47:11.740Z"
+  "updatedAt": "2026-08-26T14:54:27.606Z"
 }

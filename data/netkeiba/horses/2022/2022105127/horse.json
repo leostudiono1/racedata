@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105127",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105127/",
-  "profile": null,
+  "profile": {
+    "name": "バレオリア",
+    "birthDate": "2022-01-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05675",
+      "name": "笹野博司"
+    },
+    "owner": {
+      "id": "x0b8f1",
+      "name": "国吉大"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "2016104878",
+      "name": "リアオリヴィア"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3098,6 +3128,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バレオリア (Baleo Ria) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バレオリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バレオリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3167,9 +3227,9 @@
       "contentHash": "d2ee68dc9153352fb91dd031170c93e3308b0443ae6b5211bd07f35fab99402e",
       "byteLength": 66871,
       "rawPath": "netkeiba/horses/2022/2022105127/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:13:30.507Z"
+  "updatedAt": "2026-08-27T14:22:45.241Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101731",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101731/",
-  "profile": null,
+  "profile": {
+    "name": "ブライトメール",
+    "birthDate": "2022-03-04",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05590",
+      "name": "長倉功"
+    },
+    "owner": {
+      "id": "855031",
+      "name": "迫田三果子"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2001103376",
+      "name": "キングスミール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Theatrical"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1981,6 +2011,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライトメール (Bright Mail) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトメール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトメール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2050,9 +2110,9 @@
       "contentHash": "c5254bfa3462fe8f7992bc15dab70149c53e23e0ee08510bac6e016dcd9b376c",
       "byteLength": 65464,
       "rawPath": "netkeiba/horses/2022/2022101731/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:19:08.048Z"
+  "updatedAt": "2026-08-24T18:31:25.173Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106024",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106024/",
-  "profile": null,
+  "profile": {
+    "name": "エクレシア",
+    "birthDate": "2021-04-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "862031",
+      "name": "伊藤健"
+    },
+    "breeder": {
+      "id": "640343",
+      "name": "安達牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2015104813",
+      "name": "ヘンリーバローズ"
+    },
+    "dam": {
+      "id": "2016103304",
+      "name": "ブルーロゼット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104813",
@@ -2697,6 +2727,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エクレシア (Ecclesia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクレシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクレシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2766,9 +2826,9 @@
       "contentHash": "b8c3a943cacc3c44c7d0903a55b57073271d9adfffd09327ec3fa36e860ecfcc",
       "byteLength": 66789,
       "rawPath": "netkeiba/horses/2021/2021106024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:04:19.806Z"
+  "updatedAt": "2026-08-29T13:12:45.338Z"
 }

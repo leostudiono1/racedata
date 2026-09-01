@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2016110087",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110087/",
-  "profile": null,
+  "profile": {
+    "name": "ミントフレッシュ",
+    "birthDate": "2016-02-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "710821",
+      "name": "Shadai Farm"
+    },
+    "birthplace": "米",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "ミントフレッシュ (Mint Fresh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミントフレッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミントフレッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "4434180778f72960ccda23588659914544855fb087678133a849961892817a14",
       "byteLength": 66463,
       "rawPath": "netkeiba/horses/2016/2016110087/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T17:15:57.438Z"

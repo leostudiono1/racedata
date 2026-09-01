@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106200",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106200/",
-  "profile": null,
+  "profile": {
+    "name": "マラン",
+    "birthDate": "2014-02-22",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05788",
+      "name": "水野貴史"
+    },
+    "owner": {
+      "id": "x0985a",
+      "name": "村山詠一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2009106252",
+      "name": "ラテンファンク"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -4112,6 +4142,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マラン (Marrant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4181,9 +4241,9 @@
       "contentHash": "5b7abcab3bded7da36800be482ceb788845ca0dbad25de090505c47e959c3d28",
       "byteLength": 65658,
       "rawPath": "netkeiba/horses/2014/2014106200/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:47:19.712Z"
+  "updatedAt": "2026-08-24T17:59:36.535Z"
 }

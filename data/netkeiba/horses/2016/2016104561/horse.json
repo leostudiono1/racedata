@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104561",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104561/",
-  "profile": null,
+  "profile": {
+    "name": "インバウンド",
+    "birthDate": "2016-01-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01163",
+      "name": "林徹"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ハイドバウンド Hidebound(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1761,6 +1791,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インバウンド (Inbound) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インバウンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インバウンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1830,9 +1890,9 @@
       "contentHash": "0f4d303ebf0adcdeb73ad492beb921b2395af81d85a3610c969f27ac7b1931db",
       "byteLength": 66818,
       "rawPath": "netkeiba/horses/2016/2016104561/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:42:16.278Z"
+  "updatedAt": "2026-08-29T12:50:41.952Z"
 }

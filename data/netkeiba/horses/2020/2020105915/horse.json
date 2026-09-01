@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105915",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105915/",
-  "profile": null,
+  "profile": {
+    "name": "デトネイター",
+    "birthDate": "2020-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "竹下太"
+    },
+    "owner": {
+      "id": "x09c79",
+      "name": "吉川真ノ介"
+    },
+    "breeder": {
+      "id": "600531",
+      "name": "三村卓也"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2003100858",
+      "name": "ハルワカ"
+    },
+    "damsire": {
+      "id": "1981100841",
+      "name": "ワカオライデン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6451,6 +6481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デトネイター (Detonator) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デトネイター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デトネイター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6520,9 +6580,9 @@
       "contentHash": "4a4e19ef26fd87219c9be6a8bbea4ed5a501fd18d4872baee8aba3f6bc65f0bc",
       "byteLength": 66897,
       "rawPath": "netkeiba/horses/2020/2020105915/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:05:27.625Z"
+  "updatedAt": "2026-08-27T14:14:41.952Z"
 }

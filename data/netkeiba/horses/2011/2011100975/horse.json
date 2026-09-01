@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100975",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100975/",
-  "profile": null,
+  "profile": {
+    "name": "アイアピール",
+    "birthDate": "2011-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00405",
+      "name": "小西一男"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1996103237",
+      "name": "オリオンザサンクス"
+    },
+    "dam": {
+      "id": "2005103911",
+      "name": "ミネルヴァアイ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1996103237",
@@ -1586,6 +1616,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイアピール (Eye Appeal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイアピール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイアピール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1655,9 +1715,9 @@
       "contentHash": "7e717be20e45317db84f826db629d5dd82503df8fc542d19ad211d1dab5d88f0",
       "byteLength": 64424,
       "rawPath": "netkeiba/horses/2011/2011100975/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:38:26.526Z"
+  "updatedAt": "2026-08-31T11:47:20.331Z"
 }

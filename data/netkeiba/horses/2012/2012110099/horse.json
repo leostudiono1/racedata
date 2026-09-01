@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110099",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110099/",
-  "profile": null,
+  "profile": {
+    "name": "アポロアロウズ",
+    "birthDate": "2012-05-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00436",
+      "name": "堀井雅広"
+    },
+    "owner": {
+      "id": "033700",
+      "name": "アポロサラブレッドクラブ"
+    },
+    "breeder": {
+      "id": "210702",
+      "name": "William D Graham"
+    },
+    "birthplace": "加",
+    "sire": {
+      "id": "000",
+      "name": "Tale of Ekati"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Smart Angel"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -964,6 +994,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アポロアロウズ (Apollo Arrows) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポロアロウズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポロアロウズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1033,9 +1093,9 @@
       "contentHash": "8385b8c70056aa56378f3935b1003e507d186d74dab6d844258268bde65dfe8d",
       "byteLength": 64514,
       "rawPath": "netkeiba/horses/2012/2012110099/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:06:28.920Z"
+  "updatedAt": "2026-08-28T13:11:38.643Z"
 }

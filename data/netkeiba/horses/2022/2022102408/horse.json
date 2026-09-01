@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102408",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102408/",
-  "profile": null,
+  "profile": {
+    "name": "ムイ",
+    "birthDate": "2022-03-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "055803",
+      "name": "平山靖"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2015102202",
+      "name": "スウィートラヴァー"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1867,6 +1897,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムイ (Mui) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1936,9 +1996,9 @@
       "contentHash": "844aa97d77f7b292a65c44db38c0197fb06205af8ba2e0b6c383a5f441a7c818",
       "byteLength": 66623,
       "rawPath": "netkeiba/horses/2022/2022102408/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:06:32.777Z"
+  "updatedAt": "2026-08-29T13:14:58.459Z"
 }

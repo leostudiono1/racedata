@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105394",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105394/",
-  "profile": null,
+  "profile": {
+    "name": "ローレリスト",
+    "birthDate": "2017-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "281033",
+      "name": "多田賢司"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スプリングシーズンII Spring Season(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2333,6 +2363,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローレリスト (Laurelist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローレリスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローレリスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2402,9 +2462,9 @@
       "contentHash": "27222a98998fd84aa7a2565067fde82589a917ae3a1ecd60f06d4d7134927ddc",
       "byteLength": 66830,
       "rawPath": "netkeiba/horses/2017/2017105394/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:00:24.034Z"
+  "updatedAt": "2026-08-24T18:12:40.972Z"
 }

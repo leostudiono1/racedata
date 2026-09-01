@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103368",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103368/",
-  "profile": null,
+  "profile": {
+    "name": "オニカゲ",
+    "birthDate": "2016-02-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00408",
+      "name": "田中清隆"
+    },
+    "owner": {
+      "id": "247009",
+      "name": "石田英雄"
+    },
+    "breeder": {
+      "id": "033394",
+      "name": "坪田信作"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006104736",
+      "name": "トランセンド"
+    },
+    "dam": {
+      "id": "2002105507",
+      "name": "タイキエルドール"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2006104736",
@@ -1329,6 +1359,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オニカゲ (Onikage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オニカゲ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オニカゲ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1398,9 +1458,9 @@
       "contentHash": "724cc37d9eac7298733e31d8e47883c441188a2313ffdeb6d2091501e8c77933",
       "byteLength": 65754,
       "rawPath": "netkeiba/horses/2016/2016103368/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:14:58.659Z"
+  "updatedAt": "2026-08-30T12:25:02.519Z"
 }

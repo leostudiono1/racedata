@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024101068",
   "sourceUrl": "https://db.netkeiba.com/horse/2024101068/",
-  "profile": null,
+  "profile": {
+    "name": "ブロンクス",
+    "birthDate": "2024-03-12",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "535033",
+      "name": "古賀慎一"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "シャンハイボビー Shanghai Bobby(米)"
+    },
+    "dam": {
+      "id": "2008102643",
+      "name": "キトゥンブルー"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1110,6 +1140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブロンクス (Bronx) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブロンクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブロンクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1179,9 +1239,9 @@
       "contentHash": "e46fa04a0f4b2343729c426fe856e7a5d30001d26aa27a17e1b22c1320c6fab7",
       "byteLength": 64683,
       "rawPath": "netkeiba/horses/2024/2024101068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:19:45.048Z"
+  "updatedAt": "2026-08-27T14:28:59.723Z"
 }

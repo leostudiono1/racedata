@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101867",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101867/",
-  "profile": null,
+  "profile": {
+    "name": "フライハイ",
+    "birthDate": "2022-03-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "雑賀正光"
+    },
+    "owner": {
+      "id": "407033",
+      "name": "堀口晴男"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2015103468",
+      "name": "ファインドザウェイ"
+    },
+    "damsire": {
+      "id": "2007103404",
+      "name": "ローズキングダム"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2309,6 +2339,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フライハイ (Fly High) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライハイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライハイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2378,9 +2438,9 @@
       "contentHash": "6d2102b89dc7402d352a942a20f0f8022311128ac44119285b565b36727c51db",
       "byteLength": 66696,
       "rawPath": "netkeiba/horses/2022/2022101867/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:11:31.467Z"
+  "updatedAt": "2026-08-27T14:20:46.136Z"
 }

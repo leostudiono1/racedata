@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105461",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105461/",
-  "profile": null,
+  "profile": {
+    "name": "パレドネス",
+    "birthDate": "2017-04-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2003102802",
+      "name": "ナスカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1501,6 +1531,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パレドネス (Paredones) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレドネス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレドネス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1570,9 +1630,9 @@
       "contentHash": "14ee477890864c439b80a160a3a016747309ff78f8c03f735cceffa114113f42",
       "byteLength": 64905,
       "rawPath": "netkeiba/horses/2017/2017105461/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:00:27.612Z"
+  "updatedAt": "2026-08-24T18:12:44.340Z"
 }

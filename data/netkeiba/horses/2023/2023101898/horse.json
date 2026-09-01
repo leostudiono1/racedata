@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101898",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101898/",
-  "profile": null,
+  "profile": {
+    "name": "サカトクフェイス",
+    "birthDate": "2023-02-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "874033",
+      "name": "ＳＴレーシング"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2016105284",
+      "name": "マナブフェイス"
+    },
+    "damsire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1327,6 +1357,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サカトクフェイス (Sakatoku Faith) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サカトクフェイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サカトクフェイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1396,9 +1456,9 @@
       "contentHash": "61666f28555a7a64bf02c3c5ac656a153260d9814af32ffdb487ab0281c41c73",
       "byteLength": 64929,
       "rawPath": "netkeiba/horses/2023/2023101898/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:44:26.837Z"
+  "updatedAt": "2026-08-30T12:54:30.451Z"
 }

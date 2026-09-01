@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105479",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105479/",
-  "profile": null,
+  "profile": {
+    "name": "ルパルク",
+    "birthDate": "2014-05-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "東川公則"
+    },
+    "owner": {
+      "id": "x090b8",
+      "name": "塚本徳明"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    },
+    "dam": {
+      "id": "1997103458",
+      "name": "グランパドドゥ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3252,6 +3282,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルパルク (Le Parc) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルパルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルパルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3321,9 +3381,9 @@
       "contentHash": "58fc2c5cc6166d3a95a7d5627ab33e3054bb6d712aad834ec5867bd94eb8fb73",
       "byteLength": 65935,
       "rawPath": "netkeiba/horses/2014/2014105479/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:28:34.823Z"
+  "updatedAt": "2026-08-26T14:35:50.908Z"
 }

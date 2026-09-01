@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100453",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100453/",
-  "profile": null,
+  "profile": {
+    "name": "デカ",
+    "birthDate": "2014-06-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "975030",
+      "name": "小田切光"
+    },
+    "breeder": {
+      "id": "410311",
+      "name": "中地康弘"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    },
+    "dam": {
+      "id": "2006102867",
+      "name": "レディーノパンチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999107004",
@@ -1845,6 +1875,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デカ (Deka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1914,9 +1974,9 @@
       "contentHash": "3b7fdc62821e5c3189c8866d3a430fdb7bc03238b5a0934664618e9b0c5b0968",
       "byteLength": 64923,
       "rawPath": "netkeiba/horses/2014/2014100453/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:25:47.075Z"
+  "updatedAt": "2026-08-26T14:33:02.708Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107242",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107242/",
-  "profile": null,
+  "profile": {
+    "name": "ベストセラー",
+    "birthDate": "2022-03-20",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "x0b5e5",
+      "name": "平本淳一"
+    },
+    "breeder": {
+      "id": "590334",
+      "name": "奥山ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2015101648",
+      "name": "アンジュパッセ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1526,6 +1556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベストセラー (Bestseller) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストセラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストセラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1595,9 +1655,9 @@
       "contentHash": "3ee148a0a9b27606b41b08691ee3e57dfd3c64b98068f249cd17e2ac725f1733",
       "byteLength": 65587,
       "rawPath": "netkeiba/horses/2022/2022107242/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:10:06.333Z"
+  "updatedAt": "2026-08-29T13:18:32.085Z"
 }

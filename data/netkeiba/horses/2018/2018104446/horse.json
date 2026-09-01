@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104446",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104446/",
-  "profile": null,
+  "profile": {
+    "name": "グラストルファン",
+    "birthDate": "2018-03-18",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "541800",
+      "name": "半沢"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008103055",
+      "name": "グラスルビー"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1143,6 +1173,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラストルファン (Grass Turfan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラストルファン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラストルファン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1212,9 +1272,9 @@
       "contentHash": "4beeadec1c108ff9dff64576c2201a520bf8c166ebed58cc39f68016a9c93092",
       "byteLength": 64981,
       "rawPath": "netkeiba/horses/2018/2018104446/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:44:20.493Z"
+  "updatedAt": "2026-08-26T14:51:36.133Z"
 }

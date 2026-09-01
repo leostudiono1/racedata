@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104096",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104096/",
-  "profile": null,
+  "profile": {
+    "name": "デネブ",
+    "birthDate": "2013-03-24",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "010033",
+      "name": "山内晃"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "1999110282",
+      "name": "ウェルシュステラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zafonic (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1360,6 +1390,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デネブ (Deneb) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デネブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デネブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1429,9 +1489,9 @@
       "contentHash": "3ccd190a115e9893d119aa707ccaf00540c30ed6b248edae5f13875f654e6e96",
       "byteLength": 64669,
       "rawPath": "netkeiba/horses/2013/2013104096/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:23:37.359Z"
+  "updatedAt": "2026-08-26T14:30:53.071Z"
 }

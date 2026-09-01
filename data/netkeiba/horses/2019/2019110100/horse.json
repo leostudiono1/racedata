@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110100",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110100/",
-  "profile": null,
+  "profile": {
+    "name": "レディーチカ",
+    "birthDate": "2019-02-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "080736",
+      "name": "Mr. & Mrs. Craig L. Minten"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Freedom"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Lakefront"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1373,6 +1403,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レディーチカ (Lady Chika) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レディーチカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レディーチカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1442,9 +1502,9 @@
       "contentHash": "163e390821b3e8b4826ec3868a5a2bc27dc200662d7a47edb061a8a64f90539b",
       "byteLength": 66209,
       "rawPath": "netkeiba/horses/2019/2019110100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:09:19.690Z"
+  "updatedAt": "2026-08-24T18:21:36.497Z"
 }

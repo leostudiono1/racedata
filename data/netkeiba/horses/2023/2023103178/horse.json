@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103178",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103178/",
-  "profile": null,
+  "profile": {
+    "name": "テンユウ",
+    "birthDate": "2023-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "149002",
+      "name": "井山登"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2014105043",
+      "name": "レーヌミノル"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1768,6 +1798,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンユウ (Tenyu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンユウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンユウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1837,9 +1897,9 @@
       "contentHash": "677ca34882531aa02389fb9857da4f1a27ad6aeda6eae01e2c89ade7d20c643a",
       "byteLength": 67062,
       "rawPath": "netkeiba/horses/2023/2023103178/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:11:54.934Z"
+  "updatedAt": "2026-08-29T13:20:20.506Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105370",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105370/",
-  "profile": null,
+  "profile": {
+    "name": "アンチャン",
+    "birthDate": "2013-02-13",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "258030",
+      "name": "山住勲"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アンナモンダ Anna Monda(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -993,6 +1023,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンチャン (Anchan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンチャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンチャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1062,9 +1122,9 @@
       "contentHash": "a2766569102415d012b1038e8a20e2c29c9f0e8486db736f0997bc89f3d6c47f",
       "byteLength": 64535,
       "rawPath": "netkeiba/horses/2013/2013105370/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:28:57.940Z"
+  "updatedAt": "2026-08-29T12:37:23.729Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008102580",
   "sourceUrl": "https://db.netkeiba.com/horse/2008102580/",
-  "profile": null,
+  "profile": {
+    "name": "カグニザント",
+    "birthDate": "2008-04-16",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "367033",
+      "name": "杉浦和也"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "1999106687",
+      "name": "インコグニート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -9359,6 +9389,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カグニザント (Cognizant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カグニザント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カグニザント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9428,9 +9488,9 @@
       "contentHash": "85482475ff5e467f6a25018e20c32810e153dadf38a60d9b3ba8ef773951c37d",
       "byteLength": 66916,
       "rawPath": "netkeiba/horses/2008/2008102580/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T14:57:57.990Z"
+  "updatedAt": "2026-08-28T13:03:07.523Z"
 }

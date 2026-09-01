@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103424",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103424/",
-  "profile": null,
+  "profile": {
+    "name": "グランドレユシー",
+    "birthDate": "2015-06-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "462033",
+      "name": "西川剛"
+    },
+    "breeder": {
+      "id": "340043",
+      "name": "モトスファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ヨハネスブルグ Johannesburg(米)"
+    },
+    "dam": {
+      "id": "2003101729",
+      "name": "ビートローズ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2346,6 +2376,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランドレユシー (Grand Reussi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランドレユシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランドレユシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2415,9 +2475,9 @@
       "contentHash": "255e90f60636e0abed180b16927868a01c04e2528209ddf989ebfe8015215a13",
       "byteLength": 64928,
       "rawPath": "netkeiba/horses/2015/2015103424/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:36:47.139Z"
+  "updatedAt": "2026-08-29T12:45:12.813Z"
 }

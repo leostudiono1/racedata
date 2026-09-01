@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102012",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102012/",
-  "profile": null,
+  "profile": {
+    "name": "レッドスイング",
+    "birthDate": "2014-03-30",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "973800",
+      "name": "コオロ"
+    },
+    "breeder": {
+      "id": "733356",
+      "name": "庄野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004102753",
+      "name": "ドリームジャーニー"
+    },
+    "dam": {
+      "id": "2002106540",
+      "name": "レッドプライム"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2004102753",
@@ -1381,6 +1411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドスイング (Red Swing) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドスイング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドスイング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1450,9 +1510,9 @@
       "contentHash": "943b3d5b22378624f70ac950770aa55b7ed831a36da3fa1256a08bdf1039e09c",
       "byteLength": 64450,
       "rawPath": "netkeiba/horses/2014/2014102012/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:26:25.222Z"
+  "updatedAt": "2026-08-26T14:33:41.724Z"
 }

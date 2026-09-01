@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100425",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100425/",
-  "profile": null,
+  "profile": {
+    "name": "コスモアリス",
+    "birthDate": "2020-04-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "710470",
+      "name": "前田ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2009105895",
+      "name": "ミリオンセラー"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1570,6 +1600,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスモアリス (Cosmo Alice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモアリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモアリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1639,9 +1699,9 @@
       "contentHash": "3817e32c0791f11d1c1cb083eacdbc8a463f5e82f5187ce2a486cfd252ef1424",
       "byteLength": 65807,
       "rawPath": "netkeiba/horses/2020/2020100425/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:50:03.678Z"
+  "updatedAt": "2026-08-26T14:57:19.237Z"
 }

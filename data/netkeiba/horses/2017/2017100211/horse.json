@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100211",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100211/",
-  "profile": null,
+  "profile": {
+    "name": "シャクライス",
+    "birthDate": "2017-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島寿"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2013100545",
+      "name": "マイヴィクトリア"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -4939,6 +4969,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャクライス (Shaku Rice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャクライス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャクライス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5008,9 +5068,9 @@
       "contentHash": "804c2e3f32a6421105ddbe4e1acc0400840dcb0ef562eb070978b6e5a80cd5f5",
       "byteLength": 67001,
       "rawPath": "netkeiba/horses/2017/2017100211/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:57:29.031Z"
+  "updatedAt": "2026-08-24T18:09:45.681Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106411",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106411/",
-  "profile": null,
+  "profile": {
+    "name": "タテヤマ",
+    "birthDate": "2014-05-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05667",
+      "name": "渡辺和雄"
+    },
+    "owner": {
+      "id": "089002",
+      "name": "小島將之"
+    },
+    "breeder": {
+      "id": "233360",
+      "name": "山田政宏"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "1997101685",
+      "name": "サンフィールド"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4646,6 +4676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タテヤマ (Tateyama) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タテヤマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タテヤマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4715,9 +4775,9 @@
       "contentHash": "aae7b203e7033bbc9c409be97e1c0ebca6f833c7039dbef4855e9f26263e3940",
       "byteLength": 66745,
       "rawPath": "netkeiba/horses/2014/2014106411/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:29:13.383Z"
+  "updatedAt": "2026-08-26T14:36:29.287Z"
 }

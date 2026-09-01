@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105656",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105656/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンゲイン",
+    "birthDate": "2012-04-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "016030",
+      "name": "篠崎恒雄"
+    },
+    "breeder": {
+      "id": "340043",
+      "name": "モトスファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998101683",
+      "name": "タイムパラドックス"
+    },
+    "dam": {
+      "id": "1997110280",
+      "name": "ローモンドガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Montbrook (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101683",
@@ -2614,6 +2644,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンゲイン (Hakusan Gain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンゲイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンゲイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2683,9 +2743,9 @@
       "contentHash": "b5e7057f6416121b2fd1f66d4967c3e14a1acd348870e015f66a4cdd23dcaafd",
       "byteLength": 65191,
       "rawPath": "netkeiba/horses/2012/2012105656/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:39:12.913Z"
+  "updatedAt": "2026-08-24T17:51:29.926Z"
 }

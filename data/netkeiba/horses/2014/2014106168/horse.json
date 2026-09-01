@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106168",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106168/",
-  "profile": null,
+  "profile": {
+    "name": "リナーテ",
+    "birthDate": "2014-01-31",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マルペンサ Malpensa(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Orpen"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -3107,6 +3137,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リナーテ (Linate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リナーテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リナーテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3176,9 +3236,9 @@
       "contentHash": "5c889fda9703f0303dcc9130d604cca10b3489f07ceeacca9ec9690688cbab55",
       "byteLength": 67315,
       "rawPath": "netkeiba/horses/2014/2014106168/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:40:56.725Z"
+  "updatedAt": "2026-08-27T13:50:11.502Z"
 }

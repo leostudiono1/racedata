@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101801",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101801/",
-  "profile": null,
+  "profile": {
+    "name": "タヌキ",
+    "birthDate": "2016-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00359",
+      "name": "高橋祥泰"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2002102874",
+      "name": "ガンバリッコ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -1688,6 +1718,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タヌキ (Tanuki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タヌキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タヌキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1757,9 +1817,9 @@
       "contentHash": "8db8e77ecddfa74026c908945634cd48c7c402ecdcbb282aaa830b91081ad777",
       "byteLength": 64810,
       "rawPath": "netkeiba/horses/2016/2016101801/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:13:55.623Z"
+  "updatedAt": "2026-08-30T12:23:59.441Z"
 }

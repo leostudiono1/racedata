@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106861",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106861/",
-  "profile": null,
+  "profile": {
+    "name": "タイダルロック",
+    "birthDate": "2023-02-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2012104884",
+      "name": "アースライズ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1477,6 +1507,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイダルロック (Tidal Lock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイダルロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイダルロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1546,9 +1606,9 @@
       "contentHash": "7ec710d05d1a2a6dd3852ad098c754ddeb70c1ae7238185a50a119146c91f716",
       "byteLength": 67582,
       "rawPath": "netkeiba/horses/2023/2023106861/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:19:17.101Z"
+  "updatedAt": "2026-08-27T14:28:31.833Z"
 }

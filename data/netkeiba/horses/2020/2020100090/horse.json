@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100090",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100090/",
-  "profile": null,
+  "profile": {
+    "name": "レブロン",
+    "birthDate": "2020-05-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "東原己俊"
+    },
+    "owner": {
+      "id": "x00aa8",
+      "name": "野村文子"
+    },
+    "breeder": {
+      "id": "203091",
+      "name": "加野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103548",
+      "name": "ダノンバラード"
+    },
+    "dam": {
+      "id": "2007103541",
+      "name": "バイタルクィーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103548",
@@ -5157,6 +5187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レブロン (LeBron) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レブロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レブロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5226,9 +5286,9 @@
       "contentHash": "f49a0c4e8085fdb4f87bdba57d92f08c57a2fa604ec0b2fabccc47edaca6c78b",
       "byteLength": 66802,
       "rawPath": "netkeiba/horses/2020/2020100090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:01:50.256Z"
+  "updatedAt": "2026-08-27T14:11:04.990Z"
 }

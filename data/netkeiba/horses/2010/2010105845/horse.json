@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010105845",
   "sourceUrl": "https://db.netkeiba.com/horse/2010105845/",
-  "profile": null,
+  "profile": {
+    "name": "マノワール",
+    "birthDate": "2010-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2004100663",
+      "name": "ノータブルアート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -3545,6 +3575,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マノワール (Manoir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マノワール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マノワール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3614,9 +3674,9 @@
       "contentHash": "18f343da7c012e668420ed7ff105b24fc3da0c40ec180c7162cff29afae84356",
       "byteLength": 66872,
       "rawPath": "netkeiba/horses/2010/2010105845/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T14:59:56.871Z"
+  "updatedAt": "2026-08-28T13:05:06.785Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100366",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100366/",
-  "profile": null,
+  "profile": {
+    "name": "トラストティール",
+    "birthDate": "2014-03-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "125008",
+      "name": "菅波雅巳"
+    },
+    "breeder": {
+      "id": "900310",
+      "name": "武田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004102753",
+      "name": "ドリームジャーニー"
+    },
+    "dam": {
+      "id": "1998101214",
+      "name": "シャンハイレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シャンハイ Shanghai(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004102753",
@@ -8227,6 +8257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トラストティール (Trust Tyr) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラストティール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラストティール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8296,9 +8356,9 @@
       "contentHash": "21e9eb5a3fee67b46aef3644261374f7d0748000b3095f0899abbf8dead162d3",
       "byteLength": 64742,
       "rawPath": "netkeiba/horses/2014/2014100366/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:10:23.981Z"
+  "updatedAt": "2026-08-28T13:15:33.206Z"
 }

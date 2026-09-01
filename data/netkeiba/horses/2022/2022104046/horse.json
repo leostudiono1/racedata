@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104046",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104046/",
-  "profile": null,
+  "profile": {
+    "name": "シキ",
+    "birthDate": "2022-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05417",
+      "name": "佐藤雅彦"
+    },
+    "owner": {
+      "id": "x00031",
+      "name": "内藤正生"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2011102203",
+      "name": "ヴィヴァルディ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -2946,6 +2976,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シキ (Shiki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3015,9 +3075,9 @@
       "contentHash": "738ec956563bafa48f2510b45b36d559558010e056bd3834f165c17bbdb38866",
       "byteLength": 66608,
       "rawPath": "netkeiba/horses/2022/2022104046/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:47:19.834Z"
+  "updatedAt": "2026-08-28T13:52:29.420Z"
 }

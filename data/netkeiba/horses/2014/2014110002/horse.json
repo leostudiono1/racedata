@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110002",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110002/",
-  "profile": null,
+  "profile": {
+    "name": "ロードフェイム",
+    "birthDate": "2014-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "990706",
+      "name": "K I Farm Corporation"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Dansili"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パーフェクトトリビュート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1720,6 +1750,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードフェイム (Lord Fame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードフェイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードフェイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1789,9 +1849,9 @@
       "contentHash": "ada7b5c5e5ca6754a9cbe2accbae3534f1bd96444fcf1d4fc40596a5600272d9",
       "byteLength": 65265,
       "rawPath": "netkeiba/horses/2014/2014110002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:08:57.986Z"
+  "updatedAt": "2026-08-30T12:19:02.425Z"
 }

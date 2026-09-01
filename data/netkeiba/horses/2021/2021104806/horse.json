@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104806",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104806/",
-  "profile": null,
+  "profile": {
+    "name": "レオナルドスター",
+    "birthDate": "2021-03-17",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01212",
+      "name": "秋山真一"
+    },
+    "owner": {
+      "id": "372034",
+      "name": "森本研太"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディマカパ Lady Macapa(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Equiano"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3566,6 +3596,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオナルドスター (Leonard Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオナルドスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオナルドスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3635,9 +3695,9 @@
       "contentHash": "8f3797a20d9b2a565b4308d4b47684061c7a622d0c01714b6cece98ddaf9bfae",
       "byteLength": 67101,
       "rawPath": "netkeiba/horses/2021/2021104806/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:43:07.802Z"
+  "updatedAt": "2026-08-28T13:48:17.367Z"
 }

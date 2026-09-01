@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102419",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102419/",
-  "profile": null,
+  "profile": {
+    "name": "ファインライン",
+    "birthDate": "2021-04-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "208008",
+      "name": "窪田芳郎"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2010104178",
+      "name": "ディープサウス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -2870,6 +2900,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインライン (Fine Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2939,9 +2999,9 @@
       "contentHash": "9a93e71216ec02f78c596b56d86541982783c4923dab4aabea46746e8bf04ba9",
       "byteLength": 66954,
       "rawPath": "netkeiba/horses/2021/2021102419/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:01:45.707Z"
+  "updatedAt": "2026-08-29T13:10:11.343Z"
 }

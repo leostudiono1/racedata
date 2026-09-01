@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105793",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105793/",
-  "profile": null,
+  "profile": {
+    "name": "アルザス",
+    "birthDate": "2015-06-04",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "753030",
+      "name": "寺田秀樹"
+    },
+    "breeder": {
+      "id": "433203",
+      "name": "タイヘイ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ワシントンシティ Washington City(智)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Wagon Master"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3396,6 +3426,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルザス (Alsace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルザス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルザス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3465,9 +3525,9 @@
       "contentHash": "34f4eb95c373b1e4d238d09c6040a0395b8387dc1f24f371450775ac0ff1a6a2",
       "byteLength": 64717,
       "rawPath": "netkeiba/horses/2015/2015105793/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:51:45.765Z"
+  "updatedAt": "2026-08-24T18:04:02.585Z"
 }

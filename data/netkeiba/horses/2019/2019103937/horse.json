@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103937",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103937/",
-  "profile": null,
+  "profile": {
+    "name": "メルト",
+    "birthDate": "2019-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "370033",
+      "name": "長谷川守正"
+    },
+    "breeder": {
+      "id": "100019",
+      "name": "中脇満"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "エスケンデレヤ"
+    },
+    "dam": {
+      "id": "2010100639",
+      "name": "フローズンムーン"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -8143,6 +8173,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メルト (Melt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8212,9 +8272,9 @@
       "contentHash": "672508b5c10913f8cf1e784fb9987691ce7d9edce70c0a7c9e91aed1b60feb60",
       "byteLength": 66803,
       "rawPath": "netkeiba/horses/2019/2019103937/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:54:31.609Z"
+  "updatedAt": "2026-08-29T13:02:57.433Z"
 }

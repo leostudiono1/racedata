@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100601",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100601/",
-  "profile": null,
+  "profile": {
+    "name": "バイタルフォース",
+    "birthDate": "2012-02-24",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05772",
+      "name": "高野毅"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "Quality Road"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タップゴールド Tap Gold(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pleasant Tap"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4076,6 +4106,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バイタルフォース (Vital Force) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイタルフォース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイタルフォース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4145,9 +4205,9 @@
       "contentHash": "d5b85b420d9b44262c65860ec7ffaa797f4b653a0c35d1d69fe20174bb754b99",
       "byteLength": 66925,
       "rawPath": "netkeiba/horses/2012/2012100601/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:40:22.131Z"
+  "updatedAt": "2026-08-31T11:49:16.041Z"
 }

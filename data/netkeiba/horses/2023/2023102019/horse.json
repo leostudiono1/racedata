@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102019",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102019/",
-  "profile": null,
+  "profile": {
+    "name": "テイクオンミー",
+    "birthDate": "2023-03-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01094",
+      "name": "水野貴広"
+    },
+    "owner": {
+      "id": "319007",
+      "name": "野村茂雄"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "チリツバキ Chiri Tsubaki(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Siyouni"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1674,6 +1704,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイクオンミー (Take on Me) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイクオンミー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイクオンミー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1743,9 +1803,9 @@
       "contentHash": "9217d9a4b41b29b1b234e971c6fc5238b65c0e6cf8e032f2081e64123b09c7cb",
       "byteLength": 65463,
       "rawPath": "netkeiba/horses/2023/2023102019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:06:13.275Z"
+  "updatedAt": "2026-08-26T15:13:29.141Z"
 }

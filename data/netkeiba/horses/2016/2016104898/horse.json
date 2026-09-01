@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104898",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104898/",
-  "profile": null,
+  "profile": {
+    "name": "ビザンティン",
+    "birthDate": "2016-03-05",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2008102889",
+      "name": "アカンサス"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1448,6 +1478,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビザンティン (Byzantine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビザンティン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビザンティン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1517,9 +1577,9 @@
       "contentHash": "79c42cd6767c3c1caf543e4703263e5d0f63f22d2e572ef818139cec436eae93",
       "byteLength": 67138,
       "rawPath": "netkeiba/horses/2016/2016104898/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:56:32.845Z"
+  "updatedAt": "2026-08-24T18:08:49.701Z"
 }

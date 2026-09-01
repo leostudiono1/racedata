@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106227",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106227/",
-  "profile": null,
+  "profile": {
+    "name": "ボナデア",
+    "birthDate": "2015-02-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "533302",
+      "name": "前谷武志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2001103344",
+      "name": "コンコルディア"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2472,6 +2502,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボナデア (Bona Dea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボナデア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボナデア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2541,9 +2601,9 @@
       "contentHash": "ac0586ba6350d9e5f18c9026d95195991c60780b610da7c949132498968d6bf8",
       "byteLength": 66253,
       "rawPath": "netkeiba/horses/2015/2015106227/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:32:32.858Z"
+  "updatedAt": "2026-08-26T14:39:49.220Z"
 }

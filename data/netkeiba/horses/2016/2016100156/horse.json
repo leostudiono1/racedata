@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100156",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100156/",
-  "profile": null,
+  "profile": {
+    "name": "アサミン",
+    "birthDate": "2016-03-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "717033",
+      "name": "川村初美"
+    },
+    "breeder": {
+      "id": "310335",
+      "name": "カミイスタット"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103388",
+      "name": "グランプリボス"
+    },
+    "dam": {
+      "id": "2005104880",
+      "name": "ヒシシャトル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103388",
@@ -6694,6 +6724,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アサミン (Asamin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサミン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサミン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6763,9 +6823,9 @@
       "contentHash": "34211c15a31d8ea984f2afc3ef6ee36e5601604e8316d19155450f420ef32e82",
       "byteLength": 66987,
       "rawPath": "netkeiba/horses/2016/2016100156/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:52:59.468Z"
+  "updatedAt": "2026-08-24T18:05:16.134Z"
 }

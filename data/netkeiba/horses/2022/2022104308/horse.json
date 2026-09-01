@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104308",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104308/",
-  "profile": null,
+  "profile": {
+    "name": "シカレ",
+    "birthDate": "2022-01-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05546",
+      "name": "高岩孝敏"
+    },
+    "owner": {
+      "id": "x09067",
+      "name": "遠藤喜和"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スウィートマナ Sweet Mana(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Easing Along"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3771,6 +3801,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シカレ (Xcaret) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シカレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シカレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3840,9 +3900,9 @@
       "contentHash": "a85dd28da96caba7aabdda19e807032a72831c2f3b7fed7cd64f7e78f919571e",
       "byteLength": 66660,
       "rawPath": "netkeiba/horses/2022/2022104308/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:02:11.686Z"
+  "updatedAt": "2026-08-26T15:09:27.865Z"
 }

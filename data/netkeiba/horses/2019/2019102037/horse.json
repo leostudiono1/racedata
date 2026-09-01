@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102037",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102037/",
-  "profile": null,
+  "profile": {
+    "name": "ラブストーリー",
+    "birthDate": "2019-05-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00886",
+      "name": "田中正二"
+    },
+    "owner": {
+      "id": "x0162e",
+      "name": "濱本泰彰"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カストリア Kastria(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -3418,6 +3448,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラブストーリー (Love Story) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラブストーリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラブストーリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3487,9 +3547,9 @@
       "contentHash": "cd1c03727cb78d821da524b071582a8340d0bc0a6deb50a6f9964bd139dde261",
       "byteLength": 65255,
       "rawPath": "netkeiba/horses/2019/2019102037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:09:43.382Z"
+  "updatedAt": "2026-08-31T12:18:37.163Z"
 }

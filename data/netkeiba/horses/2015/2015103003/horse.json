@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103003",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103003/",
-  "profile": null,
+  "profile": {
+    "name": "ブンゴ",
+    "birthDate": "2015-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01022",
+      "name": "石坂正"
+    },
+    "owner": {
+      "id": "570009",
+      "name": "江口雄一郎"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2005100385",
+      "name": "ナムラエラン"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -2140,6 +2170,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブンゴ (Bungo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブンゴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブンゴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2209,9 +2269,9 @@
       "contentHash": "873418e4d4acf8905e4924900c29b86b05276edd0a8193e8988e105ea03ac9ea",
       "byteLength": 66173,
       "rawPath": "netkeiba/horses/2015/2015103003/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:16:03.293Z"
+  "updatedAt": "2026-08-28T13:21:12.883Z"
 }

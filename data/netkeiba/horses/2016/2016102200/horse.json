@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102200",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102200/",
-  "profile": null,
+  "profile": {
+    "name": "ララファル",
+    "birthDate": "2016-03-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "x091ac",
+      "name": "結城喜一"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レインボーリップル Rainbow Ripple(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rainbow Quest (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3933,6 +3963,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ララファル (La Rafale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララファル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララファル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4002,9 +4062,9 @@
       "contentHash": "fae5aa66a8adae80debbb6255881235f242e6e0df2cfc7f4d7dda0ae3b539d0c",
       "byteLength": 65688,
       "rawPath": "netkeiba/horses/2016/2016102200/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:14:02.762Z"
+  "updatedAt": "2026-08-30T12:24:06.588Z"
 }

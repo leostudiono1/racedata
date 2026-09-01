@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102187",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102187/",
-  "profile": null,
+  "profile": {
+    "name": "アラウズ",
+    "birthDate": "2022-02-27",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "a00ae7",
+      "name": "古澤暢央"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "2016104454",
+      "name": "アカネサス"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2804,6 +2834,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラウズ (Arouse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラウズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラウズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2873,9 +2933,9 @@
       "contentHash": "a69baf1a09dbdd9afbfea4d6ab9711f812fb254b620ff7ed3ba0dc332494cec9",
       "byteLength": 66458,
       "rawPath": "netkeiba/horses/2022/2022102187/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:06:22.352Z"
+  "updatedAt": "2026-08-29T13:14:47.872Z"
 }

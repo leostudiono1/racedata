@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104380",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104380/",
-  "profile": null,
+  "profile": {
+    "name": "ボールジー",
+    "birthDate": "2021-03-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "東原己俊"
+    },
+    "owner": {
+      "id": "x0b8f4",
+      "name": "野村昌弘"
+    },
+    "breeder": {
+      "id": "413304",
+      "name": "藤沢牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2015106212",
+      "name": "ダーリング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -5427,6 +5457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボールジー (Ballsy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボールジー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボールジー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5496,9 +5556,9 @@
       "contentHash": "7465f69a8055797723bb9de6c835ee65c5d40448e15cb0010267bc932c4975c7",
       "byteLength": 66314,
       "rawPath": "netkeiba/horses/2021/2021104380/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:19:45.888Z"
+  "updatedAt": "2026-08-31T12:28:39.280Z"
 }

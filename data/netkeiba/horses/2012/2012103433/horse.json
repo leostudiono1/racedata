@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103433",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103433/",
-  "profile": null,
+  "profile": {
+    "name": "ニホンピロヒーロー",
+    "birthDate": "2012-02-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01065",
+      "name": "大橋勇樹"
+    },
+    "owner": {
+      "id": "985001",
+      "name": "小林百太郎"
+    },
+    "breeder": {
+      "id": "333301",
+      "name": "福岡清"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2002105184",
+      "name": "ニホンピロアブミ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1386,6 +1416,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ニホンピロヒーロー (Nihonpiro Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニホンピロヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニホンピロヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1455,9 +1515,9 @@
       "contentHash": "136beaa47c1643b560503d088566c8582b6016349e9436b73b8f01d972cffd2a",
       "byteLength": 64614,
       "rawPath": "netkeiba/horses/2012/2012103433/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:03:37.339Z"
+  "updatedAt": "2026-08-28T13:08:47.147Z"
 }

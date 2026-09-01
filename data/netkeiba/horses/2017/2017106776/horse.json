@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106776",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106776/",
-  "profile": null,
+  "profile": {
+    "name": "デロリス",
+    "birthDate": "2017-04-05",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川野勇馬"
+    },
+    "owner": {
+      "id": "097031",
+      "name": "栗山学"
+    },
+    "breeder": {
+      "id": "733543",
+      "name": "Ｕ・Ｍ・Ａ"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2003102632",
+      "name": "フサイチミライ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3941,6 +3971,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デロリス (Deloris) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デロリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デロリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4010,9 +4070,9 @@
       "contentHash": "f285570855746832e3deebe0cc5c76d6cf0d062802c32d07578df0c04a410b95",
       "byteLength": 65925,
       "rawPath": "netkeiba/horses/2017/2017106776/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:01:48.282Z"
+  "updatedAt": "2026-08-24T18:14:04.886Z"
 }

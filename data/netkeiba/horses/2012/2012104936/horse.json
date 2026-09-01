@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104936",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104936/",
-  "profile": null,
+  "profile": {
+    "name": "アルター",
+    "birthDate": "2012-02-15",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2003102866",
+      "name": "ロレットチャペル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -3310,6 +3340,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルター (Altar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3379,9 +3439,9 @@
       "contentHash": "916fc5e47799e8aad405c617e255753a7259b1a44d8b693934db480318cb87a5",
       "byteLength": 66811,
       "rawPath": "netkeiba/horses/2012/2012104936/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:05:25.939Z"
+  "updatedAt": "2026-08-28T13:10:35.564Z"
 }

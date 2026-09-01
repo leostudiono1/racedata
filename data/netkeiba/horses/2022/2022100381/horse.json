@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100381",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100381/",
-  "profile": null,
+  "profile": {
+    "name": "オリバナム",
+    "birthDate": "2022-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "082803",
+      "name": "フロンティア"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016106065",
+      "name": "ロジャーバローズ"
+    },
+    "dam": {
+      "id": "2014105289",
+      "name": "ハマオリ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016106065",
@@ -1812,6 +1842,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オリバナム (Olibanum) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オリバナム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オリバナム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1881,9 +1941,9 @@
       "contentHash": "afdd017f1f23e8abbcc852115dec3399e0b7d19d57083366702994a3e9784539",
       "byteLength": 66237,
       "rawPath": "netkeiba/horses/2022/2022100381/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:38:51.007Z"
+  "updatedAt": "2026-08-30T12:48:54.423Z"
 }

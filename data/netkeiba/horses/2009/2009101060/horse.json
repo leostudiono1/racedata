@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009101060",
   "sourceUrl": "https://db.netkeiba.com/horse/2009101060/",
-  "profile": null,
+  "profile": {
+    "name": "タイガーシード",
+    "birthDate": "2009-05-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01065",
+      "name": "大橋勇樹"
+    },
+    "owner": {
+      "id": "049033",
+      "name": "伊藤和夫"
+    },
+    "breeder": {
+      "id": "530042",
+      "name": "桑田正己"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1996107315",
+      "name": "ブラックタキシード"
+    },
+    "dam": {
+      "id": "1994105753",
+      "name": "アイアンレディ"
+    },
+    "damsire": {
+      "id": "1979101459",
+      "name": "ホリスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "1996107315",
@@ -4245,6 +4275,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイガーシード (Tiger Shido) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイガーシード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイガーシード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4314,9 +4374,9 @@
       "contentHash": "89f67d5b539eb5141f00964a165a688fcbe53f1e10cf2693e191a753d85c99ec",
       "byteLength": 64926,
       "rawPath": "netkeiba/horses/2009/2009101060/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:19:58.831Z"
+  "updatedAt": "2026-08-29T12:28:24.486Z"
 }

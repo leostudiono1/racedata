@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105938",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105938/",
-  "profile": null,
+  "profile": {
+    "name": "キングエルメス",
+    "birthDate": "2019-02-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2007106439",
+      "name": "ステラリード"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2165,6 +2195,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングエルメス (King Hermes) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングエルメス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングエルメス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2234,9 +2294,9 @@
       "contentHash": "23691acbed60077c5658bba794a243dab64552bfbbc439338873e403f977b86a",
       "byteLength": 67334,
       "rawPath": "netkeiba/horses/2019/2019105938/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:29:06.276Z"
+  "updatedAt": "2026-08-30T12:39:09.813Z"
 }

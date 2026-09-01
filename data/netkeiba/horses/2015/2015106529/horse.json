@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106529",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106529/",
-  "profile": null,
+  "profile": {
+    "name": "アリババ",
+    "birthDate": "2015-05-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01096",
+      "name": "粕谷昌央"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "100004",
+      "name": "小田牧場"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2009106818",
+      "name": "シンジルキボウアイ"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -2156,6 +2186,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリババ (Ali Baba) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリババ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリババ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2225,9 +2285,9 @@
       "contentHash": "56418019a5b93f935bb8c565617c30bbffc15d4209c758b630ecf371c39f378b",
       "byteLength": 64947,
       "rawPath": "netkeiba/horses/2015/2015106529/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:52:27.759Z"
+  "updatedAt": "2026-08-24T18:04:44.710Z"
 }

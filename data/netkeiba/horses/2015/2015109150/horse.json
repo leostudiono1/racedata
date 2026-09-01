@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109150",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109150/",
-  "profile": null,
+  "profile": {
+    "name": "フクキタル",
+    "birthDate": "2015-04-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "451033",
+      "name": "佐藤範夫"
+    },
+    "breeder": {
+      "id": "244406",
+      "name": "ワールドファーム"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2000109419",
+      "name": "ローレルアイ"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3618,6 +3648,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フクキタル (Fukukitaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フクキタル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フクキタル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3687,9 +3747,9 @@
       "contentHash": "0668b176a2c6606bc630842c157158963bf67dd2330312c22baa1f6fc47756ae",
       "byteLength": 65617,
       "rawPath": "netkeiba/horses/2015/2015109150/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:54:12.326Z"
+  "updatedAt": "2026-08-31T12:03:05.645Z"
 }

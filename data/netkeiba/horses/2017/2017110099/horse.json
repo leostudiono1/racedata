@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110099",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110099/",
-  "profile": null,
+  "profile": {
+    "name": "ダブリナーズ",
+    "birthDate": "2017-01-31",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05769",
+      "name": "福田真広"
+    },
+    "owner": {
+      "id": "708031",
+      "name": "横田秀明"
+    },
+    "breeder": {
+      "id": "880731",
+      "name": "Springhouse Farm"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Zoffany"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Verbose"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Bird"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3172,6 +3202,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダブリナーズ (Dubliners) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダブリナーズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダブリナーズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3241,9 +3301,9 @@
       "contentHash": "fcb7a5206b3c9f3146248cc70ace4c0c11218fd22b17940b6a512cc4cf4e7347",
       "byteLength": 65766,
       "rawPath": "netkeiba/horses/2017/2017110099/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:03:42.657Z"
+  "updatedAt": "2026-08-31T12:12:36.718Z"
 }

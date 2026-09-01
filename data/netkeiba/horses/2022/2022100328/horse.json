@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100328",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100328/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンアイリス",
+    "birthDate": "2022-02-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01206",
+      "name": "高橋一哉"
+    },
+    "owner": {
+      "id": "841030",
+      "name": "河崎五市"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009102527",
+      "name": "ハクサンムーン"
+    },
+    "dam": {
+      "id": "2010105742",
+      "name": "キャメロンロード"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102527",
@@ -2238,6 +2268,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンアイリス (Hakusan Iris) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンアイリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンアイリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2307,9 +2367,9 @@
       "contentHash": "fa18ca98f4f960b5b5ff24597b5667867c35008e27bd5f04d1deb69c13219b70",
       "byteLength": 66988,
       "rawPath": "netkeiba/horses/2022/2022100328/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:59:55.468Z"
+  "updatedAt": "2026-08-26T15:07:11.008Z"
 }

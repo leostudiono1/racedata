@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101063",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101063/",
-  "profile": null,
+  "profile": {
+    "name": "ディオース",
+    "birthDate": "2020-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宇都英樹"
+    },
+    "owner": {
+      "id": "878033",
+      "name": "清宮義男"
+    },
+    "breeder": {
+      "id": "803365",
+      "name": "協栄組合"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2012110124",
+      "name": "タッチオブクラス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "High Chaparral (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -1685,6 +1715,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディオース (Dios) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディオース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディオース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1754,9 +1814,9 @@
       "contentHash": "9a6b4db31b4b07de9b48052cffda0e4145ec54472fb6cd5065a600e943a033df",
       "byteLength": 66754,
       "rawPath": "netkeiba/horses/2020/2020101063/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:31:01.516Z"
+  "updatedAt": "2026-08-30T12:41:05.292Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104548",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104548/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンリンド",
+    "birthDate": "2022-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "841030",
+      "name": "河崎五市"
+    },
+    "breeder": {
+      "id": "440306",
+      "name": "三木田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009102527",
+      "name": "ハクサンムーン"
+    },
+    "dam": {
+      "id": "2012103586",
+      "name": "ハクサンエルモ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102527",
@@ -1551,6 +1581,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンリンド (Hakusan Lindo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンリンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンリンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1620,9 +1680,9 @@
       "contentHash": "b12152fdba21f10be099f690349886a66b2ae61a845614eca3b90d410fdffcf5",
       "byteLength": 65861,
       "rawPath": "netkeiba/horses/2022/2022104548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:08:10.859Z"
+  "updatedAt": "2026-08-29T13:16:36.386Z"
 }

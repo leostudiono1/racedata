@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104490",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104490/",
-  "profile": null,
+  "profile": {
+    "name": "ピリカクル",
+    "birthDate": "2015-04-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Pirika (愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1668,6 +1698,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピリカクル (Pirka Kur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピリカクル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピリカクル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1737,9 +1797,9 @@
       "contentHash": "6aebd2155e7e1fa479f3ffb555c226d16398dc76e4a459233c6c2c027d709afb",
       "byteLength": 67320,
       "rawPath": "netkeiba/horses/2015/2015104490/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:17:09.674Z"
+  "updatedAt": "2026-08-28T13:22:19.310Z"
 }

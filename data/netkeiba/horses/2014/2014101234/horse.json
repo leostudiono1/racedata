@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2014101234",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101234/",
-  "profile": null,
+  "profile": {
+    "name": "ジョリー",
+    "birthDate": "2014-03-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "033025",
+      "name": "中田英樹"
+    },
+    "birthplace": "新ひだか町",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "ジョリー (Jolie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "1d948306ca53dc066c959001e36de9ccb337d6fb32dafe33540e0affe5582bcd",
       "byteLength": 64426,
       "rawPath": "netkeiba/horses/2014/2014101234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T17:04:24.245Z"

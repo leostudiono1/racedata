@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100800",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100800/",
-  "profile": null,
+  "profile": {
+    "name": "イナウィンク",
+    "birthDate": "2020-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "533047",
+      "name": "鮫川ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2005106043",
+      "name": "ウインク"
+    },
+    "damsire": {
+      "id": "1995107939",
+      "name": "ミラクルアドマイヤ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -3058,6 +3088,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イナウィンク (In a Wink) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イナウィンク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イナウィンク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3127,9 +3187,9 @@
       "contentHash": "6cd13265f32c5262ad3ab1ba91bfbc945b274f0c49c4ec80b8dbb3f0f510099a",
       "byteLength": 65839,
       "rawPath": "netkeiba/horses/2020/2020100800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:02:21.740Z"
+  "updatedAt": "2026-08-27T14:11:36.645Z"
 }

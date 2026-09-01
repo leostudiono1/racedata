@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106984",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106984/",
-  "profile": null,
+  "profile": {
+    "name": "アースアクシス",
+    "birthDate": "2023-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2003103047",
+      "name": "クロノロジスト"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1400,6 +1430,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アースアクシス (Earth Axis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースアクシス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースアクシス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1469,9 +1529,9 @@
       "contentHash": "edacf274e1acf8976b370ae32138a7cce039eb9f21f92841d126da888c47bbc3",
       "byteLength": 66968,
       "rawPath": "netkeiba/horses/2023/2023106984/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:09:05.115Z"
+  "updatedAt": "2026-08-26T15:16:20.720Z"
 }

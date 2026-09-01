@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105184",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105184/",
-  "profile": null,
+  "profile": {
+    "name": "ブリンク",
+    "birthDate": "2018-05-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2009106220",
+      "name": "パッシフローラ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2675,6 +2705,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブリンク (Blink) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリンク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリンク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2744,9 +2804,9 @@
       "contentHash": "507cc3be78172f6a803f35087d75ec2d36b3fd7975b621663347a238053f5dcc",
       "byteLength": 65586,
       "rawPath": "netkeiba/horses/2018/2018105184/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:30:39.251Z"
+  "updatedAt": "2026-08-28T13:35:48.058Z"
 }

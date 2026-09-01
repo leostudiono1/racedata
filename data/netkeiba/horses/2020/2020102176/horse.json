@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102176",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102176/",
-  "profile": null,
+  "profile": {
+    "name": "アポテカ",
+    "birthDate": "2020-03-08",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05319",
+      "name": "菅原欣也"
+    },
+    "owner": {
+      "id": "959030",
+      "name": "井上久光"
+    },
+    "breeder": {
+      "id": "200325",
+      "name": "細川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011105266",
+      "name": "ゴールドアクター"
+    },
+    "dam": {
+      "id": "2008105712",
+      "name": "ファーマペニー"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2011105266",
@@ -4063,6 +4093,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アポテカ (Apotheker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポテカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポテカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4132,9 +4192,9 @@
       "contentHash": "903760f4ac33d38d8ed64217b8af5c1526fb59b3ae4e53abc765f64d9a9bf4f8",
       "byteLength": 66835,
       "rawPath": "netkeiba/horses/2020/2020102176/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:14:30.787Z"
+  "updatedAt": "2026-08-31T12:23:24.099Z"
 }

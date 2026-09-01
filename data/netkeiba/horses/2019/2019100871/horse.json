@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100871",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100871/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーノート",
+    "birthDate": "2019-02-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01084",
+      "name": "梅田智之"
+    },
+    "owner": {
+      "id": "543033",
+      "name": "薪浦州平"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2011102872",
+      "name": "ハニードント"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -4234,6 +4264,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーノート (Blue Note) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーノート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーノート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4303,9 +4363,9 @@
       "contentHash": "4216d9e78f62e78d2b370ea331c4676aa563a329fc10a44f6f63278d380691a6",
       "byteLength": 66932,
       "rawPath": "netkeiba/horses/2019/2019100871/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:08:47.364Z"
+  "updatedAt": "2026-08-31T12:17:40.956Z"
 }

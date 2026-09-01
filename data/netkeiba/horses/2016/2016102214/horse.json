@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102214",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102214/",
-  "profile": null,
+  "profile": {
+    "name": "トップウイナー",
+    "birthDate": "2016-04-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "橋本和馬"
+    },
+    "owner": {
+      "id": "916800",
+      "name": "宮内牧場"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2003102308",
+      "name": "トップアクトレス"
+    },
+    "damsire": {
+      "id": "1996100292",
+      "name": "テイエムオペラオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -5726,6 +5756,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トップウイナー (Top Winner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップウイナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップウイナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5795,9 +5855,9 @@
       "contentHash": "50d7a853073319f67d832f9e94af4c500358517e20c35829ae1643910df99f3f",
       "byteLength": 66832,
       "rawPath": "netkeiba/horses/2016/2016102214/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:54:27.028Z"
+  "updatedAt": "2026-08-24T18:06:43.668Z"
 }

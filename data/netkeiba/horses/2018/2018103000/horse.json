@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103000",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103000/",
-  "profile": null,
+  "profile": {
+    "name": "ウインアガラス",
+    "birthDate": "2018-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中伸一"
+    },
+    "owner": {
+      "id": "x09393",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "510045",
+      "name": "梅田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2004110122",
+      "name": "アルカイックレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2116,6 +2146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウインアガラス (Win Agulhas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインアガラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインアガラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2185,9 +2245,9 @@
       "contentHash": "fcdbf204209c29699889f5c1b0419b7a09b598d514fb640b817926a39dbda6bb",
       "byteLength": 65237,
       "rawPath": "netkeiba/horses/2018/2018103000/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:22:40.976Z"
+  "updatedAt": "2026-08-30T12:32:44.637Z"
 }

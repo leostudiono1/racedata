@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104761",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104761/",
-  "profile": null,
+  "profile": {
+    "name": "ジルバーン",
+    "birthDate": "2019-03-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05753",
+      "name": "山下貴之"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シルヴァーカップ Silver Cup(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Almutawakel"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -4833,6 +4863,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジルバーン (Silbern) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジルバーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジルバーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4902,9 +4962,9 @@
       "contentHash": "e97b055616f4a84a572fbae53cff2530bf7f88f69a056d6776672a0758837e21",
       "byteLength": 67385,
       "rawPath": "netkeiba/horses/2019/2019104761/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:11:46.216Z"
+  "updatedAt": "2026-08-31T12:20:39.585Z"
 }

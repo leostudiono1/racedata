@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104438",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104438/",
-  "profile": null,
+  "profile": {
+    "name": "カフジローズ",
+    "birthDate": "2016-01-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "019004",
+      "name": "加藤守"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2007110107",
+      "name": "エリドゥバビロン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernstein"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3614,6 +3644,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフジローズ (Kafuji Rose) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジローズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジローズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3683,9 +3743,9 @@
       "contentHash": "f09e8c9ac4cae450f368481a650ede63206cb57772b0e1017c0e3d51489afba3",
       "byteLength": 66149,
       "rawPath": "netkeiba/horses/2016/2016104438/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:15:23.259Z"
+  "updatedAt": "2026-08-30T12:25:27.094Z"
 }

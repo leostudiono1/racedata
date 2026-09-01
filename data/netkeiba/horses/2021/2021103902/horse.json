@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103902",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103902/",
-  "profile": null,
+  "profile": {
+    "name": "スター",
+    "birthDate": "2021-03-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01154",
+      "name": "橋口慎介"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "803080",
+      "name": "静内ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2009106562",
+      "name": "ラルシュドール"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1151,6 +1181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スター (Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1220,9 +1280,9 @@
       "contentHash": "f70d67d5a23e2c5cb507e721e4ce79cbc61ab0bc7d62d6f194a436a9a10010fe",
       "byteLength": 65251,
       "rawPath": "netkeiba/horses/2021/2021103902/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:57:07.357Z"
+  "updatedAt": "2026-08-26T15:04:23.200Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104392",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104392/",
-  "profile": null,
+  "profile": {
+    "name": "シャインベック",
+    "birthDate": "2022-05-16",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01078",
+      "name": "北出成人"
+    },
+    "owner": {
+      "id": "337031",
+      "name": "吉岡輝美"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2010110002",
+      "name": "ストライクルート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1934,6 +1964,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャインベック (Shine Beck) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャインベック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャインベック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2003,9 +2063,9 @@
       "contentHash": "6fcfaeb295d789a3e4b9741ca3f7cb974d0139be18af6dda6a745c7cfcc9e321",
       "byteLength": 66693,
       "rawPath": "netkeiba/horses/2022/2022104392/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:41:07.327Z"
+  "updatedAt": "2026-08-30T12:51:11.456Z"
 }

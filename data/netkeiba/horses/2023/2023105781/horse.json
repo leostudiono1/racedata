@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105781",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105781/",
-  "profile": null,
+  "profile": {
+    "name": "ルスト",
+    "birthDate": "2023-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "宇都英樹"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "940031",
+      "name": "大柳ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2006110087",
+      "name": "タッチアス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1328,6 +1358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルスト (Lust) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1397,9 +1457,9 @@
       "contentHash": "bdf58a358fb4bd2a1b51cdcb61c1211bac6659ac9294ea42d17746affe47c19d",
       "byteLength": 65585,
       "rawPath": "netkeiba/horses/2023/2023105781/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:18:28.056Z"
+  "updatedAt": "2026-08-27T14:27:42.934Z"
 }

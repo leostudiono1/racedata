@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109145",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109145/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンテンシ",
+    "birthDate": "2015-04-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "016030",
+      "name": "篠崎恒雄"
+    },
+    "breeder": {
+      "id": "303065",
+      "name": "森俊雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2000100642",
+      "name": "バタラバ"
+    },
+    "damsire": {
+      "id": "1986100672",
+      "name": "バンブービギン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1482,6 +1512,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンテンシ (Hakusan Tenshi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンテンシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンテンシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1551,9 +1611,9 @@
       "contentHash": "8c82412bfb638852b286e21f98d4ae5bd3f1c062f34e7cc642c9572c5b478974",
       "byteLength": 65582,
       "rawPath": "netkeiba/horses/2015/2015109145/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:13:03.123Z"
+  "updatedAt": "2026-08-30T12:23:06.904Z"
 }

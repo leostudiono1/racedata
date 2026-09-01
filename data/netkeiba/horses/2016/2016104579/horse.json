@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104579",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104579/",
-  "profile": null,
+  "profile": {
+    "name": "エールドール",
+    "birthDate": "2016-03-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "370033",
+      "name": "長谷川守正"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "1998101814",
+      "name": "ビスクドール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -6601,6 +6631,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エールドール (Ailes d'Or) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エールドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エールドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6670,9 +6730,9 @@
       "contentHash": "193b0e42d10204a8dcf95bdc809fb9688aa9715e69bbcd22a3b1df9c1cb43989",
       "byteLength": 66741,
       "rawPath": "netkeiba/horses/2016/2016104579/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:36:24.621Z"
+  "updatedAt": "2026-08-26T14:43:39.877Z"
 }

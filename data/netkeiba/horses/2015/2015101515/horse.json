@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101515",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101515/",
-  "profile": null,
+  "profile": {
+    "name": "キーサンダー",
+    "birthDate": "2015-05-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05774",
+      "name": "保利良平"
+    },
+    "owner": {
+      "id": "338008",
+      "name": "北前孔一郎"
+    },
+    "breeder": {
+      "id": "003390",
+      "name": "高澤俊雄"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1997100569",
+      "name": "アッミラーレ"
+    },
+    "dam": {
+      "id": "2001106327",
+      "name": "プランサー"
+    },
+    "damsire": {
+      "id": "1992107625",
+      "name": "アブクマポーロ"
+    }
+  },
   "pedigree": [
     {
       "id": "1997100569",
@@ -4241,6 +4271,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーサンダー (Key Thunder) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーサンダー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーサンダー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4310,9 +4370,9 @@
       "contentHash": "b07eaca14d34b09668217d5f395ef041ab9f8a1b8215032d985ff6f98d68b3b3",
       "byteLength": 65293,
       "rawPath": "netkeiba/horses/2015/2015101515/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:09:33.108Z"
+  "updatedAt": "2026-08-30T12:19:36.956Z"
 }

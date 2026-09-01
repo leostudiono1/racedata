@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103887",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103887/",
-  "profile": null,
+  "profile": {
+    "name": "レイアン",
+    "birthDate": "2023-03-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "202033",
+      "name": "川勝裕之"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エトワールII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Siyouni"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1191,6 +1221,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイアン (Reian) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1260,9 +1320,9 @@
       "contentHash": "cc074af3d9987d3b125c7811e2cb1e9e46046747f6f34f2bbef9795ed7dcd721",
       "byteLength": 64611,
       "rawPath": "netkeiba/horses/2023/2023103887/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:45:33.377Z"
+  "updatedAt": "2026-08-30T12:55:37.251Z"
 }

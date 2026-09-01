@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103452",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103452/",
-  "profile": null,
+  "profile": {
+    "name": "ラリーレイド",
+    "birthDate": "2020-01-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2015104964",
+      "name": "スーブレット"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1257,6 +1287,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラリーレイド (Rally Raid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラリーレイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラリーレイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1326,9 +1386,9 @@
       "contentHash": "c7c4933f70349069f72a3dec0025ecd37ffada8c539a30074da7444971437eb6",
       "byteLength": 65677,
       "rawPath": "netkeiba/horses/2020/2020103452/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:57:54.596Z"
+  "updatedAt": "2026-08-29T13:06:20.353Z"
 }

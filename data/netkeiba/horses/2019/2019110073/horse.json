@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110073",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110073/",
-  "profile": null,
+  "profile": {
+    "name": "ポイズンアロウ",
+    "birthDate": "2019-03-31",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "100877",
+      "name": "Hinkle Farms"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Arrogate (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Crosswinds"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2792,6 +2822,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポイズンアロウ (Poison Arrow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポイズンアロウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポイズンアロウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2861,9 +2921,9 @@
       "contentHash": "c4ed156f8d41959cca66a913ca80abe95a18e37aec9dc4e65d3dcc9efa06d495",
       "byteLength": 66954,
       "rawPath": "netkeiba/horses/2019/2019110073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:13:09.851Z"
+  "updatedAt": "2026-08-31T12:22:03.622Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106427",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106427/",
-  "profile": null,
+  "profile": {
+    "name": "タラニス",
+    "birthDate": "2015-03-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05480",
+      "name": "田口輝彦"
+    },
+    "owner": {
+      "id": "554008",
+      "name": "吉田勝利"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2004110166",
+      "name": "クロチェーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Running Stag"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -8392,6 +8422,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タラニス (Taranis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タラニス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タラニス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8461,9 +8521,9 @@
       "contentHash": "1469307edfffb4ad9007f1f558f1cc0beef14f9055c434eac8e4db32287022f7",
       "byteLength": 66758,
       "rawPath": "netkeiba/horses/2015/2015106427/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:45:33.486Z"
+  "updatedAt": "2026-08-27T13:54:48.171Z"
 }

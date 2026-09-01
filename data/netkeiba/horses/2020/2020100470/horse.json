@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100470",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100470/",
-  "profile": null,
+  "profile": {
+    "name": "カフェフィッツロイ",
+    "birthDate": "2020-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01153",
+      "name": "中舘英二"
+    },
+    "owner": {
+      "id": "505007",
+      "name": "西川恭子"
+    },
+    "breeder": {
+      "id": "233022",
+      "name": "三石橋本牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008110024",
+      "name": "カフェヒミコ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bandini"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1300,6 +1330,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフェフィッツロイ (Cafe Fitzroy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェフィッツロイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェフィッツロイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1369,9 +1429,9 @@
       "contentHash": "08ed5882b839924211d69697fef5b9cfae6711419754a878b1a949ecb928c67b",
       "byteLength": 66284,
       "rawPath": "netkeiba/horses/2020/2020100470/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:13:20.423Z"
+  "updatedAt": "2026-08-31T12:22:14.119Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101123",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101123/",
-  "profile": null,
+  "profile": {
+    "name": "サクセスハチハチ",
+    "birthDate": "2020-03-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05567",
+      "name": "森澤友貴"
+    },
+    "owner": {
+      "id": "441006",
+      "name": "高嶋哲"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2011100541",
+      "name": "カリビアンロマンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1969,6 +1999,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サクセスハチハチ (Success Hachihachi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクセスハチハチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクセスハチハチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2038,9 +2098,9 @@
       "contentHash": "79167d97024da21deeadb47149e047787b4bd0afb373c874ce5cf0975ef9b177",
       "byteLength": 67066,
       "rawPath": "netkeiba/horses/2020/2020101123/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:31:05.208Z"
+  "updatedAt": "2026-08-30T12:41:08.743Z"
 }

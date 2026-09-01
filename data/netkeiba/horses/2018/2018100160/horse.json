@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100160",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100160/",
-  "profile": null,
+  "profile": {
+    "name": "オースミキャスト",
+    "birthDate": "2018-04-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05718",
+      "name": "坂本和也"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106599",
+      "name": "フェノーメノ"
+    },
+    "dam": {
+      "id": "2001105863",
+      "name": "ルナルナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106599",
@@ -1985,6 +2015,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オースミキャスト (Osumi Cast) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミキャスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミキャスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2054,9 +2114,9 @@
       "contentHash": "9e4291f75c5fb75b6b7696763c9556c9b50ebbb176f13ee45264e29d87c466f8",
       "byteLength": 65615,
       "rawPath": "netkeiba/horses/2018/2018100160/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:21:30.911Z"
+  "updatedAt": "2026-08-30T12:31:34.595Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101219",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101219/",
-  "profile": null,
+  "profile": {
+    "name": "サリー",
+    "birthDate": "2016-05-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05108",
+      "name": "桧森邦夫"
+    },
+    "owner": {
+      "id": "553030",
+      "name": "木下孝丸"
+    },
+    "breeder": {
+      "id": "233098",
+      "name": "白井吉美"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    },
+    "dam": {
+      "id": "2011105750",
+      "name": "トゥファーアウェイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "チチカステナンゴ Chichicastenango(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102837",
@@ -2313,6 +2343,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サリー (Sally) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2382,9 +2442,9 @@
       "contentHash": "45bf70aa7ceec70999b12e23daea8974c6fc12a0cdf0e0cb43acad622c10d3db",
       "byteLength": 64373,
       "rawPath": "netkeiba/horses/2016/2016101219/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:13:31.180Z"
+  "updatedAt": "2026-08-30T12:23:35.168Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110081",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110081/",
-  "profile": null,
+  "profile": {
+    "name": "スマートキャンディ",
+    "birthDate": "2017-02-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05755",
+      "name": "永島太郎"
+    },
+    "owner": {
+      "id": "x09ccf",
+      "name": "（株）大川徹ホールデ"
+    },
+    "breeder": {
+      "id": "900815",
+      "name": "Calumet Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Candy Ride"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Somethinaboutlaura"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dance Floor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1639,6 +1669,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートキャンディ (Smart Candy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートキャンディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートキャンディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1708,9 +1768,9 @@
       "contentHash": "0c2b4661ed68b59d39ce9bfe7a7a4b3be3223523b91eff0a9b1a8694724e2aea",
       "byteLength": 64708,
       "rawPath": "netkeiba/horses/2017/2017110081/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:21:16.854Z"
+  "updatedAt": "2026-08-30T12:31:20.566Z"
 }

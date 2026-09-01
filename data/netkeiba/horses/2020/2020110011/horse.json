@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110011",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110011/",
-  "profile": null,
+  "profile": {
+    "name": "フォミルマジック",
+    "birthDate": "2020-04-07",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "356803",
+      "name": "インゼルレーシング"
+    },
+    "breeder": {
+      "id": "380732",
+      "name": "R. Scarborough & Carradale"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "2015100991",
+      "name": "Saxon Warrior (安平町)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Bewitched"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "2015100991",
@@ -1677,6 +1707,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォミルマジック (Formule Magique) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォミルマジック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォミルマジック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1746,9 +1806,9 @@
       "contentHash": "9dae1e5e605eabf83fb578feef525291a33b413cc23093f4b17359ac69326e75",
       "byteLength": 67657,
       "rawPath": "netkeiba/horses/2020/2020110011/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:13:31.794Z"
+  "updatedAt": "2026-08-24T18:25:48.580Z"
 }

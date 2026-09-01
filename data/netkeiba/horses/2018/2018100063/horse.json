@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100063",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100063/",
-  "profile": null,
+  "profile": {
+    "name": "バシレウス",
+    "birthDate": "2018-03-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "024031",
+      "name": "小菅誠"
+    },
+    "breeder": {
+      "id": "503341",
+      "name": "新井昭二"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2006103131",
+      "name": "ロイヤルライン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -5316,6 +5346,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バシレウス (Basileus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バシレウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バシレウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5385,9 +5445,9 @@
       "contentHash": "ada3590173ba630f93f8dd91dadd8ef5115a2ff4875e6ff56d66f6cff89ecdda",
       "byteLength": 66958,
       "rawPath": "netkeiba/horses/2018/2018100063/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:03:46.286Z"
+  "updatedAt": "2026-08-31T12:12:39.863Z"
 }

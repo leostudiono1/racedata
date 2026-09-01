@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104909",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104909/",
-  "profile": null,
+  "profile": {
+    "name": "マイアイドル",
+    "birthDate": "2022-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "テディーズプロミス Teddy's Promise(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Salt Lake"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -1184,6 +1214,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイアイドル (My Idol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイアイドル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイアイドル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1253,9 +1313,9 @@
       "contentHash": "54b3cde659f15801420ed856732213edf5973bb1465512bbaf053b916b19777e",
       "byteLength": 64479,
       "rawPath": "netkeiba/horses/2022/2022104909/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:13:05.919Z"
+  "updatedAt": "2026-08-27T14:22:20.641Z"
 }

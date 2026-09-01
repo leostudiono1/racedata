@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110178",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110178/",
-  "profile": null,
+  "profile": {
+    "name": "ゼツエイ",
+    "birthDate": "2017-08-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "580706",
+      "name": "Raffles Dancers (N Z) Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ready To Lift"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "More Than Ready"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1851,6 +1881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼツエイ (Zetsuei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼツエイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼツエイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1920,9 +1980,9 @@
       "contentHash": "76a11d5bdb887d114723ac47a0a69771bb6b28dde02508d365cd799c6ecbb035",
       "byteLength": 64363,
       "rawPath": "netkeiba/horses/2017/2017110178/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:26:01.901Z"
+  "updatedAt": "2026-08-28T13:31:11.468Z"
 }

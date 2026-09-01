@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101916",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101916/",
-  "profile": null,
+  "profile": {
+    "name": "アルバハール",
+    "birthDate": "2019-03-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "小林俊彦"
+    },
+    "owner": {
+      "id": "x01f51",
+      "name": "高橋清彦"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2009102557",
+      "name": "ポップアイコン"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5652,6 +5682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルバハール (Al Bahr) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバハール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバハール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5721,9 +5781,9 @@
       "contentHash": "363237370d252ba06cbf01505391454bcc71f03a29e60a655e812dd4cd508354",
       "byteLength": 65508,
       "rawPath": "netkeiba/horses/2019/2019101916/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:26:11.016Z"
+  "updatedAt": "2026-08-30T12:36:14.653Z"
 }

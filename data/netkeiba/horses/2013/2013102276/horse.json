@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102276",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102276/",
-  "profile": null,
+  "profile": {
+    "name": "カムイ",
+    "birthDate": "2013-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "341002",
+      "name": "川島吉男"
+    },
+    "breeder": {
+      "id": "403095",
+      "name": "木田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004102987",
+      "name": "アドマイヤオーラ"
+    },
+    "dam": {
+      "id": "2003110026",
+      "name": "メリーランドガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Quiet American"
+    }
+  },
   "pedigree": [
     {
       "id": "2004102987",
@@ -3632,6 +3662,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カムイ (Kamuy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3701,9 +3761,9 @@
       "contentHash": "1c4ce30cc2eb8ca51e9b88e0475ce1be01a3d4ace71db32b5efe3b8ee0b57611",
       "byteLength": 66761,
       "rawPath": "netkeiba/horses/2013/2013102276/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:07:38.965Z"
+  "updatedAt": "2026-08-28T13:12:48.944Z"
 }

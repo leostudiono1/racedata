@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105235",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105235/",
-  "profile": null,
+  "profile": {
+    "name": "オウガ",
+    "birthDate": "2015-04-14",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00392",
+      "name": "古賀史生"
+    },
+    "owner": {
+      "id": "677009",
+      "name": "西森鶴"
+    },
+    "breeder": {
+      "id": "710032",
+      "name": "日優牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2008106569",
+      "name": "チャンピオンダイヤ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2844,6 +2874,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オウガ (Oga) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オウガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オウガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2913,9 +2973,9 @@
       "contentHash": "1149c5cad0af96ac1c04bf79c9fbb63dff504ac2c78cd5b3802abff3eb8430a4",
       "byteLength": 66111,
       "rawPath": "netkeiba/horses/2015/2015105235/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:38:39.234Z"
+  "updatedAt": "2026-08-29T12:47:04.873Z"
 }

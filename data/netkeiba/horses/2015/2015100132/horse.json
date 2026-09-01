@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100132",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100132/",
-  "profile": null,
+  "profile": {
+    "name": "チャーチタウン",
+    "birthDate": "2015-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中伸一"
+    },
+    "owner": {
+      "id": "x0900a",
+      "name": "木村益生"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007110008",
+      "name": "セイントアレックス"
+    },
+    "dam": {
+      "id": "2000110160",
+      "name": "ローズカーニバル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Deputy"
+    }
+  },
   "pedigree": [
     {
       "id": "2007110008",
@@ -6050,6 +6080,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャーチタウン (Churchtown) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャーチタウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャーチタウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6119,9 +6179,9 @@
       "contentHash": "29663cb1cf3ca8e8b28536a44ac8cbfb30dcf2083100b930b1ca90acea3977b2",
       "byteLength": 66973,
       "rawPath": "netkeiba/horses/2015/2015100132/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:09:05.232Z"
+  "updatedAt": "2026-08-30T12:19:09.189Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102978",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102978/",
-  "profile": null,
+  "profile": {
+    "name": "シスコ",
+    "birthDate": "2021-04-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シムシマー Simsimah(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Poet's Voice"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1285,6 +1315,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シスコ (Cisco) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シスコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シスコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1354,9 +1414,9 @@
       "contentHash": "7c77d3230d9199f11fe1a204b3e7f5feedea40e4f3b4bad9f19df2c24b455734",
       "byteLength": 66621,
       "rawPath": "netkeiba/horses/2021/2021102978/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:56:14.463Z"
+  "updatedAt": "2026-08-26T15:03:30.519Z"
 }

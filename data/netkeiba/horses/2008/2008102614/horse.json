@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008102614",
   "sourceUrl": "https://db.netkeiba.com/horse/2008102614/",
-  "profile": null,
+  "profile": {
+    "name": "ゴーハンティング",
+    "birthDate": "2008-03-11",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "2001103006",
+      "name": "マンティスハント"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -3949,6 +3979,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴーハンティング (Go Hunting) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴーハンティング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴーハンティング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4018,9 +4078,9 @@
       "contentHash": "0ad14f58b126436609367aac97c54710d8251a4414f9ffc0523033813fa213b6",
       "byteLength": 67480,
       "rawPath": "netkeiba/horses/2008/2008102614/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T14:58:01.351Z"
+  "updatedAt": "2026-08-28T13:03:11.033Z"
 }

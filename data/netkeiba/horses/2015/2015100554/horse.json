@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100554",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100554/",
-  "profile": null,
+  "profile": {
+    "name": "スイートハート",
+    "birthDate": "2015-03-15",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "729005",
+      "name": "平賀久枝"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2001107382",
+      "name": "スプレッドウィング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1284,6 +1314,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スイートハート (Sweetheart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイートハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイートハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1353,9 +1413,9 @@
       "contentHash": "e60d32d0944986bc990f150baca9c08ae47c926c27d405f529075369b370fdd5",
       "byteLength": 64934,
       "rawPath": "netkeiba/horses/2015/2015100554/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:34:51.619Z"
+  "updatedAt": "2026-08-29T12:43:17.258Z"
 }

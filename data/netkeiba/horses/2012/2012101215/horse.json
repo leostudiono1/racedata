@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101215",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101215/",
-  "profile": null,
+  "profile": {
+    "name": "クラウンフレイム",
+    "birthDate": "2012-04-05",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "826800",
+      "name": "クラウン"
+    },
+    "breeder": {
+      "id": "560543",
+      "name": "クラウン日高牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102809",
+      "name": "オンファイア"
+    },
+    "dam": {
+      "id": "1997110287",
+      "name": "ハイフレンドモア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mt. Livermore"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102809",
@@ -3435,6 +3465,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラウンフレイム (Crown Flame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンフレイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンフレイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3504,9 +3564,9 @@
       "contentHash": "c3d00236888ed805f7d8de23b431d9ac987005646d849feead7773ab73a4415a",
       "byteLength": 65692,
       "rawPath": "netkeiba/horses/2012/2012101215/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:02:34.354Z"
+  "updatedAt": "2026-08-28T13:07:44.033Z"
 }

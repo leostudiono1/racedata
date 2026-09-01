@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101420",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101420/",
-  "profile": null,
+  "profile": {
+    "name": "ファニーガール",
+    "birthDate": "2012-05-20",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01007",
+      "name": "柴田政人"
+    },
+    "owner": {
+      "id": "557005",
+      "name": "水谷八重子"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "カリズマティック Charismatic(米)"
+    },
+    "dam": {
+      "id": "2005103399",
+      "name": "カリスマブラック"
+    },
+    "damsire": {
+      "id": "1996107315",
+      "name": "ブラックタキシード"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1896,6 +1926,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファニーガール (Funny Girl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファニーガール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファニーガール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1965,9 +2025,9 @@
       "contentHash": "555a7775cf725b79cfb7ccd75009e27a24bad1ebc26131170eb881a9248a78ac",
       "byteLength": 64443,
       "rawPath": "netkeiba/horses/2012/2012101420/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:29:23.510Z"
+  "updatedAt": "2026-08-27T13:38:38.292Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100482",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100482/",
-  "profile": null,
+  "profile": {
+    "name": "オルマジェス",
+    "birthDate": "2021-01-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05480",
+      "name": "田口輝彦"
+    },
+    "owner": {
+      "id": "x07c20",
+      "name": "豊原純弥"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2015102666",
+      "name": "グラッツェミーレ"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3755,6 +3785,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オルマジェス (Or Majes) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルマジェス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルマジェス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3824,9 +3884,9 @@
       "contentHash": "ea3069a3b8c0bf60cd81da4696b7def893766cf0be04289888c4b8271e114601",
       "byteLength": 66915,
       "rawPath": "netkeiba/horses/2021/2021100482/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:06:30.355Z"
+  "updatedAt": "2026-08-27T14:15:45.255Z"
 }

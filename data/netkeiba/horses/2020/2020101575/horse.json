@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101575",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101575/",
-  "profile": null,
+  "profile": {
+    "name": "サザーランド",
+    "birthDate": "2020-04-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01185",
+      "name": "小林真也"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2003106086",
+      "name": "ターキー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sinndar (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3187,6 +3217,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サザーランド (Sutherland) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サザーランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サザーランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3256,9 +3316,9 @@
       "contentHash": "b1e0b003eb7e5a32faff626b176a2ea90354b74f4cec50c48db1c08fd6453bd9",
       "byteLength": 66921,
       "rawPath": "netkeiba/horses/2020/2020101575/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:51:02.914Z"
+  "updatedAt": "2026-08-26T14:58:19.107Z"
 }

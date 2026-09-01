@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103580",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103580/",
-  "profile": null,
+  "profile": {
+    "name": "ラパンドール",
+    "birthDate": "2023-03-22",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "208008",
+      "name": "窪田芳郎"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "2014110010",
+      "name": "ラビットラン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1328,6 +1358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラパンドール (Lapin d'Or) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラパンドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラパンドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1397,9 +1457,9 @@
       "contentHash": "407d1db68b6ea674f813ce1324415d4f5a029354bcd231f6bcca6775065c7f2c",
       "byteLength": 67172,
       "rawPath": "netkeiba/horses/2023/2023103580/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:16:43.418Z"
+  "updatedAt": "2026-08-27T14:25:57.685Z"
 }

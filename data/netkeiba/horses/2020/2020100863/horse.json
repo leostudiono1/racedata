@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100863",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100863/",
-  "profile": null,
+  "profile": {
+    "name": "アルセリア",
+    "birthDate": "2020-05-13",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05436",
+      "name": "林正人"
+    },
+    "owner": {
+      "id": "290006",
+      "name": "栗坂崇"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2012109098",
+      "name": "オウケンクイーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -4069,6 +4099,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルセリア (Arcelia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルセリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルセリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4138,9 +4198,9 @@
       "contentHash": "884578816266ad5542f71d47e5a18aa0e09415dc26ed098ef8f4306e7cab8296",
       "byteLength": 65431,
       "rawPath": "netkeiba/horses/2020/2020100863/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:02:25.274Z"
+  "updatedAt": "2026-08-27T14:11:40.014Z"
 }

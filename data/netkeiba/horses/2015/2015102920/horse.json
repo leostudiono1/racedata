@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102920",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102920/",
-  "profile": null,
+  "profile": {
+    "name": "インコントロ",
+    "birthDate": "2015-05-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05713",
+      "name": "山田信大"
+    },
+    "owner": {
+      "id": "524030",
+      "name": "鈴木邦英"
+    },
+    "breeder": {
+      "id": "700033",
+      "name": "小倉牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "2001100183",
+      "name": "カタズオノンデ"
+    },
+    "damsire": {
+      "id": "1992107451",
+      "name": "サンデーウェル"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -2969,6 +2999,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インコントロ (Incontro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インコントロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インコントロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3038,9 +3098,9 @@
       "contentHash": "41a8e6280dfcb3d616ffe48165be23ec2ecf639498749300a8e66bb34bbc6e2d",
       "byteLength": 65858,
       "rawPath": "netkeiba/horses/2015/2015102920/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:15:59.868Z"
+  "updatedAt": "2026-08-28T13:21:09.373Z"
 }

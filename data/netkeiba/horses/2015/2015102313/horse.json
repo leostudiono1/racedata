@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102313",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102313/",
-  "profile": null,
+  "profile": {
+    "name": "シスル",
+    "birthDate": "2015-04-18",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01116",
+      "name": "新開幸一"
+    },
+    "owner": {
+      "id": "373008",
+      "name": "中村祐子"
+    },
+    "breeder": {
+      "id": "590543",
+      "name": "オギオギ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1997110152",
+      "name": "ノボジャック"
+    },
+    "dam": {
+      "id": "2002110212",
+      "name": "ジュピターズビコー"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110152",
@@ -3520,6 +3550,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シスル (Thistle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シスル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シスル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3589,9 +3649,9 @@
       "contentHash": "f5969fd5550a2d8dc318963f7ff1392ec60145ace78dbf36aa470558555f885c",
       "byteLength": 66815,
       "rawPath": "netkeiba/horses/2015/2015102313/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:15:38.681Z"
+  "updatedAt": "2026-08-28T13:20:48.363Z"
 }

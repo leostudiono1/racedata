@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110101",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110101/",
-  "profile": null,
+  "profile": {
+    "name": "フリアフロリダ",
+    "birthDate": "2022-08-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "530713",
+      "name": "Vieira Group Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Trapeze Artist (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Hummalong"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hallowed Crown"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1651,6 +1681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリアフロリダ (Julia Florida) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリアフロリダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリアフロリダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1720,9 +1780,9 @@
       "contentHash": "380ee80314ac08604b0813a463263eab9fbdccc69f9869de4e9d18b79b4b02c4",
       "byteLength": 65228,
       "rawPath": "netkeiba/horses/2022/2022110101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:43:23.841Z"
+  "updatedAt": "2026-08-30T12:53:27.593Z"
 }

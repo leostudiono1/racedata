@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106478",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106478/",
-  "profile": null,
+  "profile": {
+    "name": "エズ",
+    "birthDate": "2014-02-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05270",
+      "name": "竹下直人"
+    },
+    "owner": {
+      "id": "x01175",
+      "name": "大島栄一"
+    },
+    "breeder": {
+      "id": "013079",
+      "name": "神垣道弘"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    },
+    "dam": {
+      "id": "1999101414",
+      "name": "エクラドール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998190004",
@@ -1575,6 +1605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エズ (Eze) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1644,9 +1704,9 @@
       "contentHash": "c92a9de50b17f0aa36f61b83e306a13c2569b434a843208b0b2b526be46368be",
       "byteLength": 64210,
       "rawPath": "netkeiba/horses/2014/2014106478/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:08:51.318Z"
+  "updatedAt": "2026-08-30T12:18:54.915Z"
 }

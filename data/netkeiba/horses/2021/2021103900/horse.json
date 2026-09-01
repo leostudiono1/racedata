@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103900",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103900/",
-  "profile": null,
+  "profile": {
+    "name": "リンゴ",
+    "birthDate": "2021-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01084",
+      "name": "梅田智之"
+    },
+    "owner": {
+      "id": "768006",
+      "name": "薪浦亨"
+    },
+    "breeder": {
+      "id": "803080",
+      "name": "静内ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2012103917",
+      "name": "ホザンナ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1722,6 +1752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リンゴ (Ringo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リンゴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リンゴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1791,9 +1851,9 @@
       "contentHash": "ba98f4fd4d72f09e54d31b64eeb5ae20236b556a19d497c1b23f0e202bece6e5",
       "byteLength": 65904,
       "rawPath": "netkeiba/horses/2021/2021103900/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:42:22.278Z"
+  "updatedAt": "2026-08-28T13:47:31.799Z"
 }

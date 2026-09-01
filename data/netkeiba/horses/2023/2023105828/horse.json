@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105828",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105828/",
-  "profile": null,
+  "profile": {
+    "name": "スタートオブシー",
+    "birthDate": "2023-03-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01165",
+      "name": "和田勇介"
+    },
+    "owner": {
+      "id": "036034",
+      "name": "中村伊三美"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015102367",
+      "name": "ダノンプレミアム"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ワイルドココ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shirocco"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102367",
@@ -1034,6 +1064,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スタートオブシー (Start of C) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタートオブシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタートオブシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1103,9 +1163,9 @@
       "contentHash": "57a214df30000d14ffedb694a188c425c853292058edd02f8b5fbf3cb6f8ac67",
       "byteLength": 66279,
       "rawPath": "netkeiba/horses/2023/2023105828/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:24:50.970Z"
+  "updatedAt": "2026-08-24T18:37:07.809Z"
 }

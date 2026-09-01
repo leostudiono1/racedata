@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103814",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103814/",
-  "profile": null,
+  "profile": {
+    "name": "スカイトレイル",
+    "birthDate": "2019-04-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "064031",
+      "name": "小島俊治"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ザファクター"
+    },
+    "dam": {
+      "id": "2008103351",
+      "name": "アドマイヤアロング"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2668,6 +2698,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイトレイル (Sky Trail) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイトレイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイトレイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2737,9 +2797,9 @@
       "contentHash": "fd314b88cb37f00ce191374f97cadd67880800643aced16d8b74024d323e9d94",
       "byteLength": 66870,
       "rawPath": "netkeiba/horses/2019/2019103814/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:33:40.603Z"
+  "updatedAt": "2026-08-28T13:38:50.216Z"
 }

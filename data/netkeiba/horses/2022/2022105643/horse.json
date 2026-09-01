@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105643",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105643/",
-  "profile": null,
+  "profile": {
+    "name": "リズ",
+    "birthDate": "2022-05-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アルムデナ Almudena(秘)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Planet"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1549,6 +1579,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リズ (Liz) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1618,9 +1678,9 @@
       "contentHash": "b44cd5f3bd501799d7d5c8f42da82cae0322d86369416ab9d77b14caa9d63ac1",
       "byteLength": 64040,
       "rawPath": "netkeiba/horses/2022/2022105643/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:21:59.411Z"
+  "updatedAt": "2026-08-24T18:34:16.286Z"
 }

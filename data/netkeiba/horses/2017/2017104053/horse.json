@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104053",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104053/",
-  "profile": null,
+  "profile": {
+    "name": "カッツミー",
+    "birthDate": "2017-04-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "331007",
+      "name": "幅田昌伸"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2011105620",
+      "name": "イイチョ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -985,6 +1015,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カッツミー (Kattsu Me) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カッツミー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カッツミー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1054,9 +1114,9 @@
       "contentHash": "a71bb43b264bd50aa0f8b8afc060a760db366929c5fffb834cb660ffd1354a7b",
       "byteLength": 64400,
       "rawPath": "netkeiba/horses/2017/2017104053/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:24:20.299Z"
+  "updatedAt": "2026-08-28T13:29:30.033Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101809",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101809/",
-  "profile": null,
+  "profile": {
+    "name": "ムーンフォレスト",
+    "birthDate": "2020-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シルヴァンソング Sylvan Song(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1203,6 +1233,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムーンフォレスト (Moon Forest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーンフォレスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーンフォレスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1272,9 +1332,9 @@
       "contentHash": "f4d708652615a56ad93309a5d35b16d2ab57607396fd4a7146965739c1ffb675",
       "byteLength": 65129,
       "rawPath": "netkeiba/horses/2020/2020101809/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:31:30.081Z"
+  "updatedAt": "2026-08-30T12:41:33.291Z"
 }

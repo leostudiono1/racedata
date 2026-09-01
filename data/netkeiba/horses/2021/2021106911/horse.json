@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106911",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106911/",
-  "profile": null,
+  "profile": {
+    "name": "アップルハウス",
+    "birthDate": "2021-01-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "木村健"
+    },
+    "owner": {
+      "id": "768006",
+      "name": "薪浦亨"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2010104315",
+      "name": "インプレショニスト"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1493,6 +1523,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アップルハウス (Apple House) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップルハウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップルハウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1562,9 +1622,9 @@
       "contentHash": "e3ec0ca5f980b0e00b34ae39356e174c8c93fdba9d3213baa68b857e4341d3d3",
       "byteLength": 64846,
       "rawPath": "netkeiba/horses/2021/2021106911/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:18:04.880Z"
+  "updatedAt": "2026-08-24T18:30:21.674Z"
 }

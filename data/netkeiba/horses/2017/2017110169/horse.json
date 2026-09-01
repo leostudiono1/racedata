@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110169",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110169/",
-  "profile": null,
+  "profile": {
+    "name": "アルファジップ",
+    "birthDate": "2017-04-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05311",
+      "name": "角川秀樹"
+    },
+    "owner": {
+      "id": "367800",
+      "name": "グランド牧場"
+    },
+    "breeder": {
+      "id": "740898",
+      "name": "Overbrook Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "City Zip (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Alpha Centauri"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dynaformer"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2074,6 +2104,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルファジップ (Alpha Zip) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファジップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルファジップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2143,9 +2203,9 @@
       "contentHash": "dd528da0d140360e2bf7a271a74190c2a2197a8b9295bf02eb82831c09d9f5d3",
       "byteLength": 65340,
       "rawPath": "netkeiba/horses/2017/2017110169/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:53:50.628Z"
+  "updatedAt": "2026-08-27T14:03:05.615Z"
 }

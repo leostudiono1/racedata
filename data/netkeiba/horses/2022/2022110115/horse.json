@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110115",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110115/",
-  "profile": null,
+  "profile": {
+    "name": "シンビリーブ",
+    "birthDate": "2022-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "490707",
+      "name": "Don Alberto Corporation"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Constitution (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sand Puce"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Footstepsinthesand (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2661,6 +2691,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンビリーブ (Shin Believe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンビリーブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンビリーブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2730,9 +2790,9 @@
       "contentHash": "52b73cff7c77b529f6afe70298b9b39e0b0eeda6d185d4bb35ea2e9e7e3361d9",
       "byteLength": 66882,
       "rawPath": "netkeiba/horses/2022/2022110115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:14:58.210Z"
+  "updatedAt": "2026-08-27T14:24:12.657Z"
 }

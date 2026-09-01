@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100213",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100213/",
-  "profile": null,
+  "profile": {
+    "name": "ヒボン",
+    "birthDate": "2017-04-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "永田幸宏"
+    },
+    "owner": {
+      "id": "x0942e",
+      "name": "木部嚴生"
+    },
+    "breeder": {
+      "id": "680543",
+      "name": "木部ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006103308",
+      "name": "アンライバルド"
+    },
+    "dam": {
+      "id": "2006101128",
+      "name": "スズカダーリン"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103308",
@@ -3664,6 +3694,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒボン (Hibon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒボン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒボン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3733,9 +3793,9 @@
       "contentHash": "8922b503982aa2664459a5b73dcef1bb0e378a8003fc8e34da625129c9ba6dbd",
       "byteLength": 65813,
       "rawPath": "netkeiba/horses/2017/2017100213/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:22:10.853Z"
+  "updatedAt": "2026-08-28T13:27:20.952Z"
 }

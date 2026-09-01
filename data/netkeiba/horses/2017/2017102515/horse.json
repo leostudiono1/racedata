@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102515",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102515/",
-  "profile": null,
+  "profile": {
+    "name": "ゼノン",
+    "birthDate": "2017-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sweet Win"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングオブキングス King of Kings(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1316,6 +1346,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼノン (Zenon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼノン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼノン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1385,9 +1445,9 @@
       "contentHash": "6dbe663c8ad49870b652148889ee77959193045bbe085f1ed58abcf55c87c3f7",
       "byteLength": 64313,
       "rawPath": "netkeiba/horses/2017/2017102515/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:00:29.992Z"
+  "updatedAt": "2026-08-31T12:09:23.784Z"
 }

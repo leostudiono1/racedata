@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "2014105201",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105201/",
-  "profile": null,
+  "profile": {
+    "name": "カガヒーロー",
+    "birthDate": "2014-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05106",
+      "name": "真島元徳"
+    },
+    "owner": {
+      "id": "700006",
+      "name": "香川憲次"
+    },
+    "breeder": {
+      "id": "433308",
+      "name": "山際智"
+    },
+    "birthplace": "新ひだか町",
+    "sire": null,
+    "dam": null,
+    "damsire": null
+  },
   "pedigree": [],
   "career": [],
-  "pageDocuments": {},
+  "pageDocuments": {
+    "horse-profile": {
+      "title": "カガヒーロー (Kaga Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カガヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カガヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
+    }
+  },
   "pages": [
     {
       "pageType": "horse-profile",
@@ -27,8 +79,8 @@
       "contentHash": "becaa79599d15406e696bdf270e73f67d157573d3d96945c358510d75464b590",
       "byteLength": 66294,
       "rawPath": "netkeiba/horses/2014/2014105201/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
   "updatedAt": "2026-08-25T17:06:33.892Z"

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102932",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102932/",
-  "profile": null,
+  "profile": {
+    "name": "レオプレセア",
+    "birthDate": "2022-04-05",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "209800",
+      "name": "レオ"
+    },
+    "breeder": {
+      "id": "600011",
+      "name": "谷口牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2012105372",
+      "name": "レオフラッパー"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1522,6 +1552,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオプレセア (Leo Presea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオプレセア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオプレセア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1591,9 +1651,9 @@
       "contentHash": "9fabebf150a0f79337aedbfa5867bb6ce226c2e76b94579d34072b0fa177cdb9",
       "byteLength": 65457,
       "rawPath": "netkeiba/horses/2022/2022102932/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:01:01.570Z"
+  "updatedAt": "2026-08-26T15:08:17.611Z"
 }

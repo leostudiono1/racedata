@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101512",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101512/",
-  "profile": null,
+  "profile": {
+    "name": "ドラマ",
+    "birthDate": "2016-04-18",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "x017f7",
+      "name": "村上豊蔵"
+    },
+    "breeder": {
+      "id": "303062",
+      "name": "米田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ハルシオンバード Halcyon Bird(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Bird"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102837",
@@ -13414,6 +13444,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドラマ (Drama) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドラマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドラマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -13483,9 +13543,9 @@
       "contentHash": "f9d7bc90cdfe85e07489961a4906f4e9c01608f3c9149440cb60024b7054f5d4",
       "byteLength": 66006,
       "rawPath": "netkeiba/horses/2016/2016101512/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:13:46.017Z"
+  "updatedAt": "2026-08-30T12:23:49.030Z"
 }

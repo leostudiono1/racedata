@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104775",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104775/",
-  "profile": null,
+  "profile": {
+    "name": "エルオンセ",
+    "birthDate": "2022-02-05",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "542800",
+      "name": "ライオンレースホース"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2007104061",
+      "name": "コンカラン"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -1730,6 +1760,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルオンセ (El Once) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルオンセ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルオンセ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1799,9 +1859,9 @@
       "contentHash": "006acc41ae2da5f9f18b94f6ac4a2bccc9bd6bd9add21cbe367c25d929400e63",
       "byteLength": 66505,
       "rawPath": "netkeiba/horses/2022/2022104775/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:41:32.097Z"
+  "updatedAt": "2026-08-30T12:51:35.437Z"
 }

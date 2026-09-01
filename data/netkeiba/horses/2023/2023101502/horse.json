@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101502",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101502/",
-  "profile": null,
+  "profile": {
+    "name": "ヒエンジョー",
+    "birthDate": "2023-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "321004",
+      "name": "河内孝夫"
+    },
+    "breeder": {
+      "id": "733329",
+      "name": "増尾牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2016105021",
+      "name": "シュンカジョウ"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1092,6 +1122,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒエンジョー (Hien Joe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒエンジョー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒエンジョー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1161,9 +1221,9 @@
       "contentHash": "ca4a09e4812ce7f2c6e58dad47dcee65ebf6a08fe93492e22ac49a46d36aed25",
       "byteLength": 64948,
       "rawPath": "netkeiba/horses/2023/2023101502/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:26:38.556Z"
+  "updatedAt": "2026-08-31T12:35:32.427Z"
 }

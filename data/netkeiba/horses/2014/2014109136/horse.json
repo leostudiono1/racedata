@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014109136",
   "sourceUrl": "https://db.netkeiba.com/horse/2014109136/",
-  "profile": null,
+  "profile": {
+    "name": "マサル",
+    "birthDate": "2014-03-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "納谷和玖"
+    },
+    "owner": {
+      "id": "680030",
+      "name": "竹原孝昭"
+    },
+    "breeder": {
+      "id": "120540",
+      "name": "村山光弘"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2005110196",
+      "name": "ダノンゴーゴー"
+    },
+    "dam": {
+      "id": "2003102897",
+      "name": "セリーンハイネス"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110196",
@@ -3079,6 +3109,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マサル (Masaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マサル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マサル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3148,9 +3208,9 @@
       "contentHash": "dd851fc2534f9dc6c8df4fdba98116e69df914a5b02d478dab8d35bb0e64fdbb",
       "byteLength": 65690,
       "rawPath": "netkeiba/horses/2014/2014109136/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:41:21.437Z"
+  "updatedAt": "2026-08-27T13:50:36.008Z"
 }

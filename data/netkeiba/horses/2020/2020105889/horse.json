@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105889",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105889/",
-  "profile": null,
+  "profile": {
+    "name": "トレド",
+    "birthDate": "2020-03-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2013104896",
+      "name": "リンガスウーノ"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1217,6 +1247,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トレド (Toledo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1286,9 +1346,9 @@
       "contentHash": "747ea73faa94e9c1d1144b6add00c3925438f7ce3364a0a484e07d6bf394d717",
       "byteLength": 66776,
       "rawPath": "netkeiba/horses/2020/2020105889/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:33:28.770Z"
+  "updatedAt": "2026-08-30T12:43:32.344Z"
 }

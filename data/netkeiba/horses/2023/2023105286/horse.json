@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105286",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105286/",
-  "profile": null,
+  "profile": {
+    "name": "サガルマータ",
+    "birthDate": "2023-02-10",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01203",
+      "name": "福永祐一"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コンヴィクションII Conviction(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "City Banker"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1390,6 +1420,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サガルマータ (Sagarmatha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サガルマータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サガルマータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1459,9 +1519,9 @@
       "contentHash": "bb60355f1200cb14485cfbe0f7db86bf7348230f54969f076114c98b112512aa",
       "byteLength": 67229,
       "rawPath": "netkeiba/horses/2023/2023105286/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:29:37.193Z"
+  "updatedAt": "2026-08-31T12:38:31.103Z"
 }

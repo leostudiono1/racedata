@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100396",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100396/",
-  "profile": null,
+  "profile": {
+    "name": "レペット",
+    "birthDate": "2017-02-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "879800",
+      "name": "雅苑興業"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ティファニータッチ Tiffany Touch(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2999,6 +3029,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レペット (Repetto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レペット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レペット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3068,9 +3128,9 @@
       "contentHash": "bf20fc3f5fd225889c39700519fda884d5135a8c450c427f6a36909b46da8a3c",
       "byteLength": 65279,
       "rawPath": "netkeiba/horses/2017/2017100396/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:17:22.842Z"
+  "updatedAt": "2026-08-30T12:27:26.011Z"
 }

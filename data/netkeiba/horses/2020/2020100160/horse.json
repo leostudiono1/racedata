@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100160",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100160/",
-  "profile": null,
+  "profile": {
+    "name": "シブースト",
+    "birthDate": "2020-04-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2014101104",
+      "name": "パステラリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1857,6 +1887,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シブースト (Chiboust) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シブースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シブースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1926,9 +1986,9 @@
       "contentHash": "3a3efdf5696f18401d13c8308749a46c0f1679c40022eebcd06b126ff77ce0f2",
       "byteLength": 67224,
       "rawPath": "netkeiba/horses/2020/2020100160/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:13:16.850Z"
+  "updatedAt": "2026-08-31T12:22:10.626Z"
 }

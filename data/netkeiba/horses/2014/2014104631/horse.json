@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104631",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104631/",
-  "profile": null,
+  "profile": {
+    "name": "ハーバーライナー",
+    "birthDate": "2014-03-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00365",
+      "name": "崎山博樹"
+    },
+    "owner": {
+      "id": "609009",
+      "name": "冨沢敦子"
+    },
+    "breeder": {
+      "id": "110085",
+      "name": "高橋義浩"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103890",
+      "name": "スズカマンボ"
+    },
+    "dam": {
+      "id": "2005106511",
+      "name": "レイナウッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103890",
@@ -4938,6 +4968,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハーバーライナー (Harbor Liner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーバーライナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーバーライナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5007,9 +5067,9 @@
       "contentHash": "931dac016ae7fa5359ccd67e8ceb10b9a2bc6fd4dba034f05c1e0c399d42664d",
       "byteLength": 67066,
       "rawPath": "netkeiba/horses/2014/2014104631/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:32:59.601Z"
+  "updatedAt": "2026-08-29T12:41:25.245Z"
 }

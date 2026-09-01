@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100094",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100094/",
-  "profile": null,
+  "profile": {
+    "name": "レックス",
+    "birthDate": "2014-03-13",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05237",
+      "name": "藤田正治"
+    },
+    "owner": {
+      "id": "962033",
+      "name": "小林都美子"
+    },
+    "breeder": {
+      "id": "530331",
+      "name": "岩見牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "2004100088",
+      "name": "ボーンザスカイ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -4120,6 +4150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レックス (Rex) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4189,9 +4249,9 @@
       "contentHash": "a46cf521e2bc8545974bdd485a2887cd691ef25b0b27f383746961cd7fdeb8ee",
       "byteLength": 66825,
       "rawPath": "netkeiba/horses/2014/2014100094/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:30:04.848Z"
+  "updatedAt": "2026-08-29T12:38:30.188Z"
 }

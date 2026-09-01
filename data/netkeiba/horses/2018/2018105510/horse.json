@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105510",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105510/",
-  "profile": null,
+  "profile": {
+    "name": "ウェブスター",
+    "birthDate": "2018-01-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2001102213",
+      "name": "シルクユニバーサル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1047,6 +1077,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウェブスター (Webster) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェブスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウェブスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1116,9 +1176,9 @@
       "contentHash": "e16fe6ba0b1d3b0729279ab3873018343129003e8e2e7c5ac69fdd089a953f2a",
       "byteLength": 65779,
       "rawPath": "netkeiba/horses/2018/2018105510/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:05:18.082Z"
+  "updatedAt": "2026-08-24T18:17:34.848Z"
 }

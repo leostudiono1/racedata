@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106603",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106603/",
-  "profile": null,
+  "profile": {
+    "name": "ハハハ",
+    "birthDate": "2016-05-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "975030",
+      "name": "小田切光"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2001105672",
+      "name": "アナタゴノミ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -6962,6 +6992,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハハハ (Hahaha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハハハ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハハハ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7031,9 +7091,9 @@
       "contentHash": "08fa6ca5d430f3ebf60f3ba9afe14e0383b7be33daae3b75780f665f29c9d099",
       "byteLength": 66656,
       "rawPath": "netkeiba/horses/2016/2016106603/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:43:37.168Z"
+  "updatedAt": "2026-08-29T12:52:02.515Z"
 }

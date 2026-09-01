@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104711",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104711/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンリョウ",
+    "birthDate": "2019-05-12",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01059",
+      "name": "加藤征弘"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カンビーナ Cambina(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hawk Wing"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2916,6 +2946,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンリョウ (Tosen Ryo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンリョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンリョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2985,9 +3045,9 @@
       "contentHash": "ff2dd056ffe2c5abba10fa3e736f16515b301020651d5912e23250534f00bffe",
       "byteLength": 66938,
       "rawPath": "netkeiba/horses/2019/2019104711/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:07:49.072Z"
+  "updatedAt": "2026-08-24T18:20:05.448Z"
 }

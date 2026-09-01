@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101243",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101243/",
-  "profile": null,
+  "profile": {
+    "name": "クリノオリオン",
+    "birthDate": "2021-02-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島壽"
+    },
+    "owner": {
+      "id": "x0b88a",
+      "name": "高野良美"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2016104375",
+      "name": "ラバーズケープ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6446,6 +6476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クリノオリオン (Kurino Orion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノオリオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノオリオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6515,9 +6575,9 @@
       "contentHash": "ecb6a70d4f828ab248179641009238ee0337d892506d28edca668620ca21b544",
       "byteLength": 65694,
       "rawPath": "netkeiba/horses/2021/2021101243/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:06:55.032Z"
+  "updatedAt": "2026-08-27T14:16:09.682Z"
 }

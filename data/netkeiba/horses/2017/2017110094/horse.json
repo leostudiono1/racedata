@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110094",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110094/",
-  "profile": null,
+  "profile": {
+    "name": "マートルフィールド",
+    "birthDate": "2017-02-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "890731",
+      "name": "Tinnakill Bloodstock & Jack Cantillon"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Siyouni"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Banksia"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Marju (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1556,6 +1586,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マートルフィールド (Myrtle Field) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マートルフィールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マートルフィールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1625,9 +1685,9 @@
       "contentHash": "e3771bf5420551d58738934756648ff0fc96cd36263eb8ee094be6a81ad1ffe2",
       "byteLength": 66974,
       "rawPath": "netkeiba/horses/2017/2017110094/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:53:40.058Z"
+  "updatedAt": "2026-08-27T14:02:55.450Z"
 }

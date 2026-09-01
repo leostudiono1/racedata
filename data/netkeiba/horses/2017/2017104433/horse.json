@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104433",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104433/",
-  "profile": null,
+  "profile": {
+    "name": "エストラード",
+    "birthDate": "2017-02-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "x06b26",
+      "name": "清水徳克"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103660",
+      "name": "トーセンブライト"
+    },
+    "dam": {
+      "id": "2008102626",
+      "name": "パームアイランド"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103660",
@@ -5022,6 +5052,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エストラード (Estrades) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エストラード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エストラード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5091,9 +5151,9 @@
       "contentHash": "cea176e9e3b032648e213196641a2286143ebb4ce0f116b2827f09402475348f",
       "byteLength": 67014,
       "rawPath": "netkeiba/horses/2017/2017104433/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T19:59:49.673Z"
+  "updatedAt": "2026-08-24T18:12:05.854Z"
 }

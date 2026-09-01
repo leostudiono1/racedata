@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104311",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104311/",
-  "profile": null,
+  "profile": {
+    "name": "ガレア",
+    "birthDate": "2018-03-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05545",
+      "name": "佐々木功"
+    },
+    "owner": {
+      "id": "x043a0",
+      "name": "田代實夫"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2004110255",
+      "name": "アンジェラスキッス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -3120,6 +3150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガレア (Galea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガレア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガレア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3189,9 +3249,9 @@
       "contentHash": "fc9418abc6a4408565d73768fa13f4f32635f2eaa797d37120a7b0ce926914c2",
       "byteLength": 65717,
       "rawPath": "netkeiba/horses/2018/2018104311/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:04:26.258Z"
+  "updatedAt": "2026-08-24T18:16:42.677Z"
 }

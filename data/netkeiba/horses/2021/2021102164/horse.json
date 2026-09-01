@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102164",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102164/",
-  "profile": null,
+  "profile": {
+    "name": "ドランクマン",
+    "birthDate": "2021-05-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ケ崎一"
+    },
+    "owner": {
+      "id": "560031",
+      "name": "須藤英之"
+    },
+    "breeder": {
+      "id": "813326",
+      "name": "森永牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2010101134",
+      "name": "グロリエッテ"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2745,6 +2775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドランクマン (Drunk Man) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドランクマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドランクマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2814,9 +2874,9 @@
       "contentHash": "8d65cf18f7ae51573f14c55655ccc2d78c996f3ef84df9f8e9a421d38d084aec",
       "byteLength": 64640,
       "rawPath": "netkeiba/horses/2021/2021102164/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:14:45.425Z"
+  "updatedAt": "2026-08-24T18:27:02.069Z"
 }

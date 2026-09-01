@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110079",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110079/",
-  "profile": null,
+  "profile": {
+    "name": "アマルナ",
+    "birthDate": "2020-03-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01209",
+      "name": "東田明士"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "970736",
+      "name": "Buck Pond Farm Inc."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Minks Aprise"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Northern Afleet"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2059,6 +2089,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アマルナ (Amarna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマルナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマルナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2128,9 +2188,9 @@
       "contentHash": "d26d3d0faec6311590ed4d874267fa35877e292d320650e2b3776497b6192080",
       "byteLength": 66353,
       "rawPath": "netkeiba/horses/2020/2020110079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:54:26.037Z"
+  "updatedAt": "2026-08-26T15:01:41.887Z"
 }

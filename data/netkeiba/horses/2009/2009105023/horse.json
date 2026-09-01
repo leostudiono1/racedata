@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009105023",
   "sourceUrl": "https://db.netkeiba.com/horse/2009105023/",
-  "profile": null,
+  "profile": {
+    "name": "ブライトライン",
+    "birthDate": "2009-05-06",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "830464",
+      "name": "ノースヒルズマネジメント"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "2001110098",
+      "name": "シェリーズスマイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングオブキングス King of Kings(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -5351,6 +5381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライトライン (Brightline) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5420,9 +5480,9 @@
       "contentHash": "ba2db2f30a9f3c800a4023ecd97010656845fc17e44903b0997672b00487b499",
       "byteLength": 67039,
       "rawPath": "netkeiba/horses/2009/2009105023/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T14:58:46.923Z"
+  "updatedAt": "2026-08-28T13:03:56.428Z"
 }

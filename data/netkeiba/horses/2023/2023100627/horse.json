@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100627",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100627/",
-  "profile": null,
+  "profile": {
+    "name": "テルヒコウ",
+    "birthDate": "2023-02-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "268008",
+      "name": "小田吉男"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "2014101627",
+      "name": "ミッシングリンク"
+    },
+    "damsire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1745,6 +1775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テルヒコウ (Teruhiko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テルヒコウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テルヒコウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1814,9 +1874,9 @@
       "contentHash": "df2f05ad7281e74d3ab0363e326e9d97f6721cd0db7e4813f1d2109945288ac0",
       "byteLength": 67126,
       "rawPath": "netkeiba/horses/2023/2023100627/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:10:37.839Z"
+  "updatedAt": "2026-08-29T13:19:03.498Z"
 }

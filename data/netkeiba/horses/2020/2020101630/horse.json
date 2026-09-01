@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101630",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101630/",
-  "profile": null,
+  "profile": {
+    "name": "トノパー",
+    "birthDate": "2020-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05609",
+      "name": "小久保智"
+    },
+    "owner": {
+      "id": "268008",
+      "name": "小田吉男"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2013100427",
+      "name": "セシャルマン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -3652,6 +3682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トノパー (Tonopah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トノパー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トノパー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3721,9 +3781,9 @@
       "contentHash": "f1786d6b377f2e9ab414d7e6e3a7afb132b965b6167f3f4cbe7d57b65cf9ee79",
       "byteLength": 66894,
       "rawPath": "netkeiba/horses/2020/2020101630/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:10:19.184Z"
+  "updatedAt": "2026-08-24T18:22:35.933Z"
 }

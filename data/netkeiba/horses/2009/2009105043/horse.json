@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009105043",
   "sourceUrl": "https://db.netkeiba.com/horse/2009105043/",
-  "profile": null,
+  "profile": {
+    "name": "スターマイン",
+    "birthDate": "2009-04-29",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01095",
+      "name": "荒川義之"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "830464",
+      "name": "ノースヒルズマネジメント"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "1998110292",
+      "name": "レスレクシオン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mt. Livermore"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -3873,6 +3903,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターマイン (Starmine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターマイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターマイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3942,9 +4002,9 @@
       "contentHash": "ecea714a6acc660dc412c1eb114cef04e202b9feda215262dba3193b297e7c84",
       "byteLength": 65338,
       "rawPath": "netkeiba/horses/2009/2009105043/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:20:05.778Z"
+  "updatedAt": "2026-08-29T12:28:31.530Z"
 }

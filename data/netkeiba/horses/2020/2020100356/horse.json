@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100356",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100356/",
-  "profile": null,
+  "profile": {
+    "name": "リラスカイ",
+    "birthDate": "2020-04-06",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05331",
+      "name": "山崎尋美"
+    },
+    "owner": {
+      "id": "779008",
+      "name": "高樽秀夫"
+    },
+    "breeder": {
+      "id": "233028",
+      "name": "藤巻則弘"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2006110167",
+      "name": "キャンディームーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Candy Ride"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -3895,6 +3925,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リラスカイ (Lila Sky) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リラスカイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リラスカイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3964,9 +4024,9 @@
       "contentHash": "cbb3e21fdce94f0e1047e45cc57a8ff5b5c1015708c331aac946d191811fc0ce",
       "byteLength": 66068,
       "rawPath": "netkeiba/horses/2020/2020100356/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:30:33.722Z"
+  "updatedAt": "2026-08-30T12:40:37.224Z"
 }

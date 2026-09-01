@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101668",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101668/",
-  "profile": null,
+  "profile": {
+    "name": "エリオット",
+    "birthDate": "2018-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "x0a2a1",
+      "name": "（株）マフィン"
+    },
+    "breeder": {
+      "id": "310336",
+      "name": "佐藤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャッツ Cats(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -5138,6 +5168,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エリオット (Eliot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリオット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリオット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5207,9 +5267,9 @@
       "contentHash": "cf110e232f7e470006e72b23c1eb1c46a77a71fb5d5f61a867c26338a042e593",
       "byteLength": 66114,
       "rawPath": "netkeiba/horses/2018/2018101668/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:43:00.105Z"
+  "updatedAt": "2026-08-26T14:50:15.518Z"
 }

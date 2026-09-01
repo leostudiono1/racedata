@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104739",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104739/",
-  "profile": null,
+  "profile": {
+    "name": "スズナミ",
+    "birthDate": "2019-03-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "528033",
+      "name": "Ｍｒ．ホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2012104208",
+      "name": "サザナミ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2444,6 +2474,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズナミ (Suzunami) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズナミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズナミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2513,9 +2573,9 @@
       "contentHash": "0dd8f997d33d986cf91f02edae49427e0e03611969c15c8df5b15318f505057f",
       "byteLength": 66813,
       "rawPath": "netkeiba/horses/2019/2019104739/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:00:15.692Z"
+  "updatedAt": "2026-08-27T14:09:30.404Z"
 }

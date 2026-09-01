@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106276",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106276/",
-  "profile": null,
+  "profile": {
+    "name": "メソッド",
+    "birthDate": "2016-04-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05660",
+      "name": "斉藤正弘"
+    },
+    "owner": {
+      "id": "x08e2f",
+      "name": "水田栄之助"
+    },
+    "breeder": {
+      "id": "303305",
+      "name": "藤原牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "1992102495",
+      "name": "リボンストライプ"
+    },
+    "damsire": {
+      "id": "1983109006",
+      "name": "トニービン Tony Bin(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3634,6 +3664,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メソッド (Method) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メソッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メソッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3703,9 +3763,9 @@
       "contentHash": "eebdae62f1c42efccc2e214e088b542407020f728f0ea1b054180213ac9c866b",
       "byteLength": 65024,
       "rawPath": "netkeiba/horses/2016/2016106276/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:21:46.808Z"
+  "updatedAt": "2026-08-28T13:26:55.912Z"
 }

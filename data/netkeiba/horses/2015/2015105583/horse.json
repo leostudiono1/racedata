@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105583",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105583/",
-  "profile": null,
+  "profile": {
+    "name": "イベリア",
+    "birthDate": "2015-01-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01041",
+      "name": "藤沢則雄"
+    },
+    "owner": {
+      "id": "819031",
+      "name": "森田和豊"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2005100317",
+      "name": "アドマイヤアモーレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -4926,6 +4956,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イベリア (Iberia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イベリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イベリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4995,9 +5055,9 @@
       "contentHash": "6346468c966b566419ab5639f38a620082e8a3d41644f0deecb733761e5e8e40",
       "byteLength": 66856,
       "rawPath": "netkeiba/horses/2015/2015105583/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T15:44:58.511Z"
+  "updatedAt": "2026-08-27T13:54:13.058Z"
 }

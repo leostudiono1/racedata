@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103276",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103276/",
-  "profile": null,
+  "profile": {
+    "name": "マブストーク",
+    "birthDate": "2018-05-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05742",
+      "name": "米谷康秀"
+    },
+    "owner": {
+      "id": "x0a597",
+      "name": "楊明翰"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005109202",
+      "name": "シルポート"
+    },
+    "dam": {
+      "id": "2003110018",
+      "name": "ヒシアニマ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sinndar (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005109202",
@@ -4162,6 +4192,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マブストーク (Mabu Stork) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マブストーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マブストーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4231,9 +4291,9 @@
       "contentHash": "0a663ecb64109ada72e1ca1e968dfcec5fe0848a3c513c132787c1e250d49783",
       "byteLength": 66882,
       "rawPath": "netkeiba/horses/2018/2018103276/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:43:45.241Z"
+  "updatedAt": "2026-08-26T14:51:01.428Z"
 }

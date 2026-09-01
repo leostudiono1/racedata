@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024102743",
   "sourceUrl": "https://db.netkeiba.com/horse/2024102743/",
-  "profile": null,
+  "profile": {
+    "name": "ウキ",
+    "birthDate": "2024-03-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01171",
+      "name": "小手川準"
+    },
+    "owner": {
+      "id": "986031",
+      "name": "須本浩行"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2014103972",
+      "name": "エメライン"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1033,6 +1063,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウキ (Uki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1102,9 +1162,9 @@
       "contentHash": "cb0a94630a6a5a46d01d5a092db00f304123d37f3ce1010aa08b098eafd0afd5",
       "byteLength": 65570,
       "rawPath": "netkeiba/horses/2024/2024102743/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:48:17.910Z"
+  "updatedAt": "2026-08-30T12:58:21.668Z"
 }

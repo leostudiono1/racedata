@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110114",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110114/",
-  "profile": null,
+  "profile": {
+    "name": "スペードクイーン",
+    "birthDate": "2013-02-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "151006",
+      "name": "吉田和子"
+    },
+    "breeder": {
+      "id": "060707",
+      "name": "Robert B. Trussell Jr et al"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Gio Ponti (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sarie Marais"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3893,6 +3923,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スペードクイーン (Spade Queen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スペードクイーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スペードクイーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3962,9 +4022,9 @@
       "contentHash": "5b0b92d098ae38cb1e8355a4323b6c2d9656972fc8fdde24a31d1fdb7a37ce80",
       "byteLength": 67091,
       "rawPath": "netkeiba/horses/2013/2013110114/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:10:03.297Z"
+  "updatedAt": "2026-08-28T13:15:12.236Z"
 }

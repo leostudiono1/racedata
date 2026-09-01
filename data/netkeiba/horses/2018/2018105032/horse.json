@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105032",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105032/",
-  "profile": null,
+  "profile": {
+    "name": "サドルロード",
+    "birthDate": "2018-02-22",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2010104036",
+      "name": "コナブリュワーズ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1359,6 +1389,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サドルロード (Saddle Road) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サドルロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サドルロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1428,9 +1488,9 @@
       "contentHash": "6ab13684a41fbdc973c100b0263dccb75a864decd033271378a6c97f5e9d51bd",
       "byteLength": 65934,
       "rawPath": "netkeiba/horses/2018/2018105032/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:30:27.981Z"
+  "updatedAt": "2026-08-28T13:35:38.132Z"
 }

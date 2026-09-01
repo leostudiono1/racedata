@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103444",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103444/",
-  "profile": null,
+  "profile": {
+    "name": "ガチコ",
+    "birthDate": "2014-05-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "115800",
+      "name": "日東牧場"
+    },
+    "breeder": {
+      "id": "800019",
+      "name": "日東牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "1997100354",
+      "name": "エイシンサーメット"
+    },
+    "damsire": {
+      "id": "1993103280",
+      "name": "エイシンサンディ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3647,6 +3677,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガチコ (Gachiko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガチコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガチコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3716,9 +3776,9 @@
       "contentHash": "3750360be248c99a765505702881d0e26a3f022cfaf013b9a68296237c2ca048",
       "byteLength": 66932,
       "rawPath": "netkeiba/horses/2014/2014103444/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T13:48:25.256Z"
+  "updatedAt": "2026-08-31T11:57:19.110Z"
 }

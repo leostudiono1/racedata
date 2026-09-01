@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102120",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102120/",
-  "profile": null,
+  "profile": {
+    "name": "システマソラー",
+    "birthDate": "2023-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01218",
+      "name": "橋田宜長"
+    },
+    "owner": {
+      "id": "819031",
+      "name": "森田和豊"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2012104827",
+      "name": "トーコーヴィーナス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1651,6 +1681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "システマソラー (Sistema Solar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "システマソラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "システマソラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1720,9 +1780,9 @@
       "contentHash": "1db58669fe85dd89b4a62f608db8cc76f32ebe064e3dd854da5c02aad61b2489",
       "byteLength": 67310,
       "rawPath": "netkeiba/horses/2023/2023102120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:23:23.425Z"
+  "updatedAt": "2026-08-24T18:35:40.321Z"
 }

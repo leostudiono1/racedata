@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100420",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100420/",
-  "profile": null,
+  "profile": {
+    "name": "タマモアーサー",
+    "birthDate": "2014-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05609",
+      "name": "小久保智"
+    },
+    "owner": {
+      "id": "x008b3",
+      "name": "タマモ（株）"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2006104566",
+      "name": "チャームアンサー"
+    },
+    "damsire": {
+      "id": "1987105368",
+      "name": "メジロライアン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1910,6 +1940,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タマモアーサー (Tamamo Arthur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモアーサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモアーサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1979,9 +2039,9 @@
       "contentHash": "ef464330c3741461151ac103739686cb3d026a041af9db9fd8c46051d2674fa7",
       "byteLength": 64766,
       "rawPath": "netkeiba/horses/2014/2014100420/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:25:43.208Z"
+  "updatedAt": "2026-08-26T14:32:59.216Z"
 }

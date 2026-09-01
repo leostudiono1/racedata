@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103465",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103465/",
-  "profile": null,
+  "profile": {
+    "name": "リエンダ",
+    "birthDate": "2021-03-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ケ崎一"
+    },
+    "owner": {
+      "id": "028030",
+      "name": "服部康夫"
+    },
+    "breeder": {
+      "id": "033071",
+      "name": "大滝康晴"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012102774",
+      "name": "ヤマカツエース"
+    },
+    "dam": {
+      "id": "2010100499",
+      "name": "マリアローザ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102774",
@@ -2339,6 +2369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リエンダ (Rienda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リエンダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リエンダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2408,9 +2468,9 @@
       "contentHash": "188a71e32389e58a2632d3bd372c4621398635da2476e335f9dc1fec4821e1ee",
       "byteLength": 66131,
       "rawPath": "netkeiba/horses/2021/2021103465/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T16:56:42.576Z"
+  "updatedAt": "2026-08-26T15:03:58.796Z"
 }

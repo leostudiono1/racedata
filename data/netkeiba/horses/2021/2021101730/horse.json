@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101730",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101730/",
-  "profile": null,
+  "profile": {
+    "name": "ピコサン",
+    "birthDate": "2021-02-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05590",
+      "name": "長倉功"
+    },
+    "owner": {
+      "id": "x0b576",
+      "name": "（株）ジュエリーピ"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2014104830",
+      "name": "シーイズチャンプ"
+    },
+    "damsire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1744,6 +1774,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピコサン (Piko San) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピコサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピコサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1813,9 +1873,9 @@
       "contentHash": "9f2a97400756bedfef920370b68eaaa1cbc5f5246f25bfe651a8e5e3effd3388",
       "byteLength": 65950,
       "rawPath": "netkeiba/horses/2021/2021101730/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:07:08.955Z"
+  "updatedAt": "2026-08-27T14:16:23.624Z"
 }

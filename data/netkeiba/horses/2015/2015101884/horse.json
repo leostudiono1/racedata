@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101884",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101884/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムサンダー",
+    "birthDate": "2015-03-29",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "620517",
+      "name": "日高テイエム牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1997105461",
+      "name": "ニューイングランド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ピンクシューズ Pink Shoes(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1997105461",
@@ -1026,6 +1056,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムサンダー (T M Thunder) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムサンダー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムサンダー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1095,9 +1155,9 @@
       "contentHash": "4fab5989d046b1ccbf6bf57d9e2690842acec945f63d05564e970b90f7051f69",
       "byteLength": 65130,
       "rawPath": "netkeiba/horses/2015/2015101884/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:10:05.073Z"
+  "updatedAt": "2026-08-30T12:20:08.387Z"
 }

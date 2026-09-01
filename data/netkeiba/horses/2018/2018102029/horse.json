@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102029",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102029/",
-  "profile": null,
+  "profile": {
+    "name": "ルコリエ",
+    "birthDate": "2018-04-05",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2003100640",
+      "name": "アンドレルノートル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1840,6 +1870,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルコリエ (Le Collier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルコリエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルコリエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1909,9 +1969,9 @@
       "contentHash": "633f8f84a5602781d20e73a986419ee1eecdaa335b422f7e186a16a083c28e86",
       "byteLength": 66752,
       "rawPath": "netkeiba/horses/2018/2018102029/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T15:27:43.394Z"
+  "updatedAt": "2026-08-28T13:32:53.073Z"
 }

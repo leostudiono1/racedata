@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104994",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104994/",
-  "profile": null,
+  "profile": {
+    "name": "アランデル",
+    "birthDate": "2018-01-28",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2002100906",
+      "name": "ガラディナー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2888,6 +2918,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アランデル (Arundel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アランデル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アランデル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2957,9 +3017,9 @@
       "contentHash": "c05ca71dcce5e41cec96e43e4f5bf6a031afee3d2fce3204e8ed72a63141de07",
       "byteLength": 67336,
       "rawPath": "netkeiba/horses/2018/2018104994/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:06:41.434Z"
+  "updatedAt": "2026-08-31T12:15:34.893Z"
 }

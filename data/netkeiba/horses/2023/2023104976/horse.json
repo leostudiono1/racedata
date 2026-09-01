@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104976",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104976/",
-  "profile": null,
+  "profile": {
+    "name": "ディル",
+    "birthDate": "2023-05-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "115800",
+      "name": "日東牧場"
+    },
+    "breeder": {
+      "id": "800019",
+      "name": "日東牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016102280",
+      "name": "オーヴァルエース"
+    },
+    "dam": {
+      "id": "2014103449",
+      "name": "ナツコダチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016102280",
@@ -1109,6 +1139,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディル (Dill) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1178,9 +1238,9 @@
       "contentHash": "0bea2ddba2c3bbc63e77c50afec2e78c789019dc2c6aa55793c0dbf181d2a6d5",
       "byteLength": 64441,
       "rawPath": "netkeiba/horses/2023/2023104976/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T17:07:37.247Z"
+  "updatedAt": "2026-08-26T15:14:53.557Z"
 }

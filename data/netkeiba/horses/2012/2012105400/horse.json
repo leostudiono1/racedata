@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105400",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105400/",
-  "profile": null,
+  "profile": {
+    "name": "アンビシャス",
+    "birthDate": "2012-02-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2001103328",
+      "name": "カーニバルソング"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2995,6 +3025,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンビシャス (Ambitious) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンビシャス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンビシャス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3064,9 +3124,9 @@
       "contentHash": "85570283a23ea7e3f8b77e57683f70298555bfc5c492778040a5649a32b71f59",
       "byteLength": 66946,
       "rawPath": "netkeiba/horses/2012/2012105400/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:00:51.501Z"
+  "updatedAt": "2026-08-30T12:10:55.154Z"
 }

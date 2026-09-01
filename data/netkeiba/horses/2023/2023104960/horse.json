@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104960",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104960/",
-  "profile": null,
+  "profile": {
+    "name": "アスミル",
+    "birthDate": "2023-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01099",
+      "name": "本田優"
+    },
+    "owner": {
+      "id": "894030",
+      "name": "村上憲政"
+    },
+    "breeder": {
+      "id": "130019",
+      "name": "中脇栄"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015102367",
+      "name": "ダノンプレミアム"
+    },
+    "dam": {
+      "id": "2017106273",
+      "name": "イゾラド"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102367",
@@ -2249,6 +2279,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アスミル (Asu Miru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスミル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスミル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2318,9 +2378,9 @@
       "contentHash": "37dc7932cd6906944f2647b4322c98ba02921b4b50a60240acf8d224e4365318",
       "byteLength": 67249,
       "rawPath": "netkeiba/horses/2023/2023104960/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T14:29:02.129Z"
+  "updatedAt": "2026-08-31T12:37:56.178Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103689",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103689/",
-  "profile": null,
+  "profile": {
+    "name": "エピメテウス",
+    "birthDate": "2020-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009106376",
+      "name": "リングネブラ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1533,6 +1563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エピメテウス (Epimetheus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エピメテウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エピメテウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1602,9 +1662,9 @@
       "contentHash": "d3e402da98f52271cbc6e4a6088e07ef3b41785408652b357c7a517dfba883aa",
       "byteLength": 66803,
       "rawPath": "netkeiba/horses/2020/2020103689/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T14:58:12.089Z"
+  "updatedAt": "2026-08-29T13:06:37.694Z"
 }

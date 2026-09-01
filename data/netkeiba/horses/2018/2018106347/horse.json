@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106347",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106347/",
-  "profile": null,
+  "profile": {
+    "name": "スリーモーリス",
+    "birthDate": "2018-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "061800",
+      "name": "永井商事"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2010102671",
+      "name": "スリーベラミ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1838,6 +1868,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリーモーリス (Three Maurice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーモーリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーモーリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1907,9 +1967,9 @@
       "contentHash": "918539bf7b5efc0b7ebca68bff8f19d86f0b2eb52757a9f37ebcbfffa9beb677",
       "byteLength": 65405,
       "rawPath": "netkeiba/horses/2018/2018106347/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:05:32.122Z"
+  "updatedAt": "2026-08-24T18:17:49.062Z"
 }

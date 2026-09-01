@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102153",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102153/",
-  "profile": null,
+  "profile": {
+    "name": "ダガーリング",
+    "birthDate": "2022-03-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01216",
+      "name": "柴田卓"
+    },
+    "owner": {
+      "id": "050034",
+      "name": "犬飼優"
+    },
+    "breeder": {
+      "id": "310328",
+      "name": "門別尚省"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015101621",
+      "name": "タワーオブロンドン"
+    },
+    "dam": {
+      "id": "2016102351",
+      "name": "プルメリアグレース"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2015101621",
@@ -2740,6 +2770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダガーリング (Dagger Ring) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダガーリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダガーリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2809,9 +2869,9 @@
       "contentHash": "7245ea895df3ace9cad62b813eeceaf98e58569ae47b1b33033c5e454fc59c49",
       "byteLength": 66893,
       "rawPath": "netkeiba/horses/2022/2022102153/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T14:39:57.227Z"
+  "updatedAt": "2026-08-30T12:50:00.936Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107252",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107252/",
-  "profile": null,
+  "profile": {
+    "name": "カラバッシュ",
+    "birthDate": "2023-01-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスセレンディピティ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Not for Sale"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1207,6 +1237,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラバッシュ (Calabash) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラバッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラバッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1276,9 +1336,9 @@
       "contentHash": "df5162f02599fdac1f4ebc400fdd2144bb859349eb855820e4ee48ad4afe0991",
       "byteLength": 66157,
       "rawPath": "netkeiba/horses/2023/2023107252/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T16:19:31.020Z"
+  "updatedAt": "2026-08-27T14:28:45.724Z"
 }

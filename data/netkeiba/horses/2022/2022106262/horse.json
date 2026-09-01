@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106262",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106262/",
-  "profile": null,
+  "profile": {
+    "name": "アースノイド",
+    "birthDate": "2022-03-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "x021d8",
+      "name": "鮎川福道"
+    },
+    "breeder": {
+      "id": "310336",
+      "name": "佐藤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2016102280",
+      "name": "オーヴァルエース"
+    },
+    "dam": {
+      "id": "2009102772",
+      "name": "セイラ"
+    },
+    "damsire": {
+      "id": "2000101557",
+      "name": "スパイキュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2016102280",
@@ -2434,6 +2464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アースノイド (Earthnoid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースノイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースノイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2503,9 +2563,9 @@
       "contentHash": "65b0848c0d63352098e26766aecbde2ec03a194dac8c9f2e9a87c09b6d0bb791",
       "byteLength": 66703,
       "rawPath": "netkeiba/horses/2022/2022106262/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T20:22:16.906Z"
+  "updatedAt": "2026-08-24T18:34:34.039Z"
 }

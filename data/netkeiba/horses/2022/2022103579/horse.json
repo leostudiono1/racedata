@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103579",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103579/",
-  "profile": null,
+  "profile": {
+    "name": "ノースタンダード",
+    "birthDate": "2022-02-02",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "050034",
+      "name": "犬飼優"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "No Nay Never"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラチェーヴェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Danehill Dancer (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2776,6 +2806,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノースタンダード (No Standard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノースタンダード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノースタンダード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2845,9 +2905,9 @@
       "contentHash": "fc818a8aa6ed897786833fdb4c05cbfca0ffcf02a810983e27f23dd2726f6045",
       "byteLength": 67163,
       "rawPath": "netkeiba/horses/2022/2022103579/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T15:07:32.294Z"
+  "updatedAt": "2026-08-29T13:15:57.985Z"
 }
