@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110127",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110127/",
-  "profile": null,
+  "profile": {
+    "name": "ベイズンストリート",
+    "birthDate": "2016-05-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "西川敏弘"
+    },
+    "owner": {
+      "id": "x08470",
+      "name": "松本桂昌"
+    },
+    "breeder": {
+      "id": "100704",
+      "name": "Dixiana Farms LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Judith Basin"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Danzig"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5671,6 +5701,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベイズンストリート (Basin Street) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイズンストリート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイズンストリート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5740,9 +5800,9 @@
       "contentHash": "9d857d6f60dce3445ae691d4742faa77557868b9822e9c5394444322f30d1281",
       "byteLength": 66933,
       "rawPath": "netkeiba/horses/2016/2016110127/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:18:05.637Z"
+  "updatedAt": "2026-08-24T12:26:17.270Z"
 }

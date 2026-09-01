@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101256",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101256/",
-  "profile": null,
+  "profile": {
+    "name": "カシノポッケ",
+    "birthDate": "2012-05-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00370",
+      "name": "二本柳俊"
+    },
+    "owner": {
+      "id": "514009",
+      "name": "柏木務"
+    },
+    "breeder": {
+      "id": "633355",
+      "name": "坂牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フリートゥビー Free to Be(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Conquistador Cielo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1208,6 +1238,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシノポッケ (Kashino Pokke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノポッケ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノポッケ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1277,9 +1337,9 @@
       "contentHash": "618229f37e05ea554448b7adcfbaabdd679cbe0b5bacfe51026328515d1f226b",
       "byteLength": 64630,
       "rawPath": "netkeiba/horses/2012/2012101256/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T13:58:42.914Z"
+  "updatedAt": "2026-08-24T12:06:54.964Z"
 }

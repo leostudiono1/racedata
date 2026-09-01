@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101484",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101484/",
-  "profile": null,
+  "profile": {
+    "name": "ハワ",
+    "birthDate": "2014-03-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01012",
+      "name": "大江原哲"
+    },
+    "owner": {
+      "id": "635009",
+      "name": "田所英子"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2008110100",
+      "name": "アレアレア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kyllachy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1309,6 +1339,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハワ (Hawa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1378,9 +1438,9 @@
       "contentHash": "1d79bf2d8c86397523ff8bafe0906736aaeb6c3544118d43b938e531c849da61",
       "byteLength": 64209,
       "rawPath": "netkeiba/horses/2014/2014101484/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:32:29.074Z"
+  "updatedAt": "2026-08-26T08:41:08.884Z"
 }

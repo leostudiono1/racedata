@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009100623",
   "sourceUrl": "https://db.netkeiba.com/horse/2009100623/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウノーベル",
+    "birthDate": "2009-03-31",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスキ Miski(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Miswaki"
+    }
+  },
   "pedigree": [
     {
       "id": "1995103211",
@@ -5621,6 +5651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウノーベル (Meisho Nobel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウノーベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウノーベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5690,9 +5750,9 @@
       "contentHash": "1b626bc1b745d4387217559488d159929807cdca5a78a21cf883b26efffde93b",
       "byteLength": 67151,
       "rawPath": "netkeiba/horses/2009/2009100623/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:00:24.403Z"
+  "updatedAt": "2026-08-28T07:06:16.392Z"
 }

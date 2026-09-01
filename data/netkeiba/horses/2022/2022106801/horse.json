@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106801",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106801/",
-  "profile": null,
+  "profile": {
+    "name": "タッセル",
+    "birthDate": "2022-05-04",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "真島正徳"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013104704",
+      "name": "ディーマジェスティ"
+    },
+    "dam": {
+      "id": "2017110166",
+      "name": "ポンポンルージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kitten's Joy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013104704",
@@ -3490,6 +3520,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タッセル (Tassel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タッセル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タッセル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3559,9 +3619,9 @@
       "contentHash": "2ed3efb6d3ffa25361482be4dc78c8985bc673601afab59a11edd15e3f83f633",
       "byteLength": 66750,
       "rawPath": "netkeiba/horses/2022/2022106801/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:32:58.071Z"
+  "updatedAt": "2026-08-31T06:38:14.943Z"
 }

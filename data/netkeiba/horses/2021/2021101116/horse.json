@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101116",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101116/",
-  "profile": null,
+  "profile": {
+    "name": "エコテーラー",
+    "birthDate": "2021-05-30",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "730002",
+      "name": "中西浩一"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2009102417",
+      "name": "ジョウノカーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dylan Thomas (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -3245,6 +3275,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エコテーラー (Eco Tailor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコテーラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコテーラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3314,9 +3374,9 @@
       "contentHash": "ee6282813ca1e642cff22aa4472c5d1cd638425d68f563307242219a70b579e7",
       "byteLength": 66968,
       "rawPath": "netkeiba/horses/2021/2021101116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:26:49.691Z"
+  "updatedAt": "2026-08-27T08:38:45.416Z"
 }

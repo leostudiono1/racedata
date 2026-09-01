@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101109",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101109/",
-  "profile": null,
+  "profile": {
+    "name": "アイファーブリッジ",
+    "birthDate": "2016-03-15",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "119007",
+      "name": "中島稔"
+    },
+    "breeder": {
+      "id": "203091",
+      "name": "加野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2008100238",
+      "name": "アイファーコラソン"
+    },
+    "damsire": {
+      "id": "1997106560",
+      "name": "スターリングローズ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1222,6 +1252,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイファーブリッジ (Eifer Bridge) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーブリッジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーブリッジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1291,9 +1351,9 @@
       "contentHash": "5f5ae163a47e6686aa708d096073c82d6d2be2066c542c6189238dc8b316a5be",
       "byteLength": 64667,
       "rawPath": "netkeiba/horses/2016/2016101109/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:02:58.378Z"
+  "updatedAt": "2026-08-31T06:08:15.074Z"
 }

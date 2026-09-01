@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101118",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101118/",
-  "profile": null,
+  "profile": {
+    "name": "セレブ",
+    "birthDate": "2019-05-18",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05230",
+      "name": "迫田清美"
+    },
+    "owner": {
+      "id": "x09a75",
+      "name": "小林哲弘"
+    },
+    "breeder": {
+      "id": "930369",
+      "name": "清水牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2004103045",
+      "name": "スズノメヒョー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "バチアー Bachir(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -3970,6 +4000,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セレブ (Celeb) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4039,9 +4099,9 @@
       "contentHash": "e24179fc08e960944a154cf415cc1c3e519911c5d300169776c29e9e1b72a8f0",
       "byteLength": 65662,
       "rawPath": "netkeiba/horses/2019/2019101118/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:16:10.279Z"
+  "updatedAt": "2026-08-31T06:21:26.321Z"
 }

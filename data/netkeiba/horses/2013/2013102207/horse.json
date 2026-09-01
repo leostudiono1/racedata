@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102207",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102207/",
-  "profile": null,
+  "profile": {
+    "name": "パキラ",
+    "birthDate": "2013-02-11",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00413",
+      "name": "田中章博"
+    },
+    "owner": {
+      "id": "041033",
+      "name": "藤田好紀"
+    },
+    "breeder": {
+      "id": "933090",
+      "name": "小河豊水"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "2002102327",
+      "name": "プレラット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5694,6 +5724,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パキラ (Pachira) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パキラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パキラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5763,9 +5823,9 @@
       "contentHash": "17d494a9f6628b1312e9389024411fc501259dcb76a22ce4051aba1d59a9a1fb",
       "byteLength": 66638,
       "rawPath": "netkeiba/horses/2013/2013102207/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:50:36.686Z"
+  "updatedAt": "2026-08-25T10:59:44.598Z"
 }

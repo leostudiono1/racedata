@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104053",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104053/",
-  "profile": null,
+  "profile": {
+    "name": "アユ",
+    "birthDate": "2020-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "後藤正義"
+    },
+    "owner": {
+      "id": "816008",
+      "name": "本田恒雄"
+    },
+    "breeder": {
+      "id": "933075",
+      "name": "カタオカファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2002103118",
+      "name": "アグネスバラード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘネシー Hennessy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6140,6 +6170,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アユ (Ayu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アユ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アユ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6209,9 +6269,9 @@
       "contentHash": "bda29d1fdef3aa7d2372333bafab3b8112a47e4d7dd1a219f553132afcb1c2d6",
       "byteLength": 66761,
       "rawPath": "netkeiba/horses/2020/2020104053/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:39:40.885Z"
+  "updatedAt": "2026-08-28T07:45:32.590Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100021",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100021/",
-  "profile": null,
+  "profile": {
+    "name": "スリル",
+    "birthDate": "2015-02-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スリリングヴィクトリー Thrilling Victory(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Event of the Year"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -1119,6 +1149,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリル (Thrill) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1188,9 +1248,9 @@
       "contentHash": "bc8001579d7c09bc01e889e87b9c639870f0fc3c396d17bcd9fa358ea7ac52bb",
       "byteLength": 64535,
       "rawPath": "netkeiba/horses/2015/2015100021/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:11:14.852Z"
+  "updatedAt": "2026-08-30T06:18:30.731Z"
 }

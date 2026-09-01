@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101263",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101263/",
-  "profile": null,
+  "profile": {
+    "name": "アポロリヤム",
+    "birthDate": "2019-03-12",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05773",
+      "name": "市村誠"
+    },
+    "owner": {
+      "id": "x08ab4",
+      "name": "中尾優司"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2007110117",
+      "name": "アポロジャスミン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Saint Liam"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -7613,6 +7643,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アポロリヤム (Apollo Liam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポロリヤム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アポロリヤム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7682,9 +7742,9 @@
       "contentHash": "54d48bd181da241471b4e00c5af477dd632d9f41fd3a3600a1ba412915aa2167",
       "byteLength": 66895,
       "rawPath": "netkeiba/horses/2019/2019101263/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:54:43.199Z"
+  "updatedAt": "2026-08-26T09:03:22.832Z"
 }

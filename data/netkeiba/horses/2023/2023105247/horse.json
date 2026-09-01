@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105247",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105247/",
-  "profile": null,
+  "profile": {
+    "name": "サトノアグード",
+    "birthDate": "2023-03-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "790031",
+      "name": "里見治"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フィオドラ Feodora(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lord of England"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1405,6 +1435,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノアグード (Satono Agudo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノアグード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノアグード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1474,9 +1534,9 @@
       "contentHash": "f1d0fcfc7d37edad35e36fb410f976848c533c8b8e77f961130ac7bc6cd402a3",
       "byteLength": 67218,
       "rawPath": "netkeiba/horses/2023/2023105247/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:54:23.042Z"
+  "updatedAt": "2026-08-28T08:00:14.861Z"
 }

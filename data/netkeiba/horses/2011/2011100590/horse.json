@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100590",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100590/",
-  "profile": null,
+  "profile": {
+    "name": "アレット",
+    "birthDate": "2011-05-01",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    },
+    "dam": {
+      "id": "2002100006",
+      "name": "プリムローズレーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4457,6 +4487,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アレット (Arret) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4526,9 +4586,9 @@
       "contentHash": "b29a25db6daa6cc454a996b540d6ec1348103945010ea25cb0d0fedf3361d0bf",
       "byteLength": 66737,
       "rawPath": "netkeiba/horses/2011/2011100590/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:43:26.138Z"
+  "updatedAt": "2026-08-25T10:52:33.851Z"
 }

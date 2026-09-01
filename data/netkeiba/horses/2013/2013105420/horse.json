@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105420",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105420/",
-  "profile": null,
+  "profile": {
+    "name": "オルティンド",
+    "birthDate": "2013-04-03",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2006102909",
+      "name": "オルトリンデ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -4364,6 +4394,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オルティンド (Urtyn Duu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルティンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルティンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4433,9 +4493,9 @@
       "contentHash": "dc21c3a99882dec750de69d5fd4cd920cd99feb74f9cf84f736e5f6da45274ea",
       "byteLength": 66181,
       "rawPath": "netkeiba/horses/2013/2013105420/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:05:35.731Z"
+  "updatedAt": "2026-08-30T06:12:51.217Z"
 }

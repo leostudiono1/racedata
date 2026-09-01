@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101307",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101307/",
-  "profile": null,
+  "profile": {
+    "name": "シシハクト",
+    "birthDate": "2015-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01059",
+      "name": "加藤征弘"
+    },
+    "owner": {
+      "id": "818800",
+      "name": "イージス"
+    },
+    "breeder": {
+      "id": "930466",
+      "name": "三城ボクジョウ"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2000105950",
+      "name": "クリヴィア"
+    },
+    "damsire": {
+      "id": "1983109006",
+      "name": "トニービン Tony Bin(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1458,6 +1488,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シシハクト (Shishi Hakuto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シシハクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シシハクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1527,9 +1587,9 @@
       "contentHash": "9f00df717616e7868821a278805de4082606ee643d41399f76c0c18779d11dd9",
       "byteLength": 64956,
       "rawPath": "netkeiba/horses/2015/2015101307/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:17:47.661Z"
+  "updatedAt": "2026-08-28T07:23:39.556Z"
 }

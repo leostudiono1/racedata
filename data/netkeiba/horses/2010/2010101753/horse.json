@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101753",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101753/",
-  "profile": null,
+  "profile": {
+    "name": "ブラックブッシュ",
+    "birthDate": "2010-04-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "928030",
+      "name": "小林秀樹"
+    },
+    "breeder": {
+      "id": "403069",
+      "name": "山本昇寿"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "1994109697",
+      "name": "サザンカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -4438,6 +4468,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラックブッシュ (Black Bush) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックブッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックブッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4507,9 +4567,9 @@
       "contentHash": "7fd904ba8bbe586cc7c6eafc4186a851af8511f4cf8ffa404d7c01324501ce14",
       "byteLength": 66931,
       "rawPath": "netkeiba/horses/2010/2010101753/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T13:56:19.395Z"
+  "updatedAt": "2026-08-24T12:04:31.290Z"
 }

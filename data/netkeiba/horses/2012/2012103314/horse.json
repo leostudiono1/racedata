@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103314",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103314/",
-  "profile": null,
+  "profile": {
+    "name": "ダイメイジョージ",
+    "birthDate": "2012-04-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "688006",
+      "name": "宮本孝一"
+    },
+    "breeder": {
+      "id": "813086",
+      "name": "中田浩美"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    },
+    "dam": {
+      "id": "1999104842",
+      "name": "プリモピアット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ミルジョージ"
+    }
+  },
   "pedigree": [
     {
       "id": "1997101264",
@@ -1069,6 +1099,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダイメイジョージ (Daimei George) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイメイジョージ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイメイジョージ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1138,9 +1198,9 @@
       "contentHash": "8119ae019b78822e07a635ffd10baab2ddc81b88cac70ca6612c84f00e964377",
       "byteLength": 64628,
       "rawPath": "netkeiba/horses/2012/2012103314/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:24:50.634Z"
+  "updatedAt": "2026-08-26T08:33:30.553Z"
 }

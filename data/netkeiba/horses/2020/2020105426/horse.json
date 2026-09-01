@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105426",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105426/",
-  "profile": null,
+  "profile": {
+    "name": "ベストバディ",
+    "birthDate": "2020-03-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05646",
+      "name": "川島正一"
+    },
+    "owner": {
+      "id": "x0b4b3",
+      "name": "飛渡清一"
+    },
+    "breeder": {
+      "id": "700313",
+      "name": "飛渡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2008104356",
+      "name": "ヒシラスティ"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1897,6 +1927,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベストバディ (Best Buddy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストバディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストバディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1966,9 +2026,9 @@
       "contentHash": "563270d78d1af1a89a87a2ceb12c7de261836f2c0236ebaaffb44a89e37a629e",
       "byteLength": 66847,
       "rawPath": "netkeiba/horses/2020/2020105426/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:23:38.287Z"
+  "updatedAt": "2026-08-31T06:28:54.378Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102100",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102100/",
-  "profile": null,
+  "profile": {
+    "name": "スプリッツァー",
+    "birthDate": "2017-03-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05358",
+      "name": "新田守"
+    },
+    "owner": {
+      "id": "x00b30",
+      "name": "植田信行"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "テキスタイル Textile(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Lodge (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -3416,6 +3446,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スプリッツァー (Spritzer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スプリッツァー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スプリッツァー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3485,9 +3545,9 @@
       "contentHash": "d348e6c32492994e48114c8b46f8278047c18c7bfe7752fc18bfb37d5588430b",
       "byteLength": 67000,
       "rawPath": "netkeiba/horses/2017/2017102100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:21:20.819Z"
+  "updatedAt": "2026-08-30T06:28:36.476Z"
 }

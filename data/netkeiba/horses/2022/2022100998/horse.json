@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100998",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100998/",
-  "profile": null,
+  "profile": {
+    "name": "ジョーブラック",
+    "birthDate": "2022-04-11",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05704",
+      "name": "飯田良弘"
+    },
+    "owner": {
+      "id": "032031",
+      "name": "上田江吏子"
+    },
+    "breeder": {
+      "id": "203065",
+      "name": "山際牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2016101492",
+      "name": "ジョーマンデリン"
+    },
+    "damsire": {
+      "id": "2006100529",
+      "name": "ジョーカプチーノ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -3426,6 +3456,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョーブラック (Jo Black) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョーブラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョーブラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3495,9 +3555,9 @@
       "contentHash": "8335f93442df66f7ef91fd93e0f05352066ea0dfee82374e5b6bb61725c2c3f2",
       "byteLength": 66961,
       "rawPath": "netkeiba/horses/2022/2022100998/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:30:16.334Z"
+  "updatedAt": "2026-08-27T08:42:12.098Z"
 }

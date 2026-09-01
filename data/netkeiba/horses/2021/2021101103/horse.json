@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101103",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101103/",
-  "profile": null,
+  "profile": {
+    "name": "アールトラスト",
+    "birthDate": "2021-04-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "427030",
+      "name": "前原敏行"
+    },
+    "breeder": {
+      "id": "913344",
+      "name": "いとう牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009102183",
+      "name": "ビウイッチアス"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1568,6 +1598,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アールトラスト (R Trust) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アールトラスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アールトラスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1637,9 +1697,9 @@
       "contentHash": "22af150923c531e5ebf12e8c6e99cac8699078ecf77ac9a2186cebb99b75dea1",
       "byteLength": 65470,
       "rawPath": "netkeiba/horses/2021/2021101103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:24:48.009Z"
+  "updatedAt": "2026-08-31T06:30:04.816Z"
 }

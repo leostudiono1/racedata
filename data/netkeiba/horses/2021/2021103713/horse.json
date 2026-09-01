@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103713",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103713/",
-  "profile": null,
+  "profile": {
+    "name": "エコロブレード",
+    "birthDate": "2021-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "x0aa9b",
+      "name": "茶谷圭祐"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Mendelssohn"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エントロピア Entropia(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mount Nelson (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4177,6 +4207,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エコロブレード (Ecoro Blade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロブレード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロブレード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4246,9 +4306,9 @@
       "contentHash": "5e57e17add2cf42d5ef4da68b9c1b4d10ff5bdf804ecd71b15047106a15f8053",
       "byteLength": 65693,
       "rawPath": "netkeiba/horses/2021/2021103713/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:13:28.348Z"
+  "updatedAt": "2026-08-29T07:20:30.184Z"
 }

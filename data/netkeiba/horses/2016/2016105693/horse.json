@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105693",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105693/",
-  "profile": null,
+  "profile": {
+    "name": "レイジングラン",
+    "birthDate": "2016-02-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00435",
+      "name": "藤原辰雄"
+    },
+    "owner": {
+      "id": "872006",
+      "name": "松尾正"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2011101906",
+      "name": "ハヤブサショコラ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1333,6 +1363,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイジングラン (Raising Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイジングラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイジングラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1402,9 +1462,9 @@
       "contentHash": "7e5f5b8924e2b42667da753e938a748ab38198c1a9d1a26cf07d9f5d8d47f6cf",
       "byteLength": 65000,
       "rawPath": "netkeiba/horses/2016/2016105693/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:52:41.933Z"
+  "updatedAt": "2026-08-29T06:59:43.877Z"
 }

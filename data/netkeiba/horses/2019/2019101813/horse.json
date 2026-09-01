@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101813",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101813/",
-  "profile": null,
+  "profile": {
+    "name": "エリーリング",
+    "birthDate": "2019-03-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宇都英樹"
+    },
+    "owner": {
+      "id": "130002",
+      "name": "安部重夫"
+    },
+    "breeder": {
+      "id": "803390",
+      "name": "高柳隆男"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2004105766",
+      "name": "メイショウシオギリ"
+    },
+    "damsire": {
+      "id": "1996110113",
+      "name": "メイショウドトウ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2116,6 +2146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エリーリング (Eri Ring) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリーリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリーリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2185,9 +2245,9 @@
       "contentHash": "3ca0d9827120f42da7a7d03b3e884cdfe1f2b2cd044570872c9283f150aea462",
       "byteLength": 66589,
       "rawPath": "netkeiba/horses/2019/2019101813/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:18:32.568Z"
+  "updatedAt": "2026-08-27T08:30:28.370Z"
 }

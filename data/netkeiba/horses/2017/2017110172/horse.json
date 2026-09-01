@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110172",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110172/",
-  "profile": null,
+  "profile": {
+    "name": "ハリーバローズ",
+    "birthDate": "2017-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05673",
+      "name": "森下淳平"
+    },
+    "owner": {
+      "id": "859007",
+      "name": "猪熊広次"
+    },
+    "breeder": {
+      "id": "070735",
+      "name": "Flaxman Holdings Limited & Airlie Stud"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Isobel Baillie"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lomitas"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3328,6 +3358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハリーバローズ (Harry Barows) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハリーバローズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハリーバローズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3397,9 +3457,9 @@
       "contentHash": "b85d250c472c26b2cda9bcf8dba051ccb58f3f3dcd3d88afc53b9f5695a361e0",
       "byteLength": 66982,
       "rawPath": "netkeiba/horses/2017/2017110172/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:49:21.635Z"
+  "updatedAt": "2026-08-26T08:58:00.736Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104298",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104298/",
-  "profile": null,
+  "profile": {
+    "name": "カノア",
+    "birthDate": "2017-05-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05571",
+      "name": "松浦裕之"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2004110268",
+      "name": "ノーブルストーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hussonet"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -3108,6 +3138,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カノア (Ka Noa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カノア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カノア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3177,9 +3237,9 @@
       "contentHash": "f462e64bc502048531d012b6de5adbaf577a9d2b1cc1a0d64d60e3251c2016e9",
       "byteLength": 64423,
       "rawPath": "netkeiba/horses/2017/2017104298/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:47:08.370Z"
+  "updatedAt": "2026-08-26T08:55:47.680Z"
 }

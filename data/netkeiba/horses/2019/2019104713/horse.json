@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104713",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104713/",
-  "profile": null,
+  "profile": {
+    "name": "アントウェルペン",
+    "birthDate": "2019-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05720",
+      "name": "伊藤和忍"
+    },
+    "owner": {
+      "id": "430033",
+      "name": "林弘之"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "2011106345",
+      "name": "キネオダンサー"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -4552,6 +4582,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アントウェルペン (Antwerpen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アントウェルペン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アントウェルペン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4621,9 +4681,9 @@
       "contentHash": "b80369d211797949984fee153ba6cde98435d24649786125023f2bbb42a78171",
       "byteLength": 67053,
       "rawPath": "netkeiba/horses/2019/2019104713/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:32:40.304Z"
+  "updatedAt": "2026-08-30T06:39:55.706Z"
 }

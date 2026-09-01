@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106508",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106508/",
-  "profile": null,
+  "profile": {
+    "name": "イノリ",
+    "birthDate": "2023-03-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "032800",
+      "name": "ローレルレーシング"
+    },
+    "breeder": {
+      "id": "900310",
+      "name": "武田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014101976",
+      "name": "キセキ"
+    },
+    "dam": {
+      "id": "2005102650",
+      "name": "メイユーブルーム"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2014101976",
@@ -1683,6 +1713,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イノリ (Inori) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1752,9 +1812,9 @@
       "contentHash": "16cd66c61854e81a2863d9488bf2d3868663217fd51c9aca3875bfb63c6b6ebe",
       "byteLength": 67342,
       "rawPath": "netkeiba/horses/2023/2023106508/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:55:32.996Z"
+  "updatedAt": "2026-08-28T08:01:24.776Z"
 }

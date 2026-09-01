@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103876",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103876/",
-  "profile": null,
+  "profile": {
+    "name": "デルカイザー",
+    "birthDate": "2011-02-07",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "124008",
+      "name": "山本英俊"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2000101583",
+      "name": "シェリール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -3612,6 +3642,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デルカイザー (Der Kaiser) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルカイザー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルカイザー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3681,9 +3741,9 @@
       "contentHash": "e74630189cd97b0166e730b00ce538c822e856f13745bd0529cc957100c39203",
       "byteLength": 66977,
       "rawPath": "netkeiba/horses/2011/2011103876/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:02:51.919Z"
+  "updatedAt": "2026-08-28T07:08:43.338Z"
 }

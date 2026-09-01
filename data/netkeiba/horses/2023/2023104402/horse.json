@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104402",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104402/",
-  "profile": null,
+  "profile": {
+    "name": "ムスクレスト",
+    "birthDate": "2023-02-24",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01164",
+      "name": "安田翔伍"
+    },
+    "owner": {
+      "id": "245030",
+      "name": "前田葉子"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "2016110067",
+      "name": "ノイーヴァ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Temple City"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1609,6 +1639,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムスクレスト (Muskulest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムスクレスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムスクレスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1678,9 +1738,9 @@
       "contentHash": "ba99470324b365875ae239f17a7cb4ce36198101e4372753e3769fbc2eb0b5d0",
       "byteLength": 66543,
       "rawPath": "netkeiba/horses/2023/2023104402/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:36:15.200Z"
+  "updatedAt": "2026-08-27T08:48:09.090Z"
 }

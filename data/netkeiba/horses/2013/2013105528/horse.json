@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105528",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105528/",
-  "profile": null,
+  "profile": {
+    "name": "セネッティ",
+    "birthDate": "2013-05-10",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2003102569",
+      "name": "タッチザピーク"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4048,6 +4078,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セネッティ (Senetti) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セネッティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セネッティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4117,9 +4177,9 @@
       "contentHash": "56f56750c9709688afd1d58d20bc4e28069be873d2c593cc6b4e41d3b9fbf349",
       "byteLength": 67252,
       "rawPath": "netkeiba/horses/2013/2013105528/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:56:18.520Z"
+  "updatedAt": "2026-08-27T08:08:14.335Z"
 }

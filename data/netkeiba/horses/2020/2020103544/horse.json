@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103544",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103544/",
-  "profile": null,
+  "profile": {
+    "name": "クレスティア",
+    "birthDate": "2020-02-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "591031",
+      "name": "小島章義"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ビッグワールド Big World(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Custom for Carlos"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1074,6 +1104,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クレスティア (Qrestia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレスティア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレスティア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1143,9 +1203,9 @@
       "contentHash": "b1471cc2495738edf85660c1ca544f7776fbaaa20f2ae51e2cc5e76d637be6d2",
       "byteLength": 66345,
       "rawPath": "netkeiba/horses/2020/2020103544/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:21:29.098Z"
+  "updatedAt": "2026-08-25T11:30:36.800Z"
 }

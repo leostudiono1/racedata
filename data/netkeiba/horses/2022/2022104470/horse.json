@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104470",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104470/",
-  "profile": null,
+  "profile": {
+    "name": "スパディール",
+    "birthDate": "2022-05-24",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "535033",
+      "name": "古賀慎一"
+    },
+    "breeder": {
+      "id": "103309",
+      "name": "北洋牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2010101879",
+      "name": "ダンツカナリー"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -1226,6 +1256,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スパディール (Spadille) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スパディール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スパディール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1295,9 +1355,9 @@
       "contentHash": "a0907638292fc188fe7326d4cc9c4a0f00e2d8ab2af9ec81347e4938d2a5e9b1",
       "byteLength": 65904,
       "rawPath": "netkeiba/horses/2022/2022104470/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:42:28.979Z"
+  "updatedAt": "2026-08-24T12:50:40.662Z"
 }

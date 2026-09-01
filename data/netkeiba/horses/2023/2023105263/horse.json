@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105263",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105263/",
-  "profile": null,
+  "profile": {
+    "name": "アイムインディ",
+    "birthDate": "2023-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "972033",
+      "name": "山本又一郎"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2015104688",
+      "name": "インディチャンプ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アイムユアーズII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Invincible Spirit (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104688",
@@ -1504,6 +1534,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイムインディ (I'm Indy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイムインディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイムインディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1573,9 +1633,9 @@
       "contentHash": "81f646ebaa419ae2108fa07b0a68665081f349ad47362896c83781177ac5e8aa",
       "byteLength": 67226,
       "rawPath": "netkeiba/horses/2023/2023105263/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:36:10.685Z"
+  "updatedAt": "2026-08-31T06:41:27.088Z"
 }

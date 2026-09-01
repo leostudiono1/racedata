@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104793",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104793/",
-  "profile": null,
+  "profile": {
+    "name": "サラキア",
+    "birthDate": "2015-02-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サロミナ Salomina(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lomitas"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2944,6 +2974,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サラキア (Salacia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラキア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラキア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3013,9 +3073,9 @@
       "contentHash": "f4d49ff1054c259aec379074772b19f614fb95393416b25e1c64f176c9ab12f3",
       "byteLength": 67316,
       "rawPath": "netkeiba/horses/2015/2015104793/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:03:53.807Z"
+  "updatedAt": "2026-08-27T08:15:49.491Z"
 }

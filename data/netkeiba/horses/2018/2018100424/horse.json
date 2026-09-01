@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100424",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100424/",
-  "profile": null,
+  "profile": {
+    "name": "ガムラン",
+    "birthDate": "2018-04-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "752800",
+      "name": "ニットー商事"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2006105480",
+      "name": "ピサノプリヴェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hold That Tiger"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -4644,6 +4674,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガムラン (Gamelan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガムラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガムラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4713,9 +4773,9 @@
       "contentHash": "99beac197bdec683c1596dbe51880d74bc1281ab7e5c77b80d342e85150e1d2b",
       "byteLength": 66865,
       "rawPath": "netkeiba/horses/2018/2018100424/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:24:47.565Z"
+  "updatedAt": "2026-08-30T06:32:02.959Z"
 }

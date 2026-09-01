@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011106542",
   "sourceUrl": "https://db.netkeiba.com/horse/2011106542/",
-  "profile": null,
+  "profile": {
+    "name": "シンサン",
+    "birthDate": "2011-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "雑賀正光"
+    },
+    "owner": {
+      "id": "024031",
+      "name": "小菅誠"
+    },
+    "breeder": {
+      "id": "633306",
+      "name": "三宅牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "スクワートルスクワート Squirtle Squirt(米)"
+    },
+    "dam": {
+      "id": "1991104163",
+      "name": "スリースポット"
+    },
+    "damsire": {
+      "id": "1975107312",
+      "name": "シービークロス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3276,6 +3306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンサン (Shinsan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3345,9 +3405,9 @@
       "contentHash": "69b0f36ef2f97f7aa2e3ab8b06c9d9bd0d5ace117bf11ee61e3410943a4581b8",
       "byteLength": 64580,
       "rawPath": "netkeiba/horses/2011/2011106542/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:23:27.055Z"
+  "updatedAt": "2026-08-26T08:32:06.147Z"
 }

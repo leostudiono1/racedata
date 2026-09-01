@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103534",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103534/",
-  "profile": null,
+  "profile": {
+    "name": "ジュドー",
+    "birthDate": "2020-01-31",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2012104875",
+      "name": "パンデイア"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3206,6 +3236,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジュドー (Jeux d'Eau) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュドー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュドー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3275,9 +3335,9 @@
       "contentHash": "8751da2a22ae5a219609b710ea18b0592ec922694e21a846194069e2190d3944",
       "byteLength": 67332,
       "rawPath": "netkeiba/horses/2020/2020103534/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:08:55.087Z"
+  "updatedAt": "2026-08-29T07:15:57.078Z"
 }

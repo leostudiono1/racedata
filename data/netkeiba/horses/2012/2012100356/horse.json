@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100356",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100356/",
-  "profile": null,
+  "profile": {
+    "name": "サウスアライブ",
+    "birthDate": "2012-05-26",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "393002",
+      "name": "南波壽"
+    },
+    "breeder": {
+      "id": "510310",
+      "name": "武田修一"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2002110077",
+      "name": "リナミクドリーム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rubiano"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3067,6 +3097,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サウスアライブ (South Alive) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サウスアライブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サウスアライブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3136,9 +3196,9 @@
       "contentHash": "2cb224673045bebbd1bae4fbc7b2b45f6a2096f2756a11242a5bc9e0cf88eb5b",
       "byteLength": 64580,
       "rawPath": "netkeiba/horses/2012/2012100356/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:58:42.293Z"
+  "updatedAt": "2026-08-30T06:05:58.049Z"
 }

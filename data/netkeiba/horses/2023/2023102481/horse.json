@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102481",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102481/",
-  "profile": null,
+  "profile": {
+    "name": "メガクローム",
+    "birthDate": "2023-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "314034",
+      "name": "徳田直樹"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マガスイート Maga Suite(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パレスマリス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2001,6 +2031,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メガクローム (Mega Chrome) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メガクローム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メガクローム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2070,9 +2130,9 @@
       "contentHash": "2e102a2142df56a0e1f8d509263ba32f16221551ee46c61b2d3e3dd2f6ac82fe",
       "byteLength": 65830,
       "rawPath": "netkeiba/horses/2023/2023102481/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:20:42.552Z"
+  "updatedAt": "2026-08-29T07:27:44.461Z"
 }

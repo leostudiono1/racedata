@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100723",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100723/",
-  "profile": null,
+  "profile": {
+    "name": "ベリータ",
+    "birthDate": "2015-03-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "田村彰啓"
+    },
+    "owner": {
+      "id": "x09cfe",
+      "name": "新垣拓也"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    },
+    "dam": {
+      "id": "2008104086",
+      "name": "マイネイサベル"
+    },
+    "damsire": {
+      "id": "1999106851",
+      "name": "テレグノシス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2921,6 +2951,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベリータ (Belita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2990,9 +3050,9 @@
       "contentHash": "1d4c086162d3d6b747574f17721d54945f90fe5fa30cfde0ecd7442be75365f2",
       "byteLength": 66716,
       "rawPath": "netkeiba/horses/2015/2015100723/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:57:57.801Z"
+  "updatedAt": "2026-08-31T06:03:13.985Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100340",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100340/",
-  "profile": null,
+  "profile": {
+    "name": "シルバーメール",
+    "birthDate": "2013-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "306008",
+      "name": "松岡隆雄"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シルバーコースト Silver Coast(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Deputy"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -1822,6 +1852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シルバーメール (Silver Mer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバーメール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバーメール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1891,9 +1951,9 @@
       "contentHash": "6c87091c64d8d9b8a750822fed1d9efcde1bda232aacd9262b1f60798b6b68a6",
       "byteLength": 66376,
       "rawPath": "netkeiba/horses/2013/2013100340/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:49:54.675Z"
+  "updatedAt": "2026-08-25T10:59:02.495Z"
 }

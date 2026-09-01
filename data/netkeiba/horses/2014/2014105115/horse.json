@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105115",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105115/",
-  "profile": null,
+  "profile": {
+    "name": "セイソ",
+    "birthDate": "2014-04-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "x09067",
+      "name": "遠藤喜和"
+    },
+    "breeder": {
+      "id": "533302",
+      "name": "前谷武志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2006103377",
+      "name": "ヒトリシズカ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -8179,6 +8209,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイソ (Seiso) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイソ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイソ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8248,9 +8308,9 @@
       "contentHash": "c2953e04c7b905a0751dc31a4453fcd9348192b048845f89d4e9edb58109311e",
       "byteLength": 66706,
       "rawPath": "netkeiba/horses/2014/2014105115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:43:46.545Z"
+  "updatedAt": "2026-08-29T06:50:48.206Z"
 }

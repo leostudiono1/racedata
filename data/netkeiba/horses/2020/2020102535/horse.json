@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102535",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102535/",
-  "profile": null,
+  "profile": {
+    "name": "トーセントラム",
+    "birthDate": "2020-04-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105718",
+      "name": "ヴァンキッシュラン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ローザデルドバイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubai Destination"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105718",
@@ -5123,6 +5153,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセントラム (Tosen Tram) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセントラム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセントラム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5192,9 +5252,9 @@
       "contentHash": "df34c258c68b7d5017979b8e8792abfa80e704861558828716561ff0f821e13d",
       "byteLength": 66980,
       "rawPath": "netkeiba/horses/2020/2020102535/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:58:30.815Z"
+  "updatedAt": "2026-08-26T09:07:10.300Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110139",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110139/",
-  "profile": null,
+  "profile": {
+    "name": "サトノインパルス",
+    "birthDate": "2018-03-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05728",
+      "name": "藤田輝信"
+    },
+    "owner": {
+      "id": "790031",
+      "name": "里見治"
+    },
+    "breeder": {
+      "id": "180706",
+      "name": "Kendall E. Hansen M.D. Racing LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tapizar"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Allencat"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1454,6 +1484,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノインパルス (Satono Impulse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノインパルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノインパルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1523,9 +1583,9 @@
       "contentHash": "c1e815778f1f881f74a28e7691baf4117818d4800fbc651c70527afaacea89df",
       "byteLength": 64513,
       "rawPath": "netkeiba/horses/2018/2018110139/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:32:30.071Z"
+  "updatedAt": "2026-08-28T07:38:22.000Z"
 }

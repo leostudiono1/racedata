@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103412",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103412/",
-  "profile": null,
+  "profile": {
+    "name": "アンヌ",
+    "birthDate": "2014-04-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "400015",
+      "name": "中島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2001100463",
+      "name": "ジャミーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -2237,6 +2267,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンヌ (Anne) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンヌ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンヌ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2306,9 +2366,9 @@
       "contentHash": "157478cdf05c479626745d22453093fff9157f00b0d305ed5c9b6b4189c425bd",
       "byteLength": 67217,
       "rawPath": "netkeiba/horses/2014/2014103412/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:33:46.141Z"
+  "updatedAt": "2026-08-26T08:42:25.950Z"
 }

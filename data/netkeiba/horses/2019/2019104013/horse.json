@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104013",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104013/",
-  "profile": null,
+  "profile": {
+    "name": "フミローグ",
+    "birthDate": "2019-02-22",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "748031",
+      "name": "吉田哲"
+    },
+    "breeder": {
+      "id": "110017",
+      "name": "松田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2009106141",
+      "name": "シャムローグ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2111,6 +2141,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フミローグ (Fumi Rog) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フミローグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フミローグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2180,9 +2240,9 @@
       "contentHash": "bed7934b4d93cd748f50cbccc830a4f039824ea8bdacf30bcc96d799ddfb0862",
       "byteLength": 66773,
       "rawPath": "netkeiba/horses/2019/2019104013/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:29:52.705Z"
+  "updatedAt": "2026-08-24T12:38:04.576Z"
 }

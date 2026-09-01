@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105304",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105304/",
-  "profile": null,
+  "profile": {
+    "name": "マイアイザック",
+    "birthDate": "2016-02-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05720",
+      "name": "伊藤和忍"
+    },
+    "owner": {
+      "id": "963031",
+      "name": "前田敏文"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ロイヤルマリー Royal Mary(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -2921,6 +2951,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイアイザック (My Isaac) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイアイザック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイアイザック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2990,9 +3050,9 @@
       "contentHash": "4eef85a84408593b2dac4f929c683322c7ee66f45386d80325377190a110a219",
       "byteLength": 64536,
       "rawPath": "netkeiba/horses/2016/2016105304/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:44:26.866Z"
+  "updatedAt": "2026-08-26T08:53:06.639Z"
 }

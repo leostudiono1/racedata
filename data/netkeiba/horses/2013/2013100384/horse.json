@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100384",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100384/",
-  "profile": null,
+  "profile": {
+    "name": "アクティベート",
+    "birthDate": "2013-04-22",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05656",
+      "name": "柘榴浩樹"
+    },
+    "owner": {
+      "id": "x09379",
+      "name": "米澤淳"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2004105652",
+      "name": "ボニーアクション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cat Thief"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -7528,6 +7558,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アクティベート (Activate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクティベート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクティベート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7597,9 +7657,9 @@
       "contentHash": "f7a9603205413ed47015e029e04de1a634aa660e5bd6f91564a9c9eea4e6d830",
       "byteLength": 66353,
       "rawPath": "netkeiba/horses/2013/2013100384/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:02:22.810Z"
+  "updatedAt": "2026-08-30T06:09:38.838Z"
 }

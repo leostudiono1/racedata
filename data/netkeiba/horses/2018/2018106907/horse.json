@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106907",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106907/",
-  "profile": null,
+  "profile": {
+    "name": "サラベル",
+    "birthDate": "2018-05-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2013105726",
+      "name": "マーシフルレイン"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -2727,6 +2757,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サラベル (Sarah Ber) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2796,9 +2856,9 @@
       "contentHash": "6779b45ea06974e2071a578926f646b367bc4c23f2ddf4eb758ef077dc129bdb",
       "byteLength": 66591,
       "rawPath": "netkeiba/horses/2018/2018106907/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:14:11.173Z"
+  "updatedAt": "2026-08-25T11:23:18.948Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103401",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103401/",
-  "profile": null,
+  "profile": {
+    "name": "リガドール",
+    "birthDate": "2012-04-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "田中伸一"
+    },
+    "owner": {
+      "id": "x07a8b",
+      "name": "新井利彦"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2002105107",
+      "name": "ファランドール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ティッカネン Tikkanen(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -6004,6 +6034,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リガドール (Ligador) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リガドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リガドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6073,9 +6133,9 @@
       "contentHash": "93539981fd4f8731c19fab260f719cc842cda6a211badc5a69f6aacb8b5321b4",
       "byteLength": 65207,
       "rawPath": "netkeiba/horses/2012/2012103401/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:34:15.631Z"
+  "updatedAt": "2026-08-29T06:41:18.059Z"
 }

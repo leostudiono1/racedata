@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105014",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105014/",
-  "profile": null,
+  "profile": {
+    "name": "イノーマル",
+    "birthDate": "2023-02-22",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ステラエージェント Stellar Agent(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "More Than Ready"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -983,6 +1013,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イノーマル (I Normal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノーマル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノーマル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1052,9 +1112,9 @@
       "contentHash": "32ca41b663fd4308dabfce8d1651dd6aacf1489a5f2fc305d4ac9b9bcb3bf5c3",
       "byteLength": 64469,
       "rawPath": "netkeiba/horses/2023/2023105014/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:47:37.020Z"
+  "updatedAt": "2026-08-24T12:55:48.789Z"
 }

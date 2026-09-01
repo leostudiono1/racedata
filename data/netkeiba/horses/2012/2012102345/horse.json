@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102345",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102345/",
-  "profile": null,
+  "profile": {
+    "name": "ポッドカイザー",
+    "birthDate": "2012-04-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "042033",
+      "name": "小川眞査雄"
+    },
+    "breeder": {
+      "id": "203097",
+      "name": "下屋敷牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2007103623",
+      "name": "インディアリング"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2520,6 +2550,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポッドカイザー (Pod Kaiser) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドカイザー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドカイザー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2589,9 +2649,9 @@
       "contentHash": "f03dc0fc94c9d7efcfcaefbd3082ad9df72013a711db73d6ee93faaa808695b8",
       "byteLength": 64611,
       "rawPath": "netkeiba/horses/2012/2012102345/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:45:41.909Z"
+  "updatedAt": "2026-08-31T05:50:58.708Z"
 }

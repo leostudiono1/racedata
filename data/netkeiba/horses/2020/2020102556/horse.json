@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102556",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102556/",
-  "profile": null,
+  "profile": {
+    "name": "ハイファイヴ",
+    "birthDate": "2020-01-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01189",
+      "name": "堀内岳志"
+    },
+    "owner": {
+      "id": "221007",
+      "name": "吉田安惠"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2012103986",
+      "name": "サマーローズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1791,6 +1821,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイファイヴ (High Five) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイファイヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイファイヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1860,9 +1920,9 @@
       "contentHash": "0371e30c1d10408293323d7228d57a033b524924c9392531c930c9db935d3cf6",
       "byteLength": 66962,
       "rawPath": "netkeiba/horses/2020/2020102556/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:20:57.563Z"
+  "updatedAt": "2026-08-25T11:30:05.201Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110107",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110107/",
-  "profile": null,
+  "profile": {
+    "name": "ジャスパークローネ",
+    "birthDate": "2019-03-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "672033",
+      "name": "加藤和夫"
+    },
+    "breeder": {
+      "id": "350736",
+      "name": "Machmer Hall & Godolphin"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Frosted (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Fancy Kitten"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kitten's Joy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3371,6 +3401,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャスパークローネ (Jasper Krone) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャスパークローネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャスパークローネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3440,9 +3500,9 @@
       "contentHash": "f60f0a4b3e7ccffa866ac0648149764f3ef0fa06d275504ec6b82cf4c688204d",
       "byteLength": 67055,
       "rawPath": "netkeiba/horses/2019/2019110107/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:37:03.128Z"
+  "updatedAt": "2026-08-28T07:42:55.455Z"
 }

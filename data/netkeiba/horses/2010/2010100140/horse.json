@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100140",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100140/",
-  "profile": null,
+  "profile": {
+    "name": "コスモソーク",
+    "birthDate": "2010-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01048",
+      "name": "畠山吉宏"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "903343",
+      "name": "旭牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994109361",
+      "name": "ブラックホーク"
+    },
+    "dam": {
+      "id": "1997105894",
+      "name": "コウシュンヒメ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "モガンボ Mogambo(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109361",
@@ -3127,6 +3157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスモソーク (Cosmo Sauk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモソーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモソーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3196,9 +3256,9 @@
       "contentHash": "b70bd8f9cf68e5cb55027511f3be6cbc0b7034b4ffb19b0f38ea78686b35a10b",
       "byteLength": 65398,
       "rawPath": "netkeiba/horses/2010/2010100140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:00:59.422Z"
+  "updatedAt": "2026-08-28T07:06:51.281Z"
 }

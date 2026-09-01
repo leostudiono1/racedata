@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101425",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101425/",
-  "profile": null,
+  "profile": {
+    "name": "アヴァンギャルド",
+    "birthDate": "2012-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "053030",
+      "name": "白井岳"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2001107654",
+      "name": "チリエージェ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1371,6 +1401,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アヴァンギャルド (Avantgarde) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アヴァンギャルド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アヴァンギャルド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1440,9 +1500,9 @@
       "contentHash": "078632f305e075de55cf12ec61e0a732ef58a63a34a9fe93cf78f7d51bd259d0",
       "byteLength": 64479,
       "rawPath": "netkeiba/horses/2012/2012101425/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:04:53.881Z"
+  "updatedAt": "2026-08-28T07:10:45.813Z"
 }

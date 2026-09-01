@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110104",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110104/",
-  "profile": null,
+  "profile": {
+    "name": "エコロシード",
+    "birthDate": "2023-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "783033",
+      "name": "原村正紀"
+    },
+    "breeder": {
+      "id": "800701",
+      "name": "Ocala Stud"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Adios Charlie"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Baby Sister"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Uncaptured"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1571,6 +1601,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エコロシード (Ecoro Seed) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロシード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロシード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1640,9 +1700,9 @@
       "contentHash": "50854be724cc54c18931aa7daa1abc9d0791e50c6dfa4a6bc1ba1fde359a7280",
       "byteLength": 66162,
       "rawPath": "netkeiba/horses/2023/2023110104/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:49:43.160Z"
+  "updatedAt": "2026-08-24T12:57:54.803Z"
 }

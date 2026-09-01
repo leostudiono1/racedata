@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101587",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101587/",
-  "profile": null,
+  "profile": {
+    "name": "フェンリル",
+    "birthDate": "2012-05-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "Ｈ．Ｈ．シェイク・モハメド"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フェンスイ Fen Shui(ア)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ティンバーカントリー Timber Country(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -2815,6 +2845,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェンリル (Fenrir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェンリル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェンリル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2884,9 +2944,9 @@
       "contentHash": "1d5bff5ad17598f3d27b4614bbc401f9cdce3d8a8c6a72bb7997262dec5a235c",
       "byteLength": 64482,
       "rawPath": "netkeiba/horses/2012/2012101587/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:49:28.885Z"
+  "updatedAt": "2026-08-27T08:01:25.365Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102348",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102348/",
-  "profile": null,
+  "profile": {
+    "name": "アンブリカル",
+    "birthDate": "2012-04-12",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01080",
+      "name": "清水英克"
+    },
+    "owner": {
+      "id": "662030",
+      "name": "上野直樹"
+    },
+    "breeder": {
+      "id": "203097",
+      "name": "下屋敷牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ディアマンティナ Diamantina(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -2901,6 +2931,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンブリカル (Umbilical) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンブリカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンブリカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2970,9 +3030,9 @@
       "contentHash": "a41e7996f27e755043e085ee978db551668547198c65607932f0e23157429241",
       "byteLength": 66997,
       "rawPath": "netkeiba/horses/2012/2012102348/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:45:45.417Z"
+  "updatedAt": "2026-08-31T05:51:02.481Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103549",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103549/",
-  "profile": null,
+  "profile": {
+    "name": "コムーネ",
+    "birthDate": "2022-01-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宮下瞳"
+    },
+    "owner": {
+      "id": "277030",
+      "name": "太田美津子"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ビーチパトロール Beach Patrol(米)"
+    },
+    "dam": {
+      "id": "2012101435",
+      "name": "ファミリーズオナー"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3116,6 +3146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コムーネ (Comune) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コムーネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コムーネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3185,9 +3245,9 @@
       "contentHash": "8820adf0278199cd4d8f68234f01da852d211605f3971d1c65bf70cf210194d3",
       "byteLength": 66829,
       "rawPath": "netkeiba/horses/2022/2022103549/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:16:58.417Z"
+  "updatedAt": "2026-08-29T07:24:00.234Z"
 }

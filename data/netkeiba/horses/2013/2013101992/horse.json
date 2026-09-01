@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101992",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101992/",
-  "profile": null,
+  "profile": {
+    "name": "アスカタイシ",
+    "birthDate": "2013-03-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00431",
+      "name": "谷潔"
+    },
+    "owner": {
+      "id": "097007",
+      "name": "上野武"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アリー Ally(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1419,6 +1449,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アスカタイシ (Asuka Taishi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスカタイシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスカタイシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1488,9 +1548,9 @@
       "contentHash": "7cba917c44144a4f028282c9bdcbb019078e920ea4d84830a5f7c099e68d501e",
       "byteLength": 65024,
       "rawPath": "netkeiba/horses/2013/2013101992/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:03:25.683Z"
+  "updatedAt": "2026-08-30T06:10:41.602Z"
 }

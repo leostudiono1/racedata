@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105895",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105895/",
-  "profile": null,
+  "profile": {
+    "name": "アウトラン",
+    "birthDate": "2016-05-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05177",
+      "name": "藤ヶ崎一"
+    },
+    "owner": {
+      "id": "900030",
+      "name": "上田力"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003110139",
+      "name": "アポロキングダム"
+    },
+    "dam": {
+      "id": "2007100209",
+      "name": "マイカ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110139",
@@ -7332,6 +7362,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウトラン (Outrun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7401,9 +7461,9 @@
       "contentHash": "ee8d42d6beda572bc342ede545dbd8dd92e514b41b64bacfda8590811c59aedf",
       "byteLength": 65320,
       "rawPath": "netkeiba/horses/2016/2016105895/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:04:58.218Z"
+  "updatedAt": "2026-08-25T11:14:05.774Z"
 }

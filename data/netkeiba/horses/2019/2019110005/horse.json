@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110005",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110005/",
-  "profile": null,
+  "profile": {
+    "name": "ベルマレット",
+    "birthDate": "2019-03-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "570735",
+      "name": "Northern Racing"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Ribchester (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アイムユアーズII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Invincible Spirit (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1306,6 +1336,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルマレット (Belmullet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルマレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルマレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1375,9 +1435,9 @@
       "contentHash": "135b42f8d12dcc1bf404350bdc1d25b18c23a51f71d2c851cd11abd27b117ca7",
       "byteLength": 67355,
       "rawPath": "netkeiba/horses/2019/2019110005/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:56:56.135Z"
+  "updatedAt": "2026-08-26T09:05:35.917Z"
 }

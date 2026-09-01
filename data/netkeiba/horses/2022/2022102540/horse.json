@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102540",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102540/",
-  "profile": null,
+  "profile": {
+    "name": "アストラン",
+    "birthDate": "2022-02-09",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "410541",
+      "name": "中尾由香"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスラゴ Miss Lago(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Encosta de Lago"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -3421,6 +3451,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アストラン (Aztlan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3490,9 +3550,9 @@
       "contentHash": "0e2c9042a67a288062e1c000909d4312f3a1c3bf716dfeaeefe064f96d6725b9",
       "byteLength": 66841,
       "rawPath": "netkeiba/horses/2022/2022102540/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:30:16.982Z"
+  "updatedAt": "2026-08-31T06:35:33.508Z"
 }

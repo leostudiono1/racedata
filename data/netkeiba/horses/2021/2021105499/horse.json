@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105499",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105499/",
-  "profile": null,
+  "profile": {
+    "name": "アバンデル",
+    "birthDate": "2021-02-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "268033",
+      "name": "野田努"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2013106059",
+      "name": "クラシックリディア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -2351,6 +2381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アバンデル (Avandel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アバンデル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アバンデル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2420,9 +2480,9 @@
       "contentHash": "aeeea81098f80ab8208dc0547e802e53af596441c4d1e6409ea641e62a141dba",
       "byteLength": 66958,
       "rawPath": "netkeiba/horses/2021/2021105499/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:04:21.794Z"
+  "updatedAt": "2026-08-26T09:13:00.524Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105382",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105382/",
-  "profile": null,
+  "profile": {
+    "name": "シンドリームシン",
+    "birthDate": "2021-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2012110102",
+      "name": "アルビアーノ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3120,6 +3150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンドリームシン (Shin Dream Shin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンドリームシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンドリームシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3189,9 +3249,9 @@
       "contentHash": "317e253a7250103e45411b99df969300d38748d0735282b49d44cb4f36acf5df",
       "byteLength": 67026,
       "rawPath": "netkeiba/horses/2021/2021105382/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:28:55.769Z"
+  "updatedAt": "2026-08-27T08:40:51.451Z"
 }

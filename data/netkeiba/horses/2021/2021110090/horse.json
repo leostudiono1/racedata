@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110090",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110090/",
-  "profile": null,
+  "profile": {
+    "name": "サルヴェージワーク",
+    "birthDate": "2021-04-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "240731",
+      "name": "Mr Teruya Yoshida"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Le Havre"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サルベーション"
+    },
+    "damsire": {
+      "id": "1996190001",
+      "name": "Montjeu (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1500,6 +1530,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サルヴェージワーク (Salvage Work) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルヴェージワーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルヴェージワーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1569,9 +1629,9 @@
       "contentHash": "bfdda760417051bface1c9edc84260b9cd7198dcca97e5b0fc4d554728cb300f",
       "byteLength": 67536,
       "rawPath": "netkeiba/horses/2021/2021110090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:15:41.455Z"
+  "updatedAt": "2026-08-29T07:22:43.294Z"
 }

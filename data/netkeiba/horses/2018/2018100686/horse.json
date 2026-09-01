@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100686",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100686/",
-  "profile": null,
+  "profile": {
+    "name": "コートゴシップ",
+    "birthDate": "2018-03-22",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2011100540",
+      "name": "ハッシュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1517,6 +1547,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コートゴシップ (Court Gossip) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コートゴシップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コートゴシップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1586,9 +1646,9 @@
       "contentHash": "6a403f14a16338974218e4a10f4f4d4e3050c09b57f8f4b9a3a87353512c57b0",
       "byteLength": 65325,
       "rawPath": "netkeiba/horses/2018/2018100686/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:10:37.580Z"
+  "updatedAt": "2026-08-25T11:19:45.487Z"
 }

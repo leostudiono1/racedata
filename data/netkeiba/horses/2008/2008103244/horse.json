@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008103244",
   "sourceUrl": "https://db.netkeiba.com/horse/2008103244/",
-  "profile": null,
+  "profile": {
+    "name": "リアルインパクト",
+    "birthDate": "2008-05-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "1994109536",
+      "name": "トキオリアリティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Meadowlake"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3932,6 +3962,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアルインパクト (Real Impact) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルインパクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルインパクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4001,9 +4061,9 @@
       "contentHash": "ff19deef91125e25e3df28eafb5349a761f62093093caf6af04ec0838362a9f3",
       "byteLength": 67625,
       "rawPath": "netkeiba/horses/2008/2008103244/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T13:55:23.452Z"
+  "updatedAt": "2026-08-24T12:03:35.248Z"
 }

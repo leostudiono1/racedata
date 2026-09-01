@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105215",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105215/",
-  "profile": null,
+  "profile": {
+    "name": "リテラシー",
+    "birthDate": "2023-03-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "311541",
+      "name": "アスラン"
+    },
+    "birthplace": "苫小牧市",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ホーリーウーマン Holly Woman(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tawqeet"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1191,6 +1221,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リテラシー (Literacy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リテラシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リテラシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1260,9 +1320,9 @@
       "contentHash": "e56d135ef5726cae7ce1f347d1797579098f12138f0472ab94efb642f569cac9",
       "byteLength": 65527,
       "rawPath": "netkeiba/horses/2023/2023105215/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:22:48.467Z"
+  "updatedAt": "2026-08-29T07:29:50.417Z"
 }

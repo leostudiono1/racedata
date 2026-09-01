@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103595",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103595/",
-  "profile": null,
+  "profile": {
+    "name": "ビーコング",
+    "birthDate": "2021-03-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01171",
+      "name": "小手川準"
+    },
+    "owner": {
+      "id": "446007",
+      "name": "馬場祥晃"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "タリスマニック Talismanic(英)"
+    },
+    "dam": {
+      "id": "2013104037",
+      "name": "タマモペンライト"
+    },
+    "damsire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4143,6 +4173,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビーコング (Bee Kong) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーコング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーコング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4212,9 +4272,9 @@
       "contentHash": "cc0c2521b8c7424912f7a8fa667e8790c49e025e599bacc22b8571738abf709e",
       "byteLength": 66728,
       "rawPath": "netkeiba/horses/2021/2021103595/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:37:42.057Z"
+  "updatedAt": "2026-08-24T12:45:53.517Z"
 }

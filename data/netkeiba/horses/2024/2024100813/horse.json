@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024100813",
   "sourceUrl": "https://db.netkeiba.com/horse/2024100813/",
-  "profile": null,
+  "profile": {
+    "name": "フランベリー",
+    "birthDate": "2024-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "597031",
+      "name": "森口聡"
+    },
+    "breeder": {
+      "id": "413348",
+      "name": "中川欽一"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015110047",
+      "name": "タニノフランケル"
+    },
+    "dam": {
+      "id": "2013100988",
+      "name": "モズエエヤン"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2015110047",
@@ -1133,6 +1163,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フランベリー (Fran Berry) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フランベリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フランベリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1202,9 +1262,9 @@
       "contentHash": "41c72b7d2b6569e84ab1d5175400575f349cd6863632a294f5dcbeaf0583b87a",
       "byteLength": 64631,
       "rawPath": "netkeiba/horses/2024/2024100813/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:49:57.030Z"
+  "updatedAt": "2026-08-24T12:58:08.811Z"
 }

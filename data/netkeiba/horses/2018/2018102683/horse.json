@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102683",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102683/",
-  "profile": null,
+  "profile": {
+    "name": "セイスフィア",
+    "birthDate": "2018-03-28",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "376008",
+      "name": "金田成基"
+    },
+    "breeder": {
+      "id": "303020",
+      "name": "田中春美"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "1999105049",
+      "name": "ディアレイラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シャンハイ Shanghai(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -2934,6 +2964,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイスフィア (Sei Sphere) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイスフィア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイスフィア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3003,9 +3063,9 @@
       "contentHash": "326a2123d2cc3f5b6546c75a3104ba87796c8be8f0b247b4392700411e190304",
       "byteLength": 64500,
       "rawPath": "netkeiba/horses/2018/2018102683/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:26:22.206Z"
+  "updatedAt": "2026-08-30T06:33:37.820Z"
 }

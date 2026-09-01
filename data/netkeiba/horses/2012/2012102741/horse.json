@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102741",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102741/",
-  "profile": null,
+  "profile": {
+    "name": "ケルンダッシュ",
+    "birthDate": "2012-02-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00422",
+      "name": "五十嵐忠"
+    },
+    "owner": {
+      "id": "966002",
+      "name": "深見富朗"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2000101831",
+      "name": "アルフレンテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スキャン Scan(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2739,6 +2769,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケルンダッシュ (Koln Dash) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルンダッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルンダッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2808,9 +2868,9 @@
       "contentHash": "b3ba41cefc15cc960026387370f5dd38699d0c0fcb5c76f7f179b5ab0ef714f4",
       "byteLength": 67085,
       "rawPath": "netkeiba/horses/2012/2012102741/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:05:42.928Z"
+  "updatedAt": "2026-08-28T07:11:35.083Z"
 }

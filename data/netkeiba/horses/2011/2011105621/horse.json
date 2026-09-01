@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105621",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105621/",
-  "profile": null,
+  "profile": {
+    "name": "クーゲル",
+    "birthDate": "2011-03-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "331007",
+      "name": "幅田昌伸"
+    },
+    "breeder": {
+      "id": "100034",
+      "name": "岡本牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    },
+    "dam": {
+      "id": "1997100411",
+      "name": "フューチャハッピー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3833,6 +3863,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クーゲル (Kugel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クーゲル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クーゲル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3902,9 +3962,9 @@
       "contentHash": "6ed6b775fd72bec3298ba080fc400fd19654753688c1f099f860c773bb585a75",
       "byteLength": 65582,
       "rawPath": "netkeiba/horses/2011/2011105621/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:44:15.089Z"
+  "updatedAt": "2026-08-25T10:53:23.033Z"
 }

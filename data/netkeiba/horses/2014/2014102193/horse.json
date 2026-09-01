@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102193",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102193/",
-  "profile": null,
+  "profile": {
+    "name": "コアニードル",
+    "birthDate": "2014-05-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998190003",
+      "name": "ストーミングホーム Storming Home(英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ニードルクラフト Needlecraft(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mark of Esteem (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998190003",
@@ -1132,6 +1162,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コアニードル (Core Needle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コアニードル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コアニードル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1201,9 +1261,9 @@
       "contentHash": "7debe074ecc1d04104e32e3b721c28141f4800309202253d66536bd55bb9bebf",
       "byteLength": 64721,
       "rawPath": "netkeiba/horses/2014/2014102193/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:54:59.283Z"
+  "updatedAt": "2026-08-25T11:04:07.281Z"
 }

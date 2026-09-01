@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110086",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110086/",
-  "profile": null,
+  "profile": {
+    "name": "ジッピーレーサー",
+    "birthDate": "2017-04-05",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01090",
+      "name": "天間昭一"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "060881",
+      "name": "Monticule"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "City Zip (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Espial"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Banker's Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6365,6 +6395,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジッピーレーサー (Zippy Racer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジッピーレーサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジッピーレーサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6434,9 +6494,9 @@
       "contentHash": "5f4acb334d569b4a3e51220a9d460ff9decf8431e576bc438963f6f375e431d0",
       "byteLength": 66977,
       "rawPath": "netkeiba/horses/2017/2017110086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:24:40.292Z"
+  "updatedAt": "2026-08-30T06:31:55.942Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100925",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100925/",
-  "profile": null,
+  "profile": {
+    "name": "ゴールドマーシュ",
+    "birthDate": "2015-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00383",
+      "name": "伊藤正徳"
+    },
+    "owner": {
+      "id": "244008",
+      "name": "坂田行夫"
+    },
+    "breeder": {
+      "id": "130318",
+      "name": "守矢牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2005101946",
+      "name": "ヒカルエガオ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -1245,6 +1275,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴールドマーシュ (Gold Marsh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールドマーシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールドマーシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1314,9 +1374,9 @@
       "contentHash": "90517cce120685f93c174bdd99dbc92574a455c4974d057978a83b8a212e3d9a",
       "byteLength": 64955,
       "rawPath": "netkeiba/horses/2015/2015100925/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:58:15.445Z"
+  "updatedAt": "2026-08-25T11:07:23.209Z"
 }

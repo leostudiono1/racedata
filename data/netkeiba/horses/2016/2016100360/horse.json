@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100360",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100360/",
-  "profile": null,
+  "profile": {
+    "name": "トイガー",
+    "birthDate": "2016-03-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05470",
+      "name": "黒田隆男"
+    },
+    "owner": {
+      "id": "x08ab2",
+      "name": "（株）さくらコーポレ"
+    },
+    "breeder": {
+      "id": "000310",
+      "name": "高瀬牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2001101915",
+      "name": "アクイレジア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3288,6 +3318,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トイガー (Toyger) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トイガー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トイガー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3357,9 +3417,9 @@
       "contentHash": "6c27e0646d93da8caed8093b4cf6783f0a22875692f1d329429ec98b3ad9d316",
       "byteLength": 66717,
       "rawPath": "netkeiba/horses/2016/2016100360/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:14:35.330Z"
+  "updatedAt": "2026-08-24T12:22:47.132Z"
 }

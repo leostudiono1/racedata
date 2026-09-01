@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110015",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110015/",
-  "profile": null,
+  "profile": {
+    "name": "スターリングナウ",
+    "birthDate": "2020-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "768005",
+      "name": "古賀和夫"
+    },
+    "breeder": {
+      "id": "210732",
+      "name": "Murakami Farm LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Super Saver"
+    },
+    "dam": {
+      "id": "000",
+      "name": "チャチャタイム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gio Ponti (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4801,6 +4831,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターリングナウ (Staring Now) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターリングナウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターリングナウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4870,9 +4930,9 @@
       "contentHash": "b7fc746f6cd892e346bfb0d4e74ac7b5f077eb7f573c784d2acb4b588fc8f33c",
       "byteLength": 65132,
       "rawPath": "netkeiba/horses/2020/2020110015/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:41:46.863Z"
+  "updatedAt": "2026-08-28T07:47:38.619Z"
 }

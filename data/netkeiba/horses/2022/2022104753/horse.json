@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104753",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104753/",
-  "profile": null,
+  "profile": {
+    "name": "クロライナ",
+    "birthDate": "2022-04-20",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01221",
+      "name": "室井潔"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2017105300",
+      "name": "クロトノーナ"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -2645,6 +2675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロライナ (Kroraina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロライナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロライナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2714,9 +2774,9 @@
       "contentHash": "cfb9aa14a12a34c7fc094a7e862f563cfcd550e171524497d78850003af0a09e",
       "byteLength": 66643,
       "rawPath": "netkeiba/horses/2022/2022104753/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:44:58.633Z"
+  "updatedAt": "2026-08-30T06:52:14.493Z"
 }

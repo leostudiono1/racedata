@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101895",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101895/",
-  "profile": null,
+  "profile": {
+    "name": "ノブベック",
+    "birthDate": "2016-03-11",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01048",
+      "name": "畠山吉宏"
+    },
+    "owner": {
+      "id": "030030",
+      "name": "前田亘輝"
+    },
+    "breeder": {
+      "id": "410011",
+      "name": "高村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2009100518",
+      "name": "チーフザムーン"
+    },
+    "damsire": {
+      "id": "1993190010",
+      "name": "チーフベアハート Chief Bearhart(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -1531,6 +1561,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノブベック (Nobu Beck) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノブベック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノブベック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1600,9 +1660,9 @@
       "contentHash": "dac054764d6659820a33abcf51f90ac15bcdbc1c7d32d1d9caab042cdb436631",
       "byteLength": 65622,
       "rawPath": "netkeiba/horses/2016/2016101895/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:22:27.841Z"
+  "updatedAt": "2026-08-28T07:28:19.726Z"
 }

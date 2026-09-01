@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104134",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104134/",
-  "profile": null,
+  "profile": {
+    "name": "スリージェット",
+    "birthDate": "2013-04-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "061800",
+      "name": "永井商事"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "2004104360",
+      "name": "ジョンコ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -3639,6 +3669,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリージェット (Three Jet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリージェット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリージェット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3708,9 +3768,9 @@
       "contentHash": "11c51864590b2776df02ae267c4a7b49de0079c0c73ee1d14539112a6b99deea",
       "byteLength": 65617,
       "rawPath": "netkeiba/horses/2013/2013104134/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:55:19.029Z"
+  "updatedAt": "2026-08-27T08:07:14.982Z"
 }

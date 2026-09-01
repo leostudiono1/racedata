@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101392",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101392/",
-  "profile": null,
+  "profile": {
+    "name": "オベリスク",
+    "birthDate": "2011-02-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "233021",
+      "name": "土居忠吉"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "2006110083",
+      "name": "コンポステラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -2733,6 +2763,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オベリスク (Obelisk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オベリスク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オベリスク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2802,9 +2862,9 @@
       "contentHash": "10752329c5145a2e1bf26bf7f7cff15d90b7ea601d4d14381bf187e0331204ed",
       "byteLength": 65674,
       "rawPath": "netkeiba/horses/2011/2011101392/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:47:33.795Z"
+  "updatedAt": "2026-08-27T07:59:29.222Z"
 }

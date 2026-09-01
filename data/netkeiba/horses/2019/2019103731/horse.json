@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103731",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103731/",
-  "profile": null,
+  "profile": {
+    "name": "エイシングラス",
+    "birthDate": "2019-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "010013",
+      "name": "多田善弘"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011101273",
+      "name": "エイシンヒカリ"
+    },
+    "dam": {
+      "id": "2009110033",
+      "name": "エーシンスペリアー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011101273",
@@ -8103,6 +8133,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシングラス (A Shin Glass) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシングラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシングラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8172,9 +8232,9 @@
       "contentHash": "d200bd5803554c76a4284f26e3e37311d0792952987bef57ee38997556c62eeb",
       "byteLength": 66985,
       "rawPath": "netkeiba/horses/2019/2019103731/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:34:57.297Z"
+  "updatedAt": "2026-08-28T07:40:48.896Z"
 }

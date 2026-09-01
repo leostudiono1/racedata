@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101477",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101477/",
-  "profile": null,
+  "profile": {
+    "name": "フクネン",
+    "birthDate": "2018-03-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05654",
+      "name": "桜田浩樹"
+    },
+    "owner": {
+      "id": "x0aa59",
+      "name": "門井秀一"
+    },
+    "breeder": {
+      "id": "530331",
+      "name": "岩見牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2008104272",
+      "name": "ケージーフジムスメ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -2657,6 +2687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フクネン (Fukunen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フクネン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フクネン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2726,9 +2786,9 @@
       "contentHash": "a43fafab05793eddbac726a0c1f1bde5e3ae804db9ad56f23303224077d449ff",
       "byteLength": 64398,
       "rawPath": "netkeiba/horses/2018/2018101477/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:12:04.541Z"
+  "updatedAt": "2026-08-31T06:17:21.241Z"
 }

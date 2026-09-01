@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103869",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103869/",
-  "profile": null,
+  "profile": {
+    "name": "ミスファイト",
+    "birthDate": "2020-04-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05109",
+      "name": "古賀光範"
+    },
+    "owner": {
+      "id": "772002",
+      "name": "西村新一郎"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2012101916",
+      "name": "イッツマイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medicean"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -3596,6 +3626,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミスファイト (Miss Fight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスファイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスファイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3665,9 +3725,9 @@
       "contentHash": "723fc043671c6705d22b735c37624d7251019e9bd1eb75d965ea229e4888a07e",
       "byteLength": 66863,
       "rawPath": "netkeiba/horses/2020/2020103869/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:39:12.792Z"
+  "updatedAt": "2026-08-28T07:45:04.602Z"
 }

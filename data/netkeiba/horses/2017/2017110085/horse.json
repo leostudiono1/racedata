@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110085",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110085/",
-  "profile": null,
+  "profile": {
+    "name": "デュボンタン",
+    "birthDate": "2017-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "080706",
+      "name": "North Hills Co. Limited"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Lemon Drop Kid"
+    },
+    "dam": {
+      "id": "1999104206",
+      "name": "ウィルビーゼア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1657,6 +1687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デュボンタン (Du Bon Temps) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デュボンタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デュボンタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1726,9 +1786,9 @@
       "contentHash": "c51e74a83eac9a615bb8a739d5671d524ebed144323260278204bfc05291fd4a",
       "byteLength": 64686,
       "rawPath": "netkeiba/horses/2017/2017110085/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:28:42.578Z"
+  "updatedAt": "2026-08-28T07:34:34.449Z"
 }

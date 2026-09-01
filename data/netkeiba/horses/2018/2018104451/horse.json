@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104451",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104451/",
-  "profile": null,
+  "profile": {
+    "name": "カウニス",
+    "birthDate": "2018-05-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006100529",
+      "name": "ジョーカプチーノ"
+    },
+    "dam": {
+      "id": "2009104652",
+      "name": "マイネマキアージュ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2006100529",
@@ -2569,6 +2599,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カウニス (Kaunis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カウニス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カウニス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2638,9 +2698,9 @@
       "contentHash": "4ce4d1e786511743f6906f8920fbf121e74ee9b700fc36599d2fc8a251c1fe0d",
       "byteLength": 66647,
       "rawPath": "netkeiba/horses/2018/2018104451/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:25:23.052Z"
+  "updatedAt": "2026-08-24T12:33:34.926Z"
 }

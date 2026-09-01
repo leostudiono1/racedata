@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104851",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104851/",
-  "profile": null,
+  "profile": {
+    "name": "デセオ",
+    "birthDate": "2020-03-14",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05076",
+      "name": "伊藤強一"
+    },
+    "owner": {
+      "id": "165803",
+      "name": "（同）ＪＰＮ技研"
+    },
+    "breeder": {
+      "id": "533302",
+      "name": "前谷武志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Union Rags"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タピットトゥギャザー Tapit Together(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3402,6 +3432,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デセオ (Deseo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デセオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デセオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3471,9 +3531,9 @@
       "contentHash": "5a3953214b02d88f62a8b8ed5a50bf07001f80707a6df70fcf6e53de818e827d",
       "byteLength": 66621,
       "rawPath": "netkeiba/horses/2020/2020104851/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:34:40.003Z"
+  "updatedAt": "2026-08-24T12:42:51.482Z"
 }

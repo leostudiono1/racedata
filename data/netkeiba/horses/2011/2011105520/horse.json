@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105520",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105520/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウキトラ",
+    "birthDate": "2011-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01113",
+      "name": "牧浦充徳"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "200008",
+      "name": "磯野牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1995101767",
+      "name": "メイショウオウドウ"
+    },
+    "dam": {
+      "id": "2003105970",
+      "name": "イエロージャケット"
+    },
+    "damsire": {
+      "id": "1985103538",
+      "name": "サッカーボーイ"
+    }
+  },
   "pedigree": [
     {
       "id": "1995101767",
@@ -5446,6 +5476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウキトラ (Meisho Kitora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウキトラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウキトラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5515,9 +5575,9 @@
       "contentHash": "d01f4d8f6a5a18be7e42d9b45c562d261750fb0a9377fb5c8322c47587fe217a",
       "byteLength": 67021,
       "rawPath": "netkeiba/horses/2011/2011105520/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:44:22.091Z"
+  "updatedAt": "2026-08-31T05:49:38.112Z"
 }

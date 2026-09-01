@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010106084",
   "sourceUrl": "https://db.netkeiba.com/horse/2010106084/",
-  "profile": null,
+  "profile": {
+    "name": "レギス",
+    "birthDate": "2010-04-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "330007",
+      "name": "杉澤光雄"
+    },
+    "breeder": {
+      "id": "130317",
+      "name": "ムラカミファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2001100658",
+      "name": "カネスベネフィット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Miswaki"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -8257,6 +8287,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レギス (Regis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レギス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レギス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8326,9 +8386,9 @@
       "contentHash": "3531d2f21cf2286b25f49271be640e36cbc177c93845345344b736b242a4dd6d",
       "byteLength": 66202,
       "rawPath": "netkeiba/horses/2010/2010106084/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:22:02.574Z"
+  "updatedAt": "2026-08-26T08:30:42.121Z"
 }

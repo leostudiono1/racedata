@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103676",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103676/",
-  "profile": null,
+  "profile": {
+    "name": "ドリームテーラー",
+    "birthDate": "2012-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "730002",
+      "name": "中西浩一"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1996106512",
+      "name": "アドマイヤコジーン"
+    },
+    "dam": {
+      "id": "2005100096",
+      "name": "ラヴァーズテーラー"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "1996106512",
@@ -1433,6 +1463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドリームテーラー (Dream Tailor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドリームテーラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドリームテーラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1502,9 +1562,9 @@
       "contentHash": "a2c978898e7315d8f60acd024b1e15c1fae7ca53e870424d840e2b98c39e86ca",
       "byteLength": 64784,
       "rawPath": "netkeiba/horses/2012/2012103676/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:34:18.930Z"
+  "updatedAt": "2026-08-29T06:41:21.310Z"
 }

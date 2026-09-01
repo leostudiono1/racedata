@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110040",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110040/",
-  "profile": null,
+  "profile": {
+    "name": "メトロポリターナ",
+    "birthDate": "2021-04-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01096",
+      "name": "粕谷昌央"
+    },
+    "owner": {
+      "id": "597033",
+      "name": "庄司修二"
+    },
+    "breeder": {
+      "id": "830708",
+      "name": "Godolphin"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Masar (愛)"
+    },
+    "dam": {
+      "id": "2008105763",
+      "name": "ゴールデングローブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3314,6 +3344,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メトロポリターナ (Metropolitana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メトロポリターナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メトロポリターナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3383,9 +3443,9 @@
       "contentHash": "986e0b21602d2a83ab74b716f291418dd5ace015e0bec689a52a1f0d48395e70",
       "byteLength": 66777,
       "rawPath": "netkeiba/horses/2021/2021110040/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:42:52.724Z"
+  "updatedAt": "2026-08-30T06:50:08.329Z"
 }

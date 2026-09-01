@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103788",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103788/",
-  "profile": null,
+  "profile": {
+    "name": "デイライト",
+    "birthDate": "2020-04-26",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01197",
+      "name": "小椋研介"
+    },
+    "owner": {
+      "id": "878031",
+      "name": "盛学志"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008100285",
+      "name": "プントバンコ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2644,6 +2674,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デイライト (Daylight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デイライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デイライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2713,9 +2773,9 @@
       "contentHash": "4720087b254f705515310ec50630ec6393f14d7cee301f0038eb33ffcb80c2b0",
       "byteLength": 66966,
       "rawPath": "netkeiba/horses/2020/2020103788/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:59:19.650Z"
+  "updatedAt": "2026-08-26T09:07:59.350Z"
 }

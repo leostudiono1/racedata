@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105754",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105754/",
-  "profile": null,
+  "profile": {
+    "name": "イノ",
+    "birthDate": "2020-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05388",
+      "name": "佐々木仁"
+    },
+    "owner": {
+      "id": "033031",
+      "name": "和田正巳"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103548",
+      "name": "ダノンバラード"
+    },
+    "dam": {
+      "id": "2008103438",
+      "name": "コスモバタフライ"
+    },
+    "damsire": {
+      "id": "2003102461",
+      "name": "ソングオブウインド"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103548",
@@ -4074,6 +4104,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イノ (Ino) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4143,9 +4203,9 @@
       "contentHash": "d599760e95e28eeca52431c41cbc8070db2dc63db43d0d6777318aafebe6afa6",
       "byteLength": 66661,
       "rawPath": "netkeiba/horses/2020/2020105754/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:23:51.846Z"
+  "updatedAt": "2026-08-31T06:29:08.363Z"
 }

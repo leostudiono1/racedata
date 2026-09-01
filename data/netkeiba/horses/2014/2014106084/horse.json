@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106084",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106084/",
-  "profile": null,
+  "profile": {
+    "name": "デイズ",
+    "birthDate": "2014-04-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05750",
+      "name": "佐宗応和"
+    },
+    "owner": {
+      "id": "x09696",
+      "name": "渡部賢治"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2007103297",
+      "name": "ピンクアリエス"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -2980,6 +3010,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デイズ (Days) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デイズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デイズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3049,9 +3109,9 @@
       "contentHash": "d308181cbe336a3b894565b220645df16d355f0470a9a1d0bff589ba16919eb3",
       "byteLength": 64887,
       "rawPath": "netkeiba/horses/2014/2014106084/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:10:46.890Z"
+  "updatedAt": "2026-08-30T06:18:02.644Z"
 }

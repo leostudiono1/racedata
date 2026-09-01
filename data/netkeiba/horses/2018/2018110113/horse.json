@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110113",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110113/",
-  "profile": null,
+  "profile": {
+    "name": "ヒトヨギリ",
+    "birthDate": "2018-03-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "819031",
+      "name": "森田和豊"
+    },
+    "breeder": {
+      "id": "520896",
+      "name": "Floors Farming"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Shalaa"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Federation"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Motivator"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1885,6 +1915,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒトヨギリ (Hitoyogiri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒトヨギリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒトヨギリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1954,9 +2014,9 @@
       "contentHash": "9a790f543db745779e0f6151d16a7e02b296ab4b8d916c2f6bd2dacd16454cb2",
       "byteLength": 65559,
       "rawPath": "netkeiba/horses/2018/2018110113/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:17:54.019Z"
+  "updatedAt": "2026-08-27T08:29:49.772Z"
 }

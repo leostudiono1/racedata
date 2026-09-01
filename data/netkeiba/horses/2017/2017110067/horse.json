@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110067",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110067/",
-  "profile": null,
+  "profile": {
+    "name": "アメリカンシード",
+    "birthDate": "2017-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05728",
+      "name": "藤田輝信"
+    },
+    "owner": {
+      "id": "x07d80",
+      "name": "（株）吉澤ステーブル"
+    },
+    "breeder": {
+      "id": "280888",
+      "name": "Courtlandt Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sweet Talker"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormin Fever"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4269,6 +4299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アメリカンシード (American Seed) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメリカンシード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメリカンシード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4338,9 +4398,9 @@
       "contentHash": "b049c3680f5588b3f26f94d33db18cedf4e571877eff9bd1292f31668958469c",
       "byteLength": 67069,
       "rawPath": "netkeiba/horses/2017/2017110067/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:11:05.185Z"
+  "updatedAt": "2026-08-31T06:16:21.827Z"
 }

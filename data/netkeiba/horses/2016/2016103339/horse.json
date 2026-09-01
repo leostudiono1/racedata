@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103339",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103339/",
-  "profile": null,
+  "profile": {
+    "name": "レットハーゴー",
+    "birthDate": "2016-02-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ファダラン Fada Run(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cherokee Run"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -1248,6 +1278,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レットハーゴー (Let Her Go) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レットハーゴー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レットハーゴー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1317,9 +1377,9 @@
       "contentHash": "873b946dfa7369b1801d61fba1e065007a78e760078031e6c9fc88837d1d1ae6",
       "byteLength": 65646,
       "rawPath": "netkeiba/horses/2016/2016103339/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:03:27.061Z"
+  "updatedAt": "2026-08-25T11:12:34.800Z"
 }

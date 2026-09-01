@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107348",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107348/",
-  "profile": null,
+  "profile": {
+    "name": "ピードモント",
+    "birthDate": "2023-01-25",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディデラウェア Lady Delaware(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1400,6 +1430,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピードモント (Piedmont) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピードモント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピードモント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1469,9 +1529,9 @@
       "contentHash": "89b50ce8deb4238f4c0fdf1f1cdca537e434ac931c57cd6d37ff39409f7ce918",
       "byteLength": 67220,
       "rawPath": "netkeiba/horses/2023/2023107348/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:24:19.458Z"
+  "updatedAt": "2026-08-29T07:31:21.536Z"
 }

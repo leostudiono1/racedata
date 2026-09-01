@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021109097",
   "sourceUrl": "https://db.netkeiba.com/horse/2021109097/",
-  "profile": null,
+  "profile": {
+    "name": "メイパワー",
+    "birthDate": "2021-04-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01174",
+      "name": "深山雅史"
+    },
+    "owner": {
+      "id": "075800",
+      "name": "千明牧場"
+    },
+    "breeder": {
+      "id": "230123",
+      "name": "千明牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2015109096",
+      "name": "メイハンコック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -1684,6 +1714,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイパワー (May Power) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイパワー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイパワー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1753,9 +1813,9 @@
       "contentHash": "a00bd1c2dff365ccf66095c1ab82e9a379187d59ea745545df65928d59a11e24",
       "byteLength": 65472,
       "rawPath": "netkeiba/horses/2021/2021109097/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:15:30.700Z"
+  "updatedAt": "2026-08-29T07:22:32.974Z"
 }

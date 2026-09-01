@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101231",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101231/",
-  "profile": null,
+  "profile": {
+    "name": "ロジシップ",
+    "birthDate": "2017-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "野田幸雄"
+    },
+    "owner": {
+      "id": "x0a7a7",
+      "name": "川合満"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2012106230",
+      "name": "ロジナン"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -13340,6 +13370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロジシップ (Logi Ship) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジシップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロジシップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -13409,9 +13469,9 @@
       "contentHash": "2eaea1a21c1108a125f844859f826e4e20aac5da72bc04ed8d5912893c1bc598",
       "byteLength": 66861,
       "rawPath": "netkeiba/horses/2017/2017101231/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:07:56.328Z"
+  "updatedAt": "2026-08-31T06:13:12.577Z"
 }

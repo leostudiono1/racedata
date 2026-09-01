@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101640",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101640/",
-  "profile": null,
+  "profile": {
+    "name": "インレット",
+    "birthDate": "2022-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "大垣敏夫"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ディスクリートキャット Discreet Cat(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オーシャンウェイ Oceanway(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2516,6 +2546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インレット (Inlet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2585,9 +2645,9 @@
       "contentHash": "05376285d54672a4a701285f20bb1340e14750307d0176d6f278b5967e4848ca",
       "byteLength": 64927,
       "rawPath": "netkeiba/horses/2022/2022101640/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:47:43.861Z"
+  "updatedAt": "2026-08-28T07:53:35.865Z"
 }

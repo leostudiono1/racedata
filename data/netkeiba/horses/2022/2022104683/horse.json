@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104683",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104683/",
-  "profile": null,
+  "profile": {
+    "name": "グレインワーク",
+    "birthDate": "2022-02-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2011110078",
+      "name": "エスメラルディーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1141,6 +1171,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレインワーク (Grain Work) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレインワーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレインワーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1210,9 +1270,9 @@
       "contentHash": "2ec2c82adf8e914e8d935bbe5c76e1595a2e0aaa2704437e9e6395b3816e6fd1",
       "byteLength": 66341,
       "rawPath": "netkeiba/horses/2022/2022104683/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:30:52.553Z"
+  "updatedAt": "2026-08-25T11:40:00.316Z"
 }

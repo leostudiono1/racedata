@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104303",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104303/",
-  "profile": null,
+  "profile": {
+    "name": "バイラモス",
+    "birthDate": "2017-02-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "860800",
+      "name": "チャンピオンズファーム"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2002105372",
+      "name": "ピースオブラヴ"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1146,6 +1176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バイラモス (Bailamos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイラモス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイラモス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1215,9 +1275,9 @@
       "contentHash": "fcb2635647f6e8cd9ea26517572b21736b9efa28ef6273ecdf014855ffa211f8",
       "byteLength": 64440,
       "rawPath": "netkeiba/horses/2017/2017104303/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:22:44.648Z"
+  "updatedAt": "2026-08-30T06:30:00.387Z"
 }

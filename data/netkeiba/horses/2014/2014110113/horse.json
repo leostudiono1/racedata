@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110113",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110113/",
-  "profile": null,
+  "profile": {
+    "name": "アニマルインミー",
+    "birthDate": "2014-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "732033",
+      "name": "田記正規"
+    },
+    "breeder": {
+      "id": "570708",
+      "name": "Linda Lee Schroetlin"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Run Away and Hide"
+    },
+    "dam": {
+      "id": "000",
+      "name": "I Saw It"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Flashy Bull"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1251,6 +1281,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アニマルインミー (Animal in Me) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アニマルインミー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アニマルインミー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1320,9 +1380,9 @@
       "contentHash": "675f2a5945c395017de5042f2ea199dd917fb0b1ee7a7e1f075b65659c69bcf0",
       "byteLength": 64999,
       "rawPath": "netkeiba/horses/2014/2014110113/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:17:19.647Z"
+  "updatedAt": "2026-08-28T07:23:11.648Z"
 }

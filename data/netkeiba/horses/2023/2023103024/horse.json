@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103024",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103024/",
-  "profile": null,
+  "profile": {
+    "name": "ギンケイ",
+    "birthDate": "2023-02-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "631031",
+      "name": "山崎康"
+    },
+    "breeder": {
+      "id": "510087",
+      "name": "西村牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2014104905",
+      "name": "スターインパルス"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1557,6 +1587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ギンケイ (Ginkei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギンケイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギンケイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1626,9 +1686,9 @@
       "contentHash": "15fbc18ecff9abd8a4c694f12171ddac12930d4525d38d4ab2ba365d1f71042a",
       "byteLength": 65891,
       "rawPath": "netkeiba/horses/2023/2023103024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:46:09.490Z"
+  "updatedAt": "2026-08-24T12:54:21.212Z"
 }

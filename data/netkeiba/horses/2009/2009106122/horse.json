@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009106122",
   "sourceUrl": "https://db.netkeiba.com/horse/2009106122/",
-  "profile": null,
+  "profile": {
+    "name": "ストリートハンター",
+    "birthDate": "2009-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "松木啓助"
+    },
+    "owner": {
+      "id": "x00468",
+      "name": "中山純子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "クイックリトルミス Quick Little Miss(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Freud"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -9338,6 +9368,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストリートハンター (Street Hunter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストリートハンター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストリートハンター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9407,9 +9467,9 @@
       "contentHash": "88ce4ce7a3a3691d5cd791497f4664c1301e589b74bae68c27e6c319610b6e98",
       "byteLength": 65159,
       "rawPath": "netkeiba/horses/2009/2009106122/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:46:20.073Z"
+  "updatedAt": "2026-08-27T07:58:15.735Z"
 }

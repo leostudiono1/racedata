@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100681",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100681/",
-  "profile": null,
+  "profile": {
+    "name": "コハナ",
+    "birthDate": "2021-03-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05388",
+      "name": "佐々木仁"
+    },
+    "owner": {
+      "id": "554008",
+      "name": "吉田勝利"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2014105359",
+      "name": "サンティエ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2715,6 +2745,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コハナ (Kohana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コハナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コハナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2784,9 +2844,9 @@
       "contentHash": "16325bac7fafee3ef650ed526dfe8701edbe59a362309d8a877cf7c59bfd4a61",
       "byteLength": 65451,
       "rawPath": "netkeiba/horses/2021/2021100681/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:38:51.183Z"
+  "updatedAt": "2026-08-30T06:46:06.938Z"
 }

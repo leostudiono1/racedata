@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110001",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110001/",
-  "profile": null,
+  "profile": {
+    "name": "ストーンウェア",
+    "birthDate": "2012-01-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "710821",
+      "name": "Shadai Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Birdstone"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Antique Auction"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Geiger Counter"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4110,6 +4140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストーンウェア (Stoneware) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーンウェア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーンウェア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4179,9 +4239,9 @@
       "contentHash": "77d01428d32c7cf7681cbf416f3dc5bdd0aaac7f2c7d0eaa1a667e3caae96c92",
       "byteLength": 66951,
       "rawPath": "netkeiba/horses/2012/2012110001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:49:23.485Z"
+  "updatedAt": "2026-08-25T10:58:31.014Z"
 }

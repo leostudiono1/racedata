@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110032",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110032/",
-  "profile": null,
+  "profile": {
+    "name": "ザンシン",
+    "birthDate": "2016-01-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05718",
+      "name": "坂本和也"
+    },
+    "owner": {
+      "id": "900031",
+      "name": "前田良平"
+    },
+    "breeder": {
+      "id": "010733",
+      "name": "Usk Valley Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "New Approach"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Zanzibar"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "In the Wings In The Wings(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1964,6 +1994,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザンシン (Zanshin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザンシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザンシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2033,9 +2093,9 @@
       "contentHash": "960dd35ec7e02c9b4c05dc3e14d7b6b83361fdc150bd2a2d8c19d64d856f8322",
       "byteLength": 65413,
       "rawPath": "netkeiba/horses/2016/2016110032/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:53:09.755Z"
+  "updatedAt": "2026-08-29T07:00:11.933Z"
 }

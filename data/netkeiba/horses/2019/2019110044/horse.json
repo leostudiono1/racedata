@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110044",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110044/",
-  "profile": null,
+  "profile": {
+    "name": "シナモンベアー",
+    "birthDate": "2019-03-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Raven's Pass"
+    },
+    "dam": {
+      "id": "000",
+      "name": "モンタナリヴァー Montana River(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dalakhani"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1479,6 +1509,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シナモンベアー (Cinnamon Bear) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シナモンベアー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シナモンベアー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1548,9 +1608,9 @@
       "contentHash": "4967b2cd7d6a2fe919ffecf5220adbeb2c73f10e3e3cbb19947ae524ab950f65",
       "byteLength": 64841,
       "rawPath": "netkeiba/horses/2019/2019110044/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:18:47.963Z"
+  "updatedAt": "2026-08-25T11:27:55.579Z"
 }

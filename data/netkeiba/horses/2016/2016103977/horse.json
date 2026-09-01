@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103977",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103977/",
-  "profile": null,
+  "profile": {
+    "name": "マリター",
+    "birthDate": "2016-02-16",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05702",
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "751008",
+      "name": "坂東まさ子"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2008100484",
+      "name": "デスペラード"
+    },
+    "dam": {
+      "id": "2003104871",
+      "name": "ヤマトマリオン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008100484",
@@ -5422,6 +5452,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マリター (Marita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5491,9 +5551,9 @@
       "contentHash": "ebf5ff21cedbfdd4a8eb75e73e5ae1bfab340fa092b05842f57f5a4629844d03",
       "byteLength": 64671,
       "rawPath": "netkeiba/horses/2016/2016103977/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:18:08.144Z"
+  "updatedAt": "2026-08-30T06:25:23.791Z"
 }

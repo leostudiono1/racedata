@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105075",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105075/",
-  "profile": null,
+  "profile": {
+    "name": "サンララミー",
+    "birthDate": "2012-05-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "244008",
+      "name": "坂田行夫"
+    },
+    "breeder": {
+      "id": "630008",
+      "name": "今井秀樹"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    },
+    "dam": {
+      "id": "1997100292",
+      "name": "トミケンブライト"
+    },
+    "damsire": {
+      "id": "1981100841",
+      "name": "ワカオライデン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5211,6 +5241,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンララミー (Sun Laramie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンララミー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンララミー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5280,9 +5340,9 @@
       "contentHash": "a9b6dbc770e2e085bd5646a0d4589aba7b2e355f5e9062fd6950e867d8d10907",
       "byteLength": 64753,
       "rawPath": "netkeiba/horses/2012/2012105075/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:26:07.624Z"
+  "updatedAt": "2026-08-26T08:34:47.182Z"
 }

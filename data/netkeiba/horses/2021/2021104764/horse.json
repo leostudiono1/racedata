@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104764",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104764/",
-  "profile": null,
+  "profile": {
+    "name": "ザフラッグ",
+    "birthDate": "2021-02-01",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スパニッシュクイーン Spanish Queen(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tribal Rule"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1210,6 +1240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザフラッグ (The Flag) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザフラッグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザフラッグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1279,9 +1339,9 @@
       "contentHash": "d8b5610e74deea00b8c9d3be84cc84f04d59675053a6bf3e3877219f239630de",
       "byteLength": 65241,
       "rawPath": "netkeiba/horses/2021/2021104764/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:26:57.798Z"
+  "updatedAt": "2026-08-31T06:32:13.901Z"
 }

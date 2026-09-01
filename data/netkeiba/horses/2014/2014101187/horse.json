@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101187",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101187/",
-  "profile": null,
+  "profile": {
+    "name": "キングアスリート",
+    "birthDate": "2014-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00420",
+      "name": "宗像義忠"
+    },
+    "owner": {
+      "id": "830030",
+      "name": "長谷川清英"
+    },
+    "breeder": {
+      "id": "303020",
+      "name": "田中春美"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102439",
+      "name": "モエレプルトス"
+    },
+    "dam": {
+      "id": "1997100499",
+      "name": "カズノマリリン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マルゼンスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102439",
@@ -1517,6 +1547,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングアスリート (King Athlete) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングアスリート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングアスリート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1586,9 +1646,9 @@
       "contentHash": "c6ea52e8f2bcdb8268a428e12b908475d3ca48a15499b7710f6a718565f0d766",
       "byteLength": 65579,
       "rawPath": "netkeiba/horses/2014/2014101187/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:41:43.626Z"
+  "updatedAt": "2026-08-29T06:48:45.865Z"
 }

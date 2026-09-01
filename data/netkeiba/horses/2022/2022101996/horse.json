@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101996",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101996/",
-  "profile": null,
+  "profile": {
+    "name": "アドラマリク",
+    "birthDate": "2022-03-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05681",
+      "name": "新井清重"
+    },
+    "owner": {
+      "id": "309803",
+      "name": "レックス"
+    },
+    "breeder": {
+      "id": "913367",
+      "name": "船越牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2013100564",
+      "name": "アドリア"
+    },
+    "damsire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3228,6 +3258,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アドラマリク (Adarmalik) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アドラマリク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アドラマリク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3297,9 +3357,9 @@
       "contentHash": "bda9f290abb5242f3029daeb6e44e9a1158d88ce115dd0f5225b6ecee8bdfd60",
       "byteLength": 66869,
       "rawPath": "netkeiba/horses/2022/2022101996/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:43:59.171Z"
+  "updatedAt": "2026-08-30T06:51:14.829Z"
 }

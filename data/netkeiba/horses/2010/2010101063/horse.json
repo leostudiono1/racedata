@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101063",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101063/",
-  "profile": null,
+  "profile": {
+    "name": "インパラトール",
+    "birthDate": "2010-01-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "942006",
+      "name": "榊原源一郎"
+    },
+    "breeder": {
+      "id": "503501",
+      "name": "前川ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "1997103518",
+      "name": "エジード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2333,6 +2363,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インパラトール (Imparator) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インパラトール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インパラトール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2402,9 +2462,9 @@
       "contentHash": "15e0a8539dcb5cb2d7ed78c428b8db134c32aed049e4c7b27d4103220dde7467",
       "byteLength": 67077,
       "rawPath": "netkeiba/horses/2010/2010101063/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:56:04.525Z"
+  "updatedAt": "2026-08-30T06:03:20.543Z"
 }

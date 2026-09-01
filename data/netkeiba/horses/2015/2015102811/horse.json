@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102811",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102811/",
-  "profile": null,
+  "profile": {
+    "name": "リベリュール",
+    "birthDate": "2015-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "894030",
+      "name": "村上憲政"
+    },
+    "breeder": {
+      "id": "750007",
+      "name": "赤田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    },
+    "dam": {
+      "id": "2005102094",
+      "name": "シーエンプレス"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -9668,6 +9698,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リベリュール (Libellule) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベリュール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベリュール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9737,9 +9797,9 @@
       "contentHash": "eddd1fa47e0d8cd4132d9e35785ee07b60eb71da2664afdafad78ba893d4ab31",
       "byteLength": 66921,
       "rawPath": "netkeiba/horses/2015/2015102811/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:02:47.263Z"
+  "updatedAt": "2026-08-27T08:14:43.026Z"
 }

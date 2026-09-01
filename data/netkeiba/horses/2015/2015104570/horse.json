@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104570",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104570/",
-  "profile": null,
+  "profile": {
+    "name": "リミックス",
+    "birthDate": "2015-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01074",
+      "name": "奥平雅士"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2004103308",
+      "name": "ミュージックアワー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1496,6 +1526,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リミックス (Remix) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リミックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リミックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1565,9 +1625,9 @@
       "contentHash": "d4a3677333e3fc1faef20e6f935ac3cb179248c64c01894bdf79dc962a3b7a40",
       "byteLength": 65809,
       "rawPath": "netkeiba/horses/2015/2015104570/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:00:27.959Z"
+  "updatedAt": "2026-08-31T06:05:44.413Z"
 }

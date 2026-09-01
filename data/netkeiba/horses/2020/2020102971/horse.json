@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102971",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102971/",
-  "profile": null,
+  "profile": {
+    "name": "サトノグレイト",
+    "birthDate": "2020-02-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "790031",
+      "name": "里見治"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ノヴァホーク Nova Hawk(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hawk Wing"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3410,6 +3440,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノグレイト (Satono Great) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノグレイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノグレイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3479,9 +3539,9 @@
       "contentHash": "5783ef228ed10c4927a7bd4512f215690d899f7e49a1ae2770838f4b66281278",
       "byteLength": 66955,
       "rawPath": "netkeiba/horses/2020/2020102971/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:33:19.307Z"
+  "updatedAt": "2026-08-24T12:41:30.976Z"
 }

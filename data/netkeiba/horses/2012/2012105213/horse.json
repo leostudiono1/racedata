@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105213",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105213/",
-  "profile": null,
+  "profile": {
+    "name": "ベンガル",
+    "birthDate": "2012-04-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05331",
+      "name": "山崎尋美"
+    },
+    "owner": {
+      "id": "142033",
+      "name": "高橋照比古"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2001103293",
+      "name": "ドリームワークス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ドリームウェル Dream Well(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -2469,6 +2499,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベンガル (Bengal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベンガル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベンガル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2538,9 +2598,9 @@
       "contentHash": "e7d0a032a9d421a2427cabf703e3b01633278507c6bc9bb767fe785ff4b68b39",
       "byteLength": 64491,
       "rawPath": "netkeiba/horses/2012/2012105213/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:35:11.411Z"
+  "updatedAt": "2026-08-29T06:42:13.852Z"
 }

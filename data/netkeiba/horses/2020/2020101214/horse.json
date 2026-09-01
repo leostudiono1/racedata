@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101214",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101214/",
-  "profile": null,
+  "profile": {
+    "name": "ミヤジトレヴ",
+    "birthDate": "2020-03-15",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01003",
+      "name": "川村禎彦"
+    },
+    "owner": {
+      "id": "911009",
+      "name": "曽我司"
+    },
+    "breeder": {
+      "id": "003341",
+      "name": "天羽牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2015101020",
+      "name": "パクスアジアーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -2097,6 +2127,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミヤジトレヴ (Miyaji Treve) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミヤジトレヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミヤジトレヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2166,9 +2226,9 @@
       "contentHash": "8d7fd047370afa5d50fd398cf1463abfc0d963f78db73c540b2eaa6307a2f6c6",
       "byteLength": 65924,
       "rawPath": "netkeiba/horses/2020/2020101214/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:37:20.778Z"
+  "updatedAt": "2026-08-28T07:43:12.528Z"
 }

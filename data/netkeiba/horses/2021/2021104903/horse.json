@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104903",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104903/",
-  "profile": null,
+  "profile": {
+    "name": "ヴェルトラウム",
+    "birthDate": "2021-04-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01187",
+      "name": "西田雄一"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2013106099",
+      "name": "ミッキーロケット"
+    },
+    "dam": {
+      "id": "2013106014",
+      "name": "ヒルダ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106099",
@@ -2435,6 +2465,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴェルトラウム (Weltraum) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェルトラウム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェルトラウム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2504,9 +2564,9 @@
       "contentHash": "333356aca35e37dfac4d33ee1309c820befcd682cdffd12f7f0a44ac459bcc6a",
       "byteLength": 67469,
       "rawPath": "netkeiba/horses/2021/2021104903/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:44:48.808Z"
+  "updatedAt": "2026-08-28T07:50:40.616Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101053",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101053/",
-  "profile": null,
+  "profile": {
+    "name": "シャイニーコンドル",
+    "birthDate": "2020-04-25",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05217",
+      "name": "佐々木由"
+    },
+    "owner": {
+      "id": "531006",
+      "name": "小林昌志"
+    },
+    "breeder": {
+      "id": "510362",
+      "name": "川向高橋育成牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2008103004",
+      "name": "ベルシャザール"
+    },
+    "dam": {
+      "id": "2009110012",
+      "name": "ノードラメール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103004",
@@ -2733,6 +2763,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャイニーコンドル (Shiny Condor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニーコンドル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニーコンドル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2802,9 +2862,9 @@
       "contentHash": "45afb5e4e2bb088960c89c0b11c7f162d26661c1c5edb9f65a4fca0debc1a2b4",
       "byteLength": 64936,
       "rawPath": "netkeiba/horses/2020/2020101053/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:57:24.589Z"
+  "updatedAt": "2026-08-26T09:06:03.874Z"
 }

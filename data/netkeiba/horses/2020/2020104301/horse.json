@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104301",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104301/",
-  "profile": null,
+  "profile": {
+    "name": "メアリー",
+    "birthDate": "2020-01-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "真島正徳"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "013330",
+      "name": "静内山田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2007101346",
+      "name": "スイングサンデー"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3650,6 +3680,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メアリー (Mary) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メアリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メアリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3719,9 +3779,9 @@
       "contentHash": "9ce3a47a4c75bdbe88b6de6f0c599d84f0077c9242bf3f033db801870fd0aeb7",
       "byteLength": 66524,
       "rawPath": "netkeiba/horses/2020/2020104301/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:37:02.527Z"
+  "updatedAt": "2026-08-30T06:44:18.430Z"
 }

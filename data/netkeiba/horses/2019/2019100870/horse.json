@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100870",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100870/",
-  "profile": null,
+  "profile": {
+    "name": "ローランサン",
+    "birthDate": "2019-02-05",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05357",
+      "name": "植松則幸"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2012103918",
+      "name": "ナンシー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3657,6 +3687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローランサン (Laurencin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローランサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローランサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3726,9 +3786,9 @@
       "contentHash": "afb8d12b687a608aa614805b94484563e449e05f2d7cb440e7a8fe220c7e3697",
       "byteLength": 64895,
       "rawPath": "netkeiba/horses/2019/2019100870/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:32:51.102Z"
+  "updatedAt": "2026-08-28T07:38:42.977Z"
 }

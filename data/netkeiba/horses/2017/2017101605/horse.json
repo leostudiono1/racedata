@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101605",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101605/",
-  "profile": null,
+  "profile": {
+    "name": "ゲームアルアル",
+    "birthDate": "2017-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "永田幸宏"
+    },
+    "owner": {
+      "id": "563030",
+      "name": "村上卓史"
+    },
+    "breeder": {
+      "id": "080543",
+      "name": "大作ステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2010110141",
+      "name": "ドナパフューム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bertolini"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2827,6 +2857,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲームアルアル (Game Aruaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲームアルアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲームアルアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2896,9 +2956,9 @@
       "contentHash": "c3d7ed1cc97ea87803943cf28f1b325daccab4ba468cc639c659ab5015a6f545",
       "byteLength": 66042,
       "rawPath": "netkeiba/horses/2017/2017101605/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:10:22.775Z"
+  "updatedAt": "2026-08-27T08:22:18.182Z"
 }

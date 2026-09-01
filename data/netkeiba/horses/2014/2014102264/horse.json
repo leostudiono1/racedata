@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102264",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102264/",
-  "profile": null,
+  "profile": {
+    "name": "インスティンクト",
+    "birthDate": "2014-04-24",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "833394",
+      "name": "戸川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2007102830",
+      "name": "レッドマシェリ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -2246,6 +2276,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インスティンクト (Instinct) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスティンクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスティンクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2315,9 +2375,9 @@
       "contentHash": "3109ffcdfb66af1e87944c2216a743d7557738e5e410f93ed269d09c2ae74e90",
       "byteLength": 67005,
       "rawPath": "netkeiba/horses/2014/2014102264/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:14:03.688Z"
+  "updatedAt": "2026-08-28T07:19:55.468Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103414",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103414/",
-  "profile": null,
+  "profile": {
+    "name": "ムジェロ",
+    "birthDate": "2020-01-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シーヴ Sheave(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3202,6 +3232,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムジェロ (Mugello) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムジェロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムジェロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3271,9 +3331,9 @@
       "contentHash": "b907c1dfb454a7a91543be413ee8469a6a83bf42e5d8b4480370e62bffa6b21f",
       "byteLength": 67004,
       "rawPath": "netkeiba/horses/2020/2020103414/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:36:13.627Z"
+  "updatedAt": "2026-08-30T06:43:29.220Z"
 }

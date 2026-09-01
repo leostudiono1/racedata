@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100004",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100004/",
-  "profile": null,
+  "profile": {
+    "name": "バスキュラリティ",
+    "birthDate": "2022-01-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "林幻"
+    },
+    "owner": {
+      "id": "x0bb69",
+      "name": "寺島能史"
+    },
+    "breeder": {
+      "id": "230044",
+      "name": "秋場牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2016110165",
+      "name": "グランドクララ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Frankel"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2220,6 +2250,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バスキュラリティ (Vascularity) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バスキュラリティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バスキュラリティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2289,9 +2349,9 @@
       "contentHash": "c4e16ef2d9b07b44b0f840ec8fa9ad518685700624b872a166c1e1bc395a0c33",
       "byteLength": 66070,
       "rawPath": "netkeiba/horses/2022/2022100004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:40:22.934Z"
+  "updatedAt": "2026-08-24T12:48:34.930Z"
 }

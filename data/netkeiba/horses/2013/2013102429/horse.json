@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102429",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102429/",
-  "profile": null,
+  "profile": {
+    "name": "コイキ",
+    "birthDate": "2013-04-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "812008",
+      "name": "石瀬浩三"
+    },
+    "breeder": {
+      "id": "033025",
+      "name": "中田英樹"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "2008103676",
+      "name": "ミヤビリリー"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -1345,6 +1375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コイキ (Koiki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コイキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コイキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1414,9 +1474,9 @@
       "contentHash": "0e315be7b3b34c815b4ad36614336c060f971ebbe1771cb3c52739657806eefe",
       "byteLength": 64180,
       "rawPath": "netkeiba/horses/2013/2013102429/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:37:31.451Z"
+  "updatedAt": "2026-08-29T06:44:33.883Z"
 }

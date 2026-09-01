@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104194",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104194/",
-  "profile": null,
+  "profile": {
+    "name": "ルーフ",
+    "birthDate": "2020-03-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01110",
+      "name": "清水久詞"
+    },
+    "owner": {
+      "id": "115031",
+      "name": "白日光"
+    },
+    "breeder": {
+      "id": "233078",
+      "name": "坂本智広"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2015110006",
+      "name": "ラスエモーショネス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3591,6 +3621,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルーフ (Ruh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルーフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルーフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3660,9 +3720,9 @@
       "contentHash": "33d3b02b55c41d6b7479cb7122b52b2ff4d72061561d6ac3a762ba3a49eba161",
       "byteLength": 66755,
       "rawPath": "netkeiba/horses/2020/2020104194/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:09:26.641Z"
+  "updatedAt": "2026-08-29T07:16:28.691Z"
 }

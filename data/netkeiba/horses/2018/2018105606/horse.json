@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105606",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105606/",
-  "profile": null,
+  "profile": {
+    "name": "パワフルダンサー",
+    "birthDate": "2018-03-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "903007",
+      "name": "前迫義幸"
+    },
+    "breeder": {
+      "id": "343374",
+      "name": "上水牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2007110005",
+      "name": "カクタスペア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lion Heart"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1166,6 +1196,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パワフルダンサー (Powerful Dancer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パワフルダンサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パワフルダンサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1235,9 +1295,9 @@
       "contentHash": "90b81ed4151afe8ef5de5c51448669267e5fc9f25e9627c03f430ac4ebc6eb68",
       "byteLength": 65093,
       "rawPath": "netkeiba/horses/2018/2018105606/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:53:05.627Z"
+  "updatedAt": "2026-08-26T09:01:44.868Z"
 }

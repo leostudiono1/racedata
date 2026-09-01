@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103382",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103382/",
-  "profile": null,
+  "profile": {
+    "name": "マルニ",
+    "birthDate": "2016-05-05",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "833394",
+      "name": "戸川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2001102948",
+      "name": "メジロフランシス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "カーネギー Carnegie(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1461,6 +1491,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マルニ (Marni) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マルニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マルニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1530,9 +1590,9 @@
       "contentHash": "dd0d6bb074cc0e16410abd03a25b8f1c18ba54de5adfd7918e4d30d09d941418",
       "byteLength": 67208,
       "rawPath": "netkeiba/horses/2016/2016103382/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:17:43.678Z"
+  "updatedAt": "2026-08-30T06:24:59.411Z"
 }

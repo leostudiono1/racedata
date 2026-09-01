@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104737",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104737/",
-  "profile": null,
+  "profile": {
+    "name": "レアリスタ",
+    "birthDate": "2012-04-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "1994109536",
+      "name": "トキオリアリティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Meadowlake"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2628,6 +2658,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レアリスタ (Realista) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアリスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアリスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2697,9 +2757,9 @@
       "contentHash": "af3924d081c0f0cfb5f315e17e3eaee349a567d45397a09f0870535f1f3fa084",
       "byteLength": 67290,
       "rawPath": "netkeiba/horses/2012/2012104737/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:51:20.936Z"
+  "updatedAt": "2026-08-27T08:03:16.733Z"
 }

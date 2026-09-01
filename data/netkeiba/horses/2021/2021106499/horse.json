@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106499",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106499/",
-  "profile": null,
+  "profile": {
+    "name": "キーナイス",
+    "birthDate": "2021-04-05",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "800311",
+      "name": "中本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006104736",
+      "name": "トランセンド"
+    },
+    "dam": {
+      "id": "2003104182",
+      "name": "キーレター"
+    },
+    "damsire": {
+      "id": "1988107894",
+      "name": "リンドシェーバー"
+    }
+  },
   "pedigree": [
     {
       "id": "2006104736",
@@ -6394,6 +6424,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーナイス (Key Nice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーナイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーナイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6463,9 +6523,9 @@
       "contentHash": "c1746b0d2dc23b3f7392d6bd6973ef149280956f748671db8bbb60d1ae5749bd",
       "byteLength": 66691,
       "rawPath": "netkeiba/horses/2021/2021106499/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:39:48.140Z"
+  "updatedAt": "2026-08-24T12:47:59.672Z"
 }

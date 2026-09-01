@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110113",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110113/",
-  "profile": null,
+  "profile": {
+    "name": "インプロスペクト",
+    "birthDate": "2010-05-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810704",
+      "name": "Avalon Farms Inc."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Bernstein"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Clouds of Gold"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Strike the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1560,6 +1590,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インプロスペクト (In Prospect) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インプロスペクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インプロスペクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1629,9 +1689,9 @@
       "contentHash": "b56407cf93dc7e980c0a8fed00a9edcea98d1a7f8681d4e85857195f8fa41a23",
       "byteLength": 65368,
       "rawPath": "netkeiba/horses/2010/2010110113/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:22:16.291Z"
+  "updatedAt": "2026-08-26T08:30:56.148Z"
 }

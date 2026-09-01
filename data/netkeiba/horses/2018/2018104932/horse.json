@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104932",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104932/",
-  "profile": null,
+  "profile": {
+    "name": "アスクヒーロー",
+    "birthDate": "2018-05-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "037803",
+      "name": "廣崎利洋ＨＤ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2009106267",
+      "name": "ウインミーティア"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1723,6 +1753,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アスクヒーロー (Ask Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスクヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アスクヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1792,9 +1852,9 @@
       "contentHash": "287b24e8f754c66595dffcbc29c3d53ac7bb266e7c47199eb0fa670b09330653",
       "byteLength": 66956,
       "rawPath": "netkeiba/horses/2018/2018104932/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:01:12.982Z"
+  "updatedAt": "2026-08-29T07:08:15.210Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100733",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100733/",
-  "profile": null,
+  "profile": {
+    "name": "フライトマップ",
+    "birthDate": "2023-02-28",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ケ崎一"
+    },
+    "owner": {
+      "id": "x0ae02",
+      "name": "鈴木道隆"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Liam's Map"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エノラゲイ Enola Gay(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1166,6 +1196,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フライトマップ (Flight Map) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライトマップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライトマップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1235,9 +1295,9 @@
       "contentHash": "8e5d2a217a9323710510c5a94ead527a7fc61ad85284bdc68b45c50beee4f7e3",
       "byteLength": 65921,
       "rawPath": "netkeiba/horses/2023/2023100733/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:33:54.498Z"
+  "updatedAt": "2026-08-31T06:39:10.559Z"
 }

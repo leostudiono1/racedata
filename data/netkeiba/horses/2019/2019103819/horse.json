@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103819",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103819/",
-  "profile": null,
+  "profile": {
+    "name": "スカイシャイン",
+    "birthDate": "2019-03-31",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "064031",
+      "name": "小島俊治"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2013103600",
+      "name": "アドマイヤヒナタ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1330,6 +1360,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイシャイン (Sky Shine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイシャイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイシャイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1399,9 +1459,9 @@
       "contentHash": "66ffad084c43102d210b8da02257de3cfcf995110813ca67dad110aa76997ee1",
       "byteLength": 66213,
       "rawPath": "netkeiba/horses/2019/2019103819/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:32:01.503Z"
+  "updatedAt": "2026-08-30T06:39:17.238Z"
 }

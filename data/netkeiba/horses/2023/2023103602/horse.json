@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103602",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103602/",
-  "profile": null,
+  "profile": {
+    "name": "モーリア",
+    "birthDate": "2023-04-08",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2015104621",
+      "name": "レッドフィオナ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1351,6 +1381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーリア (Mauriat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1420,9 +1480,9 @@
       "contentHash": "9064b30bb0cf4e655d6b8714023b7adfd193b560f281284ae7f109bccbb0225b",
       "byteLength": 66196,
       "rawPath": "netkeiba/horses/2023/2023103602/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:48:18.198Z"
+  "updatedAt": "2026-08-30T06:55:33.923Z"
 }

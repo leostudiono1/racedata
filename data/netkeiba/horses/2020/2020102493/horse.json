@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102493",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102493/",
-  "profile": null,
+  "profile": {
+    "name": "スタンレー",
+    "birthDate": "2020-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05697",
+      "name": "後藤正義"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "2015101118",
+      "name": "トーセンエポック"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4956,6 +4986,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スタンレー (Stanley) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタンレー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタンレー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5025,9 +5085,9 @@
       "contentHash": "68d7342ba4a8185aeeb888eb10b238a5a0cddc8f3bb6698585578ce645495d37",
       "byteLength": 66956,
       "rawPath": "netkeiba/horses/2020/2020102493/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:07:59.647Z"
+  "updatedAt": "2026-08-29T07:15:01.207Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100258",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100258/",
-  "profile": null,
+  "profile": {
+    "name": "セイウンダマシイ",
+    "birthDate": "2020-02-16",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05466",
+      "name": "山口浩幸"
+    },
+    "owner": {
+      "id": "094031",
+      "name": "冨田藤男"
+    },
+    "breeder": {
+      "id": "043063",
+      "name": "タツヤファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103722",
+      "name": "ネロ"
+    },
+    "dam": {
+      "id": "2014100827",
+      "name": "ラソ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103722",
@@ -5345,6 +5375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイウンダマシイ (Seiun Damashii) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイウンダマシイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイウンダマシイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5414,9 +5474,9 @@
       "contentHash": "cd31105e64c3d74012765dca3e06b6768efdc6b77a4e0089e2392e7a8ea601bd",
       "byteLength": 67142,
       "rawPath": "netkeiba/horses/2020/2020100258/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:20:28.931Z"
+  "updatedAt": "2026-08-31T06:25:45.693Z"
 }

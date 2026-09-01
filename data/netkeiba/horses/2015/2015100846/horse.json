@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100846",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100846/",
-  "profile": null,
+  "profile": {
+    "name": "アビーム",
+    "birthDate": "2015-04-18",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01059",
+      "name": "加藤征弘"
+    },
+    "owner": {
+      "id": "032800",
+      "name": "ローレルレーシング"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2006103086",
+      "name": "ジターナ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2842,6 +2872,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アビーム (Abeam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アビーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アビーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2911,9 +2971,9 @@
       "contentHash": "f012e49a54f82f9453704bccb6791f5a47b5ce00460b76c2c89575aa392b4b71",
       "byteLength": 67331,
       "rawPath": "netkeiba/horses/2015/2015100846/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:12:00.542Z"
+  "updatedAt": "2026-08-30T06:19:16.188Z"
 }

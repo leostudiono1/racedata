@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102753",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102753/",
-  "profile": null,
+  "profile": {
+    "name": "フェイクプロミス",
+    "birthDate": "2013-04-18",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "140100",
+      "name": "小野瀬竜馬"
+    },
+    "birthplace": "清水町",
+    "sire": {
+      "id": "2004106583",
+      "name": "ビービーガルダン"
+    },
+    "dam": {
+      "id": "1996104164",
+      "name": "チーマ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ミルジョージ"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106583",
@@ -3863,6 +3893,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェイクプロミス (Fake Promise) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイクプロミス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイクプロミス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3932,9 +3992,9 @@
       "contentHash": "ae19d3539f1d3836ac4d6cd377157ccfac9048850220726098151ae632dae249",
       "byteLength": 64673,
       "rawPath": "netkeiba/horses/2013/2013102753/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:03:53.920Z"
+  "updatedAt": "2026-08-30T06:11:09.615Z"
 }

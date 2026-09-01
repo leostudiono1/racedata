@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105545",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105545/",
-  "profile": null,
+  "profile": {
+    "name": "カシノハリウッド",
+    "birthDate": "2012-03-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "514009",
+      "name": "柏木務"
+    },
+    "breeder": {
+      "id": "800533",
+      "name": "丸幸小林牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2000104228",
+      "name": "ペガサスゴールド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Belong to Me"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -1545,6 +1575,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシノハリウッド (Kashino Hollywood) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノハリウッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノハリウッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1614,9 +1674,9 @@
       "contentHash": "114cd67034f41c35e686f8555dbad651a00e051610553872568d24fbd136296d",
       "byteLength": 64828,
       "rawPath": "netkeiba/horses/2012/2012105545/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:26:31.954Z"
+  "updatedAt": "2026-08-26T08:35:11.845Z"
 }

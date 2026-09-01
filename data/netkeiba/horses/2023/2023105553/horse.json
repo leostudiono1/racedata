@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105553",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105553/",
-  "profile": null,
+  "profile": {
+    "name": "ヘイマー",
+    "birthDate": "2023-03-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "855030",
+      "name": "田頭勇貴"
+    },
+    "breeder": {
+      "id": "550237",
+      "name": "那須野"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴァレリカ Vallericca(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dynaformer"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -2275,6 +2305,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘイマー (Heima) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘイマー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘイマー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2344,9 +2404,9 @@
       "contentHash": "ae586236ec7342731e65ce90a828a5dc1ef2d511b4a914fe7627e0b532c56cf4",
       "byteLength": 67168,
       "rawPath": "netkeiba/horses/2023/2023105553/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:48:08.577Z"
+  "updatedAt": "2026-08-24T12:56:20.328Z"
 }

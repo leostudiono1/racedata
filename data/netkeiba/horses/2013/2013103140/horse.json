@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103140",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103140/",
-  "profile": null,
+  "profile": {
+    "name": "ボタニカル",
+    "birthDate": "2013-02-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01029",
+      "name": "根本康広"
+    },
+    "owner": {
+      "id": "895800",
+      "name": "Ｂａｓｉｃ"
+    },
+    "breeder": {
+      "id": "200519",
+      "name": "藤春修二"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "2003106082",
+      "name": "ウエストワード"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -1221,6 +1251,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボタニカル (Botanical) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボタニカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボタニカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1290,9 +1350,9 @@
       "contentHash": "f6051916f39ed1f2b75435ed9ea5cf6030d61fc32911c8fe6a30aa0a2da4d6d6",
       "byteLength": 64735,
       "rawPath": "netkeiba/horses/2013/2013103140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:37:59.693Z"
+  "updatedAt": "2026-08-29T06:45:01.698Z"
 }

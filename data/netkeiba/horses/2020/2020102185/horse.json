@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102185",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102185/",
-  "profile": null,
+  "profile": {
+    "name": "アッティラ",
+    "birthDate": "2020-03-18",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05727",
+      "name": "福永敏"
+    },
+    "owner": {
+      "id": "365034",
+      "name": "菊地温以"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2013100928",
+      "name": "ショコラーチ"
+    },
+    "damsire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -4903,6 +4933,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アッティラ (Attila) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アッティラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アッティラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4972,9 +5032,9 @@
       "contentHash": "91d7328f17f33d65e88640832562d3430819b05545bac2f26d7b3c85e9d4594d",
       "byteLength": 66829,
       "rawPath": "netkeiba/horses/2020/2020102185/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:58:20.414Z"
+  "updatedAt": "2026-08-26T09:06:59.785Z"
 }

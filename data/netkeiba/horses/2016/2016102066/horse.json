@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102066",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102066/",
-  "profile": null,
+  "profile": {
+    "name": "フェイトフル",
+    "birthDate": "2016-05-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "藤川純"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "430019",
+      "name": "南部功"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2004102155",
+      "name": "ミスターキン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オジジアン Ogygian(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -7382,6 +7412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェイトフル (Fateful) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイトフル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェイトフル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7451,9 +7511,9 @@
       "contentHash": "3401fbb37cfbea219a6934f5a9159eca1f81d67830e0b553fcbede88b6224fc0",
       "byteLength": 66003,
       "rawPath": "netkeiba/horses/2016/2016102066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:15:17.553Z"
+  "updatedAt": "2026-08-24T12:23:29.116Z"
 }

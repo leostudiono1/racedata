@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110024",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110024/",
-  "profile": null,
+  "profile": {
+    "name": "プラウドデイ",
+    "birthDate": "2014-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "490707",
+      "name": "Don Alberto Corporation"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Proud Citizen"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Tiz Maie's Day"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2768,6 +2798,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プラウドデイ (Proud Day) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プラウドデイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プラウドデイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2837,9 +2897,9 @@
       "contentHash": "30edc3b9824d4e465508cc557d87dd6a850e057a9e0c9cd9f822281cd4240499",
       "byteLength": 66810,
       "rawPath": "netkeiba/horses/2014/2014110024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:57:08.337Z"
+  "updatedAt": "2026-08-31T06:02:25.361Z"
 }

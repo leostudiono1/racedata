@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106682",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106682/",
-  "profile": null,
+  "profile": {
+    "name": "フォーオール",
+    "birthDate": "2023-04-10",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "2014103365",
+      "name": "アンジュデジール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1339,6 +1369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォーオール (For All) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーオール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーオール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1408,9 +1468,9 @@
       "contentHash": "be1c7f137e32d97389ecda211d79e0aeaa03f0c91d3e9bceaea23cf82f5891cf",
       "byteLength": 65497,
       "rawPath": "netkeiba/horses/2023/2023106682/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:37:49.672Z"
+  "updatedAt": "2026-08-27T08:49:43.697Z"
 }

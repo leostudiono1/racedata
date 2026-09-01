@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102292",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102292/",
-  "profile": null,
+  "profile": {
+    "name": "ハローエンジェル",
+    "birthDate": "2022-05-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "玉垣光章"
+    },
+    "owner": {
+      "id": "625008",
+      "name": "廣崎智子"
+    },
+    "breeder": {
+      "id": "020541",
+      "name": "ＡＳＫＳＴＵＤ"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2014105077",
+      "name": "エンジェルドンキ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1832,6 +1862,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハローエンジェル (Hello Angel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハローエンジェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハローエンジェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1901,9 +1961,9 @@
       "contentHash": "af5deb4d6426ba10b36d0356b5ee1d397f4d67cd2ca44b8a5f8f578572381374",
       "byteLength": 65356,
       "rawPath": "netkeiba/horses/2022/2022102292/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:06:59.292Z"
+  "updatedAt": "2026-08-26T09:15:38.084Z"
 }

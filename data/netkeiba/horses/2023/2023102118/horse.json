@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102118",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102118/",
-  "profile": null,
+  "profile": {
+    "name": "レガーメ",
+    "birthDate": "2023-02-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "098803",
+      "name": "Ｇリビエール・レーシング"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015104995",
+      "name": "エタリオウ"
+    },
+    "dam": {
+      "id": "2014105857",
+      "name": "タオヤメ"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104995",
@@ -1139,6 +1169,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レガーメ (Legame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レガーメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レガーメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1208,9 +1268,9 @@
       "contentHash": "2f1da4ffde08406528d3ee9d26807cab513e4b9bb14ff901523b17ba37f4452c",
       "byteLength": 64629,
       "rawPath": "netkeiba/horses/2023/2023102118/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:47:32.722Z"
+  "updatedAt": "2026-08-30T06:54:48.434Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104310",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104310/",
-  "profile": null,
+  "profile": {
+    "name": "アイオリア",
+    "birthDate": "2022-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "149002",
+      "name": "井山登"
+    },
+    "breeder": {
+      "id": "063204",
+      "name": "服部牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2005100297",
+      "name": "スズカエルマンボ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1804,6 +1834,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイオリア (Aeolia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイオリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイオリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1873,9 +1933,9 @@
       "contentHash": "626987440e55d202365fbd0a12552472b53587c736eba1a7276a2bc2ea8f7ea6",
       "byteLength": 66872,
       "rawPath": "netkeiba/horses/2022/2022104310/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:44:55.117Z"
+  "updatedAt": "2026-08-30T06:52:10.985Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101041",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101041/",
-  "profile": null,
+  "profile": {
+    "name": "パイプライン",
+    "birthDate": "2017-03-08",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05625",
+      "name": "荒山勝徳"
+    },
+    "owner": {
+      "id": "519031",
+      "name": "土橋正雄"
+    },
+    "breeder": {
+      "id": "133543",
+      "name": "リコーファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2010103951",
+      "name": "シンクスマイル"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -3431,6 +3461,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パイプライン (Pipeline) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パイプライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パイプライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3500,9 +3560,9 @@
       "contentHash": "d094c034c5cf35ed1238db167e6f617059547d21d63685ae4cf310820db14d8d",
       "byteLength": 66917,
       "rawPath": "netkeiba/horses/2017/2017101041/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:20:56.122Z"
+  "updatedAt": "2026-08-30T06:28:12.010Z"
 }

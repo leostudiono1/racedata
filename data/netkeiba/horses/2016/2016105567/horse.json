@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105567",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105567/",
-  "profile": null,
+  "profile": {
+    "name": "ラドミュージシャン",
+    "birthDate": "2016-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01021",
+      "name": "池添兼雄"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006103140",
+      "name": "ロジユニヴァース"
+    },
+    "dam": {
+      "id": "2007102512",
+      "name": "ニシノフェミニン"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103140",
@@ -1126,6 +1156,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラドミュージシャン (Rad Musician) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラドミュージシャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラドミュージシャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1195,9 +1255,9 @@
       "contentHash": "ffed8c0ef2993bee6b2f4a41aa20094318784f2099fc34ab6c9c9a9f3b416d56",
       "byteLength": 65595,
       "rawPath": "netkeiba/horses/2016/2016105567/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:08:37.647Z"
+  "updatedAt": "2026-08-27T08:20:33.524Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010109123",
   "sourceUrl": "https://db.netkeiba.com/horse/2010109123/",
-  "profile": null,
+  "profile": {
+    "name": "ルー",
+    "birthDate": "2010-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "473008",
+      "name": "武田茂男"
+    },
+    "breeder": {
+      "id": "733470",
+      "name": "前田宗将"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ケイムホーム Came Home(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ブルーチャーム Blue Charm(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kings Lake"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5010,6 +5040,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルー (Lugh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5079,9 +5139,9 @@
       "contentHash": "1d0ee509e17d5fa4ba01f8235ca290515b78c2c1fc115fda40bf11e35acb1f7c",
       "byteLength": 65604,
       "rawPath": "netkeiba/horses/2010/2010109123/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:22:13.059Z"
+  "updatedAt": "2026-08-26T08:30:52.769Z"
 }

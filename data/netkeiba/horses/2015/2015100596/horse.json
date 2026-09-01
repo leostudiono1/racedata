@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100596",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100596/",
-  "profile": null,
+  "profile": {
+    "name": "ポールウィン",
+    "birthDate": "2015-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2011110026",
+      "name": "アンファミーユ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -979,6 +1009,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポールウィン (Pole Win) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポールウィン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポールウィン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1048,9 +1108,9 @@
       "contentHash": "6b7549ed8035235c2695551851065bcf5c1df691be1193e4312043657fd65140",
       "byteLength": 65345,
       "rawPath": "netkeiba/horses/2015/2015100596/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:36:48.107Z"
+  "updatedAt": "2026-08-26T08:45:27.857Z"
 }

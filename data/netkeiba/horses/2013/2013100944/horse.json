@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100944",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100944/",
-  "profile": null,
+  "profile": {
+    "name": "セレンディップ",
+    "birthDate": "2013-04-04",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "265006",
+      "name": "星野壽市"
+    },
+    "breeder": {
+      "id": "413329",
+      "name": "前野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2001102790",
+      "name": "オペラレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2348,6 +2378,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セレンディップ (Serendip) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレンディップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレンディップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2417,9 +2477,9 @@
       "contentHash": "217391fd65c3a6c0e5ea6d465b51b30e349256a4c16d54bbfec80e953373ecb5",
       "byteLength": 66212,
       "rawPath": "netkeiba/horses/2013/2013100944/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:52:55.464Z"
+  "updatedAt": "2026-08-27T08:04:51.354Z"
 }

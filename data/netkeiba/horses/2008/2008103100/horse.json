@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008103100",
   "sourceUrl": "https://db.netkeiba.com/horse/2008103100/",
-  "profile": null,
+  "profile": {
+    "name": "ミトラ",
+    "birthDate": "2008-04-11",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2000101618",
+      "name": "エイグレット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -3494,6 +3524,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミトラ (Mitra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミトラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミトラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3563,9 +3623,9 @@
       "contentHash": "e15b914f870829c916d72ca09a21f6b32e0aacbf2308a00e012790032bf1f990",
       "byteLength": 66745,
       "rawPath": "netkeiba/horses/2008/2008103100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:19:59.933Z"
+  "updatedAt": "2026-08-26T08:28:39.663Z"
 }

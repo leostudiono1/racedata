@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107014",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107014/",
-  "profile": null,
+  "profile": {
+    "name": "ノックシュライン",
+    "birthDate": "2022-01-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "高馬元紘"
+    },
+    "owner": {
+      "id": "555031",
+      "name": "村木克成"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "Omaha Beach (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ノック Knock(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1275,6 +1305,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノックシュライン (Knock Shrine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノックシュライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノックシュライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1344,9 +1404,9 @@
       "contentHash": "ee142264372f6694f88997723b47e204cd1bef0bd87e271a8de8ac35fd0990cc",
       "byteLength": 64847,
       "rawPath": "netkeiba/horses/2022/2022107014/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:33:12.106Z"
+  "updatedAt": "2026-08-31T06:38:28.638Z"
 }

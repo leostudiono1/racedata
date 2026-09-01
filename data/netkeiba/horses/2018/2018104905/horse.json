@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104905",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104905/",
-  "profile": null,
+  "profile": {
+    "name": "セラスチューム",
+    "birthDate": "2018-04-25",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "542800",
+      "name": "ライオンレースホース"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アピールII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Selkirk"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2203,6 +2233,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セラスチューム (Cerastium) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラスチューム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラスチューム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2272,9 +2332,9 @@
       "contentHash": "9ed027d92284e59cdfebc92c3c76342d1a9581143f97eb36892d38cae84e754e",
       "byteLength": 67547,
       "rawPath": "netkeiba/horses/2018/2018104905/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:01:09.578Z"
+  "updatedAt": "2026-08-29T07:08:11.563Z"
 }

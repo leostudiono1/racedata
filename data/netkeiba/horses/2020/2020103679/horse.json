@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103679",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103679/",
-  "profile": null,
+  "profile": {
+    "name": "ダニーデン",
+    "birthDate": "2020-01-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01182",
+      "name": "辻哲英"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リアリサトリス Realisatrice(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Numerous"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2359,6 +2389,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダニーデン (Dunedin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダニーデン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダニーデン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2428,9 +2488,9 @@
       "contentHash": "7edaf303cd71f675bbaf6168926921f0b75721d2d70a7d719eb79706c60995ce",
       "byteLength": 66863,
       "rawPath": "netkeiba/horses/2020/2020103679/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:33:57.731Z"
+  "updatedAt": "2026-08-24T12:42:09.554Z"
 }

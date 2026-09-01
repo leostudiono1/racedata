@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100091",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100091/",
-  "profile": null,
+  "profile": {
+    "name": "シャインアロー",
+    "birthDate": "2012-04-04",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "548009",
+      "name": "岡田勇"
+    },
+    "breeder": {
+      "id": "330512",
+      "name": "大狩部牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2002105448",
+      "name": "インフレッタ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -4539,6 +4569,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャインアロー (Shine Arrow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャインアロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャインアロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4608,9 +4668,9 @@
       "contentHash": "ead75865dea5740f417d166a1914a7f736655538a5d426de441a339cf48abc3a",
       "byteLength": 66927,
       "rawPath": "netkeiba/horses/2012/2012100091/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:32:20.204Z"
+  "updatedAt": "2026-08-29T06:39:22.016Z"
 }

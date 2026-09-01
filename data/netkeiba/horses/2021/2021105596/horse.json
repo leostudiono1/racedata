@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105596",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105596/",
-  "profile": null,
+  "profile": {
+    "name": "シトラール",
+    "birthDate": "2021-03-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01222",
+      "name": "古賀大生"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジンジャーパンチ Ginger Punch(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Awesome Again (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -1901,6 +1931,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シトラール (Citral) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シトラール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シトラール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1970,9 +2030,9 @@
       "contentHash": "16497ae340db802a626b47652493fa3e30cf8088741781b3353cb2dc0e902921",
       "byteLength": 67233,
       "rawPath": "netkeiba/horses/2021/2021105596/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:41:25.093Z"
+  "updatedAt": "2026-08-30T06:48:40.802Z"
 }

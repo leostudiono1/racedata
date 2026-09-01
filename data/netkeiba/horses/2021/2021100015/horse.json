@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100015",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100015/",
-  "profile": null,
+  "profile": {
+    "name": "キラン",
+    "birthDate": "2021-03-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "酒井仁"
+    },
+    "owner": {
+      "id": "x0a39a",
+      "name": "安田功夫"
+    },
+    "breeder": {
+      "id": "003090",
+      "name": "乾皆雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2012103255",
+      "name": "ティアラトウショウ"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -5856,6 +5886,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キラン (Kiran) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5925,9 +5985,9 @@
       "contentHash": "7d93677f0fc48985e7ab75eaa956d24216e877a11fb8b262a3e1790dd2219613",
       "byteLength": 66796,
       "rawPath": "netkeiba/horses/2021/2021100015/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:11:26.114Z"
+  "updatedAt": "2026-08-29T07:18:28.012Z"
 }

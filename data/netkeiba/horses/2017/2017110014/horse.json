@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110014",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110014/",
-  "profile": null,
+  "profile": {
+    "name": "ミラードムーン",
+    "birthDate": "2017-03-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "190865",
+      "name": "Miss K. Rausing"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Sea The Moon (独)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Algarade"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1246,6 +1276,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミラードムーン (Mirrored Moon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミラードムーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミラードムーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1315,9 +1375,9 @@
       "contentHash": "36b580a8cccbacaf44a2a46318b87121b72bd1a66bc355f263510d82327c8210",
       "byteLength": 64505,
       "rawPath": "netkeiba/horses/2017/2017110014/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:11:01.643Z"
+  "updatedAt": "2026-08-31T06:16:18.587Z"
 }

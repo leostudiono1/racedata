@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103507",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103507/",
-  "profile": null,
+  "profile": {
+    "name": "アークレアル",
+    "birthDate": "2021-01-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01029",
+      "name": "根本康広"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2004104861",
+      "name": "タニノハイクレア"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2711,6 +2741,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アークレアル (Arc Real) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークレアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークレアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2780,9 +2840,9 @@
       "contentHash": "ba96a7b5dc610fdab35a2d9d2589da5aa43565648f8a3469e743c2fa4d90ab33",
       "byteLength": 66795,
       "rawPath": "netkeiba/horses/2021/2021103507/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:37:34.895Z"
+  "updatedAt": "2026-08-24T12:45:46.536Z"
 }

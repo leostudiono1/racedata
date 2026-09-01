@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024106974",
   "sourceUrl": "https://db.netkeiba.com/horse/2024106974/",
-  "profile": null,
+  "profile": {
+    "name": "ワンコール",
+    "birthDate": "2024-03-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "011008",
+      "name": "平田修"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2013105665",
+      "name": "ウィズエモーション"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1129,6 +1159,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワンコール (One Call) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンコール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンコール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1198,9 +1258,9 @@
       "contentHash": "1c0e439be23d9597b708c234cce3b847073384ee6aa9e6dda5771408e3b3a085",
       "byteLength": 65282,
       "rawPath": "netkeiba/horses/2024/2024106974/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:25:12.028Z"
+  "updatedAt": "2026-08-29T07:32:13.890Z"
 }

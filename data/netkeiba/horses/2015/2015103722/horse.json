@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103722",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103722/",
-  "profile": null,
+  "profile": {
+    "name": "サルサデージャ",
+    "birthDate": "2015-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "1999110062",
+      "name": "グリーリーランド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -1409,6 +1439,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サルサデージャ (Zarzadilla) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルサデージャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルサデージャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1478,9 +1538,9 @@
       "contentHash": "a396ae952572a036140f11bd579a28a11c5a26cb9ee160a0b1615f72be02b9c4",
       "byteLength": 64764,
       "rawPath": "netkeiba/horses/2015/2015103722/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:59:49.330Z"
+  "updatedAt": "2026-08-31T06:05:06.328Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102404",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102404/",
-  "profile": null,
+  "profile": {
+    "name": "プレイザゲーム",
+    "birthDate": "2013-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "798033",
+      "name": "山口裕介"
+    },
+    "breeder": {
+      "id": "403021",
+      "name": "土田農場"
+    },
+    "birthplace": "新ひだか",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2001101099",
+      "name": "ノーザンスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "カーネギー Carnegie(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3381,6 +3411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレイザゲーム (Play the Game) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレイザゲーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレイザゲーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3450,9 +3510,9 @@
       "contentHash": "7608042d369da963c8add7486729e90ccfcfcf8b1e9557d5c9831dc3ac3aa5ea",
       "byteLength": 66640,
       "rawPath": "netkeiba/horses/2013/2013102404/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:50:04.620Z"
+  "updatedAt": "2026-08-31T05:55:21.343Z"
 }

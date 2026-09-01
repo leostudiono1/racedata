@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107030",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107030/",
-  "profile": null,
+  "profile": {
+    "name": "レジリエント",
+    "birthDate": "2022-03-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05033",
+      "name": "菅原右吉"
+    },
+    "owner": {
+      "id": "290006",
+      "name": "栗坂崇"
+    },
+    "breeder": {
+      "id": "790543",
+      "name": "村上進治"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エメラルドスター Emerald Star(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mount Nelson (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -2575,6 +2605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レジリエント (Resilient) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レジリエント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レジリエント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2644,9 +2704,9 @@
       "contentHash": "8144648f743aebc372273aa4dd37008f74a161abf3cb5386e2d6461d68a5e50f",
       "byteLength": 65550,
       "rawPath": "netkeiba/horses/2022/2022107030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:10:08.385Z"
+  "updatedAt": "2026-08-26T09:18:47.038Z"
 }

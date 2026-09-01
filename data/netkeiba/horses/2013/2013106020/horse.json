@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106020",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106020/",
-  "profile": null,
+  "profile": {
+    "name": "リュラ",
+    "birthDate": "2013-04-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2005102664",
+      "name": "ヒストリックスター"
+    },
+    "damsire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1426,6 +1456,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リュラ (Lyra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リュラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リュラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1495,9 +1555,9 @@
       "contentHash": "3e82d6f6c52c115e96df6483c60091a4ba8f8e7260c38277396b0b191df446f0",
       "byteLength": 67083,
       "rawPath": "netkeiba/horses/2013/2013106020/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:05:18.630Z"
+  "updatedAt": "2026-08-24T12:13:30.450Z"
 }

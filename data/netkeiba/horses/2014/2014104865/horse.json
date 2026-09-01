@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104865",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104865/",
-  "profile": null,
+  "profile": {
+    "name": "エーティーライデン",
+    "birthDate": "2014-04-05",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01057",
+      "name": "湯窪幸雄"
+    },
+    "owner": {
+      "id": "878005",
+      "name": "荒木徹"
+    },
+    "breeder": {
+      "id": "703082",
+      "name": "飛野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2006110003",
+      "name": "ピサノレインボー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rainbow Quest (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2656,6 +2686,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エーティーライデン (A T Raiden) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーティーライデン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーティーライデン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2725,9 +2785,9 @@
       "contentHash": "a9518e673487aba2a9bb926b37c965b086bab405893e94a29379d0e904fc5fd0",
       "byteLength": 64755,
       "rawPath": "netkeiba/horses/2014/2014104865/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:59:55.613Z"
+  "updatedAt": "2026-08-27T08:11:51.502Z"
 }

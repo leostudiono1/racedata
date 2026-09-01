@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101444",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101444/",
-  "profile": null,
+  "profile": {
+    "name": "インスウィング",
+    "birthDate": "2023-03-15",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "221030",
+      "name": "本間充"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "2010105843",
+      "name": "アルカナ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1593,6 +1623,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インスウィング (In Swing) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスウィング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスウィング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1662,9 +1722,9 @@
       "contentHash": "ca3c11f6c787d2e526ac2e1a49f519590d943453b9e2ac86edefec865461d2e6",
       "byteLength": 66077,
       "rawPath": "netkeiba/horses/2023/2023101444/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:11:11.332Z"
+  "updatedAt": "2026-08-26T09:19:50.088Z"
 }

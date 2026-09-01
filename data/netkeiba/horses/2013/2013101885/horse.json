@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101885",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101885/",
-  "profile": null,
+  "profile": {
+    "name": "アンスリウム",
+    "birthDate": "2013-04-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01010",
+      "name": "中野栄治"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    },
+    "dam": {
+      "id": "2001100353",
+      "name": "アルストロメリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005190006",
@@ -1134,6 +1164,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンスリウム (Anthurium) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンスリウム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンスリウム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1203,9 +1263,9 @@
       "contentHash": "b6dff187ae3fc8c30eca5dd9e08a09dc13c67d1ed22d25cc390f3b8b6483d665",
       "byteLength": 64730,
       "rawPath": "netkeiba/horses/2013/2013101885/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:37:21.004Z"
+  "updatedAt": "2026-08-29T06:44:23.283Z"
 }

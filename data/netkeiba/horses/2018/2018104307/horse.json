@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104307",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104307/",
-  "profile": null,
+  "profile": {
+    "name": "ヴァロワール",
+    "birthDate": "2018-04-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "548033",
+      "name": "奥裕嗣"
+    },
+    "breeder": {
+      "id": "413304",
+      "name": "藤沢牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2000101544",
+      "name": "ピンクガーター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1400,6 +1430,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴァロワール (Valoir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァロワール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァロワール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1469,9 +1529,9 @@
       "contentHash": "dd3191396dbc0f767c8406e74150922a5f5a36c217fb80a23fcce6d6e1b29d7d",
       "byteLength": 64670,
       "rawPath": "netkeiba/horses/2018/2018104307/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:25:16.025Z"
+  "updatedAt": "2026-08-24T12:33:27.794Z"
 }

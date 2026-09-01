@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101412",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101412/",
-  "profile": null,
+  "profile": {
+    "name": "スカイハイ",
+    "birthDate": "2021-04-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01110",
+      "name": "清水久詞"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2006105475",
+      "name": "タイキオードリー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -2940,6 +2970,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイハイ (Sky High) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイハイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイハイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3009,9 +3069,9 @@
       "contentHash": "5b3aaf55e321a23b930cce01c7d557994c78d260eb7d17cb0da45c565e50abd2",
       "byteLength": 66883,
       "rawPath": "netkeiba/horses/2021/2021101412/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:42:39.257Z"
+  "updatedAt": "2026-08-28T07:48:31.031Z"
 }

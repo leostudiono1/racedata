@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013109150",
   "sourceUrl": "https://db.netkeiba.com/horse/2013109150/",
-  "profile": null,
+  "profile": {
+    "name": "カノヤハンター",
+    "birthDate": "2013-04-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00356",
+      "name": "坂口正則"
+    },
+    "owner": {
+      "id": "748001",
+      "name": "神田薫"
+    },
+    "breeder": {
+      "id": "300187",
+      "name": "田原牧場"
+    },
+    "birthplace": "鹿児島県",
+    "sire": {
+      "id": "1993104485",
+      "name": "サイレントハンター"
+    },
+    "dam": {
+      "id": "2006102530",
+      "name": "カノヤグッドラック"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1993104485",
@@ -1121,6 +1151,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カノヤハンター (Kanoya Hunter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カノヤハンター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カノヤハンター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1190,9 +1250,9 @@
       "contentHash": "c78d61846d692befea429fca7574f57c2a9f160cc01073aaf6422a592421afed",
       "byteLength": 64456,
       "rawPath": "netkeiba/horses/2013/2013109150/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:12:08.107Z"
+  "updatedAt": "2026-08-28T07:18:00.035Z"
 }

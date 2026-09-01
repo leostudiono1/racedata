@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104939",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104939/",
-  "profile": null,
+  "profile": {
+    "name": "エシカル",
+    "birthDate": "2018-04-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ウーマンシークレット Woman Secret(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2030,6 +2060,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エシカル (Ethical) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エシカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エシカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2099,9 +2159,9 @@
       "contentHash": "25c8027aa9ecf547cfe02b2ec76b50b61307bd48c69e77cf508ca797ddfa9992",
       "byteLength": 66805,
       "rawPath": "netkeiba/horses/2018/2018104939/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:52:19.826Z"
+  "updatedAt": "2026-08-26T09:00:59.207Z"
 }

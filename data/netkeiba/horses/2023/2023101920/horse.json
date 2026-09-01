@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101920",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101920/",
-  "profile": null,
+  "profile": {
+    "name": "ビッグチャン",
+    "birthDate": "2023-04-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05509",
+      "name": "米川昇"
+    },
+    "owner": {
+      "id": "x0aef7",
+      "name": "須賀利行"
+    },
+    "breeder": {
+      "id": "930495",
+      "name": "様似堀牧場"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2012106303",
+      "name": "オクテットバレー"
+    },
+    "damsire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1526,6 +1556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビッグチャン (Big Chan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッグチャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッグチャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1595,9 +1655,9 @@
       "contentHash": "ed49977c0f7ff9e2ba79ca0dba95b7c801f2292e8e58059d74b497834d5b0d17",
       "byteLength": 65233,
       "rawPath": "netkeiba/horses/2023/2023101920/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:47:22.157Z"
+  "updatedAt": "2026-08-30T06:54:38.045Z"
 }

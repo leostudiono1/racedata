@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010105893",
   "sourceUrl": "https://db.netkeiba.com/horse/2010105893/",
-  "profile": null,
+  "profile": {
+    "name": "コウセン",
+    "birthDate": "2010-03-29",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01026",
+      "name": "鈴木伸尋"
+    },
+    "owner": {
+      "id": "099007",
+      "name": "西村專次"
+    },
+    "breeder": {
+      "id": "000319",
+      "name": "ヒカル牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "1999104317",
+      "name": "グリーンヒルマック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ダンシングブレーヴ Dancing Brave(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -3576,6 +3606,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コウセン (Kosen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウセン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウセン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3645,9 +3705,9 @@
       "contentHash": "b8ce940c51ed001acb62c3e6d5bfd40d618a1c796ba094fcd31b8ec688cfe275",
       "byteLength": 66041,
       "rawPath": "netkeiba/horses/2010/2010105893/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:21:55.796Z"
+  "updatedAt": "2026-08-26T08:30:35.215Z"
 }

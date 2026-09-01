@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104914",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104914/",
-  "profile": null,
+  "profile": {
+    "name": "ガンミ",
+    "birthDate": "2014-05-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "986033",
+      "name": "佐久間拓士"
+    },
+    "breeder": {
+      "id": "533087",
+      "name": "西村和夫"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2006100329",
+      "name": "スピネッタ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1262,6 +1292,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガンミ (Gammi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガンミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガンミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1331,9 +1391,9 @@
       "contentHash": "4bca9086018469e2e482b0de981c1491687c589819cbf03b1738d1fe8313086d",
       "byteLength": 64247,
       "rawPath": "netkeiba/horses/2014/2014104914/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:56:23.345Z"
+  "updatedAt": "2026-08-25T11:05:31.337Z"
 }

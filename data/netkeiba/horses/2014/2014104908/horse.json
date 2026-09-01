@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104908",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104908/",
-  "profile": null,
+  "profile": {
+    "name": "アインシュタイン",
+    "birthDate": "2014-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "172002",
+      "name": "池谷誠一"
+    },
+    "breeder": {
+      "id": "533087",
+      "name": "西村和夫"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "1999107009",
+      "name": "コマチエクスプレス"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1144,6 +1174,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アインシュタイン (Einstein) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アインシュタイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アインシュタイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1213,9 +1273,9 @@
       "contentHash": "5b8b9db9b8ed9ac40cad2d0ebbd87a0b71106fa03451f551771eb6fe7a32a57a",
       "byteLength": 65872,
       "rawPath": "netkeiba/horses/2014/2014104908/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:15:59.597Z"
+  "updatedAt": "2026-08-28T07:21:51.118Z"
 }

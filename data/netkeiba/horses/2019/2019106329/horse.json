@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106329",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106329/",
-  "profile": null,
+  "profile": {
+    "name": "フォーブス",
+    "birthDate": "2019-02-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ゴーイントゥザウィンドウ Goin to the Window(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1492,6 +1522,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォーブス (Forbes) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーブス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーブス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1561,9 +1621,9 @@
       "contentHash": "212d35ea1d0554f960dc704538557746804545cfcf6bfb389f9b380138924455",
       "byteLength": 66872,
       "rawPath": "netkeiba/horses/2019/2019106329/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:31:20.218Z"
+  "updatedAt": "2026-08-24T12:39:31.912Z"
 }

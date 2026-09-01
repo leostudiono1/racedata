@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101111",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101111/",
-  "profile": null,
+  "profile": {
+    "name": "マインヒーロー",
+    "birthDate": "2018-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "684006",
+      "name": "峰哲馬"
+    },
+    "breeder": {
+      "id": "703322",
+      "name": "三輪牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006103308",
+      "name": "アンライバルド"
+    },
+    "dam": {
+      "id": "2004106332",
+      "name": "マキハタスリリング"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103308",
@@ -3563,6 +3593,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マインヒーロー (Mine Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マインヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マインヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3632,9 +3692,9 @@
       "contentHash": "95c3aa8939169544a9b763d2a5bfefb96a88f792de80dfd156c496df7fb551d3",
       "byteLength": 64557,
       "rawPath": "netkeiba/horses/2018/2018101111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:58:17.907Z"
+  "updatedAt": "2026-08-29T07:05:19.981Z"
 }

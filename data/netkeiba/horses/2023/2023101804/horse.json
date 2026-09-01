@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101804",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101804/",
-  "profile": null,
+  "profile": {
+    "name": "ジョイベル",
+    "birthDate": "2023-04-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "池田敦"
+    },
+    "owner": {
+      "id": "x0496a",
+      "name": "近藤秀典"
+    },
+    "breeder": {
+      "id": "900543",
+      "name": "富塚ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ノーブルミッション Noble Mission(英)"
+    },
+    "dam": {
+      "id": "2015102904",
+      "name": "ニホニウム"
+    },
+    "damsire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1250,6 +1280,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョイベル (Joy Belle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョイベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョイベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1319,9 +1379,9 @@
       "contentHash": "b85d011c679447d738693c095103148bcc3a3f66f59738eed41ec4798443dc01",
       "byteLength": 64554,
       "rawPath": "netkeiba/horses/2023/2023101804/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:45:13.527Z"
+  "updatedAt": "2026-08-24T12:53:25.421Z"
 }

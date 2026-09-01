@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110061",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110061/",
-  "profile": null,
+  "profile": {
+    "name": "ウリボー",
+    "birthDate": "2012-02-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05586",
+      "name": "柏原誠路"
+    },
+    "owner": {
+      "id": "338033",
+      "name": "冨士井直哉"
+    },
+    "breeder": {
+      "id": "300874",
+      "name": "Dr. Charles S. Giles"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Midshipman"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Honorable Peace"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Honor Grades"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -7473,6 +7503,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウリボー (Uribo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウリボー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウリボー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7542,9 +7602,9 @@
       "contentHash": "ee1c9ce8c27df83e4b53050bb4de9bfcfd5e12d1be1c1aee7e8687293d647c6b",
       "byteLength": 66731,
       "rawPath": "netkeiba/horses/2012/2012110061/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:08:20.779Z"
+  "updatedAt": "2026-08-28T07:14:12.359Z"
 }

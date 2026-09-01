@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103387",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103387/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウパワーズ",
+    "birthDate": "2011-03-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01099",
+      "name": "本田優"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "010056",
+      "name": "村下明博"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2005103338",
+      "name": "マイラッキー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -2120,6 +2150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウパワーズ (Meisho Powers) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウパワーズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウパワーズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2189,9 +2249,9 @@
       "contentHash": "6b68dd466b791cf655643ee339befc25bce0a32d41f890155f5047abe5e80a82",
       "byteLength": 66763,
       "rawPath": "netkeiba/horses/2011/2011103387/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:57:25.062Z"
+  "updatedAt": "2026-08-30T06:04:40.917Z"
 }

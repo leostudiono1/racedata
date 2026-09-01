@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110051",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110051/",
-  "profile": null,
+  "profile": {
+    "name": "ケルントナー",
+    "birthDate": "2017-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "630731",
+      "name": "Buscar Stables Inc."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sweet Dreams"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Candy Ride"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2354,6 +2384,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケルントナー (Karntner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルントナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケルントナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2423,9 +2483,9 @@
       "contentHash": "690060d53cf9f4cb55d35a4e3dc5204a4449e61d835aacfa0630b9ec6d89e75a",
       "byteLength": 65828,
       "rawPath": "netkeiba/horses/2017/2017110051/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:57:46.499Z"
+  "updatedAt": "2026-08-29T07:04:48.801Z"
 }

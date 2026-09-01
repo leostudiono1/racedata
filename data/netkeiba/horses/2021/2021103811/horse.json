@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103811",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103811/",
-  "profile": null,
+  "profile": {
+    "name": "マリリン",
+    "birthDate": "2021-03-01",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05762",
+      "name": "千葉幸喜"
+    },
+    "owner": {
+      "id": "853030",
+      "name": "小原準一郎"
+    },
+    "breeder": {
+      "id": "233078",
+      "name": "坂本智広"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2012110104",
+      "name": "ミタイナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Denman"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -1990,6 +2020,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マリリン (Marilyn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マリリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2059,9 +2119,9 @@
       "contentHash": "22c453712b0a25cde5cdcfa4f565a4ad9711dbd35dae0e52020c54c2d020200e",
       "byteLength": 65095,
       "rawPath": "netkeiba/horses/2021/2021103811/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:26:36.370Z"
+  "updatedAt": "2026-08-31T06:31:52.925Z"
 }

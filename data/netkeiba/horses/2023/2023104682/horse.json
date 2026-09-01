@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104682",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104682/",
-  "profile": null,
+  "profile": {
+    "name": "アミラル",
+    "birthDate": "2023-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01155",
+      "name": "渡辺薫彦"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "400317",
+      "name": "村田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2016100908",
+      "name": "ベルキューズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1599,6 +1629,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アミラル (Amiral) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アミラル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アミラル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1668,9 +1728,9 @@
       "contentHash": "d5712aba9f74c060b7ca2e4e8fd1a81d614eca94a3415833dd04205f626436bf",
       "byteLength": 65939,
       "rawPath": "netkeiba/horses/2023/2023104682/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:34:29.635Z"
+  "updatedAt": "2026-08-25T11:43:37.334Z"
 }

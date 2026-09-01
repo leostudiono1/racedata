@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100745",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100745/",
-  "profile": null,
+  "profile": {
+    "name": "リアル",
+    "birthDate": "2023-03-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05790",
+      "name": "五十嵐冬"
+    },
+    "owner": {
+      "id": "039034",
+      "name": "加藤天明"
+    },
+    "breeder": {
+      "id": "830468",
+      "name": "加藤ステーブル"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2008105447",
+      "name": "シナル"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1481,6 +1511,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアル (Real) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1550,9 +1610,9 @@
       "contentHash": "36b6bfbfb801714d5abb8a209ec63644a8c0af10f26dffaf9c5abed80da529bf",
       "byteLength": 66418,
       "rawPath": "netkeiba/horses/2023/2023100745/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:19:53.343Z"
+  "updatedAt": "2026-08-29T07:26:55.455Z"
 }

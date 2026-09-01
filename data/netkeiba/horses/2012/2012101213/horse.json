@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101213",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101213/",
-  "profile": null,
+  "profile": {
+    "name": "クラウンリバティー",
+    "birthDate": "2012-05-31",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01090",
+      "name": "天間昭一"
+    },
+    "owner": {
+      "id": "043033",
+      "name": "矢野恭裕"
+    },
+    "breeder": {
+      "id": "560543",
+      "name": "クラウン日高牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    },
+    "dam": {
+      "id": "2005100482",
+      "name": "サザンベル"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101561",
@@ -2716,6 +2746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラウンリバティー (Crown Liberty) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンリバティー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラウンリバティー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2785,9 +2845,9 @@
       "contentHash": "f66cc4f1b0eebd75a3484bd0fcfcccba475f4191f33067b5bc1cb5633bcd618a",
       "byteLength": 65582,
       "rawPath": "netkeiba/horses/2012/2012101213/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T13:58:39.509Z"
+  "updatedAt": "2026-08-24T12:06:51.974Z"
 }

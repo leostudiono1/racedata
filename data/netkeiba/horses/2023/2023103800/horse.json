@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103800",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103800/",
-  "profile": null,
+  "profile": {
+    "name": "エマープ",
+    "birthDate": "2023-02-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "テスタオクローチェ Testa O Croce(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Orpen"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1420,6 +1450,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エマープ (Emirp) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エマープ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エマープ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1489,9 +1549,9 @@
       "contentHash": "3213033d7d594f9f072e11f168526465169da5450869d946f7be6b8fbd6ddc57",
       "byteLength": 65368,
       "rawPath": "netkeiba/horses/2023/2023103800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:35:42.667Z"
+  "updatedAt": "2026-08-31T06:40:59.116Z"
 }

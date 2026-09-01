@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102416",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102416/",
-  "profile": null,
+  "profile": {
+    "name": "インヘリット",
+    "birthDate": "2022-03-31",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "098803",
+      "name": "Ｇリビエール・レーシング"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2015104995",
+      "name": "エタリオウ"
+    },
+    "dam": {
+      "id": "2012104790",
+      "name": "パンドラズホープ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104995",
@@ -1327,6 +1357,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インヘリット (Inherit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インヘリット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インヘリット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1396,9 +1456,9 @@
       "contentHash": "0c59f0aef2f1b6d161e7fe9385d3dfc2018a737c05b2fc23188e34cd393d5448",
       "byteLength": 64949,
       "rawPath": "netkeiba/horses/2022/2022102416/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:16:37.340Z"
+  "updatedAt": "2026-08-29T07:23:39.277Z"
 }

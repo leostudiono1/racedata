@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110115",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110115/",
-  "profile": null,
+  "profile": {
+    "name": "セイウンチャーム",
+    "birthDate": "2014-04-14",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "897009",
+      "name": "西山茂行"
+    },
+    "breeder": {
+      "id": "620702",
+      "name": "H. Allen Poindexter"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Dominus"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sea Bloom"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea Hero (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1631,6 +1661,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セイウンチャーム (Seiun Charm) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイウンチャーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セイウンチャーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1700,9 +1760,9 @@
       "contentHash": "469bdbb750dcb4e7c328ff1aa523eb3b20a82e6207a6dba92ba808eba41fac59",
       "byteLength": 65296,
       "rawPath": "netkeiba/horses/2014/2014110115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:10:58.561Z"
+  "updatedAt": "2026-08-24T12:19:10.053Z"
 }

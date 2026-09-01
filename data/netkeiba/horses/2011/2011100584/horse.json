@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100584",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100584/",
-  "profile": null,
+  "profile": {
+    "name": "ワディ",
+    "birthDate": "2011-03-20",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フラグラントオアシス Fragrant Oasis(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rahy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3968,6 +3998,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワディ (Wadi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4037,9 +4097,9 @@
       "contentHash": "520c6420f274d2cf977d413b1078874c70b50382953767b94dc8d4a85de64cf5",
       "byteLength": 66866,
       "rawPath": "netkeiba/horses/2011/2011100584/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:56:50.203Z"
+  "updatedAt": "2026-08-30T06:04:06.174Z"
 }

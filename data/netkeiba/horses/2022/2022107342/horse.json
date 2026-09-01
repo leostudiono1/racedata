@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107342",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107342/",
-  "profile": null,
+  "profile": {
+    "name": "ザラタン",
+    "birthDate": "2022-03-23",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "944030",
+      "name": "加藤誠"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2017110171",
+      "name": "カメキチ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mizzen Mast"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2574,6 +2604,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザラタン (Zaratan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザラタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザラタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2643,9 +2703,9 @@
       "contentHash": "2b52a1cb65c811aff75ac02b85560469b17ff1d57c424dde04aa7630dc88c0b5",
       "byteLength": 66743,
       "rawPath": "netkeiba/horses/2022/2022107342/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:33:27.164Z"
+  "updatedAt": "2026-08-27T08:45:21.080Z"
 }

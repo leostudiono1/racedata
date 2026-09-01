@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100123",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100123/",
-  "profile": null,
+  "profile": {
+    "name": "アイアンマジン",
+    "birthDate": "2020-04-09",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05528",
+      "name": "平松徳彦"
+    },
+    "owner": {
+      "id": "780006",
+      "name": "池上一馬"
+    },
+    "breeder": {
+      "id": "440543",
+      "name": "グローリーファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2008103128",
+      "name": "アイアンクリッパー"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1645,6 +1675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイアンマジン (Iron Majin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイアンマジン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイアンマジン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1714,9 +1774,9 @@
       "contentHash": "e9f364a916f9be97ed158e6a8224f609362a910a8080cc1bd7c767272c296c4a",
       "byteLength": 65521,
       "rawPath": "netkeiba/horses/2020/2020100123/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:06:45.812Z"
+  "updatedAt": "2026-08-29T07:13:47.652Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104953",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104953/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィルベル",
+    "birthDate": "2017-03-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "栗本陽一"
+    },
+    "owner": {
+      "id": "282030",
+      "name": "福永實"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2007102928",
+      "name": "メイルストローム"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -3639,6 +3669,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィルベル (Wirbel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィルベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィルベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3708,9 +3768,9 @@
       "contentHash": "f89d2beba826d7ed396b20c433f759a4525215272a23fb49cc429b56320d73b3",
       "byteLength": 64308,
       "rawPath": "netkeiba/horses/2017/2017104953/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:56:32.896Z"
+  "updatedAt": "2026-08-29T07:03:35.267Z"
 }

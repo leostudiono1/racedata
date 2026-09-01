@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105365",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105365/",
-  "profile": null,
+  "profile": {
+    "name": "ミント",
+    "birthDate": "2019-02-07",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01163",
+      "name": "林徹"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2014106073",
+      "name": "ビートマッチ"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2040,6 +2070,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミント (Mint) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2109,9 +2169,9 @@
       "contentHash": "64d1232becf5c4f5100145bde57a04dae12f5869a1b1ce7928b5997fdc9b7308",
       "byteLength": 66814,
       "rawPath": "netkeiba/horses/2019/2019105365/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:05:49.897Z"
+  "updatedAt": "2026-08-29T07:12:51.633Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102021",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102021/",
-  "profile": null,
+  "profile": {
+    "name": "ネオバスティーユ",
+    "birthDate": "2015-05-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01113",
+      "name": "牧浦充徳"
+    },
+    "owner": {
+      "id": "234008",
+      "name": "小林仁幸"
+    },
+    "breeder": {
+      "id": "701517",
+      "name": "メイプルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004100933",
+      "name": "ローレルゲレイロ"
+    },
+    "dam": {
+      "id": "2008102981",
+      "name": "ネオザスティング"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2004100933",
@@ -1557,6 +1587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネオバスティーユ (Neo Bastille) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオバスティーユ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオバスティーユ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1626,9 +1686,9 @@
       "contentHash": "4726771a17d83b5053bd44db94e4f4dac214d50edf539991be5bb1136694e5f3",
       "byteLength": 65095,
       "rawPath": "netkeiba/horses/2015/2015102021/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:37:34.265Z"
+  "updatedAt": "2026-08-26T08:46:13.412Z"
 }

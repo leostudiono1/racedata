@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102052",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102052/",
-  "profile": null,
+  "profile": {
+    "name": "エアシーラン",
+    "birthDate": "2012-04-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05079",
+      "name": "井上孝彦"
+    },
+    "owner": {
+      "id": "472033",
+      "name": "村田裕子"
+    },
+    "breeder": {
+      "id": "000365",
+      "name": "稲原牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "2004100716",
+      "name": "エアセイレン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Lodge (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -5910,6 +5940,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エアシーラン (Air Sheeran) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアシーラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアシーラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5979,9 +6039,9 @@
       "contentHash": "5bd125279fd7251da2f7d2a3ad8f6133427b6c669d1ae07f10f25cdc13640661",
       "byteLength": 66901,
       "rawPath": "netkeiba/horses/2012/2012102052/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:24:08.453Z"
+  "updatedAt": "2026-08-26T08:32:48.137Z"
 }

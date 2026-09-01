@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100144",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100144/",
-  "profile": null,
+  "profile": {
+    "name": "メイマックス",
+    "birthDate": "2019-05-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "768005",
+      "name": "古賀和夫"
+    },
+    "breeder": {
+      "id": "930498",
+      "name": "上井農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005102317",
+      "name": "シビルウォー"
+    },
+    "dam": {
+      "id": "2007102782",
+      "name": "ペイデュソレイユ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102317",
@@ -4081,6 +4111,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイマックス (May Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4150,9 +4210,9 @@
       "contentHash": "d2128b47a69e83c9b045281a8414a1de7db201ab36af9d94faf83d2aa4b4257a",
       "byteLength": 66833,
       "rawPath": "netkeiba/horses/2019/2019100144/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:54:08.062Z"
+  "updatedAt": "2026-08-26T09:02:47.714Z"
 }

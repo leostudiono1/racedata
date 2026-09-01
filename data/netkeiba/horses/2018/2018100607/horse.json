@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100607",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100607/",
-  "profile": null,
+  "profile": {
+    "name": "ノンリファレンス",
+    "birthDate": "2018-03-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "x0aac0",
+      "name": "小橋国夫"
+    },
+    "breeder": {
+      "id": "503393",
+      "name": "高山牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラサンバ La Samba(豪)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Orientate"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2946,6 +2976,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノンリファレンス (Non Reference) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノンリファレンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノンリファレンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3015,9 +3075,9 @@
       "contentHash": "62e6eba5e793e390f6f2b565d05e155252615cfd336d2b89bf13db0b813eae75",
       "byteLength": 65854,
       "rawPath": "netkeiba/horses/2018/2018100607/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:24:54.241Z"
+  "updatedAt": "2026-08-30T06:32:09.950Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104705",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104705/",
-  "profile": null,
+  "profile": {
+    "name": "フレデリック",
+    "birthDate": "2021-05-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05609",
+      "name": "小久保智"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スマートチョイス Smart Choice(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Reward"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1372,6 +1402,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フレデリック (Frederic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレデリック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレデリック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1441,9 +1501,9 @@
       "contentHash": "886a8b18767d2127f035ca8b9076a4240129afa47f3fc9e80a570a0de0e0f596",
       "byteLength": 64504,
       "rawPath": "netkeiba/horses/2021/2021104705/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:13:49.166Z"
+  "updatedAt": "2026-08-29T07:20:51.178Z"
 }

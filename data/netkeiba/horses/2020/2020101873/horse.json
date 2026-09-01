@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101873",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101873/",
-  "profile": null,
+  "profile": {
+    "name": "グラシアス",
+    "birthDate": "2020-05-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05417",
+      "name": "佐藤雅彦"
+    },
+    "owner": {
+      "id": "775006",
+      "name": "瀬谷隆雄"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2012103741",
+      "name": "セレブデート"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -4811,6 +4841,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラシアス (Gracias) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラシアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラシアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4880,9 +4940,9 @@
       "contentHash": "081b1969852352f6ecca073a3f7c1542929b0ac074ec185c461710fe3f8f1338",
       "byteLength": 66498,
       "rawPath": "netkeiba/horses/2020/2020101873/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:20:25.965Z"
+  "updatedAt": "2026-08-25T11:29:33.678Z"
 }

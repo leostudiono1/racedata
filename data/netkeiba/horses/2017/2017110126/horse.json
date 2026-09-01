@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110126",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110126/",
-  "profile": null,
+  "profile": {
+    "name": "ボンディングタイム",
+    "birthDate": "2017-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05684",
+      "name": "三小田幸"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "580734",
+      "name": "Country Life Farm & Imagistic LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Kitten's Joy (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Imagistic"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4256,6 +4286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボンディングタイム (Bonding Time) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボンディングタイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボンディングタイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4325,9 +4385,9 @@
       "contentHash": "0996ceb70569013f17762d1c9879cc74aff0092f41d401b3597aced308492afa",
       "byteLength": 64612,
       "rawPath": "netkeiba/horses/2017/2017110126/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:13:38.408Z"
+  "updatedAt": "2026-08-27T08:25:34.148Z"
 }

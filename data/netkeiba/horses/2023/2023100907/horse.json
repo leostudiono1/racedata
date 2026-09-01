@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100907",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100907/",
-  "profile": null,
+  "profile": {
+    "name": "ブライトベリル",
+    "birthDate": "2023-03-05",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オルグランデス Orglandes(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Le Havre"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1071,6 +1101,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライトベリル (Bright Beryl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトベリル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトベリル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1140,9 +1200,9 @@
       "contentHash": "92f41419e397074b6672f85b493fcd770a139218ff6846ace59875266ee00af1",
       "byteLength": 65205,
       "rawPath": "netkeiba/horses/2023/2023100907/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:34:23.142Z"
+  "updatedAt": "2026-08-27T08:46:17.122Z"
 }

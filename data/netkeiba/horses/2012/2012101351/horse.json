@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101351",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101351/",
-  "profile": null,
+  "profile": {
+    "name": "リリーウイナー",
+    "birthDate": "2012-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "862006",
+      "name": "土井孝夫"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スリーソウツ Three Thoughts(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Halo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3103,6 +3133,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リリーウイナー (Lily Winner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リリーウイナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リリーウイナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3172,9 +3232,9 @@
       "contentHash": "6d2b0d1fab9d111b293698cf7983448f6c06f1adb2624929fa7fd96601741e94",
       "byteLength": 66973,
       "rawPath": "netkeiba/horses/2012/2012101351/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T13:58:50.016Z"
+  "updatedAt": "2026-08-24T12:07:01.864Z"
 }

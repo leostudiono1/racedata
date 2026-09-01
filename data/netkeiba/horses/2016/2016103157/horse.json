@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103157",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103157/",
-  "profile": null,
+  "profile": {
+    "name": "エニフ",
+    "birthDate": "2016-04-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01006",
+      "name": "作田誠二"
+    },
+    "owner": {
+      "id": "446007",
+      "name": "馬場祥晃"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ケープブランコ Cape Blanco(英)"
+    },
+    "dam": {
+      "id": "2006103643",
+      "name": "ブルームインハート"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1110,6 +1140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エニフ (Enif) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エニフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エニフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1179,9 +1239,9 @@
       "contentHash": "f13f087d70edac3f96c5359801ad08116a2bdebe0690fd8b5c067b088ce755ee",
       "byteLength": 64420,
       "rawPath": "netkeiba/horses/2016/2016103157/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:03:23.694Z"
+  "updatedAt": "2026-08-25T11:12:31.242Z"
 }

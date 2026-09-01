@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105698",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105698/",
-  "profile": null,
+  "profile": {
+    "name": "マテラジニアス",
+    "birthDate": "2017-03-07",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "550033",
+      "name": "大野照旺"
+    },
+    "breeder": {
+      "id": "630003",
+      "name": "寺井文秀"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2012104449",
+      "name": "スターキャスト"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -1621,6 +1651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マテラジニアス (Matera Genius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マテラジニアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マテラジニアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1690,9 +1750,9 @@
       "contentHash": "d424dfa54c8974504a98da8d20228603177253f959fa72ac0b9cf061e2b66184",
       "byteLength": 64483,
       "rawPath": "netkeiba/horses/2017/2017105698/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:48:10.886Z"
+  "updatedAt": "2026-08-26T08:56:50.906Z"
 }

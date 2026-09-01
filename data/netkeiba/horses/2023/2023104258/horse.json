@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104258",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104258/",
-  "profile": null,
+  "profile": {
+    "name": "ルルハート",
+    "birthDate": "2023-05-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "245800",
+      "name": "佐藤牧場"
+    },
+    "breeder": {
+      "id": "700313",
+      "name": "飛渡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2011110053",
+      "name": "ヒシサブリナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -1208,6 +1238,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルルハート (Loulou Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルルハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルルハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1277,9 +1337,9 @@
       "contentHash": "71df9902f38163196f72d8d6d78d9693659eff5800f2d8b75dfe09da60b2638a",
       "byteLength": 65036,
       "rawPath": "netkeiba/horses/2023/2023104258/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:47:12.660Z"
+  "updatedAt": "2026-08-24T12:55:24.243Z"
 }

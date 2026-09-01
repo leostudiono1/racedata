@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103741",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103741/",
-  "profile": null,
+  "profile": {
+    "name": "セレブデート",
+    "birthDate": "2012-05-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01113",
+      "name": "牧浦充徳"
+    },
+    "owner": {
+      "id": "427030",
+      "name": "前原敏行"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レインデート Rain Date(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1211,6 +1241,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セレブデート (Celeb Date) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレブデート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレブデート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1280,9 +1340,9 @@
       "contentHash": "83857165a65b7a6c32a9dad0c9881c910d840ee074bf176c74b074ac93839b7f",
       "byteLength": 64670,
       "rawPath": "netkeiba/horses/2012/2012103741/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:47:17.056Z"
+  "updatedAt": "2026-08-25T10:56:24.996Z"
 }

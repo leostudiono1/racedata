@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104444",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104444/",
-  "profile": null,
+  "profile": {
+    "name": "ロードリッチ",
+    "birthDate": "2016-03-25",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "039030",
+      "name": "宇田豊"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008103156",
+      "name": "オークヒルパーク"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2664,6 +2694,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードリッチ (Lord Rich) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードリッチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードリッチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2733,9 +2793,9 @@
       "contentHash": "ddc253a96ad52f8d0e360b18463546b95c324e495c6af6f4f27becd281c77f7d",
       "byteLength": 66314,
       "rawPath": "netkeiba/horses/2016/2016104444/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:03:51.447Z"
+  "updatedAt": "2026-08-25T11:12:59.329Z"
 }

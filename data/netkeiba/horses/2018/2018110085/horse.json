@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110085",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110085/",
-  "profile": null,
+  "profile": {
+    "name": "ショベルヘッド",
+    "birthDate": "2018-03-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "140701",
+      "name": "Siena Farms LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Date to Remember"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2890,6 +2920,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショベルヘッド (Shovelhead) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショベルヘッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショベルヘッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2959,9 +3019,9 @@
       "contentHash": "fe2a329c265dda47d2a289acf8151e91403c8edd929d654332aac6d8a72634c4",
       "byteLength": 66145,
       "rawPath": "netkeiba/horses/2018/2018110085/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:53:57.610Z"
+  "updatedAt": "2026-08-26T09:02:37.301Z"
 }

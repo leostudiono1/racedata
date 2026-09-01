@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101685",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101685/",
-  "profile": null,
+  "profile": {
+    "name": "キーパンチ",
+    "birthDate": "2017-05-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01018",
+      "name": "宮徹"
+    },
+    "owner": {
+      "id": "338008",
+      "name": "北前孔一郎"
+    },
+    "breeder": {
+      "id": "800311",
+      "name": "中本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995108602",
+      "name": "アメリカンボス"
+    },
+    "dam": {
+      "id": "2010106202",
+      "name": "マンノアクトレス"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108602",
@@ -3234,6 +3264,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーパンチ (Key Punch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーパンチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーパンチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3303,9 +3363,9 @@
       "contentHash": "95e9337368544daeec2faac7322a3e8865cabdd9fa401c20f95085f6c2f7022e",
       "byteLength": 66808,
       "rawPath": "netkeiba/horses/2017/2017101685/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:25:43.928Z"
+  "updatedAt": "2026-08-28T07:31:35.838Z"
 }

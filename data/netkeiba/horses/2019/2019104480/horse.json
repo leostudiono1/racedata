@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104480",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104480/",
-  "profile": null,
+  "profile": {
+    "name": "フェッテ",
+    "birthDate": "2019-03-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05758",
+      "name": "小国博行"
+    },
+    "owner": {
+      "id": "900031",
+      "name": "前田良平"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2001103019",
+      "name": "バレエブラン"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -4579,6 +4609,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェッテ (Fouette) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェッテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェッテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4648,9 +4708,9 @@
       "contentHash": "a9921188b0472b7a27898248ed78ff543f210e9a449ce27b53e347e6dbff3f61",
       "byteLength": 66820,
       "rawPath": "netkeiba/horses/2019/2019104480/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:18:05.234Z"
+  "updatedAt": "2026-08-31T06:23:21.859Z"
 }

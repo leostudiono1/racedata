@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105246",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105246/",
-  "profile": null,
+  "profile": {
+    "name": "フォーテ",
+    "birthDate": "2017-04-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05646",
+      "name": "川島正一"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エノラ Enora(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Noverre (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3446,6 +3476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォーテ (Forte) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3515,9 +3575,9 @@
       "contentHash": "b6ce16b86b577846e66a6a161ab71e6b10f9704cbbd19187043d0a63561b945b",
       "byteLength": 66694,
       "rawPath": "netkeiba/horses/2017/2017105246/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:21:24.981Z"
+  "updatedAt": "2026-08-24T12:29:36.702Z"
 }

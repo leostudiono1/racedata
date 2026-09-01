@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110074",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110074/",
-  "profile": null,
+  "profile": {
+    "name": "エイシンジーン",
+    "birthDate": "2013-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00419",
+      "name": "松元茂樹"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "950709",
+      "name": "Hong Kong Eishindo"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ケルヴィテッセ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2716,6 +2746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシンジーン (A Shin Gene) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンジーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンジーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2785,9 +2845,9 @@
       "contentHash": "5398098337cbc009c95e55c23e17b9c09e26aed96b2909bf1d4d8cf52947d6fb",
       "byteLength": 66432,
       "rawPath": "netkeiba/horses/2013/2013110074/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:40:44.128Z"
+  "updatedAt": "2026-08-29T06:47:46.166Z"
 }

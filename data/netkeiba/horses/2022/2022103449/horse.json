@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103449",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103449/",
-  "profile": null,
+  "profile": {
+    "name": "ロビン",
+    "birthDate": "2022-05-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01196",
+      "name": "西園翔太"
+    },
+    "owner": {
+      "id": "124008",
+      "name": "山本英俊"
+    },
+    "breeder": {
+      "id": "043068",
+      "name": "石川牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2017105638",
+      "name": "レッドベルジュール"
+    },
+    "dam": {
+      "id": "2007102889",
+      "name": "レジュールダムール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2017105638",
@@ -1280,6 +1310,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロビン (Robin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロビン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロビン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1349,9 +1409,9 @@
       "contentHash": "867e3535d1e612ec74877781f1735a5059076c6bb9298348c8d156a9c41a83f4",
       "byteLength": 64538,
       "rawPath": "netkeiba/horses/2022/2022103449/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:30:38.449Z"
+  "updatedAt": "2026-08-31T06:35:54.478Z"
 }

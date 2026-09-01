@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103422",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103422/",
-  "profile": null,
+  "profile": {
+    "name": "ショーウェイ",
+    "birthDate": "2014-04-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "905033",
+      "name": "吉冨学"
+    },
+    "breeder": {
+      "id": "100019",
+      "name": "中脇満"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2005102598",
+      "name": "リアルメンテ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -2365,6 +2395,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショーウェイ (Show Way) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショーウェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショーウェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2434,9 +2494,9 @@
       "contentHash": "ddcc24f98aca158506edeb74684462d2c0edaef82b8bc55efc92f8add742e422",
       "byteLength": 67053,
       "rawPath": "netkeiba/horses/2014/2014103422/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:42:57.066Z"
+  "updatedAt": "2026-08-29T06:49:59.305Z"
 }

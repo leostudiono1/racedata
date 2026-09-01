@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100583",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100583/",
-  "profile": null,
+  "profile": {
+    "name": "フュルスティン",
+    "birthDate": "2023-03-08",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01169",
+      "name": "加藤士津"
+    },
+    "owner": {
+      "id": "319034",
+      "name": "橋本実"
+    },
+    "breeder": {
+      "id": "910543",
+      "name": "アイズスタッド"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2016102179",
+      "name": "ダノンキングリー"
+    },
+    "dam": {
+      "id": "2016104725",
+      "name": "ヤンチャヒメ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016102179",
@@ -1540,6 +1570,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フュルスティン (Furstin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フュルスティン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フュルスティン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1609,9 +1669,9 @@
       "contentHash": "fa7dad86f5441b6114c794a4d0377348824899ef082bb4b31352175eccb4b3a0",
       "byteLength": 65656,
       "rawPath": "netkeiba/horses/2023/2023100583/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:10:50.391Z"
+  "updatedAt": "2026-08-26T09:19:29.646Z"
 }

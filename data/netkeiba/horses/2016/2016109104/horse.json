@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016109104",
   "sourceUrl": "https://db.netkeiba.com/horse/2016109104/",
-  "profile": null,
+  "profile": {
+    "name": "フリータックス",
+    "birthDate": "2016-04-22",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05654",
+      "name": "桜田浩樹"
+    },
+    "owner": {
+      "id": "872006",
+      "name": "松尾正"
+    },
+    "breeder": {
+      "id": "133680",
+      "name": "松尾豊"
+    },
+    "birthplace": "秋田県",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "2009106861",
+      "name": "ハルカ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -2445,6 +2475,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリータックス (Free Tax) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリータックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリータックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2514,9 +2574,9 @@
       "contentHash": "8b8aab8832c3edc3de438a0fbe9314abf15abd63c82b0161dccc71aec351e41c",
       "byteLength": 64799,
       "rawPath": "netkeiba/horses/2016/2016109104/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:53:02.755Z"
+  "updatedAt": "2026-08-29T07:00:05.029Z"
 }

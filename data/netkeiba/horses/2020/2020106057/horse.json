@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106057",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106057/",
-  "profile": null,
+  "profile": {
+    "name": "ウマオト",
+    "birthDate": "2020-03-05",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05427",
+      "name": "稻田彰宏"
+    },
+    "owner": {
+      "id": "830033",
+      "name": "巴山尊文"
+    },
+    "breeder": {
+      "id": "400340",
+      "name": "山岡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2014106496",
+      "name": "レディエマ"
+    },
+    "damsire": {
+      "id": "2003102809",
+      "name": "オンファイア"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -1729,6 +1759,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウマオト (Uma Oto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウマオト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウマオト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1798,9 +1858,9 @@
       "contentHash": "488d4cdaa1c850c80f02fd0fb0af590f315bc0ef5ac759e4935d77b8af4f14ac",
       "byteLength": 64795,
       "rawPath": "netkeiba/horses/2020/2020106057/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:26:04.220Z"
+  "updatedAt": "2026-08-27T08:37:59.901Z"
 }

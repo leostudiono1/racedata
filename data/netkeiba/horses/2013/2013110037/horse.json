@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110037",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110037/",
-  "profile": null,
+  "profile": {
+    "name": "ミスドバウィ",
+    "birthDate": "2013-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "900860",
+      "name": "Sir Eric Parker"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Dubawi"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Coyote"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Indian Ridge"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2482,6 +2512,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミスドバウィ (Miss Dubawi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスドバウィ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミスドバウィ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2551,9 +2611,9 @@
       "contentHash": "fee5ffdf43ab249c09eefa711520ac7f81ecbe8b5c739a2235ee167fb920863d",
       "byteLength": 66735,
       "rawPath": "netkeiba/horses/2013/2013110037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:06:42.232Z"
+  "updatedAt": "2026-08-30T06:13:57.581Z"
 }

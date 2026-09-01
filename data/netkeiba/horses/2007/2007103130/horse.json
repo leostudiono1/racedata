@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2007103130",
   "sourceUrl": "https://db.netkeiba.com/horse/2007103130/",
-  "profile": null,
+  "profile": {
+    "name": "アンヴァルト",
+    "birthDate": "2007-02-18",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Vindication"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アーティストチョイス Artist's Choice(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4840,6 +4870,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンヴァルト (Anwalt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンヴァルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンヴァルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4909,9 +4969,9 @@
       "contentHash": "3a7d5784ece15f6ac77bbea269cddbfb802a83d7c7678c895ca1cc461351e083",
       "byteLength": 67301,
       "rawPath": "netkeiba/horses/2007/2007103130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:00:03.410Z"
+  "updatedAt": "2026-08-28T07:05:55.337Z"
 }

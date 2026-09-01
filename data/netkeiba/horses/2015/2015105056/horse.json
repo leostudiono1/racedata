@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105056",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105056/",
-  "profile": null,
+  "profile": {
+    "name": "ディロス",
+    "birthDate": "2015-02-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05610",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "521008",
+      "name": "廣瀬由一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2010104360",
+      "name": "ラトーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -4334,6 +4364,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディロス (Delos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4403,9 +4463,9 @@
       "contentHash": "ee470383b3cdb762b50b9d0a65501c045126406a4d666a38e9f4aad7e6b7f7f1",
       "byteLength": 66824,
       "rawPath": "netkeiba/horses/2015/2015105056/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:14:38.167Z"
+  "updatedAt": "2026-08-30T06:21:54.014Z"
 }

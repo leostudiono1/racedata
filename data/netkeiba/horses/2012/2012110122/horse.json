@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110122",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110122/",
-  "profile": null,
+  "profile": {
+    "name": "コスモワンモア",
+    "birthDate": "2012-11-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "710702",
+      "name": "Patinack Farm"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Onemorenomore"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Oakmont"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -959,6 +989,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスモワンモア (Cosmo One More) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモワンモア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモワンモア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1028,9 +1088,9 @@
       "contentHash": "1bc10655df4d0ae154b3b3de0a80fa964fbf81acc8bc69f3e24337f3bc34a8f9",
       "byteLength": 64406,
       "rawPath": "netkeiba/horses/2012/2012110122/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:08:23.953Z"
+  "updatedAt": "2026-08-28T07:14:15.841Z"
 }

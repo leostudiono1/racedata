@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103054",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103054/",
-  "profile": null,
+  "profile": {
+    "name": "マクフライト",
+    "birthDate": "2018-04-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "943030",
+      "name": "橋元勇氣"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2008104876",
+      "name": "ナイトフライト"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1310,6 +1340,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マクフライト (McFlight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクフライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクフライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1379,9 +1439,9 @@
       "contentHash": "12608053114df3e32e6c23e0b29adf57b6888dfdc71ddc19638cfd0f1f07a347",
       "byteLength": 65156,
       "rawPath": "netkeiba/horses/2018/2018103054/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:13:04.108Z"
+  "updatedAt": "2026-08-31T06:18:20.740Z"
 }

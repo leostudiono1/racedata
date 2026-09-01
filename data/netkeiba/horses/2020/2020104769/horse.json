@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104769",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104769/",
-  "profile": null,
+  "profile": {
+    "name": "コロル",
+    "birthDate": "2020-04-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "新井隆太"
+    },
+    "owner": {
+      "id": "968006",
+      "name": "五影隆則"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "New Approach"
+    },
+    "dam": {
+      "id": "000",
+      "name": "プラリーヌ Praline(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2096,6 +2126,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コロル (Corolle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コロル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コロル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2165,9 +2225,9 @@
       "contentHash": "b88ce193e0ca3721c991be9be79f78d6ee2330111c49256c0768c42aa1f1c50f",
       "byteLength": 65037,
       "rawPath": "netkeiba/horses/2020/2020104769/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:22:14.381Z"
+  "updatedAt": "2026-08-25T11:31:22.178Z"
 }

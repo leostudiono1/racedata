@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106403",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106403/",
-  "profile": null,
+  "profile": {
+    "name": "エリジブル",
+    "birthDate": "2022-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "x0b338",
+      "name": "戸田朝美"
+    },
+    "breeder": {
+      "id": "600338",
+      "name": "大栄牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "インヴァリダ Invalida(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -2984,6 +3014,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エリジブル (Eligible) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリジブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリジブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3053,9 +3113,9 @@
       "contentHash": "9accb3d2b10ec0792da55b724f3837e3f361ca578643e657d71ea9f47574b904",
       "byteLength": 66844,
       "rawPath": "netkeiba/horses/2022/2022106403/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:32:47.605Z"
+  "updatedAt": "2026-08-31T06:38:04.053Z"
 }

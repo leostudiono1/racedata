@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100289",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100289/",
-  "profile": null,
+  "profile": {
+    "name": "オプティクス",
+    "birthDate": "2022-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05683",
+      "name": "菅原勲"
+    },
+    "owner": {
+      "id": "505033",
+      "name": "臺佳彦"
+    },
+    "breeder": {
+      "id": "700048",
+      "name": "大北牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "2010110085",
+      "name": "ミーヤチャスカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "First Samurai"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -3381,6 +3411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オプティクス (Optics) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オプティクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オプティクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3450,9 +3510,9 @@
       "contentHash": "7a10e51913e8e5ca34a98f7eca59a954e5abae39d53146a3f19bf318db317f8b",
       "byteLength": 64967,
       "rawPath": "netkeiba/horses/2022/2022100289/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:15:45.066Z"
+  "updatedAt": "2026-08-29T07:22:46.756Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103295",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103295/",
-  "profile": null,
+  "profile": {
+    "name": "ヤスケ",
+    "birthDate": "2022-01-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05675",
+      "name": "笹野博司"
+    },
+    "owner": {
+      "id": "091034",
+      "name": "中村規"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2015103404",
+      "name": "バケットリスト"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2310,6 +2340,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヤスケ (Yasuke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤスケ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤスケ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2379,9 +2439,9 @@
       "contentHash": "6c26f4c6f67e2c2c74af11ddab7af2a4df139df375e0958953d1738524219c68",
       "byteLength": 65854,
       "rawPath": "netkeiba/horses/2022/2022103295/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:29:42.504Z"
+  "updatedAt": "2026-08-25T11:38:50.268Z"
 }

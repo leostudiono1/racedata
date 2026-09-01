@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104154",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104154/",
-  "profile": null,
+  "profile": {
+    "name": "ブリットラン",
+    "birthDate": "2020-04-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "細川忠義"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "733072",
+      "name": "今牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2011104009",
+      "name": "パルティール"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -1363,6 +1393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブリットラン (Bullet Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリットラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリットラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1432,9 +1492,9 @@
       "contentHash": "1102ec71b851d75c4ae7b7aaee2c13c7c9829146e7c583c32068cdfd9b84fe41",
       "byteLength": 66563,
       "rawPath": "netkeiba/horses/2020/2020104154/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:39:47.670Z"
+  "updatedAt": "2026-08-28T07:45:39.512Z"
 }

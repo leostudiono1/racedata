@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105874",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105874/",
-  "profile": null,
+  "profile": {
+    "name": "オリンダ",
+    "birthDate": "2013-03-23",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コーレイ Coray(伯)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Know Heights"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -969,6 +999,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オリンダ (Olinda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オリンダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オリンダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1038,9 +1098,9 @@
       "contentHash": "cdc3b22b532e40127b64d63ace12d2dec69aaa87a5e4ffb362ea3eb3db360e63",
       "byteLength": 65026,
       "rawPath": "netkeiba/horses/2013/2013105874/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:11:43.605Z"
+  "updatedAt": "2026-08-28T07:17:35.938Z"
 }

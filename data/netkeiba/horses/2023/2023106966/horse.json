@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106966",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106966/",
-  "profile": null,
+  "profile": {
+    "name": "シークレット",
+    "birthDate": "2023-02-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "431002",
+      "name": "馬場幸夫"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2015104696",
+      "name": "キープシークレット"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1331,6 +1361,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シークレット (Secret) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シークレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シークレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1400,9 +1460,9 @@
       "contentHash": "56a51e97dca1713d9e951ec7066366decd96f01c97ee21c979e5972d0d0113fc",
       "byteLength": 65498,
       "rawPath": "netkeiba/horses/2023/2023106966/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:37:53.879Z"
+  "updatedAt": "2026-08-27T08:49:47.146Z"
 }

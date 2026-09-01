@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100213",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100213/",
-  "profile": null,
+  "profile": {
+    "name": "タゴム",
+    "birthDate": "2016-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "x097c5",
+      "name": "稲葉光昭"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2006100647",
+      "name": "コウエイテンプウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -3858,6 +3888,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タゴム (Tagomu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タゴム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タゴム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3927,9 +3987,9 @@
       "contentHash": "e36e75d562ca3d71b14533385ee4ad69728b5208f2343980dcf92ab80fac554f",
       "byteLength": 66481,
       "rawPath": "netkeiba/horses/2016/2016100213/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:48:57.762Z"
+  "updatedAt": "2026-08-29T06:56:00.288Z"
 }

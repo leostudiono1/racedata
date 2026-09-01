@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100604",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100604/",
-  "profile": null,
+  "profile": {
+    "name": "テーオーレガシー",
+    "birthDate": "2020-03-10",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01018",
+      "name": "宮徹"
+    },
+    "owner": {
+      "id": "304008",
+      "name": "小笹公也"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2008102812",
+      "name": "ココモオレンジ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3575,6 +3605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テーオーレガシー (T O Legacy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオーレガシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオーレガシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3644,9 +3704,9 @@
       "contentHash": "e9a6dd7ea748e2f4efadb5cc7060c89cf2987809b2c55620a8fc8083840eb001",
       "byteLength": 67065,
       "rawPath": "netkeiba/horses/2020/2020100604/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:22:13.116Z"
+  "updatedAt": "2026-08-27T08:34:08.903Z"
 }

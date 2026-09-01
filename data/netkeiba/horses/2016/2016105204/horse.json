@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105204",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105204/",
-  "profile": null,
+  "profile": {
+    "name": "トリックスター",
+    "birthDate": "2016-03-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05760",
+      "name": "松浦聡志"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "1996190009",
+      "name": "プラウドウイングス Proudwings(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dashing Blade"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1813,6 +1843,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリックスター (Trickster) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリックスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリックスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1882,9 +1942,9 @@
       "contentHash": "bcecdcb4247085efd987691073f047bcc29a1b0c2c4ed29b2846535735e16415",
       "byteLength": 65651,
       "rawPath": "netkeiba/horses/2016/2016105204/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:44:16.307Z"
+  "updatedAt": "2026-08-26T08:52:56.164Z"
 }

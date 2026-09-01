@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100719",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100719/",
-  "profile": null,
+  "profile": {
+    "name": "タケルジャック",
+    "birthDate": "2018-03-10",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01182",
+      "name": "辻哲英"
+    },
+    "owner": {
+      "id": "748009",
+      "name": "森保彦"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2012103741",
+      "name": "セレブデート"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -5411,6 +5441,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タケルジャック (Takeru Jack) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タケルジャック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タケルジャック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5480,9 +5540,9 @@
       "contentHash": "da45fe7576f6df139ff1be793df478bd860528a3ac87ec4203770d0251e758a6",
       "byteLength": 66961,
       "rawPath": "netkeiba/horses/2018/2018100719/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:14:03.114Z"
+  "updatedAt": "2026-08-27T08:25:59.355Z"
 }

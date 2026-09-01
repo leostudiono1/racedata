@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104821",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104821/",
-  "profile": null,
+  "profile": {
+    "name": "ソロモン",
+    "birthDate": "2022-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2013106122",
+      "name": "シロインジャー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1415,6 +1445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソロモン (Solomon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソロモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソロモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1484,9 +1544,9 @@
       "contentHash": "bb66d531b0a1cc60b9475a7154882f96cf7484f792810d3efaa52dbf6286ae9b",
       "byteLength": 66694,
       "rawPath": "netkeiba/horses/2022/2022104821/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:30:59.563Z"
+  "updatedAt": "2026-08-25T11:40:07.313Z"
 }

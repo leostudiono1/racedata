@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103079",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103079/",
-  "profile": null,
+  "profile": {
+    "name": "ハルサカエ",
+    "birthDate": "2016-01-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "836033",
+      "name": "齊藤栄一"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2006105507",
+      "name": "タピルージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2488,6 +2518,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハルサカエ (Haru Sakae) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルサカエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルサカエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2557,9 +2617,9 @@
       "contentHash": "93abe56aea0dc1999607e945dfc9631b8704180d05a7882060f545b5db6d70a0",
       "byteLength": 66865,
       "rawPath": "netkeiba/horses/2016/2016103079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:03:20.101Z"
+  "updatedAt": "2026-08-25T11:12:27.715Z"
 }

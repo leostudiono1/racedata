@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102700",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102700/",
-  "profile": null,
+  "profile": {
+    "name": "ヘデラ",
+    "birthDate": "2016-02-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "箕輪武"
+    },
+    "owner": {
+      "id": "x01253",
+      "name": "斉藤光由"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2008102467",
+      "name": "エキナシア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スニッツェル Snitzel(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -10533,6 +10563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘデラ (Hedera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘデラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘデラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10602,9 +10662,9 @@
       "contentHash": "8aeb4d9314ab141f308fc7a46a8172d7da2635a8e349e2656631a5b194778503",
       "byteLength": 66754,
       "rawPath": "netkeiba/horses/2016/2016102700/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:17:09.174Z"
+  "updatedAt": "2026-08-30T06:24:24.759Z"
 }

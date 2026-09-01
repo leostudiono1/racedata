@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104173",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104173/",
-  "profile": null,
+  "profile": {
+    "name": "デイジー",
+    "birthDate": "2021-04-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01207",
+      "name": "田中勝春"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2013104499",
+      "name": "リボンフラワー"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2639,6 +2669,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デイジー (Daisy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デイジー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デイジー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2708,9 +2768,9 @@
       "contentHash": "6fed6ca46252f1b03752c529cc8ff847cf22827a84392d8d1162c138a332ad61",
       "byteLength": 66749,
       "rawPath": "netkeiba/horses/2021/2021104173/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:03:36.298Z"
+  "updatedAt": "2026-08-26T09:12:15.262Z"
 }

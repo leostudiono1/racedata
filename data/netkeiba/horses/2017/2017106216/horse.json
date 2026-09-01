@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106216",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106216/",
-  "profile": null,
+  "profile": {
+    "name": "スズカロココ",
+    "birthDate": "2017-05-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00362",
+      "name": "橋田満"
+    },
+    "owner": {
+      "id": "382004",
+      "name": "永井啓弍"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002107011",
+      "name": "スズカフェニックス"
+    },
+    "dam": {
+      "id": "2007101654",
+      "name": "スズカローゼ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002107011",
@@ -1651,6 +1681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズカロココ (Suzuka Rococo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカロココ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカロココ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1720,9 +1780,9 @@
       "contentHash": "74342a49c2300fc92a52d50fca5349e3231fdcb4b6227169c45cdeda6ca4821d",
       "byteLength": 64401,
       "rawPath": "netkeiba/horses/2017/2017106216/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:21:56.447Z"
+  "updatedAt": "2026-08-24T12:30:08.919Z"
 }

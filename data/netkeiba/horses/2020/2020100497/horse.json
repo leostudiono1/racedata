@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100497",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100497/",
-  "profile": null,
+  "profile": {
+    "name": "ベガリス",
+    "birthDate": "2020-02-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "053803",
+      "name": "杉山忠国"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2011103614",
+      "name": "プレシャスベガ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3063,6 +3093,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベガリス (Vega Risu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベガリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベガリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3132,9 +3192,9 @@
       "contentHash": "ad34ae9f8bc85f1a6987d47b1dae918579bc1d1e07e68e504ca22a56e68c4917",
       "byteLength": 66846,
       "rawPath": "netkeiba/horses/2020/2020100497/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:06:56.251Z"
+  "updatedAt": "2026-08-29T07:13:58.157Z"
 }

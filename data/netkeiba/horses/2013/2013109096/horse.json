@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013109096",
   "sourceUrl": "https://db.netkeiba.com/horse/2013109096/",
-  "profile": null,
+  "profile": {
+    "name": "ヤマブキ",
+    "birthDate": "2013-03-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "981002",
+      "name": "中村勝彦"
+    },
+    "breeder": {
+      "id": "430127",
+      "name": "扶桑牧場"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "000",
+      "name": "キャプテンスティーヴ Captain Steve(米)"
+    },
+    "dam": {
+      "id": "2002109336",
+      "name": "ハナガスミ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "クロコルージュ Croco Rouge(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1517,6 +1547,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヤマブキ (Yamabuki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤマブキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤマブキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1586,9 +1646,9 @@
       "contentHash": "3b0b3ee9fa95e63273f7b018b105bb66ca5679ae92f7fb0ef59e7226efabe39e",
       "byteLength": 64195,
       "rawPath": "netkeiba/horses/2013/2013109096/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:05:46.731Z"
+  "updatedAt": "2026-08-24T12:13:58.437Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104704",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104704/",
-  "profile": null,
+  "profile": {
+    "name": "カイハオン",
+    "birthDate": "2019-02-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "634033",
+      "name": "村田能光"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2012104189",
+      "name": "カラフルマーメイド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -1722,6 +1752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カイハオン (Kai Haon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイハオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイハオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1791,9 +1851,9 @@
       "contentHash": "52a1827faa2054ce178be69e80c7d9286d88988ccfc57d7dd851b293e2424b7a",
       "byteLength": 66887,
       "rawPath": "netkeiba/horses/2019/2019104704/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:18:12.455Z"
+  "updatedAt": "2026-08-31T06:23:29.027Z"
 }

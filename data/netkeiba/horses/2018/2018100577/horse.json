@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100577",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100577/",
-  "profile": null,
+  "profile": {
+    "name": "カズオ",
+    "birthDate": "2018-03-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01089",
+      "name": "武市康男"
+    },
+    "owner": {
+      "id": "243008",
+      "name": "國分純"
+    },
+    "breeder": {
+      "id": "541543",
+      "name": "スマイルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ロージズインメイ Roses in May(米)"
+    },
+    "dam": {
+      "id": "2006102974",
+      "name": "ファミリズム"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2145,6 +2175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カズオ (Kazuo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カズオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カズオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2214,9 +2274,9 @@
       "contentHash": "25277864e3ab3ebd1ee258a6aacf50033f0e7680c4454cfb7c22436ffe379ee4",
       "byteLength": 66668,
       "rawPath": "netkeiba/horses/2018/2018100577/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:49:38.482Z"
+  "updatedAt": "2026-08-26T08:58:18.233Z"
 }

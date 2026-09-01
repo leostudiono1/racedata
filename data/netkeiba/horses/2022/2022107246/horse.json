@@ -2,7 +2,34 @@
   "schemaVersion": 1,
   "id": "2022107246",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107246/",
-  "profile": null,
+  "profile": {
+    "name": "カービスベイ",
+    "birthDate": "2022-01-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "池田敦"
+    },
+    "owner": null,
+    "breeder": {
+      "id": "590334",
+      "name": "奥山ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015101621",
+      "name": "タワーオブロンドン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コージーベイ Kosi Bay(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015101621",
@@ -2430,6 +2457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カービスベイ (Carbis Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カービスベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カービスベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2499,9 +2556,9 @@
       "contentHash": "ddd6df8c337e368ee5fcc200d6161cc8d43cdc20bd413467e8551edda26c2602",
       "byteLength": 65354,
       "rawPath": "netkeiba/horses/2022/2022107246/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:46:08.656Z"
+  "updatedAt": "2026-08-30T06:53:24.777Z"
 }

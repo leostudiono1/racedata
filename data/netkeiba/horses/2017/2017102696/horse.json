@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102696",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102696/",
-  "profile": null,
+  "profile": {
+    "name": "スパニエル",
+    "birthDate": "2017-05-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島寿"
+    },
+    "owner": {
+      "id": "x00158",
+      "name": "東廣美"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2007103970",
+      "name": "スギノブロッサム"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -4739,6 +4769,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スパニエル (Spaniel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スパニエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スパニエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4808,9 +4868,9 @@
       "contentHash": "5fbfc9303eaa40cbbbbe64ad4c75bf422fe1ff06e8ebb7a543703fd6fed22900",
       "byteLength": 65878,
       "rawPath": "netkeiba/horses/2017/2017102696/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:21:59.306Z"
+  "updatedAt": "2026-08-30T06:29:15.151Z"
 }

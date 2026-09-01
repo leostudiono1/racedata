@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101086",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101086/",
-  "profile": null,
+  "profile": {
+    "name": "エルフショット",
+    "birthDate": "2010-03-31",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00400",
+      "name": "柴田光陽"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "1999103356",
+      "name": "スウィートエルフ"
+    },
+    "damsire": {
+      "id": "1984101673",
+      "name": "タマモクロス"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -4319,6 +4349,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルフショット (Elf Shot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルフショット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルフショット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4388,9 +4448,9 @@
       "contentHash": "f3aaf9bdef1de805fa7d4d0a7c5bceb45f55bffcf924257b84e069a9d079c534",
       "byteLength": 66653,
       "rawPath": "netkeiba/horses/2010/2010101086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:56:08.219Z"
+  "updatedAt": "2026-08-30T06:03:23.885Z"
 }

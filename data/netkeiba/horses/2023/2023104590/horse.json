@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104590",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104590/",
-  "profile": null,
+  "profile": {
+    "name": "スカット",
+    "birthDate": "2023-05-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01189",
+      "name": "堀内岳志"
+    },
+    "owner": {
+      "id": "331006",
+      "name": "本杉芳郎"
+    },
+    "breeder": {
+      "id": "343543",
+      "name": "マリオステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013106119",
+      "name": "ゴールドドリーム"
+    },
+    "dam": {
+      "id": "2014103474",
+      "name": "ラフィンナ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106119",
@@ -1825,6 +1855,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカット (Sukatto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1894,9 +1954,9 @@
       "contentHash": "55b887c346799925c0916d3547b68e01b6f80f30b7b6773cf104bcdbcf880f0b",
       "byteLength": 65677,
       "rawPath": "netkeiba/horses/2023/2023104590/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:48:39.247Z"
+  "updatedAt": "2026-08-30T06:55:55.152Z"
 }

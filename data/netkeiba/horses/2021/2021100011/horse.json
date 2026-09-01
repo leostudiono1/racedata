@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100011",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100011/",
-  "profile": null,
+  "profile": {
+    "name": "サダージ",
+    "birthDate": "2021-03-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05331",
+      "name": "山崎尋美"
+    },
+    "owner": {
+      "id": "619002",
+      "name": "田中晴夫"
+    },
+    "breeder": {
+      "id": "713058",
+      "name": "稲葉牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104759",
+      "name": "シュヴァルグラン"
+    },
+    "dam": {
+      "id": "2011110057",
+      "name": "タマユラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tamayuz"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104759",
@@ -4013,6 +4043,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サダージ (Saudade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サダージ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サダージ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4082,9 +4142,9 @@
       "contentHash": "3ac84164318419531bc1c1a911e945a7d6c73bb39e2ee493a294180fc5239cec",
       "byteLength": 66676,
       "rawPath": "netkeiba/horses/2021/2021100011/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:35:32.610Z"
+  "updatedAt": "2026-08-24T12:43:44.048Z"
 }

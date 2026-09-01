@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105310",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105310/",
-  "profile": null,
+  "profile": {
+    "name": "プチティラン",
+    "birthDate": "2016-04-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05623",
+      "name": "栗林徹治"
+    },
+    "owner": {
+      "id": "x0a431",
+      "name": "吉岡寛行"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2009105832",
+      "name": "ワイルドフラッパー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Ghostzapper"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -3610,6 +3640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プチティラン (Petit Tyran) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プチティラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プチティラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3679,9 +3739,9 @@
       "contentHash": "c65e8919bcdb9bbd84251389c957c2eecd0e86a0364d1832827347e9471f506f",
       "byteLength": 66968,
       "rawPath": "netkeiba/horses/2016/2016105310/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:06:32.018Z"
+  "updatedAt": "2026-08-31T06:11:48.558Z"
 }

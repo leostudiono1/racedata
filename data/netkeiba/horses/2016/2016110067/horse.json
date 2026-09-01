@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110067",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110067/",
-  "profile": null,
+  "profile": {
+    "name": "ノイーヴァ",
+    "birthDate": "2016-01-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01164",
+      "name": "安田翔伍"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "510878",
+      "name": "Spendthrift Farm LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Temple City"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Malibu Pier"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Malibu Moon"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2588,6 +2618,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノイーヴァ (Noiva) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノイーヴァ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノイーヴァ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2657,9 +2717,9 @@
       "contentHash": "62fbeebcd4090ce9d952e8d31c706302e1b7a464506127e482f652e1c6eacd1a",
       "byteLength": 65869,
       "rawPath": "netkeiba/horses/2016/2016110067/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:09:08.852Z"
+  "updatedAt": "2026-08-27T08:21:04.677Z"
 }

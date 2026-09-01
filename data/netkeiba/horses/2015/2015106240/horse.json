@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106240",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106240/",
-  "profile": null,
+  "profile": {
+    "name": "ハッピーファースト",
+    "birthDate": "2015-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "x080bf",
+      "name": "岡田真一郎"
+    },
+    "breeder": {
+      "id": "333302",
+      "name": "前田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101683",
+      "name": "タイムパラドックス"
+    },
+    "dam": {
+      "id": "1999101044",
+      "name": "ハイヌーン"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101683",
@@ -2633,6 +2663,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハッピーファースト (Happy First) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーファースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーファースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2702,9 +2762,9 @@
       "contentHash": "bda41b2dc7fe07fe283fc2f1b010e438c55be2f8cf89df7bb6c487021a591a9e",
       "byteLength": 64885,
       "rawPath": "netkeiba/horses/2015/2015106240/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:40:42.766Z"
+  "updatedAt": "2026-08-26T08:49:22.577Z"
 }

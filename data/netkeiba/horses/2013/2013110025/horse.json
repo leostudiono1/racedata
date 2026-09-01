@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110025",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110025/",
-  "profile": null,
+  "profile": {
+    "name": "タイキバベル",
+    "birthDate": "2013-03-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01022",
+      "name": "石坂正"
+    },
+    "owner": {
+      "id": "536800",
+      "name": "大樹ファーム"
+    },
+    "breeder": {
+      "id": "840702",
+      "name": "Nicewonder Stable LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Girolamo"
+    },
+    "dam": {
+      "id": "000",
+      "name": "She's Sterling"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Deputy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1283,6 +1313,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイキバベル (Taiki Babel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイキバベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイキバベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1352,9 +1412,9 @@
       "contentHash": "73d6ff164dfc84a4c2c2a51837c38a0ac5a84bcc914534dcb8b8dfccbb690e72",
       "byteLength": 66173,
       "rawPath": "netkeiba/horses/2013/2013110025/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:52:49.302Z"
+  "updatedAt": "2026-08-31T05:58:05.929Z"
 }

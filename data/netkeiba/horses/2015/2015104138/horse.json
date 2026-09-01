@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104138",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104138/",
-  "profile": null,
+  "profile": {
+    "name": "バイマイサイド",
+    "birthDate": "2015-02-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2001103006",
+      "name": "マンティスハント"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -3166,6 +3196,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バイマイサイド (By My Side) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイマイサイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイマイサイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3235,9 +3295,9 @@
       "contentHash": "51d83eaefe36ae1446d089cd8add1bb5213ce64f43110d7578a222ed6e7ba25d",
       "byteLength": 67368,
       "rawPath": "netkeiba/horses/2015/2015104138/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:59:39.836Z"
+  "updatedAt": "2026-08-25T11:08:47.233Z"
 }

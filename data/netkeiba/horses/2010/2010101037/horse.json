@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101037",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101037/",
-  "profile": null,
+  "profile": {
+    "name": "オリアーナ",
+    "birthDate": "2010-03-05",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "003325",
+      "name": "豊洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "2003105271",
+      "name": "シックファイター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘクタープロテクター Hector Protector(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -4167,6 +4197,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オリアーナ (Oriana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オリアーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オリアーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4236,9 +4296,9 @@
       "contentHash": "25c7b67ce74759d6ee7aef76da2bf56dad00b42ca2a31ed7670df1f6faccc962",
       "byteLength": 67262,
       "rawPath": "netkeiba/horses/2010/2010101037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:21:02.843Z"
+  "updatedAt": "2026-08-26T08:29:42.671Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105569",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105569/",
-  "profile": null,
+  "profile": {
+    "name": "クインズベル",
+    "birthDate": "2020-02-27",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "331803",
+      "name": "ケイアイスタリオン"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2004102898",
+      "name": "ネネグース"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -1483,6 +1513,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クインズベル (Queen's Belle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クインズベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クインズベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1552,9 +1612,9 @@
       "contentHash": "61df98836e20656b4eb3a564039cfb0f33fc7d4e697aba006cbcd6b24683c82d",
       "byteLength": 65646,
       "rawPath": "netkeiba/horses/2020/2020105569/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:23:44.856Z"
+  "updatedAt": "2026-08-31T06:29:01.378Z"
 }

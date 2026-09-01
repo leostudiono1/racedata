@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105069",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105069/",
-  "profile": null,
+  "profile": {
+    "name": "デバッグ",
+    "birthDate": "2022-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "849030",
+      "name": "山口功一郎"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2012110021",
+      "name": "ミスエリカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Blame"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1586,6 +1616,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デバッグ (Debug) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デバッグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デバッグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1655,9 +1715,9 @@
       "contentHash": "a107c8248b6a9ec2ffb47e7caa6e5ceda1b82b9efc711b161b1c567d7f7b151e",
       "byteLength": 65184,
       "rawPath": "netkeiba/horses/2022/2022105069/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:17:36.742Z"
+  "updatedAt": "2026-08-29T07:24:38.731Z"
 }

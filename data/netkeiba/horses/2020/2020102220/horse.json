@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102220",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102220/",
-  "profile": null,
+  "profile": {
+    "name": "ウインステイトリー",
+    "birthDate": "2020-04-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "494800",
+      "name": "ウイン"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013104704",
+      "name": "ディーマジェスティ"
+    },
+    "dam": {
+      "id": "2014102526",
+      "name": "シュヴァルツィーナ"
+    },
+    "damsire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013104704",
@@ -1517,6 +1547,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウインステイトリー (Win Stately) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインステイトリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインステイトリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1586,9 +1646,9 @@
       "contentHash": "5c3fecc7eb90527afa5ab137891a5b4786759336fa41d9c1c4bd1757e6f4c96e",
       "byteLength": 67486,
       "rawPath": "netkeiba/horses/2020/2020102220/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:38:13.289Z"
+  "updatedAt": "2026-08-28T07:44:05.059Z"
 }

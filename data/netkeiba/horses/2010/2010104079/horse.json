@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104079",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104079/",
-  "profile": null,
+  "profile": {
+    "name": "コメットシーカー",
+    "birthDate": "2010-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ガヴィオラ Gaviola(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3012,6 +3042,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コメットシーカー (Comet Seeker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コメットシーカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コメットシーカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3081,9 +3141,9 @@
       "contentHash": "ff62d22836463655345611185dedfe115984eb95a53c6c195be47a982942b73c",
       "byteLength": 67143,
       "rawPath": "netkeiba/horses/2010/2010104079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:21:34.344Z"
+  "updatedAt": "2026-08-26T08:30:14.180Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110014",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110014/",
-  "profile": null,
+  "profile": {
+    "name": "イグレット",
+    "birthDate": "2015-03-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05607",
+      "name": "堀千亜樹"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "480705",
+      "name": "North Hills Co. Ltd."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    },
+    "dam": {
+      "id": "2000105086",
+      "name": "ヘヴンリーロマンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3706,6 +3736,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イグレット (Egret) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イグレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イグレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3775,9 +3835,9 @@
       "contentHash": "7b3271e8ded5077fd5e069fd2d38eb24a6e6c27fb74ed3a7b6f876746c49094b",
       "byteLength": 66985,
       "rawPath": "netkeiba/horses/2015/2015110014/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:21:17.848Z"
+  "updatedAt": "2026-08-28T07:27:09.633Z"
 }

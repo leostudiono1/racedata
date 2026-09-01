@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105443",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105443/",
-  "profile": null,
+  "profile": {
+    "name": "エルミラージュ",
+    "birthDate": "2021-03-15",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05266",
+      "name": "田中道夫"
+    },
+    "owner": {
+      "id": "713033",
+      "name": "西岡透"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2013110034",
+      "name": "エラクレーア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Raven's Pass"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -5561,6 +5591,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルミラージュ (El Mirage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルミラージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルミラージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5630,9 +5690,9 @@
       "contentHash": "eb37127471df69190ca9048ea0fa5dfbc1f7dc64351547a9450441d4cb93e83d",
       "byteLength": 66992,
       "rawPath": "netkeiba/horses/2021/2021105443/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:14:31.342Z"
+  "updatedAt": "2026-08-29T07:21:33.155Z"
 }

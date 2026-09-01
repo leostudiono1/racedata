@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100918",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100918/",
-  "profile": null,
+  "profile": {
+    "name": "ジャイロ",
+    "birthDate": "2021-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05301",
+      "name": "村上正和"
+    },
+    "owner": {
+      "id": "x09ddb",
+      "name": "近藤光将"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2015103780",
+      "name": "カフジサファイア"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4045,6 +4075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャイロ (Gyro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャイロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャイロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4114,9 +4174,9 @@
       "contentHash": "eb5f11bb54dd62e313310bd14613933710e5ca63811f06647476debf51b2bdd0",
       "byteLength": 65522,
       "rawPath": "netkeiba/horses/2021/2021100918/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:12:04.246Z"
+  "updatedAt": "2026-08-29T07:19:06.234Z"
 }

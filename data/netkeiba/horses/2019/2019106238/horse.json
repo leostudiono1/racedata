@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106238",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106238/",
-  "profile": null,
+  "profile": {
+    "name": "グローリー",
+    "birthDate": "2019-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2012105206",
+      "name": "グリシーヌシチー"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -6504,6 +6534,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グローリー (Glory) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グローリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グローリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6573,9 +6633,9 @@
       "contentHash": "e2ff047535b76fd37ee6c5c7e130d53187d79b9d5b25c1d2af6923e863a445a0",
       "byteLength": 66806,
       "rawPath": "netkeiba/horses/2019/2019106238/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:06:07.184Z"
+  "updatedAt": "2026-08-29T07:13:09.493Z"
 }

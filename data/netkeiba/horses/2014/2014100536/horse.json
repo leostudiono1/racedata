@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100536",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100536/",
-  "profile": null,
+  "profile": {
+    "name": "ベッキー",
+    "birthDate": "2014-04-25",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "044803",
+      "name": "由井健太郎"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2004102898",
+      "name": "ネネグース"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2283,6 +2313,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベッキー (Becky) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッキー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッキー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2352,9 +2412,9 @@
       "contentHash": "32198b7cc2619b16654595eddfe1141772c4f18e0c4dfa3d5f636d687b43130b",
       "byteLength": 64748,
       "rawPath": "netkeiba/horses/2014/2014100536/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:12:32.658Z"
+  "updatedAt": "2026-08-28T07:18:24.958Z"
 }

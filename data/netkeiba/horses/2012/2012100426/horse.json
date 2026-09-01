@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100426",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100426/",
-  "profile": null,
+  "profile": {
+    "name": "テス",
+    "birthDate": "2012-03-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01030",
+      "name": "星野忍"
+    },
+    "owner": {
+      "id": "129005",
+      "name": "桐谷茂"
+    },
+    "breeder": {
+      "id": "300313",
+      "name": "堤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000102261",
+      "name": "サクラプレジデント"
+    },
+    "dam": {
+      "id": "2001102184",
+      "name": "シルクグラフィック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000102261",
@@ -1469,6 +1499,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テス (Dae Su) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1538,9 +1598,9 @@
       "contentHash": "2cd493daf6a333cd27e6d6ff39e938ceaa065c1c28560d0e4c740cb6e83ecef2",
       "byteLength": 64050,
       "rawPath": "netkeiba/horses/2012/2012100426/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:44:43.060Z"
+  "updatedAt": "2026-08-25T10:53:51.253Z"
 }

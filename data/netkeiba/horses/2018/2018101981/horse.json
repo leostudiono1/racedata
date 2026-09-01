@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101981",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101981/",
-  "profile": null,
+  "profile": {
+    "name": "カツコ",
+    "birthDate": "2018-04-02",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "837008",
+      "name": "武田修"
+    },
+    "breeder": {
+      "id": "900314",
+      "name": "新冠橋本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2012100544",
+      "name": "ギンザヴィクトリア"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1560,6 +1590,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カツコ (Katsuko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カツコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カツコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1629,9 +1689,9 @@
       "contentHash": "ba88636198410c4b00fe9735dc97a463a13091439829223eb5038da6a738f645",
       "byteLength": 66781,
       "rawPath": "netkeiba/horses/2018/2018101981/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:59:00.118Z"
+  "updatedAt": "2026-08-29T07:06:02.050Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105336",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105336/",
-  "profile": null,
+  "profile": {
+    "name": "セナリスト",
+    "birthDate": "2018-01-19",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リアリサトリス Realisatrice(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Numerous"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2848,6 +2878,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セナリスト (Scenariste) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セナリスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セナリスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2917,9 +2977,9 @@
       "contentHash": "54580cffc98985de8f75a31cee5f60425bc70f1e42a86222c59fc5daa6e2f8a5",
       "byteLength": 67434,
       "rawPath": "netkeiba/horses/2018/2018105336/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:52:40.600Z"
+  "updatedAt": "2026-08-26T09:01:20.200Z"
 }

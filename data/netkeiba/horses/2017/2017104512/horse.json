@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104512",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104512/",
-  "profile": null,
+  "profile": {
+    "name": "トランクイッロ",
+    "birthDate": "2017-04-09",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05703",
+      "name": "山田質"
+    },
+    "owner": {
+      "id": "x09aab",
+      "name": "眞保栄稔"
+    },
+    "breeder": {
+      "id": "700380",
+      "name": "社台牧場"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2009105961",
+      "name": "スピルバーグ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サンドグロース Sand Grouse(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105961",
@@ -2208,6 +2238,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トランクイッロ (Tranquillo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トランクイッロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トランクイッロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2277,9 +2337,9 @@
       "contentHash": "7376f6922cc3e15c9b42c59af596e113c7df20672fa7593482a35f0621ea532c",
       "byteLength": 67001,
       "rawPath": "netkeiba/horses/2017/2017104512/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:47:14.945Z"
+  "updatedAt": "2026-08-26T08:55:54.687Z"
 }

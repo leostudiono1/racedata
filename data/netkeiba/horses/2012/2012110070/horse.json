@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110070",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110070/",
-  "profile": null,
+  "profile": {
+    "name": "エイシンバランサー",
+    "birthDate": "2012-02-14",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05364",
+      "name": "柳沢好美"
+    },
+    "owner": {
+      "id": "x09514",
+      "name": "太田雅貴"
+    },
+    "breeder": {
+      "id": "470702",
+      "name": "Adena Springs"
+    },
+    "birthplace": "加",
+    "sire": {
+      "id": "000",
+      "name": "Ghostzapper"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Mayomast"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mizzen Mast"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5154,6 +5184,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシンバランサー (A Shin Balancer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンバランサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンバランサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5223,9 +5283,9 @@
       "contentHash": "a904d3e4ba7255cfa90bbd1e8db4a318e3264a9c84d4eb6a1d0443633e97e905",
       "byteLength": 67029,
       "rawPath": "netkeiba/horses/2012/2012110070/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:52:27.643Z"
+  "updatedAt": "2026-08-27T08:04:23.355Z"
 }

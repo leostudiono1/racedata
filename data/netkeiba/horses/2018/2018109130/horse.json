@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018109130",
   "sourceUrl": "https://db.netkeiba.com/horse/2018109130/",
-  "profile": null,
+  "profile": {
+    "name": "パンサン",
+    "birthDate": "2018-02-27",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "370803",
+      "name": "是枝浩平"
+    },
+    "breeder": {
+      "id": "735404",
+      "name": "本田土寿"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2005104227",
+      "name": "ロードバリオス"
+    },
+    "dam": {
+      "id": "2011102006",
+      "name": "コチョウサン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005104227",
@@ -1475,6 +1505,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パンサン (Pan San) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パンサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パンサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1544,9 +1604,9 @@
       "contentHash": "c50011d21dd5e1ab66c068b18e8908302a9a04c3b8ed983705b6a734527c0ae0",
       "byteLength": 64645,
       "rawPath": "netkeiba/horses/2018/2018109130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:17:40.036Z"
+  "updatedAt": "2026-08-27T08:29:35.767Z"
 }

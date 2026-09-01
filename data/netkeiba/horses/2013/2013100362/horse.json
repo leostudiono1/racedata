@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100362",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100362/",
-  "profile": null,
+  "profile": {
+    "name": "ペイザージュ",
+    "birthDate": "2013-04-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ネガノ Negano(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Miswaki"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2432,6 +2462,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペイザージュ (Paysage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイザージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイザージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2501,9 +2561,9 @@
       "contentHash": "7ca1167ea82e056372f7199254bb22469bd37a6fc86358389017984bcd034a73",
       "byteLength": 66180,
       "rawPath": "netkeiba/horses/2013/2013100362/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:27:28.603Z"
+  "updatedAt": "2026-08-26T08:36:07.732Z"
 }

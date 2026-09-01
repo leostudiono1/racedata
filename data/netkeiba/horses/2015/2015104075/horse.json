@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104075",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104075/",
-  "profile": null,
+  "profile": {
+    "name": "ベイスン",
+    "birthDate": "2015-04-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "231033",
+      "name": "吉田晴哉"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2009106571",
+      "name": "インクレセント"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1569,6 +1599,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベイスン (Basin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイスン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイスン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1638,9 +1698,9 @@
       "contentHash": "e30311138a57134fb2a0f33fd495257cd0dcb716629d209cb4a89a71868a4a96",
       "byteLength": 65915,
       "rawPath": "netkeiba/horses/2015/2015104075/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:39:04.689Z"
+  "updatedAt": "2026-08-26T08:47:44.460Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100501",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100501/",
-  "profile": null,
+  "profile": {
+    "name": "オータムエッジ",
+    "birthDate": "2020-03-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "086803",
+      "name": "レッドマジック"
+    },
+    "breeder": {
+      "id": "610064",
+      "name": "元茂修一"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014105880",
+      "name": "アグニシャイン"
+    },
+    "dam": {
+      "id": "2011105576",
+      "name": "エイシントット"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2014105880",
@@ -1340,6 +1370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オータムエッジ (Autumn Edge) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オータムエッジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オータムエッジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1409,9 +1469,9 @@
       "contentHash": "c53d102d918e977960b59d81613d9e9ce0197e90fa8b984f55c0700675598995",
       "byteLength": 65329,
       "rawPath": "netkeiba/horses/2020/2020100501/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:20:39.373Z"
+  "updatedAt": "2026-08-31T06:25:55.883Z"
 }

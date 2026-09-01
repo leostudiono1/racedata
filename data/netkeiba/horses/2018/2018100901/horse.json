@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100901",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100901/",
-  "profile": null,
+  "profile": {
+    "name": "インザロングラン",
+    "birthDate": "2018-02-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2014105239",
+      "name": "メイビータイム"
+    },
+    "damsire": {
+      "id": "2005102216",
+      "name": "キャプテントゥーレ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -3147,6 +3177,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インザロングラン (In the Long Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インザロングラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インザロングラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3216,9 +3276,9 @@
       "contentHash": "67ea85ffe0d94446aaecd2568bb919937feebf7ce58691df7d4845be68f59171",
       "byteLength": 64523,
       "rawPath": "netkeiba/horses/2018/2018100901/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:14:09.953Z"
+  "updatedAt": "2026-08-27T08:26:06.315Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103770",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103770/",
-  "profile": null,
+  "profile": {
+    "name": "ビゾー",
+    "birthDate": "2022-02-26",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "133803",
+      "name": "モンレーヴ"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2015105010",
+      "name": "ハーツフェルト"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1338,6 +1368,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビゾー (Bizot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビゾー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビゾー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1407,9 +1467,9 @@
       "contentHash": "b08bb5d1de30f869d6218812da60866b1d9a565933f063ec262924facec48989",
       "byteLength": 66672,
       "rawPath": "netkeiba/horses/2022/2022103770/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:30:58.955Z"
+  "updatedAt": "2026-08-31T06:36:15.543Z"
 }

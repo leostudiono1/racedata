@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101775",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101775/",
-  "profile": null,
+  "profile": {
+    "name": "レッドアリオン",
+    "birthDate": "2010-02-28",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "510000",
+      "name": "エクセルマネジメント"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    },
+    "dam": {
+      "id": "1998107103",
+      "name": "エリモピクシー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ダンシングブレーヴ Dancing Brave(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101516",
@@ -4973,6 +5003,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドアリオン (Red Arion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドアリオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドアリオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5042,9 +5102,9 @@
       "contentHash": "4f7017bc8ed3ce5cf3eb9d03c65ca22b6ab5f3eae2447b2266bd2f77fd0bbb81",
       "byteLength": 67340,
       "rawPath": "netkeiba/horses/2010/2010101775/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:42:54.721Z"
+  "updatedAt": "2026-08-25T10:52:02.453Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107249",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107249/",
-  "profile": null,
+  "profile": {
+    "name": "スーホ",
+    "birthDate": "2023-02-25",
+    "sex": "牡",
+    "coatColor": "白毛",
+    "trainer": {
+      "id": "01192",
+      "name": "上原佑紀"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2011103886",
+      "name": "マーブルケーキ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1363,6 +1393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スーホ (Sukh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スーホ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スーホ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1432,9 +1492,9 @@
       "contentHash": "c084167b73ec1217d4fcf73a318fa0a17479793a3c5f2798f9a4e123d49a994a",
       "byteLength": 66969,
       "rawPath": "netkeiba/horses/2023/2023107249/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:37:38.072Z"
+  "updatedAt": "2026-08-31T06:42:54.833Z"
 }

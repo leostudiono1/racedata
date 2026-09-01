@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101672",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101672/",
-  "profile": null,
+  "profile": {
+    "name": "クロガネ",
+    "birthDate": "2019-04-12",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "131031",
+      "name": "会田裕一"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2004105606",
+      "name": "ユキノマイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -6933,6 +6963,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロガネ (Kurogane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロガネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロガネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7002,9 +7062,9 @@
       "contentHash": "2e40af7070295862d0497d0091ab949df2749d673255dec51a97ae2541c0e775",
       "byteLength": 66761,
       "rawPath": "netkeiba/horses/2019/2019101672/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:54:50.168Z"
+  "updatedAt": "2026-08-26T09:03:29.820Z"
 }

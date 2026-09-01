@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100302",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100302/",
-  "profile": null,
+  "profile": {
+    "name": "サンハーリンゲン",
+    "birthDate": "2018-04-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00435",
+      "name": "藤原辰雄"
+    },
+    "owner": {
+      "id": "059803",
+      "name": "加藤ステーブル"
+    },
+    "breeder": {
+      "id": "670543",
+      "name": "ケイズ"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2006101996",
+      "name": "ワニタレスタリ"
+    },
+    "damsire": {
+      "id": "1993103280",
+      "name": "エイシンサンディ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -1139,6 +1169,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンハーリンゲン (Sun Harlingen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンハーリンゲン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンハーリンゲン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1208,9 +1268,9 @@
       "contentHash": "2e652982f3953dcbfca831921192ace704ff1a09deb2bc26e0fbe4f193739e7e",
       "byteLength": 64746,
       "rawPath": "netkeiba/horses/2018/2018100302/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:22:34.951Z"
+  "updatedAt": "2026-08-24T12:30:46.758Z"
 }

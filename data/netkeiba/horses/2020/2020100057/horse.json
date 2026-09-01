@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100057",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100057/",
-  "profile": null,
+  "profile": {
+    "name": "メルキュリオ",
+    "birthDate": "2020-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "833093",
+      "name": "沖田博志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2014100254",
+      "name": "ソリッドリーズン"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -2968,6 +2998,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メルキュリオ (Mercurio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メルキュリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メルキュリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3037,9 +3097,9 @@
       "contentHash": "2be81366db5becc858c131fcf234f5abb708e699a51535ef035431df77e00604",
       "byteLength": 65972,
       "rawPath": "netkeiba/horses/2020/2020100057/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:34:07.572Z"
+  "updatedAt": "2026-08-30T06:41:23.233Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101394",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101394/",
-  "profile": null,
+  "profile": {
+    "name": "フェルドランス",
+    "birthDate": "2020-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01179",
+      "name": "鈴木慎太"
+    },
+    "owner": {
+      "id": "815033",
+      "name": "木部厳生"
+    },
+    "breeder": {
+      "id": "680543",
+      "name": "木部ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2010100889",
+      "name": "ラレンヌ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ルールオブロー Rule of Law(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -2540,6 +2570,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェルドランス (Fer de Lance) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェルドランス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェルドランス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2609,9 +2669,9 @@
       "contentHash": "eee76925ae245dbbef45467ca17af4a9325958d98d29675be5be853bef6f6d00",
       "byteLength": 66944,
       "rawPath": "netkeiba/horses/2020/2020101394/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:07:31.118Z"
+  "updatedAt": "2026-08-29T07:14:33.155Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105000",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105000/",
-  "profile": null,
+  "profile": {
+    "name": "カフェプリモ",
+    "birthDate": "2013-05-03",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "629007",
+      "name": "西川光一"
+    },
+    "breeder": {
+      "id": "413304",
+      "name": "藤沢牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴェルナッツァ Vernazza(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1226,6 +1256,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフェプリモ (Cafe Primo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェプリモ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェプリモ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1295,9 +1355,9 @@
       "contentHash": "66f73168e9bd7435aadd382552520c6edcdbced3fd805023f93c4657b7ef09a8",
       "byteLength": 65601,
       "rawPath": "netkeiba/horses/2013/2013105000/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:05:21.238Z"
+  "updatedAt": "2026-08-30T06:12:37.122Z"
 }

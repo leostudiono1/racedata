@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100076",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100076/",
-  "profile": null,
+  "profile": {
+    "name": "クロメ",
+    "birthDate": "2018-04-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川添明弘"
+    },
+    "owner": {
+      "id": "x09a5a",
+      "name": "インターフェース（同"
+    },
+    "breeder": {
+      "id": "713341",
+      "name": "荒井ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2006105175",
+      "name": "マイネレーヌ"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -4170,6 +4200,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロメ (Kurome) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4239,9 +4299,9 @@
       "contentHash": "6eba229b7329f9a1e755aaadc792b3056e7b54f310a516ed1a1d6b42c2ef85a1",
       "byteLength": 65990,
       "rawPath": "netkeiba/horses/2018/2018100076/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:11:12.044Z"
+  "updatedAt": "2026-08-31T06:16:29.165Z"
 }

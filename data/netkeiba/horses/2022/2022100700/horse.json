@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100700",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100700/",
-  "profile": null,
+  "profile": {
+    "name": "ポッドロルフ",
+    "birthDate": "2022-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "042033",
+      "name": "小川眞査雄"
+    },
+    "breeder": {
+      "id": "203097",
+      "name": "下屋敷牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014110031",
+      "name": "モズアスコット"
+    },
+    "dam": {
+      "id": "2015101857",
+      "name": "グリエルマ"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2014110031",
@@ -2426,6 +2456,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポッドロルフ (Pod Rolf) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドロルフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドロルフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2495,9 +2555,9 @@
       "contentHash": "56817b82cd0fa1c3da29b58a3d68083f694018de546cd4698e86a4d72e1c6e10",
       "byteLength": 66844,
       "rawPath": "netkeiba/horses/2022/2022100700/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:30:09.298Z"
+  "updatedAt": "2026-08-27T08:42:05.008Z"
 }

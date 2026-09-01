@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105662",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105662/",
-  "profile": null,
+  "profile": {
+    "name": "アイタイ",
+    "birthDate": "2016-03-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "中西達也"
+    },
+    "owner": {
+      "id": "518031",
+      "name": "大田慎治"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2010102632",
+      "name": "イチリュウ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -7981,6 +8011,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイタイ (Aitai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイタイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイタイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8050,9 +8110,9 @@
       "contentHash": "b3ea6e240b9f749769ce74dd6e8b8dda1eda54c8401738b59f48b70479d090f5",
       "byteLength": 66759,
       "rawPath": "netkeiba/horses/2016/2016105662/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:24:44.430Z"
+  "updatedAt": "2026-08-28T07:30:36.488Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104405",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104405/",
-  "profile": null,
+  "profile": {
+    "name": "セットアップ",
+    "birthDate": "2021-04-06",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01187",
+      "name": "西田雄一"
+    },
+    "owner": {
+      "id": "782033",
+      "name": "嶋田一成"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2011102545",
+      "name": "スリーアロー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アルデバランII Aldebaran(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2015,6 +2045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セットアップ (Set Up) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セットアップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セットアップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2084,9 +2144,9 @@
       "contentHash": "85169c68313a978a5916d0cdd76cc8c6adb5df8901e0035c7a0134fe925204d6",
       "byteLength": 66978,
       "rawPath": "netkeiba/horses/2021/2021104405/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:44:24.390Z"
+  "updatedAt": "2026-08-28T07:50:16.189Z"
 }

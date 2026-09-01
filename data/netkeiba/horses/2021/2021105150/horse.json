@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105150",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105150/",
-  "profile": null,
+  "profile": {
+    "name": "ナファロア",
+    "birthDate": "2021-04-09",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ナレラ Narella(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Reliable Man (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -2563,6 +2593,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナファロア (Nafarroa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナファロア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナファロア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2632,9 +2692,9 @@
       "contentHash": "b1d8aba8b306cb70b9e57356c12fd55cd14e83c0c933515aba2f9ec7212d0f70",
       "byteLength": 66972,
       "rawPath": "netkeiba/horses/2021/2021105150/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:45:06.361Z"
+  "updatedAt": "2026-08-28T07:50:58.105Z"
 }

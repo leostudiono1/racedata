@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102471",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102471/",
-  "profile": null,
+  "profile": {
+    "name": "キムケンロード",
+    "birthDate": "2015-03-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "438030",
+      "name": "木村永浩"
+    },
+    "breeder": {
+      "id": "733023",
+      "name": "築紫洋"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "1999103541",
+      "name": "シルクハリウッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1970,6 +2000,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キムケンロード (Kimuken Lord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キムケンロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キムケンロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2039,9 +2099,9 @@
       "contentHash": "59dc86a55f66573e7e703c755897ebfe201714071c69208fe531c1799d9128a8",
       "byteLength": 66393,
       "rawPath": "netkeiba/horses/2015/2015102471/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:12:56.480Z"
+  "updatedAt": "2026-08-30T06:20:12.273Z"
 }

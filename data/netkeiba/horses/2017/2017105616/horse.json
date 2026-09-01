@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105616",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105616/",
-  "profile": null,
+  "profile": {
+    "name": "タイミングハート",
+    "birthDate": "2017-03-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "x02e3e",
+      "name": "蟹江知彦"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リッスン Listen(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -8491,6 +8521,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイミングハート (Timing Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイミングハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイミングハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8560,9 +8620,9 @@
       "contentHash": "84455de57386b27336c26e9b4aadafdf3c176585600a84e5286476285ef86345",
       "byteLength": 67359,
       "rawPath": "netkeiba/horses/2017/2017105616/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:09:13.789Z"
+  "updatedAt": "2026-08-25T11:18:21.367Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110091",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110091/",
-  "profile": null,
+  "profile": {
+    "name": "アルデフォックス",
+    "birthDate": "2022-02-25",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05204",
+      "name": "村上頼章"
+    },
+    "owner": {
+      "id": "x0bcfa",
+      "name": "東村知洸"
+    },
+    "breeder": {
+      "id": "330731",
+      "name": "The Elkstone Group LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Curlin's Fox"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2646,6 +2676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルデフォックス (Arde Fox) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルデフォックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルデフォックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2715,9 +2775,9 @@
       "contentHash": "19538a4632ba3edaf6160d2b590b1ecb262c84ced32514c08ac5306f6748ab41",
       "byteLength": 66075,
       "rawPath": "netkeiba/horses/2022/2022110091/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:33:44.603Z"
+  "updatedAt": "2026-08-27T08:45:38.566Z"
 }

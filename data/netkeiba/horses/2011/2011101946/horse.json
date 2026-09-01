@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101946",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101946/",
-  "profile": null,
+  "profile": {
+    "name": "スザク",
+    "birthDate": "2011-04-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "798008",
+      "name": "一村哲也"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2001103893",
+      "name": "プリモスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -3257,6 +3287,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スザク (Suzaku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スザク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スザク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3326,9 +3386,9 @@
       "contentHash": "ef20d44f0647deee63709b55c739d19437c27794bf8beec59822471cfd0820e5",
       "byteLength": 65543,
       "rawPath": "netkeiba/horses/2011/2011101946/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:57:11.491Z"
+  "updatedAt": "2026-08-30T06:04:27.274Z"
 }

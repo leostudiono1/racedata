@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100464",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100464/",
-  "profile": null,
+  "profile": {
+    "name": "ヴノ",
+    "birthDate": "2022-03-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2015104727",
+      "name": "ニコール"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1621,6 +1651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴノ (Bouvo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴノ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴノ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1690,9 +1750,9 @@
       "contentHash": "aedb03f2bf989cb6d46d01414760cf703df7d5ea7a0e940972bc5500e2622e5a",
       "byteLength": 65500,
       "rawPath": "netkeiba/horses/2022/2022100464/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:28:59.923Z"
+  "updatedAt": "2026-08-31T06:34:16.475Z"
 }

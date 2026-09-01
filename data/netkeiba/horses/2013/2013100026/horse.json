@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100026",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100026/",
-  "profile": null,
+  "profile": {
+    "name": "コーサー",
+    "birthDate": "2013-02-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "491030",
+      "name": "藤田在子"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2004110175",
+      "name": "シベリアンクラシカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Siphon"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -1816,6 +1846,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コーサー (Courser) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コーサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コーサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1885,9 +1945,9 @@
       "contentHash": "ec0b4a004eea59699af63265b37cd6a36d9868caa655f012bbdfedc97325a55a",
       "byteLength": 66733,
       "rawPath": "netkeiba/horses/2013/2013100026/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:27:10.466Z"
+  "updatedAt": "2026-08-26T08:35:50.369Z"
 }

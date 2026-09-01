@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106804",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106804/",
-  "profile": null,
+  "profile": {
+    "name": "セラヴィー",
+    "birthDate": "2018-03-31",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05688",
+      "name": "小野望"
+    },
+    "owner": {
+      "id": "x0acad",
+      "name": "渡部識"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セルフプリザヴェーション Self Preservation(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lion Heart"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2909,6 +2939,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セラヴィー (C'Est la Vie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラヴィー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セラヴィー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2978,9 +3038,9 @@
       "contentHash": "d23a8fee8a5402a6857d58aa2d4a328f25de989ce9780a05b845aa475f05a8cf",
       "byteLength": 66660,
       "rawPath": "netkeiba/horses/2018/2018106804/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:14:56.153Z"
+  "updatedAt": "2026-08-31T06:20:12.803Z"
 }

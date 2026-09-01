@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103458",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103458/",
-  "profile": null,
+  "profile": {
+    "name": "パキラ",
+    "birthDate": "2021-05-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05331",
+      "name": "山崎尋美"
+    },
+    "owner": {
+      "id": "816030",
+      "name": "牧野好行"
+    },
+    "breeder": {
+      "id": "003070",
+      "name": "漆原武男"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2014104345",
+      "name": "バーニングテイスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1899,6 +1929,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パキラ (Pachira) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パキラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パキラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1968,9 +2028,9 @@
       "contentHash": "a10c756d1798e60756761d593a38d402dc370a5b96e4376e7c5af63e0407588f",
       "byteLength": 65112,
       "rawPath": "netkeiba/horses/2021/2021103458/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:43:52.815Z"
+  "updatedAt": "2026-08-28T07:49:44.684Z"
 }

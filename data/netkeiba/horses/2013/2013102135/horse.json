@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102135",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102135/",
-  "profile": null,
+  "profile": {
+    "name": "ネコパワー",
+    "birthDate": "2013-02-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00380",
+      "name": "柄崎孝"
+    },
+    "owner": {
+      "id": "129005",
+      "name": "桐谷茂"
+    },
+    "breeder": {
+      "id": "500318",
+      "name": "ヤマタケ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2005101280",
+      "name": "セレクトレディ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1303,6 +1333,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネコパワー (Neko Power) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコパワー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネコパワー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1372,9 +1432,9 @@
       "contentHash": "4755e19d35e058edc1844706296013cc3f639ff3a705eaf08dad2d5e5f572e01",
       "byteLength": 65152,
       "rawPath": "netkeiba/horses/2013/2013102135/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:53:26.931Z"
+  "updatedAt": "2026-08-27T08:05:22.844Z"
 }

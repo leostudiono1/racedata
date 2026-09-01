@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102477",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102477/",
-  "profile": null,
+  "profile": {
+    "name": "メープル",
+    "birthDate": "2015-03-16",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "331033",
+      "name": "土田重実"
+    },
+    "breeder": {
+      "id": "403021",
+      "name": "土田農場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エキゾチックエレガンス Exotic Elegance(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1990,6 +2020,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メープル (Maple) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メープル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メープル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2059,9 +2119,9 @@
       "contentHash": "43035786f6e83ffebbd28cd49f8d1e17287a7ce443cc5fa283d1358521445439",
       "byteLength": 66850,
       "rawPath": "netkeiba/horses/2015/2015102477/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:46:27.194Z"
+  "updatedAt": "2026-08-29T06:53:29.354Z"
 }

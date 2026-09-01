@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107346",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107346/",
-  "profile": null,
+  "profile": {
+    "name": "ゲンテン",
+    "birthDate": "2023-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディイヴァンカ Lady Ivanka(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiz Wonderful"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1522,6 +1552,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲンテン (Genten) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲンテン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲンテン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1591,9 +1651,9 @@
       "contentHash": "1fd2468d447a551c9f4f3aba4e81e823f00024d1544af0d0c3131abfd4911b50",
       "byteLength": 66957,
       "rawPath": "netkeiba/horses/2023/2023107346/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:36:00.756Z"
+  "updatedAt": "2026-08-25T11:45:08.364Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104869",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104869/",
-  "profile": null,
+  "profile": {
+    "name": "キャリアパス",
+    "birthDate": "2020-04-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "高橋純"
+    },
+    "owner": {
+      "id": "x01806",
+      "name": "岩渕道良"
+    },
+    "breeder": {
+      "id": "603302",
+      "name": "増本牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012102774",
+      "name": "ヤマカツエース"
+    },
+    "dam": {
+      "id": "2005101007",
+      "name": "ケリーメイ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102774",
@@ -4092,6 +4122,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャリアパス (Career Path) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャリアパス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャリアパス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4161,9 +4221,9 @@
       "contentHash": "77a45f183c570ce20e97cc7e84032c6cd5c310dde61135c6cdd8320e2935704c",
       "byteLength": 65893,
       "rawPath": "netkeiba/horses/2020/2020104869/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:25:25.683Z"
+  "updatedAt": "2026-08-27T08:37:21.394Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104124",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104124/",
-  "profile": null,
+  "profile": {
+    "name": "ストーリア",
+    "birthDate": "2019-03-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2010101359",
+      "name": "フェリス"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2376,6 +2406,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストーリア (Storia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストーリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2445,9 +2505,9 @@
       "contentHash": "a1f856e8717f4f5d2ccda777d5fc6c618b413dba645d7672fe4b72fa803149be",
       "byteLength": 67501,
       "rawPath": "netkeiba/horses/2019/2019104124/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:16:48.735Z"
+  "updatedAt": "2026-08-25T11:25:56.870Z"
 }

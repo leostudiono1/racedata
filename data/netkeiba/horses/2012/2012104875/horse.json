@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104875",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104875/",
-  "profile": null,
+  "profile": {
+    "name": "パンデイア",
+    "birthDate": "2012-04-13",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05646",
+      "name": "川島正一"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ムーンライトダンス Moonlight Dance(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sinndar (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2068,6 +2098,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パンデイア (Pandeia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パンデイア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パンデイア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2137,9 +2197,9 @@
       "contentHash": "1148b02b8cf57816c37b4624490a9a88e44f030e830f79787668768b3ca1e137",
       "byteLength": 67358,
       "rawPath": "netkeiba/horses/2012/2012104875/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:01:09.407Z"
+  "updatedAt": "2026-08-30T06:08:25.099Z"
 }

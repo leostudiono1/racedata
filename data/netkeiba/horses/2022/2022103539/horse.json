@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103539",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103539/",
-  "profile": null,
+  "profile": {
+    "name": "ノロシ",
+    "birthDate": "2022-04-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "098803",
+      "name": "Ｇリビエール・レーシング"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014100222",
+      "name": "ウインブライト"
+    },
+    "dam": {
+      "id": "2012110031",
+      "name": "ヌーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Congrats (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014100222",
@@ -1377,6 +1407,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノロシ (Noroshi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノロシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノロシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1446,9 +1506,9 @@
       "contentHash": "7fde156a081a34602d7db3aab5d3d4941f26c603a88dcde029f27c188113b12f",
       "byteLength": 66777,
       "rawPath": "netkeiba/horses/2022/2022103539/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:48:53.920Z"
+  "updatedAt": "2026-08-28T07:54:45.951Z"
 }

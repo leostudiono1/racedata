@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105194",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105194/",
-  "profile": null,
+  "profile": {
+    "name": "ジュリオ",
+    "birthDate": "2018-02-24",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2010104245",
+      "name": "ヒストリックレディ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1870,6 +1900,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジュリオ (Giulio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1939,9 +1999,9 @@
       "contentHash": "8420ed85df28744ca0552feaf488ddc710c57f2dacd66055a7dd799b2209013c",
       "byteLength": 67236,
       "rawPath": "netkeiba/horses/2018/2018105194/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:13:11.688Z"
+  "updatedAt": "2026-08-25T11:22:19.438Z"
 }

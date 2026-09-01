@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103969",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103969/",
-  "profile": null,
+  "profile": {
+    "name": "シラセ",
+    "birthDate": "2019-03-15",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05436",
+      "name": "林正人"
+    },
+    "owner": {
+      "id": "338006",
+      "name": "江川伸夫"
+    },
+    "breeder": {
+      "id": "100012",
+      "name": "信岡牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011101273",
+      "name": "エイシンヒカリ"
+    },
+    "dam": {
+      "id": "2015105218",
+      "name": "エイシンエルヴァー"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2011101273",
@@ -5644,6 +5674,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シラセ (Shirase) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シラセ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シラセ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5713,9 +5773,9 @@
       "contentHash": "382e4bfb2ae0b42d65764b06eca3a0b530cb333a7367b6385e752cc0a82d647b",
       "byteLength": 66714,
       "rawPath": "netkeiba/horses/2019/2019103969/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:05:07.647Z"
+  "updatedAt": "2026-08-29T07:12:09.926Z"
 }

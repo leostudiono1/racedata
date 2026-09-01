@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100311",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100311/",
-  "profile": null,
+  "profile": {
+    "name": "シイチ",
+    "birthDate": "2016-03-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "x0384b",
+      "name": "濱田常稔"
+    },
+    "breeder": {
+      "id": "210543",
+      "name": "スカイビーチステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2002100973",
+      "name": "シャイニングスルー"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2264,6 +2294,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シイチ (Shiichi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シイチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シイチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2333,9 +2393,9 @@
       "contentHash": "c22ad34aabbb208310f4e0e21fd34e642e6ba5906b739a3408315e512e927efd",
       "byteLength": 65178,
       "rawPath": "netkeiba/horses/2016/2016100311/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:15:37.674Z"
+  "updatedAt": "2026-08-30T06:22:53.460Z"
 }

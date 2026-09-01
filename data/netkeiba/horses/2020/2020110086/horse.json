@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110086",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110086/",
-  "profile": null,
+  "profile": {
+    "name": "ロスマリンブルー",
+    "birthDate": "2020-01-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宮川浩一"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "050734",
+      "name": "Shadai Farm"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Zoustar"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ニュープロヴィデンス New Providence(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bahamian Bounty"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1971,6 +2001,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロスマリンブルー (Rosmarin Blue) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロスマリンブルー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロスマリンブルー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2040,9 +2100,9 @@
       "contentHash": "aad9710d59d7db09427f446599a339c6019fd49836d10ab00da82785ba2c681e",
       "byteLength": 64977,
       "rawPath": "netkeiba/horses/2020/2020110086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:26:35.915Z"
+  "updatedAt": "2026-08-27T08:38:31.508Z"
 }

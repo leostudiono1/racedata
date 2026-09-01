@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105212",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105212/",
-  "profile": null,
+  "profile": {
+    "name": "シーシェル",
+    "birthDate": "2023-01-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "371009",
+      "name": "高橋文男"
+    },
+    "breeder": {
+      "id": "311541",
+      "name": "アスラン"
+    },
+    "birthplace": "苫小牧市",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "2014106080",
+      "name": "サクレエクスプレス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -1439,6 +1469,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーシェル (Sea Shell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーシェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーシェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1508,9 +1568,9 @@
       "contentHash": "b547fcf4a8c7e69a844dc328ac407176a1ca3a3087fc1bc94243377e8fcc9bd6",
       "byteLength": 65268,
       "rawPath": "netkeiba/horses/2023/2023105212/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:49:14.206Z"
+  "updatedAt": "2026-08-30T06:56:30.330Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103115",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103115/",
-  "profile": null,
+  "profile": {
+    "name": "ヨハン",
+    "birthDate": "2016-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05731",
+      "name": "加藤和義"
+    },
+    "owner": {
+      "id": "x0a519",
+      "name": "福原聡"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ヨハネスブルグ Johannesburg(米)"
+    },
+    "dam": {
+      "id": "2007105550",
+      "name": "マストバイアイテム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -7222,6 +7252,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヨハン (Johann) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨハン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨハン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7291,9 +7351,9 @@
       "contentHash": "70793355d9c427855e1136ffde637bf5139014c1cc16cc09dcc285cd6f01def0",
       "byteLength": 66751,
       "rawPath": "netkeiba/horses/2016/2016103115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:06:52.454Z"
+  "updatedAt": "2026-08-27T08:18:48.146Z"
 }

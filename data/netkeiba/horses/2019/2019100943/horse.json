@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100943",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100943/",
-  "profile": null,
+  "profile": {
+    "name": "サードフォース",
+    "birthDate": "2019-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "Violence"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フラットウェアー Flatware(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Flatter"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2007,6 +2037,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サードフォース (Third Force) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サードフォース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サードフォース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2076,9 +2136,9 @@
       "contentHash": "f4941bd57c36e2943bb10922c195c26e89699ae56a046d5e1399336d54ac034a",
       "byteLength": 66105,
       "rawPath": "netkeiba/horses/2019/2019100943/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:18:18.477Z"
+  "updatedAt": "2026-08-27T08:30:14.934Z"
 }

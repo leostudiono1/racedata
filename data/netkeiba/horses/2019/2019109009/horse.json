@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019109009",
   "sourceUrl": "https://db.netkeiba.com/horse/2019109009/",
-  "profile": null,
+  "profile": {
+    "name": "キョウエイシオン",
+    "birthDate": "2019-05-01",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "130141",
+      "name": "石田英機"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2008103206",
+      "name": "ウインバリアシオン"
+    },
+    "dam": {
+      "id": "2004101474",
+      "name": "スペシャルウーマン"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103206",
@@ -1399,6 +1429,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キョウエイシオン (Kyoei Tion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイシオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイシオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1468,9 +1528,9 @@
       "contentHash": "0583ad3138f4beb46c42a1acd945801794aaf6871c4d0a2e54d83e06aae9737f",
       "byteLength": 66820,
       "rawPath": "netkeiba/horses/2019/2019109009/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:33:46.683Z"
+  "updatedAt": "2026-08-30T06:41:02.464Z"
 }

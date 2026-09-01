@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103566",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103566/",
-  "profile": null,
+  "profile": {
+    "name": "シェットランド",
+    "birthDate": "2020-01-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "379008",
+      "name": "村木隆"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2011103781",
+      "name": "フェイトカラー"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -3146,6 +3176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シェットランド (Shetland) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シェットランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シェットランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3215,9 +3275,9 @@
       "contentHash": "838bdaecf2699ce557a33d5d4a56c5f5929ee7a28b15fc8397a8267064374d49",
       "byteLength": 67058,
       "rawPath": "netkeiba/horses/2020/2020103566/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:24:47.679Z"
+  "updatedAt": "2026-08-27T08:36:43.001Z"
 }

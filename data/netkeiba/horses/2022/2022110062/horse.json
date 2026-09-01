@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110062",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110062/",
-  "profile": null,
+  "profile": {
+    "name": "レネネト",
+    "birthDate": "2022-03-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01216",
+      "name": "柴田卓"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "810898",
+      "name": "Glen Hill Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Family Meeting"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Mesa"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1646,6 +1676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レネネト (Renenet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レネネト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レネネト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1715,9 +1775,9 @@
       "contentHash": "6eb9448154d4dad3ef63c3d83bdc7b2ad7b8ed79189ddd26ee1b3adcba4252bc",
       "byteLength": 66173,
       "rawPath": "netkeiba/horses/2022/2022110062/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:19:18.524Z"
+  "updatedAt": "2026-08-29T07:26:20.501Z"
 }

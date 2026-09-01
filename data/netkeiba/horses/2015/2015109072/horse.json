@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109072",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109072/",
-  "profile": null,
+  "profile": {
+    "name": "ベリーグウ",
+    "birthDate": "2015-05-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "889006",
+      "name": "河村祥史"
+    },
+    "breeder": {
+      "id": "033157",
+      "name": "佐藤庄一"
+    },
+    "birthplace": "宮城県",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2008102970",
+      "name": "フレンドリーレイズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1722,6 +1752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベリーグウ (Very Good) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリーグウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリーグウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1791,9 +1851,9 @@
       "contentHash": "a129cccaffab753a545b64ec4a0760919b8c4da0b4972559d7fb99d1c76641e8",
       "byteLength": 64558,
       "rawPath": "netkeiba/horses/2015/2015109072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:01:31.648Z"
+  "updatedAt": "2026-08-25T11:10:39.276Z"
 }

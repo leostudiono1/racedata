@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102492",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102492/",
-  "profile": null,
+  "profile": {
+    "name": "ルシエンテ",
+    "birthDate": "2017-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05567",
+      "name": "森沢友貴"
+    },
+    "owner": {
+      "id": "548033",
+      "name": "奥裕嗣"
+    },
+    "breeder": {
+      "id": "403021",
+      "name": "土田農場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2010101452",
+      "name": "エルクイーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -3716,6 +3746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルシエンテ (Lucente) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルシエンテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルシエンテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3785,9 +3845,9 @@
       "contentHash": "962e4163ddf1c3847868ae13f19e6152e2bf25d5cc9a00d34b341b8c012786c4",
       "byteLength": 64728,
       "rawPath": "netkeiba/horses/2017/2017102492/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:21:42.096Z"
+  "updatedAt": "2026-08-30T06:28:57.602Z"
 }

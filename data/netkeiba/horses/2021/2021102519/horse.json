@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102519",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102519/",
-  "profile": null,
+  "profile": {
+    "name": "ミックスアップ",
+    "birthDate": "2021-05-25",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05071",
+      "name": "森山英雄"
+    },
+    "owner": {
+      "id": "338006",
+      "name": "江川伸夫"
+    },
+    "breeder": {
+      "id": "230005",
+      "name": "清水スタッド"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2001105200",
+      "name": "ドリームキセキ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -6463,6 +6493,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミックスアップ (Mix Up) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミックスアップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミックスアップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6532,9 +6592,9 @@
       "contentHash": "79a562e992369802651651ee04c19feb92ae4f9301ac6d9cbd9fb180c8ac64bf",
       "byteLength": 66949,
       "rawPath": "netkeiba/horses/2021/2021102519/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:39:26.633Z"
+  "updatedAt": "2026-08-30T06:46:41.833Z"
 }

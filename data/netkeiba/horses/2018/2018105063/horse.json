@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105063",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105063/",
-  "profile": null,
+  "profile": {
+    "name": "シラクーザ",
+    "birthDate": "2018-04-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シユーマ Siyouma(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medicean"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1045,6 +1075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シラクーザ (Siracusa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シラクーザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シラクーザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1114,9 +1174,9 @@
       "contentHash": "44748d5d4706cffea74e1d512baa58aec2058fe2338930c8bb7050d023566348",
       "byteLength": 65606,
       "rawPath": "netkeiba/horses/2018/2018105063/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:52:26.544Z"
+  "updatedAt": "2026-08-26T09:01:06.198Z"
 }

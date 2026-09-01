@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106468",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106468/",
-  "profile": null,
+  "profile": {
+    "name": "アストルム",
+    "birthDate": "2015-05-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2000106882",
+      "name": "タイセイエトワール"
+    },
+    "damsire": {
+      "id": "1983109006",
+      "name": "トニービン Tony Bin(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2746,6 +2776,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アストルム (Astrum) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストルム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストルム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2815,9 +2875,9 @@
       "contentHash": "fe156cd731c91878be5294a786e2dd81ba4fc6fc95d643b7a1fb7634462607df",
       "byteLength": 66792,
       "rawPath": "netkeiba/horses/2015/2015106468/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:48:47.320Z"
+  "updatedAt": "2026-08-29T06:55:49.396Z"
 }

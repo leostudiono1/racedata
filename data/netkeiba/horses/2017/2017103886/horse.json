@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103886",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103886/",
-  "profile": null,
+  "profile": {
+    "name": "ラキ",
+    "birthDate": "2017-04-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "233086",
+      "name": "友田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2007103006",
+      "name": "キスショット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -4242,6 +4272,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラキ (Laki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4311,9 +4371,9 @@
       "contentHash": "97147d53358a9ea8d5d213df6a146ac94fec5eee6bb7582ad7b80a97840f91b7",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2017/2017103886/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:55:23.311Z"
+  "updatedAt": "2026-08-29T07:02:24.979Z"
 }

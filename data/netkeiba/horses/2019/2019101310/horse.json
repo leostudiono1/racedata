@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101310",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101310/",
-  "profile": null,
+  "profile": {
+    "name": "アストロロジー",
+    "birthDate": "2019-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05746",
+      "name": "佐野謙二"
+    },
+    "owner": {
+      "id": "x0aa23",
+      "name": "佐々木均"
+    },
+    "breeder": {
+      "id": "913344",
+      "name": "いとう牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴィーナスコロニー Venus Colony(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Nureyev"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -3825,6 +3855,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アストロロジー (Astrology) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストロロジー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストロロジー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3894,9 +3954,9 @@
       "contentHash": "bd115929a1bbb7f1e6182764cde4010d8590bf6c251cae30b9847551167340c4",
       "byteLength": 67058,
       "rawPath": "netkeiba/horses/2019/2019101310/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:15:10.708Z"
+  "updatedAt": "2026-08-25T11:24:18.551Z"
 }

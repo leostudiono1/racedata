@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105429",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105429/",
-  "profile": null,
+  "profile": {
+    "name": "チギリ",
+    "birthDate": "2022-02-10",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "328803",
+      "name": "北村栄治"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011104416",
+      "name": "レッドファルクス"
+    },
+    "dam": {
+      "id": "2010103709",
+      "name": "ナチュラルスタンス"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104416",
@@ -2827,6 +2857,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チギリ (Chigiri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チギリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チギリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2896,9 +2956,9 @@
       "contentHash": "0c527ffa91e9bd8da20f3dfa4dd1279f5ce6f28311a4c56ae6c70c313d19638c",
       "byteLength": 66864,
       "rawPath": "netkeiba/horses/2022/2022105429/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:09:05.357Z"
+  "updatedAt": "2026-08-26T09:17:43.997Z"
 }

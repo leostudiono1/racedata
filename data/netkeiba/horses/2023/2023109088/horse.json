@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023109088",
   "sourceUrl": "https://db.netkeiba.com/horse/2023109088/",
-  "profile": null,
+  "profile": {
+    "name": "ガクエンテンゴク",
+    "birthDate": "2023-04-08",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01213",
+      "name": "秋本大介"
+    },
+    "owner": {
+      "id": "082031",
+      "name": "三岡陽"
+    },
+    "breeder": {
+      "id": "950570",
+      "name": "ストームファームコーポレーション"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "2010104009",
+      "name": "アイスウィッチ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1440,6 +1470,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガクエンテンゴク (Gakuen Tengoku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガクエンテンゴク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガクエンテンゴク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1509,9 +1569,9 @@
       "contentHash": "f80e55ab2bb84e18cbe37e464992c83baa87b4588ca399fb17032bd317a0cc26",
       "byteLength": 66779,
       "rawPath": "netkeiba/horses/2023/2023109088/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:24:26.439Z"
+  "updatedAt": "2026-08-29T07:31:28.527Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105008",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105008/",
-  "profile": null,
+  "profile": {
+    "name": "ククナ",
+    "birthDate": "2018-03-31",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2012104599",
+      "name": "クルミナル"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -2973,6 +3003,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ククナ (Kukuna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ククナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ククナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3042,9 +3102,9 @@
       "contentHash": "f47cc44ec08f7d7f0c8f9543253e7c592ec109b35a6f3853ffb35ffdc1c7bc4c",
       "byteLength": 67423,
       "rawPath": "netkeiba/horses/2018/2018105008/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:13:04.715Z"
+  "updatedAt": "2026-08-25T11:22:12.454Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102294",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102294/",
-  "profile": null,
+  "profile": {
+    "name": "オーシンアズキ",
+    "birthDate": "2019-03-18",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05672",
+      "name": "朝倉実"
+    },
+    "owner": {
+      "id": "518031",
+      "name": "大田慎治"
+    },
+    "breeder": {
+      "id": "803327",
+      "name": "門別牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ザファクター"
+    },
+    "dam": {
+      "id": "2008104247",
+      "name": "ディープスノー"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4726,6 +4756,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーシンアズキ (O Shin Azuki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーシンアズキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーシンアズキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4795,9 +4855,9 @@
       "contentHash": "cc6ac88db7444ce772b99b166f34b799c933694eaea74298a558693b899cd758",
       "byteLength": 66550,
       "rawPath": "netkeiba/horses/2019/2019102294/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:15:52.931Z"
+  "updatedAt": "2026-08-25T11:25:00.580Z"
 }

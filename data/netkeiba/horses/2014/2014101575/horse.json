@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101575",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101575/",
-  "profile": null,
+  "profile": {
+    "name": "ビッフル",
+    "birthDate": "2014-03-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01093",
+      "name": "松永康利"
+    },
+    "owner": {
+      "id": "336030",
+      "name": "小林竜太郎"
+    },
+    "breeder": {
+      "id": "940367",
+      "name": "船越伸也"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    },
+    "dam": {
+      "id": "2001107349",
+      "name": "カガヤケラビット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999107004",
@@ -1845,6 +1875,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビッフル (Biffle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッフル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッフル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1914,9 +1974,9 @@
       "contentHash": "e68ca75314fce5e547bba67cfbc06f2b3ebdc35c03a29b7e983ccba8d22d66c6",
       "byteLength": 64939,
       "rawPath": "netkeiba/horses/2014/2014101575/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:32:36.038Z"
+  "updatedAt": "2026-08-26T08:41:15.826Z"
 }

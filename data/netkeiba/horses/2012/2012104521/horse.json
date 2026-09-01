@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104521",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104521/",
-  "profile": null,
+  "profile": {
+    "name": "プラパジシャン",
+    "birthDate": "2012-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05586",
+      "name": "柏原誠路"
+    },
+    "owner": {
+      "id": "172002",
+      "name": "池谷誠一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アビラ Abyla(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1346,6 +1376,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プラパジシャン (Proposition) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プラパジシャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プラパジシャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1415,9 +1475,9 @@
       "contentHash": "03cc2ab324e013c83b033af8eddab1cb9a339bb854c1335ab780ec003148f784",
       "byteLength": 64548,
       "rawPath": "netkeiba/horses/2012/2012104521/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:25:39.381Z"
+  "updatedAt": "2026-08-26T08:34:19.273Z"
 }

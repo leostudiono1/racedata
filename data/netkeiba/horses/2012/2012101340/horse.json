@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101340",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101340/",
-  "profile": null,
+  "profile": {
+    "name": "アメ",
+    "birthDate": "2012-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00413",
+      "name": "田中章博"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2005103150",
+      "name": "シャンパンフルート"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1075,6 +1105,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アメ (Ame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1144,9 +1204,9 @@
       "contentHash": "81a0c3a65ddb77649ebdd102a81fee9816093cd862eba217991d536fe6f3203f",
       "byteLength": 64139,
       "rawPath": "netkeiba/horses/2012/2012101340/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:32:44.408Z"
+  "updatedAt": "2026-08-29T06:39:47.030Z"
 }

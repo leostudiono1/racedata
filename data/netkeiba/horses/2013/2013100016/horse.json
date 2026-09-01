@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100016",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100016/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィリア",
+    "birthDate": "2013-04-24",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "635009",
+      "name": "田所英子"
+    },
+    "breeder": {
+      "id": "003341",
+      "name": "天羽牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "1993101564",
+      "name": "ファイトガリバー"
+    },
+    "damsire": {
+      "id": "1983104089",
+      "name": "ダイナガリバー"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1848,6 +1878,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィリア (Vilja) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1917,9 +1977,9 @@
       "contentHash": "385751def9d43def38440af5e6834719737af873ee13f08fd0826c27af25a43c",
       "byteLength": 65641,
       "rawPath": "netkeiba/horses/2013/2013100016/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:49:30.185Z"
+  "updatedAt": "2026-08-25T10:58:38.066Z"
 }

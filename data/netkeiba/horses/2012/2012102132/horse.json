@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102132",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102132/",
-  "profile": null,
+  "profile": {
+    "name": "ビービーロイド",
+    "birthDate": "2012-02-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "974030",
+      "name": "坂東勝彦"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2007105140",
+      "name": "ビービーエーディン"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -1834,6 +1864,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビービーロイド (B B Lloyd) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビービーロイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビービーロイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1903,9 +1963,9 @@
       "contentHash": "0c42d02672ed5e6c11686736c5ae7692105e2d9c446d67045f2b7820a7a627a7",
       "byteLength": 64437,
       "rawPath": "netkeiba/horses/2012/2012102132/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:24:11.835Z"
+  "updatedAt": "2026-08-26T08:32:51.648Z"
 }

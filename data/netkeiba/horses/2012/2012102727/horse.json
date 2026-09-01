@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102727",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102727/",
-  "profile": null,
+  "profile": {
+    "name": "ノースヒーロー",
+    "birthDate": "2012-03-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00353",
+      "name": "和田正道"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "003070",
+      "name": "漆原武男"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2004103971",
+      "name": "ラブイズカヌマ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -2938,6 +2968,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノースヒーロー (North Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノースヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノースヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3007,9 +3067,9 @@
       "contentHash": "0bf289139d45e32bbfa51ba8b2fbafcbe40be6c45e7548f54f6c5887da7c407e",
       "byteLength": 65664,
       "rawPath": "netkeiba/horses/2012/2012102727/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T13:59:39.020Z"
+  "updatedAt": "2026-08-24T12:07:50.897Z"
 }

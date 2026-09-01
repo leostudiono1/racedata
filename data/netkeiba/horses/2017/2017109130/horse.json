@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017109130",
   "sourceUrl": "https://db.netkeiba.com/horse/2017109130/",
-  "profile": null,
+  "profile": {
+    "name": "ローランダー",
+    "birthDate": "2017-04-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01069",
+      "name": "中尾秀正"
+    },
+    "owner": {
+      "id": "158033",
+      "name": "山下良子"
+    },
+    "breeder": {
+      "id": "735404",
+      "name": "本田土寿"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2004103414",
+      "name": "ハニーダンサー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Danehill Dancer (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -2646,6 +2676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローランダー (Rolander) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローランダー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローランダー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2715,9 +2775,9 @@
       "contentHash": "27a0fda2630f265c8960884d00257352ce5cf2604e9b97fc9cbbfa6df22d9153",
       "byteLength": 67076,
       "rawPath": "netkeiba/horses/2017/2017109130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:13:27.905Z"
+  "updatedAt": "2026-08-27T08:25:23.640Z"
 }

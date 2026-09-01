@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110035",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110035/",
-  "profile": null,
+  "profile": {
+    "name": "スームジュール",
+    "birthDate": "2012-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01121",
+      "name": "角田晃一"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "910703",
+      "name": "Alpha Delta Stables LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Summer Raven"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Summer Squall (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1268,6 +1298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スームジュール (Sur Mesure) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スームジュール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スームジュール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1337,9 +1397,9 @@
       "contentHash": "042509be6c34ba84e42b3a5a76f319d903a74eb8e637001826740988eb349477",
       "byteLength": 65417,
       "rawPath": "netkeiba/horses/2012/2012110035/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:01:38.042Z"
+  "updatedAt": "2026-08-24T12:09:49.838Z"
 }

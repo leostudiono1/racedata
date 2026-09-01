@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104868",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104868/",
-  "profile": null,
+  "profile": {
+    "name": "クレバー",
+    "birthDate": "2023-03-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05585",
+      "name": "畠山信一"
+    },
+    "owner": {
+      "id": "554008",
+      "name": "吉田勝利"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2013103386",
+      "name": "スマートルビー"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1662,6 +1692,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クレバー (Clever) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレバー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレバー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1731,9 +1791,9 @@
       "contentHash": "a6d0f1d02b5ca99f9d162ab05b14a7d2af185f1b6e4f253e67fd45e62b058854",
       "byteLength": 64639,
       "rawPath": "netkeiba/horses/2023/2023104868/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:36:00.576Z"
+  "updatedAt": "2026-08-31T06:41:16.621Z"
 }

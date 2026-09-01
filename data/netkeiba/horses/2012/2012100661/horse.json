@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100661",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100661/",
-  "profile": null,
+  "profile": {
+    "name": "ベリサマ",
+    "birthDate": "2012-04-21",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "986033",
+      "name": "佐久間拓士"
+    },
+    "breeder": {
+      "id": "500319",
+      "name": "平山牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2002102271",
+      "name": "ジュバリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2821,6 +2851,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベリサマ (Belisama) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリサマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリサマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2890,9 +2950,9 @@
       "contentHash": "7f180a47bafe8dbf25f9855b42a7cc256859d77be47913fd33ce6bea94007811",
       "byteLength": 64894,
       "rawPath": "netkeiba/horses/2012/2012100661/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:58:56.105Z"
+  "updatedAt": "2026-08-30T06:06:11.976Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101000",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101000/",
-  "profile": null,
+  "profile": {
+    "name": "キョウエイガウディ",
+    "birthDate": "2014-03-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "619002",
+      "name": "田中晴夫"
+    },
+    "breeder": {
+      "id": "633093",
+      "name": "沖田忠幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2005104129",
+      "name": "バトルラヴ"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -2815,6 +2845,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キョウエイガウディ (Kyoei Gaudi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイガウディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイガウディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2884,9 +2944,9 @@
       "contentHash": "870b56a060663fcff4b46423f5cacd8dc516248403cb51ba5c6f49beba7176c3",
       "byteLength": 66399,
       "rawPath": "netkeiba/horses/2014/2014101000/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T12:54:06.742Z"
+  "updatedAt": "2026-08-25T11:03:14.528Z"
 }

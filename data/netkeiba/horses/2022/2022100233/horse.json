@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100233",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100233/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンアンタレス",
+    "birthDate": "2022-04-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "堀場裕充"
+    },
+    "owner": {
+      "id": "841030",
+      "name": "河崎五市"
+    },
+    "breeder": {
+      "id": "230047",
+      "name": "鮫川啓一"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005109202",
+      "name": "シルポート"
+    },
+    "dam": {
+      "id": "2014102682",
+      "name": "アオイサンライズ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2005109202",
@@ -2345,6 +2375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンアンタレス (Hakusan Antares) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンアンタレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンアンタレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2414,9 +2474,9 @@
       "contentHash": "f5462f3e970255282da89fe85463cf37a65a894ee7dc8e37eb0c8fd8e2008406",
       "byteLength": 66383,
       "rawPath": "netkeiba/horses/2022/2022100233/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:43:06.769Z"
+  "updatedAt": "2026-08-30T06:50:22.462Z"
 }

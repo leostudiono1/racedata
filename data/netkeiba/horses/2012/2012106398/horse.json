@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106398",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106398/",
-  "profile": null,
+  "profile": {
+    "name": "ファインサム",
+    "birthDate": "2012-05-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "526002",
+      "name": "宮崎金造"
+    },
+    "breeder": {
+      "id": "300339",
+      "name": "競優牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "1999104843",
+      "name": "ステルスエミオ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブラックタイアフェアー Black Tie Affair(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -1745,6 +1775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインサム (Fine Sam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインサム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインサム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1814,9 +1874,9 @@
       "contentHash": "427efd54e1547d7aa6d92c35a6efd0094e572397fbcf0b1decfe719c01a1ce20",
       "byteLength": 64544,
       "rawPath": "netkeiba/horses/2012/2012106398/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:08:06.517Z"
+  "updatedAt": "2026-08-28T07:13:58.435Z"
 }

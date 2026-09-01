@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100023",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100023/",
-  "profile": null,
+  "profile": {
+    "name": "ウラニア",
+    "birthDate": "2017-03-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05308",
+      "name": "田嶋弘幸"
+    },
+    "owner": {
+      "id": "635009",
+      "name": "田所英子"
+    },
+    "breeder": {
+      "id": "003341",
+      "name": "天羽牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2004105217",
+      "name": "ザリーン"
+    },
+    "damsire": {
+      "id": "1995101767",
+      "name": "メイショウオウドウ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -6621,6 +6651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウラニア (Urania) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウラニア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウラニア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6690,9 +6750,9 @@
       "contentHash": "df055660296ee90c1c73edfd0180a617b69d6d8845de815e650f0eb831b09cea",
       "byteLength": 66849,
       "rawPath": "netkeiba/horses/2017/2017100023/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:07:31.639Z"
+  "updatedAt": "2026-08-31T06:12:48.123Z"
 }

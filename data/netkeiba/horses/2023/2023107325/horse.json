@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107325",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107325/",
-  "profile": null,
+  "profile": {
+    "name": "クールチェンジ",
+    "birthDate": "2023-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2017105496",
+      "name": "ルナシオン"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1411,6 +1441,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クールチェンジ (Cool Change) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールチェンジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールチェンジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1480,9 +1540,9 @@
       "contentHash": "37816de244764ae2f8620f58e229684dc33575e44eb0575c5c811d1ec4889f1e",
       "byteLength": 66554,
       "rawPath": "netkeiba/horses/2023/2023107325/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:24:16.096Z"
+  "updatedAt": "2026-08-29T07:31:17.915Z"
 }

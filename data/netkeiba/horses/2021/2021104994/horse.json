@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104994",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104994/",
-  "profile": null,
+  "profile": {
+    "name": "ティンク",
+    "birthDate": "2021-02-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オーレリアズベル Aurelia's Belle(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lemon Drop Kid"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2781,6 +2811,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ティンク (Tink) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティンク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティンク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2850,9 +2910,9 @@
       "contentHash": "a6f6401eb43269119acbbcce851e417f0f7311d3d930c2968895853c2d26ce24",
       "byteLength": 67344,
       "rawPath": "netkeiba/horses/2021/2021104994/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:38:17.508Z"
+  "updatedAt": "2026-08-24T12:46:28.552Z"
 }

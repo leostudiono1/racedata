@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110118",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110118/",
-  "profile": null,
+  "profile": {
+    "name": "エアメテオラ",
+    "birthDate": "2020-05-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "084800",
+      "name": "ラッキーフィールド"
+    },
+    "breeder": {
+      "id": "630730",
+      "name": "Sekie Yoshihara & Tsunebumi Yoshihara"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Goldencents"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Nokaze"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1916,6 +1946,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エアメテオラ (Air Meteora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアメテオラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エアメテオラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1985,9 +2045,9 @@
       "contentHash": "61066f822a89826ea22b7340ec0b34a23053f7cfc97d505a6b19b778185a152b",
       "byteLength": 66919,
       "rawPath": "netkeiba/horses/2020/2020110118/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:35:28.937Z"
+  "updatedAt": "2026-08-24T12:43:40.509Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105422",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105422/",
-  "profile": null,
+  "profile": {
+    "name": "ワーケア",
+    "birthDate": "2017-02-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "チェリーコレクト Cherry Collect(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Oratorio"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2551,6 +2581,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワーケア (Wakea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワーケア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワーケア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2620,9 +2680,9 @@
       "contentHash": "2310ffc1115168e8c19db049da4b1221f23351c07aaa25af48282f2bc7ac989d",
       "byteLength": 66866,
       "rawPath": "netkeiba/horses/2017/2017105422/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:47:50.387Z"
+  "updatedAt": "2026-08-26T08:56:29.605Z"
 }

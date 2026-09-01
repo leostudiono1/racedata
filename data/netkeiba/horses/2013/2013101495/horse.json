@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101495",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101495/",
-  "profile": null,
+  "profile": {
+    "name": "フジシャイアン",
+    "birthDate": "2013-02-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01013",
+      "name": "小島太"
+    },
+    "owner": {
+      "id": "234006",
+      "name": "藤田達男"
+    },
+    "breeder": {
+      "id": "310336",
+      "name": "佐藤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    },
+    "dam": {
+      "id": "2003100351",
+      "name": "フジファレノプシス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アジュディケーティング Adjudicating(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998190004",
@@ -1340,6 +1370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フジシャイアン (Fuji Cheyenne) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジシャイアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジシャイアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1409,9 +1469,9 @@
       "contentHash": "4610e95563506e45be57061809afc5a15496dfdf2a80a8f72c2f0f24f401bab5",
       "byteLength": 65295,
       "rawPath": "netkeiba/horses/2013/2013101495/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:09:13.084Z"
+  "updatedAt": "2026-08-28T07:15:04.900Z"
 }

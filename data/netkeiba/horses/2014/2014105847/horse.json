@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105847",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105847/",
-  "profile": null,
+  "profile": {
+    "name": "レクセル",
+    "birthDate": "2014-01-25",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05177",
+      "name": "藤ヶ崎一"
+    },
+    "owner": {
+      "id": "028030",
+      "name": "服部康夫"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2009106178",
+      "name": "エポキシ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -6976,6 +7006,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レクセル (Lexell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レクセル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レクセル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7045,9 +7105,9 @@
       "contentHash": "1b1bfc4b33bad95096d2b264014c08b16517c8629253eb11f49e11b1f26e1a71",
       "byteLength": 66413,
       "rawPath": "netkeiba/horses/2014/2014105847/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:44:28.300Z"
+  "updatedAt": "2026-08-29T06:51:30.262Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100704",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100704/",
-  "profile": null,
+  "profile": {
+    "name": "スターシップ",
+    "birthDate": "2023-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01159",
+      "name": "高柳大輔"
+    },
+    "owner": {
+      "id": "461009",
+      "name": "沖田正憲"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2013100254",
+      "name": "インフィニティ"
+    },
+    "damsire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -2058,6 +2088,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターシップ (Star Ship) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターシップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターシップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2127,9 +2187,9 @@
       "contentHash": "c291936641fc1fb3fa54553af410d80f64965891e6ff5e38a9329e4ee2a7d344",
       "byteLength": 67250,
       "rawPath": "netkeiba/horses/2023/2023100704/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:51:31.529Z"
+  "updatedAt": "2026-08-28T07:57:23.378Z"
 }

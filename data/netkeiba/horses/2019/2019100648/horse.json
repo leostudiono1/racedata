@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100648",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100648/",
-  "profile": null,
+  "profile": {
+    "name": "レイド",
+    "birthDate": "2019-04-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2012103219",
+      "name": "デビュタント"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1128,6 +1158,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイド (Raid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1197,9 +1257,9 @@
       "contentHash": "6b75be6801696dc483a2e9df71271cba075664e53495beaed20121cb2e577058",
       "byteLength": 66060,
       "rawPath": "netkeiba/horses/2019/2019100648/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T09:03:15.450Z"
+  "updatedAt": "2026-08-29T07:10:17.953Z"
 }

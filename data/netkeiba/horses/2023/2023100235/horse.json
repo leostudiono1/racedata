@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100235",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100235/",
-  "profile": null,
+  "profile": {
+    "name": "ビズロード",
+    "birthDate": "2023-04-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "723033",
+      "name": "中村忠彦"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006104736",
+      "name": "トランセンド"
+    },
+    "dam": {
+      "id": "2016100599",
+      "name": "ディーブラッド"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2006104736",
@@ -1411,6 +1441,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビズロード (Biz Road) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビズロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビズロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1480,9 +1540,9 @@
       "contentHash": "9ec8df01f800f3072ccf4f03fe72c20344b670868653814449de440b6264685a",
       "byteLength": 65733,
       "rawPath": "netkeiba/horses/2023/2023100235/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:10:39.877Z"
+  "updatedAt": "2026-08-26T09:19:18.560Z"
 }

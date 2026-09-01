@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100879",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100879/",
-  "profile": null,
+  "profile": {
+    "name": "シビックハート",
+    "birthDate": "2012-05-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00419",
+      "name": "松元茂樹"
+    },
+    "owner": {
+      "id": "404033",
+      "name": "國枝久美子"
+    },
+    "breeder": {
+      "id": "400317",
+      "name": "村田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2002102487",
+      "name": "ダンシングハート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -5117,6 +5147,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シビックハート (Civic Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シビックハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シビックハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5186,9 +5246,9 @@
       "contentHash": "fc59197387ba4d47aa39449123a4ece12ced7ae3808e11dbb70eb29ce822976f",
       "byteLength": 67023,
       "rawPath": "netkeiba/horses/2012/2012100879/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:32:37.557Z"
+  "updatedAt": "2026-08-29T06:39:39.715Z"
 }

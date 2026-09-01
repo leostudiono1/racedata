@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105905",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105905/",
-  "profile": null,
+  "profile": {
+    "name": "ボタングラス",
+    "birthDate": "2012-04-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01116",
+      "name": "新開幸一"
+    },
+    "owner": {
+      "id": "973030",
+      "name": "河原義宏"
+    },
+    "breeder": {
+      "id": "800042",
+      "name": "小島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103189",
+      "name": "スウィフトカレント"
+    },
+    "dam": {
+      "id": "1999103190",
+      "name": "ボタンフジ"
+    },
+    "damsire": {
+      "id": "1989107416",
+      "name": "トロットサンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103189",
@@ -8029,6 +8059,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボタングラス (Botan Glass) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボタングラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボタングラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8098,9 +8158,9 @@
       "contentHash": "52398b52cd0ae8a834da9dff55be538c2b26814cb5be3bda92d761c00cb99b33",
       "byteLength": 66936,
       "rawPath": "netkeiba/horses/2012/2012105905/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:35:50.009Z"
+  "updatedAt": "2026-08-29T06:42:52.135Z"
 }

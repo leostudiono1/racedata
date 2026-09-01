@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105579",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105579/",
-  "profile": null,
+  "profile": {
+    "name": "オーサム",
+    "birthDate": "2014-05-12",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01069",
+      "name": "中尾秀正"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2006102916",
+      "name": "チャーミングオーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2976,6 +3006,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーサム (Awesome) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーサム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーサム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3045,9 +3105,9 @@
       "contentHash": "ee59c74cad7c2375752c00b8d36ab0235658a5f50b6f832d8b66949ae8002975",
       "byteLength": 67157,
       "rawPath": "netkeiba/horses/2014/2014105579/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:16:27.143Z"
+  "updatedAt": "2026-08-28T07:22:19.121Z"
 }

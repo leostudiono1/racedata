@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102087",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102087/",
-  "profile": null,
+  "profile": {
+    "name": "ミューズ",
+    "birthDate": "2017-03-25",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05709",
+      "name": "千葉博次"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006104736",
+      "name": "トランセンド"
+    },
+    "dam": {
+      "id": "2011106395",
+      "name": "カズサクション"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2006104736",
@@ -4580,6 +4610,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミューズ (Muse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミューズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミューズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4649,9 +4709,9 @@
       "contentHash": "004339824b648d237843e79da61beff89dc3017a0549b5324b56cfde263bebf8",
       "byteLength": 64379,
       "rawPath": "netkeiba/horses/2017/2017102087/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:21:17.161Z"
+  "updatedAt": "2026-08-30T06:28:33.106Z"
 }

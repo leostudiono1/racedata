@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101017",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101017/",
-  "profile": null,
+  "profile": {
+    "name": "テーオープライム",
+    "birthDate": "2017-05-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01084",
+      "name": "梅田智之"
+    },
+    "owner": {
+      "id": "304008",
+      "name": "小笹公也"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リーグルメアリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Afternoon Deelites"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2159,6 +2189,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テーオープライム (T O Prime) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオープライム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオープライム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2228,9 +2288,9 @@
       "contentHash": "77f0818bbefe0a96c634342e515500d91571063bd5eef9e8a96a67a34f2e1811",
       "byteLength": 65725,
       "rawPath": "netkeiba/horses/2017/2017101017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:45:22.848Z"
+  "updatedAt": "2026-08-26T08:54:02.789Z"
 }

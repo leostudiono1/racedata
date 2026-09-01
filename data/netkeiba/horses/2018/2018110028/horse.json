@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110028",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110028/",
-  "profile": null,
+  "profile": {
+    "name": "スカイシーカー",
+    "birthDate": "2018-04-13",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "470869",
+      "name": "Bernard Cooke"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Free Eagle (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ataraxy"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zamindar"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1484,6 +1514,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイシーカー (Sky Seeker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイシーカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイシーカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1553,9 +1613,9 @@
       "contentHash": "8946fa34f1d9e982ebf9b399522c459affe596fc3941a5355959eb3902bf2e7c",
       "byteLength": 65744,
       "rawPath": "netkeiba/horses/2018/2018110028/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:53:54.143Z"
+  "updatedAt": "2026-08-26T09:02:33.797Z"
 }

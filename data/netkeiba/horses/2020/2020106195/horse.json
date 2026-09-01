@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106195",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106195/",
-  "profile": null,
+  "profile": {
+    "name": "トップモーリス",
+    "birthDate": "2020-05-15",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中川雅之"
+    },
+    "owner": {
+      "id": "x07e1b",
+      "name": "畠山朝子"
+    },
+    "breeder": {
+      "id": "610030",
+      "name": "アイオイファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2010104329",
+      "name": "ルナリア"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2405,6 +2435,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トップモーリス (Top Maurice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップモーリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップモーリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2474,9 +2534,9 @@
       "contentHash": "a21d184ffa7f18d321a7388e4ee127dc71b8bafd5afc12d77303df65815cd44d",
       "byteLength": 65130,
       "rawPath": "netkeiba/horses/2020/2020106195/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:41:11.832Z"
+  "updatedAt": "2026-08-28T07:47:03.851Z"
 }

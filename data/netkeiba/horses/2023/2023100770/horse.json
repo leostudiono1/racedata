@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100770",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100770/",
-  "profile": null,
+  "profile": {
+    "name": "チェストー",
+    "birthDate": "2023-05-09",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "951033",
+      "name": "諸岡慶"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011104416",
+      "name": "レッドファルクス"
+    },
+    "dam": {
+      "id": "2014101816",
+      "name": "チェス"
+    },
+    "damsire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104416",
@@ -1933,6 +1963,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チェストー (Chesuto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェストー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェストー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2002,9 +2062,9 @@
       "contentHash": "2bfbc0e2a95276d4f1e39bb3a270052fec71b53fecb7bdd549e0baaf27c3333b",
       "byteLength": 66142,
       "rawPath": "netkeiba/horses/2023/2023100770/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:51:38.629Z"
+  "updatedAt": "2026-08-28T07:57:30.237Z"
 }

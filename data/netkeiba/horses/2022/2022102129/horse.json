@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102129",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102129/",
-  "profile": null,
+  "profile": {
+    "name": "フレイム",
+    "birthDate": "2022-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤博紀"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2011106396",
+      "name": "キョウエイカプリス"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1463,6 +1493,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フレイム (Flame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フレイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1532,9 +1592,9 @@
       "contentHash": "f661f49bef35615e08471c0c4f9f4d41dafec4419d86807cd59a457c79a340b8",
       "byteLength": 64740,
       "rawPath": "netkeiba/horses/2022/2022102129/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:31:00.086Z"
+  "updatedAt": "2026-08-27T08:42:53.987Z"
 }

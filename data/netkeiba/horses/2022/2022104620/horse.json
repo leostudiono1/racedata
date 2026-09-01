@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104620",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104620/",
-  "profile": null,
+  "profile": {
+    "name": "エポナ",
+    "birthDate": "2022-02-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "867033",
+      "name": "六井元一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アルル Arles(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1278,6 +1308,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エポナ (Epona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エポナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エポナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1347,9 +1407,9 @@
       "contentHash": "92d2ef6db569c007c4ff9014a0576bb45c89e7f8b228a6b1ba9bf526bf7d4096",
       "byteLength": 66963,
       "rawPath": "netkeiba/horses/2022/2022104620/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:42:39.457Z"
+  "updatedAt": "2026-08-24T12:50:51.282Z"
 }

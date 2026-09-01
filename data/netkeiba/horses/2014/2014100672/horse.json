@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100672",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100672/",
-  "profile": null,
+  "profile": {
+    "name": "クティノス",
+    "birthDate": "2014-04-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "693033",
+      "name": "金山敏也"
+    },
+    "breeder": {
+      "id": "410319",
+      "name": "樋渡志尚"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "1999104328",
+      "name": "ローレルオードリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2145,6 +2175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クティノス (Ktinos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クティノス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クティノス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2214,9 +2274,9 @@
       "contentHash": "840ce878dcd240078dfc836c4a0f70a51ba6581a9772cb40c73934b821b2bc8e",
       "byteLength": 65942,
       "rawPath": "netkeiba/horses/2014/2014100672/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:06:25.136Z"
+  "updatedAt": "2026-08-24T12:14:37.553Z"
 }

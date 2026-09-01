@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103223",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103223/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーハピネス",
+    "birthDate": "2012-04-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2006101245",
+      "name": "ラブアンドピース"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -1782,6 +1812,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーハピネス (Mikki Happiness) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーハピネス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーハピネス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1851,9 +1911,9 @@
       "contentHash": "72bf5e35326eb783211003f44bb9ce6dd2e20d03457abf57d548ad1b07e28aa6",
       "byteLength": 65656,
       "rawPath": "netkeiba/horses/2012/2012103223/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T09:50:21.345Z"
+  "updatedAt": "2026-08-27T08:02:17.293Z"
 }

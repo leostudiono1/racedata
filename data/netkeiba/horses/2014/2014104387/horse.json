@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104387",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104387/",
-  "profile": null,
+  "profile": {
+    "name": "サラノア",
+    "birthDate": "2014-03-08",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "664030",
+      "name": "加藤光淑"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "プロラタ Pro Rata(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1684,6 +1714,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サラノア (Sarah Noa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラノア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラノア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1753,9 +1813,9 @@
       "contentHash": "ec308e57ff0862352e00dee33407f905540e2d56acfb6f512b2fba832a2996ea",
       "byteLength": 65946,
       "rawPath": "netkeiba/horses/2014/2014104387/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:15:20.687Z"
+  "updatedAt": "2026-08-28T07:21:12.606Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106021",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106021/",
-  "profile": null,
+  "profile": {
+    "name": "トレフォイル",
+    "birthDate": "2019-03-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05590",
+      "name": "長倉功"
+    },
+    "owner": {
+      "id": "125031",
+      "name": "前田清二"
+    },
+    "breeder": {
+      "id": "733072",
+      "name": "今牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2009106193",
+      "name": "マイネアンティーク"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2172,6 +2202,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トレフォイル (Trefoil) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレフォイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トレフォイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2241,9 +2301,9 @@
       "contentHash": "3d22452c8776f09e654e7dc2648bc995a054685ee4654eccd33f15fbd8892379",
       "byteLength": 65534,
       "rawPath": "netkeiba/horses/2019/2019106021/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:18:05.940Z"
+  "updatedAt": "2026-08-25T11:27:13.538Z"
 }

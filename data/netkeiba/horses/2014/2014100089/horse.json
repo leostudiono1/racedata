@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100089",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100089/",
-  "profile": null,
+  "profile": {
+    "name": "オイチ",
+    "birthDate": "2014-05-16",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "864004",
+      "name": "石井義孝"
+    },
+    "breeder": {
+      "id": "530331",
+      "name": "岩見牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2008104272",
+      "name": "ケージーフジムスメ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -1654,6 +1684,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オイチ (Oichi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オイチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オイチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1723,9 +1783,9 @@
       "contentHash": "cc6390fffc9a44cce203cbadc57f7ef3d0d9b6bbffaf88a5b6519d199334be68",
       "byteLength": 64459,
       "rawPath": "netkeiba/horses/2014/2014100089/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:40:47.895Z"
+  "updatedAt": "2026-08-29T06:47:50.121Z"
 }

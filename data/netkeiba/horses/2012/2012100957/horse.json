@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100957",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100957/",
-  "profile": null,
+  "profile": {
+    "name": "ネオキセキ",
+    "birthDate": "2012-02-25",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "502033",
+      "name": "西田俊二"
+    },
+    "breeder": {
+      "id": "100343",
+      "name": "ラッキー牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アルダナ Ardana(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -1900,6 +1930,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネオキセキ (Neo Kiseki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオキセキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオキセキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1969,9 +2029,9 @@
       "contentHash": "d7cef7ace6510c3722db16111c69a8f19a74e139748f4afa4cab7c5c3bffe378",
       "byteLength": 64708,
       "rawPath": "netkeiba/horses/2012/2012100957/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:04:36.396Z"
+  "updatedAt": "2026-08-28T07:10:28.317Z"
 }

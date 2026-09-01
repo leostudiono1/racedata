@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105390",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105390/",
-  "profile": null,
+  "profile": {
+    "name": "アリーバ",
+    "birthDate": "2021-03-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05696",
+      "name": "立花伸"
+    },
+    "owner": {
+      "id": "781800",
+      "name": "リーヴァ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アーキテクチャー Architecture(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zoffany"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -3187,6 +3217,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリーバ (Arriba) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリーバ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリーバ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3256,9 +3316,9 @@
       "contentHash": "6748d3f00842ed88cafcc10655b6aedaaf54ea6bedae963962cbfdd6c27039f6",
       "byteLength": 66489,
       "rawPath": "netkeiba/horses/2021/2021105390/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T11:04:11.387Z"
+  "updatedAt": "2026-08-26T09:12:50.049Z"
 }

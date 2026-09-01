@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100055",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100055/",
-  "profile": null,
+  "profile": {
+    "name": "ソード",
+    "birthDate": "2013-03-12",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00422",
+      "name": "五十嵐忠"
+    },
+    "owner": {
+      "id": "966002",
+      "name": "深見富朗"
+    },
+    "breeder": {
+      "id": "913344",
+      "name": "いとう牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2006105209",
+      "name": "ダノニー"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -3252,6 +3282,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソード (Sword) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3321,9 +3381,9 @@
       "contentHash": "a66766ebbfbfe030d2b28f3fb1896120c5c8839307722c08104fba488c6fc693",
       "byteLength": 64358,
       "rawPath": "netkeiba/horses/2013/2013100055/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:02:05.573Z"
+  "updatedAt": "2026-08-30T06:09:21.112Z"
 }

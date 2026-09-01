@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104108",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104108/",
-  "profile": null,
+  "profile": {
+    "name": "キナウ",
+    "birthDate": "2011-01-27",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "007060",
+      "name": "荒牧政美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2002100938",
+      "name": "リンガフランカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -2648,6 +2678,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キナウ (Kinau) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キナウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キナウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2717,9 +2777,9 @@
       "contentHash": "9915193e67b3b28705b4aec6df47ed04f404de37e1e9e61f416331893aa4ef13",
       "byteLength": 64693,
       "rawPath": "netkeiba/horses/2011/2011104108/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:02:58.409Z"
+  "updatedAt": "2026-08-28T07:08:50.325Z"
 }

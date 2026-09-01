@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106624",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106624/",
-  "profile": null,
+  "profile": {
+    "name": "リトルハピ",
+    "birthDate": "2021-05-02",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2014105872",
+      "name": "クイーンパイレーツ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1415,6 +1445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リトルハピ (Little Hapi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リトルハピ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リトルハピ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1484,9 +1544,9 @@
       "contentHash": "3a11a4eec4715d9e23c50867b9aa5e1175bfb1ac00e0e1a5ddc68b7084276a31",
       "byteLength": 67024,
       "rawPath": "netkeiba/horses/2021/2021106624/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:27:50.500Z"
+  "updatedAt": "2026-08-25T11:36:58.289Z"
 }

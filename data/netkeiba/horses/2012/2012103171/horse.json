@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103171",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103171/",
-  "profile": null,
+  "profile": {
+    "name": "アンリオ",
+    "birthDate": "2012-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01110",
+      "name": "清水久詞"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    },
+    "dam": {
+      "id": "2001104228",
+      "name": "スマイルコンテスト"
+    },
+    "damsire": {
+      "id": "1985103538",
+      "name": "サッカーボーイ"
+    }
+  },
   "pedigree": [
     {
       "id": "1990109700",
@@ -1458,6 +1488,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンリオ (Hanriot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1527,9 +1587,9 @@
       "contentHash": "b1bfded570b6486792e9d8e2fb0f054073214ee20d9c432d39182cd3417ce341",
       "byteLength": 64595,
       "rawPath": "netkeiba/horses/2012/2012103171/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T08:34:04.870Z"
+  "updatedAt": "2026-08-29T06:41:07.037Z"
 }

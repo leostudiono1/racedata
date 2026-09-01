@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106052",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106052/",
-  "profile": null,
+  "profile": {
+    "name": "カラル",
+    "birthDate": "2014-05-13",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2003102802",
+      "name": "ナスカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -3801,6 +3831,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラル (Caral) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3870,9 +3930,9 @@
       "contentHash": "971953895ee10308e960d16aa7ba0e538fd7354ea6f0cdfd492d84314ea79ee2",
       "byteLength": 67281,
       "rawPath": "netkeiba/horses/2014/2014106052/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:10:09.260Z"
+  "updatedAt": "2026-08-24T12:18:21.046Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102200",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102200/",
-  "profile": null,
+  "profile": {
+    "name": "マヒオレ",
+    "birthDate": "2018-04-13",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "878031",
+      "name": "盛学志"
+    },
+    "breeder": {
+      "id": "930317",
+      "name": "北星村田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2009106091",
+      "name": "カヒリ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -5392,6 +5422,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マヒオレ (Mahiole) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マヒオレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マヒオレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5461,9 +5521,9 @@
       "contentHash": "8686c3e742d919416cd39e4e54cd1e466fc5ed13ccddd4f61bc7718b3fd54577",
       "byteLength": 66756,
       "rawPath": "netkeiba/horses/2018/2018102200/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:23:48.554Z"
+  "updatedAt": "2026-08-24T12:32:00.262Z"
 }

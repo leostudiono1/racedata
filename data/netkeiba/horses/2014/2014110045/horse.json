@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110045",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110045/",
-  "profile": null,
+  "profile": {
+    "name": "サトノグリーン",
+    "birthDate": "2014-03-10",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "075803",
+      "name": "サトミホースカンパニー"
+    },
+    "breeder": {
+      "id": "970707",
+      "name": "Chiyoda Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Forestry"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Above Heaven"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1645,6 +1675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノグリーン (Satono Green) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノグリーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノグリーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1714,9 +1774,9 @@
       "contentHash": "c6a474e40e5e304b397a6ad5c78c221b7c237fc0ec33606b5ffe1bed3fb1498a",
       "byteLength": 65925,
       "rawPath": "netkeiba/horses/2014/2014110045/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:11:11.439Z"
+  "updatedAt": "2026-08-30T06:18:27.245Z"
 }

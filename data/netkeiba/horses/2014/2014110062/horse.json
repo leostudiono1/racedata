@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110062",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110062/",
-  "profile": null,
+  "profile": {
+    "name": "ユウジ",
+    "birthDate": "2014-03-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "498033",
+      "name": "稻井田安史"
+    },
+    "breeder": {
+      "id": "800877",
+      "name": "River Bend Farm Inc."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "War Front"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Satans Quick Chick"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Mesa"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1264,6 +1294,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユウジ (Yuji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユウジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユウジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1333,9 +1393,9 @@
       "contentHash": "9b83ff573cb49948b0bfdc390518018381a6815f3699b5ce765fe9b5ad78faf4",
       "byteLength": 65048,
       "rawPath": "netkeiba/horses/2014/2014110062/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:57:15.222Z"
+  "updatedAt": "2026-08-31T06:02:31.833Z"
 }

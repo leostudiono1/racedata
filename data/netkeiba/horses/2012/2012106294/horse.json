@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106294",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106294/",
-  "profile": null,
+  "profile": {
+    "name": "オンワードバース",
+    "birthDate": "2012-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "752005",
+      "name": "樫山章子"
+    },
+    "breeder": {
+      "id": "900517",
+      "name": "高橋忍"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2000107249",
+      "name": "オンワードマルタ"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2152,6 +2182,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オンワードバース (Onward Bath) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンワードバース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンワードバース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2221,9 +2281,9 @@
       "contentHash": "ca0075dc98ea868f730f485841eb184a4ac99552ceb79e2404ab281e4bc6bab5",
       "byteLength": 64880,
       "rawPath": "netkeiba/horses/2012/2012106294/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T07:48:36.958Z"
+  "updatedAt": "2026-08-31T05:53:54.124Z"
 }

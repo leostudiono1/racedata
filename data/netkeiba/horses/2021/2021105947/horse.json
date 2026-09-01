@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105947",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105947/",
-  "profile": null,
+  "profile": {
+    "name": "ダイキリ",
+    "birthDate": "2021-04-06",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "748031",
+      "name": "吉田哲"
+    },
+    "breeder": {
+      "id": "433426",
+      "name": "ヤマイチ牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2013110045",
+      "name": "ラニ"
+    },
+    "dam": {
+      "id": "2010100508",
+      "name": "フロントタック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Macho Uno (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013110045",
@@ -2132,6 +2162,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダイキリ (Daiquiri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイキリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイキリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2201,9 +2261,9 @@
       "contentHash": "738a53fee7a41fa48cac59a0c971a09e3c23b710a64cb05248afbc69218a7eb3",
       "byteLength": 66872,
       "rawPath": "netkeiba/horses/2021/2021105947/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:27:53.578Z"
+  "updatedAt": "2026-08-31T06:33:09.957Z"
 }

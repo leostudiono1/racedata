@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101461",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101461/",
-  "profile": null,
+  "profile": {
+    "name": "マサトップ",
+    "birthDate": "2017-02-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "214033",
+      "name": "澤田孝之"
+    },
+    "breeder": {
+      "id": "810339",
+      "name": "五丸農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2010103658",
+      "name": "ヘイブンズギフト"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1396,6 +1426,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マサトップ (Masa Top) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マサトップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マサトップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1465,9 +1525,9 @@
       "contentHash": "198ccc93576c9e2415c0b1610f820c37437a84d915e0aaa8b41f500cdf751789",
       "byteLength": 65231,
       "rawPath": "netkeiba/horses/2017/2017101461/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:10:08.289Z"
+  "updatedAt": "2026-08-27T08:22:04.107Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102055",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102055/",
-  "profile": null,
+  "profile": {
+    "name": "ベッティング",
+    "birthDate": "2014-02-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05311",
+      "name": "角川秀樹"
+    },
+    "owner": {
+      "id": "396803",
+      "name": "新生ファーム"
+    },
+    "breeder": {
+      "id": "003512",
+      "name": "新生ファーム"
+    },
+    "birthplace": "日高",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2002110258",
+      "name": "ファイヤーチェリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Horse Chestnut"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -1706,6 +1736,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベッティング (Betting) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッティング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッティング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1775,9 +1835,9 @@
       "contentHash": "77cce784fced8d72847edd1cd28e184d0aa37f0022b9be7e200ad5f9e067d62d",
       "byteLength": 66158,
       "rawPath": "netkeiba/horses/2014/2014102055/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:07:14.180Z"
+  "updatedAt": "2026-08-24T12:15:26.137Z"
 }

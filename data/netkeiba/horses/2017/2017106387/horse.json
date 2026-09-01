@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106387",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106387/",
-  "profile": null,
+  "profile": {
+    "name": "スマートリアン",
+    "birthDate": "2017-05-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2008110033",
+      "name": "スマートオーシャン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3929,6 +3959,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートリアン (Smart Lien) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートリアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートリアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3998,9 +4058,9 @@
       "contentHash": "7537f908bda337161a80b4697ea8c6ab3b3350e75c4fa82f66afb824f4103e86",
       "byteLength": 67262,
       "rawPath": "netkeiba/horses/2017/2017106387/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:22:07.038Z"
+  "updatedAt": "2026-08-24T12:30:19.044Z"
 }

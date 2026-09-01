@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103642",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103642/",
-  "profile": null,
+  "profile": {
+    "name": "スカーズ",
+    "birthDate": "2020-04-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "木村暁"
+    },
+    "owner": {
+      "id": "x0af2d",
+      "name": "梅ケ枝容晃"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ムーングロウ Moonglow(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Nayef"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -4925,6 +4955,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカーズ (Scars) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカーズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカーズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4994,9 +5054,9 @@
       "contentHash": "2b9fa2147c33311133c2dadf010c769380b0ecc07d4fc4c98743e429dff138b0",
       "byteLength": 66762,
       "rawPath": "netkeiba/horses/2020/2020103642/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:33:54.582Z"
+  "updatedAt": "2026-08-24T12:42:06.053Z"
 }

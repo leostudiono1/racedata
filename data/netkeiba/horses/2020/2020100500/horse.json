@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100500",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100500/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィエンヌ",
+    "birthDate": "2020-01-29",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "053803",
+      "name": "杉山忠国"
+    },
+    "breeder": {
+      "id": "203064",
+      "name": "明治牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2011101574",
+      "name": "リヴィエール"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2033,6 +2063,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィエンヌ (Vienne) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィエンヌ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィエンヌ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2102,9 +2162,9 @@
       "contentHash": "3eee59ebfa4ec0a7c05a46ae43f502ad70a4ad6b04e9c8a80e86a021ed384c06",
       "byteLength": 65628,
       "rawPath": "netkeiba/horses/2020/2020100500/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:19:22.826Z"
+  "updatedAt": "2026-08-25T11:28:30.652Z"
 }

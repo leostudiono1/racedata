@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102764",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102764/",
-  "profile": null,
+  "profile": {
+    "name": "チャナ",
+    "birthDate": "2016-05-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05683",
+      "name": "菅原勲"
+    },
+    "owner": {
+      "id": "474008",
+      "name": "大久保和夫"
+    },
+    "breeder": {
+      "id": "033324",
+      "name": "厚賀古川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103388",
+      "name": "グランプリボス"
+    },
+    "dam": {
+      "id": "2007102355",
+      "name": "ダイメイジュエリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キャプテンスティーヴ Captain Steve(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103388",
@@ -5797,6 +5827,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャナ (Chana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5866,9 +5926,9 @@
       "contentHash": "b91fbf6e308b5cc31fbbb22cb61ca55d0381004ba43cf02b17f48362b18941b3",
       "byteLength": 64845,
       "rawPath": "netkeiba/horses/2016/2016102764/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T09:23:02.954Z"
+  "updatedAt": "2026-08-28T07:28:54.667Z"
 }

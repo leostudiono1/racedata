@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105901",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105901/",
-  "profile": null,
+  "profile": {
+    "name": "テンテマリ",
+    "birthDate": "2011-04-12",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00380",
+      "name": "柄崎孝"
+    },
+    "owner": {
+      "id": "020803",
+      "name": "三度屋"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002107011",
+      "name": "スズカフェニックス"
+    },
+    "dam": {
+      "id": "2002102852",
+      "name": "テンイムホウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002107011",
@@ -5054,6 +5084,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンテマリ (Ten Temari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンテマリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンテマリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5123,9 +5183,9 @@
       "contentHash": "2c67d6e0c09a68b4a2514f1ed81c5998db8bd38aac210b717077599ef2c7893e",
       "byteLength": 66919,
       "rawPath": "netkeiba/horses/2011/2011105901/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T07:58:28.132Z"
+  "updatedAt": "2026-08-30T06:05:44.042Z"
 }

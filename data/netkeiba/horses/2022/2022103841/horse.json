@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103841",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103841/",
-  "profile": null,
+  "profile": {
+    "name": "アンヘリート",
+    "birthDate": "2022-05-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05675",
+      "name": "笹野博司"
+    },
+    "owner": {
+      "id": "067034",
+      "name": "森田至昭"
+    },
+    "breeder": {
+      "id": "733078",
+      "name": "坂本春雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ノーブルミッション Noble Mission(英)"
+    },
+    "dam": {
+      "id": "2003105152",
+      "name": "シータトウショウ"
+    },
+    "damsire": {
+      "id": "1992109450",
+      "name": "ジェニュイン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2557,6 +2587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンヘリート (Angelito) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンヘリート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンヘリート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2626,9 +2686,9 @@
       "contentHash": "0650e501a274ee650771ff6a8f389718d7e4da567be109c06972001d6728c655",
       "byteLength": 67089,
       "rawPath": "netkeiba/horses/2022/2022103841/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:30:10.663Z"
+  "updatedAt": "2026-08-25T11:39:18.394Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104068",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104068/",
-  "profile": null,
+  "profile": {
+    "name": "オカゲサン",
+    "birthDate": "2022-02-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "963031",
+      "name": "前田敏文"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2014105407",
+      "name": "レッドジュラーレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -3228,6 +3258,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オカゲサン (Okagesan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オカゲサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オカゲサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3297,9 +3357,9 @@
       "contentHash": "e1517781b98a11b70df67aca43d2134971aae8259a7c5441cfce03ef2e58b736",
       "byteLength": 64931,
       "rawPath": "netkeiba/horses/2022/2022104068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:44:44.627Z"
+  "updatedAt": "2026-08-30T06:52:00.402Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104874",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104874/",
-  "profile": null,
+  "profile": {
+    "name": "サニツ",
+    "birthDate": "2015-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00380",
+      "name": "柄崎孝"
+    },
+    "owner": {
+      "id": "858800",
+      "name": "大塚亮一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ダンスザクラシックス Dance The Classics(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1312,6 +1342,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サニツ (Sanitsu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サニツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サニツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1381,9 +1441,9 @@
       "contentHash": "73273cb9110c85a1887a8e52b671435cee748e19247bb26ec75ff1f7fc220c90",
       "byteLength": 64826,
       "rawPath": "netkeiba/horses/2015/2015104874/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T14:13:00.800Z"
+  "updatedAt": "2026-08-24T12:21:12.570Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104011",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104011/",
-  "profile": null,
+  "profile": {
+    "name": "ミサキ",
+    "birthDate": "2013-04-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "008803",
+      "name": "原禮子"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2003104550",
+      "name": "ワイキューブ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3276,6 +3306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミサキ (Misaki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミサキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミサキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3345,9 +3405,9 @@
       "contentHash": "1a1f275d81c54d9a9b9b5108343c497a5b6bac54518ecf264bdc0743683550d3",
       "byteLength": 64533,
       "rawPath": "netkeiba/horses/2013/2013104011/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:29:51.559Z"
+  "updatedAt": "2026-08-26T08:38:31.502Z"
 }

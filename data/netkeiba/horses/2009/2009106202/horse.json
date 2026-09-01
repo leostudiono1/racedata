@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009106202",
   "sourceUrl": "https://db.netkeiba.com/horse/2009106202/",
-  "profile": null,
+  "profile": {
+    "name": "カフヴァール",
+    "birthDate": "2009-04-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スペシャルアラート Special Alert(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gulch"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -2638,6 +2668,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフヴァール (Cathbharr) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフヴァール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフヴァール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2707,9 +2767,9 @@
       "contentHash": "c2747172ee9f6404cfdb0f4243253289265a585f5840c01456e5f4eeba6b088d",
       "byteLength": 66071,
       "rawPath": "netkeiba/horses/2009/2009106202/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T13:55:58.357Z"
+  "updatedAt": "2026-08-24T12:04:10.255Z"
 }

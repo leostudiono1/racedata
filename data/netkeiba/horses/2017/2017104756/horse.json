@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104756",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104756/",
-  "profile": null,
+  "profile": {
+    "name": "アラタ",
+    "birthDate": "2017-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01165",
+      "name": "和田勇介"
+    },
+    "owner": {
+      "id": "634033",
+      "name": "村田能光"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2009105903",
+      "name": "サンシャイン"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -4464,6 +4494,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アラタ (Arata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アラタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4533,9 +4593,9 @@
       "contentHash": "f481c09f77cd5baac9ebc9b79041e334f91a071f06c6f2936e6127ba70022913",
       "byteLength": 66809,
       "rawPath": "netkeiba/horses/2017/2017104756/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T10:12:14.530Z"
+  "updatedAt": "2026-08-27T08:24:10.227Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103030",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103030/",
-  "profile": null,
+  "profile": {
+    "name": "ネフュージュニア",
+    "birthDate": "2018-04-29",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "898005",
+      "name": "大原詔宏"
+    },
+    "breeder": {
+      "id": "390543",
+      "name": "大原ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "1996110384",
+      "name": "グレイスカノン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Turgeon"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1681,6 +1711,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネフュージュニア (Nephew Junior) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネフュージュニア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネフュージュニア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1750,9 +1810,9 @@
       "contentHash": "5a516a617bb1c83f7a2f3928454f8207cd62f5de41403915013551896094db55",
       "byteLength": 64856,
       "rawPath": "netkeiba/horses/2018/2018103030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T08:26:35.741Z"
+  "updatedAt": "2026-08-30T06:33:51.485Z"
 }

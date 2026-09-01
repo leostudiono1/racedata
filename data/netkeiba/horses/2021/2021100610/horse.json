@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100610",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100610/",
-  "profile": null,
+  "profile": {
+    "name": "アサギリ",
+    "birthDate": "2021-02-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "487800",
+      "name": "大島牧場"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2015104596",
+      "name": "コシミノダンサー"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3005,6 +3035,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アサギリ (Asagiri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサギリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサギリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3074,9 +3134,9 @@
       "contentHash": "19302b49c95bd45bcb884cb81667d04be68985f7a9ad5e43252f9b1e0997af06",
       "byteLength": 66786,
       "rawPath": "netkeiba/horses/2021/2021100610/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T08:24:23.367Z"
+  "updatedAt": "2026-08-31T06:29:39.923Z"
 }

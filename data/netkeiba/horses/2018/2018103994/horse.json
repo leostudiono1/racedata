@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103994",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103994/",
-  "profile": null,
+  "profile": {
+    "name": "ウインメイキット",
+    "birthDate": "2018-01-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "131031",
+      "name": "会田裕一"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "クリエイターII Creator(米)"
+    },
+    "dam": {
+      "id": "2006102914",
+      "name": "レイクメリット"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2575,6 +2605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウインメイキット (Win Make It) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインメイキット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインメイキット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2644,9 +2704,9 @@
       "contentHash": "029ffcacc8ed2b5bf83df4629ce5375e888421cf671bf6305c6298d18206d32b",
       "byteLength": 66486,
       "rawPath": "netkeiba/horses/2018/2018103994/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T10:51:30.503Z"
+  "updatedAt": "2026-08-26T09:00:10.276Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103448",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103448/",
-  "profile": null,
+  "profile": {
+    "name": "ゴールデンレイ",
+    "birthDate": "2021-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "504031",
+      "name": "長島利治"
+    },
+    "breeder": {
+      "id": "833305",
+      "name": "ウエスタンファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2017110001",
+      "name": "ゴールデンマンデラ"
+    },
+    "dam": {
+      "id": "2015104984",
+      "name": "プンタレオナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2017110001",
@@ -3516,6 +3546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴールデンレイ (Golden Lei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデンレイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデンレイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3585,9 +3645,9 @@
       "contentHash": "96fc5d1eb1d01393630edd000593f50141d0b12317fa86d2f5fbc9b6a7d1c490",
       "byteLength": 66887,
       "rawPath": "netkeiba/horses/2021/2021103448/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T13:26:22.969Z"
+  "updatedAt": "2026-08-25T11:35:30.810Z"
 }
