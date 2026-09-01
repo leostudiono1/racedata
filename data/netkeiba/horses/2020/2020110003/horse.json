@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110003",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110003/",
-  "profile": null,
+  "profile": {
+    "name": "エリカボニータ",
+    "birthDate": "2020-01-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "195031",
+      "name": "三木正浩"
+    },
+    "breeder": {
+      "id": "300732",
+      "name": "Grand Bokujo"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Justify (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カレドニアロード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Quality Road"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1410,6 +1440,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エリカボニータ (Erika Bonita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリカボニータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エリカボニータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1479,9 +1539,9 @@
       "contentHash": "98af3b2e9f3cacf250e02e16a8bffddfea81b6963ea5d5519c8d60649efb2556",
       "byteLength": 65648,
       "rawPath": "netkeiba/horses/2020/2020110003/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:24:09.336Z"
+  "updatedAt": "2026-08-31T18:27:41.054Z"
 }

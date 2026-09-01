@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100037",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100037/",
-  "profile": null,
+  "profile": {
+    "name": "ケイジ",
+    "birthDate": "2023-04-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "768033",
+      "name": "島田久"
+    },
+    "breeder": {
+      "id": "633093",
+      "name": "沖田忠幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2012103354",
+      "name": "オトメチャン"
+    },
+    "damsire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1954,6 +1984,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケイジ (Keiji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケイジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケイジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2023,9 +2083,9 @@
       "contentHash": "b68debe35abba331b4813769b96fa9c46242aa80507c4abe9d201ac0d721758a",
       "byteLength": 66390,
       "rawPath": "netkeiba/horses/2023/2023100037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:44:57.318Z"
+  "updatedAt": "2026-08-30T18:54:26.174Z"
 }

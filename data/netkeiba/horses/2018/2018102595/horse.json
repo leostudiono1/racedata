@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102595",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102595/",
-  "profile": null,
+  "profile": {
+    "name": "ロードマックス",
+    "birthDate": "2018-03-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パーフェクトトリビュート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3210,6 +3240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードマックス (Lord Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3279,9 +3339,9 @@
       "contentHash": "c6d55ea4e8c74cfd6eba0ae5c837889985342bbded6cdbbfd242c301e241725f",
       "byteLength": 67423,
       "rawPath": "netkeiba/horses/2018/2018102595/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:38:03.382Z"
+  "updatedAt": "2026-08-26T20:43:12.879Z"
 }

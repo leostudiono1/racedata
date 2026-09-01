@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100115",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100115/",
-  "profile": null,
+  "profile": {
+    "name": "スプリングラン",
+    "birthDate": "2013-04-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00433",
+      "name": "成島英春"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103660",
+      "name": "トーセンブライト"
+    },
+    "dam": {
+      "id": "2003107141",
+      "name": "トーセンレジェンド"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103660",
@@ -1156,6 +1186,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スプリングラン (Spring Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スプリングラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スプリングラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1225,9 +1285,9 @@
       "contentHash": "c08c26604c3f457b4aa873fde635002cdfed885c8615ada961e8fb0f42861e81",
       "byteLength": 65368,
       "rawPath": "netkeiba/horses/2013/2013100115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:51:59.854Z"
+  "updatedAt": "2026-08-25T20:56:34.489Z"
 }

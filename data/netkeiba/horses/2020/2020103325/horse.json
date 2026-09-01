@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103325",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103325/",
-  "profile": null,
+  "profile": {
+    "name": "プロトポロス",
+    "birthDate": "2020-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "War Front"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャヴァルドレ Cavale Doree(仏)"
+    },
+    "damsire": {
+      "id": "1999104200",
+      "name": "Sunday Break"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2476,6 +2506,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロトポロス (Protoporos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロトポロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロトポロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2545,9 +2605,9 @@
       "contentHash": "a5ea4a60f2986c6c2f5c743b459dab57bc5e0c5326be658a243a96e106561fde",
       "byteLength": 67331,
       "rawPath": "netkeiba/horses/2020/2020103325/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:48:01.766Z"
+  "updatedAt": "2026-08-26T20:53:11.908Z"
 }

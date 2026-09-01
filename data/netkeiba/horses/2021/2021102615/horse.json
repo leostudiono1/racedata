@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102615",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102615/",
-  "profile": null,
+  "profile": {
+    "name": "セレスト",
+    "birthDate": "2021-03-05",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05346",
+      "name": "荒巻透"
+    },
+    "owner": {
+      "id": "109033",
+      "name": "辻祐二"
+    },
+    "breeder": {
+      "id": "940017",
+      "name": "絵笛牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ホークビル Hawkbill(米)"
+    },
+    "dam": {
+      "id": "2017106579",
+      "name": "サンデーヒロイン"
+    },
+    "damsire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6194,6 +6224,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セレスト (Celeste) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6263,9 +6323,9 @@
       "contentHash": "da0fd6f6be37bd23b99949eff26af4687027600b5897bc2036aca454c8f97e8c",
       "byteLength": 66651,
       "rawPath": "netkeiba/horses/2021/2021102615/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:31:24.845Z"
+  "updatedAt": "2026-08-28T19:42:03.527Z"
 }

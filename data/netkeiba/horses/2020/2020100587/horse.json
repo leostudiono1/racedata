@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100587",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100587/",
-  "profile": null,
+  "profile": {
+    "name": "ファインギフト",
+    "birthDate": "2020-04-20",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "頼本盛行"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "313198",
+      "name": "恵比寿牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オトヒメII Otohime(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -6409,6 +6439,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインギフト (Fine Gift) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインギフト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインギフト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6478,9 +6538,9 @@
       "contentHash": "1ed3665b99779d181d0045c8a4d0a24ab392534b067e50e94d09844b0cfeb631",
       "byteLength": 66414,
       "rawPath": "netkeiba/horses/2020/2020100587/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:23:30.561Z"
+  "updatedAt": "2026-08-25T21:28:05.357Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104761",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104761/",
-  "profile": null,
+  "profile": {
+    "name": "レントラー",
+    "birthDate": "2012-02-14",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01083",
+      "name": "松永昌博"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2003102935",
+      "name": "ハートビートワルツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -4364,6 +4394,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レントラー (Landler) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レントラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レントラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4433,9 +4493,9 @@
       "contentHash": "09b465b859ab3e4e2fcf5f34853128d9021dc2497c8d37a5c90dc2f3b6483bc8",
       "byteLength": 67308,
       "rawPath": "netkeiba/horses/2012/2012104761/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:48:37.060Z"
+  "updatedAt": "2026-08-31T17:52:08.840Z"
 }

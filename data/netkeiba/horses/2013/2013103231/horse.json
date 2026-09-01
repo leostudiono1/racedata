@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103231",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103231/",
-  "profile": null,
+  "profile": {
+    "name": "アテスト",
+    "birthDate": "2013-04-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01040",
+      "name": "服部利之"
+    },
+    "owner": {
+      "id": "253006",
+      "name": "山本武司"
+    },
+    "breeder": {
+      "id": "730036",
+      "name": "浦河小林牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2005101869",
+      "name": "ヒカルカグヤヒメ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -4950,6 +4980,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アテスト (Attest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アテスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アテスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5019,9 +5079,9 @@
       "contentHash": "a2359085bb21d120975555fb3868ff05e227621191fa452e16660118a09b64f1",
       "byteLength": 65245,
       "rawPath": "netkeiba/horses/2013/2013103231/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:25:23.239Z"
+  "updatedAt": "2026-08-27T19:32:59.196Z"
 }

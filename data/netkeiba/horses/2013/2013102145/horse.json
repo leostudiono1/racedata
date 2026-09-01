@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102145",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102145/",
-  "profile": null,
+  "profile": {
+    "name": "テトラコード",
+    "birthDate": "2013-02-16",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00353",
+      "name": "和田正道"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "230340",
+      "name": "芳住鉄兵"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ムカラファ Mukhalafa(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Commander"
+    }
+  },
   "pedigree": [
     {
       "id": "1998190004",
@@ -5214,6 +5244,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テトラコード (Tetrachord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テトラコード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テトラコード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5283,9 +5343,9 @@
       "contentHash": "3a5c8f6325eadfd5b4433d224688573597988f207ee4a04b07eefe16724778c7",
       "byteLength": 65016,
       "rawPath": "netkeiba/horses/2013/2013102145/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:16:52.223Z"
+  "updatedAt": "2026-08-26T20:22:01.860Z"
 }

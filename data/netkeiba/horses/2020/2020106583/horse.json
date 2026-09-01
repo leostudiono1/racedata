@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106583",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106583/",
-  "profile": null,
+  "profile": {
+    "name": "プレリオン",
+    "birthDate": "2020-02-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05420",
+      "name": "東美義"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2011105837",
+      "name": "レムミラス"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -4567,6 +4597,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレリオン (Plerion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレリオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレリオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4636,9 +4696,9 @@
       "contentHash": "b3e51a2a51a04189e70e56e5722361959ebd1219521118710a9f5cc4bd8a87c8",
       "byteLength": 66777,
       "rawPath": "netkeiba/horses/2020/2020106583/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:57:24.703Z"
+  "updatedAt": "2026-08-27T20:05:01.724Z"
 }

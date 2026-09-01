@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101606",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101606/",
-  "profile": null,
+  "profile": {
+    "name": "ダイメイプリンス",
+    "birthDate": "2023-02-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "688006",
+      "name": "宮本孝一"
+    },
+    "breeder": {
+      "id": "733363",
+      "name": "横井哲"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2013101042",
+      "name": "ダイメイプリンセス"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1559,6 +1589,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダイメイプリンス (Daimei Prince) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイメイプリンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダイメイプリンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1628,9 +1688,9 @@
       "contentHash": "033192229ebe7d7d0e0961dab7f820c17103dda0f3d903c5cad92ff7d5a8a988",
       "byteLength": 64760,
       "rawPath": "netkeiba/horses/2023/2023101606/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T23:00:52.465Z"
+  "updatedAt": "2026-08-26T21:06:01.841Z"
 }

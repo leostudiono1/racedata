@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009105812",
   "sourceUrl": "https://db.netkeiba.com/horse/2009105812/",
-  "profile": null,
+  "profile": {
+    "name": "シュピッツェ",
+    "birthDate": "2009-04-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "Azamour (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シャピーラ Shapira(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kornado"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4365,6 +4395,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュピッツェ (Spitze) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュピッツェ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュピッツェ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4434,9 +4494,9 @@
       "contentHash": "3c7bd5154f245183128939c46d8bbb310db071ee61ec3d369180d5156e6849b6",
       "byteLength": 66637,
       "rawPath": "netkeiba/horses/2009/2009105812/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:22:53.164Z"
+  "updatedAt": "2026-08-24T23:21:15.994Z"
 }

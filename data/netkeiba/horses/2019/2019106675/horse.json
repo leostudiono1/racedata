@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106675",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106675/",
-  "profile": null,
+  "profile": {
+    "name": "チベリウス",
+    "birthDate": "2019-04-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "533302",
+      "name": "前谷武志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2013105189",
+      "name": "タンギモウジア"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -5957,6 +5987,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チベリウス (Tiberius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チベリウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チベリウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6026,9 +6086,9 @@
       "contentHash": "6b55bcd195a323943afcb38bf66a24d170649c3b998bebd0ee292dca2cfe7384",
       "byteLength": 66767,
       "rawPath": "netkeiba/horses/2019/2019106675/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:45:56.173Z"
+  "updatedAt": "2026-08-26T20:51:05.416Z"
 }

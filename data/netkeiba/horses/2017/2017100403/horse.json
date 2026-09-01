@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100403",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100403/",
-  "profile": null,
+  "profile": {
+    "name": "プライムライン",
+    "birthDate": "2017-03-12",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "x0b723",
+      "name": "（有）総武開発"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2009102481",
+      "name": "バートラムガーデン"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -4981,6 +5011,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プライムライン (Prime Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プライムライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プライムライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5050,9 +5110,9 @@
       "contentHash": "0fde054062c317dd2b163df561546edb75c01cce0dc5ad6ef763c5a32887da92",
       "byteLength": 67000,
       "rawPath": "netkeiba/horses/2017/2017100403/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:32:58.404Z"
+  "updatedAt": "2026-08-26T20:38:08.258Z"
 }

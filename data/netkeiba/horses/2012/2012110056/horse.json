@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110056",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110056/",
-  "profile": null,
+  "profile": {
+    "name": "ウプルヴァン",
+    "birthDate": "2012-02-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "140871",
+      "name": "Summer Wind Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Leave Me Alone"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bold Badgett"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1167,6 +1197,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウプルヴァン (Upulvan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウプルヴァン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウプルヴァン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1236,9 +1296,9 @@
       "contentHash": "94b1f5dc3d61a3c382e9e1c06c98f4643893593e6c8a4d97439d13fa6199fac6",
       "byteLength": 64447,
       "rawPath": "netkeiba/horses/2012/2012110056/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:51:45.774Z"
+  "updatedAt": "2026-08-25T20:56:20.517Z"
 }

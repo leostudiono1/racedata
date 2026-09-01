@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101032",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101032/",
-  "profile": null,
+  "profile": {
+    "name": "スキピオ",
+    "birthDate": "2018-04-25",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "003325",
+      "name": "豊洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "2007106059",
+      "name": "プレトリアン"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -5027,6 +5057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スキピオ (Scipio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキピオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキピオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5096,9 +5156,9 @@
       "contentHash": "16482529b60fde9cf4b5c90368c31d69728dc1944576ca2663f4dcd69436f944",
       "byteLength": 66804,
       "rawPath": "netkeiba/horses/2018/2018101032/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:45:34.115Z"
+  "updatedAt": "2026-08-27T19:53:10.662Z"
 }

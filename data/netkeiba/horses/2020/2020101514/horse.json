@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101514",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101514/",
-  "profile": null,
+  "profile": {
+    "name": "オテア",
+    "birthDate": "2020-04-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "081700",
+      "name": "プレミアムレースホース"
+    },
+    "breeder": {
+      "id": "511328",
+      "name": "サンバマウンテンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2014102066",
+      "name": "ラブフルーツ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -1255,6 +1285,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オテア (Otea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オテア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オテア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1324,9 +1384,9 @@
       "contentHash": "e68cd4501c0e988143e89b7f997b346d84fa7efee380c767491799fc30a4491a",
       "byteLength": 66130,
       "rawPath": "netkeiba/horses/2020/2020101514/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:04:25.287Z"
+  "updatedAt": "2026-08-25T00:02:48.854Z"
 }

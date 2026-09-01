@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104014",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104014/",
-  "profile": null,
+  "profile": {
+    "name": "ピカピカ",
+    "birthDate": "2015-05-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00428",
+      "name": "石毛善彦"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "503377",
+      "name": "真壁信一"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2002110215",
+      "name": "ダンゼロゴールド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Danzero"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -2402,6 +2432,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピカピカ (Pikapika) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピカピカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピカピカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2471,9 +2531,9 @@
       "contentHash": "d300e4c706730f7fbbffb0bccb8a83c024eb77d657ab5d2de350eeeec06e89b6",
       "byteLength": 66976,
       "rawPath": "netkeiba/horses/2015/2015104014/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:00:03.375Z"
+  "updatedAt": "2026-08-31T18:03:34.980Z"
 }

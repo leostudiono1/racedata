@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101289",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101289/",
-  "profile": null,
+  "profile": {
+    "name": "オット",
+    "birthDate": "2017-03-09",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "久保田信"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "910331",
+      "name": "イワミ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2009105917",
+      "name": "アーベントロート"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4516,6 +4546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オット (Otto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4585,9 +4645,9 @@
       "contentHash": "4b6e8a27e6f6edf11cb30e391a0bb50001338f624f423f2f64b2692fce1aac07",
       "byteLength": 66780,
       "rawPath": "netkeiba/horses/2017/2017101289/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:21:01.838Z"
+  "updatedAt": "2026-08-30T18:30:30.189Z"
 }

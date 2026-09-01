@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105962",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105962/",
-  "profile": null,
+  "profile": {
+    "name": "ベストインパクト",
+    "birthDate": "2015-02-26",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2002110024",
+      "name": "モアザンベスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1536,6 +1566,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベストインパクト (Best Impact) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストインパクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストインパクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1605,9 +1665,9 @@
       "contentHash": "338429b77015cd013cc823cfb64f64a9a8de6bdd28873ddbd15cc8104520e662",
       "byteLength": 64811,
       "rawPath": "netkeiba/horses/2015/2015105962/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:03:08.873Z"
+  "updatedAt": "2026-08-25T21:07:43.335Z"
 }

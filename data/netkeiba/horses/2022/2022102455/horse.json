@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102455",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102455/",
-  "profile": null,
+  "profile": {
+    "name": "ヘイケ",
+    "birthDate": "2022-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05702",
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "371009",
+      "name": "高橋文男"
+    },
+    "breeder": {
+      "id": "943367",
+      "name": "船越伸也"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2015102230",
+      "name": "ラブリランテ"
+    },
+    "damsire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2128,6 +2158,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘイケ (Heike) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘイケ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘイケ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2197,9 +2257,9 @@
       "contentHash": "f527eb818f683026ea9547ee9029ac10f63a6afd93a4df8a8a17660302c974b1",
       "byteLength": 64747,
       "rawPath": "netkeiba/horses/2022/2022102455/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:56:47.018Z"
+  "updatedAt": "2026-08-26T21:01:57.069Z"
 }

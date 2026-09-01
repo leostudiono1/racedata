@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106066",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106066/",
-  "profile": null,
+  "profile": {
+    "name": "クロークス",
+    "birthDate": "2013-03-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    },
+    "dam": {
+      "id": "2000101653",
+      "name": "プルーフオブラヴ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005190006",
@@ -3319,6 +3349,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロークス (Krokus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロークス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロークス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3388,9 +3448,9 @@
       "contentHash": "585f98886e6145d4c129f4939167aa5cb4883477c153e550d477263bb33bf605",
       "byteLength": 67252,
       "rawPath": "netkeiba/horses/2013/2013106066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:24:00.894Z"
+  "updatedAt": "2026-08-29T18:35:00.813Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110050",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110050/",
-  "profile": null,
+  "profile": {
+    "name": "スマートアルケミー",
+    "birthDate": "2016-03-09",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "160733",
+      "name": "Summer Wind Equine"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Super Saver"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Runway Model"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Petionville"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1595,6 +1625,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートアルケミー (Smart Alchemy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートアルケミー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートアルケミー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1664,9 +1724,9 @@
       "contentHash": "a20e2778a18d71e5c82690626bbb08a766ff485fa38e6a79aad55c8cb363e001",
       "byteLength": 65882,
       "rawPath": "netkeiba/horses/2016/2016110050/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:20:09.308Z"
+  "updatedAt": "2026-08-30T18:29:38.077Z"
 }

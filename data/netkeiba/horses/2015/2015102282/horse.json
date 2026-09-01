@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102282",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102282/",
-  "profile": null,
+  "profile": {
+    "name": "ネオダラス",
+    "birthDate": "2015-04-10",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "村田順一"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "933090",
+      "name": "小河豊水"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103189",
+      "name": "スウィフトカレント"
+    },
+    "dam": {
+      "id": "1998101213",
+      "name": "ブルーレインボウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マルゼンスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103189",
@@ -6363,6 +6393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネオダラス (Neo Dallas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオダラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオダラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6432,9 +6492,9 @@
       "contentHash": "930b4c69592a677494b92bba4edf6d5275326360450f1f83e29753a079e224da",
       "byteLength": 65167,
       "rawPath": "netkeiba/horses/2015/2015102282/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:29:48.127Z"
+  "updatedAt": "2026-08-29T18:40:47.876Z"
 }

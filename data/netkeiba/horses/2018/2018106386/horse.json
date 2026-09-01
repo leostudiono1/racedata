@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106386",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106386/",
-  "profile": null,
+  "profile": {
+    "name": "フロイング",
+    "birthDate": "2018-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05553",
+      "name": "黒木豊"
+    },
+    "owner": {
+      "id": "644008",
+      "name": "田賀孝昭"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2012104344",
+      "name": "ピンクシャンパン"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6923,6 +6953,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロイング (Flowing) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロイング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロイング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6992,9 +7052,9 @@
       "contentHash": "69770affec825af41d4cd136fda3ac1e39035d7886afe97a18e68057ca41b17c",
       "byteLength": 66839,
       "rawPath": "netkeiba/horses/2018/2018106386/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:48:29.253Z"
+  "updatedAt": "2026-08-27T19:56:05.604Z"
 }

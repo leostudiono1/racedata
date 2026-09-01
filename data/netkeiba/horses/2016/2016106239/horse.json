@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106239",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106239/",
-  "profile": null,
+  "profile": {
+    "name": "マッテオ",
+    "birthDate": "2016-02-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "川添明弘"
+    },
+    "owner": {
+      "id": "144008",
+      "name": "木村良明"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ケープブランコ Cape Blanco(英)"
+    },
+    "dam": {
+      "id": "2002107305",
+      "name": "ダンスオブサロメ"
+    },
+    "damsire": {
+      "id": "1995104953",
+      "name": "ビワタケヒデ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4380,6 +4410,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マッテオ (Matteo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マッテオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マッテオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4449,9 +4509,9 @@
       "contentHash": "15bb87d65e8dbb29527bb3ca7417d70ab0833682af293fdc912b0b32261ae8a4",
       "byteLength": 65274,
       "rawPath": "netkeiba/horses/2016/2016106239/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:50:07.646Z"
+  "updatedAt": "2026-08-24T23:48:31.041Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105865",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105865/",
-  "profile": null,
+  "profile": {
+    "name": "ブルックリン",
+    "birthDate": "2015-03-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01091",
+      "name": "羽月友彦"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "733085",
+      "name": "谷岡牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2000102260",
+      "name": "サクラプリファー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1422,6 +1452,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルックリン (Brooklyn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルックリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルックリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1491,9 +1551,9 @@
       "contentHash": "2b73d2f5f2c1d55934679c340b9813d30e421a28033b28f780b9bb725dc3de76",
       "byteLength": 64507,
       "rawPath": "netkeiba/horses/2015/2015105865/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:08:00.780Z"
+  "updatedAt": "2026-08-28T19:18:39.631Z"
 }

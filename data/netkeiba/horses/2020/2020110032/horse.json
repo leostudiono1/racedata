@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110032",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110032/",
-  "profile": null,
+  "profile": {
+    "name": "ナギ",
+    "birthDate": "2020-05-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "関本浩司"
+    },
+    "owner": {
+      "id": "x08f65",
+      "name": "吉田啓"
+    },
+    "breeder": {
+      "id": "470731",
+      "name": "Godolphin"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Caramel Snap"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1479,6 +1509,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナギ (Nagi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナギ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナギ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1548,9 +1608,9 @@
       "contentHash": "407196bdf48111d466a28e6ad232114353cdf558a52733b971031dd2560fef25",
       "byteLength": 65760,
       "rawPath": "netkeiba/horses/2020/2020110032/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:50:35.980Z"
+  "updatedAt": "2026-08-26T20:55:45.687Z"
 }

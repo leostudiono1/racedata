@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102099",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102099/",
-  "profile": null,
+  "profile": {
+    "name": "シュタルク",
+    "birthDate": "2014-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "192033",
+      "name": "篠田くみ子"
+    },
+    "breeder": {
+      "id": "103393",
+      "name": "高山博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    },
+    "dam": {
+      "id": "2006106541",
+      "name": "ビービーハナビ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108676",
@@ -4845,6 +4875,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュタルク (Stark) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュタルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュタルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4914,9 +4974,9 @@
       "contentHash": "1cb735e16feb8b3c9c3fce0af8ad6a4397c1fd9979398489c2b5ea67bf8a9664",
       "byteLength": 65259,
       "rawPath": "netkeiba/horses/2014/2014102099/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:29:17.175Z"
+  "updatedAt": "2026-08-27T19:36:53.870Z"
 }

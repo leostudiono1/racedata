@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100122",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100122/",
-  "profile": null,
+  "profile": {
+    "name": "カラマ",
+    "birthDate": "2012-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "600334",
+      "name": "柏木一則"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2005105391",
+      "name": "パシティア"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -1363,6 +1393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラマ (Kalama) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1432,9 +1492,9 @@
       "contentHash": "2d784b44f702cec1889acd4f3ad13bbc90247ee6ef38ddf10499337c09c32ec9",
       "byteLength": 65088,
       "rawPath": "netkeiba/horses/2012/2012100122/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T19:58:02.114Z"
+  "updatedAt": "2026-08-30T18:07:30.902Z"
 }

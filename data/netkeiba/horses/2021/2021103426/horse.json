@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103426",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103426/",
-  "profile": null,
+  "profile": {
+    "name": "アップステート",
+    "birthDate": "2021-02-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01203",
+      "name": "福永祐一"
+    },
+    "owner": {
+      "id": "363800",
+      "name": "三嶋牧場"
+    },
+    "breeder": {
+      "id": "043068",
+      "name": "石川牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2015103351",
+      "name": "サウンドシップ"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1283,6 +1313,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アップステート (Upstate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップステート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップステート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1352,9 +1412,9 @@
       "contentHash": "9829c3e059a4038b052fc3413a6a2bb6f86f8b8a13b33980c310f0d672d2e6ad",
       "byteLength": 66644,
       "rawPath": "netkeiba/horses/2021/2021103426/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:26:26.508Z"
+  "updatedAt": "2026-08-31T18:29:57.661Z"
 }

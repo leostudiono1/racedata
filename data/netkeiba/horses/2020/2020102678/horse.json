@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102678",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102678/",
-  "profile": null,
+  "profile": {
+    "name": "シュトラーセ",
+    "birthDate": "2020-01-26",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ソベラニア Soberania(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1227,6 +1257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュトラーセ (Strasse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュトラーセ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュトラーセ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1296,9 +1356,9 @@
       "contentHash": "45aa0e189101bd46948be958ef701d7005964778f2bd4d8234cc812be7f3b1cb",
       "byteLength": 66785,
       "rawPath": "netkeiba/horses/2020/2020102678/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:55:39.638Z"
+  "updatedAt": "2026-08-27T20:03:16.955Z"
 }

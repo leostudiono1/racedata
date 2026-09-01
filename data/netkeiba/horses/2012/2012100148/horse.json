@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100148",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100148/",
-  "profile": null,
+  "profile": {
+    "name": "オーダシティー",
+    "birthDate": "2012-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05425",
+      "name": "宗綱泰彦"
+    },
+    "owner": {
+      "id": "x0948c",
+      "name": "金野博幸"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2004110166",
+      "name": "クロチェーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Running Stag"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -15997,6 +16027,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーダシティー (Audacity) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーダシティー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーダシティー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -16066,9 +16126,9 @@
       "contentHash": "ee199f5ec566e3498d036686d3cdbb6cd2bad0b538fbc2813e5e92b49a7ff499",
       "byteLength": 67015,
       "rawPath": "netkeiba/horses/2012/2012100148/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:47:51.671Z"
+  "updatedAt": "2026-08-25T20:52:26.016Z"
 }

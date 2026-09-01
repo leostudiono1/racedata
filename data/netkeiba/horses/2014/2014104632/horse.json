@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104632",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104632/",
-  "profile": null,
+  "profile": {
+    "name": "オニダツ",
+    "birthDate": "2014-03-31",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "624007",
+      "name": "鈴木康弘"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2006101116",
+      "name": "アフィニティ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2046,6 +2076,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オニダツ (Oni Datsu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オニダツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オニダツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2115,9 +2175,9 @@
       "contentHash": "4d3513251c581c24ab64f786337dc44fbf42910f833a6477a611705ec29518a7",
       "byteLength": 64785,
       "rawPath": "netkeiba/horses/2014/2014104632/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:21:57.113Z"
+  "updatedAt": "2026-08-26T20:27:06.583Z"
 }

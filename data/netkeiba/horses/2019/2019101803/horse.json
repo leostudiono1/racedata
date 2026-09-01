@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101803",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101803/",
-  "profile": null,
+  "profile": {
+    "name": "ドモナラン",
+    "birthDate": "2019-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05770",
+      "name": "北村欣也"
+    },
+    "owner": {
+      "id": "382803",
+      "name": "本城"
+    },
+    "breeder": {
+      "id": "213357",
+      "name": "瀬戸牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006100529",
+      "name": "ジョーカプチーノ"
+    },
+    "dam": {
+      "id": "2007105629",
+      "name": "プロスペラスマム"
+    },
+    "damsire": {
+      "id": "1999107196",
+      "name": "マイネルセレクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2006100529",
@@ -5722,6 +5752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドモナラン (Domonaran) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドモナラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドモナラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5791,9 +5851,9 @@
       "contentHash": "d43a5433cc6e6e420831928d22d054693a092080336fe24895cfee983d569b10",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2019/2019101803/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:29:18.809Z"
+  "updatedAt": "2026-08-30T18:38:47.827Z"
 }

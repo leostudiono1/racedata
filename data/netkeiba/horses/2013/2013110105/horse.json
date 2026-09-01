@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110105",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110105/",
-  "profile": null,
+  "profile": {
+    "name": "スキャットエディ",
+    "birthDate": "2013-04-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "酒井仁"
+    },
+    "owner": {
+      "id": "x098c2",
+      "name": "八嶋長久"
+    },
+    "breeder": {
+      "id": "260701",
+      "name": "Machmer Hall"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Scat Daddy (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Hopeoverexperience"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Songandaprayer"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3672,6 +3702,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スキャットエディ (Scat Eddie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキャットエディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スキャットエディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3741,9 +3801,9 @@
       "contentHash": "f64259c9f28d8e080c0f6e8495e612d893195b555314cb1e461581f850b1e9e2",
       "byteLength": 66939,
       "rawPath": "netkeiba/horses/2013/2013110105/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:06:15.716Z"
+  "updatedAt": "2026-08-30T18:15:44.581Z"
 }

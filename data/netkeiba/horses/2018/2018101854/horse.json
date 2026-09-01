@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101854",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101854/",
-  "profile": null,
+  "profile": {
+    "name": "ガガク",
+    "birthDate": "2018-03-11",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05420",
+      "name": "東美義"
+    },
+    "owner": {
+      "id": "x04892",
+      "name": "山本浩司"
+    },
+    "breeder": {
+      "id": "700313",
+      "name": "飛渡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2005109191",
+      "name": "シンメイミヤビ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Langfuhr (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -5629,6 +5659,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガガク (Gagaku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガガク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガガク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5698,9 +5758,9 @@
       "contentHash": "65e1ce7b6ff5d8f077395627565258c350b703d2f963a082e51f3ffd9ee22c2b",
       "byteLength": 66779,
       "rawPath": "netkeiba/horses/2018/2018101854/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:11:47.172Z"
+  "updatedAt": "2026-08-31T18:15:18.791Z"
 }

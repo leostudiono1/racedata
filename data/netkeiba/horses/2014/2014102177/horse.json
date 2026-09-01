@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102177",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102177/",
-  "profile": null,
+  "profile": {
+    "name": "アカイバラ",
+    "birthDate": "2014-02-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05333",
+      "name": "矢野久美"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セットインモーション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Prospector"
+    }
+  },
   "pedigree": [
     {
       "id": "2005101358",
@@ -9716,6 +9746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アカイバラ (Akai Bara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アカイバラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アカイバラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9785,9 +9845,9 @@
       "contentHash": "2561059f207757ea908804d5c4639569df61dd014a64df6da90392fc2d6093d0",
       "byteLength": 66768,
       "rawPath": "netkeiba/horses/2014/2014102177/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:57:18.481Z"
+  "updatedAt": "2026-08-25T21:01:53.201Z"
 }

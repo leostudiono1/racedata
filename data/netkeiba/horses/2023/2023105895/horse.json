@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105895",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105895/",
-  "profile": null,
+  "profile": {
+    "name": "モナート",
+    "birthDate": "2023-05-26",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05237",
+      "name": "藤田正治"
+    },
+    "owner": {
+      "id": "x0be36",
+      "name": "藪上憲二"
+    },
+    "breeder": {
+      "id": "713341",
+      "name": "荒井ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014100222",
+      "name": "ウインブライト"
+    },
+    "dam": {
+      "id": "2015100246",
+      "name": "タイプムーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014100222",
@@ -1744,6 +1774,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モナート (Monato) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モナート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モナート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1813,9 +1873,9 @@
       "contentHash": "1206b97e47721fdda97745b06c74bee09ca1c5ecbfb39c35d4bb7b86431a11b2",
       "byteLength": 64441,
       "rawPath": "netkeiba/horses/2023/2023105895/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:20:59.639Z"
+  "updatedAt": "2026-08-25T00:19:23.157Z"
 }

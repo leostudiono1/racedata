@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101152",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101152/",
-  "profile": null,
+  "profile": {
+    "name": "ガウェイン",
+    "birthDate": "2013-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宮川浩一"
+    },
+    "owner": {
+      "id": "x08d57",
+      "name": "炭田豊"
+    },
+    "breeder": {
+      "id": "050365",
+      "name": "二風谷ファーム"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2007102685",
+      "name": "モーガンルフェイ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6432,6 +6462,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガウェイン (Gawain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガウェイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガウェイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6501,9 +6561,9 @@
       "contentHash": "a95ace9dbb5fe25450961fc52722595939981d23994e07831745d3502e28f3dc",
       "byteLength": 66770,
       "rawPath": "netkeiba/horses/2013/2013101152/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:21:06.010Z"
+  "updatedAt": "2026-08-29T18:32:05.929Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102694",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102694/",
-  "profile": null,
+  "profile": {
+    "name": "シンジナイト",
+    "birthDate": "2012-02-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "151031",
+      "name": "池田守"
+    },
+    "breeder": {
+      "id": "633066",
+      "name": "井高牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2002102331",
+      "name": "カサパサー"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1351,6 +1381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンジナイト (Shinji Night) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンジナイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンジナイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1420,9 +1480,9 @@
       "contentHash": "635f040925c420eb2d47a679b1340d04285f5854e2fb71ad1e7b01c3faa2afae",
       "byteLength": 64467,
       "rawPath": "netkeiba/horses/2012/2012102694/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:12:57.876Z"
+  "updatedAt": "2026-08-26T20:18:07.321Z"
 }

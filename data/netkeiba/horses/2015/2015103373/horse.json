@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103373",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103373/",
-  "profile": null,
+  "profile": {
+    "name": "カナメ",
+    "birthDate": "2015-03-29",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "960030",
+      "name": "玉腰勇吉"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2006102309",
+      "name": "メイショウカガリビ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -2345,6 +2375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カナメ (Kaname) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カナメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カナメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2414,9 +2474,9 @@
       "contentHash": "da3313db9913adf7dc89715db9d7bdeb888c74f42ec1b6e068cab222243aed1b",
       "byteLength": 66545,
       "rawPath": "netkeiba/horses/2015/2015103373/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:43:17.883Z"
+  "updatedAt": "2026-08-24T23:41:41.423Z"
 }

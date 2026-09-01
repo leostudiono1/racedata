@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104221",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104221/",
-  "profile": null,
+  "profile": {
+    "name": "メロス",
+    "birthDate": "2015-05-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05756",
+      "name": "南弘樹"
+    },
+    "owner": {
+      "id": "941030",
+      "name": "島井新一郎"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2010103863",
+      "name": "アレキパ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -11274,6 +11304,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メロス (Melos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -11343,9 +11403,9 @@
       "contentHash": "71768050b0f3a3e87b06ae9a5130bc42dd00627a4a96b56ab2763c4f68822235",
       "byteLength": 66682,
       "rawPath": "netkeiba/horses/2015/2015104221/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:44:00.486Z"
+  "updatedAt": "2026-08-24T23:42:23.439Z"
 }

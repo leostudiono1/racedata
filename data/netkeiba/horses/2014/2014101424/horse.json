@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101424",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101424/",
-  "profile": null,
+  "profile": {
+    "name": "カラーグレード",
+    "birthDate": "2014-04-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "570002",
+      "name": "田中春美"
+    },
+    "breeder": {
+      "id": "633065",
+      "name": "山口忠彦"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヴァージニー Virginie(伯)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Legal Case"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1404,6 +1434,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラーグレード (Colour Grade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラーグレード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラーグレード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1473,9 +1533,9 @@
       "contentHash": "92342ed1ea3dd8507116fa3e982e2c86f5f5136bebf0b87be65715002fb2d9be",
       "byteLength": 64999,
       "rawPath": "netkeiba/horses/2014/2014101424/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:25:18.071Z"
+  "updatedAt": "2026-08-29T18:36:17.839Z"
 }

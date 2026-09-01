@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101429",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101429/",
-  "profile": null,
+  "profile": {
+    "name": "アースグロウ",
+    "birthDate": "2015-04-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05157",
+      "name": "及川良春"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2011106058",
+      "name": "アースウィンド"
+    },
+    "damsire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -13780,6 +13810,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アースグロウ (Earth Glow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースグロウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースグロウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -13849,9 +13909,9 @@
       "contentHash": "05cb3e538e7b40571b1495e6d732085981cdd9437ff0430aef909713a8d7e79f",
       "byteLength": 66932,
       "rawPath": "netkeiba/horses/2015/2015101429/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:12:20.039Z"
+  "updatedAt": "2026-08-30T18:21:48.587Z"
 }

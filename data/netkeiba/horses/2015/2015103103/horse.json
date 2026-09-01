@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103103",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103103/",
-  "profile": null,
+  "profile": {
+    "name": "イルファルコ",
+    "birthDate": "2015-05-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05079",
+      "name": "井上孝彦"
+    },
+    "owner": {
+      "id": "541800",
+      "name": "半沢"
+    },
+    "breeder": {
+      "id": "830010",
+      "name": "惣田英幸"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスアリバイ Miss Ali Bye(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Prado"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -2589,6 +2619,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イルファルコ (Il Falco) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イルファルコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イルファルコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2658,9 +2718,9 @@
       "contentHash": "5d41924c1bcd97b76e9c112e38f5e11dee629fb420f90ee4b6a4a3699bc49f35",
       "byteLength": 67070,
       "rawPath": "netkeiba/horses/2015/2015103103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:43:04.027Z"
+  "updatedAt": "2026-08-24T23:41:27.296Z"
 }

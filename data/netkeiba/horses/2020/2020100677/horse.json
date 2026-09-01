@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100677",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100677/",
-  "profile": null,
+  "profile": {
+    "name": "サンデュエル",
+    "birthDate": "2020-01-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2015104953",
+      "name": "サンドクイーン"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1641,6 +1671,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンデュエル (Sun Duel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンデュエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンデュエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1710,9 +1770,9 @@
       "contentHash": "8edcbb19930784cb697371761a1fadb95cf0ca037d866422f43261c755966c80",
       "byteLength": 67503,
       "rawPath": "netkeiba/horses/2020/2020100677/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:23:33.998Z"
+  "updatedAt": "2026-08-25T21:28:08.664Z"
 }

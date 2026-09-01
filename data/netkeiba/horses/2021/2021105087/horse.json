@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105087",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105087/",
-  "profile": null,
+  "profile": {
+    "name": "オンザジュピター",
+    "birthDate": "2021-03-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "308033",
+      "name": "久保田定"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2012104196",
+      "name": "スターファセット"
+    },
+    "damsire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1326,6 +1356,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オンザジュピター (On the Jupiter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザジュピター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オンザジュピター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1395,9 +1455,9 @@
       "contentHash": "cdec43b74698f97db94873c862559d849c22d1799ad3b3a02f7476b427f503c3",
       "byteLength": 65932,
       "rawPath": "netkeiba/horses/2021/2021105087/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:53:38.002Z"
+  "updatedAt": "2026-08-26T20:58:47.781Z"
 }

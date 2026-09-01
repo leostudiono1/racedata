@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104405",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104405/",
-  "profile": null,
+  "profile": {
+    "name": "エチュード",
+    "birthDate": "2017-03-16",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "367033",
+      "name": "杉浦和也"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006103169",
+      "name": "トーセンジョーダン"
+    },
+    "dam": {
+      "id": "2009102232",
+      "name": "トーセンネフティス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103169",
@@ -1603,6 +1633,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エチュード (Etude) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エチュード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エチュード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1672,9 +1732,9 @@
       "contentHash": "3bba51b838531a80062afc5157a1c0995670abd64d6231bf29496c906c321c02",
       "byteLength": 66076,
       "rawPath": "netkeiba/horses/2017/2017104405/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:10:57.756Z"
+  "updatedAt": "2026-08-25T21:15:32.647Z"
 }

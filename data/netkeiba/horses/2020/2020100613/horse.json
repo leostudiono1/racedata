@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100613",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100613/",
-  "profile": null,
+  "profile": {
+    "name": "ミオファースト",
+    "birthDate": "2020-06-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "織田誠"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "710051",
+      "name": "荻伏服部牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2011106370",
+      "name": "スープリムシチー"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -6487,6 +6517,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミオファースト (Mio First) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミオファースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミオファースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6556,9 +6616,9 @@
       "contentHash": "58e3aa0e54ec56ab06fe417ca112431f6bb40849dbbaf0039565191cd1de805b",
       "byteLength": 66885,
       "rawPath": "netkeiba/horses/2020/2020100613/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:53:47.682Z"
+  "updatedAt": "2026-08-27T20:01:24.235Z"
 }

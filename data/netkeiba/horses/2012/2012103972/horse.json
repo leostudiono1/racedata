@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103972",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103972/",
-  "profile": null,
+  "profile": {
+    "name": "スノーライン",
+    "birthDate": "2012-04-23",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01130",
+      "name": "吉村圭司"
+    },
+    "owner": {
+      "id": "948002",
+      "name": "八尾博"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2005102110",
+      "name": "ウェザーヘルム"
+    },
+    "damsire": {
+      "id": "1996100292",
+      "name": "テイエムオペラオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1364,6 +1394,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スノーライン (Snow Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スノーライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スノーライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1433,9 +1493,9 @@
       "contentHash": "37a4f9a97bc5868f61be0fc61f7516ace2e2e42985545fb0db78e7fbb6fa066b",
       "byteLength": 64352,
       "rawPath": "netkeiba/horses/2012/2012103972/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:48:02.063Z"
+  "updatedAt": "2026-08-31T17:51:33.826Z"
 }

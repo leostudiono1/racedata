@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103209",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103209/",
-  "profile": null,
+  "profile": {
+    "name": "ソービック",
+    "birthDate": "2014-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "467004",
+      "name": "澤村敏雄"
+    },
+    "breeder": {
+      "id": "903038",
+      "name": "酒井牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "1996100341",
+      "name": "ステファニーチャン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アーミジャー Armiger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -3705,6 +3735,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソービック (So Big) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソービック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソービック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3774,9 +3834,9 @@
       "contentHash": "8a1f71d936c54715a12b85232f8a86a9faabdd490c3aa33fb857311df967cb7e",
       "byteLength": 64923,
       "rawPath": "netkeiba/horses/2014/2014103209/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:29:55.563Z"
+  "updatedAt": "2026-08-27T19:37:32.348Z"
 }

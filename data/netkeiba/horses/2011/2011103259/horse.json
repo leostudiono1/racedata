@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103259",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103259/",
-  "profile": null,
+  "profile": {
+    "name": "モナルカ",
+    "birthDate": "2011-03-04",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00395",
+      "name": "長浜博之"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "540052",
+      "name": "高松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2004105574",
+      "name": "ジョウノパンジー"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -5544,6 +5574,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モナルカ (Monarca) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モナルカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モナルカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5613,9 +5673,9 @@
       "contentHash": "873944d4c220fc5456280a0622af067489a63f91fce1d6a540d2a0a9d4c72de0",
       "byteLength": 64333,
       "rawPath": "netkeiba/horses/2011/2011103259/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:51:08.924Z"
+  "updatedAt": "2026-08-28T19:01:47.802Z"
 }

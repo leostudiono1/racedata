@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105078",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105078/",
-  "profile": null,
+  "profile": {
+    "name": "キセキパレス",
+    "birthDate": "2017-01-20",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05639",
+      "name": "小牧毅"
+    },
+    "owner": {
+      "id": "100006",
+      "name": "小林量"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2005102178",
+      "name": "ヴァリアントレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2341,6 +2371,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キセキパレス (Kiseki Palace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キセキパレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キセキパレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2410,9 +2470,9 @@
       "contentHash": "2849a8d70cc660dedd9928f665709a7f9e3ed6dc8c955e0f4e155bc6e138c861",
       "byteLength": 64480,
       "rawPath": "netkeiba/horses/2017/2017105078/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:43:06.926Z"
+  "updatedAt": "2026-08-27T19:50:43.603Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100303",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100303/",
-  "profile": null,
+  "profile": {
+    "name": "キョウエイシュバル",
+    "birthDate": "2023-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宮川浩一"
+    },
+    "owner": {
+      "id": "282031",
+      "name": "中水英紀"
+    },
+    "breeder": {
+      "id": "803028",
+      "name": "幌村牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2017102596",
+      "name": "ボヘミアンシュバル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1750,6 +1780,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キョウエイシュバル (Kyoei Cheval) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイシュバル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイシュバル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1819,9 +1879,9 @@
       "contentHash": "faf49126f08d14a3f9749dd0d9077ec4237cd7fcb16ba33c08fb6a0e78a3b344",
       "byteLength": 67265,
       "rawPath": "netkeiba/horses/2023/2023100303/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T23:00:28.122Z"
+  "updatedAt": "2026-08-26T21:05:37.722Z"
 }

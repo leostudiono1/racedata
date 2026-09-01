@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101553",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101553/",
-  "profile": null,
+  "profile": {
+    "name": "トーレセントラル",
+    "birthDate": "2017-03-19",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103388",
+      "name": "グランプリボス"
+    },
+    "dam": {
+      "id": "2009104756",
+      "name": "ハートヴァイン"
+    },
+    "damsire": {
+      "id": "1994109494",
+      "name": "スピードワールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103388",
@@ -1075,6 +1105,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーレセントラル (Torre Central) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーレセントラル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーレセントラル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1144,9 +1204,9 @@
       "contentHash": "db951437ac6508cb209db1088ee0e544b7423c4a4a16957baa0fa9446e9db781",
       "byteLength": 64515,
       "rawPath": "netkeiba/horses/2017/2017101553/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:38:01.195Z"
+  "updatedAt": "2026-08-29T18:49:01.203Z"
 }

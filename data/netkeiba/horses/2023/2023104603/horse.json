@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104603",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104603/",
-  "profile": null,
+  "profile": {
+    "name": "チェイサー",
+    "birthDate": "2023-02-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01020",
+      "name": "相沢郁"
+    },
+    "owner": {
+      "id": "694008",
+      "name": "本間茂"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2015104703",
+      "name": "ウェストレー"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -2157,6 +2187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チェイサー (Chaser) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェイサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェイサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2226,9 +2286,9 @@
       "contentHash": "4589e565995508dd5f8263615dafa7c015c0237147d23c2e9929d98a47981c1c",
       "byteLength": 66318,
       "rawPath": "netkeiba/horses/2023/2023104603/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:41:19.998Z"
+  "updatedAt": "2026-08-28T19:51:58.717Z"
 }

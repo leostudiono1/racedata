@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101812",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101812/",
-  "profile": null,
+  "profile": {
+    "name": "ファインプレー",
+    "birthDate": "2016-02-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "975030",
+      "name": "小田切光"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2012106423",
+      "name": "レッドピアノ"
+    },
+    "damsire": {
+      "id": "2000101550",
+      "name": "オレハマッテルゼ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1304,6 +1334,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファインプレー (Fine Play) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインプレー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファインプレー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1373,9 +1433,9 @@
       "contentHash": "d0d22dca36c17162eba1d43a0ad7240c6c79769ebdf5d642657d504d610234f3",
       "byteLength": 64381,
       "rawPath": "netkeiba/horses/2016/2016101812/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:16:39.015Z"
+  "updatedAt": "2026-08-30T18:26:07.664Z"
 }

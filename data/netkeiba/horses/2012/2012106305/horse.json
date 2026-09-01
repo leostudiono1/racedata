@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106305",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106305/",
-  "profile": null,
+  "profile": {
+    "name": "キンカチャ",
+    "birthDate": "2012-05-21",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "137030",
+      "name": "鈴木照雄"
+    },
+    "breeder": {
+      "id": "440543",
+      "name": "グローリーファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ザール Xaar(英)"
+    },
+    "dam": {
+      "id": "2005105167",
+      "name": "アースファイヤー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1258,6 +1288,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キンカチャ (Kinkacha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンカチャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンカチャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1327,9 +1387,9 @@
       "contentHash": "d399b9c0cf7b2c02a98299a025a4eb10533747a2dc56ec4ac0411ec9a0d9a168",
       "byteLength": 64292,
       "rawPath": "netkeiba/horses/2012/2012106305/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:51:28.417Z"
+  "updatedAt": "2026-08-25T20:56:03.120Z"
 }

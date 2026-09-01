@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105399",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105399/",
-  "profile": null,
+  "profile": {
+    "name": "テンペスト",
+    "birthDate": "2014-05-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00422",
+      "name": "五十嵐忠"
+    },
+    "owner": {
+      "id": "872800",
+      "name": "三田昌宏"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2008102887",
+      "name": "アルマフローラ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1869,6 +1899,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンペスト (Tempest) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンペスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンペスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1938,9 +1998,9 @@
       "contentHash": "df92340e76c46431c8564c206a47d017c749e5ef72fb4ffccdd089820da8adbf",
       "byteLength": 66288,
       "rawPath": "netkeiba/horses/2014/2014105399/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:30:44.605Z"
+  "updatedAt": "2026-08-27T19:38:21.359Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106478",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106478/",
-  "profile": null,
+  "profile": {
+    "name": "ヘクセンハウス",
+    "birthDate": "2023-04-07",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "546800",
+      "name": "サラブレッドクラブ・ラフィアン"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014100222",
+      "name": "ウインブライト"
+    },
+    "dam": {
+      "id": "2002105178",
+      "name": "マイネデセール"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014100222",
@@ -1976,6 +2006,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘクセンハウス (Hexenhaus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘクセンハウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘクセンハウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2045,9 +2105,9 @@
       "contentHash": "d1ccd5a214758199ba382395ea1e90616e0cc2cc5258db181d762f04d69193ab",
       "byteLength": 67300,
       "rawPath": "netkeiba/horses/2023/2023106478/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T22:08:45.812Z"
+  "updatedAt": "2026-08-27T20:16:20.529Z"
 }

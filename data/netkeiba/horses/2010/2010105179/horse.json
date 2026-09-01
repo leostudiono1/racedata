@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010105179",
   "sourceUrl": "https://db.netkeiba.com/horse/2010105179/",
-  "profile": null,
+  "profile": {
+    "name": "ゲームフェイス",
+    "birthDate": "2010-02-28",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01032",
+      "name": "大根田裕"
+    },
+    "owner": {
+      "id": "350002",
+      "name": "宮川純造"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミュージー Musee(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Prado"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -3408,6 +3438,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲームフェイス (Game Face) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲームフェイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲームフェイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3477,9 +3537,9 @@
       "contentHash": "cc1ded53cd03b6e0f15a72780191d68377981ddcc7d5415b76a436287a211cc8",
       "byteLength": 66890,
       "rawPath": "netkeiba/horses/2010/2010105179/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:50:33.993Z"
+  "updatedAt": "2026-08-28T19:01:12.709Z"
 }

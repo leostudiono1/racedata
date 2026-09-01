@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103863",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103863/",
-  "profile": null,
+  "profile": {
+    "name": "ロードショー",
+    "birthDate": "2015-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "310803",
+      "name": "キーウエスト"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2007102334",
+      "name": "ルクールダンジェ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -1908,6 +1938,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードショー (Road Show) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードショー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードショー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1977,9 +2037,9 @@
       "contentHash": "7ae468477795025612aea9f0bfb32de6b76c2ad79b405fd9d1e179de87fcb08e",
       "byteLength": 66792,
       "rawPath": "netkeiba/horses/2015/2015103863/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:25:37.252Z"
+  "updatedAt": "2026-08-26T20:30:47.261Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101321",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101321/",
-  "profile": null,
+  "profile": {
+    "name": "ユアーザワン",
+    "birthDate": "2012-03-28",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "790030",
+      "name": "花野友象"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "1999102630",
+      "name": "エクシードワン"
+    },
+    "damsire": {
+      "id": "1991108889",
+      "name": "ナリタブライアン"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -4668,6 +4698,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユアーザワン (You Are the One) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアーザワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアーザワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4737,9 +4797,9 @@
       "contentHash": "e0f208f09bc54c1740b45b8b93f56184a51f29db93fb6ff455540022529c5cb3",
       "byteLength": 66973,
       "rawPath": "netkeiba/horses/2012/2012101321/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:17:57.063Z"
+  "updatedAt": "2026-08-29T18:28:56.796Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100819",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100819/",
-  "profile": null,
+  "profile": {
+    "name": "アウアウ",
+    "birthDate": "2013-04-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2004102898",
+      "name": "ネネグース"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -2686,6 +2716,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウアウ (Au Au) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウアウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウアウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2755,9 +2815,9 @@
       "contentHash": "d8967e87ff4eb0a5637ead830651d3b10f6fdfde184b5afeb7b1772983a01a37",
       "byteLength": 66775,
       "rawPath": "netkeiba/horses/2013/2013100819/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:50:01.230Z"
+  "updatedAt": "2026-08-31T17:53:32.813Z"
 }

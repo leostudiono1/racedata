@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103790",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103790/",
-  "profile": null,
+  "profile": {
+    "name": "レギオン",
+    "birthDate": "2013-03-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "865800",
+      "name": "エンジェルレーシング"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2003102299",
+      "name": "マドンナブラボー"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2934,6 +2964,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レギオン (Legion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レギオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レギオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3003,9 +3063,9 @@
       "contentHash": "8a8205d68dc2a9908ddc95c862a74d21b104c273dba8c5e8faaad9ad5fc65cb4",
       "byteLength": 64256,
       "rawPath": "netkeiba/horses/2013/2013103790/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:59:26.429Z"
+  "updatedAt": "2026-08-28T19:10:05.276Z"
 }

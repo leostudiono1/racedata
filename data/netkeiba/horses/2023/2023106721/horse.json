@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106721",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106721/",
-  "profile": null,
+  "profile": {
+    "name": "ヴァルボナ",
+    "birthDate": "2023-01-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01153",
+      "name": "中舘英二"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2018110023",
+      "name": "マダムヴァシュモン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Teofilo"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1519,6 +1549,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴァルボナ (Valbona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァルボナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァルボナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1588,9 +1648,9 @@
       "contentHash": "1114521b01ffa5e24592834d2b1008ded092ba0e0f9af05e70dc2dd91972f811",
       "byteLength": 64626,
       "rawPath": "netkeiba/horses/2023/2023106721/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T23:03:26.086Z"
+  "updatedAt": "2026-08-26T21:08:35.851Z"
 }

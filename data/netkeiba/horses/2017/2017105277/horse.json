@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105277",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105277/",
-  "profile": null,
+  "profile": {
+    "name": "エボカシオン",
+    "birthDate": "2017-02-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01041",
+      "name": "藤沢則雄"
+    },
+    "owner": {
+      "id": "819031",
+      "name": "森田和豊"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カルディーン Caldine(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Roman Ruler"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3328,6 +3358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エボカシオン (Evocacion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エボカシオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エボカシオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3397,9 +3457,9 @@
       "contentHash": "82531a175f7174cb2517b177f27b5b1639e42df568c11718ef928f9a4989f0ab",
       "byteLength": 66842,
       "rawPath": "netkeiba/horses/2017/2017105277/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:43:13.912Z"
+  "updatedAt": "2026-08-27T19:50:50.900Z"
 }

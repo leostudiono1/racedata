@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110020",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110020/",
-  "profile": null,
+  "profile": {
+    "name": "ダンレアリー",
+    "birthDate": "2017-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Teofilo"
+    },
+    "dam": {
+      "id": "2008104079",
+      "name": "セレブリティ"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1233,6 +1263,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダンレアリー (Dun Laoghaire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダンレアリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダンレアリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1302,9 +1362,9 @@
       "contentHash": "a0b8be2b41faaf794ac678869d8c36ff1743c393788c9ad19afa14060c7a50ac",
       "byteLength": 64925,
       "rawPath": "netkeiba/horses/2017/2017110020/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:40:59.805Z"
+  "updatedAt": "2026-08-29T18:52:00.085Z"
 }

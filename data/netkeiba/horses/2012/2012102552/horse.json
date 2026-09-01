@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102552",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102552/",
-  "profile": null,
+  "profile": {
+    "name": "スイートホーム",
+    "birthDate": "2012-04-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01096",
+      "name": "粕谷昌央"
+    },
+    "owner": {
+      "id": "691800",
+      "name": "三石川上牧場"
+    },
+    "breeder": {
+      "id": "833058",
+      "name": "三石川上牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ウイズアフェクション With Affection(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Red Ransom"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1290,6 +1320,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スイートホーム (Sweet Home) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイートホーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スイートホーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1359,9 +1419,9 @@
       "contentHash": "5c4c9755e0590190127e12ef6226df2940b0db9a81baef248112f68062fd8fed",
       "byteLength": 64486,
       "rawPath": "netkeiba/horses/2012/2012102552/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:46:55.471Z"
+  "updatedAt": "2026-08-31T17:50:27.196Z"
 }

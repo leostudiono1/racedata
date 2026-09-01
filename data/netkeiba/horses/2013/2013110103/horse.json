@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110103",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110103/",
-  "profile": null,
+  "profile": {
+    "name": "ディープオーパス",
+    "birthDate": "2013-02-11",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00849",
+      "name": "地辺幸一"
+    },
+    "owner": {
+      "id": "128008",
+      "name": "深見敏男"
+    },
+    "breeder": {
+      "id": "830709",
+      "name": "Richard Shultz"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Exchange Rate"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Lemonlime"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lemon Drop Kid"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -8864,6 +8894,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディープオーパス (Deep Opus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープオーパス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディープオーパス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8933,9 +8993,9 @@
       "contentHash": "3daf610a6e4c82adcc0cd0a4608239f93aa6cf4266ed9b8d1788af7141c7dbd2",
       "byteLength": 66990,
       "rawPath": "netkeiba/horses/2013/2013110103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:06:12.509Z"
+  "updatedAt": "2026-08-30T18:15:40.862Z"
 }

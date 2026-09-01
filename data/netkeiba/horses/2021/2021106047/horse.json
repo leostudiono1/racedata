@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106047",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106047/",
-  "profile": null,
+  "profile": {
+    "name": "ベアビー",
+    "birthDate": "2021-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川島豊"
+    },
+    "owner": {
+      "id": "042803",
+      "name": "ファーストビジョン"
+    },
+    "breeder": {
+      "id": "300331",
+      "name": "石田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012110091",
+      "name": "モーニン"
+    },
+    "dam": {
+      "id": "2009104457",
+      "name": "ハルトリーゲル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012110091",
@@ -4663,6 +4693,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベアビー (Bear Bee) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアビー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアビー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4732,9 +4792,9 @@
       "contentHash": "0a457c6d5bb601202b9294376e90f9d660f769ba67e98f8bddd0d57c7db59651",
       "byteLength": 66844,
       "rawPath": "netkeiba/horses/2021/2021106047/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:39:59.857Z"
+  "updatedAt": "2026-08-30T18:49:28.028Z"
 }

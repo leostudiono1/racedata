@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103539",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103539/",
-  "profile": null,
+  "profile": {
+    "name": "パーリーブラック",
+    "birthDate": "2020-03-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パーリーアヴェニュー Pearly Avenue(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Anabaa"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -2716,6 +2746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パーリーブラック (Pearly Black) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パーリーブラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パーリーブラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2785,9 +2845,9 @@
       "contentHash": "c4b5e330eb21d62ba706355cd88030ccf9ec550dd747f536f975d2a0cc843c13",
       "byteLength": 67015,
       "rawPath": "netkeiba/horses/2020/2020103539/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:56:07.652Z"
+  "updatedAt": "2026-08-27T20:03:44.558Z"
 }

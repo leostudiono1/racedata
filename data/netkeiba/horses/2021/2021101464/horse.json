@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101464",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101464/",
-  "profile": null,
+  "profile": {
+    "name": "ミッションルース",
+    "birthDate": "2021-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "465030",
+      "name": "大島昌也"
+    },
+    "breeder": {
+      "id": "733356",
+      "name": "庄野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2012104802",
+      "name": "クローソー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2416,6 +2446,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッションルース (Mission Loose) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッションルース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッションルース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2485,9 +2545,9 @@
       "contentHash": "a30c144582fcc167a084a5008bcfb0a86c24c077fdd85017bdf84d8280428a8b",
       "byteLength": 65002,
       "rawPath": "netkeiba/horses/2021/2021101464/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:27:32.099Z"
+  "updatedAt": "2026-08-25T21:32:06.795Z"
 }

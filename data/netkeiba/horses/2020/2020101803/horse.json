@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101803",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101803/",
-  "profile": null,
+  "profile": {
+    "name": "カムランベイ",
+    "birthDate": "2020-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宮川浩一"
+    },
+    "owner": {
+      "id": "487034",
+      "name": "吉田一成"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "タリスマニック Talismanic(英)"
+    },
+    "dam": {
+      "id": "2015101605",
+      "name": "コーズウェイベイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハードスパン Hard Spun(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4227,6 +4257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カムランベイ (Cam Ranh Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムランベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムランベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4296,9 +4356,9 @@
       "contentHash": "1406bfa6d267c9e034d3f93fa362bfab450875d23aa36a118ada1b2dcfdcd92c",
       "byteLength": 67028,
       "rawPath": "netkeiba/horses/2020/2020101803/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:33:09.687Z"
+  "updatedAt": "2026-08-30T18:42:38.494Z"
 }

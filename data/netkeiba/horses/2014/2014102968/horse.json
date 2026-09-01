@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102968",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102968/",
-  "profile": null,
+  "profile": {
+    "name": "エドワード",
+    "birthDate": "2014-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "730009",
+      "name": "富田恭司"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2007101169",
+      "name": "ポルタマリーナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ストラヴィンスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -1227,6 +1257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エドワード (Edward) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エドワード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エドワード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1296,9 +1356,9 @@
       "contentHash": "8b9818ee233276d5ea8be88f5c6ddd2c776f881d368cff48004a59585a7005ae",
       "byteLength": 64655,
       "rawPath": "netkeiba/horses/2014/2014102968/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:26:10.403Z"
+  "updatedAt": "2026-08-29T18:37:10.425Z"
 }

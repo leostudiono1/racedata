@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100363",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100363/",
-  "profile": null,
+  "profile": {
+    "name": "トリクシー",
+    "birthDate": "2022-04-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05071",
+      "name": "森山英雄"
+    },
+    "owner": {
+      "id": "482007",
+      "name": "岩崎伸道"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2015103767",
+      "name": "ルプス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -2833,6 +2863,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリクシー (Trixi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリクシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリクシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2902,9 +2962,9 @@
       "contentHash": "24bfbde2cf78c8be54bcbf7551f5444105a1113474ff3bb7681fbe2cc43b4359",
       "byteLength": 66735,
       "rawPath": "netkeiba/horses/2022/2022100363/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:58:44.629Z"
+  "updatedAt": "2026-08-29T19:09:43.960Z"
 }

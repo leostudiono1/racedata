@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106665",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106665/",
-  "profile": null,
+  "profile": {
+    "name": "テマリ",
+    "birthDate": "2020-02-21",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "武井和実"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2011105901",
+      "name": "テンテマリ"
+    },
+    "damsire": {
+      "id": "2002107011",
+      "name": "スズカフェニックス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5938,6 +5968,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テマリ (Temari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テマリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テマリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6007,9 +6067,9 @@
       "contentHash": "bf42447cb0d5eb76f82f89af7ff45a0a78d4798fe2403ec724f46c8b3e863d76",
       "byteLength": 65280,
       "rawPath": "netkeiba/horses/2020/2020106665/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:29:29.336Z"
+  "updatedAt": "2026-08-28T19:40:08.122Z"
 }

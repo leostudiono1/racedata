@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101671",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101671/",
-  "profile": null,
+  "profile": {
+    "name": "ブランクシート",
+    "birthDate": "2022-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "x0b440",
+      "name": "本井寿幸"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ディスクリートキャット Discreet Cat(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ニューチャプターＩＩ New Chapter(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2120,6 +2150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブランクシート (Blank Sheet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブランクシート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブランクシート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2189,9 +2249,9 @@
       "contentHash": "2639203b16716993e7400a6033370eaaa89b9abd41947de53480d8a096e6750e",
       "byteLength": 65287,
       "rawPath": "netkeiba/horses/2022/2022101671/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:14:13.580Z"
+  "updatedAt": "2026-08-25T00:12:37.163Z"
 }

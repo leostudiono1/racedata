@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103002",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103002/",
-  "profile": null,
+  "profile": {
+    "name": "レトルダムール",
+    "birthDate": "2016-05-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "303355",
+      "name": "佐々木牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007100727",
+      "name": "ヒルノダムール"
+    },
+    "dam": {
+      "id": "1995102681",
+      "name": "ハセノマジョラム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘクタープロテクター Hector Protector(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007100727",
@@ -1369,6 +1399,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レトルダムール (Lettre d'Amour) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レトルダムール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レトルダムール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1438,9 +1498,9 @@
       "contentHash": "7b75aa9536ccc398fc38d41d802f967f19f97ed292337a1164b6ed83af060f3c",
       "byteLength": 66440,
       "rawPath": "netkeiba/horses/2016/2016103002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:03:40.394Z"
+  "updatedAt": "2026-08-31T18:07:12.127Z"
 }

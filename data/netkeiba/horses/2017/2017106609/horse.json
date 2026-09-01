@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106609",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106609/",
-  "profile": null,
+  "profile": {
+    "name": "ラファエル",
+    "birthDate": "2017-04-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2009102636",
+      "name": "ラファダリ"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -5543,6 +5573,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラファエル (Raphael) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラファエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラファエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5612,9 +5672,9 @@
       "contentHash": "14bd5ab8fbcd499030a0e573477a613be5cd924595064ec3df0dda120c0b4c11",
       "byteLength": 66100,
       "rawPath": "netkeiba/horses/2017/2017106609/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:24:45.549Z"
+  "updatedAt": "2026-08-30T18:34:14.247Z"
 }

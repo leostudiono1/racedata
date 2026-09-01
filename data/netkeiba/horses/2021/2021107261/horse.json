@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021107261",
   "sourceUrl": "https://db.netkeiba.com/horse/2021107261/",
-  "profile": null,
+  "profile": {
+    "name": "ザソード",
+    "birthDate": "2021-04-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01020",
+      "name": "相沢郁"
+    },
+    "owner": {
+      "id": "812008",
+      "name": "石瀬浩三"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2000100322",
+      "name": "オンワードミシェル"
+    },
+    "damsire": {
+      "id": "1977103827",
+      "name": "アンバーシャダイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -1569,6 +1599,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザソード (The Sword) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザソード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザソード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1638,9 +1698,9 @@
       "contentHash": "753367d97fce3535d8702c3849f005a0cb7e24102368b753baec91458b6c5214",
       "byteLength": 65860,
       "rawPath": "netkeiba/horses/2021/2021107261/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:12:49.664Z"
+  "updatedAt": "2026-08-25T00:11:12.910Z"
 }

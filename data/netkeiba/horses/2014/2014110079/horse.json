@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110079",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110079/",
-  "profile": null,
+  "profile": {
+    "name": "トリリオネア",
+    "birthDate": "2014-04-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "930877",
+      "name": "Darley"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Dubawi"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Many Colours"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2465,6 +2495,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリリオネア (Trillionaire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリリオネア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリリオネア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2534,9 +2594,9 @@
       "contentHash": "a37f377992dab2d960cfc7a404af4360b14386b6e5cfa67e042b20f9ae045dda",
       "byteLength": 66982,
       "rawPath": "netkeiba/horses/2014/2014110079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:40:36.805Z"
+  "updatedAt": "2026-08-24T23:39:00.631Z"
 }

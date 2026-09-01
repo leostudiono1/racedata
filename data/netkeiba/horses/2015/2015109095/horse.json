@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109095",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109095/",
-  "profile": null,
+  "profile": {
+    "name": "メイモアナ",
+    "birthDate": "2015-03-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00390",
+      "name": "池上昌弘"
+    },
+    "owner": {
+      "id": "075800",
+      "name": "千明牧場"
+    },
+    "breeder": {
+      "id": "230123",
+      "name": "千明牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2007103217",
+      "name": "メイシャイン"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1383,6 +1413,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイモアナ (May Moana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイモアナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイモアナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1452,9 +1512,9 @@
       "contentHash": "5e27c92325bf70e3088f2282f4a8dc4a44fdabcd034cd6e9b82354ce45b77ec2",
       "byteLength": 64655,
       "rawPath": "netkeiba/horses/2015/2015109095/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:15:18.562Z"
+  "updatedAt": "2026-08-30T18:24:47.071Z"
 }

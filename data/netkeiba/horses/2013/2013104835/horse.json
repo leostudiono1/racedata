@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104835",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104835/",
-  "profile": null,
+  "profile": {
+    "name": "レア",
+    "birthDate": "2013-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "803309",
+      "name": "マークリ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2000102800",
+      "name": "ナリタオリーブ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1128,6 +1158,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レア (Lea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1197,9 +1257,9 @@
       "contentHash": "50c90fa2890e9715e93f50b0a608eb36ecc3396d44ca99cbaa83f59f0290c236",
       "byteLength": 64556,
       "rawPath": "netkeiba/horses/2013/2013104835/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:51:53.148Z"
+  "updatedAt": "2026-08-31T17:55:24.826Z"
 }

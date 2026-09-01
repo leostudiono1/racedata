@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105932",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105932/",
-  "profile": null,
+  "profile": {
+    "name": "キャロリン",
+    "birthDate": "2020-03-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05357",
+      "name": "植松則幸"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009105985",
+      "name": "チーズマヨ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2668,6 +2698,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャロリン (Carolyn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャロリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャロリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2737,9 +2797,9 @@
       "contentHash": "eb8f1fbd60d989d5dd1f76c1a4487b55be6eef570f623d3a7e9d19fb89dcbbfb",
       "byteLength": 64402,
       "rawPath": "netkeiba/horses/2020/2020105932/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:35:54.165Z"
+  "updatedAt": "2026-08-30T18:45:23.039Z"
 }

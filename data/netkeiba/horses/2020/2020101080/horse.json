@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101080",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101080/",
-  "profile": null,
+  "profile": {
+    "name": "オーロラバローズ",
+    "birthDate": "2020-03-11",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01173",
+      "name": "長谷川浩"
+    },
+    "owner": {
+      "id": "859007",
+      "name": "猪熊広次"
+    },
+    "breeder": {
+      "id": "000362",
+      "name": "スガタ牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2012104807",
+      "name": "ニエロ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -1150,6 +1180,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーロラバローズ (Aurora Barows) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーロラバローズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーロラバローズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1219,9 +1279,9 @@
       "contentHash": "e0badbc42b742153994eec5d60e03b71fb4e4b7f0eaf14dbab52084f71d8fd71",
       "byteLength": 64565,
       "rawPath": "netkeiba/horses/2020/2020101080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:54:19.154Z"
+  "updatedAt": "2026-08-27T20:01:55.809Z"
 }

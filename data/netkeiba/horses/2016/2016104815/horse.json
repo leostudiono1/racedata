@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104815",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104815/",
-  "profile": null,
+  "profile": {
+    "name": "オルピメント",
+    "birthDate": "2016-05-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05716",
+      "name": "尾島徹"
+    },
+    "owner": {
+      "id": "014031",
+      "name": "松田正一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2003110159",
+      "name": "バシマー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Lodge (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2080,6 +2110,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オルピメント (Orpiment) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルピメント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オルピメント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2149,9 +2209,9 @@
       "contentHash": "65adfa5eac43b385990cc10d27414e38ef6b433156fc8a6bc2c5595154df7abc",
       "byteLength": 65738,
       "rawPath": "netkeiba/horses/2016/2016104815/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:30:59.324Z"
+  "updatedAt": "2026-08-26T20:36:09.158Z"
 }

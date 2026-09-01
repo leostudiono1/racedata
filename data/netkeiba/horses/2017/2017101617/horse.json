@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101617",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101617/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーベル",
+    "birthDate": "2017-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05125",
+      "name": "竹口勝利"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2000100855",
+      "name": "トニーズメモリイ"
+    },
+    "damsire": {
+      "id": "1983109006",
+      "name": "トニービン Tony Bin(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -5263,6 +5293,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーベル (Blue Bell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5332,9 +5392,9 @@
       "contentHash": "e730616e369e6742daed2aeac5655624805943cb87ce740782456e6630711f3d",
       "byteLength": 65490,
       "rawPath": "netkeiba/horses/2017/2017101617/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:14:05.105Z"
+  "updatedAt": "2026-08-28T19:24:43.877Z"
 }

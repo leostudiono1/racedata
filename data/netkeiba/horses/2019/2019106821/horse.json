@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106821",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106821/",
-  "profile": null,
+  "profile": {
+    "name": "ファベル",
+    "birthDate": "2019-02-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01185",
+      "name": "小林真也"
+    },
+    "owner": {
+      "id": "046803",
+      "name": "フクキタル"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ポウリナズラヴ Paulina's Love(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mizzen Mast"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2892,6 +2922,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファベル (Faber) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2961,9 +3021,9 @@
       "contentHash": "ad6421ce9342a3d7063255b5c17df5c4aadcf5789b19b2af126f7257d829e31d",
       "byteLength": 67354,
       "rawPath": "netkeiba/horses/2019/2019106821/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:22:38.024Z"
+  "updatedAt": "2026-08-25T21:27:12.768Z"
 }

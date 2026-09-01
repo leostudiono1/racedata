@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110141",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110141/",
-  "profile": null,
+  "profile": {
+    "name": "メイクハッピー",
+    "birthDate": "2016-01-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05719",
+      "name": "佐藤裕太"
+    },
+    "owner": {
+      "id": "151006",
+      "name": "吉田和子"
+    },
+    "breeder": {
+      "id": "120731",
+      "name": "Reddam Racing LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Square Eddie"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Silar Rules"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Ten Most Wanted"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2275,6 +2305,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイクハッピー (Make Happy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイクハッピー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイクハッピー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2344,9 +2404,9 @@
       "contentHash": "0000a11cdf29e5beb7fd355e3eca8ba96dfd6d19b91cba9670fdf8c4847f1462",
       "byteLength": 67013,
       "rawPath": "netkeiba/horses/2016/2016110141/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:20:19.695Z"
+  "updatedAt": "2026-08-30T18:29:48.140Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100191",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100191/",
-  "profile": null,
+  "profile": {
+    "name": "パシスタ",
+    "birthDate": "2017-04-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05390",
+      "name": "高橋俊之"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "110353",
+      "name": "川島正広"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002107011",
+      "name": "スズカフェニックス"
+    },
+    "dam": {
+      "id": "2008105409",
+      "name": "サンバホイッスル"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2002107011",
@@ -4158,6 +4188,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パシスタ (Passista) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パシスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パシスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4227,9 +4287,9 @@
       "contentHash": "0f862647204dfab884d471d53ed3209db721128f77bb0862f2d39f68a136548a",
       "byteLength": 66864,
       "rawPath": "netkeiba/horses/2017/2017100191/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:06:28.485Z"
+  "updatedAt": "2026-08-31T18:10:00.110Z"
 }

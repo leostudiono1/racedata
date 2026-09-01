@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105961",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105961/",
-  "profile": null,
+  "profile": {
+    "name": "ティーナ",
+    "birthDate": "2023-03-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "工藤裕孝"
+    },
+    "owner": {
+      "id": "x0aa1e",
+      "name": "川添裕起"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Earthlight (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アシーアビューティ A Sheer Beauty(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dabirsim"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1379,6 +1409,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ティーナ (Tina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1448,9 +1508,9 @@
       "contentHash": "8ad8dea6fa58e63c1606ebff055d6ebdca561db56a35fc2a55c089785e335316",
       "byteLength": 65379,
       "rawPath": "netkeiba/horses/2023/2023105961/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T21:05:16.205Z"
+  "updatedAt": "2026-08-29T19:16:16.077Z"
 }

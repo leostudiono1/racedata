@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110102",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110102/",
-  "profile": null,
+  "profile": {
+    "name": "デュガ",
+    "birthDate": "2019-03-31",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "300736",
+      "name": "Erv Woolsey & Ralph Kinder"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Practical Joke (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Untraveled"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Canadian Frontier"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4151,6 +4181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デュガ (Dugat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デュガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デュガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4220,9 +4280,9 @@
       "contentHash": "17f0294f91c3635dee24dafe46fb703cb4b1f7d22cc97954c8e9ec70a62b6989",
       "byteLength": 66673,
       "rawPath": "netkeiba/horses/2019/2019110102/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:32:10.184Z"
+  "updatedAt": "2026-08-30T18:41:38.883Z"
 }

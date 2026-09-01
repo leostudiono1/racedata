@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110107",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110107/",
-  "profile": null,
+  "profile": {
+    "name": "エコロアゼル",
+    "birthDate": "2022-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "783033",
+      "name": "原村正紀"
+    },
+    "breeder": {
+      "id": "520713",
+      "name": "Crawford Farms"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Shancelot (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Cicada's Song"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Twirling Candy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2151,6 +2181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エコロアゼル (Ecoro Azel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロアゼル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エコロアゼル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2220,9 +2280,9 @@
       "contentHash": "085a5a8e3f291bc5f46d62f5b55aafab7cf51c60a2dc324cd336beaa46f87bab",
       "byteLength": 67021,
       "rawPath": "netkeiba/horses/2022/2022110107/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:17:43.579Z"
+  "updatedAt": "2026-08-25T00:16:07.010Z"
 }

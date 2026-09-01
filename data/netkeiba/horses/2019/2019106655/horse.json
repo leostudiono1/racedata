@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106655",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106655/",
-  "profile": null,
+  "profile": {
+    "name": "ビーウォーター",
+    "birthDate": "2019-02-04",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00405",
+      "name": "小西一男"
+    },
+    "owner": {
+      "id": "685030",
+      "name": "和泉憲一"
+    },
+    "breeder": {
+      "id": "103309",
+      "name": "北洋牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キズナII"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hurricane Run (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1408,6 +1438,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビーウォーター (Be Water) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーウォーター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーウォーター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1477,9 +1537,9 @@
       "contentHash": "103b827ae6c05e97dc0098381eee1866b47805afcec307b8a7a9bdfb0bfcd590",
       "byteLength": 66175,
       "rawPath": "netkeiba/horses/2019/2019106655/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:22:27.491Z"
+  "updatedAt": "2026-08-25T21:27:02.332Z"
 }

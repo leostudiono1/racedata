@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100916",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100916/",
-  "profile": null,
+  "profile": {
+    "name": "シールド",
+    "birthDate": "2017-04-16",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05740",
+      "name": "長南和宏"
+    },
+    "owner": {
+      "id": "571006",
+      "name": "齊藤直信"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2003102668",
+      "name": "レースオブスターズ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2959,6 +2989,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シールド (Shield) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3028,9 +3088,9 @@
       "contentHash": "43054665aa836a6498dbd9ecf21274ba26d21312ad459a74af32b46dd9e65ffc",
       "byteLength": 65951,
       "rawPath": "netkeiba/horses/2017/2017100916/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:33:12.429Z"
+  "updatedAt": "2026-08-26T20:38:22.700Z"
 }

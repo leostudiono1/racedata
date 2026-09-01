@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009110101",
   "sourceUrl": "https://db.netkeiba.com/horse/2009110101/",
-  "profile": null,
+  "profile": {
+    "name": "アンコイルド",
+    "birthDate": "2009-05-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "536800",
+      "name": "大樹ファーム"
+    },
+    "breeder": {
+      "id": "660701",
+      "name": "S. F. Bloodstock LLC"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Tanzania"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Alzao"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5188,6 +5218,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンコイルド (Uncoiled) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンコイルド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンコイルド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5257,9 +5317,9 @@
       "contentHash": "015534e0867ac9b660b1d0dc0681bec73c90c6b79324315fee513a61ed003ff0",
       "byteLength": 67362,
       "rawPath": "netkeiba/horses/2009/2009110101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:43:25.582Z"
+  "updatedAt": "2026-08-31T17:46:57.318Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101027",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101027/",
-  "profile": null,
+  "profile": {
+    "name": "サンタナ",
+    "birthDate": "2014-03-18",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01095",
+      "name": "荒川義之"
+    },
+    "owner": {
+      "id": "026007",
+      "name": "折手邦雄"
+    },
+    "breeder": {
+      "id": "433091",
+      "name": "折手牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2002101083",
+      "name": "リヴァプール"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1600,6 +1630,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンタナ (Santana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンタナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンタナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1669,9 +1729,9 @@
       "contentHash": "771d45b1ff5cd1ec85dc99fa45b3d6998d13df9d38e1e491f713b6fadc73cf07",
       "byteLength": 65110,
       "rawPath": "netkeiba/horses/2014/2014101027/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:01:49.595Z"
+  "updatedAt": "2026-08-28T19:12:28.438Z"
 }

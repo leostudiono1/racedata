@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100634",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100634/",
-  "profile": null,
+  "profile": {
+    "name": "フォーカスライト",
+    "birthDate": "2022-02-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "City of Light (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ゼスト Zest(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -978,6 +1008,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォーカスライト (Focus Light) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーカスライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォーカスライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1047,9 +1107,9 @@
       "contentHash": "4e8259104786b47940ac2beaba7faabeb9c833e1e3d39abe029849af0f686bc3",
       "byteLength": 65010,
       "rawPath": "netkeiba/horses/2022/2022100634/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:58:58.148Z"
+  "updatedAt": "2026-08-29T19:09:57.983Z"
 }

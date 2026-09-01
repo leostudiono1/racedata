@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101861",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101861/",
-  "profile": null,
+  "profile": {
+    "name": "ゴールデン",
+    "birthDate": "2022-02-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00428",
+      "name": "石毛善彦"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "2014104265",
+      "name": "ツヅク"
+    },
+    "damsire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -1133,6 +1163,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴールデン (Golden) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴールデン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1202,9 +1262,9 @@
       "contentHash": "2b7252ec812542d1b036b35c8719177e7a81629efa43bcd3e5ca6cd3c569e266",
       "byteLength": 64742,
       "rawPath": "netkeiba/horses/2022/2022101861/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:14:20.556Z"
+  "updatedAt": "2026-08-25T00:12:43.980Z"
 }

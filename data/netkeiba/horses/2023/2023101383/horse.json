@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101383",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101383/",
-  "profile": null,
+  "profile": {
+    "name": "ガンダ",
+    "birthDate": "2023-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "268008",
+      "name": "小田吉男"
+    },
+    "breeder": {
+      "id": "213321",
+      "name": "藤本ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2017100040",
+      "name": "フィーユレヴーズ"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -1628,6 +1658,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガンダ (Ganda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガンダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガンダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1697,9 +1757,9 @@
       "contentHash": "d36adfd401e145174e7d5aa32cdbebef388317a9d53c8046d17abbdc2deda27b",
       "byteLength": 67020,
       "rawPath": "netkeiba/horses/2023/2023101383/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:37:02.916Z"
+  "updatedAt": "2026-08-25T21:41:37.394Z"
 }

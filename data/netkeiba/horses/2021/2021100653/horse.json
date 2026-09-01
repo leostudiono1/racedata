@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100653",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100653/",
-  "profile": null,
+  "profile": {
+    "name": "アガシ",
+    "birthDate": "2021-04-09",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "389803",
+      "name": "ケイズジャパン"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2013102854",
+      "name": "メリートーン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2939,6 +2969,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アガシ (Agassi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アガシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アガシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3008,9 +3068,9 @@
       "contentHash": "94eb81208106e203fd2091ed69f97da5aa9182cc241aa7c27aab13f11b65c711",
       "byteLength": 66833,
       "rawPath": "netkeiba/horses/2021/2021100653/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:24:58.384Z"
+  "updatedAt": "2026-08-31T18:28:29.989Z"
 }

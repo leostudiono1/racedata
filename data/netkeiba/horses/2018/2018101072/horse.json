@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101072",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101072/",
-  "profile": null,
+  "profile": {
+    "name": "キュートラン",
+    "birthDate": "2018-04-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "535006",
+      "name": "岡村善行"
+    },
+    "breeder": {
+      "id": "413329",
+      "name": "前野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ディスクリートキャット Discreet Cat(米)"
+    },
+    "dam": {
+      "id": "2009106516",
+      "name": "ビーキュート"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3146,6 +3176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キュートラン (Cute Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュートラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュートラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3215,9 +3275,9 @@
       "contentHash": "262b07a1f326d98687c4543c4e46f3fb3da377ff8b37b724bfddad257f86bd11",
       "byteLength": 67211,
       "rawPath": "netkeiba/horses/2018/2018101072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:13:17.923Z"
+  "updatedAt": "2026-08-25T21:17:53.019Z"
 }

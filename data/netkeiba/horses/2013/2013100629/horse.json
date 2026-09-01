@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100629",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100629/",
-  "profile": null,
+  "profile": {
+    "name": "リンクス",
+    "birthDate": "2013-02-24",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01164",
+      "name": "安田翔伍"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ベライシム Beraysim(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lion Cavern"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -2390,6 +2420,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リンクス (Lynx) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リンクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リンクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2459,9 +2519,9 @@
       "contentHash": "e26c5d8c337fedaba66ef6849ea877d467110e22c85596a9033227ae8aabcc70",
       "byteLength": 66750,
       "rawPath": "netkeiba/horses/2013/2013100629/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:02:55.963Z"
+  "updatedAt": "2026-08-30T18:12:24.793Z"
 }

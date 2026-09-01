@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100930",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100930/",
-  "profile": null,
+  "profile": {
+    "name": "ライオットガール",
+    "birthDate": "2020-03-29",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "132800",
+      "name": "ヒダカファーム"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2008103221",
+      "name": "マリアビスティー"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3516,6 +3546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライオットガール (Riot Grrrl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライオットガール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライオットガール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3585,9 +3645,9 @@
       "contentHash": "5f760d4c1bbf92d6df225f9f20967a64eb4a061523c359fb6bb11ba39a39db28",
       "byteLength": 67121,
       "rawPath": "netkeiba/horses/2020/2020100930/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:32:55.682Z"
+  "updatedAt": "2026-08-30T18:42:24.616Z"
 }

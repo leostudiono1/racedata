@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100339",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100339/",
-  "profile": null,
+  "profile": {
+    "name": "パイグリン",
+    "birthDate": "2012-03-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "677009",
+      "name": "西森鶴"
+    },
+    "breeder": {
+      "id": "800338",
+      "name": "隆栄牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "1998105075",
+      "name": "パイアン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -4552,6 +4582,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パイグリン (Pai Grin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パイグリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パイグリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4621,9 +4681,9 @@
       "contentHash": "9436de8e7cfcd099c37225d03f6b4ef07c5263ff8bfd5daa543605e285b8c497",
       "byteLength": 64425,
       "rawPath": "netkeiba/horses/2012/2012100339/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:46:06.563Z"
+  "updatedAt": "2026-08-31T17:49:38.308Z"
 }

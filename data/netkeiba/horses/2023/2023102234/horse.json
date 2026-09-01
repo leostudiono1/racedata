@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102234",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102234/",
-  "profile": null,
+  "profile": {
+    "name": "ロマンス",
+    "birthDate": "2023-04-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01192",
+      "name": "上原佑紀"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ベットーレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Blu Air Force"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1113,6 +1143,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロマンス (Romance) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロマンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロマンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1182,9 +1242,9 @@
       "contentHash": "0801779b925d612e1b655bce026b55ef921d8f226bccafdc6b2eec3b1f9e4be9",
       "byteLength": 65746,
       "rawPath": "netkeiba/horses/2023/2023102234/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:37:27.282Z"
+  "updatedAt": "2026-08-25T21:42:01.917Z"
 }

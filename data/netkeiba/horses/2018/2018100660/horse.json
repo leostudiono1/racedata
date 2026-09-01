@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100660",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100660/",
-  "profile": null,
+  "profile": {
+    "name": "キームベイ",
+    "birthDate": "2018-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01051",
+      "name": "岩戸孝樹"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コージーベイ Kosi Bay(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1011,6 +1041,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キームベイ (Keem Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キームベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キームベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1080,9 +1140,9 @@
       "contentHash": "25879424653dab1f248d1fadaaf9d54deef6ef1a2ef2ef31b4ded2cdef87deb2",
       "byteLength": 64365,
       "rawPath": "netkeiba/horses/2018/2018100660/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:17:28.380Z"
+  "updatedAt": "2026-08-28T19:28:06.752Z"
 }

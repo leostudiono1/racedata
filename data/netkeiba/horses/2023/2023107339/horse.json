@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107339",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107339/",
-  "profile": null,
+  "profile": {
+    "name": "マクタン",
+    "birthDate": "2023-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "x0af2d",
+      "name": "梅ケ枝容晃"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レッドティー Red Tea(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sakhee (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1689,6 +1719,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マクタン (Mactan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1758,9 +1818,9 @@
       "contentHash": "107cd1b226c4c6032b74a3d693ee53b124721bf35c9faac9e4e20b1a9b0701c1",
       "byteLength": 64885,
       "rawPath": "netkeiba/horses/2023/2023107339/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:48:47.954Z"
+  "updatedAt": "2026-08-30T18:58:16.874Z"
 }

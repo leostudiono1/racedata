@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103062",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103062/",
-  "profile": null,
+  "profile": {
+    "name": "シーレッド",
+    "birthDate": "2012-03-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05609",
+      "name": "小久保智"
+    },
+    "owner": {
+      "id": "798033",
+      "name": "山口裕介"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    },
+    "dam": {
+      "id": "1996102244",
+      "name": "ナリタジュエリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108676",
@@ -1805,6 +1835,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーレッド (See Red) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーレッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーレッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1874,9 +1934,9 @@
       "contentHash": "ce8b9119abdb686252b9d0bfffd12310f98c20d543a84d6665b8f8913c8c5027",
       "byteLength": 64606,
       "rawPath": "netkeiba/horses/2012/2012103062/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T19:59:39.955Z"
+  "updatedAt": "2026-08-30T18:09:09.065Z"
 }

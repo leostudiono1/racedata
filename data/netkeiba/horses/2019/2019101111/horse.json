@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101111",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101111/",
-  "profile": null,
+  "profile": {
+    "name": "ノアアーサー",
+    "birthDate": "2019-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川野勇馬"
+    },
+    "owner": {
+      "id": "861002",
+      "name": "佐山公男"
+    },
+    "breeder": {
+      "id": "803365",
+      "name": "協栄組合"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2004101784",
+      "name": "フレノカトリーヌ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1591,6 +1621,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノアアーサー (Noa Arthur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノアアーサー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノアアーサー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1660,9 +1720,9 @@
       "contentHash": "8284edfda8ba3bbf79a4c50dae3f5d6927ab7dbc880903e96ef421a784d1207a",
       "byteLength": 65208,
       "rawPath": "netkeiba/horses/2019/2019101111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:49:39.037Z"
+  "updatedAt": "2026-08-27T19:57:15.653Z"
 }

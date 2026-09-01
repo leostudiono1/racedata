@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105613",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105613/",
-  "profile": null,
+  "profile": {
+    "name": "リアアメリア",
+    "birthDate": "2017-02-21",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リアアントニア Ria Antonia(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rockport Harbor"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2585,6 +2615,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアアメリア (Ria Amelia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアアメリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアアメリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2654,9 +2714,9 @@
       "contentHash": "37ca64e397fc228dc13a8d63cb0fbdf35f152e283b599955012547fc9ea29889",
       "byteLength": 67593,
       "rawPath": "netkeiba/horses/2017/2017105613/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:11:53.914Z"
+  "updatedAt": "2026-08-25T21:16:28.513Z"
 }

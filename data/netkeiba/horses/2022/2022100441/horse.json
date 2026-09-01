@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100441",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100441/",
-  "profile": null,
+  "profile": {
+    "name": "アルビス",
+    "birthDate": "2022-04-21",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ケ崎一"
+    },
+    "owner": {
+      "id": "133031",
+      "name": "山口謙太郎"
+    },
+    "breeder": {
+      "id": "010056",
+      "name": "村下明博"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2013103689",
+      "name": "メイショウボーテ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -3441,6 +3471,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルビス (Albis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルビス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルビス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3510,9 +3570,9 @@
       "contentHash": "3a97092eabdbdbb23e479f366c0c19cd30e24b622a20be0b9c8a28fef9fabd87",
       "byteLength": 65934,
       "rawPath": "netkeiba/horses/2022/2022100441/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:58:47.607Z"
+  "updatedAt": "2026-08-29T19:09:47.463Z"
 }

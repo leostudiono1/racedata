@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101495",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101495/",
-  "profile": null,
+  "profile": {
+    "name": "ロマンレガシ",
+    "birthDate": "2015-03-11",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "313033",
+      "name": "菅實"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005102216",
+      "name": "キャプテントゥーレ"
+    },
+    "dam": {
+      "id": "2003110187",
+      "name": "スイートローレライ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rahy"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102216",
@@ -1526,6 +1556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロマンレガシ (Roman Legacy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロマンレガシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロマンレガシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1595,9 +1655,9 @@
       "contentHash": "45c2dbfcf44f24bdab4694f18619077c1d763fa0b86335edfa800689b094a826",
       "byteLength": 64452,
       "rawPath": "netkeiba/horses/2015/2015101495/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:04:55.215Z"
+  "updatedAt": "2026-08-28T19:15:34.093Z"
 }

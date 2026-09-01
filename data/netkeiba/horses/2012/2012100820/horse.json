@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100820",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100820/",
-  "profile": null,
+  "profile": {
+    "name": "ウインハインズ",
+    "birthDate": "2012-02-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00261",
+      "name": "中村均"
+    },
+    "owner": {
+      "id": "494800",
+      "name": "ウイン"
+    },
+    "breeder": {
+      "id": "600531",
+      "name": "三村卓也"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    },
+    "dam": {
+      "id": "1998104177",
+      "name": "タップダンス"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100877",
@@ -3582,6 +3612,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウインハインズ (Win Hines) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインハインズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインハインズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3651,9 +3711,9 @@
       "contentHash": "12974a49bdd3341f08e08741aa63f1928c00157f3eb175b95c10a0ba3aaaaae2",
       "byteLength": 65481,
       "rawPath": "netkeiba/horses/2012/2012100820/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:18:54.498Z"
+  "updatedAt": "2026-08-27T19:26:30.923Z"
 }

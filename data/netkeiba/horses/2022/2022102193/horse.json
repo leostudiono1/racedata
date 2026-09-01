@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102193",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102193/",
-  "profile": null,
+  "profile": {
+    "name": "テーオーバークラ",
+    "birthDate": "2022-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "304008",
+      "name": "小笹公也"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015101621",
+      "name": "タワーオブロンドン"
+    },
+    "dam": {
+      "id": "2017106668",
+      "name": "コパノプリンセス"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2015101621",
@@ -1021,6 +1051,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テーオーバークラ (T O Barkla) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオーバークラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テーオーバークラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1090,9 +1150,9 @@
       "contentHash": "6c138bacb719b54d517bd97c30495e3c26547e6735874c33955895c311b5fcb3",
       "byteLength": 64563,
       "rawPath": "netkeiba/horses/2022/2022102193/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T22:04:05.614Z"
+  "updatedAt": "2026-08-27T20:11:40.459Z"
 }

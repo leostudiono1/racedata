@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103794",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103794/",
-  "profile": null,
+  "profile": {
+    "name": "エムテイオー",
+    "birthDate": "2017-02-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05420",
+      "name": "東美義"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2004110024",
+      "name": "サーキットレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -3747,6 +3777,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エムテイオー (M Teio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エムテイオー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エムテイオー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3816,9 +3876,9 @@
       "contentHash": "0549f6a6c2fb11c12f5905989f3964398a41edd36b7c866361f3f50200cc68cb",
       "byteLength": 65060,
       "rawPath": "netkeiba/horses/2017/2017103794/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:22:28.888Z"
+  "updatedAt": "2026-08-30T18:31:57.788Z"
 }

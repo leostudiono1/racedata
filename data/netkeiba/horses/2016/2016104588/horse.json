@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104588",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104588/",
-  "profile": null,
+  "profile": {
+    "name": "エトワール",
+    "birthDate": "2016-02-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2009106140",
+      "name": "ファシネイション"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2665,6 +2695,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エトワール (Etoile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エトワール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エトワール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2734,9 +2794,9 @@
       "contentHash": "2cfaa3c901e29387e55caed3523b4b54e5d4e60e7b43f2f595a115fcac0005fc",
       "byteLength": 67021,
       "rawPath": "netkeiba/horses/2016/2016104588/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:04:50.595Z"
+  "updatedAt": "2026-08-31T18:08:22.556Z"
 }

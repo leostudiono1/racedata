@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104828",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104828/",
-  "profile": null,
+  "profile": {
+    "name": "ハイレベルバイオ",
+    "birthDate": "2012-02-21",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "930800",
+      "name": "バイオ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ボシンシェ Bochinche(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -2310,6 +2340,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイレベルバイオ (High Level Bio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイレベルバイオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイレベルバイオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2379,9 +2439,9 @@
       "contentHash": "1c09f736b24b03ca75ce414bf86ec844dd4f7d6c2b4b1b0870a94e87eff53339",
       "byteLength": 65011,
       "rawPath": "netkeiba/horses/2012/2012104828/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:48:40.696Z"
+  "updatedAt": "2026-08-31T17:52:12.241Z"
 }

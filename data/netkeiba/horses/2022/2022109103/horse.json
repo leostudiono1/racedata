@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022109103",
   "sourceUrl": "https://db.netkeiba.com/horse/2022109103/",
-  "profile": null,
+  "profile": {
+    "name": "カシノシンボル",
+    "birthDate": "2022-03-19",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05360",
+      "name": "濱田一夫"
+    },
+    "owner": {
+      "id": "514009",
+      "name": "柏木務"
+    },
+    "breeder": {
+      "id": "461570",
+      "name": "イッサステーブル"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2010110058",
+      "name": "エーシントップ"
+    },
+    "dam": {
+      "id": "2011110100",
+      "name": "エイシンボルト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zensational"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110058",
@@ -3575,6 +3605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシノシンボル (Kashino Symbol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノシンボル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシノシンボル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3644,9 +3704,9 @@
       "contentHash": "14c920f4f4f844b581ac428aba794ad07da515cb4841b219ae8413d8a01b98a5",
       "byteLength": 66993,
       "rawPath": "netkeiba/horses/2022/2022109103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:33:47.356Z"
+  "updatedAt": "2026-08-31T18:37:18.744Z"
 }

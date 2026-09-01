@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013109009",
   "sourceUrl": "https://db.netkeiba.com/horse/2013109009/",
-  "profile": null,
+  "profile": {
+    "name": "キョウビジン",
+    "birthDate": "2013-04-06",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "633153",
+      "name": "早坂牧場"
+    },
+    "birthplace": "宮城県",
+    "sire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    },
+    "dam": {
+      "id": "2002104833",
+      "name": "ヒダカビジン"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4358,6 +4388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キョウビジン (Kyo Bijin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウビジン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウビジン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4427,9 +4487,9 @@
       "contentHash": "82fefb7f966972972abec90ac0228ddfd65b18865f525cd3aa9e5b086b141ae5",
       "byteLength": 65536,
       "rawPath": "netkeiba/horses/2013/2013109009/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:24:11.509Z"
+  "updatedAt": "2026-08-29T18:35:11.409Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101855",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101855/",
-  "profile": null,
+  "profile": {
+    "name": "サンマルハート",
+    "birthDate": "2019-03-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "580007",
+      "name": "相馬勇"
+    },
+    "breeder": {
+      "id": "901358",
+      "name": "田端牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "2010103719",
+      "name": "ウンベラータ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -2333,6 +2363,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンマルハート (Sammaru Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンマルハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンマルハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2402,9 +2462,9 @@
       "contentHash": "4248e1af5af56252c870edad7c625d7c7bf945d263332b2ea9ffe901006aa9c6",
       "byteLength": 65690,
       "rawPath": "netkeiba/horses/2019/2019101855/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:46:43.269Z"
+  "updatedAt": "2026-08-29T18:57:43.155Z"
 }

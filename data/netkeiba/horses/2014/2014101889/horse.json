@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101889",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101889/",
-  "profile": null,
+  "profile": {
+    "name": "アルミューテン",
+    "birthDate": "2014-05-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "910006",
+      "name": "伊達敏明"
+    },
+    "breeder": {
+      "id": "935496",
+      "name": "サンシャイン牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2008110116",
+      "name": "デラセーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Maria's Mon"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -4853,6 +4883,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルミューテン (Almuten) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルミューテン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルミューテン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4922,9 +4982,9 @@
       "contentHash": "1040d0e7b663ee8c34762ed5ddc02d229dd91bb3c2e90fdab91a02bcd29c7f55",
       "byteLength": 66951,
       "rawPath": "netkeiba/horses/2014/2014101889/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:57:00.902Z"
+  "updatedAt": "2026-08-25T21:01:35.829Z"
 }

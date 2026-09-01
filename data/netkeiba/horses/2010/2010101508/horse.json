@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101508",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101508/",
-  "profile": null,
+  "profile": {
+    "name": "カレイファンタジア",
+    "birthDate": "2010-05-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00420",
+      "name": "宗像義忠"
+    },
+    "owner": {
+      "id": "013700",
+      "name": "ディアレスト"
+    },
+    "breeder": {
+      "id": "204025",
+      "name": "中村和夫"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    },
+    "dam": {
+      "id": "1992109598",
+      "name": "プリンセスリーベ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノーザンテースト Northern Taste(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1997101264",
@@ -2091,6 +2121,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カレイファンタジア (Karei Fantasia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カレイファンタジア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カレイファンタジア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2160,9 +2220,9 @@
       "contentHash": "c198dbada5b73115e8346b9ef3fc0fcf80173493949c36fdf6ed58524782b986",
       "byteLength": 66602,
       "rawPath": "netkeiba/horses/2010/2010101508/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:09:16.806Z"
+  "updatedAt": "2026-08-26T20:14:27.197Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100636",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100636/",
-  "profile": null,
+  "profile": {
+    "name": "リメイク",
+    "birthDate": "2019-04-18",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01172",
+      "name": "新谷功一"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013110045",
+      "name": "ラニ"
+    },
+    "dam": {
+      "id": "2007105619",
+      "name": "サリエル"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013110045",
@@ -3280,6 +3310,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リメイク (Remake) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リメイク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リメイク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3349,9 +3409,9 @@
       "contentHash": "8be99c8a4f6b39211d5e0d8acbb3e86655f5aba1dadcfb56399296c8bcf37374",
       "byteLength": 66764,
       "rawPath": "netkeiba/horses/2019/2019100636/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:45:57.373Z"
+  "updatedAt": "2026-08-29T18:56:57.664Z"
 }

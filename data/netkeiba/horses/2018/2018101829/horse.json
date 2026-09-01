@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101829",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101829/",
-  "profile": null,
+  "profile": {
+    "name": "タマモコレクト",
+    "birthDate": "2018-04-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01182",
+      "name": "辻哲英"
+    },
+    "owner": {
+      "id": "515800",
+      "name": "タマモ"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2006104566",
+      "name": "チャームアンサー"
+    },
+    "damsire": {
+      "id": "1987105368",
+      "name": "メジロライアン"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1320,6 +1350,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タマモコレクト (Tamamo Correct) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモコレクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモコレクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1389,9 +1449,9 @@
       "contentHash": "cab48d8a5963e52b4d2f82661dcd36515b4a145bce726ca0325763ae4ff6d56f",
       "byteLength": 65267,
       "rawPath": "netkeiba/horses/2018/2018101829/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:25:41.478Z"
+  "updatedAt": "2026-08-30T18:35:10.474Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100481",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100481/",
-  "profile": null,
+  "profile": {
+    "name": "キーフィールド",
+    "birthDate": "2019-02-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "338008",
+      "name": "北前孔一郎"
+    },
+    "breeder": {
+      "id": "800311",
+      "name": "中本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2002102567",
+      "name": "キーツヨイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "タバスコキャット Tabasco Cat(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1784,6 +1814,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーフィールド (Key Field) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーフィールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーフィールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1853,9 +1913,9 @@
       "contentHash": "b65d7a2d634ad844ae4675af4e784686f4ad34997c06d8942cab7d9620cc9ae9",
       "byteLength": 65287,
       "rawPath": "netkeiba/horses/2019/2019100481/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:15:34.695Z"
+  "updatedAt": "2026-08-31T18:19:06.400Z"
 }

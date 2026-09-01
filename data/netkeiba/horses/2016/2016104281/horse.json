@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104281",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104281/",
-  "profile": null,
+  "profile": {
+    "name": "テメノス",
+    "birthDate": "2016-05-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セレスティアルキャット Celestial Cat(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tale of the Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1706,6 +1736,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テメノス (Temenos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テメノス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テメノス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1775,9 +1835,9 @@
       "contentHash": "985c03dd06bb78ea8af4373d329b54c639a000ec34bc973d69f867981359a042",
       "byteLength": 67240,
       "rawPath": "netkeiba/horses/2016/2016104281/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:11:24.230Z"
+  "updatedAt": "2026-08-28T19:22:02.655Z"
 }

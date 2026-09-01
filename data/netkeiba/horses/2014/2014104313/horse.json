@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104313",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104313/",
-  "profile": null,
+  "profile": {
+    "name": "ルア",
+    "birthDate": "2014-04-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05337",
+      "name": "内野健二"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    },
+    "dam": {
+      "id": "2009105711",
+      "name": "レットイットスノー"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110025",
@@ -6538,6 +6568,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルア (Lua) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6607,9 +6667,9 @@
       "contentHash": "7c802c24839de1881d284e61c3ac28a8aff1bf6b828102e6ecd43efd8c6b987b",
       "byteLength": 66725,
       "rawPath": "netkeiba/horses/2014/2014104313/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:09:10.925Z"
+  "updatedAt": "2026-08-30T18:18:39.430Z"
 }

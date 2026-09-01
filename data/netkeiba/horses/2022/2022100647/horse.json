@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100647",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100647/",
-  "profile": null,
+  "profile": {
+    "name": "テンペスタリー",
+    "birthDate": "2022-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "669033",
+      "name": "中村智幸"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Authentic (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フライングティパット Flying Tipat(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1897,6 +1927,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンペスタリー (Tempestarii) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンペスタリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンペスタリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1966,9 +2026,9 @@
       "contentHash": "870f4258beb7542991d5d3656884f0566065b1b444e6d90cbeb7a6f051f48a38",
       "byteLength": 64956,
       "rawPath": "netkeiba/horses/2022/2022100647/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:13:38.490Z"
+  "updatedAt": "2026-08-25T00:12:01.979Z"
 }

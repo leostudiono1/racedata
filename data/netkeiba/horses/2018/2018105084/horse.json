@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105084",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105084/",
-  "profile": null,
+  "profile": {
+    "name": "ファジェス",
+    "birthDate": "2018-03-26",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00438",
+      "name": "安田隆行"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2006103316",
+      "name": "ジュモー"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3311,6 +3341,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファジェス (Falles) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファジェス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファジェス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3380,9 +3440,9 @@
       "contentHash": "380106f473aad366699e6bf09b4471c4d8fe4f236c62a22a1da0ce4d3992afe6",
       "byteLength": 67288,
       "rawPath": "netkeiba/horses/2018/2018105084/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:19:48.124Z"
+  "updatedAt": "2026-08-28T19:30:26.883Z"
 }

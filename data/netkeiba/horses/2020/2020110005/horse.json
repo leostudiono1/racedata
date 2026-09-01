@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110005",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110005/",
-  "profile": null,
+  "profile": {
+    "name": "ソフィアエール",
+    "birthDate": "2020-04-04",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "300803",
+      "name": "ＫＲジャパン"
+    },
+    "breeder": {
+      "id": "360732",
+      "name": "Healthy Wood Co. Ltd"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Kingman (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シヴォリエール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1573,6 +1603,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソフィアエール (Sophia Ale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソフィアエール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソフィアエール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1642,9 +1702,9 @@
       "contentHash": "eca141506357d57a6fe00ea8012b0d8df8447ad89e7db14331b410adc2bcc66d",
       "byteLength": 66974,
       "rawPath": "netkeiba/horses/2020/2020110005/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:29:50.204Z"
+  "updatedAt": "2026-08-28T19:40:29.076Z"
 }

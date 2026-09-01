@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105958",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105958/",
-  "profile": null,
+  "profile": {
+    "name": "グルノーブル",
+    "birthDate": "2023-03-07",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05697",
+      "name": "後藤正義"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラデビーナ La Divina(秘)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Southdale"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1991,6 +2021,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グルノーブル (Grenoble) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グルノーブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グルノーブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2060,9 +2120,9 @@
       "contentHash": "d330193f0dc8564102aef5a8a7cbd4083e3170c29342150991ceee936a05edba",
       "byteLength": 66831,
       "rawPath": "netkeiba/horses/2023/2023105958/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:37:59.130Z"
+  "updatedAt": "2026-08-31T18:41:30.820Z"
 }

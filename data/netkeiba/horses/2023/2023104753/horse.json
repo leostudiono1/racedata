@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104753",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104753/",
-  "profile": null,
+  "profile": {
+    "name": "テンムス",
+    "birthDate": "2023-04-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "830033",
+      "name": "巴山尊文"
+    },
+    "breeder": {
+      "id": "400340",
+      "name": "山岡牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2010106169",
+      "name": "パリュール"
+    },
+    "damsire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1263,6 +1293,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンムス (Temmusu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンムス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンムス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1332,9 +1392,9 @@
       "contentHash": "02bac232a71bb980e3e874d40394fde257ec4d8776d05223626a7bb2a47f31d4",
       "byteLength": 65289,
       "rawPath": "netkeiba/horses/2023/2023104753/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:41:27.382Z"
+  "updatedAt": "2026-08-28T19:52:05.923Z"
 }

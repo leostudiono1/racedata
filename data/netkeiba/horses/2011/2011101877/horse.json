@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101877",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101877/",
-  "profile": null,
+  "profile": {
+    "name": "ラブコール",
+    "birthDate": "2011-03-31",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00395",
+      "name": "長浜博之"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "013079",
+      "name": "神垣道弘"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "チチカステナンゴ Chichicastenango(仏)"
+    },
+    "dam": {
+      "id": "1997103381",
+      "name": "レッドレターデイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4654,6 +4684,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラブコール (Love Call) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラブコール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラブコール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4723,9 +4783,9 @@
       "contentHash": "081a9740ca774e598d942ea6c7ec11940851399aff32e513ed453461e2511cd8",
       "byteLength": 65591,
       "rawPath": "netkeiba/horses/2011/2011101877/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:10:13.034Z"
+  "updatedAt": "2026-08-26T20:15:23.269Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101217",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101217/",
-  "profile": null,
+  "profile": {
+    "name": "サリー",
+    "birthDate": "2023-03-15",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05546",
+      "name": "高岩孝敏"
+    },
+    "owner": {
+      "id": "x09067",
+      "name": "遠藤喜和"
+    },
+    "breeder": {
+      "id": "513395",
+      "name": "道見牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010103783",
+      "name": "ロゴタイプ"
+    },
+    "dam": {
+      "id": "2010101496",
+      "name": "レディー"
+    },
+    "damsire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010103783",
@@ -2474,6 +2504,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サリー (Sally) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2543,9 +2603,9 @@
       "contentHash": "092bb45fdc2f204c1116f89ae01e0fd7908fd3fffded1bba0538e1b65eff06a3",
       "byteLength": 65691,
       "rawPath": "netkeiba/horses/2023/2023101217/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:34:25.640Z"
+  "updatedAt": "2026-08-31T18:37:57.134Z"
 }

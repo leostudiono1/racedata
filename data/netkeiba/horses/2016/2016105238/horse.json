@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105238",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105238/",
-  "profile": null,
+  "profile": {
+    "name": "ピサ",
+    "birthDate": "2016-02-15",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "695033",
+      "name": "永山勝敏"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2001103120",
+      "name": "マルカフローリアン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1258,6 +1288,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピサ (Pisa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1327,9 +1387,9 @@
       "contentHash": "edb4cae062113f6a2d99aab04592d8760b8b1f4162b7c4de4d5affa480801229",
       "byteLength": 66094,
       "rawPath": "netkeiba/horses/2016/2016105238/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:31:23.876Z"
+  "updatedAt": "2026-08-26T20:36:33.780Z"
 }

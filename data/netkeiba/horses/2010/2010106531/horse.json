@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010106531",
   "sourceUrl": "https://db.netkeiba.com/horse/2010106531/",
-  "profile": null,
+  "profile": {
+    "name": "モシモシ",
+    "birthDate": "2010-05-08",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00359",
+      "name": "高橋祥泰"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2000107503",
+      "name": "ワナ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -5648,6 +5678,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モシモシ (Moshimoshi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モシモシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モシモシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5717,9 +5777,9 @@
       "contentHash": "3c1260b56630a531b2a1ace12417d3e8cc33dbf9554db4054abdb9d5056b4935",
       "byteLength": 67058,
       "rawPath": "netkeiba/horses/2010/2010106531/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:24:13.145Z"
+  "updatedAt": "2026-08-24T23:22:36.498Z"
 }

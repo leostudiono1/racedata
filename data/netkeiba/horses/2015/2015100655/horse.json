@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100655",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100655/",
-  "profile": null,
+  "profile": {
+    "name": "ショウナンバリウス",
+    "birthDate": "2015-02-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "331002",
+      "name": "国本哲秀"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2000101506",
+      "name": "フェートデュヴァン"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -2659,6 +2689,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショウナンバリウス (Shonan Various) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウナンバリウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウナンバリウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2728,9 +2788,9 @@
       "contentHash": "25a15aa6e1b410281fe04ed4fd90bd4b2df347252414d149945d92cd4244cf7f",
       "byteLength": 67071,
       "rawPath": "netkeiba/horses/2015/2015100655/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:11:30.649Z"
+  "updatedAt": "2026-08-30T18:20:59.881Z"
 }

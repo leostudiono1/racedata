@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104984",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104984/",
-  "profile": null,
+  "profile": {
+    "name": "ハツセ",
+    "birthDate": "2016-04-20",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "430033",
+      "name": "林弘之"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2007102853",
+      "name": "カザリムスビ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "トワイニング Twining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2045,6 +2075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハツセ (Hatsuse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハツセ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハツセ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2114,9 +2174,9 @@
       "contentHash": "7890516a41b08ff0b8c024268af6840af08ede89a084c00ea33427e8e1b8e5ff",
       "byteLength": 66688,
       "rawPath": "netkeiba/horses/2016/2016104984/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:38:16.387Z"
+  "updatedAt": "2026-08-27T19:45:53.089Z"
 }

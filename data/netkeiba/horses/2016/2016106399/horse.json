@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106399",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106399/",
-  "profile": null,
+  "profile": {
+    "name": "アールジオール",
+    "birthDate": "2016-02-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "427030",
+      "name": "前原敏行"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2001103376",
+      "name": "キングスミール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Theatrical"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2581,6 +2611,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アールジオール (R the All) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アールジオール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アールジオール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2650,9 +2710,9 @@
       "contentHash": "9d50ed8e4c93833642b75efe6ae055b567c1ec6df4355f5fc14b9523f7e8b30b",
       "byteLength": 65895,
       "rawPath": "netkeiba/horses/2016/2016106399/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:06:14.429Z"
+  "updatedAt": "2026-08-31T18:09:46.748Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100071",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100071/",
-  "profile": null,
+  "profile": {
+    "name": "バージェス",
+    "birthDate": "2011-06-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "036006",
+      "name": "加藤徹"
+    },
+    "breeder": {
+      "id": "910543",
+      "name": "アイズスタッド"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000190010",
+      "name": "アルカセット Alkaased(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カナディアンアプルーバル Canadian Approval(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "With Approval"
+    }
+  },
   "pedigree": [
     {
       "id": "2000190010",
@@ -1309,6 +1339,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バージェス (Burgess) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バージェス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バージェス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1378,9 +1438,9 @@
       "contentHash": "0b4b28f58566c496873988d1cf09c80c88800c03f796e788e74ed95e2e9b8c3e",
       "byteLength": 64327,
       "rawPath": "netkeiba/horses/2011/2011100071/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:50:51.351Z"
+  "updatedAt": "2026-08-28T19:01:30.304Z"
 }

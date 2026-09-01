@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101626",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101626/",
-  "profile": null,
+  "profile": {
+    "name": "コモ",
+    "birthDate": "2017-02-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "695033",
+      "name": "永山勝敏"
+    },
+    "breeder": {
+      "id": "410313",
+      "name": "つつみ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "1998100546",
+      "name": "レスティヴコマンダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1398,6 +1428,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コモ (Como) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コモ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コモ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1467,9 +1527,9 @@
       "contentHash": "5149a27f6135692f261149579dd0249939911e6c5f2a72241cb99be2a163da4e",
       "byteLength": 65261,
       "rawPath": "netkeiba/horses/2017/2017101626/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:14:08.368Z"
+  "updatedAt": "2026-08-28T19:24:47.180Z"
 }

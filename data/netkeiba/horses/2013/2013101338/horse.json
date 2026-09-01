@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101338",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101338/",
-  "profile": null,
+  "profile": {
+    "name": "アウズ",
+    "birthDate": "2013-04-11",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05217",
+      "name": "佐々木由"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "310335",
+      "name": "カミイスタット"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2005102169",
+      "name": "ヒカルアンクレット"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -8704,6 +8734,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウズ (Audr) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8773,9 +8833,9 @@
       "contentHash": "20a64fa600d4499c40e028b80ebea9fd4086a9f87f405e8332f7ce70b8788cb0",
       "byteLength": 66336,
       "rawPath": "netkeiba/horses/2013/2013101338/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:52:34.852Z"
+  "updatedAt": "2026-08-25T20:57:09.543Z"
 }

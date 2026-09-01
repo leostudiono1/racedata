@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100355",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100355/",
-  "profile": null,
+  "profile": {
+    "name": "オニマル",
+    "birthDate": "2022-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05071",
+      "name": "森山英雄"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2017110092",
+      "name": "ゾファピー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zoffany"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -3476,6 +3506,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オニマル (Onimaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オニマル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オニマル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3545,9 +3605,9 @@
       "contentHash": "f90ec4c1ae079d9baa701bf9d457810264ecfc8fa197216aa7a7c7cb56b8cd9a",
       "byteLength": 66703,
       "rawPath": "netkeiba/horses/2022/2022100355/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:41:12.883Z"
+  "updatedAt": "2026-08-30T18:50:41.652Z"
 }

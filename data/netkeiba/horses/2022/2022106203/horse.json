@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106203",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106203/",
-  "profile": null,
+  "profile": {
+    "name": "カシオペア",
+    "birthDate": "2022-03-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01192",
+      "name": "上原佑紀"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2005102180",
+      "name": "リトルアマポーラ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1764,6 +1794,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシオペア (Cassiopeia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシオペア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシオペア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1833,9 +1893,9 @@
       "contentHash": "2bebafa9ef800987e9d69c21d9102f5d2d6e058049d14e43a56f795d5bc36d3f",
       "byteLength": 66763,
       "rawPath": "netkeiba/horses/2022/2022106203/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:59:17.512Z"
+  "updatedAt": "2026-08-26T21:04:27.697Z"
 }

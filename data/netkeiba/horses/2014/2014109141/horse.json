@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014109141",
   "sourceUrl": "https://db.netkeiba.com/horse/2014109141/",
-  "profile": null,
+  "profile": {
+    "name": "サンキング",
+    "birthDate": "2014-05-04",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00428",
+      "name": "石毛善彦"
+    },
+    "owner": {
+      "id": "680030",
+      "name": "竹原孝昭"
+    },
+    "breeder": {
+      "id": "511570",
+      "name": "森本康文"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2007100727",
+      "name": "ヒルノダムール"
+    },
+    "dam": {
+      "id": "1997102647",
+      "name": "ムードフォーラブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Darshaan"
+    }
+  },
   "pedigree": [
     {
       "id": "2007100727",
@@ -3152,6 +3182,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンキング (Sun King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3221,9 +3281,9 @@
       "contentHash": "047c343bcc48ac41ba687f5ee4a7da9cf81c9a88b5cb3f8f83d5335a220d36a7",
       "byteLength": 64290,
       "rawPath": "netkeiba/horses/2014/2014109141/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:59:56.550Z"
+  "updatedAt": "2026-08-25T21:04:30.661Z"
 }

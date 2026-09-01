@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100218",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100218/",
-  "profile": null,
+  "profile": {
+    "name": "ヤマメ",
+    "birthDate": "2017-04-15",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "302031",
+      "name": "越村哲男"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2004105424",
+      "name": "サザンジュエリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3324,6 +3354,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヤマメ (Yamame) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤマメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤマメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3393,9 +3453,9 @@
       "contentHash": "6f606cf0b027efbba12b13a8a3b1efd4dde055cb0ad32c75942dd4c3816cf06d",
       "byteLength": 66792,
       "rawPath": "netkeiba/horses/2017/2017100218/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:13:12.372Z"
+  "updatedAt": "2026-08-28T19:23:51.705Z"
 }

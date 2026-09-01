@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110002",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110002/",
-  "profile": null,
+  "profile": {
+    "name": "アルハイルフォート",
+    "birthDate": "2022-04-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "282031",
+      "name": "中水英紀"
+    },
+    "breeder": {
+      "id": "130732",
+      "name": "Katsumi Yoshida"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ワディハッタ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cape Cross"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2725,6 +2755,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルハイルフォート (Al Hayl Fort) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルハイルフォート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルハイルフォート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2794,9 +2854,9 @@
       "contentHash": "4c66c635d14a9fd03a28823a201f235faa52898f027f966b95deffbb0c7e4bad",
       "byteLength": 66970,
       "rawPath": "netkeiba/horses/2022/2022110002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T22:06:22.198Z"
+  "updatedAt": "2026-08-27T20:13:57.730Z"
 }

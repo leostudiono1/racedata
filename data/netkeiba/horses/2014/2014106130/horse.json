@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106130",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106130/",
-  "profile": null,
+  "profile": {
+    "name": "バレーロ",
+    "birthDate": "2014-04-06",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05392",
+      "name": "池田孝"
+    },
+    "owner": {
+      "id": "x0a34e",
+      "name": "山下晃徳"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2000110191",
+      "name": "ベルベットローブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -4945,6 +4975,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バレーロ (Valero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バレーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バレーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5014,9 +5074,9 @@
       "contentHash": "585fc16bd5f3832490425a9f71f1e8d71d7a0665e7ed91a39482426fa87e908e",
       "byteLength": 66688,
       "rawPath": "netkeiba/horses/2014/2014106130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:40:05.334Z"
+  "updatedAt": "2026-08-24T23:38:28.737Z"
 }

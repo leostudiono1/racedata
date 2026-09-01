@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105943",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105943/",
-  "profile": null,
+  "profile": {
+    "name": "オトニエル",
+    "birthDate": "2019-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01146",
+      "name": "奥村豊"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "240543",
+      "name": "木村秀則"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディバウンティフル Lady Bountiful(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Spectrum"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -1099,6 +1129,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オトニエル (Othneeale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オトニエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オトニエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1168,9 +1228,9 @@
       "contentHash": "207eaee784a4a1abb1209ff1fc51646337d5507c157d83a9a9df619fd2dc8432",
       "byteLength": 66564,
       "rawPath": "netkeiba/horses/2019/2019105943/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:45:20.702Z"
+  "updatedAt": "2026-08-26T20:50:30.494Z"
 }

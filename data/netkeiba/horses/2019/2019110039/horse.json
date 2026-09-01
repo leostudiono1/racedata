@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110039",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110039/",
-  "profile": null,
+  "profile": {
+    "name": "アウトパフォーム",
+    "birthDate": "2019-03-11",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05780",
+      "name": "宇野木博"
+    },
+    "owner": {
+      "id": "x00f5a",
+      "name": "田村武久"
+    },
+    "breeder": {
+      "id": "600739",
+      "name": "Kingston Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Outstrip"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Triple Cee"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cape Cross"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4464,6 +4494,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウトパフォーム (Outperform) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトパフォーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトパフォーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4533,9 +4593,9 @@
       "contentHash": "104ca2e605ca561469184f4d0bfd6e1827427419f8b603406bb3875c621685fc",
       "byteLength": 66889,
       "rawPath": "netkeiba/horses/2019/2019110039/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:25:17.208Z"
+  "updatedAt": "2026-08-28T19:35:55.978Z"
 }

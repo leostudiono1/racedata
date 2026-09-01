@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102626",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102626/",
-  "profile": null,
+  "profile": {
+    "name": "グレームーン",
+    "birthDate": "2014-06-06",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "733363",
+      "name": "横井哲"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002102706",
+      "name": "エイシンデピュティ"
+    },
+    "dam": {
+      "id": "2004105224",
+      "name": "マヤノプレム"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2002102706",
@@ -1115,6 +1145,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレームーン (Gray Moon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレームーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレームーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1184,9 +1244,9 @@
       "contentHash": "f51fc040ececc694c743cffc58de52602b8c3f861feac4aaf9986909fdb9fed6",
       "byteLength": 64561,
       "rawPath": "netkeiba/horses/2014/2014102626/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:57:39.521Z"
+  "updatedAt": "2026-08-25T21:02:14.610Z"
 }

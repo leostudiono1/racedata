@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105650",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105650/",
-  "profile": null,
+  "profile": {
+    "name": "アップスタイル",
+    "birthDate": "2013-04-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "1995108850",
+      "name": "マチカネハツシマダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Private Account"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1265,6 +1295,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アップスタイル (Up Style) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップスタイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップスタイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1334,9 +1394,9 @@
       "contentHash": "c0d9607ab2b307ee02a8716e7e607aa256b9c8d63b87ea6f9833e90c2b1e4f31",
       "byteLength": 65627,
       "rawPath": "netkeiba/horses/2013/2013105650/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:23:47.015Z"
+  "updatedAt": "2026-08-29T18:34:46.793Z"
 }

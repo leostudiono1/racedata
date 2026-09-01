@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103588",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103588/",
-  "profile": null,
+  "profile": {
+    "name": "スノーリン",
+    "birthDate": "2022-02-12",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "285008",
+      "name": "榊原浩一"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2009105711",
+      "name": "レットイットスノー"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2138,6 +2168,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スノーリン (Snow Rin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スノーリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スノーリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2207,9 +2267,9 @@
       "contentHash": "50bb46f66c384efefdd65ea58e78260ac14dfce7261dbb66f73231a33951db4e",
       "byteLength": 66063,
       "rawPath": "netkeiba/horses/2022/2022103588/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:34:18.405Z"
+  "updatedAt": "2026-08-25T21:38:52.959Z"
 }

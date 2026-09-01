@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104675",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104675/",
-  "profile": null,
+  "profile": {
+    "name": "ロゼア",
+    "birthDate": "2023-03-18",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "400317",
+      "name": "村田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2008105100",
+      "name": "ゼフィランサス"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1518,6 +1548,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロゼア (Rosea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロゼア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロゼア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1587,9 +1647,9 @@
       "contentHash": "e2914f9900308deb4b4d6f6f5b6121ab3213c32812fd771316d6be2b05fb8b99",
       "byteLength": 67248,
       "rawPath": "netkeiba/horses/2023/2023104675/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:46:56.029Z"
+  "updatedAt": "2026-08-30T18:56:24.687Z"
 }

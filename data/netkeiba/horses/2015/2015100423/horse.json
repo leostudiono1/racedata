@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100423",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100423/",
-  "profile": null,
+  "profile": {
+    "name": "ライリー",
+    "birthDate": "2015-03-04",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05492",
+      "name": "遠藤茂"
+    },
+    "owner": {
+      "id": "768005",
+      "name": "古賀和夫"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2009106199",
+      "name": "メカマハロ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -3034,6 +3064,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライリー (Riley) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3103,9 +3163,9 @@
       "contentHash": "76a60fc6feefdf02bfb4e915529cb1ff3dcbfd39ca2d67757d7ef95dde4bdb6c",
       "byteLength": 66126,
       "rawPath": "netkeiba/horses/2015/2015100423/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:41:11.956Z"
+  "updatedAt": "2026-08-24T23:39:35.263Z"
 }

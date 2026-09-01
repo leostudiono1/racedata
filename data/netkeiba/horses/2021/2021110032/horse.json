@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110032",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110032/",
-  "profile": null,
+  "profile": {
+    "name": "フィクストスター",
+    "birthDate": "2021-02-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "関本浩司"
+    },
+    "owner": {
+      "id": "x00d05",
+      "name": "高橋悦彌"
+    },
+    "breeder": {
+      "id": "660737",
+      "name": "Godolphin"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Iffraaj"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ナシーラー Nashirah(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3277,6 +3307,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィクストスター (Fixed Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィクストスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィクストスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3346,9 +3406,9 @@
       "contentHash": "b325a124abf6bfeb4874f31224f39c84ce1b75673afbfad485885f8f4f8d6361",
       "byteLength": 66054,
       "rawPath": "netkeiba/horses/2021/2021110032/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:31:26.719Z"
+  "updatedAt": "2026-08-25T21:36:01.381Z"
 }

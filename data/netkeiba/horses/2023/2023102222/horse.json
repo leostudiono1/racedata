@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102222",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102222/",
-  "profile": null,
+  "profile": {
+    "name": "ビジュアライズ",
+    "birthDate": "2023-03-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サークリングII Circling(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1029,6 +1059,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビジュアライズ (Visualize) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビジュアライズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビジュアライズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1098,9 +1158,9 @@
       "contentHash": "f2da53ff4be8e85b0df13b8ab9bc2b49c952ff88aa724974fded836f54d1426c",
       "byteLength": 66261,
       "rawPath": "netkeiba/horses/2023/2023102222/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T21:03:14.072Z"
+  "updatedAt": "2026-08-29T19:14:13.616Z"
 }

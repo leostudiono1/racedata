@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103504",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103504/",
-  "profile": null,
+  "profile": {
+    "name": "ハイランダー",
+    "birthDate": "2023-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01222",
+      "name": "古賀大生"
+    },
+    "owner": {
+      "id": "340803",
+      "name": "シンシアリー"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2011104153",
+      "name": "パンズラビリンス"
+    },
+    "damsire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -1675,6 +1705,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイランダー (Highlander) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイランダー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイランダー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1744,9 +1804,9 @@
       "contentHash": "c657135b083c71bf41561cc8fa9f3ae9e0c1e6bf3beb10df09944cc3424e9114",
       "byteLength": 67173,
       "rawPath": "netkeiba/horses/2023/2023103504/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:46:21.313Z"
+  "updatedAt": "2026-08-30T18:55:50.125Z"
 }

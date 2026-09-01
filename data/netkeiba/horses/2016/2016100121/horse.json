@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100121",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100121/",
-  "profile": null,
+  "profile": {
+    "name": "ハートリンク",
+    "birthDate": "2016-05-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05109",
+      "name": "古賀光範"
+    },
+    "owner": {
+      "id": "772002",
+      "name": "西村新一郎"
+    },
+    "breeder": {
+      "id": "930318",
+      "name": "大林ファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2005103293",
+      "name": "トーホウドレス"
+    },
+    "damsire": {
+      "id": "1995108768",
+      "name": "トーホウキング"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -8343,6 +8373,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハートリンク (Heart Link) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートリンク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートリンク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8412,9 +8472,9 @@
       "contentHash": "ee9022a79f40ca23e85b1e4590adfe02fe890b9f2084e158808b2c3436f752a9",
       "byteLength": 66647,
       "rawPath": "netkeiba/horses/2016/2016100121/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:32:36.175Z"
+  "updatedAt": "2026-08-29T18:43:35.490Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106910",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106910/",
-  "profile": null,
+  "profile": {
+    "name": "エッセレンチ",
+    "birthDate": "2020-04-26",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "363800",
+      "name": "三嶋牧場"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2013106291",
+      "name": "メイショウスイヅキ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2220,6 +2250,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エッセレンチ (Excelente) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エッセレンチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エッセレンチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2289,9 +2349,9 @@
       "contentHash": "6414c661f61cc7b7a6822e43b4ab114fb55b7a493eb0901a493e25be9eb5839c",
       "byteLength": 66939,
       "rawPath": "netkeiba/horses/2020/2020106910/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:53:15.052Z"
+  "updatedAt": "2026-08-29T19:04:14.965Z"
 }

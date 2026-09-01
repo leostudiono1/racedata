@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106329",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106329/",
-  "profile": null,
+  "profile": {
+    "name": "エルーシア",
+    "birthDate": "2020-04-22",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05263",
+      "name": "瀬戸口悟"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "010035",
+      "name": "金石牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2007104909",
+      "name": "マイネフェリックス"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -4238,6 +4268,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルーシア (Elysia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルーシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルーシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4307,9 +4367,9 @@
       "contentHash": "b9ad539fb10df2863fd5495eb415fc6d93bafa761702940eb9e5671c4280ff40",
       "byteLength": 66961,
       "rawPath": "netkeiba/horses/2020/2020106329/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:26:04.679Z"
+  "updatedAt": "2026-08-25T21:30:39.330Z"
 }

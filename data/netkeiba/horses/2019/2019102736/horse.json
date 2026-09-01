@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102736",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102736/",
-  "profile": null,
+  "profile": {
+    "name": "イルザ",
+    "birthDate": "2019-03-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01171",
+      "name": "小手川準"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2014103972",
+      "name": "エメライン"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -3921,6 +3951,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イルザ (Ilsa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イルザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イルザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3990,9 +4050,9 @@
       "contentHash": "e75b19314403c4de45153fa920ca20d60b4cc0db5d22c8b2c18df4c98692bb0b",
       "byteLength": 66608,
       "rawPath": "netkeiba/horses/2019/2019102736/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:19:32.405Z"
+  "updatedAt": "2026-08-25T21:24:07.070Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103941",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103941/",
-  "profile": null,
+  "profile": {
+    "name": "ハート",
+    "birthDate": "2014-02-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05370",
+      "name": "住吉朝男"
+    },
+    "owner": {
+      "id": "x00f1b",
+      "name": "鍋倉昌志"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2004103216",
+      "name": "オーロラビコー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -7609,6 +7639,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハート (Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7678,9 +7738,9 @@
       "contentHash": "f3a32c769100476daf9bce6b611483301b1434009e419572dd3c7d96bdb0fbd8",
       "byteLength": 65082,
       "rawPath": "netkeiba/horses/2014/2014103941/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:21:32.284Z"
+  "updatedAt": "2026-08-26T20:26:42.546Z"
 }

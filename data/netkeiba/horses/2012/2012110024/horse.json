@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110024",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110024/",
-  "profile": null,
+  "profile": {
+    "name": "コスモミザール",
+    "birthDate": "2012-04-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00390",
+      "name": "池上昌弘"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "230709",
+      "name": "Jerry Jamgotchian"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Pioneerof the Nile"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Valley Fever"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Peaks and Valleys"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2661,6 +2691,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コスモミザール (Cosmo Mizar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモミザール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コスモミザール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2730,9 +2790,9 @@
       "contentHash": "89a1b23bfbf0290ec05f221d282275461867f2a5341d770263aba25acae98796",
       "byteLength": 64829,
       "rawPath": "netkeiba/horses/2012/2012110024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:49:26.060Z"
+  "updatedAt": "2026-08-31T17:52:57.861Z"
 }

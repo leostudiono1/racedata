@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102300",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102300/",
-  "profile": null,
+  "profile": {
+    "name": "リープ",
+    "birthDate": "2018-05-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "山崎裕也"
+    },
+    "owner": {
+      "id": "520033",
+      "name": "高樽優也"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009106476",
+      "name": "リアライズクレア"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3433,6 +3463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リープ (Leap) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リープ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リープ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3502,9 +3562,9 @@
       "contentHash": "785ddcc9c16e8f91340163986a97376036f05d2f61ce6613f542c1eb2e9406a7",
       "byteLength": 64920,
       "rawPath": "netkeiba/horses/2018/2018102300/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:26:02.556Z"
+  "updatedAt": "2026-08-30T18:35:31.793Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103526",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103526/",
-  "profile": null,
+  "profile": {
+    "name": "リアルデグニティ",
+    "birthDate": "2020-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05719",
+      "name": "佐藤裕太"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "バランセラ Barancella(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Acatenango"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2516,6 +2546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアルデグニティ (Real Dignity) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルデグニティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルデグニティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2585,9 +2645,9 @@
       "contentHash": "fd74de98452e14a196688b3fdcfd175706c486227c87f50b124e976649670803",
       "byteLength": 65123,
       "rawPath": "netkeiba/horses/2020/2020103526/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:56:04.232Z"
+  "updatedAt": "2026-08-27T20:03:40.771Z"
 }

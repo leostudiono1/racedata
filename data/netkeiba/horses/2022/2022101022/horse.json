@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101022",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101022/",
-  "profile": null,
+  "profile": {
+    "name": "ジルクン",
+    "birthDate": "2022-04-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05566",
+      "name": "月岡健二"
+    },
+    "owner": {
+      "id": "956031",
+      "name": "鈴木昌樹"
+    },
+    "breeder": {
+      "id": "593062",
+      "name": "レースホース牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2010110129",
+      "name": "エジル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2887,6 +2917,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジルクン (Zil Kun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジルクン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジルクン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2956,9 +3016,9 @@
       "contentHash": "86bebdcd6c4c3ad264f312ba23385701631816bd813496fc097b6658cf847a56",
       "byteLength": 66673,
       "rawPath": "netkeiba/horses/2022/2022101022/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:35:12.439Z"
+  "updatedAt": "2026-08-28T19:45:51.083Z"
 }

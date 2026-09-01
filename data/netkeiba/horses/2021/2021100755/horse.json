@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100755",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100755/",
-  "profile": null,
+  "profile": {
+    "name": "ダックリン",
+    "birthDate": "2021-03-04",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "戸部尚実"
+    },
+    "owner": {
+      "id": "x09067",
+      "name": "遠藤喜和"
+    },
+    "breeder": {
+      "id": "800042",
+      "name": "小島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016106065",
+      "name": "ロジャーバローズ"
+    },
+    "dam": {
+      "id": "2008110074",
+      "name": "カラヴィンカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016106065",
@@ -6332,6 +6362,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダックリン (Duckling) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダックリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダックリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6401,9 +6461,9 @@
       "contentHash": "56aac9be2a3768d2d9e22a813b8ed2328bfb8bdad87172ddb7106c95a01dcc8e",
       "byteLength": 64905,
       "rawPath": "netkeiba/horses/2021/2021100755/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:30:28.975Z"
+  "updatedAt": "2026-08-28T19:41:07.526Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104771",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104771/",
-  "profile": null,
+  "profile": {
+    "name": "パミーラ",
+    "birthDate": "2020-04-01",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "490006",
+      "name": "門野重雄"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011110069",
+      "name": "マスクゾロ"
+    },
+    "dam": {
+      "id": "2010110084",
+      "name": "ペルセクション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Invasor"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110069",
@@ -2976,6 +3006,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パミーラ (Pamira) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パミーラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パミーラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3045,9 +3105,9 @@
       "contentHash": "789f7cc795697614bce138ce2fd24c39d01cfd5f1b5d8545ec36e74e375db685",
       "byteLength": 66335,
       "rawPath": "netkeiba/horses/2020/2020104771/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:35:33.319Z"
+  "updatedAt": "2026-08-30T18:45:02.052Z"
 }

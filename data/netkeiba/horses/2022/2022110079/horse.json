@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110079",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110079/",
-  "profile": null,
+  "profile": {
+    "name": "シオーグ",
+    "birthDate": "2022-04-08",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "819031",
+      "name": "森田和豊"
+    },
+    "breeder": {
+      "id": "490710",
+      "name": "Toji Morita"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Wootton Bassett (英)"
+    },
+    "dam": {
+      "id": "2014106191",
+      "name": "ディアドラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1532,6 +1562,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シオーグ (Siog) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シオーグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シオーグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1601,9 +1661,9 @@
       "contentHash": "488581bcae0434c9bb8d7c5440cecd15f488a73cb414ca40ad19c0e58c926b23",
       "byteLength": 66552,
       "rawPath": "netkeiba/horses/2022/2022110079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:36:34.782Z"
+  "updatedAt": "2026-08-25T21:41:09.891Z"
 }

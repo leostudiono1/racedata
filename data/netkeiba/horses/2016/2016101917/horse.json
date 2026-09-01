@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101917",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101917/",
-  "profile": null,
+  "profile": {
+    "name": "キタイ",
+    "birthDate": "2016-02-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "537006",
+      "name": "西村憲人"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2010104913",
+      "name": "コウヨウルビー"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4555,6 +4585,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キタイ (Kitai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キタイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キタイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4624,9 +4684,9 @@
       "contentHash": "42caf412251951a5fa0d4b84dd5f22a8577c3808723b6e36dbb42819256f1417",
       "byteLength": 66924,
       "rawPath": "netkeiba/horses/2016/2016101917/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:34:10.177Z"
+  "updatedAt": "2026-08-29T18:45:09.994Z"
 }

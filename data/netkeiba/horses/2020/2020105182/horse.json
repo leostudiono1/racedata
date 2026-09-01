@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105182",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105182/",
-  "profile": null,
+  "profile": {
+    "name": "グランダルメ",
+    "birthDate": "2020-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "真島正徳"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "214514",
+      "name": "コスモヴューファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005102317",
+      "name": "シビルウォー"
+    },
+    "dam": {
+      "id": "2008103014",
+      "name": "アルデュール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102317",
@@ -3852,6 +3882,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランダルメ (Grande Armee) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランダルメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランダルメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3921,9 +3981,9 @@
       "contentHash": "501d79ca509f702a536727151ebcc4468a1232b6f1ab5e49ce5ecdb6b30e1438",
       "byteLength": 67009,
       "rawPath": "netkeiba/horses/2020/2020105182/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:52:43.577Z"
+  "updatedAt": "2026-08-29T19:03:43.417Z"
 }

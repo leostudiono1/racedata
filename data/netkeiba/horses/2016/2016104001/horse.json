@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104001",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104001/",
-  "profile": null,
+  "profile": {
+    "name": "シャイニープレット",
+    "birthDate": "2016-03-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01091",
+      "name": "羽月友彦"
+    },
+    "owner": {
+      "id": "531006",
+      "name": "小林昌志"
+    },
+    "breeder": {
+      "id": "910369",
+      "name": "雅牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "1992108661",
+      "name": "スプリングネヴァー"
+    },
+    "damsire": {
+      "id": "1982101222",
+      "name": "サクラユタカオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1617,6 +1647,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャイニープレット (Shiny Preto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニープレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャイニープレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1686,9 +1746,9 @@
       "contentHash": "f51fb877d6abbd0c43e81698c7dd10f4c590401d1b0295803a48772faebac224",
       "byteLength": 67002,
       "rawPath": "netkeiba/horses/2016/2016104001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:04:29.369Z"
+  "updatedAt": "2026-08-31T18:08:01.074Z"
 }

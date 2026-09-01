@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104869",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104869/",
-  "profile": null,
+  "profile": {
+    "name": "ベルベル",
+    "birthDate": "2014-04-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01014",
+      "name": "高市圭二"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "833082",
+      "name": "泊寿幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002102706",
+      "name": "エイシンデピュティ"
+    },
+    "dam": {
+      "id": "2002105248",
+      "name": "マイウィル"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2002102706",
@@ -1646,6 +1676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルベル (Bellver) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1715,9 +1775,9 @@
       "contentHash": "d334df63c3e70edbdd78eb158d0204abe6444b704783bdbd9b676bee6cd29487",
       "byteLength": 64729,
       "rawPath": "netkeiba/horses/2014/2014104869/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:59:03.442Z"
+  "updatedAt": "2026-08-25T21:03:38.498Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105653",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105653/",
-  "profile": null,
+  "profile": {
+    "name": "クレドール",
+    "birthDate": "2022-03-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "x04be0",
+      "name": "角田喜継"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジュリアー Giulia(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Mesa"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2083,6 +2113,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クレドール (Crete d'Or) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クレドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2152,9 +2212,9 @@
       "contentHash": "7a46248c4c881766b2b741a5732f817cba1a6736774034c70635e25efb67cbdb",
       "byteLength": 65348,
       "rawPath": "netkeiba/horses/2022/2022105653/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:35:35.188Z"
+  "updatedAt": "2026-08-25T21:40:10.002Z"
 }

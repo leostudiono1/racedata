@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104432",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104432/",
-  "profile": null,
+  "profile": {
+    "name": "チラリ",
+    "birthDate": "2012-05-12",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05557",
+      "name": "山本和之"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "チチカステナンゴ Chichicastenango(仏)"
+    },
+    "dam": {
+      "id": "2003102595",
+      "name": "ミラクルワウ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2165,6 +2195,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チラリ (Chirari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チラリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チラリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2234,9 +2294,9 @@
       "contentHash": "55a62b4b1d256ec8868276744f56c678d797628f461934d7791d3a97b6da6471",
       "byteLength": 64937,
       "rawPath": "netkeiba/horses/2012/2012104432/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:14:11.413Z"
+  "updatedAt": "2026-08-26T20:19:20.886Z"
 }

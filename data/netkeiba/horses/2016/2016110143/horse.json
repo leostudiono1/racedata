@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110143",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110143/",
-  "profile": null,
+  "profile": {
+    "name": "ソーシック",
+    "birthDate": "2016-02-19",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "732033",
+      "name": "田記正規"
+    },
+    "breeder": {
+      "id": "180731",
+      "name": "Harold Tillema & Pamela Tillema"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Idiot Proof"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Marissa's Joy"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cee's Tizzy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1175,6 +1205,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソーシック (So Sick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソーシック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソーシック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1244,9 +1304,9 @@
       "contentHash": "83d1a24d2442ba082a626cd658df8be658e65079b56cc0bff08b286863649161",
       "byteLength": 64304,
       "rawPath": "netkeiba/horses/2016/2016110143/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:37:12.158Z"
+  "updatedAt": "2026-08-29T18:48:12.116Z"
 }

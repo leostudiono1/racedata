@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101829",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101829/",
-  "profile": null,
+  "profile": {
+    "name": "ヴァンサンブル",
+    "birthDate": "2020-04-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "635031",
+      "name": "増田江利子"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2012101572",
+      "name": "デストリアー"
+    },
+    "damsire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1250,6 +1280,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴァンサンブル (Vensemble) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァンサンブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァンサンブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1319,9 +1379,9 @@
       "contentHash": "dc5e1a146a24c01cef4df92751b1b6fd456f9594936fba028f04d5e57f31abc6",
       "byteLength": 64814,
       "rawPath": "netkeiba/horses/2020/2020101829/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:54:54.122Z"
+  "updatedAt": "2026-08-27T20:02:30.861Z"
 }

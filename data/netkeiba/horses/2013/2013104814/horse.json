@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104814",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104814/",
-  "profile": null,
+  "profile": {
+    "name": "ドルチェリア",
+    "birthDate": "2013-03-05",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "444030",
+      "name": "太田珠々子"
+    },
+    "breeder": {
+      "id": "303305",
+      "name": "藤原牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "1998103123",
+      "name": "テンザンデザート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4557,6 +4587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドルチェリア (Dolceria) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドルチェリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドルチェリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4626,9 +4686,9 @@
       "contentHash": "fb760f581afa67f032755d47c27c9323ee86fe7bcb75a47bb14c62ba678ec144",
       "byteLength": 66884,
       "rawPath": "netkeiba/horses/2013/2013104814/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:51:49.770Z"
+  "updatedAt": "2026-08-31T17:55:21.317Z"
 }

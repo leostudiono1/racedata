@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101865",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101865/",
-  "profile": null,
+  "profile": {
+    "name": "ネオバラード",
+    "birthDate": "2021-03-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "秋田大助"
+    },
+    "owner": {
+      "id": "x09d53",
+      "name": "（株）アプエンテ"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2013110104",
+      "name": "ネオヴェルザンディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Temple City"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -1875,6 +1905,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネオバラード (Neo Ballade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオバラード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオバラード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1944,9 +2004,9 @@
       "contentHash": "50905cae6c7d45aa2378bd5acf546a621be53390830f59187b6cc15c457d9813",
       "byteLength": 65213,
       "rawPath": "netkeiba/horses/2021/2021101865/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:09:15.957Z"
+  "updatedAt": "2026-08-25T00:07:39.374Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104076",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104076/",
-  "profile": null,
+  "profile": {
+    "name": "レイ",
+    "birthDate": "2019-02-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05423",
+      "name": "鈴木正也"
+    },
+    "owner": {
+      "id": "258800",
+      "name": "（有）東勝シティ"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2010102894",
+      "name": "ビリオネア"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -4038,6 +4068,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイ (Rei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4107,9 +4167,9 @@
       "contentHash": "bc5bfded4e06e489f837e3d96ec63c74014002b4d40f883a2bf2a5570163a3d3",
       "byteLength": 65838,
       "rawPath": "netkeiba/horses/2019/2019104076/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:20:07.531Z"
+  "updatedAt": "2026-08-25T21:24:42.064Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103090",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103090/",
-  "profile": null,
+  "profile": {
+    "name": "レッドカード",
+    "birthDate": "2017-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05749",
+      "name": "桜井拓章"
+    },
+    "owner": {
+      "id": "160800",
+      "name": "バンブー牧場"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キューバンリズムII Cuban Rhythm(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -3753,6 +3783,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドカード (Red Card) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドカード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドカード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3822,9 +3882,9 @@
       "contentHash": "683a831f0a698d2bedbac96fc26215d92b8690ef2abf9741d455df10443e4524",
       "byteLength": 66728,
       "rawPath": "netkeiba/horses/2017/2017103090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:07:49.020Z"
+  "updatedAt": "2026-08-31T18:11:20.726Z"
 }

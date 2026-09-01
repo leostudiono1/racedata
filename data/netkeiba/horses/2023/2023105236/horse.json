@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105236",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105236/",
-  "profile": null,
+  "profile": {
+    "name": "ポッドジーク",
+    "birthDate": "2023-02-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01048",
+      "name": "畠山吉宏"
+    },
+    "owner": {
+      "id": "042033",
+      "name": "小川眞査雄"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "キャリサガ Qualisaga(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sageburg"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1484,6 +1514,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポッドジーク (Pod Sieg) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドジーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドジーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1553,9 +1613,9 @@
       "contentHash": "f6ade4e0210db8d07d2ea2d7ca26317f87e6a25586281b4be590129af0105d7a",
       "byteLength": 65528,
       "rawPath": "netkeiba/horses/2023/2023105236/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T23:02:30.007Z"
+  "updatedAt": "2026-08-26T21:07:39.912Z"
 }

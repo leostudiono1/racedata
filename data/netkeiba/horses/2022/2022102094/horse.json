@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102094",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102094/",
-  "profile": null,
+  "profile": {
+    "name": "シャヴィット",
+    "birthDate": "2022-05-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "846033",
+      "name": "兼松康太"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013106099",
+      "name": "ミッキーロケット"
+    },
+    "dam": {
+      "id": "2009103061",
+      "name": "テレフォトグラフ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106099",
@@ -1638,6 +1668,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャヴィット (Shavit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャヴィット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャヴィット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1707,9 +1767,9 @@
       "contentHash": "71eaadf941928c4ce5bf0b300541514df04e1ecb41fe55ab9b2d55d9807de952",
       "byteLength": 66797,
       "rawPath": "netkeiba/horses/2022/2022102094/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:56:19.346Z"
+  "updatedAt": "2026-08-26T21:01:28.736Z"
 }

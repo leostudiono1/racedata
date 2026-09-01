@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100625",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100625/",
-  "profile": null,
+  "profile": {
+    "name": "ハイフォース",
+    "birthDate": "2018-04-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "川野勇馬"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103388",
+      "name": "グランプリボス"
+    },
+    "dam": {
+      "id": "2007105681",
+      "name": "エトピリカ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103388",
@@ -6458,6 +6488,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイフォース (High Force) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイフォース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイフォース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6527,9 +6587,9 @@
       "contentHash": "5cf4ac3cba519a220365eb83214ac71d278d350135af54aa20fc6e2bd32be8bb",
       "byteLength": 66526,
       "rawPath": "netkeiba/horses/2018/2018100625/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:13:00.424Z"
+  "updatedAt": "2026-08-25T21:17:34.941Z"
 }

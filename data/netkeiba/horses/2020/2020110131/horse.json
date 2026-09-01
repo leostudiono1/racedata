@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110131",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110131/",
-  "profile": null,
+  "profile": {
+    "name": "メタマックス",
+    "birthDate": "2020-05-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "240737",
+      "name": "Brookstone Farm & Lee Mauberret"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Into Mischief"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Zapara"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Not for Love"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3066,6 +3096,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メタマックス (Meta Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メタマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メタマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3135,9 +3195,9 @@
       "contentHash": "c0c59b7d9b93ae42ab91305668a7ed52b23547ae1f86e4ff133b79ab950595d1",
       "byteLength": 67028,
       "rawPath": "netkeiba/horses/2020/2020110131/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:08:16.453Z"
+  "updatedAt": "2026-08-25T00:06:39.926Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104163",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104163/",
-  "profile": null,
+  "profile": {
+    "name": "ミレフォス",
+    "birthDate": "2021-02-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2016106031",
+      "name": "ミリオンドリームズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Frankel"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1532,6 +1562,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミレフォス (Mple Fos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミレフォス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミレフォス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1601,9 +1661,9 @@
       "contentHash": "b187704519993f56fb81f5a590e5cc38fcc17decb9053d5aaeb885b1da5bafad",
       "byteLength": 64628,
       "rawPath": "netkeiba/horses/2021/2021104163/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:38:42.369Z"
+  "updatedAt": "2026-08-30T18:48:11.290Z"
 }

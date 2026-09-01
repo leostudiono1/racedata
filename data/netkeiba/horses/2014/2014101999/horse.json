@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101999",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101999/",
-  "profile": null,
+  "profile": {
+    "name": "アネロワ",
+    "birthDate": "2014-03-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "550033",
+      "name": "大野照旺"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2003110006",
+      "name": "リオニアンレディー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1538,6 +1568,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アネロワ (Anhelo Wa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アネロワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アネロワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1607,9 +1667,9 @@
       "contentHash": "a2c8df72c05000456275940fad794879e1c4a99be6f983dbd4eaaed49b856f37",
       "byteLength": 65117,
       "rawPath": "netkeiba/horses/2014/2014101999/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:07:29.036Z"
+  "updatedAt": "2026-08-30T18:16:58.221Z"
 }

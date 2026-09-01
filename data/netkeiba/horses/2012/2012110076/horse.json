@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110076",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110076/",
-  "profile": null,
+  "profile": {
+    "name": "サウンドクラフト",
+    "birthDate": "2012-02-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "168006",
+      "name": "増田雄一"
+    },
+    "breeder": {
+      "id": "530702",
+      "name": "Grange Stud"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Getaway (独)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Persian Heroine"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Intikhab"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1537,6 +1567,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サウンドクラフト (Sound Craft) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サウンドクラフト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サウンドクラフト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1606,9 +1666,9 @@
       "contentHash": "45946f2e7c0603dc69575d2af276d467666c17d35cab9d3e8a9b03b11c855927",
       "byteLength": 64680,
       "rawPath": "netkeiba/horses/2012/2012110076/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:23:05.908Z"
+  "updatedAt": "2026-08-27T19:30:42.631Z"
 }

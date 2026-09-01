@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101601",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101601/",
-  "profile": null,
+  "profile": {
+    "name": "アブシンス",
+    "birthDate": "2016-05-05",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "x011fe",
+      "name": "佐々木寛明"
+    },
+    "breeder": {
+      "id": "130007",
+      "name": "山口幸雄"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2008102706",
+      "name": "ヴィーヴァタキオン"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -12440,6 +12470,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アブシンス (Absinthe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アブシンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アブシンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -12509,9 +12569,9 @@
       "contentHash": "30fe77b17d0aa8646dae7c68b104f6ab49c95dffd5766cd200d808ada2cf8766",
       "byteLength": 64582,
       "rawPath": "netkeiba/horses/2016/2016101601/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:47:02.344Z"
+  "updatedAt": "2026-08-24T23:45:25.384Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101019",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101019/",
-  "profile": null,
+  "profile": {
+    "name": "モリトプリマ",
+    "birthDate": "2012-05-30",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05058",
+      "name": "山田勇"
+    },
+    "owner": {
+      "id": "x05123",
+      "name": "南部明則"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ナミビア Namibia(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -1515,6 +1545,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モリトプリマ (Morito Prima) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モリトプリマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モリトプリマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1584,9 +1644,9 @@
       "contentHash": "8a0fb30110eea170edb660e6ac21fde51499ab7727446ee71467af0cf1312310",
       "byteLength": 64810,
       "rawPath": "netkeiba/horses/2012/2012101019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:48:33.191Z"
+  "updatedAt": "2026-08-25T20:53:08.064Z"
 }

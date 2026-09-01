@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101376",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101376/",
-  "profile": null,
+  "profile": {
+    "name": "ファウラー",
+    "birthDate": "2016-04-04",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "201033",
+      "name": "永見貴昭"
+    },
+    "breeder": {
+      "id": "301060",
+      "name": "本桐牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2000107270",
+      "name": "ハギノオマージュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -1382,6 +1412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファウラー (Fowler) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファウラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファウラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1451,9 +1511,9 @@
       "contentHash": "694e7374c157984624bca38cbe03da15f9f9a569e61265bd11a53ee80e55761f",
       "byteLength": 65967,
       "rawPath": "netkeiba/horses/2016/2016101376/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:36:20.727Z"
+  "updatedAt": "2026-08-27T19:43:57.385Z"
 }

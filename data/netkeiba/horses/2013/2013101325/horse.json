@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101325",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101325/",
-  "profile": null,
+  "profile": {
+    "name": "モンスターキング",
+    "birthDate": "2013-03-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "武藤敏明"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "600334",
+      "name": "柏木一則"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103163",
+      "name": "アサクサキングス"
+    },
+    "dam": {
+      "id": "2002101782",
+      "name": "カシノヴィガ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103163",
@@ -8951,6 +8981,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンスターキング (Monster King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンスターキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンスターキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9020,9 +9080,9 @@
       "contentHash": "1c7320cc36c07fe81f93531a88b74454f9b3ed6e56d8887e7e5eeb66154af316",
       "byteLength": 66943,
       "rawPath": "netkeiba/horses/2013/2013101325/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:52:31.532Z"
+  "updatedAt": "2026-08-25T20:57:06.021Z"
 }

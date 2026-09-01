@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104452",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104452/",
-  "profile": null,
+  "profile": {
+    "name": "ゴースト",
+    "birthDate": "2016-04-23",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ガヴィオラ Gaviola(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -5510,6 +5540,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴースト (Ghost) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5579,9 +5639,9 @@
       "contentHash": "ecd9bd9f0c01061cc471d3b4ce0438582fd9019f697421bbeeabd2ccfd67bc68",
       "byteLength": 66778,
       "rawPath": "netkeiba/horses/2016/2016104452/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:49:01.001Z"
+  "updatedAt": "2026-08-24T23:47:24.432Z"
 }

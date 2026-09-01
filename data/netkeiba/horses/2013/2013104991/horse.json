@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104991",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104991/",
-  "profile": null,
+  "profile": {
+    "name": "ピーマックス",
+    "birthDate": "2013-03-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01050",
+      "name": "飯田雄三"
+    },
+    "owner": {
+      "id": "372008",
+      "name": "三宅勝俊"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2008100557",
+      "name": "マックスロンシャン"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5322,6 +5352,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピーマックス (P Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5391,9 +5451,9 @@
       "contentHash": "f0a237d0bba87834e55dae4da536bb65425fd6fe6ffe50510370bc57fd8b308d",
       "byteLength": 64856,
       "rawPath": "netkeiba/horses/2013/2013104991/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:33:57.790Z"
+  "updatedAt": "2026-08-24T23:32:21.275Z"
 }

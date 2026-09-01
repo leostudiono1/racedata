@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101452",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101452/",
-  "profile": null,
+  "profile": {
+    "name": "スマートジュリアス",
+    "birthDate": "2023-03-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014110031",
+      "name": "モズアスコット"
+    },
+    "dam": {
+      "id": "2012102129",
+      "name": "スマートノエル"
+    },
+    "damsire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    }
+  },
   "pedigree": [
     {
       "id": "2014110031",
@@ -1878,6 +1908,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートジュリアス (Smart Julius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートジュリアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートジュリアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1947,9 +2007,9 @@
       "contentHash": "b54349690c1c8f643038ae19c24a7961ce9db684ee3900cf1125c84a142a7710",
       "byteLength": 67263,
       "rawPath": "netkeiba/horses/2023/2023101452/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:45:31.902Z"
+  "updatedAt": "2026-08-30T18:55:00.737Z"
 }

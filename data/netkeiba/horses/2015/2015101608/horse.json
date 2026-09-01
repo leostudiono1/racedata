@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101608",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101608/",
-  "profile": null,
+  "profile": {
+    "name": "アルジェント",
+    "birthDate": "2015-02-28",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00438",
+      "name": "安田隆行"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サマナケイ Samana Cay(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Authorized"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1112,6 +1142,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルジェント (Argento) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルジェント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルジェント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1181,9 +1241,9 @@
       "contentHash": "636eb3d22eabf40d2fbb584815c127f0e49564a2cbe62c70091095cc876f6cc5",
       "byteLength": 64543,
       "rawPath": "netkeiba/horses/2015/2015101608/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:29:37.123Z"
+  "updatedAt": "2026-08-29T18:40:37.096Z"
 }

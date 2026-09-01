@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101554",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101554/",
-  "profile": null,
+  "profile": {
+    "name": "アクシス",
+    "birthDate": "2015-03-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "959800",
+      "name": "協栄"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2001106421",
+      "name": "セントクリスマス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1973,6 +2003,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アクシス (Axis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクシス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクシス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2042,9 +2102,9 @@
       "contentHash": "fc660216273f1d7a5795a39e706bc6cc12558447354d4df4bae0c4de9e703693",
       "byteLength": 66622,
       "rawPath": "netkeiba/horses/2015/2015101554/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:32:36.645Z"
+  "updatedAt": "2026-08-27T19:40:13.382Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105618",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105618/",
-  "profile": null,
+  "profile": {
+    "name": "スマートワイス",
+    "birthDate": "2021-03-09",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2010102459",
+      "name": "スマートレイアー"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2334,6 +2364,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートワイス (Smart Weiss) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートワイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートワイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2403,9 +2463,9 @@
       "contentHash": "8381ab0605f6cb7ce7d7992c517930fcd52ef6279aa10e412df8b83da24973b5",
       "byteLength": 67020,
       "rawPath": "netkeiba/horses/2021/2021105618/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:11:36.392Z"
+  "updatedAt": "2026-08-25T00:09:59.362Z"
 }

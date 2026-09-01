@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105892",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105892/",
-  "profile": null,
+  "profile": {
+    "name": "サラート",
+    "birthDate": "2015-04-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "703084",
+      "name": "大典牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102542",
+      "name": "マルカシェンク"
+    },
+    "dam": {
+      "id": "2003103341",
+      "name": "メジロアニマート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102542",
@@ -2527,6 +2557,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サラート (Salat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サラート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2596,9 +2656,9 @@
       "contentHash": "43d3aeaa5ecefa2ca783a5687aa16ace26362c10f6353f97c99fe7f6e9d7d4dd",
       "byteLength": 66817,
       "rawPath": "netkeiba/horses/2015/2015105892/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:34:53.169Z"
+  "updatedAt": "2026-08-27T19:42:29.825Z"
 }

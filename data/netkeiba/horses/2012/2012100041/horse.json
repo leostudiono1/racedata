@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100041",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100041/",
-  "profile": null,
+  "profile": {
+    "name": "イシス",
+    "birthDate": "2012-03-18",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01113",
+      "name": "牧浦充徳"
+    },
+    "owner": {
+      "id": "865800",
+      "name": "エンジェルレーシング"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2003100057",
+      "name": "アラマサスナイパー"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -1895,6 +1925,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イシス (Isis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イシス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イシス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1964,9 +2024,9 @@
       "contentHash": "609531be156a13d4f02f6fb68658d152cb3bf2efdea6af2357bd8c1db71454e3",
       "byteLength": 65312,
       "rawPath": "netkeiba/horses/2012/2012100041/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:47:44.216Z"
+  "updatedAt": "2026-08-25T20:52:19.486Z"
 }

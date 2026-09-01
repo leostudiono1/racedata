@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110076",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110076/",
-  "profile": null,
+  "profile": {
+    "name": "イザナギ",
+    "birthDate": "2021-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "091803",
+      "name": "山紫水明"
+    },
+    "breeder": {
+      "id": "320876",
+      "name": "G. Watts Humphrey Jr."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "City of Light (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Miss Squeal"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -972,6 +1002,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イザナギ (Izanagi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イザナギ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イザナギ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1041,9 +1101,9 @@
       "contentHash": "567bef8b8e82368cccf0c3ab16e48e455a6492daceb58a98b538ba743adc40bf",
       "byteLength": 64510,
       "rawPath": "netkeiba/horses/2021/2021110076/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:40:59.162Z"
+  "updatedAt": "2026-08-30T18:50:28.027Z"
 }

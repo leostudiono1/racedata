@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105472",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105472/",
-  "profile": null,
+  "profile": {
+    "name": "セーブル",
+    "birthDate": "2012-03-20",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05593",
+      "name": "小野寺晋"
+    },
+    "owner": {
+      "id": "088033",
+      "name": "津田浩一"
+    },
+    "breeder": {
+      "id": "900019",
+      "name": "日進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101550",
+      "name": "オレハマッテルゼ"
+    },
+    "dam": {
+      "id": "2005106339",
+      "name": "リリカルヴァース"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マリエンバード Marienbard(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101550",
@@ -3716,6 +3746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セーブル (Sable) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セーブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セーブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3785,9 +3845,9 @@
       "contentHash": "57c57ed44896059bef5079ae89b61d87dbfc9989b6705b8dea3b73b113f99cf9",
       "byteLength": 65880,
       "rawPath": "netkeiba/horses/2012/2012105472/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:15:00.031Z"
+  "updatedAt": "2026-08-26T20:20:10.390Z"
 }

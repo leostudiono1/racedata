@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104884",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104884/",
-  "profile": null,
+  "profile": {
+    "name": "アンジュール",
+    "birthDate": "2020-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "竹下太"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2015106257",
+      "name": "グラスコマチ"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -4433,6 +4463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンジュール (Un Jour) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンジュール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンジュール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4502,9 +4562,9 @@
       "contentHash": "33a09f1d98e480332a4e46c222b77b3c5eddcd75f6db19b79925d664f1610963",
       "byteLength": 66975,
       "rawPath": "netkeiba/horses/2020/2020104884/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:25:19.229Z"
+  "updatedAt": "2026-08-25T21:29:53.666Z"
 }

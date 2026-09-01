@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104437",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104437/",
-  "profile": null,
+  "profile": {
+    "name": "ライアン",
+    "birthDate": "2019-05-19",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ryans Charm (米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Heatseeker"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -5072,6 +5102,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライアン (Ryan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5141,9 +5201,9 @@
       "contentHash": "ab856eef2e2cd8b47f066b5634d455a9a113f3448714c74a21dbdc739a0305f7",
       "byteLength": 66830,
       "rawPath": "netkeiba/horses/2019/2019104437/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:30:29.199Z"
+  "updatedAt": "2026-08-30T18:39:57.485Z"
 }

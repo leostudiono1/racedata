@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105321",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105321/",
-  "profile": null,
+  "profile": {
+    "name": "エーデル",
+    "birthDate": "2021-03-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "326030",
+      "name": "藤沼利夫"
+    },
+    "breeder": {
+      "id": "100383",
+      "name": "青藍牧場"
+    },
+    "birthplace": "登別市",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2011102788",
+      "name": "ブルザンインディゴ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2827,6 +2857,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エーデル (Edel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーデル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーデル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2896,9 +2956,9 @@
       "contentHash": "d48e21eb4b599ac70263cd827480089cd867ad55def45b1d76fb7abd50ff539e",
       "byteLength": 66846,
       "rawPath": "netkeiba/horses/2021/2021105321/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:30:06.102Z"
+  "updatedAt": "2026-08-25T21:34:40.923Z"
 }

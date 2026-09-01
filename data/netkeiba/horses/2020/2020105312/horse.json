@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105312",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105312/",
-  "profile": null,
+  "profile": {
+    "name": "ゲンキチーター",
+    "birthDate": "2020-04-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2014100423",
+      "name": "サザンアルプス"
+    },
+    "damsire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1298,6 +1328,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲンキチーター (Genki Cheetah) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲンキチーター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲンキチーター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1367,9 +1427,9 @@
       "contentHash": "c864d9cb3aadf9b81902030a80b94002b7c9a14302263e4db86ff019f3cb59f5",
       "byteLength": 64720,
       "rawPath": "netkeiba/horses/2020/2020105312/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:28:22.681Z"
+  "updatedAt": "2026-08-28T19:39:01.604Z"
 }

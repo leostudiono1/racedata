@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110031",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110031/",
-  "profile": null,
+  "profile": {
+    "name": "マイカラー",
+    "birthDate": "2023-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "798033",
+      "name": "山口裕介"
+    },
+    "breeder": {
+      "id": "360736",
+      "name": "Town & Country Horse Farms LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "City of Light (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Moart"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1841,6 +1871,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイカラー (My Color) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイカラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイカラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1910,9 +1970,9 @@
       "contentHash": "48cb014c0289baeb873f92c0ebb7fc51c78b9e05805775646daf0ad238193389",
       "byteLength": 65763,
       "rawPath": "netkeiba/horses/2023/2023110031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:40:22.470Z"
+  "updatedAt": "2026-08-25T21:44:57.012Z"
 }

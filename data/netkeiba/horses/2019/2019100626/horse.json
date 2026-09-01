@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100626",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100626/",
-  "profile": null,
+  "profile": {
+    "name": "ノア",
+    "birthDate": "2019-03-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2011110024",
+      "name": "ガラッシアファータ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -986,6 +1016,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノア (Noach) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1055,9 +1115,9 @@
       "contentHash": "0f223acdaa61f64651bb52bcb6381c3ec7d036094bde4ac1159dbf7cfc035b24",
       "byteLength": 65522,
       "rawPath": "netkeiba/horses/2019/2019100626/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:21:19.022Z"
+  "updatedAt": "2026-08-28T19:31:57.819Z"
 }

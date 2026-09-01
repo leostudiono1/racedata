@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100766",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100766/",
-  "profile": null,
+  "profile": {
+    "name": "ラインマーチン",
+    "birthDate": "2017-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01083",
+      "name": "松永昌博"
+    },
+    "owner": {
+      "id": "796002",
+      "name": "大澤繁昌"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2012100351",
+      "name": "トリルビー"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1040,6 +1070,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラインマーチン (Rhein Martin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラインマーチン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラインマーチン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1109,9 +1169,9 @@
       "contentHash": "b1a58ad13c1b06ea319be4801fb511da371fa65e868bace774349afe7f733125",
       "byteLength": 65653,
       "rawPath": "netkeiba/horses/2017/2017100766/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:51:10.534Z"
+  "updatedAt": "2026-08-24T23:49:34.074Z"
 }

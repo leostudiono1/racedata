@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100600",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100600/",
-  "profile": null,
+  "profile": {
+    "name": "ガーランド",
+    "birthDate": "2016-03-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05760",
+      "name": "松浦聡志"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "1998100676",
+      "name": "コンプリカーター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Prospector"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1358,6 +1388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガーランド (Garland) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガーランド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガーランド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1427,9 +1487,9 @@
       "contentHash": "7f101c62d1ee27b84be3ed731c4d505ce01e99114673bc15dc6349e07ef19809",
       "byteLength": 64661,
       "rawPath": "netkeiba/horses/2016/2016100600/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:02:02.304Z"
+  "updatedAt": "2026-08-31T18:05:34.088Z"
 }

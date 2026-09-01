@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103079",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103079/",
-  "profile": null,
+  "profile": {
+    "name": "シソーラス",
+    "birthDate": "2013-03-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01041",
+      "name": "藤沢則雄"
+    },
+    "owner": {
+      "id": "117800",
+      "name": "高昭牧場"
+    },
+    "breeder": {
+      "id": "530051",
+      "name": "野村正"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "2000105445",
+      "name": "シーロンパー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーニング Warning(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -3357,6 +3387,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シソーラス (Thesaurus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シソーラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シソーラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3426,9 +3486,9 @@
       "contentHash": "5cfd24e441d9ed06be6842fb81fb22003ed5c7822ad2dd160699ff9947e5d404",
       "byteLength": 64887,
       "rawPath": "netkeiba/horses/2013/2013103079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:25:11.996Z"
+  "updatedAt": "2026-08-27T19:32:48.736Z"
 }

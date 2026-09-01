@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103555",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103555/",
-  "profile": null,
+  "profile": {
+    "name": "オートカリテ",
+    "birthDate": "2023-03-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マジェスティッククオリティ Majestic Quality(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Quality Road"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1510,6 +1540,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オートカリテ (Haute Qualite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オートカリテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オートカリテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1579,9 +1639,9 @@
       "contentHash": "c55540db47b371f5f0d736df02ae0deaad9f419548bb64e8e4c348a16dd79734",
       "byteLength": 64897,
       "rawPath": "netkeiba/horses/2023/2023103555/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:19:46.390Z"
+  "updatedAt": "2026-08-25T00:18:09.584Z"
 }

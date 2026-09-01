@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104261",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104261/",
-  "profile": null,
+  "profile": {
+    "name": "ユナパール",
+    "birthDate": "2022-04-28",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "池田敦"
+    },
+    "owner": {
+      "id": "765031",
+      "name": "狩野好宗"
+    },
+    "breeder": {
+      "id": "103088",
+      "name": "野坂牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2010103144",
+      "name": "アサケゴマ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2951,6 +2981,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユナパール (Yuna Pearl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユナパール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユナパール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3020,9 +3080,9 @@
       "contentHash": "9a939b51e6799f07a6cae564ea7348eccd7df55e927e3ce8f4fbb1feb35f77a2",
       "byteLength": 64674,
       "rawPath": "netkeiba/horses/2022/2022104261/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T21:00:29.124Z"
+  "updatedAt": "2026-08-29T19:11:29.012Z"
 }

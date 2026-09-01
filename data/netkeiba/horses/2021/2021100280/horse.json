@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100280",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100280/",
-  "profile": null,
+  "profile": {
+    "name": "ラスク",
+    "birthDate": "2021-02-27",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "331033",
+      "name": "土田重実"
+    },
+    "breeder": {
+      "id": "403021",
+      "name": "土田農場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2006103365",
+      "name": "リュシオル"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1981,6 +2011,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラスク (Rusk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2050,9 +2110,9 @@
       "contentHash": "95708b845f700edd6a7918216bbf220a3703bdf024aa403b70b4b52118786ed8",
       "byteLength": 64967,
       "rawPath": "netkeiba/horses/2021/2021100280/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:30:04.235Z"
+  "updatedAt": "2026-08-28T19:40:43.023Z"
 }

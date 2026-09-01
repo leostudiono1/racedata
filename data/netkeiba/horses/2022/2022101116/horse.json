@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101116",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101116/",
-  "profile": null,
+  "profile": {
+    "name": "アースソーナー",
+    "birthDate": "2022-05-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01029",
+      "name": "根本康広"
+    },
+    "owner": {
+      "id": "119007",
+      "name": "中島稔"
+    },
+    "breeder": {
+      "id": "080541",
+      "name": "アースファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008100386",
+      "name": "アイファーソング"
+    },
+    "dam": {
+      "id": "2013100406",
+      "name": "ピコット"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008100386",
@@ -1268,6 +1298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アースソーナー (Earth Sona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースソーナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースソーナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1337,9 +1397,9 @@
       "contentHash": "85feb5b1166cb84a31e1480b97225f0eb8466ed530ed913da483fd1baa3a2db7",
       "byteLength": 64731,
       "rawPath": "netkeiba/horses/2022/2022101116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T22:03:20.050Z"
+  "updatedAt": "2026-08-27T20:10:54.933Z"
 }

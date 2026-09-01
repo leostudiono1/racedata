@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106179",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106179/",
-  "profile": null,
+  "profile": {
+    "name": "トッカータ",
+    "birthDate": "2015-03-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "490006",
+      "name": "門野重雄"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2010110084",
+      "name": "ペルセクション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Invasor"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -3981,6 +4011,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トッカータ (Toccata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トッカータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トッカータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4050,9 +4110,9 @@
       "contentHash": "0768014cd15147c1974ba822476776bd8f86b0ed792289cdf3bce083670ab360",
       "byteLength": 66783,
       "rawPath": "netkeiba/horses/2015/2015106179/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:27:15.800Z"
+  "updatedAt": "2026-08-26T20:32:25.280Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103782",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103782/",
-  "profile": null,
+  "profile": {
+    "name": "マスカレードシチー",
+    "birthDate": "2014-05-24",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "321800",
+      "name": "友駿ホースクラブ"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Tesla"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fayruz"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2284,6 +2314,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マスカレードシチー (Masquerade City) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスカレードシチー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスカレードシチー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2353,9 +2413,9 @@
       "contentHash": "a97f41dfa0cccce349e9487f412bdf569e0bdc08bc505aae262b18278cc8748e",
       "byteLength": 66498,
       "rawPath": "netkeiba/horses/2014/2014103782/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:58:25.023Z"
+  "updatedAt": "2026-08-25T21:02:59.862Z"
 }

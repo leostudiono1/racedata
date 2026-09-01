@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105312",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105312/",
-  "profile": null,
+  "profile": {
+    "name": "ワープスピード",
+    "birthDate": "2019-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "518002",
+      "name": "山田弘"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2011103897",
+      "name": "ディープラヴ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3859,6 +3889,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワープスピード (Warp Speed) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワープスピード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワープスピード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3928,9 +3988,9 @@
       "contentHash": "1a9511ba65f5e596c33795e8cb695465c3582a045f7da30d463f47836a63f661",
       "byteLength": 67099,
       "rawPath": "netkeiba/horses/2019/2019105312/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:48:35.003Z"
+  "updatedAt": "2026-08-29T18:59:35.139Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105250",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105250/",
-  "profile": null,
+  "profile": {
+    "name": "ビルカール",
+    "birthDate": "2020-04-30",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01094",
+      "name": "水野貴広"
+    },
+    "owner": {
+      "id": "319007",
+      "name": "野村茂雄"
+    },
+    "breeder": {
+      "id": "533518",
+      "name": "サンローゼン"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2014102224",
+      "name": "サンシャインキッス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -3609,6 +3639,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビルカール (Billecart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビルカール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビルカール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3678,9 +3738,9 @@
       "contentHash": "2c9f988987d545263ea455b70ea72d86c510ad23be13f900fddd0a3283a5c27f",
       "byteLength": 66850,
       "rawPath": "netkeiba/horses/2020/2020105250/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:35:44.218Z"
+  "updatedAt": "2026-08-30T18:45:12.878Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101276",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101276/",
-  "profile": null,
+  "profile": {
+    "name": "レラ",
+    "birthDate": "2018-03-31",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05217",
+      "name": "佐々木由"
+    },
+    "owner": {
+      "id": "826033",
+      "name": "欠畑圭一"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "2002107034",
+      "name": "カシマフラワー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘクタープロテクター Hector Protector(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -2377,6 +2407,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レラ (Rera) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2446,9 +2506,9 @@
       "contentHash": "22a984c41303e9baed1370db7c310234eae2b8e5644e37256918400a89c6111d",
       "byteLength": 66723,
       "rawPath": "netkeiba/horses/2018/2018101276/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:13:21.296Z"
+  "updatedAt": "2026-08-25T21:17:55.950Z"
 }

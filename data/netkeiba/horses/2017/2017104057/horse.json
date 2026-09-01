@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104057",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104057/",
-  "profile": null,
+  "profile": {
+    "name": "テレーザ",
+    "birthDate": "2017-03-18",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05752",
+      "name": "大山寿文"
+    },
+    "owner": {
+      "id": "041030",
+      "name": "門野文典"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2006101508",
+      "name": "シルバービート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シルバーチャーム Silver Charm(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -8450,6 +8480,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テレーザ (Teresa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テレーザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テレーザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8519,9 +8579,9 @@
       "contentHash": "6063a3768531fd838c23be0c45ae8162aa6ea39b78a777f3baa33eb6ea0b35b0",
       "byteLength": 66750,
       "rawPath": "netkeiba/horses/2017/2017104057/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:15:11.683Z"
+  "updatedAt": "2026-08-28T19:25:50.230Z"
 }

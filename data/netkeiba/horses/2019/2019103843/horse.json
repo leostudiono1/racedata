@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103843",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103843/",
-  "profile": null,
+  "profile": {
+    "name": "スリーアラモード",
+    "birthDate": "2019-03-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00362",
+      "name": "橋田満"
+    },
+    "owner": {
+      "id": "061800",
+      "name": "永井商事"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2010102671",
+      "name": "スリーベラミ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1033,6 +1063,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリーアラモード (Three a la Mode) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーアラモード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーアラモード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1102,9 +1162,9 @@
       "contentHash": "7bb588291ff169423b7bbf177d72c27b5d9839627d7018ec642e4d67aeb106e0",
       "byteLength": 65911,
       "rawPath": "netkeiba/horses/2019/2019103843/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:22:32.551Z"
+  "updatedAt": "2026-08-28T19:33:11.342Z"
 }

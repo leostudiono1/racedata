@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104021",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104021/",
-  "profile": null,
+  "profile": {
+    "name": "ストリ",
+    "birthDate": "2015-04-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01149",
+      "name": "松下武士"
+    },
+    "owner": {
+      "id": "693033",
+      "name": "金山敏也"
+    },
+    "breeder": {
+      "id": "313378",
+      "name": "橋本牧場"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998103333",
+      "name": "カルストンライトオ"
+    },
+    "dam": {
+      "id": "2007102549",
+      "name": "スノーヴァーダント"
+    },
+    "damsire": {
+      "id": "1986109001",
+      "name": "カコイーシーズ Cacoethes(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998103333",
@@ -1568,6 +1598,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストリ (Stri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1637,9 +1697,9 @@
       "contentHash": "7e6b483f38bc76d73acc97eb10a36581d95ff702f3afa04c6808e1e74927b279",
       "byteLength": 66252,
       "rawPath": "netkeiba/horses/2015/2015104021/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:06:26.623Z"
+  "updatedAt": "2026-08-28T19:17:05.130Z"
 }

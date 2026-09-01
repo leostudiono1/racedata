@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104684",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104684/",
-  "profile": null,
+  "profile": {
+    "name": "ウィンスタンリー",
+    "birthDate": "2022-02-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エディスワートン Edith Wharton(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1610,6 +1640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウィンスタンリー (Winstanley) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウィンスタンリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウィンスタンリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1679,9 +1739,9 @@
       "contentHash": "427c89a8a464dc1cef3c1738b4b6e8612a921ff1b3b406a71c2c90292d4df347",
       "byteLength": 67392,
       "rawPath": "netkeiba/horses/2022/2022104684/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:32:05.517Z"
+  "updatedAt": "2026-08-31T18:35:37.100Z"
 }

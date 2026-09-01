@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100128",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100128/",
-  "profile": null,
+  "profile": {
+    "name": "シゲルダンガン",
+    "birthDate": "2020-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "鈴木義久"
+    },
+    "owner": {
+      "id": "552031",
+      "name": "森中啓子"
+    },
+    "breeder": {
+      "id": "440543",
+      "name": "グローリーファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103048",
+      "name": "シゲルカガ"
+    },
+    "dam": {
+      "id": "2010110118",
+      "name": "シゲルアンドロメダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Birdstone"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103048",
@@ -1901,6 +1931,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シゲルダンガン (Shigeru Dangan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シゲルダンガン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シゲルダンガン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1970,9 +2030,9 @@
       "contentHash": "7b5a11a363317e07b2152a0b2dcd1f3ed4f4f19977f586735439027b25a92a08",
       "byteLength": 64693,
       "rawPath": "netkeiba/horses/2020/2020100128/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:23:09.537Z"
+  "updatedAt": "2026-08-25T21:27:44.245Z"
 }

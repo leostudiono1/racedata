@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110084",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110084/",
-  "profile": null,
+  "profile": {
+    "name": "ダノンラッセル",
+    "birthDate": "2022-03-14",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "619800",
+      "name": "ダノックス"
+    },
+    "breeder": {
+      "id": "510822",
+      "name": "Barronstown Stud"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Snowy Winter"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1054,6 +1084,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダノンラッセル (Danon Russell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンラッセル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダノンラッセル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1123,9 +1183,9 @@
       "contentHash": "406123673fc6eb83ac42d2aff829439a59e089996893e10b69ab3b92b422267a",
       "byteLength": 64461,
       "rawPath": "netkeiba/horses/2022/2022110084/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:33:50.562Z"
+  "updatedAt": "2026-08-31T18:37:22.247Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110106",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110106/",
-  "profile": null,
+  "profile": {
+    "name": "ナーティーボーイ",
+    "birthDate": "2012-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00409",
+      "name": "二ノ宮敬"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "270702",
+      "name": "Mrs J. Norris"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Paco Boy (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Wilaya"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -989,6 +1019,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナーティーボーイ (Naughtie Boy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナーティーボーイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナーティーボーイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1058,9 +1118,9 @@
       "contentHash": "a68e86d6a99035d2c49086ddf2a8a0da66666c26ac85d010b2473c1c8be1309f",
       "byteLength": 64377,
       "rawPath": "netkeiba/horses/2012/2012110106/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:30:06.524Z"
+  "updatedAt": "2026-08-24T23:28:30.110Z"
 }

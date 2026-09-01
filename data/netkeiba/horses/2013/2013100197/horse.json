@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100197",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100197/",
-  "profile": null,
+  "profile": {
+    "name": "ユキノロード",
+    "birthDate": "2013-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01099",
+      "name": "本田優"
+    },
+    "owner": {
+      "id": "641033",
+      "name": "遠藤定子"
+    },
+    "breeder": {
+      "id": "513353",
+      "name": "川端正博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2005102966",
+      "name": "ユキノハボタン"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1521,6 +1551,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユキノロード (Yukino Lord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユキノロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユキノロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1590,9 +1650,9 @@
       "contentHash": "5823b64b6ba0ad2fbc701226b3a4b15056724782034bb380efceebdea2fc00f9",
       "byteLength": 66235,
       "rawPath": "netkeiba/horses/2013/2013100197/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:02:31.456Z"
+  "updatedAt": "2026-08-30T18:12:00.402Z"
 }

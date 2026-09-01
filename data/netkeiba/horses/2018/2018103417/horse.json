@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103417",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103417/",
-  "profile": null,
+  "profile": {
+    "name": "ブライリー",
+    "birthDate": "2018-05-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "工藤裕孝"
+    },
+    "owner": {
+      "id": "816030",
+      "name": "牧野好行"
+    },
+    "breeder": {
+      "id": "433066",
+      "name": "荒木貴宏"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2011104066",
+      "name": "アンテプリッツ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -4758,6 +4788,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライリー (Blairii) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4827,9 +4887,9 @@
       "contentHash": "2730311394357ab496aaa9f0fdbe3e88fe2501c6d6bdf43b14f5253cb96f9054",
       "byteLength": 66532,
       "rawPath": "netkeiba/horses/2018/2018103417/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:46:44.171Z"
+  "updatedAt": "2026-08-27T19:54:20.690Z"
 }

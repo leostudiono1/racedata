@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101411",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101411/",
-  "profile": null,
+  "profile": {
+    "name": "ガリンシャ",
+    "birthDate": "2013-05-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01030",
+      "name": "星野忍"
+    },
+    "owner": {
+      "id": "910800",
+      "name": "グランデオーナーズ"
+    },
+    "breeder": {
+      "id": "030339",
+      "name": "畔柳作次"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2002102343",
+      "name": "キャラット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -1127,6 +1157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガリンシャ (Garrincha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガリンシャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガリンシャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1196,9 +1256,9 @@
       "contentHash": "10f0610b586814c4de82feab94a88cc73799bc6297173e17393d8084a469ce91",
       "byteLength": 64440,
       "rawPath": "netkeiba/horses/2013/2013101411/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:21:20.152Z"
+  "updatedAt": "2026-08-29T18:32:19.736Z"
 }

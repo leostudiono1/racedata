@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100292",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100292/",
-  "profile": null,
+  "profile": {
+    "name": "パントコート",
+    "birthDate": "2013-03-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "935496",
+      "name": "サンシャイン牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1995108837",
+      "name": "フィガロ"
+    },
+    "dam": {
+      "id": "2003106044",
+      "name": "ユーロペ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108837",
@@ -3728,6 +3758,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パントコート (Pentecote) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パントコート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パントコート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3797,9 +3857,9 @@
       "contentHash": "cac876fd4b0b46374c0a55b3724a9e4056f87fba19578bda6530f2007e764046",
       "byteLength": 66328,
       "rawPath": "netkeiba/horses/2013/2013100292/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:15:56.127Z"
+  "updatedAt": "2026-08-26T20:21:06.309Z"
 }

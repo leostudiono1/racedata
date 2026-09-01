@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102447",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102447/",
-  "profile": null,
+  "profile": {
+    "name": "キャストロット",
+    "birthDate": "2016-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "281033",
+      "name": "多田賢司"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2003103857",
+      "name": "ルスナイサンバ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -1516,6 +1546,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャストロット (Cast Lot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャストロット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャストロット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1585,9 +1645,9 @@
       "contentHash": "c0080932c7de4716f2443dd5fea99168faacafb230055eee090e7be7b8e8af50",
       "byteLength": 66082,
       "rawPath": "netkeiba/horses/2016/2016102447/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:17:03.694Z"
+  "updatedAt": "2026-08-30T18:26:32.501Z"
 }

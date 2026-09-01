@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2006105899",
   "sourceUrl": "https://db.netkeiba.com/horse/2006105899/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサン",
+    "birthDate": "2006-05-13",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00421",
+      "name": "浅野洋一"
+    },
+    "owner": {
+      "id": "016030",
+      "name": "篠崎恒雄"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "1996102905",
+      "name": "ユーワクイーン"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -5763,6 +5793,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサン (Hakusan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5832,9 +5892,9 @@
       "contentHash": "12727f90b750b33342fef4f175e5949dbe4bcf30d60149b025267e5b0d45837d",
       "byteLength": 65202,
       "rawPath": "netkeiba/horses/2006/2006105899/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:08:20.922Z"
+  "updatedAt": "2026-08-26T20:13:30.844Z"
 }

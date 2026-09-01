@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105952",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105952/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーエ",
+    "birthDate": "2023-04-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01153",
+      "name": "中舘英二"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103273",
+      "name": "トーセンレーヴ"
+    },
+    "dam": {
+      "id": "2015110067",
+      "name": "トーセンロザリオ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103273",
@@ -1716,6 +1746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーエ (Bleuet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1785,9 +1845,9 @@
       "contentHash": "fb3ccebc7451419bd6a43fc5b83ed07888bd2db4b0e6842793fc3e8c151d71c4",
       "byteLength": 65080,
       "rawPath": "netkeiba/horses/2023/2023105952/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:37:55.677Z"
+  "updatedAt": "2026-08-31T18:41:27.303Z"
 }

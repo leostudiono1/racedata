@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106001",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106001/",
-  "profile": null,
+  "profile": {
+    "name": "モーラ",
+    "birthDate": "2015-05-21",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05713",
+      "name": "山田信大"
+    },
+    "owner": {
+      "id": "136007",
+      "name": "平川浩之"
+    },
+    "breeder": {
+      "id": "233086",
+      "name": "友田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ケイムホーム Came Home(米)"
+    },
+    "dam": {
+      "id": "1997102454",
+      "name": "フジノプログレス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1670,6 +1700,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーラ (Mora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1739,9 +1799,9 @@
       "contentHash": "aa2b931e2e2657165cea02db812897f44f5fa41c2e012e2bd37e34d3765b9927",
       "byteLength": 66749,
       "rawPath": "netkeiba/horses/2015/2015106001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:01:20.305Z"
+  "updatedAt": "2026-08-31T18:04:52.082Z"
 }

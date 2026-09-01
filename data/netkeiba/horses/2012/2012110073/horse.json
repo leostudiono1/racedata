@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110073",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110073/",
-  "profile": null,
+  "profile": {
+    "name": "エイシンバンバ",
+    "birthDate": "2012-02-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01009",
+      "name": "田所秀孝"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "500702",
+      "name": "Ted Folkerth & Brookdale"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Rock Hard Ten"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Stella Blue"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Anabaa"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1571,6 +1601,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイシンバンバ (A Shin Banba) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンバンバ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイシンバンバ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1640,9 +1700,9 @@
       "contentHash": "aea7abae4efdf75ada323ae2266ad65a4ee58e94e82fc4cdeb4db8d6d767f427",
       "byteLength": 64509,
       "rawPath": "netkeiba/horses/2012/2012110073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:56:59.011Z"
+  "updatedAt": "2026-08-28T19:07:37.918Z"
 }

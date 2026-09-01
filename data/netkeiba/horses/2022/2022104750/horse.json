@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104750",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104750/",
-  "profile": null,
+  "profile": {
+    "name": "レイニング",
+    "birthDate": "2022-05-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01201",
+      "name": "森一誠"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016104505",
+      "name": "サートゥルナーリア"
+    },
+    "dam": {
+      "id": "2012104599",
+      "name": "クルミナル"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104505",
@@ -1871,6 +1901,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイニング (Reigning) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイニング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイニング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1940,9 +2000,9 @@
       "contentHash": "4b7332318bb56b2e18704ee2191a0d5fd3d9e34e0aa3d1fd036553e6c6193664",
       "byteLength": 67213,
       "rawPath": "netkeiba/horses/2022/2022104750/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:16:05.854Z"
+  "updatedAt": "2026-08-25T00:14:28.997Z"
 }

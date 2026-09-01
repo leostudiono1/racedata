@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104070",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104070/",
-  "profile": null,
+  "profile": {
+    "name": "セルジュ",
+    "birthDate": "2018-04-28",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "281033",
+      "name": "多田賢司"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2005100587",
+      "name": "サトノローズヒップ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -3038,6 +3068,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セルジュ (Serge) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルジュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルジュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3107,9 +3167,9 @@
       "contentHash": "03f8129f3afaa5f491fc0e544bd3245f82a65710deb50dd7fd5694c9b139cc5a",
       "byteLength": 66653,
       "rawPath": "netkeiba/horses/2018/2018104070/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:19:02.613Z"
+  "updatedAt": "2026-08-28T19:29:41.269Z"
 }

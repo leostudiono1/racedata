@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105381",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105381/",
-  "profile": null,
+  "profile": {
+    "name": "スピノザ",
+    "birthDate": "2021-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "879033",
+      "name": "江馬由将"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アルテリテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Literato"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1078,6 +1108,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スピノザ (Spinoza) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スピノザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スピノザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1147,9 +1207,9 @@
       "contentHash": "437b0104f6c8078f583f90aac2551ef034267d3f1b0fac9d36874b5e19dd4c25",
       "byteLength": 64599,
       "rawPath": "netkeiba/horses/2021/2021105381/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:54:02.613Z"
+  "updatedAt": "2026-08-26T20:59:12.182Z"
 }

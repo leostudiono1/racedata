@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100816",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100816/",
-  "profile": null,
+  "profile": {
+    "name": "ルエリア",
+    "birthDate": "2018-03-22",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "x0a886",
+      "name": "中野将大"
+    },
+    "breeder": {
+      "id": "033468",
+      "name": "ナカノファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2009102796",
+      "name": "ジャスティシア"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1829,6 +1859,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルエリア (Ruellia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルエリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルエリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1898,9 +1958,9 @@
       "contentHash": "7ff8a4914bd180e65a9d42995649c065af5bfa9db03545990f61aa258a77923c",
       "byteLength": 66493,
       "rawPath": "netkeiba/horses/2018/2018100816/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:17:31.765Z"
+  "updatedAt": "2026-08-28T19:28:10.318Z"
 }

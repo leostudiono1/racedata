@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100434",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100434/",
-  "profile": null,
+  "profile": {
+    "name": "シガリロ",
+    "birthDate": "2013-04-10",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05571",
+      "name": "松浦裕之"
+    },
+    "owner": {
+      "id": "x05391",
+      "name": "信田朋嗣"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2001110017",
+      "name": "リリーポンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -4885,6 +4915,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シガリロ (Cigarillo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シガリロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シガリロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4954,9 +5014,9 @@
       "contentHash": "ed5179466441a06c1c5092009e8b46d3b877101685a46945ef360c03a09c89e2",
       "byteLength": 66231,
       "rawPath": "netkeiba/horses/2013/2013100434/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:57:06.211Z"
+  "updatedAt": "2026-08-28T19:07:44.864Z"
 }

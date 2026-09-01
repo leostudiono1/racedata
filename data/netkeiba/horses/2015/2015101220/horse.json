@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101220",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101220/",
-  "profile": null,
+  "profile": {
+    "name": "ウインドトレイル",
+    "birthDate": "2015-03-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "935800",
+      "name": "木村牧場"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2001103286",
+      "name": "コンドルショット"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1645,6 +1675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウインドトレイル (Wind Trail) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインドトレイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウインドトレイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1714,9 +1774,9 @@
       "contentHash": "b5034793e4c13889fef7d9f1b400605c412f4c76bb05682feb21a19c0b19b4cb",
       "byteLength": 65787,
       "rawPath": "netkeiba/horses/2015/2015101220/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:24:02.642Z"
+  "updatedAt": "2026-08-26T20:29:12.627Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101545",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101545/",
-  "profile": null,
+  "profile": {
+    "name": "メープルパール",
+    "birthDate": "2013-04-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004102987",
+      "name": "アドマイヤオーラ"
+    },
+    "dam": {
+      "id": "2007104474",
+      "name": "ハニーカラー"
+    },
+    "damsire": {
+      "id": "1994109494",
+      "name": "スピードワールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2004102987",
@@ -1930,6 +1960,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メープルパール (Maple Pearl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メープルパール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メープルパール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1999,9 +2059,9 @@
       "contentHash": "073e9e95c1127d0c4b8fdb2865d5dc3b3badaa3ad549cf283150f5b7254048de",
       "byteLength": 65249,
       "rawPath": "netkeiba/horses/2013/2013101545/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:24:12.384Z"
+  "updatedAt": "2026-08-27T19:31:49.133Z"
 }

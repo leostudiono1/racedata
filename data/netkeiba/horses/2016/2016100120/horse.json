@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100120",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100120/",
-  "profile": null,
+  "profile": {
+    "name": "マトイ",
+    "birthDate": "2016-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05675",
+      "name": "笹野博司"
+    },
+    "owner": {
+      "id": "876033",
+      "name": "坂本守孝"
+    },
+    "breeder": {
+      "id": "930318",
+      "name": "大林ファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    },
+    "dam": {
+      "id": "2006104697",
+      "name": "シャインレジーナ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2464,6 +2494,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マトイ (Matoi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マトイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マトイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2533,9 +2593,9 @@
       "contentHash": "4ca84cdc8fa295f311ce1f2b5f74fe313f6c4b3176c7f2f3ada4bc7a3af9a2d8",
       "byteLength": 65558,
       "rawPath": "netkeiba/horses/2016/2016100120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:03:50.559Z"
+  "updatedAt": "2026-08-25T21:08:25.282Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104522",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104522/",
-  "profile": null,
+  "profile": {
+    "name": "アークシップ",
+    "birthDate": "2020-05-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05707",
+      "name": "諏訪貴正"
+    },
+    "owner": {
+      "id": "818800",
+      "name": "（株）イージス"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2011102209",
+      "name": "マザーシップ"
+    },
+    "damsire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2328,6 +2358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アークシップ (Ark Ship) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークシップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークシップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2397,9 +2457,9 @@
       "contentHash": "dc038e7dcad415ded43d03b2b3ee91addfdbf5564c551203ffb7f45828fb44dd",
       "byteLength": 66953,
       "rawPath": "netkeiba/horses/2020/2020104522/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:27:54.735Z"
+  "updatedAt": "2026-08-28T19:38:33.494Z"
 }

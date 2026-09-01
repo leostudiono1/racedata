@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110039",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110039/",
-  "profile": null,
+  "profile": {
+    "name": "キエレ",
+    "birthDate": "2014-03-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "480705",
+      "name": "North Hills Co. Ltd."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    },
+    "dam": {
+      "id": "2000105086",
+      "name": "ヘヴンリーロマンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1606,6 +1636,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キエレ (Kiele) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キエレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キエレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1675,9 +1735,9 @@
       "contentHash": "e4f68e13f442ef292c58be3a4e519a5bcfe05e9f818d70a3ee2e8444e1969476",
       "byteLength": 66696,
       "rawPath": "netkeiba/horses/2014/2014110039/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:28:19.943Z"
+  "updatedAt": "2026-08-29T18:39:19.865Z"
 }

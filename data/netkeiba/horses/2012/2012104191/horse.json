@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104191",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104191/",
-  "profile": null,
+  "profile": {
+    "name": "フロリアード",
+    "birthDate": "2012-03-15",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2003102548",
+      "name": "キャスケードブーケ"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3101,6 +3131,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロリアード (Floriade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロリアード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロリアード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3170,9 +3230,9 @@
       "contentHash": "9eeec7d8b35b4668b9ffeed4de93cc79b974cfe864936c6b85a43904c1fc5061",
       "byteLength": 64456,
       "rawPath": "netkeiba/horses/2012/2012104191/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:28:21.485Z"
+  "updatedAt": "2026-08-24T23:26:45.069Z"
 }

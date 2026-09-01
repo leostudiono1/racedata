@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106221",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106221/",
-  "profile": null,
+  "profile": {
+    "name": "ナイスワン",
+    "birthDate": "2013-04-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "307033",
+      "name": "田畑富子"
+    },
+    "breeder": {
+      "id": "533025",
+      "name": "中橋清"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102955",
+      "name": "フサイチリシャール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジョージアンベイ Georgian Bay(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102955",
@@ -2387,6 +2417,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナイスワン (Nice One) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナイスワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナイスワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2456,9 +2516,9 @@
       "contentHash": "43d0ebbd8a9fce176e5c3aad68a46d290f5b22c9cdd300a3651577a7540d6a00",
       "byteLength": 66899,
       "rawPath": "netkeiba/horses/2013/2013106221/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:52:42.563Z"
+  "updatedAt": "2026-08-31T17:56:13.946Z"
 }

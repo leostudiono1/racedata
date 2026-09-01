@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101812",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101812/",
-  "profile": null,
+  "profile": {
+    "name": "アロハカウボーイ",
+    "birthDate": "2012-05-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "803320",
+      "name": "日高大洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2008103182",
+      "name": "ペニーブラック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Redoute's Choice"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1640,6 +1670,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アロハカウボーイ (Aloha Cowboy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アロハカウボーイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アロハカウボーイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1709,9 +1769,9 @@
       "contentHash": "f567fc3e55723bd1dde52037ac5c0c31ca7e13de7afc2d63fc3d6e59318d49c3",
       "byteLength": 64959,
       "rawPath": "netkeiba/horses/2012/2012101812/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:49:04.676Z"
+  "updatedAt": "2026-08-25T20:53:39.543Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102022",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102022/",
-  "profile": null,
+  "profile": {
+    "name": "アイスナイン",
+    "birthDate": "2017-03-17",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2010104187",
+      "name": "ロンギングシャネル"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4774,6 +4804,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイスナイン (Ice Nine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイスナイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイスナイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4843,9 +4903,9 @@
       "contentHash": "9026de2bc0283d0cb0c2b13bd13c6a2538000fc0fcc33fa6b1659ac68ef71860",
       "byteLength": 66849,
       "rawPath": "netkeiba/horses/2017/2017102022/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:33:47.958Z"
+  "updatedAt": "2026-08-26T20:38:57.320Z"
 }

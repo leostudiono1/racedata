@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104900",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104900/",
-  "profile": null,
+  "profile": {
+    "name": "クロユキ",
+    "birthDate": "2022-03-24",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "356803",
+      "name": "インゼルレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2013105882",
+      "name": "チカリータ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2359,6 +2389,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロユキ (Kuroyuki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロユキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロユキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2428,9 +2488,9 @@
       "contentHash": "98c36261e69fd75910ed07fe883c428c844cb67e094cd517b404da2dd2306602",
       "byteLength": 67154,
       "rawPath": "netkeiba/horses/2022/2022104900/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:43:11.840Z"
+  "updatedAt": "2026-08-30T18:52:41.051Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105393",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105393/",
-  "profile": null,
+  "profile": {
+    "name": "エストロ",
+    "birthDate": "2017-01-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008103322",
+      "name": "スピードリッパー"
+    },
+    "damsire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1479,6 +1509,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エストロ (Estro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エストロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エストロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1548,9 +1608,9 @@
       "contentHash": "fc7d6e23195fdd99918f56e026a8effcf7b586dda0ca49c30df00655d80fed88",
       "byteLength": 67219,
       "rawPath": "netkeiba/horses/2017/2017105393/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:23:49.508Z"
+  "updatedAt": "2026-08-30T18:33:18.416Z"
 }

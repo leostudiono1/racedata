@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101035",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101035/",
-  "profile": null,
+  "profile": {
+    "name": "テリコス",
+    "birthDate": "2023-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "498031",
+      "name": "平沼龍漢"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "インドリヤ Indriya(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1509,6 +1539,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テリコス (Telikos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テリコス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テリコス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1578,9 +1638,9 @@
       "contentHash": "acf2dcbb5c0829c4e610179f17ccb8385737db354c5f6852cd88ce3d50ac6980",
       "byteLength": 65471,
       "rawPath": "netkeiba/horses/2023/2023101035/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:34:18.740Z"
+  "updatedAt": "2026-08-31T18:37:50.873Z"
 }

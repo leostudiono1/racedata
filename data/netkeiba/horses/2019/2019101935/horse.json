@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101935",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101935/",
-  "profile": null,
+  "profile": {
+    "name": "マイトシップ",
+    "birthDate": "2019-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "x075e2",
+      "name": "出口俊一"
+    },
+    "breeder": {
+      "id": "403394",
+      "name": "出口牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009102739",
+      "name": "ゴールドシップ"
+    },
+    "dam": {
+      "id": "2001106467",
+      "name": "セカンドノホシ"
+    },
+    "damsire": {
+      "id": "1981107017",
+      "name": "シンボリルドルフ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102739",
@@ -4959,6 +4989,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイトシップ (Mateship) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイトシップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイトシップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5028,9 +5088,9 @@
       "contentHash": "8a72b73b09720581ed4c2a288c6b0334caaf25707af1795393c4483cd822f781",
       "byteLength": 66832,
       "rawPath": "netkeiba/horses/2019/2019101935/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:42:36.305Z"
+  "updatedAt": "2026-08-26T20:47:45.909Z"
 }

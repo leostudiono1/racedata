@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104590",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104590/",
-  "profile": null,
+  "profile": {
+    "name": "ユッコ",
+    "birthDate": "2012-01-25",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05417",
+      "name": "佐藤雅彦"
+    },
+    "owner": {
+      "id": "775006",
+      "name": "瀬谷隆雄"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2000110169",
+      "name": "キッズスター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Saint Ballado"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -5712,6 +5742,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユッコ (Yukko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユッコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユッコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5781,9 +5841,9 @@
       "contentHash": "bd0c4e9b9b87b97dc22bc634df07e12eb3369b281654fab9d20214e7bbec96b6",
       "byteLength": 66834,
       "rawPath": "netkeiba/horses/2012/2012104590/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:00:56.986Z"
+  "updatedAt": "2026-08-30T18:10:25.902Z"
 }

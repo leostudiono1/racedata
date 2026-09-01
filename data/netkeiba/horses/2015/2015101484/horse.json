@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101484",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101484/",
-  "profile": null,
+  "profile": {
+    "name": "ポッドジゼル",
+    "birthDate": "2015-05-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "042033",
+      "name": "小川眞査雄"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2007110083",
+      "name": "スイレン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Roman Ruler"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2295,6 +2325,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポッドジゼル (Pod Gisele) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドジゼル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッドジゼル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2364,9 +2424,9 @@
       "contentHash": "551635ab64585de869d1861504fbf29828286e6cf4e0dc5fb24129feec9ada8b",
       "byteLength": 65811,
       "rawPath": "netkeiba/horses/2015/2015101484/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:29:30.070Z"
+  "updatedAt": "2026-08-29T18:40:29.901Z"
 }

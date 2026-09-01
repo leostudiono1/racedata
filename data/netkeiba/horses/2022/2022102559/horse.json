@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102559",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102559/",
-  "profile": null,
+  "profile": {
+    "name": "グリスタン",
+    "birthDate": "2022-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "澤佳宏"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "610030",
+      "name": "アイオイファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "2013102949",
+      "name": "エイシンシルダリア"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -3450,6 +3480,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリスタン (Guliston) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリスタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリスタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3519,9 +3579,9 @@
       "contentHash": "9925f7183953351b18592417c0700b8e60365099853fa62475b47b430c9e7ffd",
       "byteLength": 66881,
       "rawPath": "netkeiba/horses/2022/2022102559/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:31:13.160Z"
+  "updatedAt": "2026-08-31T18:34:44.682Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104329",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104329/",
-  "profile": null,
+  "profile": {
+    "name": "ベッペ",
+    "birthDate": "2018-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川添明弘"
+    },
+    "owner": {
+      "id": "x09a5a",
+      "name": "インターフェース（同"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2009110071",
+      "name": "ダークマレイン"
+    },
+    "damsire": {
+      "id": "2005102676",
+      "name": "サブミーカー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -6378,6 +6408,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベッペ (Beppe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッペ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッペ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6447,9 +6507,9 @@
       "contentHash": "9c92af827b24ff5f077feea3238ada9da28d9d97524bd20565bfdd261048311c",
       "byteLength": 66627,
       "rawPath": "netkeiba/horses/2018/2018104329/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:47:05.167Z"
+  "updatedAt": "2026-08-27T19:54:41.711Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103115",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103115/",
-  "profile": null,
+  "profile": {
+    "name": "ベスティー",
+    "birthDate": "2017-05-05",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "小村正也"
+    },
+    "owner": {
+      "id": "x06e26",
+      "name": "（株）ファーストビ"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011102417",
+      "name": "ファーガソン"
+    },
+    "dam": {
+      "id": "2010104265",
+      "name": "フレンズ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011102417",
@@ -3828,6 +3858,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベスティー (Bestie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベスティー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベスティー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3897,9 +3957,9 @@
       "contentHash": "3ba1bff68485666d6a341e3997791bd775a3886a579a1e82dd9dfc14725bd628",
       "byteLength": 66126,
       "rawPath": "netkeiba/horses/2017/2017103115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:52:34.596Z"
+  "updatedAt": "2026-08-24T23:50:57.987Z"
 }

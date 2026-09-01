@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102790",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102790/",
-  "profile": null,
+  "profile": {
+    "name": "グランミューク",
+    "birthDate": "2016-03-05",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "雑賀正光"
+    },
+    "owner": {
+      "id": "597033",
+      "name": "庄司修二"
+    },
+    "breeder": {
+      "id": "503341",
+      "name": "新井昭二"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2006109088",
+      "name": "オートクチュール"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -3487,6 +3517,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランミューク (Grand Mjuk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランミューク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランミューク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3556,9 +3616,9 @@
       "contentHash": "b75088c23fd29a282d9a535bc1d759e90a1e98a10e90cfbabf362f9b7eac94de",
       "byteLength": 64822,
       "rawPath": "netkeiba/horses/2016/2016102790/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:03:26.767Z"
+  "updatedAt": "2026-08-31T18:06:58.486Z"
 }

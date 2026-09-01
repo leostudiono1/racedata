@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014109097",
   "sourceUrl": "https://db.netkeiba.com/horse/2014109097/",
-  "profile": null,
+  "profile": {
+    "name": "メイキャロル",
+    "birthDate": "2014-03-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01047",
+      "name": "勢司和浩"
+    },
+    "owner": {
+      "id": "075800",
+      "name": "千明牧場"
+    },
+    "breeder": {
+      "id": "230123",
+      "name": "千明牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2005109276",
+      "name": "スウォードデジタル"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -1593,6 +1623,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイキャロル (May Carol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイキャロル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイキャロル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1662,9 +1722,9 @@
       "contentHash": "9fa5274351d506eebc9547a665c3010596855535315022f3f7b00ba6b53f3833",
       "byteLength": 64667,
       "rawPath": "netkeiba/horses/2014/2014109097/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:10:52.208Z"
+  "updatedAt": "2026-08-30T18:20:20.980Z"
 }

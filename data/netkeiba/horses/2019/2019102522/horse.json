@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102522",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102522/",
-  "profile": null,
+  "profile": {
+    "name": "ドグマ",
+    "birthDate": "2019-03-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "628031",
+      "name": "稲場澄"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2007102038",
+      "name": "ショウナンカラット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -3787,6 +3817,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドグマ (Dogma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドグマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドグマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3856,9 +3916,9 @@
       "contentHash": "55086b9fa8075e79cf4824cf98464157565b925ffc388f455b0ce38e6ccbe5fc",
       "byteLength": 66698,
       "rawPath": "netkeiba/horses/2019/2019102522/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:47:00.471Z"
+  "updatedAt": "2026-08-29T18:58:00.679Z"
 }

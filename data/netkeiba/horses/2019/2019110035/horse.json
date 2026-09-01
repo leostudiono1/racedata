@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110035",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110035/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーン",
+    "birthDate": "2019-03-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "220739",
+      "name": "Mr J. W. Mitchell"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Exceed And Excel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Rouge Dancer"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive City"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -974,6 +1004,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーン (Bruhn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1043,9 +1103,9 @@
       "contentHash": "be2f2206289a07800dbb9f39001d31f75bbeb3846073ede3e77f150e28f7a388",
       "byteLength": 64249,
       "rawPath": "netkeiba/horses/2019/2019110035/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:25:13.608Z"
+  "updatedAt": "2026-08-28T19:35:52.400Z"
 }

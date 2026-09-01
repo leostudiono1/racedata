@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101171",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101171/",
-  "profile": null,
+  "profile": {
+    "name": "ライトトップワン",
+    "birthDate": "2012-03-30",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "雑賀正光"
+    },
+    "owner": {
+      "id": "x06030",
+      "name": "公文進児"
+    },
+    "breeder": {
+      "id": "403348",
+      "name": "賀張中川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2005103428",
+      "name": "ホーリーウィング"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -4603,6 +4633,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライトトップワン (Light Top One) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライトトップワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライトトップワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4672,9 +4732,9 @@
       "contentHash": "8ec0881f392ac17dc2aa2a82460789b245567cb31f8270941485f330941d59cb",
       "byteLength": 64545,
       "rawPath": "netkeiba/horses/2012/2012101171/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:17:53.342Z"
+  "updatedAt": "2026-08-29T18:28:53.157Z"
 }

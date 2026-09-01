@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101864",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101864/",
-  "profile": null,
+  "profile": {
+    "name": "クロニクル",
+    "birthDate": "2019-04-10",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01219",
+      "name": "平岩大典"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アーキオロジー Archeology(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3458,6 +3488,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロニクル (Chronicle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロニクル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロニクル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3527,9 +3587,9 @@
       "contentHash": "550136799b75d67b92ea60a8ed8d558c6fdafad65b610cf0bdbc4a40a29478b9",
       "byteLength": 66910,
       "rawPath": "netkeiba/horses/2019/2019101864/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:16:20.261Z"
+  "updatedAt": "2026-08-31T18:19:51.764Z"
 }

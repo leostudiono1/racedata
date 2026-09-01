@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101705",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101705/",
-  "profile": null,
+  "profile": {
+    "name": "ニシノマジック",
+    "birthDate": "2012-03-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "冨田敏男"
+    },
+    "owner": {
+      "id": "094031",
+      "name": "冨田藤男"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999110191",
+      "name": "アサクサデンエン"
+    },
+    "dam": {
+      "id": "1999110133",
+      "name": "スターデュエット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dixieland Band"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110191",
@@ -11039,6 +11069,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ニシノマジック (Nishino Magic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニシノマジック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニシノマジック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -11108,9 +11168,9 @@
       "contentHash": "3c6a929fb764aaa7375d7681a930a905f441cfd74a180659119e13223c179cf0",
       "byteLength": 66124,
       "rawPath": "netkeiba/horses/2012/2012101705/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:12:09.065Z"
+  "updatedAt": "2026-08-26T20:17:18.610Z"
 }

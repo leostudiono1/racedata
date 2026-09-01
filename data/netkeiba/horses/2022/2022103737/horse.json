@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103737",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103737/",
-  "profile": null,
+  "profile": {
+    "name": "バッドガール",
+    "birthDate": "2022-02-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01164",
+      "name": "安田翔伍"
+    },
+    "owner": {
+      "id": "199031",
+      "name": "エムズレーシング"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カレドニアロード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Quality Road"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1498,6 +1528,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バッドガール (Bad Girl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バッドガール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バッドガール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1567,9 +1627,9 @@
       "contentHash": "451172cc0ebbf82f9208a05d9f293b177be1157ff2bcdb09c1688db71857c699",
       "byteLength": 64985,
       "rawPath": "netkeiba/horses/2022/2022103737/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T21:00:08.192Z"
+  "updatedAt": "2026-08-29T19:11:08.070Z"
 }

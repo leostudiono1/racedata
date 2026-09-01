@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101173",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101173/",
-  "profile": null,
+  "profile": {
+    "name": "ミステリーハンター",
+    "birthDate": "2013-06-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05688",
+      "name": "小野望"
+    },
+    "owner": {
+      "id": "x0893b",
+      "name": "（有）ファンタストク"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フレンドリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lear Fan"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -7315,6 +7345,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミステリーハンター (Mystery Hunter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミステリーハンター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミステリーハンター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7384,9 +7444,9 @@
       "contentHash": "42654c3cdd46e0bf122a73a4fd3156c548fd4df8c4ff65b450547129e8af5551",
       "byteLength": 64715,
       "rawPath": "netkeiba/horses/2013/2013101173/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:21:09.471Z"
+  "updatedAt": "2026-08-29T18:32:09.410Z"
 }

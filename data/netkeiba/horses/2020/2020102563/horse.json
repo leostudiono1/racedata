@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102563",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102563/",
-  "profile": null,
+  "profile": {
+    "name": "ルカン",
+    "birthDate": "2020-01-26",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01200",
+      "name": "藤野健太"
+    },
+    "owner": {
+      "id": "350031",
+      "name": "フォレストレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スパニッシュクイーン Spanish Queen(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tribal Rule"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2710,6 +2740,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルカン (Requin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルカン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルカン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2779,9 +2839,9 @@
       "contentHash": "5c64fb8f59d5cb5bbf69be58860d58a8c90db6bc2799b9e9b5f9d5f5594e89a1",
       "byteLength": 66718,
       "rawPath": "netkeiba/horses/2020/2020102563/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:05:07.388Z"
+  "updatedAt": "2026-08-25T00:03:30.754Z"
 }

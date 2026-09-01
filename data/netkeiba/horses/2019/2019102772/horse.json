@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102772",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102772/",
-  "profile": null,
+  "profile": {
+    "name": "ピンハイ",
+    "birthDate": "2019-02-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01180",
+      "name": "田中克典"
+    },
+    "owner": {
+      "id": "599030",
+      "name": "北畑忍"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2008102894",
+      "name": "レイテッド"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -2368,6 +2398,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピンハイ (Pin High) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンハイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピンハイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2437,9 +2497,9 @@
       "contentHash": "3dea86d3a5de672af8f836addc0ef47d2c3f8b97314cb716ae2a31dcb3547f27",
       "byteLength": 66795,
       "rawPath": "netkeiba/horses/2019/2019102772/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:16:55.262Z"
+  "updatedAt": "2026-08-31T18:20:27.234Z"
 }

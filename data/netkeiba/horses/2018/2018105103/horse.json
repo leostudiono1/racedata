@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105103",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105103/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーフランケル",
+    "birthDate": "2018-02-28",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スノーパイン Snow Pine(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dalakhani"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4720,6 +4750,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーフランケル (Mikki Frankel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーフランケル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーフランケル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4789,9 +4849,9 @@
       "contentHash": "527989e3a4ab3dcc262cc43ceefbf213621bce25e124f76eebe9e62879e89529",
       "byteLength": 67049,
       "rawPath": "netkeiba/horses/2018/2018105103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:27:19.696Z"
+  "updatedAt": "2026-08-30T18:36:48.341Z"
 }

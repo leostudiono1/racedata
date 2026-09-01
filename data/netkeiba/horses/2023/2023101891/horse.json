@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101891",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101891/",
-  "profile": null,
+  "profile": {
+    "name": "バディ",
+    "birthDate": "2023-02-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2015104310",
+      "name": "カリンカ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1227,6 +1257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バディ (Buddy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1296,9 +1356,9 @@
       "contentHash": "ed3bcf20a99bec7484bc9bc1fd86872036faf7a726ee2213e00ee508ebe23e6a",
       "byteLength": 67044,
       "rawPath": "netkeiba/horses/2023/2023101891/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:37:16.843Z"
+  "updatedAt": "2026-08-25T21:41:51.900Z"
 }

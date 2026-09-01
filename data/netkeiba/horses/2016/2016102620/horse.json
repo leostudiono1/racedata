@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102620",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102620/",
-  "profile": null,
+  "profile": {
+    "name": "ディード",
+    "birthDate": "2016-05-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011102417",
+      "name": "ファーガソン"
+    },
+    "dam": {
+      "id": "2010104265",
+      "name": "フレンズ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011102417",
@@ -3728,6 +3758,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ディード (Deed) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ディード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3797,9 +3857,9 @@
       "contentHash": "ee5089f3ab0376f1c0a527dc9d80ffc5e66f5a817df1a0e9c73122bab91e2e17",
       "byteLength": 66385,
       "rawPath": "netkeiba/horses/2016/2016102620/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:47:37.000Z"
+  "updatedAt": "2026-08-24T23:46:00.348Z"
 }

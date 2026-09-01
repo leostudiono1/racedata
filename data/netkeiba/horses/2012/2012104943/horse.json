@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104943",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104943/",
-  "profile": null,
+  "profile": {
+    "name": "プレシャスロード",
+    "birthDate": "2012-03-05",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "953030",
+      "name": "山本三津子"
+    },
+    "breeder": {
+      "id": "510000",
+      "name": "エクセルマネジメント"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "1993106320",
+      "name": "エリモシック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ダンシングブレーヴ Dancing Brave(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -3571,6 +3601,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレシャスロード (Precious Lord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレシャスロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレシャスロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3640,9 +3700,9 @@
       "contentHash": "84a7aeb094d098fbd55b814e29e02da97a2a97158dbc8aac9b96522d6e9551aa",
       "byteLength": 65312,
       "rawPath": "netkeiba/horses/2012/2012104943/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:28:57.054Z"
+  "updatedAt": "2026-08-24T23:27:20.027Z"
 }

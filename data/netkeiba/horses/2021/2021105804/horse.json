@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105804",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105804/",
-  "profile": null,
+  "profile": {
+    "name": "アートワーク",
+    "birthDate": "2021-05-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2013110037",
+      "name": "ミスドバウィ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1009,6 +1039,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アートワーク (Artwork) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アートワーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アートワーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1078,9 +1138,9 @@
       "contentHash": "8ac309f43f91c9a8189bbee2cfc69ef2cacfeab128906506fa3cb00286e5c7d4",
       "byteLength": 64420,
       "rawPath": "netkeiba/horses/2021/2021105804/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:57:16.549Z"
+  "updatedAt": "2026-08-29T19:08:16.427Z"
 }

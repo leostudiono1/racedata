@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110052",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110052/",
-  "profile": null,
+  "profile": {
+    "name": "ダークモード",
+    "birthDate": "2020-01-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05628",
+      "name": "山中尊徳"
+    },
+    "owner": {
+      "id": "x02a05",
+      "name": "三河辰已"
+    },
+    "breeder": {
+      "id": "410736",
+      "name": "Paul & Billy McEnery"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Dark Angel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Royal Majestic"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tobougg (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2665,6 +2695,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダークモード (Dark Mode) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダークモード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダークモード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2734,9 +2794,9 @@
       "contentHash": "5ef3bd39acb61b99b612fb126b940a1f84ea55972be7fc429399971f06330006",
       "byteLength": 65777,
       "rawPath": "netkeiba/horses/2020/2020110052/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:29:53.755Z"
+  "updatedAt": "2026-08-28T19:40:32.806Z"
 }

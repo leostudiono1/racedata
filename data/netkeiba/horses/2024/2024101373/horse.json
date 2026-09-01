@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024101373",
   "sourceUrl": "https://db.netkeiba.com/horse/2024101373/",
-  "profile": null,
+  "profile": {
+    "name": "スウィット",
+    "birthDate": "2024-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "190803",
+      "name": "ネコメンレーシング"
+    },
+    "breeder": {
+      "id": "610362",
+      "name": "中田牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2018104610",
+      "name": "マツヨイヒメ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -1122,6 +1152,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スウィット (Suwitto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スウィット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スウィット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1191,9 +1251,9 @@
       "contentHash": "dc3f363504c016203d675c4a2146da4cf31c53eac78f0126c08bf2a5ab249ace",
       "byteLength": 64703,
       "rawPath": "netkeiba/horses/2024/2024101373/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:40:29.353Z"
+  "updatedAt": "2026-08-25T21:45:03.977Z"
 }

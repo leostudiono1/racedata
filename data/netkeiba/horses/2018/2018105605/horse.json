@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105605",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105605/",
-  "profile": null,
+  "profile": {
+    "name": "セブンデイズ",
+    "birthDate": "2018-03-13",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "903007",
+      "name": "前迫義幸"
+    },
+    "breeder": {
+      "id": "343374",
+      "name": "上水牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2009106432",
+      "name": "ウインガイア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Broken Vow"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -4532,6 +4562,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セブンデイズ (Seven Days) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セブンデイズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セブンデイズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4601,9 +4661,9 @@
       "contentHash": "8b92f8e47625c74062cf5edc2cb2b567fceef6254c024e5295eab0f47315186a",
       "byteLength": 66839,
       "rawPath": "netkeiba/horses/2018/2018105605/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:58:24.743Z"
+  "updatedAt": "2026-08-24T23:56:48.202Z"
 }

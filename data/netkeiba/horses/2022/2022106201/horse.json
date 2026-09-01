@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106201",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106201/",
-  "profile": null,
+  "profile": {
+    "name": "ミユンガー",
+    "birthDate": "2022-04-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05607",
+      "name": "堀千亜樹"
+    },
+    "owner": {
+      "id": "798008",
+      "name": "一村哲也"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ニューイヤーズデイ"
+    },
+    "dam": {
+      "id": "2009110131",
+      "name": "ムニン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3546,6 +3576,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミユンガー (Miyunga) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミユンガー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミユンガー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3615,9 +3675,9 @@
       "contentHash": "8034e49e33871bd87c1c32352a0e1c3e02576358ade6bc74b5dfeb841fcea672",
       "byteLength": 65637,
       "rawPath": "netkeiba/horses/2022/2022106201/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:44:11.353Z"
+  "updatedAt": "2026-08-30T18:53:40.156Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101650",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101650/",
-  "profile": null,
+  "profile": {
+    "name": "サリュエ",
+    "birthDate": "2021-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ザミリア Zameyla(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cape Cross"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -2722,6 +2752,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サリュエ (Saluez) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリュエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリュエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2791,9 +2851,9 @@
       "contentHash": "fcf6528bf7635635d1b2a3874630e00cf68fe0318ab3facc241cd28a9ee85f2f",
       "byteLength": 65437,
       "rawPath": "netkeiba/horses/2021/2021101650/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:58:52.371Z"
+  "updatedAt": "2026-08-27T20:06:28.844Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110080",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110080/",
-  "profile": null,
+  "profile": {
+    "name": "オールドベイリー",
+    "birthDate": "2014-04-06",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05689",
+      "name": "安田武広"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "150708",
+      "name": "Elm Tree Farm LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "To Honor and Serve (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Passion Du Coeur"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Distorted Humor (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3669,6 +3699,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オールドベイリー (Old Bailey) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールドベイリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールドベイリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3738,9 +3798,9 @@
       "contentHash": "81d56a5c2269392392e20cc5e7897a0802449236dab24f2a993549a59c2ca8df",
       "byteLength": 66949,
       "rawPath": "netkeiba/horses/2014/2014110080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:28:27.038Z"
+  "updatedAt": "2026-08-29T18:39:27.266Z"
 }

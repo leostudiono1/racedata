@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110018",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110018/",
-  "profile": null,
+  "profile": {
+    "name": "ルージュアテナ",
+    "birthDate": "2020-05-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "740708",
+      "name": "Teruya Yoshida"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tapiture"
+    },
+    "dam": {
+      "id": "000",
+      "name": "インフレイムド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unusual Heat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1093,6 +1123,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルージュアテナ (Rouge Athena) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルージュアテナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルージュアテナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1162,9 +1222,9 @@
       "contentHash": "b9077daed4ed744659f7adf3c0df0fc5fc98c39c2aaf960014c696629583e220",
       "byteLength": 67263,
       "rawPath": "netkeiba/horses/2020/2020110018/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:57:49.234Z"
+  "updatedAt": "2026-08-27T20:05:25.824Z"
 }

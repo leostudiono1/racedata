@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105144",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105144/",
-  "profile": null,
+  "profile": {
+    "name": "チカリヨン",
+    "birthDate": "2018-02-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "384031",
+      "name": "松島千佳"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2013110130",
+      "name": "テンプルステイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sepoy"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2553,6 +2583,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チカリヨン (Chika Lyon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカリヨン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカリヨン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2622,9 +2682,9 @@
       "contentHash": "18ba8831556f18d09959a28a1d5cd89028df6a8516eb6d46976126f7112ff85d",
       "byteLength": 66864,
       "rawPath": "netkeiba/horses/2018/2018105144/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:39:51.699Z"
+  "updatedAt": "2026-08-26T20:45:01.756Z"
 }

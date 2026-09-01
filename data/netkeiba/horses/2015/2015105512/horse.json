@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105512",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105512/",
-  "profile": null,
+  "profile": {
+    "name": "リズロン",
+    "birthDate": "2015-05-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2003102765",
+      "name": "ホーリーミスト"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1756,6 +1786,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リズロン (Liseron) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リズロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リズロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1825,9 +1885,9 @@
       "contentHash": "ba9a18b50984f2419d5462570fd3398311ffb19ed52770685f4fe94a27bf2909",
       "byteLength": 66635,
       "rawPath": "netkeiba/horses/2015/2015105512/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:07:39.724Z"
+  "updatedAt": "2026-08-28T19:18:18.560Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106900",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106900/",
-  "profile": null,
+  "profile": {
+    "name": "ミツカネトーラス",
+    "birthDate": "2021-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05720",
+      "name": "伊藤和忍"
+    },
+    "owner": {
+      "id": "006803",
+      "name": "小山田満"
+    },
+    "breeder": {
+      "id": "000316",
+      "name": "細川農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2016101226",
+      "name": "ミツカネラブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -3404,6 +3434,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミツカネトーラス (Mitsukane Taurus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミツカネトーラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミツカネトーラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3473,9 +3533,9 @@
       "contentHash": "1b7bf8ff5051baad8f228f852fc50e82dcba6c633c3bbdf929e300c448360bce",
       "byteLength": 65891,
       "rawPath": "netkeiba/horses/2021/2021106900/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:34:23.921Z"
+  "updatedAt": "2026-08-28T19:45:02.077Z"
 }

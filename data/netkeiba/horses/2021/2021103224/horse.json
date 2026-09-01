@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103224",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103224/",
-  "profile": null,
+  "profile": {
+    "name": "モーニングコート",
+    "birthDate": "2021-04-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "091803",
+      "name": "山紫水明"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2015110007",
+      "name": "オペラグローブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1466,6 +1496,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーニングコート (Morning Coat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーニングコート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーニングコート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1535,9 +1595,9 @@
       "contentHash": "8cae355f89df10d20725bfebe3ac7ecc3b0326fae362f5ecc06ebaf5a1053f91",
       "byteLength": 65668,
       "rawPath": "netkeiba/horses/2021/2021103224/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:55:42.094Z"
+  "updatedAt": "2026-08-29T19:06:41.999Z"
 }

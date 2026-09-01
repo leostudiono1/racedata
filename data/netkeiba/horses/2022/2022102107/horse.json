@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102107",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102107/",
-  "profile": null,
+  "profile": {
+    "name": "トモエジョウ",
+    "birthDate": "2022-05-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01066",
+      "name": "岡田稲男"
+    },
+    "owner": {
+      "id": "321004",
+      "name": "河内孝夫"
+    },
+    "breeder": {
+      "id": "733329",
+      "name": "増尾牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2014100450",
+      "name": "クロフネジョウ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1909,6 +1939,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トモエジョウ (Tomoe Jo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トモエジョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トモエジョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1978,9 +2038,9 @@
       "contentHash": "677719c238c35d7740fef1b19a051faafccc723ac09241b60798f239b4490e97",
       "byteLength": 66861,
       "rawPath": "netkeiba/horses/2022/2022102107/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:30:55.496Z"
+  "updatedAt": "2026-08-31T18:34:27.096Z"
 }

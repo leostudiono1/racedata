@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105401",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105401/",
-  "profile": null,
+  "profile": {
+    "name": "インフィニタス",
+    "birthDate": "2018-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009106569",
+      "name": "アンチュラス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2823,6 +2853,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インフィニタス (Infinitas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インフィニタス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インフィニタス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2892,9 +2952,9 @@
       "contentHash": "55c20ec85bb012fef29653041f97f815fcb2b1b148e092b72a37d337a265440e",
       "byteLength": 67430,
       "rawPath": "netkeiba/horses/2018/2018105401/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:16:40.811Z"
+  "updatedAt": "2026-08-25T21:21:15.625Z"
 }

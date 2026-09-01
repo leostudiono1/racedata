@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100526",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100526/",
-  "profile": null,
+  "profile": {
+    "name": "ピリー",
+    "birthDate": "2021-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05727",
+      "name": "福永敏"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "203065",
+      "name": "山際牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2004101627",
+      "name": "ミルクトーレル"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -2591,6 +2621,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピリー (Pirie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2660,9 +2720,9 @@
       "contentHash": "2ebe2a1e3130491fabfd098a366513def45bc5d571624ace0c9b2966ccbaa2e5",
       "byteLength": 66786,
       "rawPath": "netkeiba/horses/2021/2021100526/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:54:08.022Z"
+  "updatedAt": "2026-08-29T19:05:07.408Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106538",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106538/",
-  "profile": null,
+  "profile": {
+    "name": "ピーナツ",
+    "birthDate": "2015-05-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00431",
+      "name": "谷潔"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    },
+    "dam": {
+      "id": "2002100290",
+      "name": "キマグレ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106867",
@@ -3375,6 +3405,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピーナツ (Peanuts) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーナツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピーナツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3444,9 +3504,9 @@
       "contentHash": "efd4a3a197b12817efff2261f7672cf98f289227931ecc89bd1360bb645ef331",
       "byteLength": 66829,
       "rawPath": "netkeiba/horses/2015/2015106538/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:03:26.233Z"
+  "updatedAt": "2026-08-25T21:08:00.842Z"
 }

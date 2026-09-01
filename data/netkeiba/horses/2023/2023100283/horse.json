@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100283",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100283/",
-  "profile": null,
+  "profile": {
+    "name": "アドミ",
+    "birthDate": "2023-03-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05702",
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "281033",
+      "name": "多田賢司"
+    },
+    "breeder": {
+      "id": "733027",
+      "name": "平野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カリフォルニアネクター California Nectar(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stormy Atlantic"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -1938,6 +1968,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アドミ (Admi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アドミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アドミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2007,9 +2067,9 @@
       "contentHash": "99aba7cf722f6a6d9ed93c9b4d91d279098d5b1a177e306ff8883b9b58bd48d4",
       "byteLength": 66932,
       "rawPath": "netkeiba/horses/2023/2023100283/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T22:06:29.193Z"
+  "updatedAt": "2026-08-27T20:14:04.110Z"
 }

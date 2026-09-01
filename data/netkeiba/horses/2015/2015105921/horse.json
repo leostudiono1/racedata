@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105921",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105921/",
-  "profile": null,
+  "profile": {
+    "name": "トーヨーキング",
+    "birthDate": "2015-03-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "599033",
+      "name": "中嶋宏"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2006101237",
+      "name": "ストロングレダ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1246,6 +1276,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーヨーキング (Toyo King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーヨーキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーヨーキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1315,9 +1375,9 @@
       "contentHash": "4d5fd02e05d98b6ac17a14b0c748e111d9a6ff3e7ea68dec0123188d7db7d7a4",
       "byteLength": 65513,
       "rawPath": "netkeiba/horses/2015/2015105921/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:27:04.821Z"
+  "updatedAt": "2026-08-26T20:32:15.019Z"
 }

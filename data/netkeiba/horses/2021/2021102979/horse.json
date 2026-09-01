@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102979",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102979/",
-  "profile": null,
+  "profile": {
+    "name": "ラリッサ",
+    "birthDate": "2021-03-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "601031",
+      "name": "辻助"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016106065",
+      "name": "ロジャーバローズ"
+    },
+    "dam": {
+      "id": "2012105410",
+      "name": "シンフォニア"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2016106065",
@@ -1214,6 +1244,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラリッサ (Lalisa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラリッサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラリッサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1283,9 +1343,9 @@
       "contentHash": "9a441b590925db09bdc34e0a8db23dca382c27745cfb1b1e6b5a9975eb1ad867",
       "byteLength": 65548,
       "rawPath": "netkeiba/horses/2021/2021102979/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T22:00:05.735Z"
+  "updatedAt": "2026-08-27T20:07:42.369Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100575",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100575/",
-  "profile": null,
+  "profile": {
+    "name": "マイプレイス",
+    "birthDate": "2020-05-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "晴山厚司"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "830044",
+      "name": "市川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "2011103038",
+      "name": "クレインテオドーラ"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -4716,6 +4746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイプレイス (My Place) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイプレイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイプレイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4785,9 +4845,9 @@
       "contentHash": "9eb44532fa8bffab7ecea720f86d01f2310950d3a13e8795dad48fcc7a6d504a",
       "byteLength": 66840,
       "rawPath": "netkeiba/horses/2020/2020100575/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:53:40.814Z"
+  "updatedAt": "2026-08-27T20:01:17.232Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100346",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100346/",
-  "profile": null,
+  "profile": {
+    "name": "グレートデー",
+    "birthDate": "2016-03-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2008104573",
+      "name": "ファインロマンス"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -2250,6 +2280,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレートデー (Great Day) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレートデー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレートデー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2319,9 +2379,9 @@
       "contentHash": "778462a05ba6a3f1dfebd46c6342ba4b9a86797c4ba9809cc98967c3900b3b49",
       "byteLength": 66853,
       "rawPath": "netkeiba/horses/2016/2016100346/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:32:53.105Z"
+  "updatedAt": "2026-08-29T18:43:53.053Z"
 }

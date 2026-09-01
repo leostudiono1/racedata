@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102216",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102216/",
-  "profile": null,
+  "profile": {
+    "name": "サイモンベーネ",
+    "birthDate": "2021-03-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01091",
+      "name": "羽月友彦"
+    },
+    "owner": {
+      "id": "132030",
+      "name": "澤田昭紀"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2010106551",
+      "name": "キモンプライド"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1339,6 +1369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サイモンベーネ (Saimon Bene) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイモンベーネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイモンベーネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1408,9 +1468,9 @@
       "contentHash": "5f0f8c294a007a74847a319460589930c1c285cf56cf1475047f0ae2dee635d5",
       "byteLength": 65816,
       "rawPath": "netkeiba/horses/2021/2021102216/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:54:53.200Z"
+  "updatedAt": "2026-08-29T19:05:53.093Z"
 }

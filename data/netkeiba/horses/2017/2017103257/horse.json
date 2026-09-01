@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103257",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103257/",
-  "profile": null,
+  "profile": {
+    "name": "ガッツ",
+    "birthDate": "2017-03-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05656",
+      "name": "柘榴浩樹"
+    },
+    "owner": {
+      "id": "x01253",
+      "name": "斉藤光由"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "2012101916",
+      "name": "イッツマイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medicean"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -4391,6 +4421,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガッツ (Guts) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガッツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガッツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4460,9 +4520,9 @@
       "contentHash": "1810d1cadc0b1b83e40bd06322d9a726d64f3fc1dba987cf72e952822b2dba26",
       "byteLength": 66723,
       "rawPath": "netkeiba/horses/2017/2017103257/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:34:43.560Z"
+  "updatedAt": "2026-08-26T20:39:53.658Z"
 }

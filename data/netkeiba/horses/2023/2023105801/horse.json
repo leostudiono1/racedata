@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105801",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105801/",
-  "profile": null,
+  "profile": {
+    "name": "シティプロスパー",
+    "birthDate": "2023-03-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "669033",
+      "name": "中村智幸"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シティトゥシティ City to City(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "City Zip (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1783,6 +1813,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シティプロスパー (City Prosper) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シティプロスパー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シティプロスパー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1852,9 +1912,9 @@
       "contentHash": "c17532bb212dc3d0628c4262d2f104ff983da47cd63e30f24fb603492f4deb12",
       "byteLength": 65707,
       "rawPath": "netkeiba/horses/2023/2023105801/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:47:52.334Z"
+  "updatedAt": "2026-08-30T18:57:20.655Z"
 }

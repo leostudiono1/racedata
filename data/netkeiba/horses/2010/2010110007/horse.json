@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110007",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110007/",
-  "profile": null,
+  "profile": {
+    "name": "エーシンマックス",
+    "birthDate": "2010-02-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "120885",
+      "name": "Newsells Park Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Dalakhani"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Midnight Angel"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Acatenango"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -9049,6 +9079,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エーシンマックス (A Shin Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーシンマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーシンマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9118,9 +9178,9 @@
       "contentHash": "1a39fb3d3c502192378631ea4dcae56493573624951344c4c88ab201fda1408b",
       "byteLength": 66952,
       "rawPath": "netkeiba/horses/2010/2010110007/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:09:59.157Z"
+  "updatedAt": "2026-08-26T20:15:08.854Z"
 }

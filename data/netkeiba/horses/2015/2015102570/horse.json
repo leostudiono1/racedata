@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102570",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102570/",
-  "profile": null,
+  "profile": {
+    "name": "ルリー",
+    "birthDate": "2015-02-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05702",
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "751008",
+      "name": "坂東まさ子"
+    },
+    "breeder": {
+      "id": "803028",
+      "name": "幌村牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2008104108",
+      "name": "ウイントゥルーラヴ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -4121,6 +4151,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルリー (Lurie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4190,9 +4250,9 @@
       "contentHash": "cb52d3ab26c425e37056d0af8f4076f83601902e62dd588077d2f9e0d1c6e47e",
       "byteLength": 66270,
       "rawPath": "netkeiba/horses/2015/2015102570/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:30:01.581Z"
+  "updatedAt": "2026-08-29T18:41:01.616Z"
 }

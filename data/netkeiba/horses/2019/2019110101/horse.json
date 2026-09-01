@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110101",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110101/",
-  "profile": null,
+  "profile": {
+    "name": "ピースファイン",
+    "birthDate": "2019-04-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05775",
+      "name": "石橋満"
+    },
+    "owner": {
+      "id": "471031",
+      "name": "中平和宏"
+    },
+    "breeder": {
+      "id": "900707",
+      "name": "KatieRich Farms"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Gun Runner (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Status Pending"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tale of the Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2759,6 +2789,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピースファイン (Peace Fine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピースファイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピースファイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2828,9 +2888,9 @@
       "contentHash": "e2a9592ac687938dff0e84a7b139877eb5048089765d4d8106d02e1276cee56f",
       "byteLength": 65971,
       "rawPath": "netkeiba/horses/2019/2019110101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:22:59.061Z"
+  "updatedAt": "2026-08-25T21:27:33.838Z"
 }

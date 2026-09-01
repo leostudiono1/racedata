@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104959",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104959/",
-  "profile": null,
+  "profile": {
+    "name": "クルージーン",
+    "birthDate": "2016-05-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "113030",
+      "name": "坂本浩一"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008102805",
+      "name": "エリンコート"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2533,6 +2563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クルージーン (Cruadin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クルージーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クルージーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2602,9 +2662,9 @@
       "contentHash": "f2a5d57b44186be0bc0b4024defe10bf176c37193680667259153d9b9f64bcc4",
       "byteLength": 66794,
       "rawPath": "netkeiba/horses/2016/2016104959/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:11:44.813Z"
+  "updatedAt": "2026-08-28T19:22:23.632Z"
 }

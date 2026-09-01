@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106542",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106542/",
-  "profile": null,
+  "profile": {
+    "name": "ハルナ",
+    "birthDate": "2014-04-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "338006",
+      "name": "江川伸夫"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1996103237",
+      "name": "オリオンザサンクス"
+    },
+    "dam": {
+      "id": "2006105528",
+      "name": "ブロードスマイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996103237",
@@ -1550,6 +1580,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハルナ (Haruna) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハルナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1619,9 +1679,9 @@
       "contentHash": "a4a9c2d6dc3b2f8b897baae6827eb2f4fe461dc79d594de4996c0a5c07c4735b",
       "byteLength": 65141,
       "rawPath": "netkeiba/horses/2014/2014106542/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:59:45.466Z"
+  "updatedAt": "2026-08-25T21:04:20.155Z"
 }

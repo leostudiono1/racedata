@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101275",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101275/",
-  "profile": null,
+  "profile": {
+    "name": "スペキュロス",
+    "birthDate": "2012-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "910006",
+      "name": "伊達敏明"
+    },
+    "breeder": {
+      "id": "935496",
+      "name": "サンシャイン牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "1998110127",
+      "name": "ヌーヴァレジェンダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Bird"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1932,6 +1962,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スペキュロス (Speculoos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スペキュロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スペキュロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2001,9 +2061,9 @@
       "contentHash": "8a7671b99670e34ee6ed6e980aa95a7618434ac1c8fa13fe0d270b62f2c93646",
       "byteLength": 66031,
       "rawPath": "netkeiba/horses/2012/2012101275/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:11:58.311Z"
+  "updatedAt": "2026-08-26T20:17:07.817Z"
 }

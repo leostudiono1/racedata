@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010105625",
   "sourceUrl": "https://db.netkeiba.com/horse/2010105625/",
-  "profile": null,
+  "profile": {
+    "name": "ブリリアント",
+    "birthDate": "2010-05-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01089",
+      "name": "武市康男"
+    },
+    "owner": {
+      "id": "816008",
+      "name": "本田恒雄"
+    },
+    "breeder": {
+      "id": "610310",
+      "name": "タニグチ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2003103506",
+      "name": "エリモインプレス"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1846,6 +1876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブリリアント (Brilliant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリリアント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリリアント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1915,9 +1975,9 @@
       "contentHash": "321fb4408c639475398249b84c924f1426a5704dc171d45a6428d5217fb13848",
       "byteLength": 66526,
       "rawPath": "netkeiba/horses/2010/2010105625/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:46:02.692Z"
+  "updatedAt": "2026-08-25T20:50:37.473Z"
 }

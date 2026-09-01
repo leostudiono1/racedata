@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100637",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100637/",
-  "profile": null,
+  "profile": {
+    "name": "ハードカウント",
+    "birthDate": "2015-04-04",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "1998110292",
+      "name": "レスレクシオン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mt. Livermore"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -4498,6 +4528,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハードカウント (Hard Count) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハードカウント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハードカウント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4567,9 +4627,9 @@
       "contentHash": "8be8fb864e5e47a51d2a940e20a9c1f354e78c4b08d80b477085cffef5816a81",
       "byteLength": 66949,
       "rawPath": "netkeiba/horses/2015/2015100637/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:29:09.038Z"
+  "updatedAt": "2026-08-29T18:40:09.260Z"
 }

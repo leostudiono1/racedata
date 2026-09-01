@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100657",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100657/",
-  "profile": null,
+  "profile": {
+    "name": "ファランドール",
+    "birthDate": "2022-05-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2014101093",
+      "name": "メヌエット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1329,6 +1359,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファランドール (Farandole) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファランドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファランドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1398,9 +1458,9 @@
       "contentHash": "331db79e0683578d0e1a76aca319125d4ff4643fdc3298fd8e4071c07071b6cc",
       "byteLength": 67432,
       "rawPath": "netkeiba/horses/2022/2022100657/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:31:58.183Z"
+  "updatedAt": "2026-08-25T21:36:32.801Z"
 }

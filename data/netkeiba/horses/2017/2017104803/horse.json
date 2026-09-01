@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104803",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104803/",
-  "profile": null,
+  "profile": {
+    "name": "ドノスティア",
+    "birthDate": "2017-04-18",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103004",
+      "name": "ベルシャザール"
+    },
+    "dam": {
+      "id": "1999110017",
+      "name": "ソングフォーミー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103004",
@@ -4604,6 +4634,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドノスティア (Donostia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドノスティア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドノスティア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4673,9 +4733,9 @@
       "contentHash": "03d5f3c1181109a5df481a577a2c9c09767d0eb80c3cb4a51145f883a38ac9aa",
       "byteLength": 66137,
       "rawPath": "netkeiba/horses/2017/2017104803/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:42:42.488Z"
+  "updatedAt": "2026-08-27T19:50:19.001Z"
 }

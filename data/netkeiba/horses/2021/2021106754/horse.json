@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106754",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106754/",
-  "profile": null,
+  "profile": {
+    "name": "ソニック",
+    "birthDate": "2021-04-06",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05704",
+      "name": "飯田良弘"
+    },
+    "owner": {
+      "id": "754033",
+      "name": "槙和美"
+    },
+    "breeder": {
+      "id": "500319",
+      "name": "平山牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013110045",
+      "name": "ラニ"
+    },
+    "dam": {
+      "id": "2007104753",
+      "name": "カスクドール"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2013110045",
@@ -2444,6 +2474,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソニック (Sonic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソニック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソニック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2513,9 +2573,9 @@
       "contentHash": "6c9813ee71df2807b2ee81c37b5c785f9663e07cdf21cde15da7a0c7b5a8a387",
       "byteLength": 66698,
       "rawPath": "netkeiba/horses/2021/2021106754/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:57:59.005Z"
+  "updatedAt": "2026-08-29T19:08:58.493Z"
 }

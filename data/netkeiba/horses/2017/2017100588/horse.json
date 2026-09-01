@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100588",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100588/",
-  "profile": null,
+  "profile": {
+    "name": "アーサードライブ",
+    "birthDate": "2017-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "043008",
+      "name": "林千枝子"
+    },
+    "breeder": {
+      "id": "633393",
+      "name": "滝本健二"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2010104473",
+      "name": "セトノミッシー"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -1439,6 +1469,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アーサードライブ (Arthur Drive) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーサードライブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーサードライブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1508,9 +1568,9 @@
       "contentHash": "20486a621748f8894469bcdb7a2183780ad6ec342d226889537b14f3047b9465",
       "byteLength": 65159,
       "rawPath": "netkeiba/horses/2017/2017100588/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:13:19.767Z"
+  "updatedAt": "2026-08-28T19:23:58.261Z"
 }

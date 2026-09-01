@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110035",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110035/",
-  "profile": null,
+  "profile": {
+    "name": "シードラゴン",
+    "birthDate": "2016-01-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01130",
+      "name": "吉村圭司"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "050733",
+      "name": "Haras De Sainte Gauburge"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Siyouni"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Diyakalanie"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Ashkalani (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1498,6 +1528,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シードラゴン (Sea Dragon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シードラゴン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シードラゴン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1567,9 +1627,9 @@
       "contentHash": "28e1f8b6b53d8060810e81cf9239ffbe111db328886239aa5a85777d95e7225b",
       "byteLength": 65049,
       "rawPath": "netkeiba/horses/2016/2016110035/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:38:55.294Z"
+  "updatedAt": "2026-08-27T19:46:31.523Z"
 }

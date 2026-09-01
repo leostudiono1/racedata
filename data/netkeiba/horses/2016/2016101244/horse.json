@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101244",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101244/",
-  "profile": null,
+  "profile": {
+    "name": "ロズ",
+    "birthDate": "2016-03-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01159",
+      "name": "高柳大輔"
+    },
+    "owner": {
+      "id": "032800",
+      "name": "ローレルレーシング"
+    },
+    "breeder": {
+      "id": "303020",
+      "name": "田中春美"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007103404",
+      "name": "ローズキングダム"
+    },
+    "dam": {
+      "id": "2002101257",
+      "name": "シプカクラッチュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103404",
@@ -2660,6 +2690,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロズ (Lodz) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2729,9 +2789,9 @@
       "contentHash": "5fa6b687dae2ee03ea4ca54ffee161cb9079b8b8a920adbd295e9e5ef46f81c3",
       "byteLength": 67006,
       "rawPath": "netkeiba/horses/2016/2016101244/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:02:23.386Z"
+  "updatedAt": "2026-08-31T18:05:54.999Z"
 }

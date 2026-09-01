@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105323",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105323/",
-  "profile": null,
+  "profile": {
+    "name": "グランベガ",
+    "birthDate": "2016-03-24",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05707",
+      "name": "諏訪貴正"
+    },
+    "owner": {
+      "id": "152033",
+      "name": "間宮秀直"
+    },
+    "breeder": {
+      "id": "110031",
+      "name": "大西ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2003101766",
+      "name": "トップキララ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -2843,6 +2873,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランベガ (Grand Vega) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランベガ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランベガ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2912,9 +2972,9 @@
       "contentHash": "c9abb05fe5232058cd30c296738b13d0af549a1dbdfab583566925368eb699db",
       "byteLength": 64781,
       "rawPath": "netkeiba/horses/2016/2016105323/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:05:39.434Z"
+  "updatedAt": "2026-08-31T18:09:11.167Z"
 }

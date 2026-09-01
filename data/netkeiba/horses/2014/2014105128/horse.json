@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105128",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105128/",
-  "profile": null,
+  "profile": {
+    "name": "シバクサ",
+    "birthDate": "2014-03-04",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05528",
+      "name": "平松徳彦"
+    },
+    "owner": {
+      "id": "897030",
+      "name": "泉一郎"
+    },
+    "breeder": {
+      "id": "333302",
+      "name": "前田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "1997102773",
+      "name": "フォレストメリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ティンバーカントリー Timber Country(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -1493,6 +1523,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シバクサ (Shibakusa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シバクサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シバクサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1562,9 +1622,9 @@
       "contentHash": "eeddb5bbca79361b525547731499f9abe575f55d8ce2e24c45234e7255d9e41e",
       "byteLength": 64464,
       "rawPath": "netkeiba/horses/2014/2014105128/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:27:16.916Z"
+  "updatedAt": "2026-08-29T18:38:17.037Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102328",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102328/",
-  "profile": null,
+  "profile": {
+    "name": "メーテルコート",
+    "birthDate": "2020-03-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05606",
+      "name": "山本学"
+    },
+    "owner": {
+      "id": "838031",
+      "name": "梁川正普"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2014106467",
+      "name": "テーオーメーテル"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -2451,6 +2481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メーテルコート (Meter Coat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メーテルコート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メーテルコート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2520,9 +2580,9 @@
       "contentHash": "bf228684e2dacd30bc53762003dcf52f2f500fb2b9d549bb40e0aaf0a779bc43",
       "byteLength": 66910,
       "rawPath": "netkeiba/horses/2020/2020102328/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:50:58.620Z"
+  "updatedAt": "2026-08-29T19:01:58.428Z"
 }

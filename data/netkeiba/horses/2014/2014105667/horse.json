@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105667",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105667/",
-  "profile": null,
+  "profile": {
+    "name": "ショータイム",
+    "birthDate": "2014-05-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "松木啓助"
+    },
+    "owner": {
+      "id": "x00128",
+      "name": "岡林英雄"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "1992109494",
+      "name": "プライムステージ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1676,6 +1706,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショータイム (Show Time) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショータイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショータイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1745,9 +1805,9 @@
       "contentHash": "42d9bebc4f6ffc3264da8894359935178455049db85729977925ce9b9295a0af",
       "byteLength": 64448,
       "rawPath": "netkeiba/horses/2014/2014105667/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:10:06.862Z"
+  "updatedAt": "2026-08-30T18:19:35.655Z"
 }

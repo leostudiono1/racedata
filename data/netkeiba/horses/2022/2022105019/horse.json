@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105019",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105019/",
-  "profile": null,
+  "profile": {
+    "name": "トリクロマティック",
+    "birthDate": "2022-01-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05157",
+      "name": "及川良春"
+    },
+    "owner": {
+      "id": "031008",
+      "name": "岩渕哲郎"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "2015104888",
+      "name": "プリズマティコ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -1727,6 +1757,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリクロマティック (Trichromatic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリクロマティック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリクロマティック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1796,9 +1856,9 @@
       "contentHash": "f90de1ca38ced26e211414f0521987a23da1a5b327fd81720bc092abb376321f",
       "byteLength": 64870,
       "rawPath": "netkeiba/horses/2022/2022105019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:58:35.442Z"
+  "updatedAt": "2026-08-26T21:03:45.228Z"
 }

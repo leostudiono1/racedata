@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009105295",
   "sourceUrl": "https://db.netkeiba.com/horse/2009105295/",
-  "profile": null,
+  "profile": {
+    "name": "リアルブラック",
+    "birthDate": "2009-05-01",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "461030",
+      "name": "大迫基弘"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ロージズインメイ Roses in May(米)"
+    },
+    "dam": {
+      "id": "1995109005",
+      "name": "ゼンノシチョウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Woodman"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4578,6 +4608,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアルブラック (Real Black) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルブラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルブラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4647,9 +4707,9 @@
       "contentHash": "aee4c6365dd3bb380e8ee68380bc2986ad10ca31f9ede0c1d3398d5fc556b537",
       "byteLength": 65837,
       "rawPath": "netkeiba/horses/2009/2009105295/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:43:07.924Z"
+  "updatedAt": "2026-08-31T17:46:39.736Z"
 }

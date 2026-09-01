@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103788",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103788/",
-  "profile": null,
+  "profile": {
+    "name": "フリーフロー",
+    "birthDate": "2017-04-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01207",
+      "name": "田中勝春"
+    },
+    "owner": {
+      "id": "414030",
+      "name": "里見美惠子"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2007100567",
+      "name": "バーディバーディ"
+    },
+    "dam": {
+      "id": "2007100564",
+      "name": "サトノアーチ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007100567",
@@ -3656,6 +3686,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリーフロー (Free Flow) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリーフロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリーフロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3725,9 +3785,9 @@
       "contentHash": "456a9321e583d602fd2240d9760b70c80a2090c37703218701203372b155e4c1",
       "byteLength": 66932,
       "rawPath": "netkeiba/horses/2017/2017103788/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:08:34.552Z"
+  "updatedAt": "2026-08-31T18:12:06.423Z"
 }

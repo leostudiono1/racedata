@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104749",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104749/",
-  "profile": null,
+  "profile": {
+    "name": "オフィール",
+    "birthDate": "2012-03-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2001103400",
+      "name": "ドリームスケイプ"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1266,6 +1296,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オフィール (Ophir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オフィール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オフィール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1335,9 +1395,9 @@
       "contentHash": "d839cf53379056cb7c6312d1e8809c0b29cbd45e900d8e58ea03c0b0ad4f9ce8",
       "byteLength": 64678,
       "rawPath": "netkeiba/horses/2012/2012104749/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T21:21:52.383Z"
+  "updatedAt": "2026-08-27T19:29:29.300Z"
 }

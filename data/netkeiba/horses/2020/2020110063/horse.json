@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110063",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110063/",
-  "profile": null,
+  "profile": {
+    "name": "ネフェルウラー",
+    "birthDate": "2020-03-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "944030",
+      "name": "加藤誠"
+    },
+    "breeder": {
+      "id": "890732",
+      "name": "Glenvale Stud"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Harmony Lodge"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘネシー Hennessy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1512,6 +1542,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネフェルウラー (Neferure) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネフェルウラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネフェルウラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1581,9 +1641,9 @@
       "contentHash": "381d81f164f10162cb17592182ebe690a9fa49c273c09c53826e33b85a65a5ed",
       "byteLength": 65303,
       "rawPath": "netkeiba/horses/2020/2020110063/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T02:08:09.581Z"
+  "updatedAt": "2026-08-25T00:06:32.909Z"
 }

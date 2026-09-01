@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100598",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100598/",
-  "profile": null,
+  "profile": {
+    "name": "キノル",
+    "birthDate": "2012-04-17",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2000110164",
+      "name": "スウィートデジャヴ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1397,6 +1427,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キノル (Kinor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キノル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キノル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1466,9 +1526,9 @@
       "contentHash": "43ef57b92a2963292a63f002f5b851cd971caf53ea9f2c23b6f7f1cfca663403",
       "byteLength": 64439,
       "rawPath": "netkeiba/horses/2012/2012100598/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:52:43.370Z"
+  "updatedAt": "2026-08-28T19:03:22.338Z"
 }

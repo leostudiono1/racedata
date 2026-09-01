@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105715",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105715/",
-  "profile": null,
+  "profile": {
+    "name": "アルバニー",
+    "birthDate": "2021-02-08",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01208",
+      "name": "柄崎将寿"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ピースアンドウォー Peace and War(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Front"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2185,6 +2215,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルバニー (Albany) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルバニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2254,9 +2314,9 @@
       "contentHash": "ca06b47b57c931bafa2aad3f83a008f6f8160cfd45f81e212ced0cc50fc6b23b",
       "byteLength": 65003,
       "rawPath": "netkeiba/horses/2021/2021105715/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:54:19.854Z"
+  "updatedAt": "2026-08-26T20:59:29.718Z"
 }

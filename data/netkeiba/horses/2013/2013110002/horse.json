@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110002",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110002/",
-  "profile": null,
+  "profile": {
+    "name": "キープセイク",
+    "birthDate": "2013-03-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "900709",
+      "name": "K. I. Farm Corporation"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Suisun"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1190,6 +1220,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キープセイク (Keepsake) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キープセイク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キープセイク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1259,9 +1319,9 @@
       "contentHash": "e9fc86030f8def75b04b79bca191a88b9d46a1dd4126f50c2e4793a6c776c823",
       "byteLength": 64898,
       "rawPath": "netkeiba/horses/2013/2013110002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T01:35:28.606Z"
+  "updatedAt": "2026-08-24T23:33:52.106Z"
 }

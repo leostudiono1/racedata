@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110123",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110123/",
-  "profile": null,
+  "profile": {
+    "name": "レッドアーバイン",
+    "birthDate": "2020-04-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "590825",
+      "name": "Meon Valley Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Kingman (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Speedy Boarding"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2461,6 +2491,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドアーバイン (Red Irvine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドアーバイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドアーバイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2530,9 +2590,9 @@
       "contentHash": "988a72490d97a28a917acf6f0319cbb2c115f209abee37e9b4d847537c1f8ac1",
       "byteLength": 67205,
       "rawPath": "netkeiba/horses/2020/2020110123/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T23:27:00.593Z"
+  "updatedAt": "2026-08-25T21:31:35.304Z"
 }

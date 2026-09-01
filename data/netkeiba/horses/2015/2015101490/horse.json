@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101490",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101490/",
-  "profile": null,
+  "profile": {
+    "name": "サナコ",
+    "birthDate": "2015-01-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "035060",
+      "name": "Ｒ．アンダーソン"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2000110233",
+      "name": "スイートハビタット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Lodge (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1509,6 +1539,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サナコ (Sanako) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サナコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サナコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1578,9 +1638,9 @@
       "contentHash": "ab7b1d6e4e9047ec1a2d758cd91b1ed8f15265b8b8d3eae24ac3d89b8aaaf991",
       "byteLength": 65456,
       "rawPath": "netkeiba/horses/2015/2015101490/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:58:42.745Z"
+  "updatedAt": "2026-08-31T18:02:14.543Z"
 }

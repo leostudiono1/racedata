@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100335",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100335/",
-  "profile": null,
+  "profile": {
+    "name": "アクルクス",
+    "birthDate": "2022-02-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "635031",
+      "name": "増田江利子"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2010103878",
+      "name": "フウコウメイビ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -1839,6 +1869,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アクルクス (Acrux) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクルクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクルクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1908,9 +1968,9 @@
       "contentHash": "0348a71cc4c8023cb18389e0f096ce74fda65c543dcc069d6069951795a173cc",
       "byteLength": 65096,
       "rawPath": "netkeiba/horses/2022/2022100335/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T20:29:45.611Z"
+  "updatedAt": "2026-08-31T18:33:17.156Z"
 }

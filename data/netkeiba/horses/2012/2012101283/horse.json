@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101283",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101283/",
-  "profile": null,
+  "profile": {
+    "name": "ハナミズキ",
+    "birthDate": "2012-05-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00353",
+      "name": "和田正道"
+    },
+    "owner": {
+      "id": "374008",
+      "name": "荒井元明"
+    },
+    "breeder": {
+      "id": "935496",
+      "name": "サンシャイン牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1996190005",
+      "name": "ファンタスティックライト Fantastic Light(米)"
+    },
+    "dam": {
+      "id": "1999102577",
+      "name": "リュストル"
+    },
+    "damsire": {
+      "id": "1992190011",
+      "name": "ピルサドスキー Pilsudski(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996190005",
@@ -1345,6 +1375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハナミズキ (Hanamizuki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナミズキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハナミズキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1414,9 +1474,9 @@
       "contentHash": "709aff7b4fe0ab0f18aef79b48d32c51ea8c921d7c04888eb8bdbbb10a83d6f6",
       "byteLength": 64389,
       "rawPath": "netkeiba/horses/2012/2012101283/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T22:48:50.679Z"
+  "updatedAt": "2026-08-25T20:53:25.487Z"
 }

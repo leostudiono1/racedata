@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2007102750",
   "sourceUrl": "https://db.netkeiba.com/horse/2007102750/",
-  "profile": null,
+  "profile": {
+    "name": "カフェラビリンス",
+    "birthDate": "2007-02-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "505007",
+      "name": "西川恭子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Quiet American"
+    }
+  },
   "pedigree": [
     {
       "id": "1992109618",
@@ -3531,6 +3561,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフェラビリンス (Cafe Labyrinth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェラビリンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェラビリンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3600,9 +3660,9 @@
       "contentHash": "0dac1693812af90c9ab202c77f6ec5f4b4a2b11ba4443c6408f6491ee542531b",
       "byteLength": 65810,
       "rawPath": "netkeiba/horses/2007/2007102750/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T19:54:56.304Z"
+  "updatedAt": "2026-08-30T18:04:25.377Z"
 }

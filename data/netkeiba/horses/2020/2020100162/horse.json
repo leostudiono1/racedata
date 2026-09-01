@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100162",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100162/",
-  "profile": null,
+  "profile": {
+    "name": "ロードアウォード",
+    "birthDate": "2020-04-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パーフェクトトリビュート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2715,6 +2745,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードアウォード (Lord Award) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードアウォード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードアウォード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2784,9 +2844,9 @@
       "contentHash": "dbe72c80416e78a27e580a2f7ced937978186a7c1581581dcc21ef75fc877794",
       "byteLength": 67426,
       "rawPath": "netkeiba/horses/2020/2020100162/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:25:34.636Z"
+  "updatedAt": "2026-08-28T19:36:13.478Z"
 }

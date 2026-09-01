@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102503",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102503/",
-  "profile": null,
+  "profile": {
+    "name": "アリスカン",
+    "birthDate": "2014-04-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "227007",
+      "name": "高瀬真尚"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2002106746",
+      "name": "サララ"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -4156,6 +4186,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリスカン (Alyscamps) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリスカン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリスカン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4225,9 +4285,9 @@
       "contentHash": "f2f1ff1764968dbfe2492cc810b09b31d58382ca7c57dcb0503a422e5f5d9ceb",
       "byteLength": 66869,
       "rawPath": "netkeiba/horses/2014/2014102503/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:25:53.036Z"
+  "updatedAt": "2026-08-29T18:36:52.900Z"
 }

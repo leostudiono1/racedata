@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100274",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100274/",
-  "profile": null,
+  "profile": {
+    "name": "リアリティー",
+    "birthDate": "2010-04-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05320",
+      "name": "小西重征"
+    },
+    "owner": {
+      "id": "249006",
+      "name": "松井淳二"
+    },
+    "breeder": {
+      "id": "201346",
+      "name": "大江牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    },
+    "dam": {
+      "id": "2001100516",
+      "name": "アドマイヤセレッソ"
+    },
+    "damsire": {
+      "id": "1991103498",
+      "name": "サクラローレル"
+    }
+  },
   "pedigree": [
     {
       "id": "1999107004",
@@ -4336,6 +4366,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアリティー (Reality) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアリティー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアリティー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4405,9 +4465,9 @@
       "contentHash": "bb46557b79855845d1d8fa7a2dc70af2b07b19e06e853489dd3e51d131ed82cf",
       "byteLength": 65878,
       "rawPath": "netkeiba/horses/2010/2010100274/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T20:49:58.897Z"
+  "updatedAt": "2026-08-28T19:00:37.792Z"
 }

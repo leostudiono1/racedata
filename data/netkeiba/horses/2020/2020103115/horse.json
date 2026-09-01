@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103115",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103115/",
-  "profile": null,
+  "profile": {
+    "name": "ラミュロス",
+    "birthDate": "2020-03-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05333",
+      "name": "矢野久美"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2012104402",
+      "name": "レッドラミア"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2015,6 +2045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラミュロス (Lamuros) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラミュロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラミュロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2084,9 +2144,9 @@
       "contentHash": "51502384e6094a8b54b173828c164ff15760b9de9b45965d1ec0fda09857cb6a",
       "byteLength": 65939,
       "rawPath": "netkeiba/horses/2020/2020103115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:47:54.850Z"
+  "updatedAt": "2026-08-26T20:53:04.489Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105462",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105462/",
-  "profile": null,
+  "profile": {
+    "name": "アナレンマ",
+    "birthDate": "2018-03-19",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01153",
+      "name": "中舘英二"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ワイ Why(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3345,6 +3375,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アナレンマ (Analemma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アナレンマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アナレンマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3414,9 +3474,9 @@
       "contentHash": "63005b5150ec8854564fca7aa439e174f2fde52422455c391455aade5eefbe10",
       "byteLength": 66909,
       "rawPath": "netkeiba/horses/2018/2018105462/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:27:33.556Z"
+  "updatedAt": "2026-08-30T18:37:02.390Z"
 }

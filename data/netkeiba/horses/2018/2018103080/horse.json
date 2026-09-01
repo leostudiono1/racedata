@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103080",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103080/",
-  "profile": null,
+  "profile": {
+    "name": "ノブ",
+    "birthDate": "2018-04-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05358",
+      "name": "新田守"
+    },
+    "owner": {
+      "id": "x00b30",
+      "name": "植田信行"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2009106556",
+      "name": "ウインアルエット"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -9257,6 +9287,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノブ (Nobu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9326,9 +9386,9 @@
       "contentHash": "9c359d1bd51faf25c58a4e69be95ea0bed9a409b1db7f9ef3e7ea918f9865af9",
       "byteLength": 66626,
       "rawPath": "netkeiba/horses/2018/2018103080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:42:59.294Z"
+  "updatedAt": "2026-08-29T18:53:58.661Z"
 }

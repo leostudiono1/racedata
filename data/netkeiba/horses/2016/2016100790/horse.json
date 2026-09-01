@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100790",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100790/",
-  "profile": null,
+  "profile": {
+    "name": "アーバーデイ",
+    "birthDate": "2016-05-10",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05390",
+      "name": "高橋俊之"
+    },
+    "owner": {
+      "id": "x03aad",
+      "name": "（株）レックス"
+    },
+    "breeder": {
+      "id": "330316",
+      "name": "前川隆範"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ケイムホーム Came Home(米)"
+    },
+    "dam": {
+      "id": "2007102850",
+      "name": "アースツリー"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1822,6 +1852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アーバーデイ (Arbor Day) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーバーデイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーバーデイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1891,9 +1951,9 @@
       "contentHash": "51b2ceed1962805e6e8ed97e63269554d21e9ff9c09acd7842fb3074acc3568e",
       "byteLength": 64481,
       "rawPath": "netkeiba/horses/2016/2016100790/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T21:09:21.682Z"
+  "updatedAt": "2026-08-28T19:20:00.124Z"
 }

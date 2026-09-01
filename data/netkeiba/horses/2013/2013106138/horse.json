@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106138",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106138/",
-  "profile": null,
+  "profile": {
+    "name": "スミレ",
+    "birthDate": "2013-01-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01059",
+      "name": "加藤征弘"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラリズ La Liz(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernstein"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3135,6 +3165,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スミレ (Sumire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スミレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スミレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3204,9 +3264,9 @@
       "contentHash": "2466f9338e59f787b0310dfdc9cb5141c08b366c6177d2be66b355c1813217b5",
       "byteLength": 66968,
       "rawPath": "netkeiba/horses/2013/2013106138/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:05:58.031Z"
+  "updatedAt": "2026-08-30T18:15:26.874Z"
 }

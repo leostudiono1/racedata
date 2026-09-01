@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106346",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106346/",
-  "profile": null,
+  "profile": {
+    "name": "ベリロス",
+    "birthDate": "2015-05-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01007",
+      "name": "柴田政人"
+    },
+    "owner": {
+      "id": "036006",
+      "name": "加藤徹"
+    },
+    "breeder": {
+      "id": "330512",
+      "name": "大狩部牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "1998104725",
+      "name": "イシノスティール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1527,6 +1557,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベリロス (Beryllos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1596,9 +1656,9 @@
       "contentHash": "1c4ed496691d4a543e86808de05e04ea2fadaadbb9c13a2e7dc116c687b64668",
       "byteLength": 64398,
       "rawPath": "netkeiba/horses/2015/2015106346/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:32:07.567Z"
+  "updatedAt": "2026-08-29T18:43:07.532Z"
 }

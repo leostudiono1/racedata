@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100605",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100605/",
-  "profile": null,
+  "profile": {
+    "name": "チャンス",
+    "birthDate": "2017-04-26",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "959800",
+      "name": "協栄"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103004",
+      "name": "ベルシャザール"
+    },
+    "dam": {
+      "id": "2001106421",
+      "name": "セントクリスマス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103004",
@@ -1573,6 +1603,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャンス (Chance) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1642,9 +1702,9 @@
       "contentHash": "47a9908e863faaa551202758fa339c313a22e99dda4e48f51e4f8fb265c4f7e1",
       "byteLength": 64301,
       "rawPath": "netkeiba/horses/2017/2017100605/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:33:01.923Z"
+  "updatedAt": "2026-08-26T20:38:11.773Z"
 }

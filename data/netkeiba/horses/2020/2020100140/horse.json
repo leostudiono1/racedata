@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100140",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100140/",
-  "profile": null,
+  "profile": {
+    "name": "テイクアスタッブ",
+    "birthDate": "2020-02-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "373008",
+      "name": "中村祐子"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Justify (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "イトワズマジック It Was Magic(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Front"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1039,6 +1069,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイクアスタッブ (Take a Stab) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイクアスタッブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイクアスタッブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1108,9 +1168,9 @@
       "contentHash": "133871550f57f4463c101a7ebf41567d070a27768b08027b6aa69171f76d3f31",
       "byteLength": 65989,
       "rawPath": "netkeiba/horses/2020/2020100140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:32:27.653Z"
+  "updatedAt": "2026-08-30T18:41:56.485Z"
 }

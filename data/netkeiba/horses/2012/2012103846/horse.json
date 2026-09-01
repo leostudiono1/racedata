@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103846",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103846/",
-  "profile": null,
+  "profile": {
+    "name": "ブラウンシップ",
+    "birthDate": "2012-03-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00341",
+      "name": "栗田博憲"
+    },
+    "owner": {
+      "id": "642004",
+      "name": "谷研司"
+    },
+    "breeder": {
+      "id": "100383",
+      "name": "青藍牧場"
+    },
+    "birthplace": "登別市",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2007102445",
+      "name": "ミスセイラン"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1333,6 +1363,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラウンシップ (Brown Ship) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラウンシップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラウンシップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1402,9 +1462,9 @@
       "contentHash": "6ce00cc6935601206812640c521dace03e913be995ba03ad30d6682269259f2e",
       "byteLength": 64778,
       "rawPath": "netkeiba/horses/2012/2012103846/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T19:47:51.563Z"
+  "updatedAt": "2026-08-31T17:51:23.417Z"
 }

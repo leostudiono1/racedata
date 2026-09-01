@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105154",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105154/",
-  "profile": null,
+  "profile": {
+    "name": "アサカラキング",
+    "birthDate": "2020-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "209031",
+      "name": "山口雄司"
+    },
+    "breeder": {
+      "id": "700335",
+      "name": "協和牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2011104670",
+      "name": "アサカラヴァーズ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3420,6 +3450,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アサカラキング (Asakara King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサカラキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサカラキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3489,9 +3549,9 @@
       "contentHash": "8bac86a2a234042f427c95326c7b33241856f02822e3e522dc6303aa60aa0306",
       "byteLength": 67058,
       "rawPath": "netkeiba/horses/2020/2020105154/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:49:11.913Z"
+  "updatedAt": "2026-08-26T20:54:21.533Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106741",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106741/",
-  "profile": null,
+  "profile": {
+    "name": "メイリー",
+    "birthDate": "2022-02-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01179",
+      "name": "鈴木慎太"
+    },
+    "owner": {
+      "id": "046803",
+      "name": "フクキタル"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2015101621",
+      "name": "タワーオブロンドン"
+    },
+    "dam": {
+      "id": "2015105282",
+      "name": "レイロー"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "2015101621",
@@ -2529,6 +2559,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイリー (Meili) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2598,9 +2658,9 @@
       "contentHash": "362da61f45b62e7385fa6eb907874afe5c9e1e8ada8fd1e10d0f63e95b37f83a",
       "byteLength": 67149,
       "rawPath": "netkeiba/horses/2022/2022106741/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:44:32.340Z"
+  "updatedAt": "2026-08-30T18:54:01.277Z"
 }

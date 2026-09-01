@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106416",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106416/",
-  "profile": null,
+  "profile": {
+    "name": "パスイ",
+    "birthDate": "2015-05-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00383",
+      "name": "伊藤正徳"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "1999102740",
+      "name": "レディルナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フォーティナイナー Forty Niner(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -1769,6 +1799,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パスイ (Pasuy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パスイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パスイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1838,9 +1898,9 @@
       "contentHash": "d2ea0efe509706e7effb3b65d35c072a824aa64207951ad061d755df9ff9f201",
       "byteLength": 64883,
       "rawPath": "netkeiba/horses/2015/2015106416/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T20:32:18.258Z"
+  "updatedAt": "2026-08-29T18:43:18.160Z"
 }

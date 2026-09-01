@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102199",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102199/",
-  "profile": null,
+  "profile": {
+    "name": "ビービーシールズ",
+    "birthDate": "2015-05-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05311",
+      "name": "角川秀樹"
+    },
+    "owner": {
+      "id": "185800",
+      "name": "（有）坂東牧場"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ハードスパン Hard Spun(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オールザチャット All the Chat(新)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Westminster"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1799,6 +1829,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビービーシールズ (B B Seals) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビービーシールズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビービーシールズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1868,9 +1928,9 @@
       "contentHash": "ea88433f366d305235d37818ae78ceea033057888439f4df9b035631693c0bc6",
       "byteLength": 65142,
       "rawPath": "netkeiba/horses/2015/2015102199/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T20:12:30.668Z"
+  "updatedAt": "2026-08-30T18:21:59.081Z"
 }

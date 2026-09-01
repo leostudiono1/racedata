@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104946",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104946/",
-  "profile": null,
+  "profile": {
+    "name": "ルナステラ",
+    "birthDate": "2015-03-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01022",
+      "name": "石坂正"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2005110048",
+      "name": "ピラミマ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2321,6 +2351,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルナステラ (Luna Stella) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナステラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナステラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2390,9 +2450,9 @@
       "contentHash": "7057b8cf9f0b048eac0b21b1c076c460b45a8fb1f8742202de696b271dcde88b",
       "byteLength": 67363,
       "rawPath": "netkeiba/horses/2015/2015104946/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T22:26:50.728Z"
+  "updatedAt": "2026-08-26T20:32:01.074Z"
 }
