@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105645",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105645/",
-  "profile": null,
+  "profile": {
+    "name": "レストア",
+    "birthDate": "2020-03-18",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01076",
+      "name": "小笠倫弘"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "エスケンデレヤ"
+    },
+    "dam": {
+      "id": "2010105858",
+      "name": "ブルジュオン"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2145,6 +2175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レストア (Restore) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レストア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レストア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2214,9 +2274,9 @@
       "contentHash": "b896c76bb8ec9ebb1f9a0b0a178dbca007aacd4483be653cb9776b08a9dbe657",
       "byteLength": 66468,
       "rawPath": "netkeiba/horses/2020/2020105645/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:55:32.939Z"
+  "updatedAt": "2026-08-24T04:00:42.668Z"
 }

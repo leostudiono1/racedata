@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103044",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103044/",
-  "profile": null,
+  "profile": {
+    "name": "タマサイ",
+    "birthDate": "2017-02-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2009101264",
+      "name": "グロースバンダム"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -2347,6 +2377,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タマサイ (Tamasay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマサイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマサイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2416,9 +2476,9 @@
       "contentHash": "5f6e745a037d362cb2de963d158290ff99140990e4c76234ef792217216b4766",
       "byteLength": 66603,
       "rawPath": "netkeiba/horses/2017/2017103044/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:40:36.509Z"
+  "updatedAt": "2026-08-24T03:45:46.384Z"
 }

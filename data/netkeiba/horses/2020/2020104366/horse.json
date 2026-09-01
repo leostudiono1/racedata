@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104366",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104366/",
-  "profile": null,
+  "profile": {
+    "name": "モルデュール",
+    "birthDate": "2020-04-12",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05720",
+      "name": "伊藤和忍"
+    },
+    "owner": {
+      "id": "x06c0c",
+      "name": "川上和彦"
+    },
+    "breeder": {
+      "id": "433085",
+      "name": "高橋ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2011101825",
+      "name": "シーヴァージア"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -7957,6 +7987,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モルデュール (Morddure) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モルデュール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モルデュール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8026,9 +8086,9 @@
       "contentHash": "93e16b6d60586b065e12453cd62c147d151e78087c143228f6860b55bb14ebb8",
       "byteLength": 66840,
       "rawPath": "netkeiba/horses/2020/2020104366/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:19:38.012Z"
+  "updatedAt": "2026-08-26T00:27:00.592Z"
 }

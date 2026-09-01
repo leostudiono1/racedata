@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107000",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107000/",
-  "profile": null,
+  "profile": {
+    "name": "スアーウィス",
+    "birthDate": "2022-03-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01094",
+      "name": "水野貴広"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "Justify (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ソリティアズヴィジョン Solitaire's Vision(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Court Vision (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1090,6 +1120,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スアーウィス (Suavis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スアーウィス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スアーウィス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1159,9 +1219,9 @@
       "contentHash": "ff4c01b1b7fd7616e093abcee3ea273208a2314ccef8ef1bec722569ddf25846",
       "byteLength": 65880,
       "rawPath": "netkeiba/horses/2022/2022107000/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:29:12.088Z"
+  "updatedAt": "2026-08-26T00:36:34.635Z"
 }

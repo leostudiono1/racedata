@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013109098",
   "sourceUrl": "https://db.netkeiba.com/horse/2013109098/",
-  "profile": null,
+  "profile": {
+    "name": "ナナエ",
+    "birthDate": "2013-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05447",
+      "name": "松代真"
+    },
+    "owner": {
+      "id": "981002",
+      "name": "中村勝彦"
+    },
+    "breeder": {
+      "id": "430127",
+      "name": "扶桑牧場"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "000",
+      "name": "キャプテンスティーヴ Captain Steve(米)"
+    },
+    "dam": {
+      "id": "2008109121",
+      "name": "リーフ"
+    },
+    "damsire": {
+      "id": "1994104543",
+      "name": "デリケートワン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3911,6 +3941,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナナエ (Nanae) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナナエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナナエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3980,9 +4040,9 @@
       "contentHash": "1676e97802af589639496059a52676ce3c74f944c1f6b492e6e8930237601d21",
       "byteLength": 66323,
       "rawPath": "netkeiba/horses/2013/2013109098/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:05:23.233Z"
+  "updatedAt": "2026-08-30T21:11:00.981Z"
 }

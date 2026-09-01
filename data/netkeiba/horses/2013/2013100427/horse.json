@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100427",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100427/",
-  "profile": null,
+  "profile": {
+    "name": "セシャルマン",
+    "birthDate": "2013-03-03",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2003110054",
+      "name": "フローレンスガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Corredor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2542,6 +2572,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セシャルマン (C'est Charmant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セシャルマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セシャルマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2611,9 +2671,9 @@
       "contentHash": "9d304c43ade549c2cdd9caa97ccd74e24a3a0a9c9a28e4685dab223fbf29c012",
       "byteLength": 65948,
       "rawPath": "netkeiba/horses/2013/2013100427/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:12:11.670Z"
+  "updatedAt": "2026-08-26T23:17:56.499Z"
 }

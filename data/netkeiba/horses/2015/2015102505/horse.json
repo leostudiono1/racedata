@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102505",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102505/",
-  "profile": null,
+  "profile": {
+    "name": "コットンクラブ",
+    "birthDate": "2015-02-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05753",
+      "name": "山下貴之"
+    },
+    "owner": {
+      "id": "258030",
+      "name": "山住勲"
+    },
+    "breeder": {
+      "id": "403025",
+      "name": "仲野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2005110030",
+      "name": "アンチークショップ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -4085,6 +4115,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コットンクラブ (Cotton Club) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コットンクラブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コットンクラブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4154,9 +4214,9 @@
       "contentHash": "cd0bf3bb78661d4ecae1dcb2b9c48548716be2e2460db8991dcbe094e111bce4",
       "byteLength": 67075,
       "rawPath": "netkeiba/horses/2015/2015102505/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:10:55.923Z"
+  "updatedAt": "2026-08-30T21:16:33.673Z"
 }

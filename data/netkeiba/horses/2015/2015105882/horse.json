@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105882",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105882/",
-  "profile": null,
+  "profile": {
+    "name": "サイモンバイタル",
+    "birthDate": "2015-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01003",
+      "name": "川村禎彦"
+    },
+    "owner": {
+      "id": "132030",
+      "name": "澤田昭紀"
+    },
+    "breeder": {
+      "id": "203084",
+      "name": "田原橋本牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    },
+    "dam": {
+      "id": "1999100581",
+      "name": "シルクスパイシー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ダンシングブレーヴ Dancing Brave(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106867",
@@ -2686,6 +2716,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サイモンバイタル (Saimon Vital) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイモンバイタル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サイモンバイタル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2755,9 +2815,9 @@
       "contentHash": "28e468dc8f06f8fe552a6939cc02482a473b02500b672f59cecc4c12f7c205d9",
       "byteLength": 67061,
       "rawPath": "netkeiba/horses/2015/2015105882/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:13:19.379Z"
+  "updatedAt": "2026-08-30T21:18:57.039Z"
 }

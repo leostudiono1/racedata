@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110009",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110009/",
-  "profile": null,
+  "profile": {
+    "name": "セセリ",
+    "birthDate": "2011-04-10",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05586",
+      "name": "柏原誠路"
+    },
+    "owner": {
+      "id": "338033",
+      "name": "冨士井直哉"
+    },
+    "breeder": {
+      "id": "450705",
+      "name": "William Paca Beatson Jr."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Mine Inning"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マイニング Mining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5268,6 +5298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セセリ (Seseri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セセリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セセリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5337,9 +5397,9 @@
       "contentHash": "3660b1d0b9e63ce9a16c8e7409966dffc45935c1cfcfe1139c3660ffe99c3adf",
       "byteLength": 66808,
       "rawPath": "netkeiba/horses/2011/2011110009/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:08:27.786Z"
+  "updatedAt": "2026-08-26T23:14:12.500Z"
 }

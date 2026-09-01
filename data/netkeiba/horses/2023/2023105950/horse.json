@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105950",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105950/",
-  "profile": null,
+  "profile": {
+    "name": "パトリシア",
+    "birthDate": "2023-03-31",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103273",
+      "name": "トーセンレーヴ"
+    },
+    "dam": {
+      "id": "2008105252",
+      "name": "トーセンミネルバ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103273",
@@ -1588,6 +1618,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パトリシア (Patricia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パトリシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パトリシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1657,9 +1717,9 @@
       "contentHash": "ded47128f512fcda8077a8cded83404c3514877d9b1cf62e18e05fbb173d629a",
       "byteLength": 65631,
       "rawPath": "netkeiba/horses/2023/2023105950/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:43:45.036Z"
+  "updatedAt": "2026-08-28T22:47:23.708Z"
 }

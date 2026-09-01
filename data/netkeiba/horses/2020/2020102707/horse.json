@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102707",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102707/",
-  "profile": null,
+  "profile": {
+    "name": "アウトリーチ",
+    "birthDate": "2020-02-21",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01172",
+      "name": "新谷功一"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2006102923",
+      "name": "リーチザクラウン"
+    },
+    "dam": {
+      "id": "2011103571",
+      "name": "ベストリーダー"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102923",
@@ -1227,6 +1257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アウトリーチ (Outreach) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトリーチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アウトリーチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1296,9 +1356,9 @@
       "contentHash": "006d8d7f02ba6cb11852f4d4dfd3e92d2531b9f2b6ccf7f1f8d234bea98bc1ec",
       "byteLength": 65194,
       "rawPath": "netkeiba/horses/2020/2020102707/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:54:22.079Z"
+  "updatedAt": "2026-08-29T21:58:00.715Z"
 }

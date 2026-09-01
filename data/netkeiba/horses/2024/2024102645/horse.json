@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024102645",
   "sourceUrl": "https://db.netkeiba.com/horse/2024102645/",
-  "profile": null,
+  "profile": {
+    "name": "ミール",
+    "birthDate": "2024-05-03",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01206",
+      "name": "高橋一哉"
+    },
+    "owner": {
+      "id": "497031",
+      "name": "村田博司"
+    },
+    "breeder": {
+      "id": "533047",
+      "name": "鮫川ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014106083",
+      "name": "スワーヴリチャード"
+    },
+    "dam": {
+      "id": "2008103003",
+      "name": "フレンチボウ"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106083",
@@ -1038,6 +1068,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミール (Meal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1107,9 +1167,9 @@
       "contentHash": "45308c48ef19bd108662cf8c7e491a18a2d4136478be3778bcec3337013463f2",
       "byteLength": 65899,
       "rawPath": "netkeiba/horses/2024/2024102645/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:05:52.692Z"
+  "updatedAt": "2026-08-27T23:12:54.729Z"
 }

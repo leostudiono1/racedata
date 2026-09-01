@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101934",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101934/",
-  "profile": null,
+  "profile": {
+    "name": "オフェーリア",
+    "birthDate": "2020-04-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05322",
+      "name": "本名信行"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "513395",
+      "name": "道見牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000110026",
+      "name": "ロードアルティマ"
+    },
+    "dam": {
+      "id": "2010101496",
+      "name": "レディー"
+    },
+    "damsire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2000110026",
@@ -3767,6 +3797,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オフェーリア (Ophelia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オフェーリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オフェーリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3836,9 +3896,9 @@
       "contentHash": "fe603cfbaad46de3669d69b84fd152e5bb416a786c3b63b952e573333d1ea42c",
       "byteLength": 65589,
       "rawPath": "netkeiba/horses/2020/2020101934/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:44:20.962Z"
+  "updatedAt": "2026-08-26T23:50:05.726Z"
 }

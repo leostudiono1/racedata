@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103254",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103254/",
-  "profile": null,
+  "profile": {
+    "name": "オールマイト",
+    "birthDate": "2016-06-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01040",
+      "name": "服部利之"
+    },
+    "owner": {
+      "id": "117030",
+      "name": "中西功"
+    },
+    "breeder": {
+      "id": "503393",
+      "name": "高山牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2007105655",
+      "name": "ファーマレッド"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -1851,6 +1881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オールマイト (Almight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールマイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールマイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1920,9 +1980,9 @@
       "contentHash": "ed5c2efc8385b661e5b0888d44218b7d6e763bf56f72602a516e48ed814264a6",
       "byteLength": 64945,
       "rawPath": "netkeiba/horses/2016/2016103254/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:37:47.710Z"
+  "updatedAt": "2026-08-29T21:41:26.241Z"
 }

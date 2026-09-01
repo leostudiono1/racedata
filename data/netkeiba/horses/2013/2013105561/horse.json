@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105561",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105561/",
-  "profile": null,
+  "profile": {
+    "name": "メモラビリア",
+    "birthDate": "2013-03-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "Candy Ride"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ドントフォゲットギル Don't Forget Gil(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kafwain"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1281,6 +1311,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メモラビリア (Memorabilia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メモラビリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メモラビリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1350,9 +1410,9 @@
       "contentHash": "cc860ccf420c3df62e51af6af1972c9e683565f56f93508bb6f2e389c5fec955",
       "byteLength": 65848,
       "rawPath": "netkeiba/horses/2013/2013105561/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:25:08.634Z"
+  "updatedAt": "2026-08-24T03:30:18.528Z"
 }

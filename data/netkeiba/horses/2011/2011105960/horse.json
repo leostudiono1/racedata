@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105960",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105960/",
-  "profile": null,
+  "profile": {
+    "name": "キングズガード",
+    "birthDate": "2011-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "100800",
+      "name": "日進牧場"
+    },
+    "breeder": {
+      "id": "900019",
+      "name": "日進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2004102172",
+      "name": "キングスベリー"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5645,6 +5675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングズガード (King's Guard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングズガード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングズガード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5714,9 +5774,9 @@
       "contentHash": "e73bfd219ec772fdc0ab42a26c7b4caa77a6b079e5b1de70230a2e6cb5e1a94e",
       "byteLength": 67031,
       "rawPath": "netkeiba/horses/2011/2011105960/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T22:58:12.721Z"
+  "updatedAt": "2026-08-30T21:03:50.783Z"
 }

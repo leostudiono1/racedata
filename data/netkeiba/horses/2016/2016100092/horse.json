@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100092",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100092/",
-  "profile": null,
+  "profile": {
+    "name": "クリノストロング",
+    "birthDate": "2016-03-02",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "488007",
+      "name": "栗本守"
+    },
+    "breeder": {
+      "id": "300331",
+      "name": "石田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2006104129",
+      "name": "ローズヘイロー"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -1256,6 +1286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クリノストロング (Kurino Strong) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノストロング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリノストロング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1325,9 +1385,9 @@
       "contentHash": "58721ecaaec6c1cdb77cbecb21de93c91be74d7978e9baf81ece447a06aa4121",
       "byteLength": 64512,
       "rawPath": "netkeiba/horses/2016/2016100092/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:13:57.883Z"
+  "updatedAt": "2026-08-30T21:19:35.579Z"
 }

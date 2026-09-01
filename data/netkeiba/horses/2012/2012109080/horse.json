@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012109080",
   "sourceUrl": "https://db.netkeiba.com/horse/2012109080/",
-  "profile": null,
+  "profile": {
+    "name": "ワンダービート",
+    "birthDate": "2012-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01051",
+      "name": "岩戸孝樹"
+    },
+    "owner": {
+      "id": "075800",
+      "name": "千明牧場"
+    },
+    "breeder": {
+      "id": "230123",
+      "name": "千明牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    },
+    "dam": {
+      "id": "2007103016",
+      "name": "メイグレイス"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108676",
@@ -1288,6 +1318,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワンダービート (Wonder Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンダービート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワンダービート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1357,9 +1417,9 @@
       "contentHash": "a5780d330a4d3660e7e063cbf87c8ce97dd0824c5ab97942a0e4f91bcf628d4f",
       "byteLength": 64514,
       "rawPath": "netkeiba/horses/2012/2012109080/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:17:09.169Z"
+  "updatedAt": "2026-08-27T22:24:11.046Z"
 }

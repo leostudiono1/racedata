@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103399",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103399/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキースマイル",
+    "birthDate": "2020-03-10",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2013105932",
+      "name": "シャレードスマイル"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1045,6 +1075,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキースマイル (Mikki Smile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキースマイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキースマイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1114,9 +1174,9 @@
       "contentHash": "dace17b73f857ce8c530fef776118c1a4a0c4721817c66cb8077bdf6cb771581",
       "byteLength": 64831,
       "rawPath": "netkeiba/horses/2020/2020103399/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:33:58.925Z"
+  "updatedAt": "2026-08-30T21:39:36.422Z"
 }

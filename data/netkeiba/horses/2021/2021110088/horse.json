@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110088",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110088/",
-  "profile": null,
+  "profile": {
+    "name": "キュクヌス",
+    "birthDate": "2021-04-19",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "280736",
+      "name": "North Hills Co. Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "2015100991",
+      "name": "Saxon Warrior (安平町)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フォローアドリーム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015100991",
@@ -2610,6 +2640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キュクヌス (Cycnus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュクヌス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キュクヌス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2679,9 +2739,9 @@
       "contentHash": "a1e8a6f920b30fe9646542cd56a14b7ec0605184b3bfcd16363e61905d792585",
       "byteLength": 66599,
       "rawPath": "netkeiba/horses/2021/2021110088/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:01:05.624Z"
+  "updatedAt": "2026-08-24T04:06:15.523Z"
 }

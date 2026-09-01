@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110029",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110029/",
-  "profile": null,
+  "profile": {
+    "name": "オールステイ",
+    "birthDate": "2011-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "018033",
+      "name": "石川秀守"
+    },
+    "breeder": {
+      "id": "250876",
+      "name": "Indian Creek Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Cape Cross"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Flowerette"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Victory Gallop"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2795,6 +2825,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オールステイ (All Stay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールステイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オールステイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2864,9 +2924,9 @@
       "contentHash": "255c5c03d705a8d7e051b8251f56830ed6b3bba226dcfb23c995336f7d9ebfc0",
       "byteLength": 66361,
       "rawPath": "netkeiba/horses/2011/2011110029/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:51:24.449Z"
+  "updatedAt": "2026-08-28T21:55:03.235Z"
 }

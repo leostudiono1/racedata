@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105147",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105147/",
-  "profile": null,
+  "profile": {
+    "name": "シュティル",
+    "birthDate": "2019-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05101",
+      "name": "山越光"
+    },
+    "owner": {
+      "id": "849033",
+      "name": "松谷翔太"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2009106259",
+      "name": "ガラシア"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2950,6 +2980,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュティル (Stille) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュティル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュティル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3019,9 +3079,9 @@
       "contentHash": "ebc4b252273bafffa275d929bbb45e2eab364e0e574729ae81409810a3547cd6",
       "byteLength": 66001,
       "rawPath": "netkeiba/horses/2019/2019105147/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:41:50.386Z"
+  "updatedAt": "2026-08-26T23:47:35.417Z"
 }

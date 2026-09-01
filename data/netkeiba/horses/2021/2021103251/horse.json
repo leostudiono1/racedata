@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103251",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103251/",
-  "profile": null,
+  "profile": {
+    "name": "フォートポータル",
+    "birthDate": "2021-02-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "平和人"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パールオブアフリカ (愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Jeremy"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -3697,6 +3727,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォートポータル (Fort Portal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォートポータル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォートポータル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3766,9 +3826,9 @@
       "contentHash": "3ec2305dc16fa2bbd8db6556748c2111ccb084096cdd1a8a915a58f715ed7e7d",
       "byteLength": 67002,
       "rawPath": "netkeiba/horses/2021/2021103251/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:23:25.524Z"
+  "updatedAt": "2026-08-26T00:30:48.082Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101019",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101019/",
-  "profile": null,
+  "profile": {
+    "name": "コト",
+    "birthDate": "2021-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2015104727",
+      "name": "ニコール"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2321,6 +2351,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コト (Koto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2390,9 +2450,9 @@
       "contentHash": "2110aa59ed7ad292aa47546d243430cc0583cbac63db19cc4aa932fb64013cc7",
       "byteLength": 66689,
       "rawPath": "netkeiba/horses/2021/2021101019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:30:06.160Z"
+  "updatedAt": "2026-08-28T22:33:44.621Z"
 }

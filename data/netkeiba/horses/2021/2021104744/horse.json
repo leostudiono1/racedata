@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104744",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104744/",
-  "profile": null,
+  "profile": {
+    "name": "アンティシパル",
+    "birthDate": "2021-05-14",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05753",
+      "name": "山下貴之"
+    },
+    "owner": {
+      "id": "x07fb6",
+      "name": "百瀬裕規"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ニューイヤーズデイ"
+    },
+    "dam": {
+      "id": "2009106569",
+      "name": "アンチュラス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3216,6 +3246,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンティシパル (Anticipar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンティシパル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンティシパル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3285,9 +3345,9 @@
       "contentHash": "3f83b2606d96bb2492d9ca22bc56afdf81424d59bb89ef5dd971e59bbef04057",
       "byteLength": 65784,
       "rawPath": "netkeiba/horses/2021/2021104744/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:39:38.447Z"
+  "updatedAt": "2026-08-30T21:45:16.162Z"
 }

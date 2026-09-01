@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105983",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105983/",
-  "profile": null,
+  "profile": {
+    "name": "モズラテール",
+    "birthDate": "2018-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中伸一"
+    },
+    "owner": {
+      "id": "x0078b",
+      "name": "江口正典"
+    },
+    "breeder": {
+      "id": "300033",
+      "name": "栄進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マラジニア Malagenia(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Whipper"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1907,6 +1937,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モズラテール (Mozu la Terre) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズラテール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズラテール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1976,9 +2036,9 @@
       "contentHash": "6fa7380e1e9536e21fb6db0872259211a67191801db9dfe4993ea4cb7aefa3da",
       "byteLength": 64602,
       "rawPath": "netkeiba/horses/2018/2018105983/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:42:11.343Z"
+  "updatedAt": "2026-08-27T22:49:12.943Z"
 }

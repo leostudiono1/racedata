@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104101",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104101/",
-  "profile": null,
+  "profile": {
+    "name": "ヤギリベリル",
+    "birthDate": "2020-05-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05762",
+      "name": "千葉幸喜"
+    },
+    "owner": {
+      "id": "013006",
+      "name": "内田ヤエ子"
+    },
+    "breeder": {
+      "id": "433072",
+      "name": "桑嶋峰雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2012104279",
+      "name": "ヤギリヴィーナス"
+    },
+    "damsire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1463,6 +1493,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヤギリベリル (Yagiri Beryl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤギリベリル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤギリベリル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1532,9 +1592,9 @@
       "contentHash": "a6606f70adeec095950d2a2e37ee998984bf896d5725c4aa1952cf4a6178e7d2",
       "byteLength": 65994,
       "rawPath": "netkeiba/horses/2020/2020104101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:27:52.691Z"
+  "updatedAt": "2026-08-28T22:31:32.087Z"
 }

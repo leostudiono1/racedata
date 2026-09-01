@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105751",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105751/",
-  "profile": null,
+  "profile": {
+    "name": "ダーナ",
+    "birthDate": "2014-03-03",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "490006",
+      "name": "門野重雄"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2004102753",
+      "name": "ドリームジャーニー"
+    },
+    "dam": {
+      "id": "2005102406",
+      "name": "リトルディッパー"
+    },
+    "damsire": {
+      "id": "1995108665",
+      "name": "アグネスワールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2004102753",
@@ -5568,6 +5598,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダーナ (Dana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5637,9 +5697,9 @@
       "contentHash": "f1e2e922e7d93f30ed90ef842a139733af866b892d7a2dd8cc8171d2d20b3059",
       "byteLength": 66800,
       "rawPath": "netkeiba/horses/2014/2014105751/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:19:36.396Z"
+  "updatedAt": "2026-08-26T23:25:21.084Z"
 }

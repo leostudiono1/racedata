@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105980",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105980/",
-  "profile": null,
+  "profile": {
+    "name": "クールライズ",
+    "birthDate": "2019-04-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01023",
+      "name": "伊藤圭三"
+    },
+    "owner": {
+      "id": "023031",
+      "name": "久木田隆"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2010110021",
+      "name": "トゥービーハッピー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -1550,6 +1580,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クールライズ (Cool Rise) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールライズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールライズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1619,9 +1679,9 @@
       "contentHash": "c9551c65ef547d1063544234a662d3a14d8b1462e929c795470fb167c88f1b96",
       "byteLength": 66928,
       "rawPath": "netkeiba/horses/2019/2019105980/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:25:25.661Z"
+  "updatedAt": "2026-08-28T22:29:04.458Z"
 }

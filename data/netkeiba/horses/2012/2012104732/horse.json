@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104732",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104732/",
-  "profile": null,
+  "profile": {
+    "name": "アンティキティラ",
+    "birthDate": "2012-03-26",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "データ Data(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Roy"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -1329,6 +1359,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンティキティラ (Antikythira) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンティキティラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンティキティラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1398,9 +1458,9 @@
       "contentHash": "6f1ffbdd02b6fcbb84c0ca2b2a5bb1bb26da5d80bc681d501024a919bed3465c",
       "byteLength": 65750,
       "rawPath": "netkeiba/horses/2012/2012104732/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:20:53.076Z"
+  "updatedAt": "2026-08-24T03:26:03.060Z"
 }

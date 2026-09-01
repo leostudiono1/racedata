@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103200",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103200/",
-  "profile": null,
+  "profile": {
+    "name": "アンカー",
+    "birthDate": "2013-05-18",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01083",
+      "name": "松永昌博"
+    },
+    "owner": {
+      "id": "265005",
+      "name": "吉岡泰治"
+    },
+    "breeder": {
+      "id": "750007",
+      "name": "赤田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ロージズインメイ Roses in May(米)"
+    },
+    "dam": {
+      "id": "2003102270",
+      "name": "ディープスマート"
+    },
+    "damsire": {
+      "id": "1991103498",
+      "name": "サクラローレル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3904,6 +3934,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンカー (Anchor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3973,9 +4033,9 @@
       "contentHash": "fb62881a20aacd1b36df03067514c3cf29129588a9ec9ace681f776383793322",
       "byteLength": 67028,
       "rawPath": "netkeiba/horses/2013/2013103200/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:49:20.596Z"
+  "updatedAt": "2026-08-25T23:56:43.377Z"
 }

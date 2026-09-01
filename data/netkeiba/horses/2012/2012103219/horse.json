@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103219",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103219/",
-  "profile": null,
+  "profile": {
+    "name": "デビュタント",
+    "birthDate": "2012-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2002110024",
+      "name": "モアザンベスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2436,6 +2466,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デビュタント (Debutante) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デビュタント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デビュタント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2505,9 +2565,9 @@
       "contentHash": "fc1742e14459d052265036fc6b4b6485855a5d441f8d817ff1da4e0e2754cf81",
       "byteLength": 67033,
       "rawPath": "netkeiba/horses/2012/2012103219/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:15:31.137Z"
+  "updatedAt": "2026-08-27T22:22:32.986Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101713",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101713/",
-  "profile": null,
+  "profile": {
+    "name": "イサギ",
+    "birthDate": "2023-04-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01197",
+      "name": "小椋研介"
+    },
+    "owner": {
+      "id": "273031",
+      "name": "村木慎吾"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2006100360",
+      "name": "キララチュール"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1987,6 +2017,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イサギ (Isagi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イサギ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イサギ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2056,9 +2116,9 @@
       "contentHash": "e97da20e095063e92362a9eee4a6eea7d5155ee53946d585a9672ab04dbaefa9",
       "byteLength": 64504,
       "rawPath": "netkeiba/horses/2023/2023101713/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:06:31.065Z"
+  "updatedAt": "2026-08-24T04:11:40.870Z"
 }

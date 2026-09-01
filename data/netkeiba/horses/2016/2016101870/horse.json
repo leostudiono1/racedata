@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101870",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101870/",
-  "profile": null,
+  "profile": {
+    "name": "カシマヌアージ",
+    "birthDate": "2016-03-17",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "813007",
+      "name": "松浦一久"
+    },
+    "breeder": {
+      "id": "440033",
+      "name": "信成牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "1999102817",
+      "name": "カシマトレジャー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -1606,6 +1636,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カシマヌアージ (Kashima Nuarji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシマヌアージ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カシマヌアージ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1675,9 +1735,9 @@
       "contentHash": "81f836eb28c136a523c63e8f48e8c925bf62f2737eff4d8db5d54790fd8573d1",
       "byteLength": 65707,
       "rawPath": "netkeiba/horses/2016/2016101870/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:33:13.722Z"
+  "updatedAt": "2026-08-25T02:45:23.631Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101119",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101119/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンジュリア",
+    "birthDate": "2012-04-16",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    },
+    "dam": {
+      "id": "2007103000",
+      "name": "リエートフィーネ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1234,6 +1264,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンジュリア (Tosen Julia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンジュリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンジュリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1303,9 +1363,9 @@
       "contentHash": "0c6481b7dafe922051d799a05c51a2bec6d7fcf5c8aa4bd1b22a5443616760a9",
       "byteLength": 64519,
       "rawPath": "netkeiba/horses/2012/2012101119/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:14:07.084Z"
+  "updatedAt": "2026-08-27T22:21:08.895Z"
 }

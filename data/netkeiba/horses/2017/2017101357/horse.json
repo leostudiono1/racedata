@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101357",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101357/",
-  "profile": null,
+  "profile": {
+    "name": "ティンパニ",
+    "birthDate": "2017-03-16",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01096",
+      "name": "粕谷昌央"
+    },
+    "owner": {
+      "id": "204033",
+      "name": "池田草龍"
+    },
+    "breeder": {
+      "id": "930498",
+      "name": "上井農場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2005102757",
+      "name": "タイキルナ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1329,6 +1359,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ティンパニ (Timpani) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティンパニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティンパニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1398,9 +1458,9 @@
       "contentHash": "37c65c537041acb711ec8d531243191219228b4c3680d8abc2c83473de7036db",
       "byteLength": 65619,
       "rawPath": "netkeiba/horses/2017/2017101357/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:13:45.714Z"
+  "updatedAt": "2026-08-28T22:17:24.221Z"
 }

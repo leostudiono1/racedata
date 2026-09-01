@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100192",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100192/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンスティング",
+    "birthDate": "2011-05-11",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00433",
+      "name": "成島英春"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "513353",
+      "name": "川端正博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2000110267",
+      "name": "ワンアンドオール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Arch (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2926,6 +2956,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンスティング (Tosen Sting) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンスティング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンスティング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2995,9 +3055,9 @@
       "contentHash": "83512bd8013e0cc90ada34aac2b6f80e9f736c71acef03e5920b0ad16b43dc9a",
       "byteLength": 66043,
       "rawPath": "netkeiba/horses/2011/2011100192/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T22:56:27.514Z"
+  "updatedAt": "2026-08-30T21:02:05.460Z"
 }

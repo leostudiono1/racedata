@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105665",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105665/",
-  "profile": null,
+  "profile": {
+    "name": "インディストーン",
+    "birthDate": "2020-02-28",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "972033",
+      "name": "山本又一郎"
+    },
+    "breeder": {
+      "id": "000541",
+      "name": "ハクレイファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2013105803",
+      "name": "ウルド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1543,6 +1573,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インディストーン (Indie Stone) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インディストーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インディストーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1612,9 +1672,9 @@
       "contentHash": "12ab8b1d259768e8fb4ef614365d3519f37464ed930e6e68ecc81451c29538b0",
       "byteLength": 67058,
       "rawPath": "netkeiba/horses/2020/2020105665/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:20:12.786Z"
+  "updatedAt": "2026-08-26T00:27:35.558Z"
 }

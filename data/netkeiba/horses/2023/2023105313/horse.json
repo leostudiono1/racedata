@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105313",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105313/",
-  "profile": null,
+  "profile": {
+    "name": "イットガール",
+    "birthDate": "2023-03-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "011008",
+      "name": "平田修"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "トレジャリング Treasuring(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Havana Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1081,6 +1111,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イットガール (It Girl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イットガール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イットガール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1150,9 +1210,9 @@
       "contentHash": "501e6955003dd791749fb31f4dbdfa87a59a77a0a19c681047a18d4f24f17693",
       "byteLength": 64495,
       "rawPath": "netkeiba/horses/2023/2023105313/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:08:44.199Z"
+  "updatedAt": "2026-08-24T04:13:53.858Z"
 }

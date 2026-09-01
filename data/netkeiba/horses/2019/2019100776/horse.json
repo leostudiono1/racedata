@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100776",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100776/",
-  "profile": null,
+  "profile": {
+    "name": "マクレーン",
+    "birthDate": "2019-05-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2011105186",
+      "name": "マイネヴァリエンテ"
+    },
+    "damsire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1127,6 +1157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マクレーン (McClane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクレーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マクレーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1196,9 +1256,9 @@
       "contentHash": "e65a5b0e95b8c7c34da9a6f67d2f8036b4670574af0b2bf161b3ee0713a0e30a",
       "byteLength": 64912,
       "rawPath": "netkeiba/horses/2019/2019100776/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:38:48.334Z"
+  "updatedAt": "2026-08-26T23:44:33.020Z"
 }

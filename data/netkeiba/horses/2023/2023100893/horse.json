@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100893",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100893/",
-  "profile": null,
+  "profile": {
+    "name": "モストロ",
+    "birthDate": "2023-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01047",
+      "name": "勢司和浩"
+    },
+    "owner": {
+      "id": "089002",
+      "name": "小島將之"
+    },
+    "breeder": {
+      "id": "930352",
+      "name": "鹿戸和幸"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015104688",
+      "name": "インディチャンプ"
+    },
+    "dam": {
+      "id": "2012101307",
+      "name": "プレアデスマリーン"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104688",
@@ -1145,6 +1175,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モストロ (Mostro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モストロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モストロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1214,9 +1274,9 @@
       "contentHash": "caae89c5bfe3c596f518a86732a73bc549746b4fdcb83592d1339805ed478654",
       "byteLength": 65576,
       "rawPath": "netkeiba/horses/2023/2023100893/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:01:02.170Z"
+  "updatedAt": "2026-08-27T23:08:04.048Z"
 }

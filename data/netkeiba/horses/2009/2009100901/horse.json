@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009100901",
   "sourceUrl": "https://db.netkeiba.com/horse/2009100901/",
-  "profile": null,
+  "profile": {
+    "name": "オマモリ",
+    "birthDate": "2009-03-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "030044",
+      "name": "吉田又治"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "1998103256",
+      "name": "フラワーチャンプ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -4764,6 +4794,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オマモリ (Omamori) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オマモリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オマモリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4833,9 +4893,9 @@
       "contentHash": "f7cc9fe703d4186bb3886333a01fecde2dd0c7867f4ca45339cc9e28dab827f7",
       "byteLength": 64820,
       "rawPath": "netkeiba/horses/2009/2009100901/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:39:25.410Z"
+  "updatedAt": "2026-08-25T23:46:48.261Z"
 }

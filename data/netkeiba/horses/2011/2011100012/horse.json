@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100012",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100012/",
-  "profile": null,
+  "profile": {
+    "name": "チュロ",
+    "birthDate": "2011-02-22",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "094700",
+      "name": "エデンアソシエーション"
+    },
+    "breeder": {
+      "id": "003341",
+      "name": "天羽牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2003105694",
+      "name": "オールマイティ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -2434,6 +2464,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チュロ (Chulo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2503,9 +2563,9 @@
       "contentHash": "03087eda634612f9db2caf3fbbd650eb984e73581a9072b9f2e9a1dc97d745b5",
       "byteLength": 65520,
       "rawPath": "netkeiba/horses/2011/2011100012/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:17:04.789Z"
+  "updatedAt": "2026-08-29T21:20:43.491Z"
 }

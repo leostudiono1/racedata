@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110021",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110021/",
-  "profile": null,
+  "profile": {
+    "name": "ズイショウ",
+    "birthDate": "2022-02-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05281",
+      "name": "塚田隆男"
+    },
+    "owner": {
+      "id": "x0b723",
+      "name": "（有）総武開発"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Masar (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エクスプレシイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Siyouni"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1369,6 +1399,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ズイショウ (Zuisho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ズイショウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ズイショウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1438,9 +1498,9 @@
       "contentHash": "7603a84e98f638718e1221ff96a896ad82a60bef3d036b9079e46fc8e78da81b",
       "byteLength": 65278,
       "rawPath": "netkeiba/horses/2022/2022110021/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:29:33.038Z"
+  "updatedAt": "2026-08-26T00:36:55.882Z"
 }

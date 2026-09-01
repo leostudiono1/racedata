@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101231",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101231/",
-  "profile": null,
+  "profile": {
+    "name": "フリッシュ",
+    "birthDate": "2023-02-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "033468",
+      "name": "ナカノファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2015101737",
+      "name": "ナリッシュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1819,6 +1849,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリッシュ (Frisch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1888,9 +1948,9 @@
       "contentHash": "2f1cf518e2cf1b280761aca815ba1c5d02e87aaaee8ad7f27e97682fc9c01b1c",
       "byteLength": 67626,
       "rawPath": "netkeiba/horses/2023/2023101231/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T05:02:52.487Z"
+  "updatedAt": "2026-08-25T03:14:37.296Z"
 }

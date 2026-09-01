@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101832",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101832/",
-  "profile": null,
+  "profile": {
+    "name": "オースミアース",
+    "birthDate": "2012-03-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01069",
+      "name": "中尾秀正"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "1999101368",
+      "name": "オースミコスモ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5636,6 +5666,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オースミアース (Osumi Earth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミアース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミアース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5705,9 +5765,9 @@
       "contentHash": "900a00afc301de682ac07702031ab8ff9c01c7272c99c456308048f86ccb80d5",
       "byteLength": 64842,
       "rawPath": "netkeiba/horses/2012/2012101832/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:19:28.340Z"
+  "updatedAt": "2026-08-29T21:23:06.979Z"
 }

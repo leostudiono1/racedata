@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102103",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102103/",
-  "profile": null,
+  "profile": {
+    "name": "ロクモンセン",
+    "birthDate": "2014-05-18",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島寿"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "503393",
+      "name": "高山牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2006101198",
+      "name": "クリアソウル"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -1694,6 +1724,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロクモンセン (Rokumonsen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロクモンセン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロクモンセン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1763,9 +1823,9 @@
       "contentHash": "b860aeb7cb3e0710de98d9883558bd3d4799d4c29a7e30c002b6ae16efc6fd53",
       "byteLength": 64471,
       "rawPath": "netkeiba/horses/2014/2014102103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:06:47.220Z"
+  "updatedAt": "2026-08-30T21:12:24.952Z"
 }

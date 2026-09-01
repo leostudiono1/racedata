@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100841",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100841/",
-  "profile": null,
+  "profile": {
+    "name": "ムギ",
+    "birthDate": "2016-05-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05691",
+      "name": "新子雅司"
+    },
+    "owner": {
+      "id": "158033",
+      "name": "山下良子"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2000107458",
+      "name": "ウインミュートス"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -2839,6 +2869,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムギ (Mugi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムギ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムギ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2908,9 +2968,9 @@
       "contentHash": "ba9195b2b32781f913080b8542e3c23c77c24dc5638a5c687104bf80a4d146cd",
       "byteLength": 66629,
       "rawPath": "netkeiba/horses/2016/2016100841/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:09:15.898Z"
+  "updatedAt": "2026-08-28T22:12:54.665Z"
 }

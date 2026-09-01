@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105022",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105022/",
-  "profile": null,
+  "profile": {
+    "name": "ライノ",
+    "birthDate": "2022-03-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Into Mischief"
+    },
+    "dam": {
+      "id": "000",
+      "name": "プリンセスノーア Princess Noor(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Not This Time"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1866,6 +1896,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライノ (Rhino) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライノ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライノ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1935,9 +1995,9 @@
       "contentHash": "e4dee18f5918ba29650571dd0c94681d877fee175efef2588880d9019b974865",
       "byteLength": 66661,
       "rawPath": "netkeiba/horses/2022/2022105022/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T05:00:53.325Z"
+  "updatedAt": "2026-08-25T03:12:38.327Z"
 }

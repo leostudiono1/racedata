@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103458",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103458/",
-  "profile": null,
+  "profile": {
+    "name": "ロードフェンネル",
+    "birthDate": "2011-03-30",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01044",
+      "name": "昆貢"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2002110047",
+      "name": "レディマーメイド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -1816,6 +1846,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードフェンネル (Lord Fennel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードフェンネル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードフェンネル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1885,9 +1945,9 @@
       "contentHash": "b081d66e8e9699c531844e75d658c0964e4d3363d3d5a839af7a6ca6dd76c79a",
       "byteLength": 64995,
       "rawPath": "netkeiba/horses/2011/2011103458/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:17:02.006Z"
+  "updatedAt": "2026-08-24T03:22:11.872Z"
 }

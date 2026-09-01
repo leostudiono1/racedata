@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106865",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106865/",
-  "profile": null,
+  "profile": {
+    "name": "マイモーメント",
+    "birthDate": "2020-04-01",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "小林俊彦"
+    },
+    "owner": {
+      "id": "963031",
+      "name": "前田敏文"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "クライシスオブスピリット Crisis of Spirit(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Vindication"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -3186,6 +3216,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイモーメント (My Moment) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイモーメント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイモーメント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3255,9 +3315,9 @@
       "contentHash": "0d55714e539559bce37a73a49bb86a18efdc3f90605229474a60b67b3ce7a44c",
       "byteLength": 67012,
       "rawPath": "netkeiba/horses/2020/2020106865/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:46:54.988Z"
+  "updatedAt": "2026-08-26T23:52:39.604Z"
 }

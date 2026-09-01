@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110126",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110126/",
-  "profile": null,
+  "profile": {
+    "name": "インユアパレス",
+    "birthDate": "2021-05-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "882800",
+      "name": "小林英一ホールディングス"
+    },
+    "breeder": {
+      "id": "190880",
+      "name": "Winchester Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "パレスマリス"
+    },
+    "dam": {
+      "id": "2012104793",
+      "name": "クイーンズターフ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3107,6 +3137,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インユアパレス (In Your Palace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インユアパレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インユアパレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3176,9 +3236,9 @@
       "contentHash": "ca1543b5fee2e0e266ab1a93632b4f3a5056a94558681193b7cd727969c8a0b5",
       "byteLength": 66941,
       "rawPath": "netkeiba/horses/2021/2021110126/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:57:12.409Z"
+  "updatedAt": "2026-08-25T03:09:22.156Z"
 }

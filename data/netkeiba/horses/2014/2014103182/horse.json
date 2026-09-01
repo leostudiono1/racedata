@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103182",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103182/",
-  "profile": null,
+  "profile": {
+    "name": "アタミ",
+    "birthDate": "2014-03-13",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "保利幸作"
+    },
+    "owner": {
+      "id": "297007",
+      "name": "副島義久"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2003100711",
+      "name": "トーワフォーチュン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -7494,6 +7524,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アタミ (Atami) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アタミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アタミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7563,9 +7623,9 @@
       "contentHash": "226903f598c477bef5000eee1e24c7d0a8617e3dc0eee0de00bc5a8849aea3aa",
       "byteLength": 66742,
       "rawPath": "netkeiba/horses/2014/2014103182/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:07:15.430Z"
+  "updatedAt": "2026-08-30T21:12:53.022Z"
 }

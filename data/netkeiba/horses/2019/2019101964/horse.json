@@ -2,7 +2,34 @@
   "schemaVersion": 1,
   "id": "2019101964",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101964/",
-  "profile": null,
+  "profile": {
+    "name": "ゼウスバイオ",
+    "birthDate": "2019-03-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05331",
+      "name": "山崎尋美"
+    },
+    "owner": null,
+    "breeder": {
+      "id": "933392",
+      "name": "中館牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2013101113",
+      "name": "エスカレートバイオ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アルデバランII Aldebaran(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -3198,6 +3225,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼウスバイオ (Zeus Bio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼウスバイオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼウスバイオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3267,9 +3324,9 @@
       "contentHash": "a586537883256ddf36a06212eb549a56d2096db61d2d2fa0be4e8a190611ee2e",
       "byteLength": 67025,
       "rawPath": "netkeiba/horses/2019/2019101964/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:45:32.697Z"
+  "updatedAt": "2026-08-25T02:57:42.464Z"
 }

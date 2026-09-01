@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102357",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102357/",
-  "profile": null,
+  "profile": {
+    "name": "ファシル",
+    "birthDate": "2014-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00436",
+      "name": "堀井雅広"
+    },
+    "owner": {
+      "id": "740800",
+      "name": "浜本牧場"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カストリア Kastria(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2620,6 +2650,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファシル (Facile) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファシル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファシル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2689,9 +2749,9 @@
       "contentHash": "8ff866e0fcb976e1c00202981386ea2616f17c478f829f4c2b4052c96c63a30a",
       "byteLength": 66838,
       "rawPath": "netkeiba/horses/2014/2014102357/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:17:58.381Z"
+  "updatedAt": "2026-08-26T23:23:43.135Z"
 }

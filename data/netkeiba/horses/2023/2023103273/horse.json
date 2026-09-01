@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103273",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103273/",
-  "profile": null,
+  "profile": {
+    "name": "ジュリ",
+    "birthDate": "2023-03-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "536800",
+      "name": "大樹ファーム"
+    },
+    "breeder": {
+      "id": "733302",
+      "name": "松田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015102377",
+      "name": "ダノンスマッシュ"
+    },
+    "dam": {
+      "id": "2014105139",
+      "name": "ラファエラ"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102377",
@@ -1671,6 +1701,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジュリ (Je Ris) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1740,9 +1800,9 @@
       "contentHash": "ff6fb55f3fc32989fd575c0410a26ec0fec2a34c1d7dcd6e374e5febaaad5aa8",
       "byteLength": 66286,
       "rawPath": "netkeiba/horses/2023/2023103273/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:58:56.337Z"
+  "updatedAt": "2026-08-27T00:04:41.340Z"
 }

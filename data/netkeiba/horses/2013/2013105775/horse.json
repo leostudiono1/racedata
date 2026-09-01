@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105775",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105775/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーチェリー",
+    "birthDate": "2013-02-04",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2004110005",
+      "name": "アルヴィス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1392,6 +1422,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーチェリー (Mikki Cherry) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーチェリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーチェリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1461,9 +1521,9 @@
       "contentHash": "a98b31874011f9518053c37929d75f4f10c6fe8b293cae9c26aa15c6d856a209",
       "byteLength": 64821,
       "rawPath": "netkeiba/horses/2013/2013105775/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:15:42.228Z"
+  "updatedAt": "2026-08-26T23:21:26.469Z"
 }

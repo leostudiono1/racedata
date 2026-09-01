@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103293",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103293/",
-  "profile": null,
+  "profile": {
+    "name": "フェザーモチーフ",
+    "birthDate": "2020-01-30",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オーサムフェザー Awesome Feather(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Awesome of Course"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1512,6 +1542,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェザーモチーフ (Feather Motif) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェザーモチーフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェザーモチーフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1581,9 +1641,9 @@
       "contentHash": "ffc720fdd7b0bedc0c91a6f3d2dfe73752034f8ed5f54bb72613532bedc8a0d5",
       "byteLength": 67640,
       "rawPath": "netkeiba/horses/2020/2020103293/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:50:12.251Z"
+  "updatedAt": "2026-08-25T03:02:22.104Z"
 }

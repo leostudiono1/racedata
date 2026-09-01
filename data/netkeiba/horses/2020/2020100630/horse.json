@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100630",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100630/",
-  "profile": null,
+  "profile": {
+    "name": "シャノンフォールズ",
+    "birthDate": "2020-02-29",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "281008",
+      "name": "水上ふじ子"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2006100281",
+      "name": "シャルマンスタイル"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -4492,6 +4522,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャノンフォールズ (Shannon Falls) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャノンフォールズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャノンフォールズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4561,9 +4621,9 @@
       "contentHash": "c40e931868445b1d51b32a5ffc52c5b75fd300ab69b4933687159dea991fa68d",
       "byteLength": 67352,
       "rawPath": "netkeiba/horses/2020/2020100630/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:49:02.213Z"
+  "updatedAt": "2026-08-25T03:01:12.232Z"
 }

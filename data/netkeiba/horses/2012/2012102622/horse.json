@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102622",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102622/",
-  "profile": null,
+  "profile": {
+    "name": "マタンギ",
+    "birthDate": "2012-03-27",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01051",
+      "name": "岩戸孝樹"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "203065",
+      "name": "山際牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008110119",
+      "name": "ロッコウオロシ"
+    },
+    "dam": {
+      "id": "2005106361",
+      "name": "アポロクイック"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008110119",
@@ -7116,6 +7146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マタンギ (Matangi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マタンギ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マタンギ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7185,9 +7245,9 @@
       "contentHash": "c6b83631fb6f900fc0f51606240a5b694ea209b568c4375d2eba2def1da52326",
       "byteLength": 65438,
       "rawPath": "netkeiba/horses/2012/2012102622/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:20:07.026Z"
+  "updatedAt": "2026-08-29T21:23:45.596Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102662",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102662/",
-  "profile": null,
+  "profile": {
+    "name": "リク",
+    "birthDate": "2019-05-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01041",
+      "name": "藤沢則雄"
+    },
+    "owner": {
+      "id": "288009",
+      "name": "岩崎僖澄"
+    },
+    "breeder": {
+      "id": "700048",
+      "name": "大北牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106599",
+      "name": "フェノーメノ"
+    },
+    "dam": {
+      "id": "2005101304",
+      "name": "トーホークイーン"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106599",
@@ -1133,6 +1163,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リク (Ric) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1202,9 +1262,9 @@
       "contentHash": "59fd0fe5e7814689d1a9f97f66164f37275f2c94e429707850e752d702f0577d",
       "byteLength": 64216,
       "rawPath": "netkeiba/horses/2019/2019102662/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:39:40.798Z"
+  "updatedAt": "2026-08-26T23:45:25.550Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103985",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103985/",
-  "profile": null,
+  "profile": {
+    "name": "バルマスケ",
+    "birthDate": "2012-02-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01116",
+      "name": "新開幸一"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "1999110151",
+      "name": "カロスキューマ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Louis Quatorze (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -5874,6 +5904,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バルマスケ (Bal Masque) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルマスケ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バルマスケ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5943,9 +6003,9 @@
       "contentHash": "90766131fe1617ea51076d3553182fe12f64578fde581b51446834a820b5f0b7",
       "byteLength": 66713,
       "rawPath": "netkeiba/horses/2012/2012103985/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:44:54.783Z"
+  "updatedAt": "2026-08-25T23:52:17.273Z"
 }

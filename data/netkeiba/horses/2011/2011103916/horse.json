@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103916",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103916/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーアイル",
+    "birthDate": "2011-03-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2004110007",
+      "name": "スターアイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロックオブジブラルタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2956,6 +2986,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーアイル (Mikki Isle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーアイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーアイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3025,9 +3085,9 @@
       "contentHash": "47f2bc7bad9a3f4ac4f6c57965ea0722fcdc72ac44c1b55f764543cdcfc40da6",
       "byteLength": 67292,
       "rawPath": "netkeiba/horses/2011/2011103916/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T22:57:37.918Z"
+  "updatedAt": "2026-08-30T21:03:15.390Z"
 }

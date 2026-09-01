@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103130",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103130/",
-  "profile": null,
+  "profile": {
+    "name": "ヤバネ",
+    "birthDate": "2022-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01215",
+      "name": "加藤公太"
+    },
+    "owner": {
+      "id": "402033",
+      "name": "吉井理人"
+    },
+    "breeder": {
+      "id": "610012",
+      "name": "林孝輝"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013104704",
+      "name": "ディーマジェスティ"
+    },
+    "dam": {
+      "id": "2017106315",
+      "name": "ツルネ"
+    },
+    "damsire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    }
+  },
   "pedigree": [
     {
       "id": "2013104704",
@@ -1313,6 +1343,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヤバネ (Yabane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤバネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヤバネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1382,9 +1442,9 @@
       "contentHash": "9b1eebf93b7f65f2cf32d0bbd23144094d102bfa7d0ac18ec550713c3057aa47",
       "byteLength": 65853,
       "rawPath": "netkeiba/horses/2022/2022103130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:27:19.944Z"
+  "updatedAt": "2026-08-26T00:34:42.610Z"
 }

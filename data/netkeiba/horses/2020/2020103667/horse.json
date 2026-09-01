@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103667",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103667/",
-  "profile": null,
+  "profile": {
+    "name": "シテ",
+    "birthDate": "2020-02-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "西川敏弘"
+    },
+    "owner": {
+      "id": "x04892",
+      "name": "山本浩司"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2012104923",
+      "name": "ラクアミ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2067,6 +2097,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シテ (Shite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2136,9 +2196,9 @@
       "contentHash": "15a4407a94c5ad4ee49db18c01eaabfc5d17fa74ef19c7079d31f4469f685299",
       "byteLength": 66540,
       "rawPath": "netkeiba/horses/2020/2020103667/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:54:50.098Z"
+  "updatedAt": "2026-08-29T21:58:28.830Z"
 }

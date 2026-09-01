@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100624",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100624/",
-  "profile": null,
+  "profile": {
+    "name": "アプラウス",
+    "birthDate": "2016-04-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2004100683",
+      "name": "ルアシェイア"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1652,6 +1682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アプラウス (Applaus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプラウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アプラウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1721,9 +1781,9 @@
       "contentHash": "174a7aab9e2d030ed754e2e2710e54e82fbf4fe3cbc42c4288282819d88d34c3",
       "byteLength": 65050,
       "rawPath": "netkeiba/horses/2016/2016100624/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:00:19.000Z"
+  "updatedAt": "2026-08-26T00:07:41.682Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105622",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105622/",
-  "profile": null,
+  "profile": {
+    "name": "ソウメイ",
+    "birthDate": "2012-03-18",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00433",
+      "name": "成島英春"
+    },
+    "owner": {
+      "id": "338006",
+      "name": "江川伸夫"
+    },
+    "breeder": {
+      "id": "230031",
+      "name": "ミリオンファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    },
+    "dam": {
+      "id": "2005110179",
+      "name": "クレバーマリリン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "2005190006",
@@ -971,6 +1001,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソウメイ (Somei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソウメイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソウメイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1040,9 +1100,9 @@
       "contentHash": "c559bcf4a48d9dae138fff4ae956a69cf02e7fdb8d9ac7ff9514e7ead78fab24",
       "byteLength": 64298,
       "rawPath": "netkeiba/horses/2012/2012105622/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:55:08.474Z"
+  "updatedAt": "2026-08-28T21:58:47.490Z"
 }

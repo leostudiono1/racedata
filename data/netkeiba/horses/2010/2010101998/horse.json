@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101998",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101998/",
-  "profile": null,
+  "profile": {
+    "name": "ジョーヌドール",
+    "birthDate": "2010-04-04",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00409",
+      "name": "二ノ宮敬"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アビ Abi(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Chief's Crown"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101516",
@@ -2735,6 +2765,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョーヌドール (Jaune d'Or) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョーヌドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョーヌドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2804,9 +2864,9 @@
       "contentHash": "cedaeae9f6c149315572843ed9e6808f61c2ad1c13e4600fcde2816ee6b51918",
       "byteLength": 65715,
       "rawPath": "netkeiba/horses/2010/2010101998/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:15:58.159Z"
+  "updatedAt": "2026-08-29T21:19:37.008Z"
 }

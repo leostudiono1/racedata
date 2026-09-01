@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102695",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102695/",
-  "profile": null,
+  "profile": {
+    "name": "ラストライト",
+    "birthDate": "2016-03-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤博紀"
+    },
+    "owner": {
+      "id": "757008",
+      "name": "小林勝"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "1999110124",
+      "name": "ファストアズライト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘネシー Hennessy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2897,6 +2927,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラストライト (Last Light) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラストライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラストライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2966,9 +3026,9 @@
       "contentHash": "369cac0a8136baae3d164e34e2b7c7acbeeef8ba51af729f283373af476b2a72",
       "byteLength": 66804,
       "rawPath": "netkeiba/horses/2016/2016102695/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:30:52.029Z"
+  "updatedAt": "2026-08-27T22:37:53.818Z"
 }

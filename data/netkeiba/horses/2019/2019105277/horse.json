@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105277",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105277/",
-  "profile": null,
+  "profile": {
+    "name": "リアド",
+    "birthDate": "2019-02-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01197",
+      "name": "小椋研介"
+    },
+    "owner": {
+      "id": "858800",
+      "name": "大塚亮一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タイタンクイーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3426,6 +3456,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアド (Riad) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3495,9 +3555,9 @@
       "contentHash": "b5125ffa93798e40f1d9c14302b460b2ddda2e1db8c11a96f3c9f7fa7370c6a9",
       "byteLength": 66541,
       "rawPath": "netkeiba/horses/2019/2019105277/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:51:17.307Z"
+  "updatedAt": "2026-08-24T03:56:27.146Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100556",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100556/",
-  "profile": null,
+  "profile": {
+    "name": "ユラ",
+    "birthDate": "2017-03-09",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05333",
+      "name": "矢野久美"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "213357",
+      "name": "瀬戸牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106599",
+      "name": "フェノーメノ"
+    },
+    "dam": {
+      "id": "1998110224",
+      "name": "カフェショコラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Caerleon (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106599",
@@ -12363,6 +12393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユラ (Yura) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -12432,9 +12492,9 @@
       "contentHash": "5ba2c3fa7b82dd5d78ddbb8c3d493ff28aa05558c1d83064a54d9c48fe6bab34",
       "byteLength": 66862,
       "rawPath": "netkeiba/horses/2017/2017100556/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:29:10.888Z"
+  "updatedAt": "2026-08-26T23:34:55.711Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024100678",
   "sourceUrl": "https://db.netkeiba.com/horse/2024100678/",
-  "profile": null,
+  "profile": {
+    "name": "シジマ",
+    "birthDate": "2024-04-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "アメリカンペイトリオット"
+    },
+    "dam": {
+      "id": "2011100540",
+      "name": "ハッシュ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1027,6 +1057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シジマ (Shijima) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シジマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シジマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1096,9 +1156,9 @@
       "contentHash": "1a58e1b3d49e44076f1b116f6e7fe7fcfea22378880524192eed9a5354e2c8fa",
       "byteLength": 65236,
       "rawPath": "netkeiba/horses/2024/2024100678/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T05:07:00.964Z"
+  "updatedAt": "2026-08-25T03:18:45.924Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100116",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100116/",
-  "profile": null,
+  "profile": {
+    "name": "フジノサムライ",
+    "birthDate": "2012-03-24",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "044034",
+      "name": "栗本八江"
+    },
+    "breeder": {
+      "id": "600334",
+      "name": "柏木一則"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2002101782",
+      "name": "カシノヴィガ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -5451,6 +5481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フジノサムライ (Fujino Samurai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジノサムライ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジノサムライ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5520,9 +5580,9 @@
       "contentHash": "631af0d1dbbe3d7dbea1645e290233d432f54b0d736b301f968f684311527f53",
       "byteLength": 66442,
       "rawPath": "netkeiba/horses/2012/2012100116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:08:38.240Z"
+  "updatedAt": "2026-08-26T23:14:23.360Z"
 }

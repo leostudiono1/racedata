@@ -2,7 +2,28 @@
   "schemaVersion": 1,
   "id": "2020110074",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110074/",
-  "profile": null,
+  "profile": {
+    "name": "ハカイシン",
+    "birthDate": null,
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": null,
+    "owner": null,
+    "breeder": null,
+    "birthplace": null,
+    "sire": {
+      "id": "000",
+      "name": "Runhappy"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Elarose"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5596,6 +5617,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハカイシン (Hakaishin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハカイシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハカイシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5665,9 +5716,9 @@
       "contentHash": "803bb3e2c247334158b29b7fd7cd1c4e049a50ff83f5385005c3a10d81325dc4",
       "byteLength": 66599,
       "rawPath": "netkeiba/horses/2020/2020110074/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:52:50.329Z"
+  "updatedAt": "2026-08-25T03:04:59.591Z"
 }

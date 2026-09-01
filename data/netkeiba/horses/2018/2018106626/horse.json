@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106626",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106626/",
-  "profile": null,
+  "profile": {
+    "name": "ボニート",
+    "birthDate": "2018-05-29",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "552007",
+      "name": "野口幸八"
+    },
+    "breeder": {
+      "id": "030041",
+      "name": "山口義彦"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2006103056",
+      "name": "スマートウェーブ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3941,6 +3971,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボニート (Bonito) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボニート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボニート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4010,9 +4070,9 @@
       "contentHash": "86aed8af81cf89f2903684da0d94256293c97a7e6b23952d3c8836c2224e9574",
       "byteLength": 66789,
       "rawPath": "netkeiba/horses/2018/2018106626/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:37:49.379Z"
+  "updatedAt": "2026-08-26T23:43:33.505Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110122",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110122/",
-  "profile": null,
+  "profile": {
+    "name": "ヨンカー",
+    "birthDate": "2013-03-26",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05208",
+      "name": "岡林光浩"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "340707",
+      "name": "Machmer Hall & Golden Pedigree LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Exchange Rate"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Back in the Shade"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Put It Back"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3529,6 +3559,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヨンカー (Jonker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨンカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨンカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3598,9 +3658,9 @@
       "contentHash": "577ad4017a8c3dc97be1e81016830e21dea3bb19a411dc1c95bb2dcb8ef92c87",
       "byteLength": 66715,
       "rawPath": "netkeiba/horses/2013/2013110122/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:26:31.956Z"
+  "updatedAt": "2026-08-29T21:30:10.612Z"
 }

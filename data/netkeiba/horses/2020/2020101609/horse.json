@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101609",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101609/",
-  "profile": null,
+  "profile": {
+    "name": "イークウェス",
+    "birthDate": "2020-02-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "x0a59a",
+      "name": "（株）ＭＲ"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2007105571",
+      "name": "レッドステラーノ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1575,6 +1605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イークウェス (Eques) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イークウェス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イークウェス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1644,9 +1704,9 @@
       "contentHash": "61a03771c2234483ba0f5e9bfe9b37516bf94466ee6451b48fb92011ae9ae0f0",
       "byteLength": 66577,
       "rawPath": "netkeiba/horses/2020/2020101609/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:52:51.796Z"
+  "updatedAt": "2026-08-24T03:58:02.016Z"
 }

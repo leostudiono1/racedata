@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103066",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103066/",
-  "profile": null,
+  "profile": {
+    "name": "ブラッチョ",
+    "birthDate": "2015-05-10",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "600033",
+      "name": "小林祐一"
+    },
+    "breeder": {
+      "id": "830038",
+      "name": "榊原敏明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103160",
+      "name": "ハイアーゲーム"
+    },
+    "dam": {
+      "id": "2011105758",
+      "name": "ロマンロード"
+    },
+    "damsire": {
+      "id": "1995108558",
+      "name": "マイネルラヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103160",
@@ -2811,6 +2841,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラッチョ (Braccio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラッチョ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラッチョ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2880,9 +2940,9 @@
       "contentHash": "3a86389949a9894501581e70c524fc8b82d6aa092270fba036ca22ab3966128b",
       "byteLength": 64473,
       "rawPath": "netkeiba/horses/2015/2015103066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:21:52.972Z"
+  "updatedAt": "2026-08-26T23:27:37.720Z"
 }

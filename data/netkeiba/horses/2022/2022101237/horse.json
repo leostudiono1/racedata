@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101237",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101237/",
-  "profile": null,
+  "profile": {
+    "name": "ゼロファイター",
+    "birthDate": "2022-05-11",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "成田明"
+    },
+    "owner": {
+      "id": "951033",
+      "name": "諸岡慶"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015102440",
+      "name": "エポカドーロ"
+    },
+    "dam": {
+      "id": "2011100346",
+      "name": "ビジョナリー"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2015102440",
@@ -2363,6 +2393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼロファイター (Zero Fighter) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼロファイター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼロファイター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2432,9 +2492,9 @@
       "contentHash": "0ab9b2420b2c6fdf8096be2224d02e66d8b6922619113396a99f33f01b24371f",
       "byteLength": 65258,
       "rawPath": "netkeiba/horses/2022/2022101237/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:53:13.168Z"
+  "updatedAt": "2026-08-26T23:58:57.755Z"
 }

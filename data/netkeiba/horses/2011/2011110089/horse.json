@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110089",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110089/",
-  "profile": null,
+  "profile": {
+    "name": "ゼアミ",
+    "birthDate": "2011-03-27",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "440709",
+      "name": "Barnett Stables LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Zensational"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Turtle Creek Babe"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2061,6 +2091,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼアミ (Zeami) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼアミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼアミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2130,9 +2190,9 @@
       "contentHash": "274797b766966fe7c4d8a7262551d83e47ee354beb3fab01d5348dd4d4d37ff7",
       "byteLength": 66285,
       "rawPath": "netkeiba/horses/2011/2011110089/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:08:34.636Z"
+  "updatedAt": "2026-08-26T23:14:19.839Z"
 }

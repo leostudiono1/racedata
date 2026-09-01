@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110061",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110061/",
-  "profile": null,
+  "profile": {
+    "name": "エーシンエポナ",
+    "birthDate": "2010-01-30",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00378",
+      "name": "沖芳夫"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "800703",
+      "name": "Stonestreet Thoroughbred Holdings LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Wild Gams"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Forest Wildcat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3278,6 +3308,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エーシンエポナ (A Shin Epona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーシンエポナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーシンエポナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3347,9 +3407,9 @@
       "contentHash": "4b4bdcc6da22f8590ff56990d46d9802ea2a98402a4175ed75fc139025843260",
       "byteLength": 64417,
       "rawPath": "netkeiba/horses/2010/2010110061/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:16:13.110Z"
+  "updatedAt": "2026-08-24T03:21:23.334Z"
 }

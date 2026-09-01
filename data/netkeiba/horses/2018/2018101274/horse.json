@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101274",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101274/",
-  "profile": null,
+  "profile": {
+    "name": "アイルキング",
+    "birthDate": "2018-03-31",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05178",
+      "name": "伊藤勝己"
+    },
+    "owner": {
+      "id": "337803",
+      "name": "（有）ホースケア"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2008110100",
+      "name": "アレアレア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kyllachy"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -5219,6 +5249,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイルキング (Isle King) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイルキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイルキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5288,9 +5348,9 @@
       "contentHash": "ce8c26533844b8b0a7d661afd0e423824f848850427833246b23845a26a44972",
       "byteLength": 66918,
       "rawPath": "netkeiba/horses/2018/2018101274/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:09:14.922Z"
+  "updatedAt": "2026-08-26T00:16:37.331Z"
 }

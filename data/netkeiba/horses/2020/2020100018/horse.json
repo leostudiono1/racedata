@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100018",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100018/",
-  "profile": null,
+  "profile": {
+    "name": "グングニル",
+    "birthDate": "2020-01-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05612",
+      "name": "阪本一栄"
+    },
+    "owner": {
+      "id": "849033",
+      "name": "松谷翔太"
+    },
+    "breeder": {
+      "id": "003090",
+      "name": "乾皆雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2006103246",
+      "name": "ポリリズム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "バチアー Bachir(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -2486,6 +2516,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グングニル (Gungnir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グングニル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グングニル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2555,9 +2615,9 @@
       "contentHash": "a9754f801c9ce63f4f7fc470de298c276532d08124d591b9ee40401d0a7ab997",
       "byteLength": 66899,
       "rawPath": "netkeiba/horses/2020/2020100018/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:25:50.808Z"
+  "updatedAt": "2026-08-28T22:29:28.876Z"
 }

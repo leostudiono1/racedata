@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102708",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102708/",
-  "profile": null,
+  "profile": {
+    "name": "アーガイル",
+    "birthDate": "2016-03-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00383",
+      "name": "伊藤正徳"
+    },
+    "owner": {
+      "id": "411033",
+      "name": "清水敏"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "アイルハヴアナザー I'll Have Another(米)"
+    },
+    "dam": {
+      "id": "2011103244",
+      "name": "デスティニーラブ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1121,6 +1151,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アーガイル (Argyll) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーガイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーガイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1190,9 +1250,9 @@
       "contentHash": "75dd4dc21c4b5d96d9c45d7120e20f8dc2daf05905467d9983c1bd2deae9047b",
       "byteLength": 64057,
       "rawPath": "netkeiba/horses/2016/2016102708/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:36:03.544Z"
+  "updatedAt": "2026-08-24T03:41:13.253Z"
 }

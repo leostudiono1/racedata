@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110104",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110104/",
-  "profile": null,
+  "profile": {
+    "name": "サトノグリアン",
+    "birthDate": "2017-03-18",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "075803",
+      "name": "サトミホースカンパニー"
+    },
+    "breeder": {
+      "id": "040734",
+      "name": "Paget Bloodstock"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Dark Angel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Coolibah"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パントレセレブル Peintre Celebre(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1351,6 +1381,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノグリアン (Satono Grian) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノグリアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノグリアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1420,9 +1480,9 @@
       "contentHash": "acc74f85345efdca13b919d561a3eb71e750fb17a787085ebc22d9975ef4d67d",
       "byteLength": 66996,
       "rawPath": "netkeiba/horses/2017/2017110104/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:08:43.025Z"
+  "updatedAt": "2026-08-26T00:16:06.024Z"
 }

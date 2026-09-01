@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104888",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104888/",
-  "profile": null,
+  "profile": {
+    "name": "スニップ",
+    "birthDate": "2018-01-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "464008",
+      "name": "大野富生"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2008103297",
+      "name": "アソルータ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1776,6 +1806,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スニップ (Snp) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スニップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スニップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1845,9 +1905,9 @@
       "contentHash": "84b781f7cc26407b199af8aa5dd4e0c7a5d548c885886ed80ea3886c9bc9b1b1",
       "byteLength": 65763,
       "rawPath": "netkeiba/horses/2018/2018104888/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:43:15.566Z"
+  "updatedAt": "2026-08-25T02:55:25.891Z"
 }

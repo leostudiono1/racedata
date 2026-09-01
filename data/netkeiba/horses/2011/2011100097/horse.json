@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100097",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100097/",
-  "profile": null,
+  "profile": {
+    "name": "エスティリメイク",
+    "birthDate": "2011-02-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00433",
+      "name": "成島英春"
+    },
+    "owner": {
+      "id": "824800",
+      "name": "エスティファーム"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    },
+    "dam": {
+      "id": "1999105449",
+      "name": "トーセンエール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "リアルシャダイ Real Shadai(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3328,6 +3358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスティリメイク (S T Remake) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスティリメイク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスティリメイク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3397,9 +3457,9 @@
       "contentHash": "b800cd74532db2443a42416dbbc87ae7197eb03a765bff06b8167bed01085f62",
       "byteLength": 65113,
       "rawPath": "netkeiba/horses/2011/2011100097/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:06:42.580Z"
+  "updatedAt": "2026-08-26T23:12:27.387Z"
 }

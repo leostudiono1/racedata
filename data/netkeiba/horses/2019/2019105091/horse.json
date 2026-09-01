@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105091",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105091/",
-  "profile": null,
+  "profile": {
+    "name": "カイザー",
+    "birthDate": "2019-05-15",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "2004102837",
+      "name": "ヴィヴィッドカラー"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -2378,6 +2408,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カイザー (Kaiser) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイザー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カイザー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2447,9 +2507,9 @@
       "contentHash": "88486e3769b4d79e5b820b16b57aef432a4c24a4f2b5f59665a86882b62af102",
       "byteLength": 66896,
       "rawPath": "netkeiba/horses/2019/2019105091/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:41:39.891Z"
+  "updatedAt": "2026-08-26T23:47:24.714Z"
 }

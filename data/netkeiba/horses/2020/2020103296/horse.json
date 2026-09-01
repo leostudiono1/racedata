@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103296",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103296/",
-  "profile": null,
+  "profile": {
+    "name": "ペモンディアル",
+    "birthDate": "2020-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オープンウォーター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Include"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1092,6 +1122,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペモンディアル (Paix Mondiale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペモンディアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペモンディアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1161,9 +1221,9 @@
       "contentHash": "837769d9c363fae9d8f6f4978b834aac2b029c33da661b4fa2f67cafff50477c",
       "byteLength": 64721,
       "rawPath": "netkeiba/horses/2020/2020103296/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:50:15.728Z"
+  "updatedAt": "2026-08-25T03:02:25.622Z"
 }

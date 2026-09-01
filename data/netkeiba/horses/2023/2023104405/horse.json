@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104405",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104405/",
-  "profile": null,
+  "profile": {
+    "name": "ラピス",
+    "birthDate": "2023-04-27",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01164",
+      "name": "安田翔伍"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "2014103537",
+      "name": "ファヴォーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Frankel"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1521,6 +1551,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラピス (Lapis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラピス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラピス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1590,9 +1650,9 @@
       "contentHash": "eb04c07aeed7f134e695f7c228adbf71d12f431572b4e410d8a003fd901125d5",
       "byteLength": 66863,
       "rawPath": "netkeiba/horses/2023/2023104405/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:47:55.626Z"
+  "updatedAt": "2026-08-30T21:53:33.346Z"
 }

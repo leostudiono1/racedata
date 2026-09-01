@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101156",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101156/",
-  "profile": null,
+  "profile": {
+    "name": "プシュパ",
+    "birthDate": "2023-02-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2011100528",
+      "name": "ブルーストーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1104,6 +1134,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プシュパ (Pushpa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プシュパ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プシュパ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1173,9 +1233,9 @@
       "contentHash": "5d9c8d96a509276bba0bfef28933f6a71af7ac485417567c8fb69a3c633352f6",
       "byteLength": 64585,
       "rawPath": "netkeiba/horses/2023/2023101156/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:06:06.569Z"
+  "updatedAt": "2026-08-24T04:11:16.363Z"
 }

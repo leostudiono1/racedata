@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101864",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101864/",
-  "profile": null,
+  "profile": {
+    "name": "ジュアン",
+    "birthDate": "2017-02-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤祐司"
+    },
+    "owner": {
+      "id": "x055d7",
+      "name": "安彦公一"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2002100767",
+      "name": "ポンテペルレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -6287,6 +6317,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジュアン (Juin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6356,9 +6416,9 @@
       "contentHash": "653c3e8908f0cf697aa53efb89fd7af175991686b0b3590f8db8ca956e3c20b2",
       "byteLength": 65977,
       "rawPath": "netkeiba/horses/2017/2017101864/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:39:40.568Z"
+  "updatedAt": "2026-08-24T03:44:50.415Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103954",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103954/",
-  "profile": null,
+  "profile": {
+    "name": "コパノミッキー",
+    "birthDate": "2019-05-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "966007",
+      "name": "小林祥晃"
+    },
+    "breeder": {
+      "id": "900019",
+      "name": "日進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2011105959",
+      "name": "マリカ"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -1916,6 +1946,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コパノミッキー (Copano Mickey) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパノミッキー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパノミッキー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1985,9 +2045,9 @@
       "contentHash": "1919082c64e2ebaa7dce43505ed30bfc127e430cd6fc570f7962401c5ab35dab",
       "byteLength": 66918,
       "rawPath": "netkeiba/horses/2019/2019103954/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:14:36.667Z"
+  "updatedAt": "2026-08-26T00:21:59.609Z"
 }

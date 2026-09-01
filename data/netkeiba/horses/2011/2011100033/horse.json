@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100033",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100033/",
-  "profile": null,
+  "profile": {
+    "name": "デモクラシー",
+    "birthDate": "2011-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "491030",
+      "name": "藤田在子"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    },
+    "dam": {
+      "id": "2001110233",
+      "name": "ブルースカイソング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Crafty Prospector"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101561",
@@ -3072,6 +3102,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デモクラシー (Democracy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デモクラシー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デモクラシー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3141,9 +3201,9 @@
       "contentHash": "fa20ae006a49b141187e45020a6b339eba9e23470bcde46d84e2d24d148c18ea",
       "byteLength": 65525,
       "rawPath": "netkeiba/horses/2011/2011100033/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:16:20.381Z"
+  "updatedAt": "2026-08-24T03:21:29.969Z"
 }

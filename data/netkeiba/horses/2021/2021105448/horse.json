@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105448",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105448/",
-  "profile": null,
+  "profile": {
+    "name": "アンモード",
+    "birthDate": "2021-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05755",
+      "name": "永島太郎"
+    },
+    "owner": {
+      "id": "x0b966",
+      "name": "福原俊晴"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2006103297",
+      "name": "エレガントマナー"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3864,6 +3894,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンモード (Ammodo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンモード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンモード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3933,9 +3993,9 @@
       "contentHash": "513cb86de2af2b0f312ab71763b328526a8d3ff8463888916110720f871e0a6b",
       "byteLength": 66516,
       "rawPath": "netkeiba/horses/2021/2021105448/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:59:16.927Z"
+  "updatedAt": "2026-08-24T04:04:26.665Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101508",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101508/",
-  "profile": null,
+  "profile": {
+    "name": "エグジットラック",
+    "birthDate": "2014-05-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05791",
+      "name": "榎屋充"
+    },
+    "owner": {
+      "id": "748031",
+      "name": "吉田哲"
+    },
+    "breeder": {
+      "id": "930369",
+      "name": "清水牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2007106301",
+      "name": "トレノローザ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5110,6 +5140,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エグジットラック (Exit Luck) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エグジットラック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エグジットラック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5179,9 +5239,9 @@
       "contentHash": "0d56cc5a455d9d7c12654cd97979257585987809922a6f87522d8f460c4faf3e",
       "byteLength": 66903,
       "rawPath": "netkeiba/horses/2014/2014101508/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:25:06.657Z"
+  "updatedAt": "2026-08-25T02:37:16.919Z"
 }

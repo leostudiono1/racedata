@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103773",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103773/",
-  "profile": null,
+  "profile": {
+    "name": "オーバード",
+    "birthDate": "2022-01-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "x0be68",
+      "name": "小野島大騎"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015110096",
+      "name": "ミスターメロディ"
+    },
+    "dam": {
+      "id": "2014104416",
+      "name": "バンパークロップ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015110096",
@@ -3151,6 +3181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーバード (Aubade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーバード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーバード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3220,9 +3280,9 @@
       "contentHash": "bc793a411192a960aad3700eaa64d49d1d4c39d0fe86efe2e07cc3ec1d45a877",
       "byteLength": 66849,
       "rawPath": "netkeiba/horses/2022/2022103773/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:43:26.009Z"
+  "updatedAt": "2026-08-30T21:49:03.998Z"
 }

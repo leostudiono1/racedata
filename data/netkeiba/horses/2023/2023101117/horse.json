@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101117",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101117/",
-  "profile": null,
+  "profile": {
+    "name": "ビンバラ",
+    "birthDate": "2023-01-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2017106571",
+      "name": "カンバラ"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1234,6 +1264,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビンバラ (Bimbara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビンバラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビンバラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1303,9 +1363,9 @@
       "contentHash": "6fa4bd1f277b8bfa6f73c5d980d0ee370662e2d03ece9c16176de6e53c76b39d",
       "byteLength": 65463,
       "rawPath": "netkeiba/horses/2023/2023101117/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:06:03.071Z"
+  "updatedAt": "2026-08-24T04:11:12.861Z"
 }

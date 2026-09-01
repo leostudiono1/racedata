@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105110",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105110/",
-  "profile": null,
+  "profile": {
+    "name": "バラキエル",
+    "birthDate": "2018-03-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "真島正徳"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2011103753",
+      "name": "スリールドランジュ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -4764,6 +4794,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バラキエル (Barachiel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バラキエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バラキエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4833,9 +4893,9 @@
       "contentHash": "3a48bc488b471c68c3699a79034f13eb1603d27edae4fca8a23c28a99d20108f",
       "byteLength": 66898,
       "rawPath": "netkeiba/horses/2018/2018105110/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:47:36.125Z"
+  "updatedAt": "2026-08-29T21:51:14.764Z"
 }

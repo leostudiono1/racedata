@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105837",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105837/",
-  "profile": null,
+  "profile": {
+    "name": "レムミラス",
+    "birthDate": "2011-03-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "479800",
+      "name": "ダイリン"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    },
+    "dam": {
+      "id": "2004105348",
+      "name": "エルベレス"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1995104427",
@@ -3357,6 +3387,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レムミラス (Remmirath) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レムミラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レムミラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3426,9 +3486,9 @@
       "contentHash": "59b5d5728dcfbc064a79bee4d112ae10ef1deeccc9bff11043ee73c799b77afd",
       "byteLength": 65564,
       "rawPath": "netkeiba/horses/2011/2011105837/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:18:14.758Z"
+  "updatedAt": "2026-08-29T21:21:53.472Z"
 }

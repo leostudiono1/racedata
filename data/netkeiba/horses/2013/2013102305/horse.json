@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102305",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102305/",
-  "profile": null,
+  "profile": {
+    "name": "ロードランウェイ",
+    "birthDate": "2013-02-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2004101198",
+      "name": "レディカーニバル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1860,6 +1890,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードランウェイ (Lord Runway) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードランウェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードランウェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1929,9 +1989,9 @@
       "contentHash": "0012076f798010cd5a053bf615fd5ddb0dacf1bfa2ff90684c5be2886e17d0e0",
       "byteLength": 67412,
       "rawPath": "netkeiba/horses/2013/2013102305/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:57:04.033Z"
+  "updatedAt": "2026-08-28T22:00:42.889Z"
 }

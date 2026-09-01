@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106635",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106635/",
-  "profile": null,
+  "profile": {
+    "name": "インザモーメント",
+    "birthDate": "2021-02-20",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01180",
+      "name": "田中克典"
+    },
+    "owner": {
+      "id": "242031",
+      "name": "前田幸大"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2011110025",
+      "name": "ディルガ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2603,6 +2633,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インザモーメント (In the Moment) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インザモーメント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インザモーメント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2672,9 +2732,9 @@
       "contentHash": "c1aa204593f4068d46f6ed166f2ca13219469a6cb32f3394ef1861ff5c3e43cd",
       "byteLength": 67013,
       "rawPath": "netkeiba/horses/2021/2021106635/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:33:49.977Z"
+  "updatedAt": "2026-08-28T22:37:28.683Z"
 }

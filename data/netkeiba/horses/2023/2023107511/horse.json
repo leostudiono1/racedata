@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107511",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107511/",
-  "profile": null,
+  "profile": {
+    "name": "マイシドニー",
+    "birthDate": "2023-09-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01172",
+      "name": "新谷功一"
+    },
+    "owner": {
+      "id": "370008",
+      "name": "岡浩二"
+    },
+    "breeder": {
+      "id": "340714",
+      "name": "Cunningham Thoroughbreds Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "Wootton Bassett (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Monegal"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lope de Vega"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1268,6 +1298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイシドニー (My Sydney) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイシドニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイシドニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1337,9 +1397,9 @@
       "contentHash": "855ef6f7f505b2f3bc6a851ff218866723c3c2ad3101a0a7acec425037c4837d",
       "byteLength": 64881,
       "rawPath": "netkeiba/horses/2023/2023107511/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:50:01.680Z"
+  "updatedAt": "2026-08-30T21:55:39.419Z"
 }

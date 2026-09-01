@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100855",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100855/",
-  "profile": null,
+  "profile": {
+    "name": "マックスアン",
+    "birthDate": "2016-03-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01124",
+      "name": "大和田成"
+    },
+    "owner": {
+      "id": "028803",
+      "name": "ＴＵＲＦレーシング"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2009105924",
+      "name": "ツクバエルドラド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "El Corredor"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -3123,6 +3153,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マックスアン (Max Un) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マックスアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マックスアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3192,9 +3252,9 @@
       "contentHash": "62264031966ab4b975003db962f4b2824b7ac2af420a1bf0858ff437856a530c",
       "byteLength": 66893,
       "rawPath": "netkeiba/horses/2016/2016100855/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:14:33.303Z"
+  "updatedAt": "2026-08-30T21:20:10.721Z"
 }

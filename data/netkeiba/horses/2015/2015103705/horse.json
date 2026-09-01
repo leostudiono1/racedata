@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103705",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103705/",
-  "profile": null,
+  "profile": {
+    "name": "サンフレデリック",
+    "birthDate": "2015-05-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "059803",
+      "name": "加藤ステーブル"
+    },
+    "breeder": {
+      "id": "000053",
+      "name": "冨岡牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    },
+    "dam": {
+      "id": "2004103665",
+      "name": "エレン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハンセル Hansel(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103435",
@@ -2302,6 +2332,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンフレデリック (Sun Frederick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンフレデリック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンフレデリック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2371,9 +2431,9 @@
       "contentHash": "57cfd748102891a28474aa1642fdf48966c71267cb5afa5993a85303376160a9",
       "byteLength": 65769,
       "rawPath": "netkeiba/horses/2015/2015103705/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:57:55.380Z"
+  "updatedAt": "2026-08-26T00:05:18.052Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021107001",
   "sourceUrl": "https://db.netkeiba.com/horse/2021107001/",
-  "profile": null,
+  "profile": {
+    "name": "ピュアキアン",
+    "birthDate": "2021-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "480033",
+      "name": "鶴見芳子"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2008100102",
+      "name": "ピュアプレジャー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -3111,6 +3141,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピュアキアン (Pure Cian) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピュアキアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピュアキアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3180,9 +3240,9 @@
       "contentHash": "82e3f8694182a5d7b6c40561fbd26edbe705d6eb4f86f4c5ed1bd14fdd97585a",
       "byteLength": 67015,
       "rawPath": "netkeiba/horses/2021/2021107001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:41:09.478Z"
+  "updatedAt": "2026-08-30T21:46:47.096Z"
 }

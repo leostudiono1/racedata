@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110070",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110070/",
-  "profile": null,
+  "profile": {
+    "name": "ウエスタンゼウス",
+    "birthDate": "2011-03-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "844800",
+      "name": "ウエスタンファーム"
+    },
+    "breeder": {
+      "id": "190880",
+      "name": "Winchester Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Pulpit"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Boom Town Girl"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1763,6 +1793,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウエスタンゼウス (Western Zeus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウエスタンゼウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウエスタンゼウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1832,9 +1892,9 @@
       "contentHash": "df155ad753577a02b758cdb8a7aa3731481339fd333419173ac0ce03a9eadc37",
       "byteLength": 64973,
       "rawPath": "netkeiba/horses/2011/2011110070/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:42:52.097Z"
+  "updatedAt": "2026-08-25T23:50:14.971Z"
 }

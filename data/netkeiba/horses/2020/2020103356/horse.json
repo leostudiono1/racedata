@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103356",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103356/",
-  "profile": null,
+  "profile": {
+    "name": "クファシル",
+    "birthDate": "2020-04-12",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008103099",
+      "name": "グルヴェイグ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2881,6 +2911,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クファシル (Kvasir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クファシル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クファシル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2950,9 +3010,9 @@
       "contentHash": "ac5f2f182858d1919202a18f18bcba2b31867e5208793d32f1b50f866e17a08a",
       "byteLength": 67105,
       "rawPath": "netkeiba/horses/2020/2020103356/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:54:15.942Z"
+  "updatedAt": "2026-08-24T03:59:25.564Z"
 }

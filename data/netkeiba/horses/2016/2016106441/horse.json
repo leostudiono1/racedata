@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106441",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106441/",
-  "profile": null,
+  "profile": {
+    "name": "ヒヤク",
+    "birthDate": "2016-03-17",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "338006",
+      "name": "江川伸夫"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    },
+    "dam": {
+      "id": "2002102291",
+      "name": "カミングトゥルー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007105709",
@@ -1374,6 +1404,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒヤク (Hiyaku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒヤク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒヤク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1443,9 +1503,9 @@
       "contentHash": "e7287ceceb00112f07daade9a76e8a5ef47395f7839f4196b7908b86f7a54ae7",
       "byteLength": 64721,
       "rawPath": "netkeiba/horses/2016/2016106441/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:18:20.607Z"
+  "updatedAt": "2026-08-30T21:23:58.234Z"
 }

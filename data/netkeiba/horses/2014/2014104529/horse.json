@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104529",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104529/",
-  "profile": null,
+  "profile": {
+    "name": "アロ",
+    "birthDate": "2014-05-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "橘友和"
+    },
+    "owner": {
+      "id": "018033",
+      "name": "石川秀守"
+    },
+    "breeder": {
+      "id": "103463",
+      "name": "サンコウ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003101859",
+      "name": "スーパーホーネット"
+    },
+    "dam": {
+      "id": "2009101623",
+      "name": "アドリアーネ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2003101859",
@@ -8152,6 +8182,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アロ (Alo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8221,9 +8281,9 @@
       "contentHash": "c01483bacf45cf113dd49c46b537140ab8bf14b64d7a0e713856c663f7ed483c",
       "byteLength": 64719,
       "rawPath": "netkeiba/horses/2014/2014104529/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:24:23.461Z"
+  "updatedAt": "2026-08-27T22:31:25.283Z"
 }

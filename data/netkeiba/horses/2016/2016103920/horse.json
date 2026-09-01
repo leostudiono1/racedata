@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103920",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103920/",
-  "profile": null,
+  "profile": {
+    "name": "グランディール",
+    "birthDate": "2016-01-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "000362",
+      "name": "スガタ牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "1996106519",
+      "name": "タイキポーラ"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2352,6 +2382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランディール (Grandir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランディール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランディール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2421,9 +2481,9 @@
       "contentHash": "b7cf8233ec1546c5213c811b11f7d433776f4ab620099131cbf90f2095425bfe",
       "byteLength": 65552,
       "rawPath": "netkeiba/horses/2016/2016103920/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:16:28.610Z"
+  "updatedAt": "2026-08-30T21:22:06.732Z"
 }

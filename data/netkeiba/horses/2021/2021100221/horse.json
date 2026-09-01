@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100221",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100221/",
-  "profile": null,
+  "profile": {
+    "name": "カールマジ",
+    "birthDate": "2021-04-21",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0aff7",
+      "name": "谷口信喜"
+    },
+    "breeder": {
+      "id": "310098",
+      "name": "城地牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2011104109",
+      "name": "フォワードカール"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5285,6 +5315,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カールマジ (Curl Maji) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カールマジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カールマジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5354,9 +5414,9 @@
       "contentHash": "3bfc678cec56da25374021464a6c3f982868d644a1657026b14af781bbe92d28",
       "byteLength": 66698,
       "rawPath": "netkeiba/horses/2021/2021100221/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:53:14.438Z"
+  "updatedAt": "2026-08-25T03:05:24.188Z"
 }

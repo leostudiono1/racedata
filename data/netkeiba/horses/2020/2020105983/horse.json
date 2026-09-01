@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105983",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105983/",
-  "profile": null,
+  "profile": {
+    "name": "サルモン",
+    "birthDate": "2020-05-17",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "319007",
+      "name": "野村茂雄"
+    },
+    "breeder": {
+      "id": "300317",
+      "name": "村上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "シャンハイボビー Shanghai Bobby(米)"
+    },
+    "dam": {
+      "id": "2011105031",
+      "name": "キセキノショウリ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2040,6 +2070,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サルモン (Salmon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2109,9 +2169,9 @@
       "contentHash": "d81c0fcaf8b44f4e8449815e1c2e0b83591717dd8bd589765dcfd469ecb25bff",
       "byteLength": 66879,
       "rawPath": "netkeiba/horses/2020/2020105983/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:51:03.420Z"
+  "updatedAt": "2026-08-27T22:58:05.162Z"
 }

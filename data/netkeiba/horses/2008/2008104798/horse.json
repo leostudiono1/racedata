@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008104798",
   "sourceUrl": "https://db.netkeiba.com/horse/2008104798/",
-  "profile": null,
+  "profile": {
+    "name": "ダコール",
+    "birthDate": "2008-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "830464",
+      "name": "ノースヒルズマネジメント"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2000110100",
+      "name": "アジアンミーティア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -5729,6 +5759,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダコール (D'accord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダコール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダコール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5798,9 +5858,9 @@
       "contentHash": "ab96d52b66fce466adb9a74f0a05943827650c3be9a2902f7ecc8702a39a2110",
       "byteLength": 66541,
       "rawPath": "netkeiba/horses/2008/2008104798/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:14:14.733Z"
+  "updatedAt": "2026-08-24T03:19:24.024Z"
 }

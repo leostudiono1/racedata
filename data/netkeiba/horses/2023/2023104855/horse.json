@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104855",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104855/",
-  "profile": null,
+  "profile": {
+    "name": "カノープス",
+    "birthDate": "2023-04-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01182",
+      "name": "辻哲英"
+    },
+    "owner": {
+      "id": "361800",
+      "name": "杵臼牧場"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2006102809",
+      "name": "アリデッド"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1381,6 +1411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カノープス (Canopus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カノープス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カノープス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1450,9 +1510,9 @@
       "contentHash": "d38220f2de81987033538a9ce417499c954f4e0fc6c3c6114229e533c9353e37",
       "byteLength": 65674,
       "rawPath": "netkeiba/horses/2023/2023104855/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:42:42.303Z"
+  "updatedAt": "2026-08-28T22:46:20.730Z"
 }

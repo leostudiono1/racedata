@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100486",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100486/",
-  "profile": null,
+  "profile": {
+    "name": "オーロール",
+    "birthDate": "2018-05-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05612",
+      "name": "阪本一栄"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2009102525",
+      "name": "ヒーラ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2851,6 +2881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーロール (Aurore) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーロール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーロール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2920,9 +2980,9 @@
       "contentHash": "c0672d18a89f9ab10b888ddcff50f8777083fff90ca7d52f42430d31767aa394",
       "byteLength": 65661,
       "rawPath": "netkeiba/horses/2018/2018100486/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:38:34.202Z"
+  "updatedAt": "2026-08-27T22:45:35.872Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105339",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105339/",
-  "profile": null,
+  "profile": {
+    "name": "パレスロマン",
+    "birthDate": "2012-04-04",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00379",
+      "name": "加藤敬二"
+    },
+    "owner": {
+      "id": "787002",
+      "name": "西村豊"
+    },
+    "breeder": {
+      "id": "310013",
+      "name": "田中スタッド"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2003101939",
+      "name": "アピールポイント"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -1864,6 +1894,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パレスロマン (Palace Roman) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレスロマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パレスロマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1933,9 +1993,9 @@
       "contentHash": "7ba9444d811fa36daf28271a50fe1a29cf0e0852a045ee22927ed2b7dd4f4f68",
       "byteLength": 64956,
       "rawPath": "netkeiba/horses/2012/2012105339/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:54:47.911Z"
+  "updatedAt": "2026-08-28T21:58:26.417Z"
 }

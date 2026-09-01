@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110165",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110165/",
-  "profile": null,
+  "profile": {
+    "name": "エン",
+    "birthDate": "2017-10-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05439",
+      "name": "河津裕昭"
+    },
+    "owner": {
+      "id": "637006",
+      "name": "岡田美佐子"
+    },
+    "breeder": {
+      "id": "050735",
+      "name": "Go Bloodstock New Zealand Ltd"
+    },
+    "birthplace": "新",
+    "sire": {
+      "id": "000",
+      "name": "Tavistock"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Tempting Delight"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Northern Meteor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2846,6 +2876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エン (En) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2915,9 +2975,9 @@
       "contentHash": "0ebe230f10363e8352dbffbf14751aa3e8fc3cb0be5b20e4ee41801c0befd963",
       "byteLength": 66564,
       "rawPath": "netkeiba/horses/2017/2017110165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:23:11.741Z"
+  "updatedAt": "2026-08-30T21:28:48.708Z"
 }

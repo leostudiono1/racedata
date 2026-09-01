@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110013",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110013/",
-  "profile": null,
+  "profile": {
+    "name": "レッドルーファス",
+    "birthDate": "2010-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "180800",
+      "name": "東京ホースレーシング"
+    },
+    "breeder": {
+      "id": "080704",
+      "name": "Charles H. Wacker"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Oonagh Maccool"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3392,6 +3422,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レッドルーファス (Red Rufus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドルーファス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レッドルーファス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3461,9 +3521,9 @@
       "contentHash": "912db336add65f46fddd8bc3f59ef4156d6209a0b95c61e58ebd1bf0d2a4fc8c",
       "byteLength": 67428,
       "rawPath": "netkeiba/horses/2010/2010110013/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:06:35.631Z"
+  "updatedAt": "2026-08-26T23:12:20.714Z"
 }

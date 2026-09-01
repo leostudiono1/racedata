@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100987",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100987/",
-  "profile": null,
+  "profile": {
+    "name": "セレクティオ",
+    "birthDate": "2020-03-30",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "森泰斗"
+    },
+    "owner": {
+      "id": "x0a2a1",
+      "name": "（株）マフィン"
+    },
+    "breeder": {
+      "id": "900052",
+      "name": "村下農場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2004103821",
+      "name": "キーポケット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -3487,6 +3517,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セレクティオ (Selectio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレクティオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレクティオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3556,9 +3616,9 @@
       "contentHash": "b57637990e2af2018ea8ec52543639b976a04b078310014b0168829333119006",
       "byteLength": 67038,
       "rawPath": "netkeiba/horses/2020/2020100987/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:26:35.708Z"
+  "updatedAt": "2026-08-28T22:30:14.386Z"
 }

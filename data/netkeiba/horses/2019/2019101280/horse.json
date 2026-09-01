@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101280",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101280/",
-  "profile": null,
+  "profile": {
+    "name": "モヒート",
+    "birthDate": "2019-03-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "x0af2a",
+      "name": "上野孝展"
+    },
+    "breeder": {
+      "id": "503341",
+      "name": "新井昭二"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カクテル Cocktail(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Most Welcome"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2407,6 +2437,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モヒート (Mojito) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モヒート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モヒート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2476,9 +2536,9 @@
       "contentHash": "2dde9ee77463736d0c1da0322bcbc6b786ce5fc4d9f119d390221ed7eb1edf84",
       "byteLength": 65793,
       "rawPath": "netkeiba/horses/2019/2019101280/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:12:44.717Z"
+  "updatedAt": "2026-08-26T00:20:07.703Z"
 }

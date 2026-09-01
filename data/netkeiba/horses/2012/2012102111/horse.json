@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102111",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102111/",
-  "profile": null,
+  "profile": {
+    "name": "ユリ",
+    "birthDate": "2012-04-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00361",
+      "name": "坪憲章"
+    },
+    "owner": {
+      "id": "119007",
+      "name": "中島稔"
+    },
+    "breeder": {
+      "id": "610362",
+      "name": "中田牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "トワイニング Twining(米)"
+    },
+    "dam": {
+      "id": "2005103990",
+      "name": "パラディフルール"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5033,6 +5063,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユリ (Yuri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5102,9 +5162,9 @@
       "contentHash": "b4748b409a07f248ca796f87fb4f5b0eb7093ed4c3e80116714b72a9e7f84562",
       "byteLength": 65284,
       "rawPath": "netkeiba/horses/2012/2012102111/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:43:58.474Z"
+  "updatedAt": "2026-08-25T23:51:21.278Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110073",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110073/",
-  "profile": null,
+  "profile": {
+    "name": "メサテソーロ",
+    "birthDate": "2017-02-05",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "089803",
+      "name": "了徳寺健二ホールディングス"
+    },
+    "breeder": {
+      "id": "610709",
+      "name": "Clearsky Farms"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Midnight Lute"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Cat's Fair"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sir Cat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2976,6 +3006,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メサテソーロ (Mesa Tesoro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メサテソーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メサテソーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3045,9 +3105,9 @@
       "contentHash": "3227bbcee9b4f1a859c4fb12323cbbe5ee8ead671fb1857a93d3bdd7d7b45538",
       "byteLength": 67067,
       "rawPath": "netkeiba/horses/2017/2017110073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:40:24.243Z"
+  "updatedAt": "2026-08-25T02:52:34.244Z"
 }

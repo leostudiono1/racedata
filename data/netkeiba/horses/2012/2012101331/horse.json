@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101331",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101331/",
-  "profile": null,
+  "profile": {
+    "name": "ジョイジョイ",
+    "birthDate": "2012-02-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2005110073",
+      "name": "グランカナリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Malibu Moon"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -4928,6 +4958,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョイジョイ (Joy Joy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョイジョイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョイジョイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4997,9 +5057,9 @@
       "contentHash": "704cc2cd43cb2e644134f79267b783fc02c13a87b78f3d9e910ab3bb1ad689be",
       "byteLength": 64460,
       "rawPath": "netkeiba/horses/2012/2012101331/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:19:14.213Z"
+  "updatedAt": "2026-08-29T21:22:52.900Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101810",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101810/",
-  "profile": null,
+  "profile": {
+    "name": "ヴォンドゥ",
+    "birthDate": "2023-03-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2006100649",
+      "name": "キティ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Northern Afleet"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1448,6 +1478,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴォンドゥ (Vent Doux) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴォンドゥ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴォンドゥ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1517,9 +1577,9 @@
       "contentHash": "4e8bbdff73b054a3ffc1f45865b99f2aa1e671345d13edb9a3dd174de38aa2eb",
       "byteLength": 67403,
       "rawPath": "netkeiba/horses/2023/2023101810/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:30:32.700Z"
+  "updatedAt": "2026-08-26T00:37:55.234Z"
 }

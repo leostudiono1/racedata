@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101555",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101555/",
-  "profile": null,
+  "profile": {
+    "name": "ゼウス",
+    "birthDate": "2010-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "330007",
+      "name": "杉澤光雄"
+    },
+    "breeder": {
+      "id": "513027",
+      "name": "久井牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2001101230",
+      "name": "ソフトワルツ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -3316,6 +3346,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼウス (Zeus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3385,9 +3445,9 @@
       "contentHash": "3cb03d9d6fccedb7436bf2947d6ebd0fc09ed9924f0c167f9054886d1ba99bde",
       "byteLength": 66839,
       "rawPath": "netkeiba/horses/2010/2010101555/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:06:00.549Z"
+  "updatedAt": "2026-08-26T23:11:45.386Z"
 }

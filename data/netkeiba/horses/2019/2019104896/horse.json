@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104896",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104896/",
-  "profile": null,
+  "profile": {
+    "name": "ドーブネ",
+    "birthDate": "2019-04-03",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "232031",
+      "name": "藤田晋"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "プレミアステップス Premier Steps(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Footstepsinthesand (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2690,6 +2720,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドーブネ (Dobune) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドーブネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドーブネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2759,9 +2819,9 @@
       "contentHash": "209ed8967d91f99fb251434ea1ec014ef0d74dbe1acc47d3e9373a2961703e26",
       "byteLength": 66894,
       "rawPath": "netkeiba/horses/2019/2019104896/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:30:39.238Z"
+  "updatedAt": "2026-08-30T21:36:17.259Z"
 }

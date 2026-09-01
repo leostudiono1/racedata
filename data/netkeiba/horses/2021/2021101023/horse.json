@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101023",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101023/",
-  "profile": null,
+  "profile": {
+    "name": "アイファーバトル",
+    "birthDate": "2021-03-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01131",
+      "name": "蛯名利弘"
+    },
+    "owner": {
+      "id": "119007",
+      "name": "中島稔"
+    },
+    "breeder": {
+      "id": "080541",
+      "name": "アースファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2012104470",
+      "name": "エアリーチューン"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3850,6 +3880,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイファーバトル (Eifer Battle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーバトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイファーバトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3919,9 +3979,9 @@
       "contentHash": "52d0a7031d06de9a9fdddc45f408168e47833da47cf9770402274538464a90dd",
       "byteLength": 67053,
       "rawPath": "netkeiba/horses/2021/2021101023/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:52:34.461Z"
+  "updatedAt": "2026-08-27T22:59:36.343Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103258",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103258/",
-  "profile": null,
+  "profile": {
+    "name": "イカロス",
+    "birthDate": "2019-05-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "800031",
+      "name": "桑田照夫"
+    },
+    "breeder": {
+      "id": "710470",
+      "name": "前田ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2012109086",
+      "name": "トゥルーストーリー"
+    },
+    "damsire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5034,6 +5064,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イカロス (Icarus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イカロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イカロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5103,9 +5163,9 @@
       "contentHash": "bfca91c29211f267f018ff5397421f7b6953f79089dad3fe28652d20c9cad479",
       "byteLength": 66756,
       "rawPath": "netkeiba/horses/2019/2019103258/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:50:45.008Z"
+  "updatedAt": "2026-08-29T21:54:23.520Z"
 }

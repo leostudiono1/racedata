@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103066",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103066/",
-  "profile": null,
+  "profile": {
+    "name": "ココリロビン",
+    "birthDate": "2021-05-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05715",
+      "name": "北野真弘"
+    },
+    "owner": {
+      "id": "675033",
+      "name": "美崎光二郎"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2011110058",
+      "name": "シャンテクレール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubawi"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1409,6 +1439,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ココリロビン (Cocoli Robin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ココリロビン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ココリロビン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1478,9 +1538,9 @@
       "contentHash": "2f35ab6af7b6e63b9b8ba84b0ebcf8ecdf85ec82ce3da0b312dd3ea9c16e9406",
       "byteLength": 64369,
       "rawPath": "netkeiba/horses/2021/2021103066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:23:21.788Z"
+  "updatedAt": "2026-08-26T00:30:44.529Z"
 }

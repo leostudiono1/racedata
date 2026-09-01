@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100140",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100140/",
-  "profile": null,
+  "profile": {
+    "name": "ハッピーマン",
+    "birthDate": "2022-02-16",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "377034",
+      "name": "田邉滋久"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010110102",
+      "name": "ダノンレジェンド"
+    },
+    "dam": {
+      "id": "2010102047",
+      "name": "ベルミュール"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110102",
@@ -2469,6 +2499,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハッピーマン (Happy Man) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハッピーマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2538,9 +2598,9 @@
       "contentHash": "6791fda44566581d63ea1d0d6b8c492291a2b83f035fa010b6382b736669c770",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2022/2022100140/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:34:46.322Z"
+  "updatedAt": "2026-08-28T22:38:24.579Z"
 }

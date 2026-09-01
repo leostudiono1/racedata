@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105801",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105801/",
-  "profile": null,
+  "profile": {
+    "name": "ジーニアル",
+    "birthDate": "2012-02-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "482002",
+      "name": "水上行雄"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2001105204",
+      "name": "プレシャスフラワー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1808,6 +1838,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジーニアル (Genial) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジーニアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジーニアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1877,9 +1937,9 @@
       "contentHash": "099c26a007c190229979f3174b4076a0faf0b1793b6b6b32a80d02aca0315e65",
       "byteLength": 65108,
       "rawPath": "netkeiba/horses/2012/2012105801/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:46:15.035Z"
+  "updatedAt": "2026-08-25T23:53:38.038Z"
 }

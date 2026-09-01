@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105209",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105209/",
-  "profile": null,
+  "profile": {
+    "name": "ラッキーベイ",
+    "birthDate": "2022-03-08",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "727008",
+      "name": "谷掛龍夫"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2015104627",
+      "name": "アストラサンタン"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2014,6 +2044,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラッキーベイ (Lucky Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキーベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラッキーベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2083,9 +2143,9 @@
       "contentHash": "a34abe68e79b11f3b5838a1b9225e714fc72d8aea71eaeb63d9afe39dd31dc46",
       "byteLength": 65574,
       "rawPath": "netkeiba/horses/2022/2022105209/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:55:33.208Z"
+  "updatedAt": "2026-08-27T00:01:17.813Z"
 }

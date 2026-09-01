@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110046",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110046/",
-  "profile": null,
+  "profile": {
+    "name": "レーヌデプレ",
+    "birthDate": "2022-03-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "124008",
+      "name": "山本英俊"
+    },
+    "breeder": {
+      "id": "350710",
+      "name": "Clare Castle Stud"
+    },
+    "birthplace": "仏",
+    "sire": {
+      "id": "000",
+      "name": "Almanzor (仏)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sarai"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Nathaniel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1074,6 +1104,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レーヌデプレ (Reine des Pres) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヌデプレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヌデプレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1143,9 +1203,9 @@
       "contentHash": "59ea89d7d824a8b5c5d7d8d0b8184bc25e6db4213e53655aa204595725a17f61",
       "byteLength": 64613,
       "rawPath": "netkeiba/horses/2022/2022110046/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:29:36.459Z"
+  "updatedAt": "2026-08-26T00:36:59.128Z"
 }

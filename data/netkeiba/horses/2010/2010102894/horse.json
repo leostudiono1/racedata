@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010102894",
   "sourceUrl": "https://db.netkeiba.com/horse/2010102894/",
-  "profile": null,
+  "profile": {
+    "name": "ビリオネア",
+    "birthDate": "2010-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "948030",
+      "name": "間野隆司"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "1997102153",
+      "name": "タフネススター"
+    },
+    "damsire": {
+      "id": "1983104853",
+      "name": "ラグビーボール"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -4578,6 +4608,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビリオネア (Billionaire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビリオネア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビリオネア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4647,9 +4707,9 @@
       "contentHash": "cd58d43ebd7b1791c23666bfec5d8dafa52744f465e00a5259655a911336535e",
       "byteLength": 67193,
       "rawPath": "netkeiba/horses/2010/2010102894/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:40:21.601Z"
+  "updatedAt": "2026-08-25T23:47:44.314Z"
 }

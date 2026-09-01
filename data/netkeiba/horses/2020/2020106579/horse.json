@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106579",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106579/",
-  "profile": null,
+  "profile": {
+    "name": "ルナビス",
+    "birthDate": "2020-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "985033",
+      "name": "阿部東亜子"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013104704",
+      "name": "ディーマジェスティ"
+    },
+    "dam": {
+      "id": "2007106060",
+      "name": "リトルジュン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013104704",
@@ -3651,6 +3681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルナビス (Lunavis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナビス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナビス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3720,9 +3780,9 @@
       "contentHash": "a6596e6b9381761cddccfa0f58e8800936e5ba8f37dd6e29fbf05ed6218072d1",
       "byteLength": 66714,
       "rawPath": "netkeiba/horses/2020/2020106579/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:55:54.525Z"
+  "updatedAt": "2026-08-24T04:01:03.636Z"
 }

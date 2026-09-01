@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105281",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105281/",
-  "profile": null,
+  "profile": {
+    "name": "ヴェックマン",
+    "birthDate": "2018-03-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2005102704",
+      "name": "マルティンスターク"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1166,6 +1196,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴェックマン (Weckmann) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェックマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェックマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1235,9 +1295,9 @@
       "contentHash": "66976e38f4d32b80c9914e1bb9489ab46d9633a391449fb457f87032ef031d53",
       "byteLength": 65289,
       "rawPath": "netkeiba/horses/2018/2018105281/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:43:33.077Z"
+  "updatedAt": "2026-08-25T02:55:42.863Z"
 }

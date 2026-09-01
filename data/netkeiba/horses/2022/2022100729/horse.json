@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100729",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100729/",
-  "profile": null,
+  "profile": {
+    "name": "ビーマックス",
+    "birthDate": "2022-03-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01200",
+      "name": "藤野健太"
+    },
+    "owner": {
+      "id": "446007",
+      "name": "馬場祥晃"
+    },
+    "breeder": {
+      "id": "611098",
+      "name": "タガミファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "2015100923",
+      "name": "タマモカトルズ"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -2664,6 +2694,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビーマックス (Bee Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2733,9 +2793,9 @@
       "contentHash": "99fac2f66898a3e6f078061a78c05e16d9c78f9c77738ba50fb9279cd66d8c30",
       "byteLength": 65782,
       "rawPath": "netkeiba/horses/2022/2022100729/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T00:01:39.745Z"
+  "updatedAt": "2026-08-29T22:05:18.290Z"
 }

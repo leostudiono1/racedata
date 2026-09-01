@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105403",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105403/",
-  "profile": null,
+  "profile": {
+    "name": "ベルリナーレ",
+    "birthDate": "2018-04-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05590",
+      "name": "長倉功"
+    },
+    "owner": {
+      "id": "x0a22d",
+      "name": "森本研太"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008102578",
+      "name": "イングリッド"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1903,6 +1933,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルリナーレ (Berlinale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルリナーレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルリナーレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1972,9 +2032,9 @@
       "contentHash": "5a923454653ab92738c33dcb137053af39eac196bb02ca94300b55b5b25dd237",
       "byteLength": 66824,
       "rawPath": "netkeiba/horses/2018/2018105403/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:25:55.764Z"
+  "updatedAt": "2026-08-30T21:31:33.642Z"
 }

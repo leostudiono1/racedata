@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104963",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104963/",
-  "profile": null,
+  "profile": {
+    "name": "ハンドフル",
+    "birthDate": "2023-04-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "624007",
+      "name": "鈴木康弘"
+    },
+    "breeder": {
+      "id": "130019",
+      "name": "中脇栄"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2010100639",
+      "name": "フローズンムーン"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1945,6 +1975,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハンドフル (Handful) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハンドフル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハンドフル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2014,9 +2074,9 @@
       "contentHash": "cf2e18c740fdae3df6397ca48879d100537ec5c8bc38a8e3441d595fda71307e",
       "byteLength": 66541,
       "rawPath": "netkeiba/horses/2023/2023104963/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:48:27.102Z"
+  "updatedAt": "2026-08-30T21:54:04.769Z"
 }

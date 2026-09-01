@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101987",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101987/",
-  "profile": null,
+  "profile": {
+    "name": "コタバル",
+    "birthDate": "2020-04-26",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "482031",
+      "name": "乙訓史樹"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998103333",
+      "name": "カルストンライトオ"
+    },
+    "dam": {
+      "id": "2015101791",
+      "name": "タケノビジン"
+    },
+    "damsire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998103333",
@@ -1572,6 +1602,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コタバル (Kota Bharu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コタバル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コタバル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1641,9 +1701,9 @@
       "contentHash": "36c698bf07809406570782ee368b1f57e12bee0a60bc7e50bb77fc7ef6ce8d6c",
       "byteLength": 65842,
       "rawPath": "netkeiba/horses/2020/2020101987/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:32:48.764Z"
+  "updatedAt": "2026-08-30T21:38:26.419Z"
 }

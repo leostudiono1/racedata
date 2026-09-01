@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110120",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110120/",
-  "profile": null,
+  "profile": {
+    "name": "ロッシニアーナ",
+    "birthDate": "2022-01-24",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "940713",
+      "name": "Tom Durant"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Not This Time"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Dos Vinos"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Twirling Candy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1656,6 +1686,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロッシニアーナ (Rossiniana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロッシニアーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロッシニアーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1725,9 +1785,9 @@
       "contentHash": "0cf83183720c8f3aa7057b8f6569ddc441c53972b04bd37f5cdd1b2a4485eec4",
       "byteLength": 65803,
       "rawPath": "netkeiba/horses/2022/2022110120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:57:01.159Z"
+  "updatedAt": "2026-08-27T00:02:45.504Z"
 }

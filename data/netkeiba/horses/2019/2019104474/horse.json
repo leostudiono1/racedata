@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104474",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104474/",
-  "profile": null,
+  "profile": {
+    "name": "タクティーレン",
+    "birthDate": "2019-03-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "231033",
+      "name": "吉田晴哉"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2011110055",
+      "name": "トラウム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1697,6 +1727,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タクティーレン (Taktieren) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タクティーレン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タクティーレン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1766,9 +1826,9 @@
       "contentHash": "42d77715280d00cb1809fdf23a8890a8fab5f488d7f59aac3cc119fde5d5d702",
       "byteLength": 66221,
       "rawPath": "netkeiba/horses/2019/2019104474/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:14:54.394Z"
+  "updatedAt": "2026-08-26T00:22:16.857Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012109205",
   "sourceUrl": "https://db.netkeiba.com/horse/2012109205/",
-  "profile": null,
+  "profile": {
+    "name": "エフェクト",
+    "birthDate": "2012-04-01",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01040",
+      "name": "服部利之"
+    },
+    "owner": {
+      "id": "253006",
+      "name": "山本武司"
+    },
+    "breeder": {
+      "id": "331400",
+      "name": "新保牧場"
+    },
+    "birthplace": "鹿児島県",
+    "sire": {
+      "id": "000",
+      "name": "スクワートルスクワート Squirtle Squirt(米)"
+    },
+    "dam": {
+      "id": "2003100104",
+      "name": "スペシャルビビー"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3119,6 +3149,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エフェクト (Effect) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エフェクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エフェクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3188,9 +3248,9 @@
       "contentHash": "45141dc237b5f99ccff4e8494647cd274bd4cd063ee3a8513b5132074e56565a",
       "byteLength": 66452,
       "rawPath": "netkeiba/horses/2012/2012109205/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:20:05.525Z"
+  "updatedAt": "2026-08-25T02:32:15.457Z"
 }

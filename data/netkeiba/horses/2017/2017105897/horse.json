@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105897",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105897/",
-  "profile": null,
+  "profile": {
+    "name": "ペレウス",
+    "birthDate": "2017-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "150031",
+      "name": "岡本昌市"
+    },
+    "breeder": {
+      "id": "830031",
+      "name": "岡本昌市"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2012105152",
+      "name": "アスターロマーネ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -1316,6 +1346,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペレウス (Peleus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペレウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペレウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1385,9 +1445,9 @@
       "contentHash": "f41c16fabc6d8feac102fd1b0636ad0c0a925635df383cc2dfeac2c52d99a495",
       "byteLength": 66652,
       "rawPath": "netkeiba/horses/2017/2017105897/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:37:13.660Z"
+  "updatedAt": "2026-08-27T22:44:15.431Z"
 }

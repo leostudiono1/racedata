@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105303",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105303/",
-  "profile": null,
+  "profile": {
+    "name": "ヘイルメリー",
+    "birthDate": "2017-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2006103197",
+      "name": "クーデグレイス"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1357,6 +1387,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘイルメリー (Hail Mary) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘイルメリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘイルメリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1426,9 +1486,9 @@
       "contentHash": "621fe9a556340095a1d924439860778c4957df4009f3e09930b9c620b87d44f6",
       "byteLength": 66338,
       "rawPath": "netkeiba/horses/2017/2017105303/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:22:11.639Z"
+  "updatedAt": "2026-08-30T21:27:49.335Z"
 }

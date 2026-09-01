@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101206",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101206/",
-  "profile": null,
+  "profile": {
+    "name": "ラーリア",
+    "birthDate": "2021-04-22",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05071",
+      "name": "森山英雄"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2014105956",
+      "name": "イリリア"
+    },
+    "damsire": {
+      "id": "2007105709",
+      "name": "ダノンシャンティ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -4731,6 +4761,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラーリア (Raria) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラーリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラーリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4800,9 +4860,9 @@
       "contentHash": "7ce1efb07ed31c73a5039ce9f4779e68e15b9b60cca4f029cb2275b9fad294f4",
       "byteLength": 66873,
       "rawPath": "netkeiba/horses/2021/2021101206/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:54:00.013Z"
+  "updatedAt": "2026-08-25T03:06:10.064Z"
 }

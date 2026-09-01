@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102239",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102239/",
-  "profile": null,
+  "profile": {
+    "name": "シャンテ",
+    "birthDate": "2016-05-03",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05098",
+      "name": "山下定文"
+    },
+    "owner": {
+      "id": "552007",
+      "name": "野口幸八"
+    },
+    "breeder": {
+      "id": "030041",
+      "name": "山口義彦"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2006103056",
+      "name": "スマートウェーブ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3858,6 +3888,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャンテ (Chantez) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャンテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャンテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3927,9 +3987,9 @@
       "contentHash": "13726328790784f4434c6e8fa23a0a5ceb83c22d0c9bc0d151b8af5ecb90ca63",
       "byteLength": 64254,
       "rawPath": "netkeiba/horses/2016/2016102239/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:33:41.335Z"
+  "updatedAt": "2026-08-25T02:45:51.283Z"
 }

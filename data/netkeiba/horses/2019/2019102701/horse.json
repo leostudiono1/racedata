@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102701",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102701/",
-  "profile": null,
+  "profile": {
+    "name": "ネイト",
+    "birthDate": "2019-04-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "473008",
+      "name": "武田茂男"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2005101745",
+      "name": "ミコノス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "With Approval"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -2239,6 +2269,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネイト (Neith) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2308,9 +2368,9 @@
       "contentHash": "fecfe7d75a3251219d1ca8c9a6e3ac208ff1caa7519a713126b727f5776ff2b6",
       "byteLength": 66654,
       "rawPath": "netkeiba/horses/2019/2019102701/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:44:41.776Z"
+  "updatedAt": "2026-08-27T22:51:43.507Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102101",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102101/",
-  "profile": null,
+  "profile": {
+    "name": "フィエスタ",
+    "birthDate": "2023-02-14",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "102800",
+      "name": "ターフ・スポート"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2017106130",
+      "name": "ルガーサント"
+    },
+    "damsire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -1423,6 +1453,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィエスタ (Fiesta) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィエスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィエスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1492,9 +1552,9 @@
       "contentHash": "76767e3f72aaa19413d4be8844a9c7bb57c08af245206613e50cd82b66de2964",
       "byteLength": 65032,
       "rawPath": "netkeiba/horses/2023/2023102101/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:46:38.679Z"
+  "updatedAt": "2026-08-30T21:52:16.174Z"
 }

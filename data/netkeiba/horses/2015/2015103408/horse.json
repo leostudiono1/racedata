@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103408",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103408/",
-  "profile": null,
+  "profile": {
+    "name": "ガウル",
+    "birthDate": "2015-05-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05727",
+      "name": "福永敏"
+    },
+    "owner": {
+      "id": "x07d80",
+      "name": "（株）吉澤ステーブル"
+    },
+    "breeder": {
+      "id": "230031",
+      "name": "ミリオンファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "カブリオレ Cabriole(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dansili"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -3432,6 +3462,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ガウル (Gaur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガウル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ガウル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3501,9 +3561,9 @@
       "contentHash": "63226f574511cb9dd942907843b6e09102c3bbd78d84d9e08c8c850c45e3dc18",
       "byteLength": 66825,
       "rawPath": "netkeiba/horses/2015/2015103408/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:27:35.974Z"
+  "updatedAt": "2026-08-27T22:34:37.764Z"
 }

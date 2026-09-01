@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101112",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101112/",
-  "profile": null,
+  "profile": {
+    "name": "ロイヤルスパイア",
+    "birthDate": "2023-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015101621",
+      "name": "タワーオブロンドン"
+    },
+    "dam": {
+      "id": "2015101663",
+      "name": "エンクリプション"
+    },
+    "damsire": {
+      "id": "1998190003",
+      "name": "ストーミングホーム Storming Home(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015101621",
@@ -2044,6 +2074,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロイヤルスパイア (Royal Spire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロイヤルスパイア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロイヤルスパイア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2113,9 +2173,9 @@
       "contentHash": "25e97a2e43f2f08175336fe6c99a2a916803d6737eec144c99988660a324595d",
       "byteLength": 67239,
       "rawPath": "netkeiba/horses/2023/2023101112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T05:02:49.094Z"
+  "updatedAt": "2026-08-25T03:14:33.970Z"
 }

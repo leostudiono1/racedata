@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103399",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103399/",
-  "profile": null,
+  "profile": {
+    "name": "ニャントカナル",
+    "birthDate": "2013-04-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "975030",
+      "name": "小田切光"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2007101669",
+      "name": "キイレ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -2046,6 +2076,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ニャントカナル (Nyantokanaru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニャントカナル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニャントカナル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2115,9 +2175,9 @@
       "contentHash": "508c2a458c216607e98f5255cd7025434e3afbf8fdc38c35f0074d29d2c857dd",
       "byteLength": 65508,
       "rawPath": "netkeiba/horses/2013/2013103399/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:23:51.601Z"
+  "updatedAt": "2026-08-24T03:29:01.589Z"
 }

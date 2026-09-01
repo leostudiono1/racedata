@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103171",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103171/",
-  "profile": null,
+  "profile": {
+    "name": "リッシュレーヴ",
+    "birthDate": "2010-03-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "513008",
+      "name": "山田裕仁"
+    },
+    "breeder": {
+      "id": "303300",
+      "name": "畠山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2001100295",
+      "name": "マリンゴールド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オジジアン Ogygian(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -3651,6 +3681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リッシュレーヴ (Riche Reve) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リッシュレーヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リッシュレーヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3720,9 +3780,9 @@
       "contentHash": "1ac81d082b5c4399afebe9f10a7d4f8bc108292ad6a2829b9d60badbb4e0a270",
       "byteLength": 65452,
       "rawPath": "netkeiba/horses/2010/2010103171/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:15:43.096Z"
+  "updatedAt": "2026-08-25T02:27:53.235Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104585",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104585/",
-  "profile": null,
+  "profile": {
+    "name": "ケイマ",
+    "birthDate": "2013-04-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05769",
+      "name": "福田真広"
+    },
+    "owner": {
+      "id": "279008",
+      "name": "石川幸司"
+    },
+    "breeder": {
+      "id": "633082",
+      "name": "徳本幸雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2007100644",
+      "name": "アキノフライ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "グランデラ Grandera(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3305,6 +3335,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケイマ (Keima) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケイマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケイマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3374,9 +3434,9 @@
       "contentHash": "b5492bcf003e3e1c55e4e0b826b02c61fe43fb9268261f712cadb1947e8cf7ea",
       "byteLength": 66752,
       "rawPath": "netkeiba/horses/2013/2013104585/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:24:50.419Z"
+  "updatedAt": "2026-08-29T21:28:29.108Z"
 }

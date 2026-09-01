@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102187",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102187/",
-  "profile": null,
+  "profile": {
+    "name": "シエルブリエ",
+    "birthDate": "2023-04-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "369030",
+      "name": "宮田直也"
+    },
+    "breeder": {
+      "id": "800016",
+      "name": "北光牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2011100375",
+      "name": "アンジェルブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -1316,6 +1346,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シエルブリエ (Ciel Briller) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シエルブリエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シエルブリエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1385,9 +1445,9 @@
       "contentHash": "aa46c65540322e46bd3d5e37c153993ff5b1a47c4c7bd67024a74c4375a4886c",
       "byteLength": 64753,
       "rawPath": "netkeiba/horses/2023/2023102187/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:41:25.048Z"
+  "updatedAt": "2026-08-28T22:45:03.792Z"
 }

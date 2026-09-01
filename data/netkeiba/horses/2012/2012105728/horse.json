@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105728",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105728/",
-  "profile": null,
+  "profile": {
+    "name": "ライメイ",
+    "birthDate": "2012-03-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "830044",
+      "name": "市川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "フォーティナイナーズサン Fourty Niners Son(米)"
+    },
+    "dam": {
+      "id": "2005101293",
+      "name": "マイドリーマー"
+    },
+    "damsire": {
+      "id": "1997103400",
+      "name": "アグネスフライト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3657,6 +3687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライメイ (Raimei) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライメイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライメイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3726,9 +3786,9 @@
       "contentHash": "b37075369f205229ffaf236be4e070deedb5e9cfdb74e6f92b8a5bbceaaada58",
       "byteLength": 64834,
       "rawPath": "netkeiba/horses/2012/2012105728/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:46:11.745Z"
+  "updatedAt": "2026-08-25T23:53:34.380Z"
 }

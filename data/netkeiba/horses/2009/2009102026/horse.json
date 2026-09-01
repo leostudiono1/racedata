@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009102026",
   "sourceUrl": "https://db.netkeiba.com/horse/2009102026/",
-  "profile": null,
+  "profile": {
+    "name": "ボーイフレンド",
+    "birthDate": "2009-03-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "263006",
+      "name": "北村和江"
+    },
+    "breeder": {
+      "id": "430362",
+      "name": "高橋啓"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    },
+    "dam": {
+      "id": "2000102501",
+      "name": "タオルミーナ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101561",
@@ -6969,6 +6999,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボーイフレンド (Boy Friend) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボーイフレンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボーイフレンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7038,9 +7098,9 @@
       "contentHash": "3438033a4c9022c4a26b30a3480c9e6bf889741271eb6eeee65cb35458de403d",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2009/2009102026/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:14:42.099Z"
+  "updatedAt": "2026-08-24T03:19:51.894Z"
 }

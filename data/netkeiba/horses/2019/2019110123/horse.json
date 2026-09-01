@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110123",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110123/",
-  "profile": null,
+  "profile": {
+    "name": "ワールドコネクター",
+    "birthDate": "2019-03-08",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05673",
+      "name": "森下淳平"
+    },
+    "owner": {
+      "id": "972033",
+      "name": "山本又一郎"
+    },
+    "breeder": {
+      "id": "580872",
+      "name": "Dell Ridge Farm LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Connect"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Wild Hoots"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3366,6 +3396,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワールドコネクター (World Connector) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワールドコネクター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワールドコネクター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3435,9 +3495,9 @@
       "contentHash": "ee633dfd83a7dda52c6dd9b456c5ac5ac8d46df72e1105bcb3487c8a1000deee",
       "byteLength": 67026,
       "rawPath": "netkeiba/horses/2019/2019110123/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:43:00.482Z"
+  "updatedAt": "2026-08-26T23:48:45.078Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103795",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103795/",
-  "profile": null,
+  "profile": {
+    "name": "インストアイベント",
+    "birthDate": "2010-04-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05242",
+      "name": "角田輝也"
+    },
+    "owner": {
+      "id": "x09916",
+      "name": "岩田幸哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    },
+    "dam": {
+      "id": "1998110228",
+      "name": "ソロリサイタル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rahy"
+    }
+  },
   "pedigree": [
     {
       "id": "1995103211",
@@ -9131,6 +9161,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インストアイベント (Instore Event) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インストアイベント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インストアイベント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9200,9 +9260,9 @@
       "contentHash": "360b393c10219e5fbacd2281468cf2b3e93df1976fc1884b602ba2ea9f64cfcd",
       "byteLength": 67054,
       "rawPath": "netkeiba/horses/2010/2010103795/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:11:19.341Z"
+  "updatedAt": "2026-08-27T22:18:20.883Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100418",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100418/",
-  "profile": null,
+  "profile": {
+    "name": "メテオーロ",
+    "birthDate": "2011-03-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "053030",
+      "name": "白井岳"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ポップコーンプリンセス Popcorn Princess(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Old Trieste"
+    }
+  },
   "pedigree": [
     {
       "id": "1993109188",
@@ -2386,6 +2416,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メテオーロ (Meteoro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メテオーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メテオーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2455,9 +2515,9 @@
       "contentHash": "57020dd683c4cc016e71359229422ee53a0133bd86fffa1770cb456af4090aed",
       "byteLength": 65722,
       "rawPath": "netkeiba/horses/2011/2011100418/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:16:27.154Z"
+  "updatedAt": "2026-08-24T03:21:36.993Z"
 }

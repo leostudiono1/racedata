@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101555",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101555/",
-  "profile": null,
+  "profile": {
+    "name": "スカイプライド",
+    "birthDate": "2023-02-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "591031",
+      "name": "小島章義"
+    },
+    "breeder": {
+      "id": "803327",
+      "name": "門別牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015105075",
+      "name": "フィエールマン"
+    },
+    "dam": {
+      "id": "2014110071",
+      "name": "ゴールドスカイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kyllachy"
+    }
+  },
   "pedigree": [
     {
       "id": "2015105075",
@@ -1067,6 +1097,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイプライド (Sky Pride) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイプライド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイプライド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1136,9 +1196,9 @@
       "contentHash": "9b82a3e7685afd5994974b0a5434814804143be99dc1c4fac874c7c961fb68c4",
       "byteLength": 65037,
       "rawPath": "netkeiba/horses/2023/2023101555/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:06:20.574Z"
+  "updatedAt": "2026-08-24T04:11:30.492Z"
 }

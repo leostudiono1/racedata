@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102630",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102630/",
-  "profile": null,
+  "profile": {
+    "name": "グランシャン",
+    "birthDate": "2023-02-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "133803",
+      "name": "モンレーヴ"
+    },
+    "breeder": {
+      "id": "733072",
+      "name": "今牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2011110001",
+      "name": "サトノジェイド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cape Cross"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1864,6 +1894,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランシャン (Grand Champ) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランシャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランシャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1933,9 +1993,9 @@
       "contentHash": "6bbe4c85fc26dc6ab62e57cdb096b1605dd19f8ec6ae2e6ee3ba42afd89e4800",
       "byteLength": 66367,
       "rawPath": "netkeiba/horses/2023/2023102630/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:58:31.835Z"
+  "updatedAt": "2026-08-27T00:04:16.364Z"
 }

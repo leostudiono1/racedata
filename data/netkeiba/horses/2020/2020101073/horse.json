@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101073",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101073/",
-  "profile": null,
+  "profile": {
+    "name": "シンプルガール",
+    "birthDate": "2020-03-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05270",
+      "name": "竹下直人"
+    },
+    "owner": {
+      "id": "x06e26",
+      "name": "（株）ファーストビジ"
+    },
+    "breeder": {
+      "id": "930369",
+      "name": "清水牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2010105652",
+      "name": "スマートアレンジ"
+    },
+    "damsire": {
+      "id": "2001110155",
+      "name": "パーソナルラッシュ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -1596,6 +1626,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンプルガール (Simple Girl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンプルガール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンプルガール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1665,9 +1725,9 @@
       "contentHash": "f5bd73029a36d138d2588a3f5ad5af6b93690525559f498b576ec34ee9812eb2",
       "byteLength": 66902,
       "rawPath": "netkeiba/horses/2020/2020101073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:32:20.751Z"
+  "updatedAt": "2026-08-30T21:37:58.411Z"
 }

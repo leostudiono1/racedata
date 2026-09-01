@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105245",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105245/",
-  "profile": null,
+  "profile": {
+    "name": "ポールスター",
+    "birthDate": "2018-02-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00438",
+      "name": "安田隆行"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009106399",
+      "name": "プリームス"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2164,6 +2194,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポールスター (Polestar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポールスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポールスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2233,9 +2293,9 @@
       "contentHash": "490c6986374a6d95c08862ca7baf252760bdbe85090c05dfd247f71351f458eb",
       "byteLength": 65550,
       "rawPath": "netkeiba/horses/2018/2018105245/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:25:48.662Z"
+  "updatedAt": "2026-08-30T21:31:26.311Z"
 }

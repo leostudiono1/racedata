@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011102919",
   "sourceUrl": "https://db.netkeiba.com/horse/2011102919/",
-  "profile": null,
+  "profile": {
+    "name": "ラグタイム",
+    "birthDate": "2011-03-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "268008",
+      "name": "小田吉男"
+    },
+    "breeder": {
+      "id": "510000",
+      "name": "エクセルマネジメント"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2005110174",
+      "name": "エーソングフォー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "More Than Ready"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2015,6 +2045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラグタイム (Ragtime) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラグタイム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラグタイム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2084,9 +2144,9 @@
       "contentHash": "d1a0d73d78f3cc96f5be486181c994aad977e60d4dc88cc7d4976ea2739fbe7d",
       "byteLength": 65295,
       "rawPath": "netkeiba/horses/2011/2011102919/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:12:18.841Z"
+  "updatedAt": "2026-08-27T22:19:20.555Z"
 }

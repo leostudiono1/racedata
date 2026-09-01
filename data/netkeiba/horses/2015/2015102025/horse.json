@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102025",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102025/",
-  "profile": null,
+  "profile": {
+    "name": "キンメ",
+    "birthDate": "2015-04-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "006803",
+      "name": "小山田満"
+    },
+    "breeder": {
+      "id": "701517",
+      "name": "メイプルファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1997106560",
+      "name": "スターリングローズ"
+    },
+    "dam": {
+      "id": "2011100947",
+      "name": "ミスティローズ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "1997106560",
@@ -2486,6 +2516,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キンメ (Kimme) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンメ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キンメ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2555,9 +2615,9 @@
       "contentHash": "ec243d0ee2abd264314369d485d573dda3da517d4270c4ee537b1cd14ec6b5fa",
       "byteLength": 64254,
       "rawPath": "netkeiba/horses/2015/2015102025/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:29:33.215Z"
+  "updatedAt": "2026-08-25T02:41:42.669Z"
 }

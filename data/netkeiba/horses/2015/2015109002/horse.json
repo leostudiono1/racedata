@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109002",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109002/",
-  "profile": null,
+  "profile": {
+    "name": "ラズワルド",
+    "birthDate": "2015-05-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05671",
+      "name": "倉地学"
+    },
+    "owner": {
+      "id": "x09dd9",
+      "name": "小林伸幸"
+    },
+    "breeder": {
+      "id": "130141",
+      "name": "石田英機"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "1996105099",
+      "name": "ガトーショコラ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -3381,6 +3411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラズワルド (Lazward) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラズワルド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラズワルド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3450,9 +3510,9 @@
       "contentHash": "6ad6ece3f7b97a388c89ba5d7335ad8d483b062b8690f2e0f4520837db07595f",
       "byteLength": 66836,
       "rawPath": "netkeiba/horses/2015/2015109002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:35:41.665Z"
+  "updatedAt": "2026-08-29T21:39:20.699Z"
 }

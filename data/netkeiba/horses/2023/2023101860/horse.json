@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101860",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101860/",
-  "profile": null,
+  "profile": {
+    "name": "コウジハラ",
+    "birthDate": "2023-05-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01187",
+      "name": "西田雄一"
+    },
+    "owner": {
+      "id": "044803",
+      "name": "由井健太郎"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014110060",
+      "name": "マテラスカイ"
+    },
+    "dam": {
+      "id": "2013103100",
+      "name": "ローザビアンカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014110060",
@@ -1449,6 +1479,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コウジハラ (Koji Hara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウジハラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コウジハラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1518,9 +1578,9 @@
       "contentHash": "d7027bf0edb86a83a7e902f726433ff34f8153b303bb6cab81f211da373ed1d0",
       "byteLength": 66223,
       "rawPath": "netkeiba/horses/2023/2023101860/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:46:28.623Z"
+  "updatedAt": "2026-08-30T21:52:05.744Z"
 }

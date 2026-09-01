@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107278",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107278/",
-  "profile": null,
+  "profile": {
+    "name": "バドリナート",
+    "birthDate": "2023-01-26",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "モヒニ Mohini(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1539,6 +1569,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バドリナート (Badrinath) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バドリナート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バドリナート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1608,9 +1668,9 @@
       "contentHash": "3f2c4c5d2b5486f6771cc1203b039129cd54dcd2de7015106f9023896b51322d",
       "byteLength": 67593,
       "rawPath": "netkeiba/horses/2023/2023107278/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:05:14.345Z"
+  "updatedAt": "2026-08-27T23:12:15.871Z"
 }

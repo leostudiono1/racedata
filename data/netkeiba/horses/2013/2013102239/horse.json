@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102239",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102239/",
-  "profile": null,
+  "profile": {
+    "name": "アルマスハート",
+    "birthDate": "2013-03-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01078",
+      "name": "北出成人"
+    },
+    "owner": {
+      "id": "979007",
+      "name": "馬目卓"
+    },
+    "breeder": {
+      "id": "013094",
+      "name": "片山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    },
+    "dam": {
+      "id": "2006103558",
+      "name": "アスカルディ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005110112",
@@ -6708,6 +6738,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルマスハート (Almas Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルマスハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルマスハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6777,9 +6837,9 @@
       "contentHash": "f27a73adae74916d0c2ceccab6ec03178d689340bf4ebb1537c140a1455bbb6d",
       "byteLength": 65322,
       "rawPath": "netkeiba/horses/2013/2013102239/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:21:12.177Z"
+  "updatedAt": "2026-08-25T02:33:22.015Z"
 }

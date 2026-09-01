@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104502",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104502/",
-  "profile": null,
+  "profile": {
+    "name": "ミライチャン",
+    "birthDate": "2017-03-03",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "333373",
+      "name": "桑原牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2002100100",
+      "name": "ミライ"
+    },
+    "damsire": {
+      "id": "1990105400",
+      "name": "トーヨーリファール"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -1092,6 +1122,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミライチャン (Miraichan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミライチャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミライチャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1161,9 +1221,9 @@
       "contentHash": "39e1b0537a2c97295bd67347320d00bfdebaa98de5a48984bf56cf2ea955b879",
       "byteLength": 64882,
       "rawPath": "netkeiba/horses/2017/2017104502/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:38:42.474Z"
+  "updatedAt": "2026-08-25T02:50:52.281Z"
 }

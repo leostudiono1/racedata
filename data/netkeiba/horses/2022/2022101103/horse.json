@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101103",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101103/",
-  "profile": null,
+  "profile": {
+    "name": "ザカリナン",
+    "birthDate": "2022-03-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "713341",
+      "name": "荒井ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014110031",
+      "name": "モズアスコット"
+    },
+    "dam": {
+      "id": "2009106013",
+      "name": "シャドウライフ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2014110031",
@@ -2551,6 +2581,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザカリナン (The Cullinan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザカリナン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザカリナン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2620,9 +2680,9 @@
       "contentHash": "a5bb2463cac9297d2169b35d065b790c2fc4863838a135f89996dbb3c4741069",
       "byteLength": 67004,
       "rawPath": "netkeiba/horses/2022/2022101103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:57:54.557Z"
+  "updatedAt": "2026-08-25T03:10:04.596Z"
 }

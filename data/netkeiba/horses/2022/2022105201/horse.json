@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105201",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105201/",
-  "profile": null,
+  "profile": {
+    "name": "ラマンシュ",
+    "birthDate": "2022-04-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01178",
+      "name": "杉山佳明"
+    },
+    "owner": {
+      "id": "727008",
+      "name": "谷掛龍夫"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "2007110004",
+      "name": "アイアムルビー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Saint Liam"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -2162,6 +2192,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラマンシュ (La Manche) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラマンシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラマンシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2231,9 +2291,9 @@
       "contentHash": "61683973ec11f1fe50f1915ee48fee24c3fcff0d5c968ad1aebccd691f09c3fb",
       "byteLength": 65574,
       "rawPath": "netkeiba/horses/2022/2022105201/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:38:26.960Z"
+  "updatedAt": "2026-08-28T22:42:05.090Z"
 }

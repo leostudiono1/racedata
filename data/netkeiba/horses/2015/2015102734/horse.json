@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102734",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102734/",
-  "profile": null,
+  "profile": {
+    "name": "モシモ",
+    "birthDate": "2015-04-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01056",
+      "name": "本間忍"
+    },
+    "owner": {
+      "id": "334009",
+      "name": "小田切有一"
+    },
+    "breeder": {
+      "id": "100004",
+      "name": "小田牧場"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2007101257",
+      "name": "ペン"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -2339,6 +2369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モシモ (Moshimo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モシモ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モシモ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2408,9 +2468,9 @@
       "contentHash": "3256143e2c1c8c76f648b14c3f540ebfb6f87c9aee5ebf60d813da769dfe370d",
       "byteLength": 66312,
       "rawPath": "netkeiba/horses/2015/2015102734/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:06:31.298Z"
+  "updatedAt": "2026-08-28T22:10:10.064Z"
 }

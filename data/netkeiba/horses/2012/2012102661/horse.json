@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102661",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102661/",
-  "profile": null,
+  "profile": {
+    "name": "パティ",
+    "birthDate": "2012-03-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01148",
+      "name": "西村真幸"
+    },
+    "owner": {
+      "id": "040030",
+      "name": "薪浦英稔"
+    },
+    "breeder": {
+      "id": "633062",
+      "name": "秋田育成牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "2003102811",
+      "name": "スペシャルワールド"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -2027,6 +2057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パティ (Patty) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2096,9 +2156,9 @@
       "contentHash": "01d4882391d9f371670299ab49428a170a2a7c087c54943dd043d6aec938f030",
       "byteLength": 66079,
       "rawPath": "netkeiba/horses/2012/2012102661/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T22:59:40.062Z"
+  "updatedAt": "2026-08-30T21:05:17.899Z"
 }

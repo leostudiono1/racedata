@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105706",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105706/",
-  "profile": null,
+  "profile": {
+    "name": "リアライズルークス",
+    "birthDate": "2022-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01205",
+      "name": "佐藤悠太"
+    },
+    "owner": {
+      "id": "045034",
+      "name": "今福洋介"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ソワー Sower(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Flatter"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -980,6 +1010,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアライズルークス (Realize Lux) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアライズルークス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアライズルークス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1049,9 +1109,9 @@
       "contentHash": "5fec3abc74a6108a442621337b8e751c999173e0dd45d0623d20bd9d69dd143c",
       "byteLength": 64644,
       "rawPath": "netkeiba/horses/2022/2022105706/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:38:54.485Z"
+  "updatedAt": "2026-08-28T22:42:33.104Z"
 }

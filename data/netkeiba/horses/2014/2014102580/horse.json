@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102580",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102580/",
-  "profile": null,
+  "profile": {
+    "name": "バジャラ",
+    "birthDate": "2014-04-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00415",
+      "name": "菅原泰夫"
+    },
+    "owner": {
+      "id": "148002",
+      "name": "長塩豊"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003101859",
+      "name": "スーパーホーネット"
+    },
+    "dam": {
+      "id": "2009103108",
+      "name": "ミルテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003101859",
@@ -1057,6 +1087,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バジャラ (Bajra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バジャラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バジャラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1126,9 +1186,9 @@
       "contentHash": "19d15492a5f41bd66218b49f8f2f4fe28c0bd5c376732a4d8fdbf2244b60a50e",
       "byteLength": 64039,
       "rawPath": "netkeiba/horses/2014/2014102580/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:27:49.740Z"
+  "updatedAt": "2026-08-24T03:32:59.719Z"
 }

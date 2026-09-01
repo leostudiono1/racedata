@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104103",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104103/",
-  "profile": null,
+  "profile": {
+    "name": "テツ",
+    "birthDate": "2016-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "729008",
+      "name": "共田義夫"
+    },
+    "breeder": {
+      "id": "733484",
+      "name": "大川牧場"
+    },
+    "birthplace": "厚真",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2010100465",
+      "name": "ヴェネチアンレッド"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -6616,6 +6646,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テツ (Teh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6685,9 +6745,9 @@
       "contentHash": "c50fb8d04ffdf829576371f639313ddf36b613d9460218ea8bd83c7d3834b7cc",
       "byteLength": 66434,
       "rawPath": "netkeiba/horses/2016/2016104103/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:36:59.729Z"
+  "updatedAt": "2026-08-24T03:42:09.243Z"
 }

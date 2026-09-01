@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100128",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100128/",
-  "profile": null,
+  "profile": {
+    "name": "アララト",
+    "birthDate": "2018-04-08",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05108",
+      "name": "桧森邦夫"
+    },
+    "owner": {
+      "id": "917031",
+      "name": "八嶋長久"
+    },
+    "breeder": {
+      "id": "201346",
+      "name": "大江牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2006105244",
+      "name": "シャインエフォート"
+    },
+    "damsire": {
+      "id": "1993109219",
+      "name": "バブルガムフェロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1954,6 +1984,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アララト (Ararat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アララト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アララト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2023,9 +2083,9 @@
       "contentHash": "838be4859ca5bcec9f04f791ddb1da8a38704de5aa3898d74355e2ddce685d1d",
       "byteLength": 64674,
       "rawPath": "netkeiba/horses/2018/2018100128/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:16:51.034Z"
+  "updatedAt": "2026-08-28T22:20:29.921Z"
 }

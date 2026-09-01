@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104349",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104349/",
-  "profile": null,
+  "profile": {
+    "name": "グランバル",
+    "birthDate": "2017-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05390",
+      "name": "高橋俊之"
+    },
+    "owner": {
+      "id": "x00939",
+      "name": "松澤幸雄"
+    },
+    "breeder": {
+      "id": "541334",
+      "name": "奥山博"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2012104288",
+      "name": "フォルラーヌ"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2696,6 +2726,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランバル (Grand Bal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランバル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランバル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2765,9 +2825,9 @@
       "contentHash": "be1431f1a0e46ab00818a5bf2cb47bda05cf0df83fbc7f5550d01e9258a0ae12",
       "byteLength": 66709,
       "rawPath": "netkeiba/horses/2017/2017104349/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:06:54.467Z"
+  "updatedAt": "2026-08-26T00:14:17.241Z"
 }

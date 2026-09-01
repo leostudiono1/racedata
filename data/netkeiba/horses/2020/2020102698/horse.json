@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102698",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102698/",
-  "profile": null,
+  "profile": {
+    "name": "ビートポップ",
+    "birthDate": "2020-01-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01189",
+      "name": "堀内岳志"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2011103627",
+      "name": "ビートゴーズオン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Curlin (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1136,6 +1166,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビートポップ (Beat Pop) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビートポップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビートポップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1205,9 +1265,9 @@
       "contentHash": "b7b25e20ae11d05fbf8d0a2ab56672ab5c9eead5567eb9a60aa7a5b169a0ef06",
       "byteLength": 66395,
       "rawPath": "netkeiba/horses/2020/2020102698/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:54:18.586Z"
+  "updatedAt": "2026-08-29T21:57:57.218Z"
 }

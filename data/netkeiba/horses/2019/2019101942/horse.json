@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101942",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101942/",
-  "profile": null,
+  "profile": {
+    "name": "ホーネット",
+    "birthDate": "2019-02-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00428",
+      "name": "石毛善彦"
+    },
+    "owner": {
+      "id": "935800",
+      "name": "木村牧場"
+    },
+    "breeder": {
+      "id": "833394",
+      "name": "戸川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010103783",
+      "name": "ロゴタイプ"
+    },
+    "dam": {
+      "id": "2006105744",
+      "name": "ティファイファイ"
+    },
+    "damsire": {
+      "id": "1997106560",
+      "name": "スターリングローズ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010103783",
@@ -1445,6 +1475,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホーネット (Hornet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホーネット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホーネット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1514,9 +1574,9 @@
       "contentHash": "7efdf43b5fdefeb3f8db56b9d4fac589d0cb07d13b5470d24e5244d45eeca144",
       "byteLength": 65859,
       "rawPath": "netkeiba/horses/2019/2019101942/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:45:28.613Z"
+  "updatedAt": "2026-08-25T02:57:38.417Z"
 }

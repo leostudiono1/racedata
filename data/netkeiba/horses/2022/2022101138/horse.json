@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101138",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101138/",
-  "profile": null,
+  "profile": {
+    "name": "マイボーイ",
+    "birthDate": "2022-02-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "堀場裕充"
+    },
+    "owner": {
+      "id": "x0a673",
+      "name": "福岡隆史"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2009110123",
+      "name": "クルージンミジー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mizzen Mast"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -4100,6 +4130,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイボーイ (My Boy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイボーイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイボーイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4169,9 +4229,9 @@
       "contentHash": "80184f310efc760d616342cb6244019181c9876a8b1456446efcf9b0f6a7e2b4",
       "byteLength": 66794,
       "rawPath": "netkeiba/horses/2022/2022101138/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:56:32.798Z"
+  "updatedAt": "2026-08-27T23:03:34.246Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103526",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103526/",
-  "profile": null,
+  "profile": {
+    "name": "ファセリア",
+    "birthDate": "2021-04-10",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "横山保"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2012103663",
+      "name": "ビスカリア"
+    },
+    "damsire": {
+      "id": "2002100877",
+      "name": "ヴァーミリアン"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -4349,6 +4379,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファセリア (Phacelia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファセリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファセリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4418,9 +4478,9 @@
       "contentHash": "ec606082db35afd514c0785ed29d84898f2032fc4c8b983f7e342cfaf01620bc",
       "byteLength": 66588,
       "rawPath": "netkeiba/horses/2021/2021103526/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:58:17.406Z"
+  "updatedAt": "2026-08-24T04:03:27.133Z"
 }

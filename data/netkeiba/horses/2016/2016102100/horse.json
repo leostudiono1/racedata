@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102100",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102100/",
-  "profile": null,
+  "profile": {
+    "name": "マゼ",
+    "birthDate": "2016-04-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05748",
+      "name": "稲益貴弘"
+    },
+    "owner": {
+      "id": "402033",
+      "name": "吉井理人"
+    },
+    "breeder": {
+      "id": "610012",
+      "name": "林孝輝"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2004103110",
+      "name": "アクセレラン"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -3046,6 +3076,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マゼ (Maze) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マゼ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マゼ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3115,9 +3175,9 @@
       "contentHash": "5376b018dc0164bf16aacfdf5a9418441241db0d5e88487d6dd1661489064e40",
       "byteLength": 66423,
       "rawPath": "netkeiba/horses/2016/2016102100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:37:02.161Z"
+  "updatedAt": "2026-08-29T21:40:40.777Z"
 }

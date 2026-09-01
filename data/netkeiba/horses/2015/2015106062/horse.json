@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106062",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106062/",
-  "profile": null,
+  "profile": {
+    "name": "グリーンライト",
+    "birthDate": "2015-03-18",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "413800",
+      "name": "畠山牧場"
+    },
+    "breeder": {
+      "id": "303300",
+      "name": "畠山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    },
+    "dam": {
+      "id": "2004101991",
+      "name": "アルコイリス"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1995103211",
@@ -998,6 +1028,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリーンライト (Green Light) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーンライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーンライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1067,9 +1127,9 @@
       "contentHash": "ccf5f42d645dab9e881af5f77e392fd78cbb5be29f0739d709746be8c0818e89",
       "byteLength": 64457,
       "rawPath": "netkeiba/horses/2015/2015106062/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:08:37.367Z"
+  "updatedAt": "2026-08-28T22:12:16.296Z"
 }

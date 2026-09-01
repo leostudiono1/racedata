@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104552",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104552/",
-  "profile": null,
+  "profile": {
+    "name": "フウセン",
+    "birthDate": "2023-04-29",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "696031",
+      "name": "ＦＡレーシング"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フリートバーティー Fleet Bertie(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Afleet Alex"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1472,6 +1502,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フウセン (Fusen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フウセン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フウセン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1541,9 +1601,9 @@
       "contentHash": "f2a72b5f8c346d58aebed064fe8ee33fd7bb02dca17bad4b0329fd1ed09e6b64",
       "byteLength": 67213,
       "rawPath": "netkeiba/horses/2023/2023104552/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T05:05:02.063Z"
+  "updatedAt": "2026-08-25T03:16:46.801Z"
 }

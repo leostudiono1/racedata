@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101799",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101799/",
-  "profile": null,
+  "profile": {
+    "name": "バスティア",
+    "birthDate": "2020-02-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "尾林幸二"
+    },
+    "owner": {
+      "id": "827008",
+      "name": "神村雅己"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013100612",
+      "name": "ファインニードル"
+    },
+    "dam": {
+      "id": "2011100591",
+      "name": "カオール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013100612",
@@ -2340,6 +2370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バスティア (Bastia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バスティア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バスティア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2409,9 +2469,9 @@
       "contentHash": "171019bcf5a7531bd13a9ef4b440e6d94ede4ce5da24fd273f29fef6c6b1c664",
       "byteLength": 66698,
       "rawPath": "netkeiba/horses/2020/2020101799/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:32:38.264Z"
+  "updatedAt": "2026-08-30T21:38:16.008Z"
 }

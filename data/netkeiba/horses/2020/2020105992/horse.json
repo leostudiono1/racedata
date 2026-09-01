@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105992",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105992/",
-  "profile": null,
+  "profile": {
+    "name": "セセラギ",
+    "birthDate": "2020-03-16",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05131",
+      "name": "井上哲"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "010317",
+      "name": "村上雅規"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011105266",
+      "name": "ゴールドアクター"
+    },
+    "dam": {
+      "id": "2005105129",
+      "name": "アウロラプラネット"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011105266",
@@ -5745,6 +5775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セセラギ (Seseragi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セセラギ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セセラギ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5814,9 +5874,9 @@
       "contentHash": "2a62317b373e62a1cfea03a503794be3febaff442c50de904b9138e78196b0c1",
       "byteLength": 66763,
       "rawPath": "netkeiba/horses/2020/2020105992/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:51:06.968Z"
+  "updatedAt": "2026-08-27T22:58:08.645Z"
 }

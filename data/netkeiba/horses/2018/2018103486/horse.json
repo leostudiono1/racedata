@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103486",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103486/",
-  "profile": null,
+  "profile": {
+    "name": "ジョット",
+    "birthDate": "2018-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05071",
+      "name": "森山英雄"
+    },
+    "owner": {
+      "id": "457002",
+      "name": "海谷幸司"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ロージズインメイ Roses in May(米)"
+    },
+    "dam": {
+      "id": "2006103973",
+      "name": "キアラ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5528,6 +5558,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョット (Giotto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5597,9 +5657,9 @@
       "contentHash": "a4a66b3ec4a8ddfc61a4d48e21e9ea7ef0436ddb4f4bb5368e832e499c196658",
       "byteLength": 67023,
       "rawPath": "netkeiba/horses/2018/2018103486/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:42:19.679Z"
+  "updatedAt": "2026-08-25T02:54:29.662Z"
 }

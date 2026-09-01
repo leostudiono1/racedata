@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101683",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101683/",
-  "profile": null,
+  "profile": {
+    "name": "ウィンストン",
+    "birthDate": "2022-02-03",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2011100528",
+      "name": "ブルーストーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2202,6 +2232,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ウィンストン (Winston) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウィンストン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ウィンストン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2271,9 +2331,9 @@
       "contentHash": "7e09a37d02f259f3c5f1ed9b0a8c4c85bd122f7ef2233430d5de5a8400190204",
       "byteLength": 64785,
       "rawPath": "netkeiba/horses/2022/2022101683/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:58:33.400Z"
+  "updatedAt": "2026-08-25T03:10:42.755Z"
 }

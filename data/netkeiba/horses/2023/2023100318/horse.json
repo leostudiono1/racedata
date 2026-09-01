@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100318",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100318/",
-  "profile": null,
+  "profile": {
+    "name": "バッハ",
+    "birthDate": "2023-02-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "森山雄大"
+    },
+    "owner": {
+      "id": "393803",
+      "name": "ＫＡＪＩＭＯＴＯホールディングス"
+    },
+    "breeder": {
+      "id": "301060",
+      "name": "本桐牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2011104012",
+      "name": "トーセンミルキー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -2141,6 +2171,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バッハ (Bach) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バッハ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バッハ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2210,9 +2270,9 @@
       "contentHash": "87276b0b6174ccf8e0c51a5b094906145b458f7af74f4c34574768125d9b1123",
       "byteLength": 65093,
       "rawPath": "netkeiba/horses/2023/2023100318/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:45:46.109Z"
+  "updatedAt": "2026-08-30T21:51:24.052Z"
 }

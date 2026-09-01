@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106472",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106472/",
-  "profile": null,
+  "profile": {
+    "name": "オーマイガイ",
+    "birthDate": "2013-03-22",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01072",
+      "name": "河内洋"
+    },
+    "owner": {
+      "id": "539002",
+      "name": "廣崎利洋"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2001101659",
+      "name": "リスティアアスリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スピニングワールド Spinning World(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5806,6 +5836,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーマイガイ (Oh My Guy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーマイガイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーマイガイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5875,9 +5935,9 @@
       "contentHash": "26434c80489a796db646ab922cf841f4cd18975a5dc5ed414372026296c4ba08",
       "byteLength": 66901,
       "rawPath": "netkeiba/horses/2013/2013106472/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:16:09.868Z"
+  "updatedAt": "2026-08-26T23:21:54.493Z"
 }

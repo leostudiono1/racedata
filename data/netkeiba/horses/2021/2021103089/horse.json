@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103089",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103089/",
-  "profile": null,
+  "profile": {
+    "name": "アムンラー",
+    "birthDate": "2021-03-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05706",
+      "name": "川島洋人"
+    },
+    "owner": {
+      "id": "825008",
+      "name": "中島雅春"
+    },
+    "breeder": {
+      "id": "400015",
+      "name": "中島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016106065",
+      "name": "ロジャーバローズ"
+    },
+    "dam": {
+      "id": "2014103412",
+      "name": "アンヌ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2016106065",
@@ -2420,6 +2450,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アムンラー (Amun Ra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アムンラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アムンラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2489,9 +2549,9 @@
       "contentHash": "7a9aeb37fbe00ff5aad7aabb698549ffda6bc9ae3be42687baf45adc25cc9d09",
       "byteLength": 66476,
       "rawPath": "netkeiba/horses/2021/2021103089/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:58:03.444Z"
+  "updatedAt": "2026-08-24T04:03:13.298Z"
 }

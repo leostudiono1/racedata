@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103283",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103283/",
-  "profile": null,
+  "profile": {
+    "name": "バイオマックス",
+    "birthDate": "2022-02-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "591031",
+      "name": "小島章義"
+    },
+    "breeder": {
+      "id": "900018",
+      "name": "宮内牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2015101570",
+      "name": "アメイジングライト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Teofilo"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2208,6 +2238,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バイオマックス (Bio Max) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイオマックス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイオマックス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2277,9 +2337,9 @@
       "contentHash": "92172f095bfebb8ce99e1a051e0b439eded7676e5a6779da9903d88089d9647b",
       "byteLength": 66977,
       "rawPath": "netkeiba/horses/2022/2022103283/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:36:59.100Z"
+  "updatedAt": "2026-08-28T22:40:37.619Z"
 }

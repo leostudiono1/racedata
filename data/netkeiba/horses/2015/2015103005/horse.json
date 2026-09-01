@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103005",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103005/",
-  "profile": null,
+  "profile": {
+    "name": "パーキー",
+    "birthDate": "2015-05-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05670",
+      "name": "林隆之"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パダナ Padana(独)"
+    },
+    "damsire": {
+      "id": "1990109712",
+      "name": "Lando (独)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -5699,6 +5729,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パーキー (Perky) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パーキー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パーキー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5768,9 +5828,9 @@
       "contentHash": "7f8a6336f983c8a8064e9ffe0e371633dea08555c0324e234bd7625947eef761",
       "byteLength": 64743,
       "rawPath": "netkeiba/horses/2015/2015103005/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:21:46.085Z"
+  "updatedAt": "2026-08-26T23:27:30.585Z"
 }

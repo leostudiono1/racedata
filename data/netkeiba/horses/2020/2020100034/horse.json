@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100034",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100034/",
-  "profile": null,
+  "profile": {
+    "name": "ミランダ",
+    "birthDate": "2020-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05076",
+      "name": "伊藤強一"
+    },
+    "owner": {
+      "id": "075033",
+      "name": "柴田浩二"
+    },
+    "breeder": {
+      "id": "933090",
+      "name": "小河豊水"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト Novellist(愛)"
+    },
+    "dam": {
+      "id": "2010103665",
+      "name": "メジャーフラガール"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2339,6 +2369,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミランダ (Miranda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミランダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミランダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2408,9 +2468,9 @@
       "contentHash": "f57204834adcbe1614754e4445ccd91c2a9f77aa92eccddf1dfe99a662936fd5",
       "byteLength": 66639,
       "rawPath": "netkeiba/horses/2020/2020100034/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:48:41.181Z"
+  "updatedAt": "2026-08-25T03:00:51.012Z"
 }

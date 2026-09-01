@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101149",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101149/",
-  "profile": null,
+  "profile": {
+    "name": "クロリ",
+    "birthDate": "2017-04-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05703",
+      "name": "山田質"
+    },
+    "owner": {
+      "id": "x09ec0",
+      "name": "上田秀二"
+    },
+    "breeder": {
+      "id": "050365",
+      "name": "二風谷ファーム"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2001107192",
+      "name": "ハナマル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -2264,6 +2294,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロリ (Coloris) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2333,9 +2393,9 @@
       "contentHash": "20716ea5e434743c6ef6755e313bce106f3a7b3d4e196d002b33d1f9574a6831",
       "byteLength": 65322,
       "rawPath": "netkeiba/horses/2017/2017101149/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:04:59.211Z"
+  "updatedAt": "2026-08-26T00:12:21.649Z"
 }

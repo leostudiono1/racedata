@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110106",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110106/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーマッキンジー",
+    "birthDate": "2023-04-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01178",
+      "name": "杉山佳明"
+    },
+    "owner": {
+      "id": "198031",
+      "name": "琴浦諒"
+    },
+    "breeder": {
+      "id": "080714",
+      "name": "Kim Valerio John Green"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "McKinzie (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Blueeyesintherein"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Magna Graduate"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1378,6 +1408,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーマッキンジー (Blue McKinzie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーマッキンジー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーマッキンジー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1447,9 +1507,9 @@
       "contentHash": "c95087112d949e99252f8e48a414271207183228a0ffc3431807939b3bcc7be9",
       "byteLength": 67219,
       "rawPath": "netkeiba/horses/2023/2023110106/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T00:11:48.932Z"
+  "updatedAt": "2026-08-29T22:15:27.894Z"
 }

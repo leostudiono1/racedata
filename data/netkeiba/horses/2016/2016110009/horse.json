@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110009",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110009/",
-  "profile": null,
+  "profile": {
+    "name": "モンタナウインド",
+    "birthDate": "2016-05-08",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "モンタナリヴァー Montana River(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dalakhani"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1175,6 +1205,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンタナウインド (Montana Wind) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンタナウインド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンタナウインド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1244,9 +1304,9 @@
       "contentHash": "7bd4c3fd58a731850967099cd7622c9c48e9faedbddd2110670cc74e85c8f665",
       "byteLength": 64831,
       "rawPath": "netkeiba/horses/2016/2016110009/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:36:08.403Z"
+  "updatedAt": "2026-08-25T02:48:18.204Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110033",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110033/",
-  "profile": null,
+  "profile": {
+    "name": "フロストシティ",
+    "birthDate": "2020-03-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05623",
+      "name": "栗林徹治"
+    },
+    "owner": {
+      "id": "862031",
+      "name": "伊藤健"
+    },
+    "breeder": {
+      "id": "470731",
+      "name": "Godolphin"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Frosted (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Texas Twirl"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハードスパン Hard Spun(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6369,6 +6399,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロストシティ (Frost City) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロストシティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロストシティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6438,9 +6498,9 @@
       "contentHash": "803e0c1abd83d56fd1e2ec32f546c97a899c8b2f1c2a793ee3fd8f9d1bfe5d70",
       "byteLength": 67060,
       "rawPath": "netkeiba/horses/2020/2020110033/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:21:12.313Z"
+  "updatedAt": "2026-08-26T00:28:35.322Z"
 }

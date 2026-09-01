@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100787",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100787/",
-  "profile": null,
+  "profile": {
+    "name": "エルアン",
+    "birthDate": "2023-02-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "田中力"
+    },
+    "owner": {
+      "id": "x0aff8",
+      "name": "程田健司"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "2016104477",
+      "name": "グレイスアン"
+    },
+    "damsire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -2039,6 +2069,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルアン (Aile Un) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2108,9 +2168,9 @@
       "contentHash": "5ed3de1b1554afb423cf2913639b817f846f4af90effe329408c69966de26dc4",
       "byteLength": 66132,
       "rawPath": "netkeiba/horses/2023/2023100787/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:46:00.112Z"
+  "updatedAt": "2026-08-30T21:51:37.775Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110116",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110116/",
-  "profile": null,
+  "profile": {
+    "name": "ペルアア",
+    "birthDate": "2019-03-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "570739",
+      "name": "Zayat Stables LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Nomee"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "City Zip (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1761,6 +1791,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペルアア (Per Aa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペルアア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペルアア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1830,9 +1890,9 @@
       "contentHash": "cb82afbed011a845d650d34075a47e27b7709dd5ecb61c1366e3a06354131524",
       "byteLength": 66910,
       "rawPath": "netkeiba/horses/2019/2019110116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:42:57.062Z"
+  "updatedAt": "2026-08-26T23:48:41.519Z"
 }

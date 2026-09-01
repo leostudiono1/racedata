@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103322",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103322/",
-  "profile": null,
+  "profile": {
+    "name": "トラキチ",
+    "birthDate": "2018-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01116",
+      "name": "新開幸一"
+    },
+    "owner": {
+      "id": "071803",
+      "name": "大森悌次"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2010109132",
+      "name": "ハートオブキナコ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "チチカステナンゴ Chichicastenango(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -1492,6 +1522,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トラキチ (Torakichi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラキチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラキチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1561,9 +1621,9 @@
       "contentHash": "557268c85e978705aebaa94d41b1beb03102b081bdcc6dc2e65e0b866cea9eec",
       "byteLength": 64440,
       "rawPath": "netkeiba/horses/2018/2018103322/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:45:30.582Z"
+  "updatedAt": "2026-08-24T03:50:40.413Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110156",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110156/",
-  "profile": null,
+  "profile": {
+    "name": "ユニキャラ",
+    "birthDate": "2016-05-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "370008",
+      "name": "岡浩二"
+    },
+    "breeder": {
+      "id": "800811",
+      "name": "Claiborne Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Into Mischief"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Joke"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Phone Trick"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1876,6 +1906,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユニキャラ (Uni Chara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユニキャラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユニキャラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1945,9 +2005,9 @@
       "contentHash": "332f5225c63c2bbb7e2e6cf14aaa3bd4808a718855f364c1cabb10d7642d51f2",
       "byteLength": 66603,
       "rawPath": "netkeiba/horses/2016/2016110156/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:33:22.523Z"
+  "updatedAt": "2026-08-27T22:40:24.420Z"
 }

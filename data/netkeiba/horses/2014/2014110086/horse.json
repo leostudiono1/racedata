@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110086",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110086/",
-  "profile": null,
+  "profile": {
+    "name": "ラローデ",
+    "birthDate": "2014-01-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01089",
+      "name": "武市康男"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "170708",
+      "name": "Chiyoda Farm Shizunai"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Shackleford"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミリオンセラーII Million Seller(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2170,6 +2200,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラローデ (La Lode) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラローデ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラローデ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2239,9 +2299,9 @@
       "contentHash": "75663b6079eadeed81412dd109cc71aaaad4b5261d52fb09aef915e6c57f7f39",
       "byteLength": 65454,
       "rawPath": "netkeiba/horses/2014/2014110086/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:28:19.338Z"
+  "updatedAt": "2026-08-25T02:40:29.512Z"
 }

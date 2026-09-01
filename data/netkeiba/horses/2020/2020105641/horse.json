@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105641",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105641/",
-  "profile": null,
+  "profile": {
+    "name": "サエッタ",
+    "birthDate": "2020-04-07",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01072",
+      "name": "河内洋"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2009105025",
+      "name": "ハーモニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -1350,6 +1380,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サエッタ (Saetta) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サエッタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サエッタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1419,9 +1479,9 @@
       "contentHash": "ec497e5ccd75fb9c3f7ef3f14ba028efb8093e6bf0dfb77bfd63e58c6f338694",
       "byteLength": 65346,
       "rawPath": "netkeiba/horses/2020/2020105641/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:50:39.035Z"
+  "updatedAt": "2026-08-27T22:57:40.601Z"
 }

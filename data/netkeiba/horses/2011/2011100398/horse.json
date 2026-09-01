@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100398",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100398/",
-  "profile": null,
+  "profile": {
+    "name": "トップボンバー",
+    "birthDate": "2011-03-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "973800",
+      "name": "コオロ"
+    },
+    "breeder": {
+      "id": "733356",
+      "name": "庄野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    },
+    "dam": {
+      "id": "2002106540",
+      "name": "レッドプライム"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101786",
@@ -3381,6 +3411,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トップボンバー (Top Bomber) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップボンバー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トップボンバー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3450,9 +3510,9 @@
       "contentHash": "b43252ccd988ce06104af710968fa17d28a6930fe369e6ab11e2374e49dc4bdd",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2011/2011100398/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:16:17.963Z"
+  "updatedAt": "2026-08-25T02:28:28.281Z"
 }

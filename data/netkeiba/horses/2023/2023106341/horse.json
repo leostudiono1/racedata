@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106341",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106341/",
-  "profile": null,
+  "profile": {
+    "name": "アリアファブラ",
+    "birthDate": "2023-02-25",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "101328",
+      "name": "ヤナガワ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011104019",
+      "name": "アルバート"
+    },
+    "dam": {
+      "id": "2016104454",
+      "name": "アカネサス"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104019",
@@ -1326,6 +1356,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリアファブラ (Alia Fabula) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリアファブラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリアファブラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1395,9 +1455,9 @@
       "contentHash": "f235afddd17148eedd6ef375d291664a451ee6838ebc4fbb536266692fe04dac",
       "byteLength": 65764,
       "rawPath": "netkeiba/horses/2023/2023106341/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:04:18.179Z"
+  "updatedAt": "2026-08-27T23:11:19.849Z"
 }

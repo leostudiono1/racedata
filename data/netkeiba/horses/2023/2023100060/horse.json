@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100060",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100060/",
-  "profile": null,
+  "profile": {
+    "name": "トール",
+    "birthDate": "2023-04-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05741",
+      "name": "池田忠好"
+    },
+    "owner": {
+      "id": "178033",
+      "name": "山口正行"
+    },
+    "breeder": {
+      "id": "590543",
+      "name": "オギオギ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013101522",
+      "name": "スマートオーディン"
+    },
+    "dam": {
+      "id": "2002110212",
+      "name": "ジュピターズビコー"
+    },
+    "damsire": {
+      "id": "1992190005",
+      "name": "Singspiel (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013101522",
@@ -2042,6 +2072,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トール (Tor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2111,9 +2171,9 @@
       "contentHash": "b648d54b8703fb173aae8dd739e19192837abf0acf66d15cf70b23a5ad3a0027",
       "byteLength": 65047,
       "rawPath": "netkeiba/horses/2023/2023100060/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:40:11.525Z"
+  "updatedAt": "2026-08-28T22:43:50.115Z"
 }

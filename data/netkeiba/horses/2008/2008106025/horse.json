@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008106025",
   "sourceUrl": "https://db.netkeiba.com/horse/2008106025/",
-  "profile": null,
+  "profile": {
+    "name": "オースミイージー",
+    "birthDate": "2008-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00378",
+      "name": "沖芳夫"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2000100302",
+      "name": "ナリタレインボウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -6840,6 +6870,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オースミイージー (Osumi Easy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミイージー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミイージー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6909,9 +6969,9 @@
       "contentHash": "308964509bc1b198bd280a451c92abf11538cad0c62b5a6e0655bbdd01f66b71",
       "byteLength": 67235,
       "rawPath": "netkeiba/horses/2008/2008106025/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:39:15.023Z"
+  "updatedAt": "2026-08-25T23:46:37.826Z"
 }

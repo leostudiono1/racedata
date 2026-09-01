@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105951",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105951/",
-  "profile": null,
+  "profile": {
+    "name": "ナディア",
+    "birthDate": "2023-02-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "2015101116",
+      "name": "トーセンリラ"
+    },
+    "damsire": {
+      "id": "2001103660",
+      "name": "トーセンブライト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1508,6 +1538,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナディア (Nadia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナディア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナディア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1577,9 +1637,9 @@
       "contentHash": "f972965ae742fa7c2d84e9118d48e2aefa1bfa742535575e235852629452bdc2",
       "byteLength": 64847,
       "rawPath": "netkeiba/horses/2023/2023105951/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T02:00:17.235Z"
+  "updatedAt": "2026-08-27T00:06:01.480Z"
 }

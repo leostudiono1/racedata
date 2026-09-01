@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103812",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103812/",
-  "profile": null,
+  "profile": {
+    "name": "ブロワ",
+    "birthDate": "2013-06-04",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01012",
+      "name": "大江原哲"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "1992100392",
+      "name": "タマビッグエックス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "リドヘイム Lidhame(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -5382,6 +5412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブロワ (Blois) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブロワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブロワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5451,9 +5511,9 @@
       "contentHash": "22b4a4305b6545a7dd92381669acc5c934a6f539346937a81eba63f2eecbb42d",
       "byteLength": 66814,
       "rawPath": "netkeiba/horses/2013/2013103812/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:58:07.225Z"
+  "updatedAt": "2026-08-28T22:01:46.053Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101845",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101845/",
-  "profile": null,
+  "profile": {
+    "name": "イノセント",
+    "birthDate": "2016-04-17",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "秋田大助"
+    },
+    "owner": {
+      "id": "198031",
+      "name": "琴浦諒"
+    },
+    "breeder": {
+      "id": "903038",
+      "name": "酒井牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2001100355",
+      "name": "ビーナスライン"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -2629,6 +2659,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イノセント (Innocent) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノセント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イノセント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2698,9 +2758,9 @@
       "contentHash": "fab0437f2d81b2f0d9cdeb6311f06402e0228d553198fb857dafcdff4cea4ee5",
       "byteLength": 66820,
       "rawPath": "netkeiba/horses/2016/2016101845/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:09:36.850Z"
+  "updatedAt": "2026-08-28T22:13:15.845Z"
 }

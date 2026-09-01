@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105060",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105060/",
-  "profile": null,
+  "profile": {
+    "name": "アンクロワ",
+    "birthDate": "2019-03-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2010104270",
+      "name": "アンレール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2330,6 +2360,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アンクロワ (En Croix) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンクロワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アンクロワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2399,9 +2459,9 @@
       "contentHash": "b9d83e365b072b7cf225cca41b3dac95d8f18257337d39ba0584e03b397cdae7",
       "byteLength": 67424,
       "rawPath": "netkeiba/horses/2019/2019105060/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:41:36.488Z"
+  "updatedAt": "2026-08-26T23:47:20.954Z"
 }

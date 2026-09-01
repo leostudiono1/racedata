@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110008",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110008/",
-  "profile": null,
+  "profile": {
+    "name": "モーゲンセン",
+    "birthDate": "2023-04-13",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "047034",
+      "name": "坂口直大"
+    },
+    "breeder": {
+      "id": "970707",
+      "name": "Chiyoda Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Mendelssohn"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Pioneer Queen"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pioneerof the Nile"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1791,6 +1821,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーゲンセン (Mogensen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーゲンセン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーゲンセン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1860,9 +1920,9 @@
       "contentHash": "92a32114bc705dc8e85e46dd4f8c1d2e3947d68c6c04c2e7626a5f7d39750eaa",
       "byteLength": 67382,
       "rawPath": "netkeiba/horses/2023/2023110008/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:33:51.983Z"
+  "updatedAt": "2026-08-26T00:41:14.934Z"
 }

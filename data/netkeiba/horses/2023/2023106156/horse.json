@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106156",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106156/",
-  "profile": null,
+  "profile": {
+    "name": "セランディア",
+    "birthDate": "2023-02-24",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "641030",
+      "name": "日下部勝徳"
+    },
+    "breeder": {
+      "id": "064203",
+      "name": "ディアレストクラブ"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ベンバトル Benbatl(英)"
+    },
+    "dam": {
+      "id": "2013100782",
+      "name": "ファド"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1440,6 +1470,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セランディア (Selandia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セランディア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セランディア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1509,9 +1569,9 @@
       "contentHash": "dc1ad0c485c2d5513feccbf079be0966bf59381af3d650eed57507253a41c4f6",
       "byteLength": 65843,
       "rawPath": "netkeiba/horses/2023/2023106156/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:04:11.204Z"
+  "updatedAt": "2026-08-27T23:11:13.147Z"
 }

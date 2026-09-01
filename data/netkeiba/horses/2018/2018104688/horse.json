@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104688",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104688/",
-  "profile": null,
+  "profile": {
+    "name": "モンテディオ",
+    "birthDate": "2018-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01184",
+      "name": "四位洋文"
+    },
+    "owner": {
+      "id": "492031",
+      "name": "毛利元昭"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ディオニージア Dionisia(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tejano Run"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -3305,6 +3335,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンテディオ (Monte Dio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンテディオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンテディオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3374,9 +3434,9 @@
       "contentHash": "fbb49edf29e2769a68cb7f81e45ac84b9d04595db837b81624d8c885bea1964c",
       "byteLength": 67135,
       "rawPath": "netkeiba/horses/2018/2018104688/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:43:01.673Z"
+  "updatedAt": "2026-08-25T02:55:11.876Z"
 }

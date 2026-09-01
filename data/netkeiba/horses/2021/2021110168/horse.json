@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110168",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110168/",
-  "profile": null,
+  "profile": {
+    "name": "マノア",
+    "birthDate": "2021-08-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05066",
+      "name": "川嶋弘吉"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "690883",
+      "name": "Arrowfield Pastoral Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "The Autumn Sun (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Kirovskaya"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1533,6 +1563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マノア (Manoa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マノア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マノア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1602,9 +1662,9 @@
       "contentHash": "f74f85a0da4a2c1ed55239f74739681dc26ea045de898cb37d5f7fb8e2a3d10f",
       "byteLength": 65348,
       "rawPath": "netkeiba/horses/2021/2021110168/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:01:26.563Z"
+  "updatedAt": "2026-08-24T04:06:36.320Z"
 }

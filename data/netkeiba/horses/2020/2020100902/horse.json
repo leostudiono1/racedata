@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100902",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100902/",
-  "profile": null,
+  "profile": {
+    "name": "グリーンオーブ",
+    "birthDate": "2020-04-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05759",
+      "name": "井樋明正"
+    },
+    "owner": {
+      "id": "x0a597",
+      "name": "楊明翰"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2015103071",
+      "name": "フラミンゴ"
+    },
+    "damsire": {
+      "id": "2003102542",
+      "name": "マルカシェンク"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -3586,6 +3616,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリーンオーブ (Green Orb) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーンオーブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーンオーブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3655,9 +3715,9 @@
       "contentHash": "cd077848bea9883c4f119d108fe0081f122b6fa679ef79949b8e8fe04cddf4e2",
       "byteLength": 66728,
       "rawPath": "netkeiba/horses/2020/2020100902/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:43:35.494Z"
+  "updatedAt": "2026-08-26T23:49:20.134Z"
 }

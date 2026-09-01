@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013106024",
   "sourceUrl": "https://db.netkeiba.com/horse/2013106024/",
-  "profile": null,
+  "profile": {
+    "name": "ベルロック",
+    "birthDate": "2013-04-03",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05729",
+      "name": "高橋清顕"
+    },
+    "owner": {
+      "id": "249030",
+      "name": "清家聖仁"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Fastnet Rock (豪)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ビリーヴミー Believe Me(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "In the Wings In The Wings(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2983,6 +3013,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルロック (Bell Rock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3052,9 +3112,9 @@
       "contentHash": "2cc73825f5adb91fcf48e9707022c0c2815275c34976b29cb44853e0be25701b",
       "byteLength": 66228,
       "rawPath": "netkeiba/horses/2013/2013106024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:20:49.769Z"
+  "updatedAt": "2026-08-27T22:27:51.612Z"
 }

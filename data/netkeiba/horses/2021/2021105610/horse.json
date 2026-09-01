@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105610",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105610/",
-  "profile": null,
+  "profile": {
+    "name": "グリーズマン",
+    "birthDate": "2021-01-25",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01194",
+      "name": "小栗実"
+    },
+    "owner": {
+      "id": "345033",
+      "name": "増田和啓"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2009102631",
+      "name": "スピークソフトリー"
+    },
+    "damsire": {
+      "id": "2000190010",
+      "name": "アルカセット Alkaased(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2308,6 +2338,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリーズマン (Griezmann) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーズマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーズマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2377,9 +2437,9 @@
       "contentHash": "5d064a6dd2e1809aefdbb4ab55ccd8685a3263adbfca8496c09652501aa5109a",
       "byteLength": 65299,
       "rawPath": "netkeiba/horses/2021/2021105610/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:54:54.574Z"
+  "updatedAt": "2026-08-27T23:01:56.169Z"
 }

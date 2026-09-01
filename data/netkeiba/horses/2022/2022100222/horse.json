@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100222",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100222/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンビューティ",
+    "birthDate": "2022-03-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05731",
+      "name": "加藤和義"
+    },
+    "owner": {
+      "id": "841030",
+      "name": "河崎五市"
+    },
+    "breeder": {
+      "id": "800042",
+      "name": "小島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013110045",
+      "name": "ラニ"
+    },
+    "dam": {
+      "id": "2013104892",
+      "name": "ハクサンインパクト"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2013110045",
@@ -1657,6 +1687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンビューティ (Hakusan Beauty) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンビューティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンビューティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1726,9 +1786,9 @@
       "contentHash": "d80f004629bde82ad5a3595169173718cfdfd58688f652cb0e215cb95ae6ed9b",
       "byteLength": 64660,
       "rawPath": "netkeiba/horses/2022/2022100222/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:52:27.628Z"
+  "updatedAt": "2026-08-26T23:58:12.182Z"
 }

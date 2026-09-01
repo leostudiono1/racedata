@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103884",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103884/",
-  "profile": null,
+  "profile": {
+    "name": "キリオス",
+    "birthDate": "2023-02-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "389803",
+      "name": "ケイズジャパン"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アイヴィベル Ivy Bell(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Archarcharch"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1400,6 +1430,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キリオス (Kirios) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キリオス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キリオス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1469,9 +1529,9 @@
       "contentHash": "274c4f562ef2623d31f38f3d5275dbae546ccadac73f46f9617391edd82e6f6f",
       "byteLength": 65729,
       "rawPath": "netkeiba/horses/2023/2023103884/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:42:21.274Z"
+  "updatedAt": "2026-08-28T22:46:00.291Z"
 }

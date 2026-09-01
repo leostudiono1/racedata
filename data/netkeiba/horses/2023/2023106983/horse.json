@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106983",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106983/",
-  "profile": null,
+  "profile": {
+    "name": "ベレシート",
+    "birthDate": "2023-02-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2016104750",
+      "name": "クロノジェネシス"
+    },
+    "damsire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1358,6 +1388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベレシート (Bereshit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベレシート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベレシート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1427,9 +1487,9 @@
       "contentHash": "18fd0aa66c38d6fa0ad28bdc1bbaa620a9c11ddd8aba2c802ff5fcb45feab2e6",
       "byteLength": 67527,
       "rawPath": "netkeiba/horses/2023/2023106983/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:44:37.700Z"
+  "updatedAt": "2026-08-28T22:48:16.336Z"
 }

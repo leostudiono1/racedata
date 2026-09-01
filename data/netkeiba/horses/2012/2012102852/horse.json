@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102852",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102852/",
-  "profile": null,
+  "profile": {
+    "name": "アースエンジェル",
+    "birthDate": "2012-05-05",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2004104304",
+      "name": "スズカエンジェル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "High Yield (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -2448,6 +2478,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アースエンジェル (Earth Angel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースエンジェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースエンジェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2517,9 +2577,9 @@
       "contentHash": "0753843a4f4fcfd80647c25d600e1eccb87f6e9006cc03d398ea462d940585f4",
       "byteLength": 66545,
       "rawPath": "netkeiba/horses/2012/2012102852/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:20:07.562Z"
+  "updatedAt": "2026-08-24T03:25:17.487Z"
 }

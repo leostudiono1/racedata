@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024106239",
   "sourceUrl": "https://db.netkeiba.com/horse/2024106239/",
-  "profile": null,
+  "profile": {
+    "name": "スクリプトール",
+    "birthDate": "2024-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エレクトラム Elektrum(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "High Chaparral (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -1207,6 +1237,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スクリプトール (Scriptor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スクリプトール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スクリプトール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1276,9 +1336,9 @@
       "contentHash": "beabd4769e58ed2ef76af4bc2c4afa772df947111af7749996b88cf132859bfa",
       "byteLength": 67203,
       "rawPath": "netkeiba/horses/2024/2024106239/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:06:27.718Z"
+  "updatedAt": "2026-08-27T23:13:29.585Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110089",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110089/",
-  "profile": null,
+  "profile": {
+    "name": "バラン",
+    "birthDate": "2021-04-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "245030",
+      "name": "前田葉子"
+    },
+    "breeder": {
+      "id": "280736",
+      "name": "North Hills Co. Ltd"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "2013101835",
+      "name": "ブランボヌール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1804,6 +1834,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バラン (Baran) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1873,9 +1933,9 @@
       "contentHash": "8984152c85dbe80785c7659a3569175da076c45a5f413ea7382aaed0ff2ec3eb",
       "byteLength": 66586,
       "rawPath": "netkeiba/horses/2021/2021110089/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:34:31.913Z"
+  "updatedAt": "2026-08-28T22:38:10.507Z"
 }

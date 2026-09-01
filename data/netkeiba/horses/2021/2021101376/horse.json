@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101376",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101376/",
-  "profile": null,
+  "profile": {
+    "name": "リート",
+    "birthDate": "2021-02-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05180",
+      "name": "水野善太"
+    },
+    "owner": {
+      "id": "x08f0b",
+      "name": "冨田清誠"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2014101920",
+      "name": "アーキタイプ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -3933,6 +3963,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リート (Lied) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4002,9 +4062,9 @@
       "contentHash": "98c91fdbc7c59c21ea673aaa8ac139cc63200ad37f06fc31463bcca898720576",
       "byteLength": 66549,
       "rawPath": "netkeiba/horses/2021/2021101376/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:22:18.999Z"
+  "updatedAt": "2026-08-26T00:29:41.486Z"
 }

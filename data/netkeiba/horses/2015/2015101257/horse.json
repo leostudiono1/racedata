@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101257",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101257/",
-  "profile": null,
+  "profile": {
+    "name": "エピックアン",
+    "birthDate": "2015-02-08",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "x0aff8",
+      "name": "程田健司"
+    },
+    "breeder": {
+      "id": "123158",
+      "name": "グッドラック・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2007103123",
+      "name": "ラフェクレール"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -5481,6 +5511,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エピックアン (Epic Un) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エピックアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エピックアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5550,9 +5610,9 @@
       "contentHash": "7e1d157ce930353685586ee0244b58ef830b55ed1a50fc63dfe63ac0230bbd7b",
       "byteLength": 66853,
       "rawPath": "netkeiba/horses/2015/2015101257/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:56:20.885Z"
+  "updatedAt": "2026-08-26T00:03:43.511Z"
 }

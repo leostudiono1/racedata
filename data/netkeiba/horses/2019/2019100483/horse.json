@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100483",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100483/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムエクセル",
+    "birthDate": "2019-04-30",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01043",
+      "name": "石栗龍彦"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "800311",
+      "name": "中本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2001102057",
+      "name": "グローリサンディ"
+    },
+    "damsire": {
+      "id": "1993103280",
+      "name": "エイシンサンディ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1305,6 +1335,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムエクセル (T M Excel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムエクセル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムエクセル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1374,9 +1434,9 @@
       "contentHash": "a442af524a67f93c1425cffa3fef176517de335148e4002f01cfea97798ca557",
       "byteLength": 66470,
       "rawPath": "netkeiba/horses/2019/2019100483/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:49:04.613Z"
+  "updatedAt": "2026-08-24T03:54:13.987Z"
 }

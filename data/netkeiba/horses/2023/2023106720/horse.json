@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106720",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106720/",
-  "profile": null,
+  "profile": {
+    "name": "アストラリオン",
+    "birthDate": "2023-01-23",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "877800",
+      "name": "ラ・メール"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2016110020",
+      "name": "チャリオット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dark Angel"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1116,6 +1146,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アストラリオン (Astralion) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストラリオン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストラリオン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1185,9 +1245,9 @@
       "contentHash": "fb3af9e72c6f230f3fb97049ba4b2abffb13552c014ea78e6b25508241f36383",
       "byteLength": 65196,
       "rawPath": "netkeiba/horses/2023/2023106720/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:49:33.659Z"
+  "updatedAt": "2026-08-30T21:55:11.241Z"
 }

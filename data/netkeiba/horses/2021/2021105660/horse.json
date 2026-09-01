@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105660",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105660/",
-  "profile": null,
+  "profile": {
+    "name": "ジャポネ",
+    "birthDate": "2021-02-23",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "小林俊彦"
+    },
+    "owner": {
+      "id": "252030",
+      "name": "落合幸弘"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "テーブルロンド Table Ronde(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Astronomer Royal"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1627,6 +1657,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャポネ (Japonais) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャポネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャポネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1696,9 +1756,9 @@
       "contentHash": "7cb0fe92d253b6220e3cf8512b05ae19e48d43ba77a77ded7932d9eeb7979ebb",
       "byteLength": 65018,
       "rawPath": "netkeiba/horses/2021/2021105660/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:55:58.936Z"
+  "updatedAt": "2026-08-25T03:08:08.642Z"
 }

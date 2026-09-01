@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103972",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103972/",
-  "profile": null,
+  "profile": {
+    "name": "エメライン",
+    "birthDate": "2014-03-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オークションルーム Auction Room(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Chester House (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1306,6 +1336,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エメライン (Emmeline) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エメライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エメライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1375,9 +1435,9 @@
       "contentHash": "9071461dd3b815a172fba08b44772a0e472ad4983c7797b8133dd04139bbe471",
       "byteLength": 64642,
       "rawPath": "netkeiba/horses/2014/2014103972/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:26:27.186Z"
+  "updatedAt": "2026-08-25T02:38:37.024Z"
 }

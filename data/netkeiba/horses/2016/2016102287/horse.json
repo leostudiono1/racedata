@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102287",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102287/",
-  "profile": null,
+  "profile": {
+    "name": "チャピ",
+    "birthDate": "2016-05-02",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "x091aa",
+      "name": "橘勝年"
+    },
+    "breeder": {
+      "id": "313198",
+      "name": "恵比寿牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2005110059",
+      "name": "エビスオール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Chief Seattle"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -3913,6 +3943,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャピ (Chapi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャピ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャピ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3982,9 +4042,9 @@
       "contentHash": "74ad25257e6a5dfdab632e2b924fe5c6e4e5c04c84bbed1305f3c9469e058b2e",
       "byteLength": 66659,
       "rawPath": "netkeiba/horses/2016/2016102287/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:25:58.025Z"
+  "updatedAt": "2026-08-26T23:31:42.866Z"
 }

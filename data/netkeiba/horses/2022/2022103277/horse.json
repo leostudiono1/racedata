@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103277",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103277/",
-  "profile": null,
+  "profile": {
+    "name": "タールベルク",
+    "birthDate": "2022-05-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05667",
+      "name": "渡辺和雄"
+    },
+    "owner": {
+      "id": "879033",
+      "name": "江馬由将"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディーオトゥール Lady O'Toole(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Colonel John"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -2466,6 +2496,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タールベルク (Thalberg) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タールベルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タールベルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2535,9 +2595,9 @@
       "contentHash": "5bb599850cc63e5c4923c5523953198ad71cd46a7a1243b935fb9513d6419dec",
       "byteLength": 66801,
       "rawPath": "netkeiba/horses/2022/2022103277/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:36:55.428Z"
+  "updatedAt": "2026-08-28T22:40:34.091Z"
 }

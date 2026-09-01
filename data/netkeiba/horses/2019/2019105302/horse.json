@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105302",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105302/",
-  "profile": null,
+  "profile": {
+    "name": "グランディア",
+    "birthDate": "2019-03-13",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01137",
+      "name": "中内田充"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2002100954",
+      "name": "ディアデラノビア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3678,6 +3708,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランディア (Gran Dia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランディア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランディア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3747,9 +3807,9 @@
       "contentHash": "06b3178e1f83a48f02c4a88d10c98d9be82964d013eb07a5501aac56b2d29160",
       "byteLength": 67332,
       "rawPath": "netkeiba/horses/2019/2019105302/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:15:29.183Z"
+  "updatedAt": "2026-08-26T00:22:51.892Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019110036",
   "sourceUrl": "https://db.netkeiba.com/horse/2019110036/",
-  "profile": null,
+  "profile": {
+    "name": "モンスマルティス",
+    "birthDate": "2019-04-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "260739",
+      "name": "Whitsbury Manor Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Iffraaj"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sacre Coeur"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Compton Place"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1172,6 +1202,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンスマルティス (Mons Martis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンスマルティス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンスマルティス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1241,9 +1301,9 @@
       "contentHash": "ad710088fd99edfe7e2697eec4ac0e1314cce65166456d0a74f7a629831eb2d8",
       "byteLength": 66317,
       "rawPath": "netkeiba/horses/2019/2019110036/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:53:04.995Z"
+  "updatedAt": "2026-08-29T21:56:43.756Z"
 }

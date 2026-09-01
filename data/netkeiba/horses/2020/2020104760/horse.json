@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104760",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104760/",
-  "profile": null,
+  "profile": {
+    "name": "ゼットリアン",
+    "birthDate": "2020-05-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "730800",
+      "name": "フォーレスト"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2008101532",
+      "name": "ネオシルヴィア"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3933,6 +3963,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゼットリアン (Z Lien) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼットリアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゼットリアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4002,9 +4062,9 @@
       "contentHash": "c3f7ccd0c6cbf6149457648996509429aace00176f44230c5a022de6108f8c08",
       "byteLength": 66946,
       "rawPath": "netkeiba/horses/2020/2020104760/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:50:04.734Z"
+  "updatedAt": "2026-08-27T22:57:06.184Z"
 }

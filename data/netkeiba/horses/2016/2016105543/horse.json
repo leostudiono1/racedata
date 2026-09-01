@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105543",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105543/",
-  "profile": null,
+  "profile": {
+    "name": "オクラ",
+    "birthDate": "2016-05-07",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05716",
+      "name": "尾島徹"
+    },
+    "owner": {
+      "id": "x09c5e",
+      "name": "小川寛子"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2010102825",
+      "name": "アスパラガス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ティンバーカントリー Timber Country(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -2845,6 +2875,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オクラ (Okra) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オクラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オクラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2914,9 +2974,9 @@
       "contentHash": "5361cdf7fd100fc323a3ea9f4b33d8ee3be5522838d897bf4b6513586e8d42cc",
       "byteLength": 66812,
       "rawPath": "netkeiba/horses/2016/2016105543/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:35:26.351Z"
+  "updatedAt": "2026-08-25T02:47:36.327Z"
 }

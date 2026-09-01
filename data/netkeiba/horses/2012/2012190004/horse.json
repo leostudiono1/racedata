@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012190004",
   "sourceUrl": "https://db.netkeiba.com/horse/2012190004/",
-  "profile": null,
+  "profile": {
+    "name": "Guignol",
+    "birthDate": "2012-05-08",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05694",
+      "name": "カルヴァ"
+    },
+    "owner": {
+      "id": "077803",
+      "name": "シュタル・ウルマン"
+    },
+    "breeder": {
+      "id": null,
+      "name": "Stall Ullmann"
+    },
+    "birthplace": "独",
+    "sire": {
+      "id": "000",
+      "name": "Cape Cross"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Guadalupe"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2373,6 +2403,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Guignol (ギニョール) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Guignol関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Guignol関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2442,9 +2502,9 @@
       "contentHash": "4a9f6cca69323fcaeea1af7fedf3280e7aee13709d163ac7d0ce34136f01bfac",
       "byteLength": 64807,
       "rawPath": "netkeiba/horses/2012/2012190004/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:55:50.508Z"
+  "updatedAt": "2026-08-28T21:59:29.802Z"
 }

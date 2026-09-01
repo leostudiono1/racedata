@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106704",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106704/",
-  "profile": null,
+  "profile": {
+    "name": "ポントワーズ",
+    "birthDate": "2021-03-17",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05741",
+      "name": "池田忠好"
+    },
+    "owner": {
+      "id": "829031",
+      "name": "原久美子"
+    },
+    "breeder": {
+      "id": "500462",
+      "name": "ハシモトファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2002100767",
+      "name": "ポンテペルレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1887,6 +1917,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポントワーズ (Pontoise) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポントワーズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポントワーズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1956,9 +2016,9 @@
       "contentHash": "05f1ecdc59c1da47c00f14dab68d40edfe4382c35500200ecc24d6caf1e51617",
       "byteLength": 66907,
       "rawPath": "netkeiba/horses/2021/2021106704/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:55:19.066Z"
+  "updatedAt": "2026-08-27T23:02:20.708Z"
 }

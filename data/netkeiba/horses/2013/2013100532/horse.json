@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100532",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100532/",
-  "profile": null,
+  "profile": {
+    "name": "クロコ",
+    "birthDate": "2013-04-18",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": null,
+      "name": "高馬元紘"
+    },
+    "owner": {
+      "id": "x07efa",
+      "name": "安高清一郎"
+    },
+    "breeder": {
+      "id": "733393",
+      "name": "竹島幸治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2000102855",
+      "name": "トーホウローマン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘネシー Hennessy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -6595,6 +6625,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クロコ (Croco) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クロコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6664,9 +6724,9 @@
       "contentHash": "6b8d5a8d828bdda998aa85d633f60ed51ba47d106b12397a6d8e2d5acd7ffe6a",
       "byteLength": 65081,
       "rawPath": "netkeiba/horses/2013/2013100532/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:17:26.838Z"
+  "updatedAt": "2026-08-27T22:24:28.504Z"
 }

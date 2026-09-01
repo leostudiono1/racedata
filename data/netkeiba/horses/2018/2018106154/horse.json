@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106154",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106154/",
-  "profile": null,
+  "profile": {
+    "name": "エスコバル",
+    "birthDate": "2018-05-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "903038",
+      "name": "酒井牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2011105753",
+      "name": "スマッシュハート"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -3182,6 +3212,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスコバル (Escobar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスコバル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスコバル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3251,9 +3311,9 @@
       "contentHash": "14a5c833933a762d04710e0d3c0c581b036dd6599db128ac01292238a10513f9",
       "byteLength": 66892,
       "rawPath": "netkeiba/horses/2018/2018106154/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:26:30.779Z"
+  "updatedAt": "2026-08-30T21:32:08.527Z"
 }

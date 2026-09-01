@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105065",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105065/",
-  "profile": null,
+  "profile": {
+    "name": "ハクビ",
+    "birthDate": "2018-02-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "074031",
+      "name": "谷口祐人"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2012104516",
+      "name": "シラユキ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -4509,6 +4539,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクビ (Hakubi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクビ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクビ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4578,9 +4638,9 @@
       "contentHash": "2c0e622d30ba30bd9f4ee78da266c67f92d2978d429f2b0d2278c5adbebeb158",
       "byteLength": 65274,
       "rawPath": "netkeiba/horses/2018/2018105065/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:43:23.156Z"
+  "updatedAt": "2026-08-25T02:55:32.460Z"
 }

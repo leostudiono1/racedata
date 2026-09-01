@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101677",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101677/",
-  "profile": null,
+  "profile": {
+    "name": "プロスト",
+    "birthDate": "2023-03-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01084",
+      "name": "梅田智之"
+    },
+    "owner": {
+      "id": "768006",
+      "name": "薪浦亨"
+    },
+    "breeder": {
+      "id": "400049",
+      "name": "荻伏三好ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2017104598",
+      "name": "エトヴァス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -1610,6 +1640,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロスト (Prost) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1679,9 +1739,9 @@
       "contentHash": "3470ce62e582c07eb3fe8e26c3c803c2552ad8291c4c9365e966f0f8290236eb",
       "byteLength": 66342,
       "rawPath": "netkeiba/horses/2023/2023101677/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T05:03:02.921Z"
+  "updatedAt": "2026-08-25T03:14:47.750Z"
 }

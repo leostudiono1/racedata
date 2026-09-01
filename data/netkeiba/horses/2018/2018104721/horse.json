@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104721",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104721/",
-  "profile": null,
+  "profile": {
+    "name": "マラッカ",
+    "birthDate": "2018-02-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05333",
+      "name": "矢野久美"
+    },
+    "owner": {
+      "id": "x0a427",
+      "name": "濱村充哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "2013105667",
+      "name": "ハロックライン"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -7439,6 +7469,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マラッカ (Malacca) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マラッカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マラッカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7508,9 +7568,9 @@
       "contentHash": "3815beb3d981aefab0476b45491bc904dcf02650173f3ed49b2f156f4d02ec24",
       "byteLength": 66777,
       "rawPath": "netkeiba/horses/2018/2018104721/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:47:25.554Z"
+  "updatedAt": "2026-08-29T21:51:04.395Z"
 }

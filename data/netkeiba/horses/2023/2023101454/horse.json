@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101454",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101454/",
-  "profile": null,
+  "profile": {
+    "name": "スマートバニー",
+    "birthDate": "2023-03-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014110060",
+      "name": "マテラスカイ"
+    },
+    "dam": {
+      "id": "2008100110",
+      "name": "スマートレモラ"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2014110060",
@@ -1181,6 +1211,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートバニー (Smart Bunny) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートバニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートバニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1250,9 +1310,9 @@
       "contentHash": "95193dc9a31552bf0b5f2506a9d4a211e8a518f5c55946cfa415baee1a00cab4",
       "byteLength": 64712,
       "rawPath": "netkeiba/horses/2023/2023101454/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T00:07:05.358Z"
+  "updatedAt": "2026-08-29T22:10:44.058Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110050",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110050/",
-  "profile": null,
+  "profile": {
+    "name": "レファレンスブック",
+    "birthDate": "2015-04-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05713",
+      "name": "山田信大"
+    },
+    "owner": {
+      "id": "x03aad",
+      "name": "（株）レックス"
+    },
+    "breeder": {
+      "id": "680708",
+      "name": "Broughton Bloodstock"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Royal Applause"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Read Federica"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2346,6 +2376,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レファレンスブック (Reference Book) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レファレンスブック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レファレンスブック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2415,9 +2475,9 @@
       "contentHash": "ff9f774e7d029a25cd232f01e6ebf1050b6d4ad215eee562b3b444603f8fb423",
       "byteLength": 64615,
       "rawPath": "netkeiba/horses/2015/2015110050/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:24:34.479Z"
+  "updatedAt": "2026-08-26T23:30:18.726Z"
 }

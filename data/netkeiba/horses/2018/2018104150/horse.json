@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104150",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104150/",
-  "profile": null,
+  "profile": {
+    "name": "エルソール",
+    "birthDate": "2018-03-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "346803",
+      "name": "吉澤ホールディングス"
+    },
+    "breeder": {
+      "id": "703082",
+      "name": "飛野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パープル Purple(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -2823,6 +2853,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルソール (El Sol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルソール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルソール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2892,9 +2952,9 @@
       "contentHash": "3592de903625c88cc35306b983ba7fa63fc773ef579a288a0d7f7abea48e662f",
       "byteLength": 66950,
       "rawPath": "netkeiba/horses/2018/2018104150/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:10:42.773Z"
+  "updatedAt": "2026-08-26T00:18:04.780Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101718",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101718/",
-  "profile": null,
+  "profile": {
+    "name": "グートアウス",
+    "birthDate": "2019-05-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2008101078",
+      "name": "リトルダーリン"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1575,6 +1605,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グートアウス (Gut Aus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グートアウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グートアウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1644,9 +1704,9 @@
       "contentHash": "30d94534b676500988e8fc38284d65859acdb8daa4efe6ef03ff76a2aac2333f",
       "byteLength": 66820,
       "rawPath": "netkeiba/horses/2019/2019101718/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:39:09.714Z"
+  "updatedAt": "2026-08-26T23:44:53.909Z"
 }

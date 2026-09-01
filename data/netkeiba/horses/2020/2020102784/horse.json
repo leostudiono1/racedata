@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102784",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102784/",
-  "profile": null,
+  "profile": {
+    "name": "タリエシン",
+    "birthDate": "2020-04-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01213",
+      "name": "秋本大介"
+    },
+    "owner": {
+      "id": "268033",
+      "name": "野田努"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "エヴァディングタンペット Evading Tempete(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubai Destination"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -3621,6 +3651,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タリエシン (Taliesin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タリエシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タリエシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3690,9 +3750,9 @@
       "contentHash": "c1a871d424d3948d82ebbae225c3180d73f2d131d186002dfbffce7978866c2b",
       "byteLength": 66942,
       "rawPath": "netkeiba/horses/2020/2020102784/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:45:10.025Z"
+  "updatedAt": "2026-08-26T23:50:54.548Z"
 }

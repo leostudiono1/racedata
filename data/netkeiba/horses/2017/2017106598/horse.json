@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106598",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106598/",
-  "profile": null,
+  "profile": {
+    "name": "ベストランナー",
+    "birthDate": "2017-03-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "細川忠義"
+    },
+    "owner": {
+      "id": "819008",
+      "name": "国田正忠"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ファダラン Fada Run(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cherokee Run"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4256,6 +4286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベストランナー (Best Runner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストランナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストランナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4325,9 +4385,9 @@
       "contentHash": "608c45318ab0b31bc983813f9363b1279096ee8a36e54cd0abe9d102a28b1b8d",
       "byteLength": 66963,
       "rawPath": "netkeiba/horses/2017/2017106598/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:16:26.967Z"
+  "updatedAt": "2026-08-28T22:20:05.298Z"
 }

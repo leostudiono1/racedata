@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104147",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104147/",
-  "profile": null,
+  "profile": {
+    "name": "ミディ",
+    "birthDate": "2013-03-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05700",
+      "name": "土屋洋之"
+    },
+    "owner": {
+      "id": "x0956f",
+      "name": "小谷昌吾"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "2001103915",
+      "name": "チャームカーニバル"
+    },
+    "damsire": {
+      "id": "1985109002",
+      "name": "アサティス Assatis(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -2358,6 +2388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミディ (Midi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2427,9 +2487,9 @@
       "contentHash": "db9960b85be6af445f3f6750d3be6b2032fdd3569a3327295deea6ec96292c07",
       "byteLength": 65607,
       "rawPath": "netkeiba/horses/2013/2013104147/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:03:41.734Z"
+  "updatedAt": "2026-08-30T21:09:19.372Z"
 }

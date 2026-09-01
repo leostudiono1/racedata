@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106057",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106057/",
-  "profile": null,
+  "profile": {
+    "name": "ギルバート",
+    "birthDate": "2012-05-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "021006",
+      "name": "新木鈴子"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    },
+    "dam": {
+      "id": "2000110221",
+      "name": "ハンナローズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110025",
@@ -1220,6 +1250,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ギルバート (Gilbert) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギルバート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギルバート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1289,9 +1349,9 @@
       "contentHash": "4afdffdffa7f52b3e50a0fd27635ff6d4075052a20af2c84067fe54bc043189a",
       "byteLength": 64330,
       "rawPath": "netkeiba/horses/2012/2012106057/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:11:44.137Z"
+  "updatedAt": "2026-08-26T23:17:28.519Z"
 }

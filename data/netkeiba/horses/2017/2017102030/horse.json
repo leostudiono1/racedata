@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102030",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102030/",
-  "profile": null,
+  "profile": {
+    "name": "キョウエイゴー",
+    "birthDate": "2017-03-10",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "619002",
+      "name": "田中晴夫"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アリー Ally(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Deputy Minister"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2519,6 +2549,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キョウエイゴー (Kyoei Go) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイゴー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キョウエイゴー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2588,9 +2648,9 @@
       "contentHash": "80f40d1dc1016e7f5779047c3cb40d92914da77e54219f90aacb70b3de217f35",
       "byteLength": 66885,
       "rawPath": "netkeiba/horses/2017/2017102030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:29:52.923Z"
+  "updatedAt": "2026-08-26T23:35:37.325Z"
 }

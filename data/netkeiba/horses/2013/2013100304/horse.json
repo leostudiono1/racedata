@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100304",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100304/",
-  "profile": null,
+  "profile": {
+    "name": "アオリスト",
+    "birthDate": "2013-03-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤博紀"
+    },
+    "owner": {
+      "id": "x091f4",
+      "name": "谷正之"
+    },
+    "breeder": {
+      "id": "903466",
+      "name": "三城牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998190004",
+      "name": "ファルブラヴ Falbrav(愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リゼリ Rizerie(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Highest Honor"
+    }
+  },
   "pedigree": [
     {
       "id": "1998190004",
@@ -3021,6 +3051,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アオリスト (Aorist) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アオリスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アオリスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3090,9 +3150,9 @@
       "contentHash": "acb615d8c21e2ee42fda9c3869e7ac773364d9a4e956c901e0bd3176de67409a",
       "byteLength": 65199,
       "rawPath": "netkeiba/horses/2013/2013100304/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:20:23.202Z"
+  "updatedAt": "2026-08-25T02:32:33.087Z"
 }

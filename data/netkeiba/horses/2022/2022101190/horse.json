@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101190",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101190/",
-  "profile": null,
+  "profile": {
+    "name": "レアルシチー",
+    "birthDate": "2022-01-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アドアード Adored(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -4411,6 +4441,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レアルシチー (Real City) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアルシチー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レアルシチー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4480,9 +4540,9 @@
       "contentHash": "a9097cce0f6c1cecc5193c97c59a930d35ee2ed1079a302b5cd4ef5b8956e3fa",
       "byteLength": 66539,
       "rawPath": "netkeiba/horses/2022/2022101190/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:01:54.671Z"
+  "updatedAt": "2026-08-24T04:07:04.213Z"
 }

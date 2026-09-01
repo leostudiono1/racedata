@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104079",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104079/",
-  "profile": null,
+  "profile": {
+    "name": "メローネ",
+    "birthDate": "2023-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01196",
+      "name": "西園翔太"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2018103302",
+      "name": "レスプロンディール"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1603,6 +1633,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メローネ (Melone) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メローネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メローネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1672,9 +1732,9 @@
       "contentHash": "7d9b032a735913f7dcdd80557931ed79a3d0c52c352f1529d941232131ba3971",
       "byteLength": 67215,
       "rawPath": "netkeiba/horses/2023/2023104079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T05:04:41.080Z"
+  "updatedAt": "2026-08-25T03:16:25.914Z"
 }

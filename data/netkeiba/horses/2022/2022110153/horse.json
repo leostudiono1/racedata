@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110153",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110153/",
-  "profile": null,
+  "profile": {
+    "name": "ベリタバグス",
+    "birthDate": "2022-04-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01201",
+      "name": "森一誠"
+    },
+    "owner": {
+      "id": "133803",
+      "name": "モンレーヴ"
+    },
+    "breeder": {
+      "id": "610713",
+      "name": "Comercial Los Alpes"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Kantharos"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Private Jet"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1584,6 +1614,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベリタバグス (Berita Bagus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリタバグス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリタバグス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1653,9 +1713,9 @@
       "contentHash": "23de9f52379f61a8d9aef01e97d87c9aede4a6eb0e2d2c339b150c65febb7e9b",
       "byteLength": 66867,
       "rawPath": "netkeiba/horses/2022/2022110153/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:57:04.202Z"
+  "updatedAt": "2026-08-27T00:02:48.901Z"
 }

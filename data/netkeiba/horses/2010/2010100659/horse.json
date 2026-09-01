@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100659",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100659/",
-  "profile": null,
+  "profile": {
+    "name": "ヘミングウェイ",
+    "birthDate": "2010-03-04",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シェルシーカー Shell Seeker(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Machiavellian"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -5521,6 +5551,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヘミングウェイ (Hemingway) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘミングウェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヘミングウェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5590,9 +5650,9 @@
       "contentHash": "5d88106b459f0b92808615726a4e47340491fe79ecbccb7e1d6620e3c71eb460",
       "byteLength": 66932,
       "rawPath": "netkeiba/horses/2010/2010100659/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:15:40.740Z"
+  "updatedAt": "2026-08-29T21:19:19.418Z"
 }

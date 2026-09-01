@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100803",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100803/",
-  "profile": null,
+  "profile": {
+    "name": "ジャックナダル",
+    "birthDate": "2023-05-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "191033",
+      "name": "辻高史"
+    },
+    "breeder": {
+      "id": "560543",
+      "name": "クラウン日高牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ブロッサムレーン Blossom Lane(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "New Approach"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1432,6 +1462,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャックナダル (Jack Nadal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャックナダル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャックナダル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1501,9 +1561,9 @@
       "contentHash": "70a1b3fc14584fe2165697b2413d2684325127fb3a64618638dd76b6630dfd97",
       "byteLength": 81545,
       "rawPath": "netkeiba/horses/2023/2023100803/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:00:58.596Z"
+  "updatedAt": "2026-09-01T13:42:26.296Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104743",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104743/",
-  "profile": null,
+  "profile": {
+    "name": "サトノフウジン",
+    "birthDate": "2017-02-17",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "790031",
+      "name": "里見治"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コンテスティッド Contested(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Ghostzapper"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3005,6 +3035,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サトノフウジン (Satono Fujin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノフウジン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サトノフウジン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3074,9 +3134,9 @@
       "contentHash": "857a311ad621cb1166b822d958d196e30d9c42e86e6fb174e226e26dc5797af2",
       "byteLength": 66881,
       "rawPath": "netkeiba/horses/2017/2017104743/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:39:00.089Z"
+  "updatedAt": "2026-08-25T02:51:09.886Z"
 }

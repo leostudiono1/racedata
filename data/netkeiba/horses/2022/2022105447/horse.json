@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105447",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105447/",
-  "profile": null,
+  "profile": {
+    "name": "ストームレーン",
+    "birthDate": "2022-04-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "水上直人"
+    },
+    "owner": {
+      "id": "x0b441",
+      "name": "増田吉彦"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2014105413",
+      "name": "バーミーブリーズ"
+    },
+    "damsire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2227,6 +2257,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストームレーン (Storm Lane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストームレーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストームレーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2296,9 +2356,9 @@
       "contentHash": "d61ca06beaee414a19a65098c6f8a291325891126aa218478f23a0342920c101",
       "byteLength": 66646,
       "rawPath": "netkeiba/horses/2022/2022105447/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:38:40.500Z"
+  "updatedAt": "2026-08-28T22:42:19.335Z"
 }

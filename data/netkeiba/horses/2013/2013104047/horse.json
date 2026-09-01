@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104047",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104047/",
-  "profile": null,
+  "profile": {
+    "name": "アークマイニング",
+    "birthDate": "2013-04-17",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05274",
+      "name": "今津勝之"
+    },
+    "owner": {
+      "id": "x09a5a",
+      "name": "インターフェース（同"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2006100801",
+      "name": "マスターマイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Belong to Me"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -5562,6 +5592,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アークマイニング (Ark Mining) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークマイニング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アークマイニング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5631,9 +5691,9 @@
       "contentHash": "fa9d4e90ce6ba3b5a6100586351bf151d4c8cf94889107ef28dfed2bf94ebf8a",
       "byteLength": 67170,
       "rawPath": "netkeiba/horses/2013/2013104047/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:58:24.662Z"
+  "updatedAt": "2026-08-28T22:02:03.396Z"
 }

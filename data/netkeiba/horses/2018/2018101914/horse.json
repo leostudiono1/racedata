@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101914",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101914/",
-  "profile": null,
+  "profile": {
+    "name": "マミリアス",
+    "birthDate": "2018-05-24",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05275",
+      "name": "八木正喜"
+    },
+    "owner": {
+      "id": "443030",
+      "name": "田中準市"
+    },
+    "breeder": {
+      "id": "610317",
+      "name": "中山高鹿康"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2001103448",
+      "name": "ハニーハント"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -3004,6 +3034,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マミリアス (Mamillius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マミリアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マミリアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3073,9 +3133,9 @@
       "contentHash": "78c36c0aa9c9fe4321c47cd5aa52b766babe172eb65d0ec2800af3d74b8903ab",
       "byteLength": 66850,
       "rawPath": "netkeiba/horses/2018/2018101914/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:34:39.720Z"
+  "updatedAt": "2026-08-26T23:40:24.785Z"
 }

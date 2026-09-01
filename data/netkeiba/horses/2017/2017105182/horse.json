@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105182",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105182/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーベル",
+    "birthDate": "2017-02-05",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "441007",
+      "name": "野田みづき"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アトアニ Atoani(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1063,6 +1093,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーベル (Mikki Belle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1132,9 +1192,9 @@
       "contentHash": "e2a55fad38ff2e8a99b84ddda6f8898f4f9b01e185a3351c76dc89ab03107c15",
       "byteLength": 65597,
       "rawPath": "netkeiba/horses/2017/2017105182/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:32:05.692Z"
+  "updatedAt": "2026-08-26T23:37:50.365Z"
 }

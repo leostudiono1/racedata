@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103286",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103286/",
-  "profile": null,
+  "profile": {
+    "name": "シマイ",
+    "birthDate": "2021-04-14",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00399",
+      "name": "国枝栄"
+    },
+    "owner": {
+      "id": "399009",
+      "name": "嶋田賢"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リリカルモーメント Lyrical Moment(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1071,6 +1101,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シマイ (Shimai) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シマイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シマイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1140,9 +1200,9 @@
       "contentHash": "5ba6adda8105f48c1ea796e6b2f254816fb29ae701a29b6af14c295125ec58a4",
       "byteLength": 64273,
       "rawPath": "netkeiba/horses/2021/2021103286/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:49:11.509Z"
+  "updatedAt": "2026-08-26T23:54:56.645Z"
 }

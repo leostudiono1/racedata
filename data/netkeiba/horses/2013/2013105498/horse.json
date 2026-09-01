@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105498",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105498/",
-  "profile": null,
+  "profile": {
+    "name": "スウィフトレイド",
+    "birthDate": "2013-03-12",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スウィフトテンパー Swift Temper(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2576,6 +2606,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スウィフトレイド (Swift Raid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スウィフトレイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スウィフトレイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2645,9 +2705,9 @@
       "contentHash": "3a19038319f7074ee7fe1522aa9a8af79548f78227bbaf7b837ff1598737b6aa",
       "byteLength": 67407,
       "rawPath": "netkeiba/horses/2013/2013105498/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:04:34.127Z"
+  "updatedAt": "2026-08-30T21:10:11.869Z"
 }

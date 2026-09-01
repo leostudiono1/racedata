@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103162",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103162/",
-  "profile": null,
+  "profile": {
+    "name": "セキトバ",
+    "birthDate": "2017-03-08",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05180",
+      "name": "水野善太"
+    },
+    "owner": {
+      "id": "973006",
+      "name": "鹽田久義"
+    },
+    "breeder": {
+      "id": "200059",
+      "name": "三好牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    },
+    "dam": {
+      "id": "2010102296",
+      "name": "ラブインザミスト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ルールオブロー Rule of Law(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102837",
@@ -2144,6 +2174,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セキトバ (Sekitoba) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セキトバ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セキトバ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2213,9 +2273,9 @@
       "contentHash": "de3fc3f29a7b071e54ada296e96493d615702a3485408dcb22aa954390bd49a8",
       "byteLength": 64335,
       "rawPath": "netkeiba/horses/2017/2017103162/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:14:37.940Z"
+  "updatedAt": "2026-08-28T22:18:16.655Z"
 }

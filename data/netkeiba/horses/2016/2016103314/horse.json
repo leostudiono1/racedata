@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103314",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103314/",
-  "profile": null,
+  "profile": {
+    "name": "ハーシェル",
+    "birthDate": "2016-05-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00979",
+      "name": "三坂盛雄"
+    },
+    "owner": {
+      "id": "304031",
+      "name": "鈴木雅俊"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シルヴァンソング Sylvan Song(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3898,6 +3928,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハーシェル (Herschel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーシェル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーシェル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3967,9 +4027,9 @@
       "contentHash": "548f1076c9b6982a6f12e11038d266b65df494b3e5d7f5adc3b8e46510ae9b36",
       "byteLength": 66776,
       "rawPath": "netkeiba/horses/2016/2016103314/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:01:35.987Z"
+  "updatedAt": "2026-08-26T00:08:58.597Z"
 }

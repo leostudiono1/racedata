@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106929",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106929/",
-  "profile": null,
+  "profile": {
+    "name": "デリカダ",
+    "birthDate": "2019-04-16",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2011104476",
+      "name": "ブロンクスシルバー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1909,6 +1939,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デリカダ (Delicada) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デリカダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デリカダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1978,9 +2038,9 @@
       "contentHash": "f7e1e36d9115d95c46a9787141ba906b9aaeee80f9b65db3ebbfe5c4b0fa802a",
       "byteLength": 66783,
       "rawPath": "netkeiba/horses/2019/2019106929/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:16:32.152Z"
+  "updatedAt": "2026-08-26T00:23:54.944Z"
 }

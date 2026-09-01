@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104407",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104407/",
-  "profile": null,
+  "profile": {
+    "name": "コパカティ",
+    "birthDate": "2016-03-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2009106257",
+      "name": "アロマティコ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2374,6 +2404,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コパカティ (Copacati) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパカティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コパカティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2443,9 +2503,9 @@
       "contentHash": "44771b9822349e6d4025f80df87acbda86ca4fc0bf950f394752cf425a192112",
       "byteLength": 67270,
       "rawPath": "netkeiba/horses/2016/2016104407/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:02:10.968Z"
+  "updatedAt": "2026-08-26T00:09:33.726Z"
 }

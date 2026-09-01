@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009104380",
   "sourceUrl": "https://db.netkeiba.com/horse/2009104380/",
-  "profile": null,
+  "profile": {
+    "name": "カムフィー",
+    "birthDate": "2009-03-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "276008",
+      "name": "清水二朗"
+    },
+    "breeder": {
+      "id": "230125",
+      "name": "新田牧場"
+    },
+    "birthplace": "池田町",
+    "sire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    },
+    "dam": {
+      "id": "1994108748",
+      "name": "ナイトクルーズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ノーザンテースト Northern Taste(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1993109188",
@@ -5460,6 +5490,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カムフィー (Comfy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムフィー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カムフィー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5529,9 +5589,9 @@
       "contentHash": "3fb57d16837802a98b87d5b86f262ade901012a794bcdd29ed6c285013dc2afb",
       "byteLength": 66889,
       "rawPath": "netkeiba/horses/2009/2009104380/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T22:54:56.587Z"
+  "updatedAt": "2026-08-30T21:00:34.569Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104630",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104630/",
-  "profile": null,
+  "profile": {
+    "name": "ビッグファクター",
+    "birthDate": "2019-04-20",
+    "sex": "セ",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "中西達也"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ザファクター"
+    },
+    "dam": {
+      "id": "2010103852",
+      "name": "アムールポエジー"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3476,6 +3506,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビッグファクター (Big Factor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッグファクター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビッグファクター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3545,9 +3605,9 @@
       "contentHash": "0905448f4b88ae33dedc770e4703c33edcb7a95d9cd1d7472a2ca615fcd3f880",
       "byteLength": 65937,
       "rawPath": "netkeiba/horses/2019/2019104630/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:30:28.819Z"
+  "updatedAt": "2026-08-30T21:36:06.509Z"
 }

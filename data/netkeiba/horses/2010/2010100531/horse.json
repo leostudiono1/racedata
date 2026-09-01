@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100531",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100531/",
-  "profile": null,
+  "profile": {
+    "name": "ナリタロック",
+    "birthDate": "2010-02-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    },
+    "dam": {
+      "id": "1996104713",
+      "name": "オースミリンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Woodman"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101516",
@@ -4353,6 +4383,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナリタロック (Narita Rock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタロック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタロック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4422,9 +4482,9 @@
       "contentHash": "a42b9b9c8808260b9034b2f652e47e9f18827a1f9fcd026a530bec92ff96c92d",
       "byteLength": 65269,
       "rawPath": "netkeiba/horses/2010/2010100531/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:11:09.058Z"
+  "updatedAt": "2026-08-27T22:18:10.566Z"
 }

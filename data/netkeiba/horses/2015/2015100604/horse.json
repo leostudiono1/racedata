@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100604",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100604/",
-  "profile": null,
+  "profile": {
+    "name": "フィデリオ",
+    "birthDate": "2015-03-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01119",
+      "name": "田中剛"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2002110035",
+      "name": "エミナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1230,6 +1260,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィデリオ (Fidelio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィデリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィデリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1299,9 +1359,9 @@
       "contentHash": "7959d59cb95f4886dbd80875130a281404098b033e2ed2e432b85eb4fd09e987",
       "byteLength": 65406,
       "rawPath": "netkeiba/horses/2015/2015100604/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:26:04.862Z"
+  "updatedAt": "2026-08-27T22:33:06.737Z"
 }

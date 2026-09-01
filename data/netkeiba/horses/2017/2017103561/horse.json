@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103561",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103561/",
-  "profile": null,
+  "profile": {
+    "name": "サボ",
+    "birthDate": "2017-02-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "695033",
+      "name": "永山勝敏"
+    },
+    "breeder": {
+      "id": "733078",
+      "name": "坂本春雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2008100648",
+      "name": "ノーズトウショウ"
+    },
+    "damsire": {
+      "id": "1994109361",
+      "name": "ブラックホーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -1168,6 +1198,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サボ (Sabot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サボ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サボ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1237,9 +1297,9 @@
       "contentHash": "075087131b6cebbf6089125ad0bc667dded3433adf03c7a7be9acdd11722faee",
       "byteLength": 64225,
       "rawPath": "netkeiba/horses/2017/2017103561/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:35:28.565Z"
+  "updatedAt": "2026-08-27T22:42:30.306Z"
 }

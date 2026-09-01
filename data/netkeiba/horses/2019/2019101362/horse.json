@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101362",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101362/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィルティス",
+    "birthDate": "2019-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "714033",
+      "name": "大江実"
+    },
+    "breeder": {
+      "id": "201346",
+      "name": "大江牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2010100274",
+      "name": "リアリティー"
+    },
+    "damsire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -1020,6 +1050,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィルティス (Viltis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィルティス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィルティス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1089,9 +1149,9 @@
       "contentHash": "aad78cdde7dee3ca45c6eb1357196c86071382a5bd15c9c24fc52509c2764a93",
       "byteLength": 64399,
       "rawPath": "netkeiba/horses/2019/2019101362/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:21:59.083Z"
+  "updatedAt": "2026-08-28T22:25:37.818Z"
 }

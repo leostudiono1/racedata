@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101796",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101796/",
-  "profile": null,
+  "profile": {
+    "name": "リグール",
+    "birthDate": "2013-02-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "1996101720",
+      "name": "アランダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1052,6 +1082,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リグール (Rigueur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リグール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リグール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1121,9 +1181,9 @@
       "contentHash": "30c55cc683c91adff8967f9d76f5d0b96f0f9d56bb370c0e0f5e9940515282e3",
       "byteLength": 64298,
       "rawPath": "netkeiba/horses/2013/2013101796/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:22:51.258Z"
+  "updatedAt": "2026-08-29T21:26:30.045Z"
 }

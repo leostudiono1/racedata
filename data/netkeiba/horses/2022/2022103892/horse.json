@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103892",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103892/",
-  "profile": null,
+  "profile": {
+    "name": "チュラット",
+    "birthDate": "2022-04-22",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05788",
+      "name": "水野貴史"
+    },
+    "owner": {
+      "id": "859031",
+      "name": "松澤光洋"
+    },
+    "breeder": {
+      "id": "133083",
+      "name": "静内白井牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "2015105709",
+      "name": "グローバルフェイム"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -2692,6 +2722,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チュラット (Churat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュラット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュラット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2761,9 +2821,9 @@
       "contentHash": "d133f6927878f034b5c22025e8fd2106937c5ef24bf5e5f50628cf1d2168e134",
       "byteLength": 66757,
       "rawPath": "netkeiba/horses/2022/2022103892/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:59:39.437Z"
+  "updatedAt": "2026-08-25T03:11:49.249Z"
 }

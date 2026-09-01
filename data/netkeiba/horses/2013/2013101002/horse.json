@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101002",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101002/",
-  "profile": null,
+  "profile": {
+    "name": "フルミリエ",
+    "birthDate": "2013-03-06",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "453006",
+      "name": "加藤信之"
+    },
+    "breeder": {
+      "id": "213326",
+      "name": "モリナガファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2008106619",
+      "name": "フラウラ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -1157,6 +1187,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルミリエ (Fourmilier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルミリエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルミリエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1226,9 +1286,9 @@
       "contentHash": "8a9ed9041456b91bcc8cfef4993cd92be3c615296a91e544873e256fae0e7df8",
       "byteLength": 65072,
       "rawPath": "netkeiba/horses/2013/2013101002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:47:32.548Z"
+  "updatedAt": "2026-08-25T23:54:54.905Z"
 }

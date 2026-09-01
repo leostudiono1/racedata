@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104001",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104001/",
-  "profile": null,
+  "profile": {
+    "name": "リベレーター",
+    "birthDate": "2012-03-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "1997110126",
+      "name": "スタンドオンエンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1216,6 +1246,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リベレーター (Liberator) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベレーター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リベレーター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1285,9 +1345,9 @@
       "contentHash": "9dbbacadc408cf6e00b1dd512879a142b1e21e5946210c17314284f75700028d",
       "byteLength": 65694,
       "rawPath": "netkeiba/horses/2012/2012104001/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:20:27.708Z"
+  "updatedAt": "2026-08-29T21:24:06.517Z"
 }

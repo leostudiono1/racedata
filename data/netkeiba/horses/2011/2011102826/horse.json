@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011102826",
   "sourceUrl": "https://db.netkeiba.com/horse/2011102826/",
-  "profile": null,
+  "profile": {
+    "name": "フィールザスマート",
+    "birthDate": "2011-04-09",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05301",
+      "name": "村上正和"
+    },
+    "owner": {
+      "id": "864009",
+      "name": "櫻井正"
+    },
+    "breeder": {
+      "id": "203374",
+      "name": "平岡牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2000110184",
+      "name": "フィールザビュウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Distant View"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -5264,6 +5294,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィールザスマート (Feel the Smart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィールザスマート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィールザスマート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5333,9 +5393,9 @@
       "contentHash": "a79c8bfa1d14c61133ba547da147ae99083e26a20a3a5cf595292c204999a881",
       "byteLength": 67041,
       "rawPath": "netkeiba/horses/2011/2011102826/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:17:22.205Z"
+  "updatedAt": "2026-08-29T21:21:00.978Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104072",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104072/",
-  "profile": null,
+  "profile": {
+    "name": "アイスクリン",
+    "birthDate": "2013-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01153",
+      "name": "中舘英二"
+    },
+    "owner": {
+      "id": "371009",
+      "name": "高橋文男"
+    },
+    "breeder": {
+      "id": "243075",
+      "name": "カタオカステーブル"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006103308",
+      "name": "アンライバルド"
+    },
+    "dam": {
+      "id": "2006110139",
+      "name": "ナイキクレイバー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Hawk Wing"
+    }
+  },
   "pedigree": [
     {
       "id": "2006103308",
@@ -2877,6 +2907,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイスクリン (Aisukurin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイスクリン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイスクリン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2946,9 +3006,9 @@
       "contentHash": "6557407e0269e3b4c035042089061748e95e09d516ec221b3e24f1a3dc7133ca",
       "byteLength": 66989,
       "rawPath": "netkeiba/horses/2013/2013104072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:03:34.879Z"
+  "updatedAt": "2026-08-30T21:09:12.402Z"
 }

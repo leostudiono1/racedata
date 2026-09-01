@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106419",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106419/",
-  "profile": null,
+  "profile": {
+    "name": "ココボロ",
+    "birthDate": "2021-03-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01100",
+      "name": "松山将樹"
+    },
+    "owner": {
+      "id": "158803",
+      "name": "阿部善武"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2003100566",
+      "name": "シルクヴァルキリー"
+    },
+    "damsire": {
+      "id": "1992103687",
+      "name": "マーベラスサンデー"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -3057,6 +3087,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ココボロ (Cocobolo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ココボロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ココボロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3126,9 +3186,9 @@
       "contentHash": "4a8ecafd8cb744d1882213690b37d155649468a57acd2d604b24f6ec79089ba5",
       "byteLength": 65482,
       "rawPath": "netkeiba/horses/2021/2021106419/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:59:59.068Z"
+  "updatedAt": "2026-08-24T04:05:08.808Z"
 }

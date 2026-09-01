@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105423",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105423/",
-  "profile": null,
+  "profile": {
+    "name": "シヴァース",
+    "birthDate": "2021-04-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "006030",
+      "name": "佐々木主浩"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2013106007",
+      "name": "ヴィブロス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2437,6 +2467,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シヴァース (Shivers) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シヴァース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シヴァース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2506,9 +2566,9 @@
       "contentHash": "403f7d70560082793fa72dd112c871971bbcdd47ba0afb40ab0322c22358f6ad",
       "byteLength": 66811,
       "rawPath": "netkeiba/horses/2021/2021105423/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:59:58.336Z"
+  "updatedAt": "2026-08-29T22:03:36.816Z"
 }

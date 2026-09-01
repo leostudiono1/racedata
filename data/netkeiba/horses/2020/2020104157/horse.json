@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104157",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104157/",
-  "profile": null,
+  "profile": {
+    "name": "ベルストック",
+    "birthDate": "2020-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05390",
+      "name": "高橋俊之"
+    },
+    "owner": {
+      "id": "x0b280",
+      "name": "小林淳一"
+    },
+    "breeder": {
+      "id": "733072",
+      "name": "今牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "タリスマニック Talismanic(英)"
+    },
+    "dam": {
+      "id": "2012104145",
+      "name": "ベルシルエット"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1867,6 +1897,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルストック (Belle Stock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルストック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルストック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1936,9 +1996,9 @@
       "contentHash": "419854e83b08cce9dd39ceb6e48cb957d2bfafd40d7f98f45880111da99f1cda",
       "byteLength": 64525,
       "rawPath": "netkeiba/horses/2020/2020104157/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:55:18.042Z"
+  "updatedAt": "2026-08-29T21:58:56.651Z"
 }

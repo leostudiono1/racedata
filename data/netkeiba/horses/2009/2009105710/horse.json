@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009105710",
   "sourceUrl": "https://db.netkeiba.com/horse/2009105710/",
-  "profile": null,
+  "profile": {
+    "name": "パリソワール",
+    "birthDate": "2009-02-04",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "922030",
+      "name": "丸山担"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "2002100670",
+      "name": "アサクサコンソメ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -4880,6 +4910,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パリソワール (Paris Soir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パリソワール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パリソワール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4949,9 +5009,9 @@
       "contentHash": "8f6c38e38c42b4f660d61c206ba267cd1d73f8accc5c8374615043681ccf48a0",
       "byteLength": 66949,
       "rawPath": "netkeiba/horses/2009/2009105710/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T22:55:06.981Z"
+  "updatedAt": "2026-08-30T21:00:44.782Z"
 }

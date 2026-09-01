@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008101670",
   "sourceUrl": "https://db.netkeiba.com/horse/2008101670/",
-  "profile": null,
+  "profile": {
+    "name": "レジアーネ",
+    "birthDate": "2008-05-22",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "553800",
+      "name": "広尾レース"
+    },
+    "breeder": {
+      "id": "400015",
+      "name": "中島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "コーディーライン Cordyline(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Miswaki"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -3313,6 +3343,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レジアーネ (Reggiane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レジアーネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レジアーネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3382,9 +3442,9 @@
       "contentHash": "adbc562f22472087235abc669c8c0b2f416406ce3d3b4c1efed016a6fcbd7b16",
       "byteLength": 65363,
       "rawPath": "netkeiba/horses/2008/2008101670/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:47:54.320Z"
+  "updatedAt": "2026-08-28T21:51:33.221Z"
 }

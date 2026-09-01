@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101917",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101917/",
-  "profile": null,
+  "profile": {
+    "name": "ムーランドール",
+    "birthDate": "2020-03-15",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "882800",
+      "name": "小林英一ホールディングス"
+    },
+    "breeder": {
+      "id": "403394",
+      "name": "出口牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "シャンハイボビー Shanghai Bobby(米)"
+    },
+    "dam": {
+      "id": "2014102257",
+      "name": "フラワーシップ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2310,6 +2340,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムーランドール (Moulin d'Or) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーランドール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムーランドール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2379,9 +2439,9 @@
       "contentHash": "af939233166514b801fadfc140fe47b864776f08f5c7629e6f8855fc1ff65723",
       "byteLength": 64605,
       "rawPath": "netkeiba/horses/2020/2020101917/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:44:17.587Z"
+  "updatedAt": "2026-08-26T23:50:02.358Z"
 }

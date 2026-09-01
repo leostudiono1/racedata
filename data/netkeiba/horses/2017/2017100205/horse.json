@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100205",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100205/",
-  "profile": null,
+  "profile": {
+    "name": "グラディウス",
+    "birthDate": "2017-05-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "川添明弘"
+    },
+    "owner": {
+      "id": "855030",
+      "name": "田頭勇貴"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "モンテロッソ Monterosso(英)"
+    },
+    "dam": {
+      "id": "2003106052",
+      "name": "ジョウノエリザベス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1940,6 +1970,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グラディウス (Gladius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラディウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グラディウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2009,9 +2069,9 @@
       "contentHash": "cdba44991c591ed5353b94caab096812088a6c91a1b6cf9081354ebe4d196673",
       "byteLength": 64608,
       "rawPath": "netkeiba/horses/2017/2017100205/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:04:20.378Z"
+  "updatedAt": "2026-08-26T00:11:43.130Z"
 }

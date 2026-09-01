@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101900",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101900/",
-  "profile": null,
+  "profile": {
+    "name": "ベルテックスロード",
+    "birthDate": "2016-03-10",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "895030",
+      "name": "山口敦広"
+    },
+    "breeder": {
+      "id": "010013",
+      "name": "多田善弘"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000110026",
+      "name": "ロードアルティマ"
+    },
+    "dam": {
+      "id": "2007101525",
+      "name": "シンセツ"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000110026",
@@ -1833,6 +1863,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルテックスロード (Vertex Road) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルテックスロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルテックスロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1902,9 +1962,9 @@
       "contentHash": "a534296b7b5e4e8a48984da92a7aefc979146c2c261f9d491857e6efa7cc7eb0",
       "byteLength": 64777,
       "rawPath": "netkeiba/horses/2016/2016101900/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:33:16.853Z"
+  "updatedAt": "2026-08-25T02:45:26.777Z"
 }

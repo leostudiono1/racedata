@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103031",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103031/",
-  "profile": null,
+  "profile": {
+    "name": "キラメキ",
+    "birthDate": "2018-04-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "x0b07d",
+      "name": "大原知宏"
+    },
+    "breeder": {
+      "id": "390543",
+      "name": "大原ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    },
+    "dam": {
+      "id": "2006100252",
+      "name": "トワインブルーム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "トワイニング Twining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005102837",
@@ -5614,6 +5644,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キラメキ (Kirameki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラメキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラメキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5683,9 +5743,9 @@
       "contentHash": "e14f8cd6f8cc45f3cd41c16050403fee54a9bddb5ff5417c2113183720bed4e4",
       "byteLength": 66770,
       "rawPath": "netkeiba/horses/2018/2018103031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:35:14.919Z"
+  "updatedAt": "2026-08-26T23:40:59.431Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110072",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110072/",
-  "profile": null,
+  "profile": {
+    "name": "クリソグランシャ",
+    "birthDate": "2020-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05580",
+      "name": "田中守"
+    },
+    "owner": {
+      "id": "628031",
+      "name": "稲場澄"
+    },
+    "breeder": {
+      "id": "900736",
+      "name": "Chris Baccari"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Bolt d'Oro"
+    },
+    "dam": {
+      "id": "000",
+      "name": "D'cats Meow"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "D'Wildcat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1354,6 +1384,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クリソグランシャ (Chryso Grand Chat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリソグランシャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クリソグランシャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1423,9 +1483,9 @@
       "contentHash": "73113da90e86dedd9d9dfd5f5dfd1c2c1b76eb94f682f7336a366df2bace091d",
       "byteLength": 66889,
       "rawPath": "netkeiba/horses/2020/2020110072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:47:19.540Z"
+  "updatedAt": "2026-08-26T23:53:04.205Z"
 }

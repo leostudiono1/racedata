@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101766",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101766/",
-  "profile": null,
+  "profile": {
+    "name": "ルロワ",
+    "birthDate": "2022-05-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05688",
+      "name": "小野望"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レインデート Rain Date(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1204,6 +1234,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルロワ (Leroy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルロワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルロワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1273,9 +1333,9 @@
       "contentHash": "88cc530f4fab503a7f578fc2576aa7cf2434b1a0c5ce063e55a4553bf8597dbe",
       "byteLength": 64379,
       "rawPath": "netkeiba/horses/2022/2022101766/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T00:02:28.711Z"
+  "updatedAt": "2026-08-29T22:06:07.772Z"
 }

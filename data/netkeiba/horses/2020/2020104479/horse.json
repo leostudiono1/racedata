@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104479",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104479/",
-  "profile": null,
+  "profile": {
+    "name": "トゥルース",
+    "birthDate": "2020-04-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "994002",
+      "name": "飯田正剛"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2004110024",
+      "name": "サーキットレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -3147,6 +3177,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トゥルース (Truth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トゥルース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トゥルース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3216,9 +3276,9 @@
       "contentHash": "309b14b799f44b2b3d4eab7290e559e90c6e46ff2b40ea368a15a4fb3d0d575b",
       "byteLength": 66742,
       "rawPath": "netkeiba/horses/2020/2020104479/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:50:00.627Z"
+  "updatedAt": "2026-08-27T22:57:02.170Z"
 }

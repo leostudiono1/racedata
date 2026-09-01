@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105546",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105546/",
-  "profile": null,
+  "profile": {
+    "name": "ボールドフロント",
+    "birthDate": "2023-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "291002",
+      "name": "増田陽一"
+    },
+    "breeder": {
+      "id": "330001",
+      "name": "能登浩"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2016104652",
+      "name": "コルネット"
+    },
+    "damsire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1250,6 +1280,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボールドフロント (Bold Front) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボールドフロント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボールドフロント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1319,9 +1379,9 @@
       "contentHash": "f00abadf59a432c04b443ef29647436d5fdb9cef1097f0add0a522f514b0c44e",
       "byteLength": 65722,
       "rawPath": "netkeiba/horses/2023/2023105546/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:08:47.713Z"
+  "updatedAt": "2026-08-24T04:13:57.598Z"
 }

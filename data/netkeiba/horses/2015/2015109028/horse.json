@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109028",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109028/",
-  "profile": null,
+  "profile": {
+    "name": "セブンチャン",
+    "birthDate": "2015-05-11",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01029",
+      "name": "根本康広"
+    },
+    "owner": {
+      "id": "026700",
+      "name": "ケンレーシング組合"
+    },
+    "breeder": {
+      "id": "101115",
+      "name": "清水貞信"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "2009109045",
+      "name": "プレミールサダコ"
+    },
+    "damsire": {
+      "id": "1999109275",
+      "name": "サニングデール"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -1094,6 +1124,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セブンチャン (Seven Chan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セブンチャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セブンチャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1163,9 +1223,9 @@
       "contentHash": "aa6f6421d3aa0f9e20ef30980da12ac3907114e043b0f0e53a72bc99e6f86671",
       "byteLength": 64785,
       "rawPath": "netkeiba/horses/2015/2015109028/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:34:32.400Z"
+  "updatedAt": "2026-08-24T03:39:42.192Z"
 }

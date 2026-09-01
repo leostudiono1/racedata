@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110106",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110106/",
-  "profile": null,
+  "profile": {
+    "name": "フロリダロス",
+    "birthDate": "2015-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "030803",
+      "name": "コスモヴューファーム"
+    },
+    "breeder": {
+      "id": "790730",
+      "name": "Southern Chase Farm Inc. Karen Dodd & Greg Dodd"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Kantharos"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Royalesque"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Chapel Royal"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2473,6 +2503,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロリダロス (Florida Loss) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロリダロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロリダロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2542,9 +2602,9 @@
       "contentHash": "469e4882dbcf7d03fb3053c7ffe9719e7151abfe1c5f8fd1d147fc6391aa6787",
       "byteLength": 67016,
       "rawPath": "netkeiba/horses/2015/2015110106/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:13:54.457Z"
+  "updatedAt": "2026-08-30T21:19:32.059Z"
 }

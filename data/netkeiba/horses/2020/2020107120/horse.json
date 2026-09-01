@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020107120",
   "sourceUrl": "https://db.netkeiba.com/horse/2020107120/",
-  "profile": null,
+  "profile": {
+    "name": "ベッケンバウアー",
+    "birthDate": "2020-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島寿"
+    },
+    "owner": {
+      "id": "082031",
+      "name": "三岡陽"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104929",
+      "name": "レーヴミストラル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マラチバンド Marachi Band(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dixieland Band"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104929",
@@ -4221,6 +4251,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベッケンバウアー (Beckenbauer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッケンバウアー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベッケンバウアー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4290,9 +4350,9 @@
       "contentHash": "8e3c7b07154784bf8a8c9bbffac69d42f2f5a53f8efabb5b911ce58b999031af",
       "byteLength": 67010,
       "rawPath": "netkeiba/horses/2020/2020107120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:47:09.626Z"
+  "updatedAt": "2026-08-26T23:52:53.690Z"
 }

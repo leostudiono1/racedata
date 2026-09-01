@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016190002",
   "sourceUrl": "https://db.netkeiba.com/horse/2016190002/",
-  "profile": null,
+  "profile": {
+    "name": "Japan",
+    "birthDate": "2016-02-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05518",
+      "name": "オブライ"
+    },
+    "owner": {
+      "id": "326803",
+      "name": "松島正昭氏Ｊマグニア夫人Ｍテイバー＆Ｄスミス"
+    },
+    "breeder": {
+      "id": "120885",
+      "name": "Newsells Park Stud"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Galileo (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Shastye"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3220,6 +3250,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "Japan (ジャパン) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Japan関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Japan関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3289,9 +3349,9 @@
       "contentHash": "4183ba094fd3d02fcd1ba7f13dcabcdc0073a2beae287120e44a22afd4b8e3fd",
       "byteLength": 66855,
       "rawPath": "netkeiba/horses/2016/2016190002/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:28:50.181Z"
+  "updatedAt": "2026-08-26T23:34:34.553Z"
 }

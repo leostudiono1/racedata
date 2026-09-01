@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101619",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101619/",
-  "profile": null,
+  "profile": {
+    "name": "アルティメット",
+    "birthDate": "2021-04-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "武井和実"
+    },
+    "owner": {
+      "id": "522030",
+      "name": "山邉浩"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2011100497",
+      "name": "リーサルウェポン"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3645,6 +3675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルティメット (Ultimate) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルティメット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルティメット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3714,9 +3774,9 @@
       "contentHash": "2cc10e040c8fe15ad4d16b653390e63e527760e094c4377f5316dc39b84a9f0d",
       "byteLength": 65464,
       "rawPath": "netkeiba/horses/2021/2021101619/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:54:06.841Z"
+  "updatedAt": "2026-08-25T03:06:17.053Z"
 }

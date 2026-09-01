@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107215",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107215/",
-  "profile": null,
+  "profile": {
+    "name": "インサラータ",
+    "birthDate": "2023-04-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05177",
+      "name": "藤ケ崎一"
+    },
+    "owner": {
+      "id": "x03adc",
+      "name": "北澤信"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ニューイヤーズデイ"
+    },
+    "dam": {
+      "id": "2011103739",
+      "name": "プロレタリアト"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1669,6 +1699,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インサラータ (Insalata) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インサラータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インサラータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1738,9 +1798,9 @@
       "contentHash": "57ab48db5ed10752b8014313e688126823b4899e10c908692a967ac52a3cab53",
       "byteLength": 66861,
       "rawPath": "netkeiba/horses/2023/2023107215/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:49:47.922Z"
+  "updatedAt": "2026-08-30T21:55:25.241Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103815",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103815/",
-  "profile": null,
+  "profile": {
+    "name": "エデバリ",
+    "birthDate": "2021-02-21",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "永田幸宏"
+    },
+    "owner": {
+      "id": "853030",
+      "name": "小原準一郎"
+    },
+    "breeder": {
+      "id": "233078",
+      "name": "坂本智広"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011101273",
+      "name": "エイシンヒカリ"
+    },
+    "dam": {
+      "id": "2014104054",
+      "name": "レイテストバード"
+    },
+    "damsire": {
+      "id": "2006190002",
+      "name": "サマーバード Summer Bird(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011101273",
@@ -1638,6 +1668,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エデバリ (Edebali) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エデバリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エデバリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1707,9 +1767,9 @@
       "contentHash": "4728f1c8fbdfbb7a439190cabd9b1b661714841a4b375ce9412e2daa031426cc",
       "byteLength": 64346,
       "rawPath": "netkeiba/horses/2021/2021103815/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:49:25.589Z"
+  "updatedAt": "2026-08-26T23:55:10.258Z"
 }

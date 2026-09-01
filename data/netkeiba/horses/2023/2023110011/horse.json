@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110011",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110011/",
-  "profile": null,
+  "profile": {
+    "name": "メイクイット",
+    "birthDate": "2023-02-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "橋本和馬"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "940738",
+      "name": "Takaya Shimakawa"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Bolt d'Oro"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ホーリーリーガル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Holy Roman Emperor"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1877,6 +1907,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイクイット (Make It) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイクイット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイクイット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1946,9 +2006,9 @@
       "contentHash": "37e95ab054b262d754b915bf1703f40fac79bda2816742c2b22ee7dc3e7e56c2",
       "byteLength": 67146,
       "rawPath": "netkeiba/horses/2023/2023110011/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:05:25.063Z"
+  "updatedAt": "2026-08-27T23:12:26.804Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105161",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105161/",
-  "profile": null,
+  "profile": {
+    "name": "ベイキングヒート",
+    "birthDate": "2017-01-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リーサルヒート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unusual Heat"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -1418,6 +1448,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベイキングヒート (Baking Heat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイキングヒート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベイキングヒート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1487,9 +1547,9 @@
       "contentHash": "c5e34255cc51749fa0df2b2ac5bcea13eaa1efc77e6d24b2914e37969d4f0040",
       "byteLength": 66329,
       "rawPath": "netkeiba/horses/2017/2017105161/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:42:52.410Z"
+  "updatedAt": "2026-08-29T21:46:31.205Z"
 }

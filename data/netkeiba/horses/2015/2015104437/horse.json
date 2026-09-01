@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104437",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104437/",
-  "profile": null,
+  "profile": {
+    "name": "シーレーン",
+    "birthDate": "2015-02-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "727008",
+      "name": "谷掛龍夫"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2005190001",
+      "name": "トレラピッド Tres Rapide(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Anabaa Blue"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2034,6 +2064,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーレーン (Sea Lane) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーレーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーレーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2103,9 +2163,9 @@
       "contentHash": "ab8b208c1225d48454dc5d379add8e26762068aac72c69724e9baa7788ba208d",
       "byteLength": 66885,
       "rawPath": "netkeiba/horses/2015/2015104437/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:23:06.533Z"
+  "updatedAt": "2026-08-26T23:28:51.586Z"
 }

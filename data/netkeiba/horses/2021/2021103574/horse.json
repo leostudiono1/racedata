@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103574",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103574/",
-  "profile": null,
+  "profile": {
+    "name": "インジケーター",
+    "birthDate": "2021-02-21",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "755033",
+      "name": "会田浩史"
+    },
+    "breeder": {
+      "id": "803071",
+      "name": "岡田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Liam's Map"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アイスクリームサイレンス Ice Cream Silence(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ストリートセンス Street Sense(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3646,6 +3676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インジケーター (Indicator) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インジケーター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インジケーター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3715,9 +3775,9 @@
       "contentHash": "ad6e449d358526f8649579028f82d1ed5153eab26f4506a5d458cc734053aaa8",
       "byteLength": 66940,
       "rawPath": "netkeiba/horses/2021/2021103574/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:31:48.005Z"
+  "updatedAt": "2026-08-28T22:35:26.122Z"
 }

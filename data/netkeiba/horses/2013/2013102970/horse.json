@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102970",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102970/",
-  "profile": null,
+  "profile": {
+    "name": "クインダム",
+    "birthDate": "2013-05-14",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "230047",
+      "name": "鮫川啓一"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2004103568",
+      "name": "キクノフェアリー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -5634,6 +5664,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クインダム (Queendom) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クインダム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クインダム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5703,9 +5763,9 @@
       "contentHash": "51c3839d00eaa84b08c01de2cd0910f4030c873cd6bd4b49bcb5b1c42f5d75f5",
       "byteLength": 66876,
       "rawPath": "netkeiba/horses/2013/2013102970/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:57:29.039Z"
+  "updatedAt": "2026-08-28T22:01:07.630Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101318",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101318/",
-  "profile": null,
+  "profile": {
+    "name": "エキスパートバイオ",
+    "birthDate": "2020-02-26",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "930800",
+      "name": "バイオ（株）"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2013106099",
+      "name": "ミッキーロケット"
+    },
+    "dam": {
+      "id": "2005102661",
+      "name": "アマゾネスバイオ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106099",
@@ -2340,6 +2370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エキスパートバイオ (Expert Bio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エキスパートバイオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エキスパートバイオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2409,9 +2469,9 @@
       "contentHash": "672a25fcc88ba9d1effc8d3b54c678239b74c5238591a03b06af952c57cd6bf9",
       "byteLength": 67131,
       "rawPath": "netkeiba/horses/2020/2020101318/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:17:38.741Z"
+  "updatedAt": "2026-08-26T00:25:01.700Z"
 }

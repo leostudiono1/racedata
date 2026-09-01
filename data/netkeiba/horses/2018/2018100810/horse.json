@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100810",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100810/",
-  "profile": null,
+  "profile": {
+    "name": "エイサイバイオ",
+    "birthDate": "2018-04-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "930800",
+      "name": "バイオ"
+    },
+    "breeder": {
+      "id": "933392",
+      "name": "中館牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2005102464",
+      "name": "ヒカルトキメキ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1716,6 +1746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイサイバイオ (Eisai Bio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイサイバイオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイサイバイオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1785,9 +1845,9 @@
       "contentHash": "75f8a533c1a9412e660f1361bb68d822e12d808a6fb7c5b690e1c516f9923042",
       "byteLength": 64554,
       "rawPath": "netkeiba/horses/2018/2018100810/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:17:12.050Z"
+  "updatedAt": "2026-08-28T22:20:50.845Z"
 }

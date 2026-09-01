@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101315",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101315/",
-  "profile": null,
+  "profile": {
+    "name": "スタンピー",
+    "birthDate": "2022-04-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05758",
+      "name": "小国博行"
+    },
+    "owner": {
+      "id": "852030",
+      "name": "佐々木雄二"
+    },
+    "breeder": {
+      "id": "123158",
+      "name": "グッドラック・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2014101849",
+      "name": "ハタノフォルトゥナ"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -2438,6 +2468,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スタンピー (Stumpy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタンピー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スタンピー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2507,9 +2567,9 @@
       "contentHash": "70ee2ce8295b65d487cda66192294fb022ce99c472fae8995e85a9cb719931d9",
       "byteLength": 66803,
       "rawPath": "netkeiba/horses/2022/2022101315/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:53:24.208Z"
+  "updatedAt": "2026-08-26T23:59:08.233Z"
 }

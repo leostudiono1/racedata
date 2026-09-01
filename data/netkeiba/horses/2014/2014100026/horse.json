@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100026",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100026/",
-  "profile": null,
+  "profile": {
+    "name": "フライフリー",
+    "birthDate": "2014-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2009106249",
+      "name": "コナセラー"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -2700,6 +2730,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フライフリー (Fly Free) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライフリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フライフリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2769,9 +2829,9 @@
       "contentHash": "cecfd5d065e34841cbdc816a9180720fc5c51a8a04a609a086e6128e2509185d",
       "byteLength": 64285,
       "rawPath": "netkeiba/horses/2014/2014100026/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:05:37.213Z"
+  "updatedAt": "2026-08-30T21:11:14.883Z"
 }

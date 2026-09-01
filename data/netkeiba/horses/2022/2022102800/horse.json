@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102800",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102800/",
-  "profile": null,
+  "profile": {
+    "name": "サファリ",
+    "birthDate": "2022-04-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05623",
+      "name": "栗林徹治"
+    },
+    "owner": {
+      "id": "165803",
+      "name": "（同）ＪＰＮ技研"
+    },
+    "breeder": {
+      "id": "903038",
+      "name": "酒井牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マサイマラ Maasai Mara(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Orpen"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -4119,6 +4149,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サファリ (Safari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サファリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サファリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4188,9 +4248,9 @@
       "contentHash": "a00f1a0cf4a4973b6ade35df6a5f7fb5ada2ecc51d2d1c09e36069064a658a74",
       "byteLength": 64055,
       "rawPath": "netkeiba/horses/2022/2022102800/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:02:47.114Z"
+  "updatedAt": "2026-08-24T04:07:56.725Z"
 }

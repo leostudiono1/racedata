@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101498",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101498/",
-  "profile": null,
+  "profile": {
+    "name": "ステルス",
+    "birthDate": "2012-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "064700",
+      "name": "ＨｉｍＲｏｃｋＲａｃｉｎｇ"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2001106420",
+      "name": "ゴールデンベティー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1153,6 +1183,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ステルス (Stealth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ステルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1222,9 +1282,9 @@
       "contentHash": "dfb1940cc13d8d46c942810278eeea2609fbb28f066d1f922d7595a807d1bd14",
       "byteLength": 64160,
       "rawPath": "netkeiba/horses/2012/2012101498/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:19:15.016Z"
+  "updatedAt": "2026-08-24T03:24:25.010Z"
 }

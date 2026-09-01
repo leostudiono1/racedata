@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104110",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104110/",
-  "profile": null,
+  "profile": {
+    "name": "マッセル",
+    "birthDate": "2014-05-28",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05439",
+      "name": "河津裕昭"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "1999110258",
+      "name": "サーガノヴェル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Boundary"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -3314,6 +3344,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マッセル (Massel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マッセル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マッセル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3383,9 +3443,9 @@
       "contentHash": "24b3f425695ed4395c968c5b131b0556c702fde279de1d404dee0cb1426caeb5",
       "byteLength": 66739,
       "rawPath": "netkeiba/horses/2014/2014104110/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:18:40.512Z"
+  "updatedAt": "2026-08-26T23:24:25.144Z"
 }

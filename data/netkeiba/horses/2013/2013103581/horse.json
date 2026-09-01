@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103581",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103581/",
-  "profile": null,
+  "profile": {
+    "name": "モズツドイ",
+    "birthDate": "2013-04-18",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "005803",
+      "name": "キャピタル・システム"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2008101625",
+      "name": "スズカモンスーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "More Than Ready"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1005,6 +1035,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モズツドイ (Mozu Tsudoi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズツドイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズツドイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1074,9 +1134,9 @@
       "contentHash": "78354da8e23296cdbbb6a47a08bedfa5d463267ee560024e0bc1f6b8a6824c11",
       "byteLength": 64521,
       "rawPath": "netkeiba/horses/2013/2013103581/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:24:09.097Z"
+  "updatedAt": "2026-08-24T03:29:19.087Z"
 }

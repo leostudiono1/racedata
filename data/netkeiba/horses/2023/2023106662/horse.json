@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023106662",
   "sourceUrl": "https://db.netkeiba.com/horse/2023106662/",
-  "profile": null,
+  "profile": {
+    "name": "シュタルク",
+    "birthDate": "2023-03-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01198",
+      "name": "河嶋宏樹"
+    },
+    "owner": {
+      "id": "831031",
+      "name": "塚田義広"
+    },
+    "breeder": {
+      "id": "803327",
+      "name": "門別牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2015101621",
+      "name": "タワーオブロンドン"
+    },
+    "dam": {
+      "id": "2017100824",
+      "name": "シュトルツ"
+    },
+    "damsire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015101621",
@@ -1702,6 +1732,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュタルク (Stark) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュタルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュタルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1771,9 +1831,9 @@
       "contentHash": "12c61f723a6850330abb6c5269444014cdfa63828efa33c324c55afc9f1fc8c1",
       "byteLength": 66481,
       "rawPath": "netkeiba/horses/2023/2023106662/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T06:09:36.638Z"
+  "updatedAt": "2026-08-24T04:14:46.559Z"
 }

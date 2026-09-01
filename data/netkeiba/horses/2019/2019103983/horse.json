@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103983",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103983/",
-  "profile": null,
+  "profile": {
+    "name": "リジン",
+    "birthDate": "2019-05-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05788",
+      "name": "水野貴史"
+    },
+    "owner": {
+      "id": "402033",
+      "name": "吉井理人"
+    },
+    "breeder": {
+      "id": "610012",
+      "name": "林孝輝"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2013103684",
+      "name": "フォーシーム"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -3433,6 +3463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リジン (Lysine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リジン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リジン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3502,9 +3562,9 @@
       "contentHash": "00e0ee1db310f6a979c8e2b995f8a1c2f9829604d6f9bf889aa13e7afccdac35",
       "byteLength": 66690,
       "rawPath": "netkeiba/horses/2019/2019103983/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:45:51.883Z"
+  "updatedAt": "2026-08-27T22:52:53.557Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101778",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101778/",
-  "profile": null,
+  "profile": {
+    "name": "マイカーニバル",
+    "birthDate": "2010-03-08",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "336030",
+      "name": "小林竜太郎"
+    },
+    "breeder": {
+      "id": "510000",
+      "name": "エクセルマネジメント"
+    },
+    "birthplace": "えりも町",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "1997100020",
+      "name": "エリモロマンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンシャインフォーエヴァー Sunshine Forever(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -2275,6 +2305,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイカーニバル (My Carnival) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイカーニバル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイカーニバル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2344,9 +2404,9 @@
       "contentHash": "7f3c14dca157559edec950aa2923a86713294003ce9b48adb8c8052f91101e08",
       "byteLength": 64914,
       "rawPath": "netkeiba/horses/2010/2010101778/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:48:39.888Z"
+  "updatedAt": "2026-08-28T21:52:18.653Z"
 }

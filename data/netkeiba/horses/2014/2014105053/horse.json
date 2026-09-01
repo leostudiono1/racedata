@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105053",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105053/",
-  "profile": null,
+  "profile": {
+    "name": "チカノワール",
+    "birthDate": "2014-05-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2003105424",
+      "name": "フレアキャスケード"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3942,6 +3972,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チカノワール (Chika Noir) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカノワール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チカノワール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4011,9 +4071,9 @@
       "contentHash": "68211d4e049267e691eae39667ca511850a715776256fb635b21aabbb6d6ca08",
       "byteLength": 66954,
       "rawPath": "netkeiba/horses/2014/2014105053/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:27:05.880Z"
+  "updatedAt": "2026-08-25T02:39:15.742Z"
 }

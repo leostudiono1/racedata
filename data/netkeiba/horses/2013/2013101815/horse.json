@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101815",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101815/",
-  "profile": null,
+  "profile": {
+    "name": "コークスクリュー",
+    "birthDate": "2013-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01142",
+      "name": "森田直行"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スウィフトオブフライト Swift of Flight(加)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sky Classic"
+    }
+  },
   "pedigree": [
     {
       "id": "1999100226",
@@ -1490,6 +1520,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コークスクリュー (Cork Screw) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コークスクリュー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コークスクリュー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1559,9 +1619,9 @@
       "contentHash": "5066fe45b0caabc7c260a538878a9f7cf517f89cd569aeed03454c9746407021",
       "byteLength": 65564,
       "rawPath": "netkeiba/horses/2013/2013101815/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:56:29.015Z"
+  "updatedAt": "2026-08-28T22:00:07.838Z"
 }

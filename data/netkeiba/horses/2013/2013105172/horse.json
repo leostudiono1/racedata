@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105172",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105172/",
-  "profile": null,
+  "profile": {
+    "name": "コクスイセン",
+    "birthDate": "2013-05-19",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01158",
+      "name": "寺島良"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "403383",
+      "name": "ユートピア牧場"
+    },
+    "birthplace": "登別市",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2007102620",
+      "name": "ピュアシンフォニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ストラヴィンスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2658,6 +2688,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コクスイセン (Kokusuisen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コクスイセン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コクスイセン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2727,9 +2787,9 @@
       "contentHash": "cc504191576dc833dc4e62c2ef9e5cb0cab6795f05a57862fade801c962b2e21",
       "byteLength": 67025,
       "rawPath": "netkeiba/horses/2013/2013105172/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:15:10.231Z"
+  "updatedAt": "2026-08-26T23:20:55.335Z"
 }

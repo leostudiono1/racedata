@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101345",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101345/",
-  "profile": null,
+  "profile": {
+    "name": "ジャニス",
+    "birthDate": "2017-05-16",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05043",
+      "name": "高橋道雄"
+    },
+    "owner": {
+      "id": "100800",
+      "name": "日進牧場"
+    },
+    "breeder": {
+      "id": "310335",
+      "name": "カミイスタット"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2000110036",
+      "name": "ヒシバラード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Saint Ballado"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1363,6 +1393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャニス (Janis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャニス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャニス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1432,9 +1492,9 @@
       "contentHash": "7d7f6ed3a10b9b3e057a68a47457f8bb301eb70395496ae18bbf58aa9316c37d",
       "byteLength": 64409,
       "rawPath": "netkeiba/horses/2017/2017101345/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:19:41.341Z"
+  "updatedAt": "2026-08-30T21:25:18.673Z"
 }

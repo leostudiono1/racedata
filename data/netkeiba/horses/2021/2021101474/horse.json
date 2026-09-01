@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101474",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101474/",
-  "profile": null,
+  "profile": {
+    "name": "マーメイド",
+    "birthDate": "2021-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "吉田司"
+    },
+    "owner": {
+      "id": "x013b6",
+      "name": "古川忠一"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011104063",
+      "name": "サトノアラジン"
+    },
+    "dam": {
+      "id": "2008102710",
+      "name": "クリアンサス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Redoute's Choice"
+    }
+  },
   "pedigree": [
     {
       "id": "2011104063",
@@ -4151,6 +4181,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マーメイド (Mermaid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーメイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーメイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4220,9 +4280,9 @@
       "contentHash": "010b18383a9e52a8ae808ce7a537173edc448a04dae6fb05e76f67cdc2b94747",
       "byteLength": 64923,
       "rawPath": "netkeiba/horses/2021/2021101474/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:30:23.285Z"
+  "updatedAt": "2026-08-28T22:34:02.045Z"
 }

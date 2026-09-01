@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104646",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104646/",
-  "profile": null,
+  "profile": {
+    "name": "プレインコート",
+    "birthDate": "2022-02-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05607",
+      "name": "堀千亜樹"
+    },
+    "owner": {
+      "id": "247033",
+      "name": "幡有"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008103319",
+      "name": "インダクティ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2853,6 +2883,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレインコート (Plain Coat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレインコート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレインコート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2922,9 +2982,9 @@
       "contentHash": "1791f61211c3d0357c4d4c50c5d651bdb9024967e2185d5c5a764535c9a07f86",
       "byteLength": 66309,
       "rawPath": "netkeiba/horses/2022/2022104646/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:58:21.059Z"
+  "updatedAt": "2026-08-27T23:05:22.868Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105083",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105083/",
-  "profile": null,
+  "profile": {
+    "name": "シルバーライン",
+    "birthDate": "2013-03-05",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "607033",
+      "name": "大野裕"
+    },
+    "breeder": {
+      "id": "700380",
+      "name": "社台牧場"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "000",
+      "name": "シルバーチャーム Silver Charm(米)"
+    },
+    "dam": {
+      "id": "2006101706",
+      "name": "プリンセスパトラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "バチアー Bachir(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1497,6 +1527,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シルバーライン (Silver Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバーライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シルバーライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1566,9 +1626,9 @@
       "contentHash": "a6a7c7f85298700e26b785c0bc973fc6447d34c2125f1be58148bd22c67403ed",
       "byteLength": 64361,
       "rawPath": "netkeiba/horses/2013/2013105083/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:25:08.308Z"
+  "updatedAt": "2026-08-29T21:28:46.640Z"
 }

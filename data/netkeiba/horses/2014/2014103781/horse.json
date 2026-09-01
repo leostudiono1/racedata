@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103781",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103781/",
-  "profile": null,
+  "profile": {
+    "name": "シャブリ",
+    "birthDate": "2014-04-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2006102794",
+      "name": "スカイノダン"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1624,6 +1654,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャブリ (Chablis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャブリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャブリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1693,9 +1753,9 @@
       "contentHash": "f2cddac4ef008a7901a9539a070aa4de699886a86b88d4977c149a1f29556ce0",
       "byteLength": 64497,
       "rawPath": "netkeiba/horses/2014/2014103781/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:18:33.606Z"
+  "updatedAt": "2026-08-26T23:24:18.139Z"
 }

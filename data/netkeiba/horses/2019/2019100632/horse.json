@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100632",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100632/",
-  "profile": null,
+  "profile": {
+    "name": "レイリ",
+    "birthDate": "2019-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05503",
+      "name": "上杉昌宏"
+    },
+    "owner": {
+      "id": "638009",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "クリアリーコンフューズド Clearly Confused(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Successful Appeal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -4961,6 +4991,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイリ (Reiri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5030,9 +5090,9 @@
       "contentHash": "91c8f1c7e81f7bb7fa26756e174d7d4e465ab19cec51cc6b5ac3116bd225232f",
       "byteLength": 66888,
       "rawPath": "netkeiba/horses/2019/2019100632/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:12:20.236Z"
+  "updatedAt": "2026-08-26T00:19:42.948Z"
 }

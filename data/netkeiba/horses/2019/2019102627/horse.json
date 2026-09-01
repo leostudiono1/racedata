@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102627",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102627/",
-  "profile": null,
+  "profile": {
+    "name": "デーモン",
+    "birthDate": "2019-04-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ヶ崎一"
+    },
+    "owner": {
+      "id": "560031",
+      "name": "須藤英之"
+    },
+    "breeder": {
+      "id": "230047",
+      "name": "鮫川啓一"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2007102104",
+      "name": "オースミアザレア"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -2781,6 +2811,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デーモン (Demon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デーモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デーモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2850,9 +2910,9 @@
       "contentHash": "b44486df9bc03d2b54355a775272952583b8d30b45c73ca12144af87ee7907ef",
       "byteLength": 65134,
       "rawPath": "netkeiba/horses/2019/2019102627/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:45:56.651Z"
+  "updatedAt": "2026-08-25T02:58:06.526Z"
 }

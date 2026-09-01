@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101387",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101387/",
-  "profile": null,
+  "profile": {
+    "name": "キングダラス",
+    "birthDate": "2020-04-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "x0adf2",
+      "name": "今井高之"
+    },
+    "breeder": {
+      "id": "160543",
+      "name": "北田剛"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2012105897",
+      "name": "デトロイトカフェ"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -3746,6 +3776,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングダラス (King Dallas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングダラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングダラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3815,9 +3875,9 @@
       "contentHash": "fa36af6434200b979b81a41235f6130360d26b3dec053bd9234a1ebe00a92601",
       "byteLength": 66613,
       "rawPath": "netkeiba/horses/2020/2020101387/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:52:34.334Z"
+  "updatedAt": "2026-08-24T03:57:44.010Z"
 }

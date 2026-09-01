@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110098",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110098/",
-  "profile": null,
+  "profile": {
+    "name": "エルル",
+    "birthDate": "2023-04-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "784033",
+      "name": "風早信昭"
+    },
+    "breeder": {
+      "id": "510733",
+      "name": "Coteau Grove Farms LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Yaupon (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Munnings' Finest"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Munnings"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1063,6 +1093,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルル (Eruru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1132,9 +1192,9 @@
       "contentHash": "dfcb613001715acb81bf88e44aeef4d4c79cb8e9fdd485d75c955b5cda4fd8cf",
       "byteLength": 65472,
       "rawPath": "netkeiba/horses/2023/2023110098/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:50:15.611Z"
+  "updatedAt": "2026-08-30T21:55:53.335Z"
 }

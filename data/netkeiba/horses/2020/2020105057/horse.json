@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105057",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105057/",
-  "profile": null,
+  "profile": {
+    "name": "マヒート",
+    "birthDate": "2020-03-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05160",
+      "name": "佐藤茂"
+    },
+    "owner": {
+      "id": "752800",
+      "name": "ニットー商事"
+    },
+    "breeder": {
+      "id": "330512",
+      "name": "大狩部牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "タリスマニック Talismanic(英)"
+    },
+    "dam": {
+      "id": "2008102705",
+      "name": "アンリミテッドピサ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4968,6 +4998,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マヒート (Mahito) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マヒート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マヒート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5037,9 +5097,9 @@
       "contentHash": "6148ef792a90842542943a58359c11aca1c184277d7be096dddd0ea194a4e54c",
       "byteLength": 64664,
       "rawPath": "netkeiba/horses/2020/2020105057/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:56:04.182Z"
+  "updatedAt": "2026-08-29T21:59:42.126Z"
 }

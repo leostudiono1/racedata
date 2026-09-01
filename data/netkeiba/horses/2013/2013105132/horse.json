@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105132",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105132/",
-  "profile": null,
+  "profile": {
+    "name": "カラカ",
+    "birthDate": "2013-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05079",
+      "name": "井上孝彦"
+    },
+    "owner": {
+      "id": "x00073",
+      "name": "柴田光男"
+    },
+    "breeder": {
+      "id": "203374",
+      "name": "平岡牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2002100182",
+      "name": "ミスソヴリン"
+    },
+    "damsire": {
+      "id": "1981100841",
+      "name": "ワカオライデン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -4429,6 +4459,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラカ (Karaka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4498,9 +4558,9 @@
       "contentHash": "31dc78d7f2123f594697c38a6db930ad788300b6eb00baac69ad86cc894360e0",
       "byteLength": 66675,
       "rawPath": "netkeiba/horses/2013/2013105132/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:15:03.281Z"
+  "updatedAt": "2026-08-26T23:20:48.491Z"
 }

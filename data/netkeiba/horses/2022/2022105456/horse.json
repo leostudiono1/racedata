@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105456",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105456/",
-  "profile": null,
+  "profile": {
+    "name": "オストラヴァ",
+    "birthDate": "2022-03-02",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01163",
+      "name": "林徹"
+    },
+    "owner": {
+      "id": "254031",
+      "name": "村野慎之介"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "2013105666",
+      "name": "ピュアコンチェルト"
+    },
+    "damsire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1930,6 +1960,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オストラヴァ (Ostrava) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オストラヴァ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オストラヴァ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1999,9 +2059,9 @@
       "contentHash": "9a7b5fa98f83e96139b06e4eca84d49bf5752faa4e094ae4f55dc7f90c06165c",
       "byteLength": 67002,
       "rawPath": "netkeiba/horses/2022/2022105456/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:44:18.580Z"
+  "updatedAt": "2026-08-30T21:49:56.266Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100040",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100040/",
-  "profile": null,
+  "profile": {
+    "name": "フラワートピアリー",
+    "birthDate": "2020-03-05",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "346008",
+      "name": "堀内一夫"
+    },
+    "breeder": {
+      "id": "633093",
+      "name": "沖田忠幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103548",
+      "name": "ダノンバラード"
+    },
+    "dam": {
+      "id": "2003101100",
+      "name": "トピアリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "タバスコキャット Tabasco Cat(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103548",
@@ -1869,6 +1899,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラワートピアリー (Flower Topiary) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラワートピアリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラワートピアリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1938,9 +1998,9 @@
       "contentHash": "ed8ba3d84dcd22d92e87596779fe8a3b2cc4e766ac48195e35cb01db5a7aaa9f",
       "byteLength": 67091,
       "rawPath": "netkeiba/horses/2020/2020100040/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:31:45.746Z"
+  "updatedAt": "2026-08-30T21:37:23.419Z"
 }

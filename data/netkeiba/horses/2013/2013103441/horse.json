@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103441",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103441/",
-  "profile": null,
+  "profile": {
+    "name": "ストラボ",
+    "birthDate": "2013-05-16",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "00420",
+      "name": "宗像義忠"
+    },
+    "owner": {
+      "id": "274008",
+      "name": "佐藤壽男"
+    },
+    "breeder": {
+      "id": "260543",
+      "name": "笹島智則"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスキ Miski(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Miswaki"
+    }
+  },
   "pedigree": [
     {
       "id": "1997101264",
@@ -1926,6 +1956,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストラボ (Strabo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストラボ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストラボ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1995,9 +2055,9 @@
       "contentHash": "552d673b1e7ff900ba68562c8d8e75c9baae8912b36b436f52dd941b30f23e33",
       "byteLength": 64659,
       "rawPath": "netkeiba/horses/2013/2013103441/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:13:42.759Z"
+  "updatedAt": "2026-08-26T23:19:27.872Z"
 }

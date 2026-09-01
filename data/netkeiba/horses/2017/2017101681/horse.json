@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101681",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101681/",
-  "profile": null,
+  "profile": {
+    "name": "アーヴィング",
+    "birthDate": "2017-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05780",
+      "name": "宇野木博"
+    },
+    "owner": {
+      "id": "088033",
+      "name": "津田浩一"
+    },
+    "breeder": {
+      "id": "800311",
+      "name": "中本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012103165",
+      "name": "コメート"
+    },
+    "dam": {
+      "id": "1995108835",
+      "name": "シルクフレアー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Danzig"
+    }
+  },
   "pedigree": [
     {
       "id": "2012103165",
@@ -2526,6 +2556,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アーヴィング (Irving) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーヴィング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アーヴィング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2595,9 +2655,9 @@
       "contentHash": "718a830e1c0a000f3a67fa11756f8428c99429e033804948dd9ea1c10ebcbc98",
       "byteLength": 66713,
       "rawPath": "netkeiba/horses/2017/2017101681/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:39:30.008Z"
+  "updatedAt": "2026-08-24T03:44:39.902Z"
 }

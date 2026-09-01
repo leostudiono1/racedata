@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103201",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103201/",
-  "profile": null,
+  "profile": {
+    "name": "アグラデセール",
+    "birthDate": "2019-03-06",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00411",
+      "name": "浅見秀一"
+    },
+    "owner": {
+      "id": "535033",
+      "name": "古賀慎一"
+    },
+    "breeder": {
+      "id": "733027",
+      "name": "平野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セイクリッドフレイム Sacred Flame(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rahy"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -1113,6 +1143,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アグラデセール (Agradecer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アグラデセール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アグラデセール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1182,9 +1242,9 @@
       "contentHash": "57f0f803806617522d582a1fc6abe296c702817402178dbfaa97af4cebc3ca47",
       "byteLength": 64741,
       "rawPath": "netkeiba/horses/2019/2019103201/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:45:02.827Z"
+  "updatedAt": "2026-08-27T22:52:04.482Z"
 }

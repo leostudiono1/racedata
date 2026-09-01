@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110042",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110042/",
-  "profile": null,
+  "profile": {
+    "name": "ファミリーラヴ",
+    "birthDate": "2020-02-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "900733",
+      "name": "Countess De La Warr"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Frankel"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Household Name"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Zamindar"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1920,6 +1950,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファミリーラヴ (Family Love) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファミリーラヴ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファミリーラヴ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1989,9 +2049,9 @@
       "contentHash": "1ef89153bdc37228a1a34099cafb46c8af658997b9c74dfa7cb38b685582a739",
       "byteLength": 66382,
       "rawPath": "netkeiba/horses/2020/2020110042/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:56:32.526Z"
+  "updatedAt": "2026-08-24T04:01:42.107Z"
 }

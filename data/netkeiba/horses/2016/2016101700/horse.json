@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101700",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101700/",
-  "profile": null,
+  "profile": {
+    "name": "ムスティッカ",
+    "birthDate": "2016-03-15",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "373008",
+      "name": "中村祐子"
+    },
+    "breeder": {
+      "id": "300033",
+      "name": "栄進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007110020",
+      "name": "エイシンアポロン"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ムザヤダ Muzayadah(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monsun"
+    }
+  },
   "pedigree": [
     {
       "id": "2007110020",
@@ -2009,6 +2039,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ムスティッカ (Mustikka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムスティッカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ムスティッカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2078,9 +2138,9 @@
       "contentHash": "f0eb2a51785914460f81d17c4557712fc1499d9975eee25129009967dc734af3",
       "byteLength": 66832,
       "rawPath": "netkeiba/horses/2016/2016101700/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:36:45.118Z"
+  "updatedAt": "2026-08-29T21:40:23.245Z"
 }

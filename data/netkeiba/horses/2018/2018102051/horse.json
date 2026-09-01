@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102051",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102051/",
-  "profile": null,
+  "profile": {
+    "name": "エルニド",
+    "birthDate": "2018-03-22",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2010105865",
+      "name": "スイートメドゥーサ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1403,6 +1433,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルニド (El Nido) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルニド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルニド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1472,9 +1532,9 @@
       "contentHash": "95b4a71050ded32ad6c54a84ed1e208a01c68dc6821f6d99ba4222078e27e07e",
       "byteLength": 64555,
       "rawPath": "netkeiba/horses/2018/2018102051/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:39:16.146Z"
+  "updatedAt": "2026-08-27T22:46:18.265Z"
 }

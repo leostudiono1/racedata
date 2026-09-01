@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011102532",
   "sourceUrl": "https://db.netkeiba.com/horse/2011102532/",
-  "profile": null,
+  "profile": {
+    "name": "アルテ",
+    "birthDate": "2011-04-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05647",
+      "name": "石井勝男"
+    },
+    "owner": {
+      "id": "x00041",
+      "name": "竹内利子"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "1998104934",
+      "name": "ダイヤモンドクイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラムタラ Lammtarra(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -4435,6 +4465,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルテ (Arte) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4504,9 +4564,9 @@
       "contentHash": "035f1ab118dddf9c732a24efffd4f214cdbbc750973626f893e4c0a44a694f3c",
       "byteLength": 66737,
       "rawPath": "netkeiba/horses/2011/2011102532/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:07:07.244Z"
+  "updatedAt": "2026-08-26T23:12:51.934Z"
 }

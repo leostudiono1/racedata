@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101014",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101014/",
-  "profile": null,
+  "profile": {
+    "name": "キャロライン",
+    "birthDate": "2012-04-03",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "599030",
+      "name": "北畑忍"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2003105704",
+      "name": "キルシュワッサー"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -2382,6 +2412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャロライン (Caroline) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャロライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャロライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2451,9 +2511,9 @@
       "contentHash": "df6c171f825e2c1da89297210fb0e2dd7ee725af70cfb61540a42cebae589c88",
       "byteLength": 64553,
       "rawPath": "netkeiba/horses/2012/2012101014/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:43:23.500Z"
+  "updatedAt": "2026-08-25T23:50:46.561Z"
 }

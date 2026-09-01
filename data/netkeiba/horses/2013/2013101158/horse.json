@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101158",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101158/",
-  "profile": null,
+  "profile": {
+    "name": "ストレイン",
+    "birthDate": "2013-04-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05601",
+      "name": "東眞市"
+    },
+    "owner": {
+      "id": "730030",
+      "name": "浜崎洋"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "オールザチャット All the Chat(新)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Westminster"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3799,6 +3829,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストレイン (Strain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストレイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストレイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3868,9 +3928,9 @@
       "contentHash": "eedffc722e450719865171d7538939306da18df2f4c858812c652a9a9b0f887e",
       "byteLength": 64613,
       "rawPath": "netkeiba/horses/2013/2013101158/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:47:39.079Z"
+  "updatedAt": "2026-08-25T23:55:02.003Z"
 }

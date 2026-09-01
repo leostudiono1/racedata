@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105367",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105367/",
-  "profile": null,
+  "profile": {
+    "name": "ドット",
+    "birthDate": "2019-04-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05785",
+      "name": "工藤真司"
+    },
+    "owner": {
+      "id": "178033",
+      "name": "山口正行"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2002106092",
+      "name": "ピサノグラフ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2382,6 +2412,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドット (Dot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2451,9 +2511,9 @@
       "contentHash": "ade2c0dbd70dcdee6df080afdc3fad6abe2008a349af7ff7d51b3a7fb708a9c5",
       "byteLength": 65099,
       "rawPath": "netkeiba/horses/2019/2019105367/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:24:47.338Z"
+  "updatedAt": "2026-08-28T22:28:25.877Z"
 }

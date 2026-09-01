@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100612",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100612/",
-  "profile": null,
+  "profile": {
+    "name": "セロリ",
+    "birthDate": "2021-04-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05368",
+      "name": "櫻井今朝"
+    },
+    "owner": {
+      "id": "133031",
+      "name": "山口謙太郎"
+    },
+    "breeder": {
+      "id": "300049",
+      "name": "大島牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "2006100245",
+      "name": "シシャモチャン"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -5169,6 +5199,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セロリ (Celery) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セロリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セロリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5238,9 +5298,9 @@
       "contentHash": "7850ae3984486e362b97ef03579c7a8b9a1bfa44621ab30ef2b14e7f9e622407",
       "byteLength": 66659,
       "rawPath": "netkeiba/horses/2021/2021100612/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:37:04.428Z"
+  "updatedAt": "2026-08-30T21:42:42.249Z"
 }

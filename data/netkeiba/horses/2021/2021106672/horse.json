@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106672",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106672/",
-  "profile": null,
+  "profile": {
+    "name": "ノルン",
+    "birthDate": "2021-02-11",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "547800",
+      "name": "ヒダカ・ブリーダーズ・ユニオン"
+    },
+    "breeder": {
+      "id": "000541",
+      "name": "ハクレイファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2013105803",
+      "name": "ウルド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1470,6 +1500,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノルン (Norn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノルン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノルン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1539,9 +1599,9 @@
       "contentHash": "62c5d179edec4fb5aba2dd43a231237eaf85f5cf80a5866d4875260100efaf46",
       "byteLength": 65167,
       "rawPath": "netkeiba/horses/2021/2021106672/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:41:05.938Z"
+  "updatedAt": "2026-08-30T21:46:43.570Z"
 }

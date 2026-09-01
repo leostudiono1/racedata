@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104630",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104630/",
-  "profile": null,
+  "profile": {
+    "name": "ラクロワ",
+    "birthDate": "2012-03-18",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01117",
+      "name": "高野友和"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2003102813",
+      "name": "サンヴィクトワール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1329,6 +1359,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラクロワ (La Croix) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラクロワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラクロワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1398,9 +1458,9 @@
       "contentHash": "e78675b67f83587d4aab6e9371b64548e7feaf7ab95ff2e7d0f6f5270e9f2075",
       "byteLength": 65663,
       "rawPath": "netkeiba/horses/2012/2012104630/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T23:54:23.010Z"
+  "updatedAt": "2026-08-28T21:58:01.905Z"
 }

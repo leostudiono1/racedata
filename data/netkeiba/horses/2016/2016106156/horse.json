@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106156",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106156/",
-  "profile": null,
+  "profile": {
+    "name": "アペルタ",
+    "birthDate": "2016-03-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "601033",
+      "name": "酒井喜生"
+    },
+    "breeder": {
+      "id": "303300",
+      "name": "畠山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2011103976",
+      "name": "ポワティエ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Le Havre"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1153,6 +1183,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アペルタ (Aperta) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アペルタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アペルタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1222,9 +1282,9 @@
       "contentHash": "e63e6a792318bc5673c8e241f249c38045b31bf2682028e53303730dc7186a85",
       "byteLength": 64843,
       "rawPath": "netkeiba/horses/2016/2016106156/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T00:32:58.022Z"
+  "updatedAt": "2026-08-27T22:39:59.898Z"
 }

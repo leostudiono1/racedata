@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105453",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105453/",
-  "profile": null,
+  "profile": {
+    "name": "エラン",
+    "birthDate": "2021-03-05",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01191",
+      "name": "蛯名正義"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2010104137",
+      "name": "オーキッドレイ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -3051,6 +3081,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エラン (Elan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3120,9 +3180,9 @@
       "contentHash": "438fee78a2c13074f72bdacfa0278abd75a5b2bae6f1f29de4f34f9880af7785",
       "byteLength": 66834,
       "rawPath": "netkeiba/horses/2021/2021105453/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:50:35.579Z"
+  "updatedAt": "2026-08-26T23:56:20.353Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102524",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102524/",
-  "profile": null,
+  "profile": {
+    "name": "グリニカ",
+    "birthDate": "2014-03-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "城地俊光"
+    },
+    "owner": {
+      "id": "x09393",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "2000106791",
+      "name": "クロニカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Broad Brush"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -5346,6 +5376,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリニカ (Glienicker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリニカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリニカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5415,9 +5475,9 @@
       "contentHash": "d78d77176b72246c7c8691a6ec37bd40b16473d5eed23327d7593c4026c119d9",
       "byteLength": 64840,
       "rawPath": "netkeiba/horses/2014/2014102524/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:27:46.234Z"
+  "updatedAt": "2026-08-24T03:32:56.101Z"
 }

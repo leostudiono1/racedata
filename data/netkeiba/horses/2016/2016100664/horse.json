@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100664",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100664/",
-  "profile": null,
+  "profile": {
+    "name": "プカナラ",
+    "birthDate": "2016-03-29",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "500319",
+      "name": "平山牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2006110089",
+      "name": "クリニエルドゥオル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2210,6 +2240,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プカナラ (Pukana La) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プカナラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プカナラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2279,9 +2339,9 @@
       "contentHash": "837fd62a4730b7706e3d675ea4154898332bfee41a525a0cae05a6ee634e2ce2",
       "byteLength": 66431,
       "rawPath": "netkeiba/horses/2016/2016100664/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:35:14.391Z"
+  "updatedAt": "2026-08-24T03:40:24.316Z"
 }

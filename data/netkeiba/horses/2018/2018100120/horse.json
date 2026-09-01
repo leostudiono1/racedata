@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100120",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100120/",
-  "profile": null,
+  "profile": {
+    "name": "ゲストプリンシパル",
+    "birthDate": "2018-05-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "a00021",
+      "name": "大黒富美子"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "1997110296",
+      "name": "ティエッチグレース"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Capote"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -7429,6 +7459,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゲストプリンシパル (Guest Principal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲストプリンシパル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゲストプリンシパル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7498,9 +7558,9 @@
       "contentHash": "db0a34a0da983978ac8e941e6f265554d8f14521fffb2ae676ecfe83693565da",
       "byteLength": 67277,
       "rawPath": "netkeiba/horses/2018/2018100120/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:08:46.800Z"
+  "updatedAt": "2026-08-26T00:16:09.345Z"
 }

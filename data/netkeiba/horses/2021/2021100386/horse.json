@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100386",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100386/",
-  "profile": null,
+  "profile": {
+    "name": "ポッピン",
+    "birthDate": "2021-01-30",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05709",
+      "name": "千葉博次"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "803028",
+      "name": "幌村牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012110091",
+      "name": "モーニン"
+    },
+    "dam": {
+      "id": "2016101361",
+      "name": "ミカエリビジン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012110091",
@@ -3428,6 +3458,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポッピン (Poppin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッピン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポッピン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3497,9 +3557,9 @@
       "contentHash": "5b96c8c0bfee2351f230a0762a5f950c63ea39ae792a13b42f05ca2e880f766b",
       "byteLength": 65480,
       "rawPath": "netkeiba/horses/2021/2021100386/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:47:33.554Z"
+  "updatedAt": "2026-08-26T23:53:18.210Z"
 }

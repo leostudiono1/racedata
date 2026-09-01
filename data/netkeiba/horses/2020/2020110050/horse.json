@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110050",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110050/",
-  "profile": null,
+  "profile": {
+    "name": "アブストゥルース",
+    "birthDate": "2020-02-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "x0b74b",
+      "name": "服部知明"
+    },
+    "breeder": {
+      "id": "400736",
+      "name": "J. C. Bloodstock"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Churchill (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Candiland"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1961,6 +1991,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アブストゥルース (Abstruse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アブストゥルース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アブストゥルース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2030,9 +2090,9 @@
       "contentHash": "33fae60820bf8ab0a334294907e238108c37da12f2e13d6c78f5c4614c270e44",
       "byteLength": 64900,
       "rawPath": "netkeiba/horses/2020/2020110050/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:52:46.708Z"
+  "updatedAt": "2026-08-25T03:04:56.195Z"
 }

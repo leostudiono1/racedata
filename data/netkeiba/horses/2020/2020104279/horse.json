@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104279",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104279/",
-  "profile": null,
+  "profile": {
+    "name": "ゴーギャン",
+    "birthDate": "2020-01-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05357",
+      "name": "植松則幸"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "803080",
+      "name": "静内ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2012103917",
+      "name": "ホザンナ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -3222,6 +3252,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴーギャン (Gauguin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴーギャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴーギャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3291,9 +3351,9 @@
       "contentHash": "837b34ad9ed7edb2edfbf423d7731cf9225dbb1c232d46921b2dea933d7439ab",
       "byteLength": 66280,
       "rawPath": "netkeiba/horses/2020/2020104279/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:55:28.753Z"
+  "updatedAt": "2026-08-29T21:59:07.121Z"
 }

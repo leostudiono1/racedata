@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104305",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104305/",
-  "profile": null,
+  "profile": {
+    "name": "エクリュ",
+    "birthDate": "2023-04-13",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01214",
+      "name": "井上智史"
+    },
+    "owner": {
+      "id": "008803",
+      "name": "原禮子"
+    },
+    "breeder": {
+      "id": "400314",
+      "name": "長浜牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2014104314",
+      "name": "ファミーユボヌール"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1462,6 +1492,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エクリュ (Ecru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクリュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクリュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1531,9 +1591,9 @@
       "contentHash": "7eebac9ad0bd7c487e1cafd4d246584b54b2e410aae85de789a82dc0d06637a3",
       "byteLength": 66974,
       "rawPath": "netkeiba/horses/2023/2023104305/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T01:03:01.142Z"
+  "updatedAt": "2026-08-27T23:10:02.823Z"
 }

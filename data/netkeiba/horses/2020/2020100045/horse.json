@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100045",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100045/",
-  "profile": null,
+  "profile": {
+    "name": "キラータイトル",
+    "birthDate": "2020-04-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05235",
+      "name": "金田一昌"
+    },
+    "owner": {
+      "id": "x029d6",
+      "name": "中田了也"
+    },
+    "breeder": {
+      "id": "633093",
+      "name": "沖田忠幸"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2010101562",
+      "name": "マリアベール"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2558,6 +2588,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キラータイトル (Killer Title) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラータイトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キラータイトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2627,9 +2687,9 @@
       "contentHash": "8f068e3314d6b2c5efd68b89f538473943998d524546a4d98711ccf8f3e53532",
       "byteLength": 66814,
       "rawPath": "netkeiba/horses/2020/2020100045/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T00:25:53.745Z"
+  "updatedAt": "2026-08-28T22:29:32.477Z"
 }

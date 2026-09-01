@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015106406",
   "sourceUrl": "https://db.netkeiba.com/horse/2015106406/",
-  "profile": null,
+  "profile": {
+    "name": "カラン",
+    "birthDate": "2015-04-16",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "940017",
+      "name": "絵笛牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハードスパン Hard Spun(米)"
+    },
+    "dam": {
+      "id": "1999110012",
+      "name": "コッコレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Carson City"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1161,6 +1191,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カラン (Calin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1230,9 +1290,9 @@
       "contentHash": "4ff43648ca3bcd22711952bf02d5849e05177c6c0d4a1c531c7240ba006d1a69",
       "byteLength": 66633,
       "rawPath": "netkeiba/horses/2015/2015106406/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:32:17.685Z"
+  "updatedAt": "2026-08-25T02:44:27.218Z"
 }

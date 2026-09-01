@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105941",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105941/",
-  "profile": null,
+  "profile": {
+    "name": "カフジムーン",
+    "birthDate": "2012-03-13",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01057",
+      "name": "湯窪幸雄"
+    },
+    "owner": {
+      "id": "019004",
+      "name": "加藤守"
+    },
+    "breeder": {
+      "id": "630047",
+      "name": "猿橋義昭"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2003109114",
+      "name": "タツグレース"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -1427,6 +1457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフジムーン (Kafuji Moon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジムーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジムーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1496,9 +1556,9 @@
       "contentHash": "8fb010a30196018a1d00506d14b39c224e71724363994673cf58aacbfe7ce96b",
       "byteLength": 64741,
       "rawPath": "netkeiba/horses/2012/2012105941/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T23:21:34.278Z"
+  "updatedAt": "2026-08-29T21:25:13.460Z"
 }

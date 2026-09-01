@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101423",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101423/",
-  "profile": null,
+  "profile": {
+    "name": "カチグミ",
+    "birthDate": "2019-03-31",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "742030",
+      "name": "加藤利美"
+    },
+    "breeder": {
+      "id": "133348",
+      "name": "加藤牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "2008105381",
+      "name": "マイウィン"
+    },
+    "damsire": {
+      "id": "1999100226",
+      "name": "タニノギムレット"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -1651,6 +1681,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カチグミ (Kachigumi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カチグミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カチグミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1720,9 +1780,9 @@
       "contentHash": "de1541d051df1e2c20b15a93a87cfe3a9d38cbb51b61d186d8f5da55ba866d99",
       "byteLength": 64769,
       "rawPath": "netkeiba/horses/2019/2019101423/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:28:22.750Z"
+  "updatedAt": "2026-08-30T21:34:00.420Z"
 }

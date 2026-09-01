@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101085",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101085/",
-  "profile": null,
+  "profile": {
+    "name": "デスサイズ",
+    "birthDate": "2023-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01171",
+      "name": "小手川準"
+    },
+    "owner": {
+      "id": "965800",
+      "name": "東豊物産"
+    },
+    "breeder": {
+      "id": "733393",
+      "name": "竹島幸治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "シスキン Siskin(米)"
+    },
+    "dam": {
+      "id": "2012103720",
+      "name": "トーホウハニー"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1505,6 +1535,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デスサイズ (Deathscythe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デスサイズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デスサイズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1574,9 +1634,9 @@
       "contentHash": "3fcd70a788d44fa94ddb3989811b3bd930dc759945002d21e3064d2964dcfbdd",
       "byteLength": 67087,
       "rawPath": "netkeiba/horses/2023/2023101085/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T01:57:32.427Z"
+  "updatedAt": "2026-08-27T00:03:17.024Z"
 }

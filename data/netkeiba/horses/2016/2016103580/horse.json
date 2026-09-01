@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103580",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103580/",
-  "profile": null,
+  "profile": {
+    "name": "エスクリトーラス",
+    "birthDate": "2016-04-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05106",
+      "name": "真島元徳"
+    },
+    "owner": {
+      "id": "446006",
+      "name": "加藤厚子"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "2010100682",
+      "name": "ミスマープル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sinndar (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1510,6 +1540,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスクリトーラス (Escritoras) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスクリトーラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスクリトーラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1579,9 +1639,9 @@
       "contentHash": "0f871a353b96cc76a8191c4e27c331ad225e2db36d98252c608a4f010684c334",
       "byteLength": 64678,
       "rawPath": "netkeiba/horses/2016/2016103580/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T05:36:45.376Z"
+  "updatedAt": "2026-08-24T03:41:55.241Z"
 }

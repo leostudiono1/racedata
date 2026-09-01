@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101133",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101133/",
-  "profile": null,
+  "profile": {
+    "name": "トーセングリーム",
+    "birthDate": "2015-02-18",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009106085",
+      "name": "トーセンロレンス"
+    },
+    "dam": {
+      "id": "2007103369",
+      "name": "トーセンモアムード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106085",
@@ -1027,6 +1057,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセングリーム (Tosen Gleam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセングリーム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセングリーム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1096,9 +1156,9 @@
       "contentHash": "063094177ecbdfc87aa6478774bd6d556def3f3722a26d19fc2034d7f3c13615",
       "byteLength": 64721,
       "rawPath": "netkeiba/horses/2015/2015101133/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T04:28:54.655Z"
+  "updatedAt": "2026-08-25T02:41:04.525Z"
 }

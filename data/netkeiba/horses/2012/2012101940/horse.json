@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101940",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101940/",
-  "profile": null,
+  "profile": {
+    "name": "ビックマウンテン",
+    "birthDate": "2012-03-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01138",
+      "name": "浜田多実"
+    },
+    "owner": {
+      "id": "405800",
+      "name": "槇本牧場"
+    },
+    "breeder": {
+      "id": "203329",
+      "name": "槇本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2002106777",
+      "name": "シュヴァルツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ディアブロ Diablo(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1269,6 +1299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビックマウンテン (Big Mountain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビックマウンテン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビックマウンテン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1338,9 +1398,9 @@
       "contentHash": "8b19d96171c01ef3b230fe148bead083edb62f1a23698f9f3f9a93e075d2749b",
       "byteLength": 64774,
       "rawPath": "netkeiba/horses/2012/2012101940/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T01:43:51.599Z"
+  "updatedAt": "2026-08-25T23:51:14.348Z"
 }

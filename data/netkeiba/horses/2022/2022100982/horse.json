@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100982",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100982/",
-  "profile": null,
+  "profile": {
+    "name": "カナールドーロ",
+    "birthDate": "2022-04-16",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05775",
+      "name": "石橋満"
+    },
+    "owner": {
+      "id": "520031",
+      "name": "福盛訓之"
+    },
+    "breeder": {
+      "id": "813064",
+      "name": "元道牧場"
+    },
+    "birthplace": "新ひだか",
+    "sire": {
+      "id": "000",
+      "name": "エスケンデレヤ"
+    },
+    "dam": {
+      "id": "2005110171",
+      "name": "エーシンブイムード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Malibu Moon"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2509,6 +2539,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カナールドーロ (Canal d'Oro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カナールドーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カナールドーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2578,9 +2638,9 @@
       "contentHash": "10cb7cca5e50649994c90b2e04c48189e92535501351592a0fdad20fb8582e13",
       "byteLength": 66930,
       "rawPath": "netkeiba/horses/2022/2022100982/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:41:48.117Z"
+  "updatedAt": "2026-08-30T21:47:25.657Z"
 }

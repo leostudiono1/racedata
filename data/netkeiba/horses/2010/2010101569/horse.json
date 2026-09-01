@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101569",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101569/",
-  "profile": null,
+  "profile": {
+    "name": "キクノソル",
+    "birthDate": "2010-05-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05768",
+      "name": "田中一巧"
+    },
+    "owner": {
+      "id": "372002",
+      "name": "菊池五郎"
+    },
+    "breeder": {
+      "id": "133028",
+      "name": "フクダファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "1999104906",
+      "name": "キクノジェニー"
+    },
+    "damsire": {
+      "id": "1992109450",
+      "name": "ジェニュイン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -6558,6 +6588,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キクノソル (Kikuno Sol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キクノソル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キクノソル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6627,9 +6687,9 @@
       "contentHash": "ba84b3c4091796b1df8989845eb1350a41ce3f1e1eac7ef9d49e4cba5d25ebba",
       "byteLength": 66876,
       "rawPath": "netkeiba/horses/2010/2010101569/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T22:55:31.472Z"
+  "updatedAt": "2026-08-30T21:01:09.319Z"
 }

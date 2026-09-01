@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102552",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102552/",
-  "profile": null,
+  "profile": {
+    "name": "クドシュ",
+    "birthDate": "2016-03-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05217",
+      "name": "佐々木由"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "410053",
+      "name": "中神牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2004110257",
+      "name": "サザンウェルズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -2888,6 +2918,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クドシュ (Qadesh) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クドシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クドシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2957,9 +3017,9 @@
       "contentHash": "ec860d808d13c278137d86643d1c83efe2090f248b6d24ae68d16da0c921d39e",
       "byteLength": 64998,
       "rawPath": "netkeiba/horses/2016/2016102552/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T02:01:11.800Z"
+  "updatedAt": "2026-08-26T00:08:34.184Z"
 }

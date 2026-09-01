@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110154",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110154/",
-  "profile": null,
+  "profile": {
+    "name": "エヴァキュアン",
+    "birthDate": "2016-05-05",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "944030",
+      "name": "加藤誠"
+    },
+    "breeder": {
+      "id": "470731",
+      "name": "Godolphin"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Street Boss"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ever So"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3360,6 +3390,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エヴァキュアン (Evacuant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エヴァキュアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エヴァキュアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3429,9 +3489,9 @@
       "contentHash": "171d690ed5dec1c6f14905fd1d943e6edb2b6b3a96b4935f17d24e8e3c8efcff",
       "byteLength": 65786,
       "rawPath": "netkeiba/horses/2016/2016110154/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T23:18:41.609Z"
+  "updatedAt": "2026-08-30T21:24:19.249Z"
 }
