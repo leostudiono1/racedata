@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102974",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102974/",
-  "profile": null,
+  "profile": {
+    "name": "スリーローズ",
+    "birthDate": "2022-03-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "x060ce",
+      "name": "永井商事（株）"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2004104345",
+      "name": "スズカコーズウェイ"
+    },
+    "dam": {
+      "id": "2015104709",
+      "name": "スズカクイーン"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2004104345",
@@ -2633,6 +2663,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スリーローズ (Three Rose) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーローズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スリーローズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2702,9 +2762,9 @@
       "contentHash": "65f3a946d4f4c8700d27273110dac432ea939d7208019705d490059c2fa5047b",
       "byteLength": 64985,
       "rawPath": "netkeiba/horses/2022/2022102974/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:13:23.768Z"
+  "updatedAt": "2026-08-29T10:21:21.116Z"
 }

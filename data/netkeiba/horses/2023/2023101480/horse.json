@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101480",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101480/",
-  "profile": null,
+  "profile": {
+    "name": "ヒリュウ",
+    "birthDate": "2023-03-29",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01154",
+      "name": "橋口慎介"
+    },
+    "owner": {
+      "id": "855031",
+      "name": "迫田三果子"
+    },
+    "breeder": {
+      "id": "413329",
+      "name": "前野牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ブリックスアンドモルタル Bricks and Mortar(米)"
+    },
+    "dam": {
+      "id": "2018105142",
+      "name": "ヒシエレノア"
+    },
+    "damsire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1120,6 +1150,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒリュウ (Hiryu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒリュウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒリュウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1189,9 +1249,9 @@
       "contentHash": "9564f9552683af7a9764a4b6082adba61af90313be1a92768d4a022b3f997e9b",
       "byteLength": 64632,
       "rawPath": "netkeiba/horses/2023/2023101480/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:11:08.284Z"
+  "updatedAt": "2026-08-26T12:13:58.007Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106303",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106303/",
-  "profile": null,
+  "profile": {
+    "name": "イネフェイブル",
+    "birthDate": "2020-04-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中伸一"
+    },
+    "owner": {
+      "id": "024031",
+      "name": "小菅誠"
+    },
+    "breeder": {
+      "id": "940031",
+      "name": "大柳ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "2006110087",
+      "name": "タッチアス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -1726,6 +1756,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イネフェイブル (Ineffable) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イネフェイブル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イネフェイブル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1795,9 +1855,9 @@
       "contentHash": "2b99cc53401cb4777f12ee80051e54667839d004662557334364becbed20dce8",
       "byteLength": 65385,
       "rawPath": "netkeiba/horses/2020/2020106303/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:26:05.290Z"
+  "updatedAt": "2026-08-24T15:34:52.088Z"
 }

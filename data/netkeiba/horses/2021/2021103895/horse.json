@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103895",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103895/",
-  "profile": null,
+  "profile": {
+    "name": "ショウナンハルク",
+    "birthDate": "2021-03-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "331002",
+      "name": "国本哲秀"
+    },
+    "breeder": {
+      "id": "803080",
+      "name": "静内ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2012110081",
+      "name": "ショウナンアイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Northern Afleet"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1377,6 +1407,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショウナンハルク (Shonan Hulk) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウナンハルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウナンハルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1446,9 +1506,9 @@
       "contentHash": "9690ce7a524486889da2130965b8c984ab5f08e99a82d883cdfd31adc3ce1627",
       "byteLength": 66700,
       "rawPath": "netkeiba/horses/2021/2021103895/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:16:11.513Z"
+  "updatedAt": "2026-08-27T11:27:25.296Z"
 }

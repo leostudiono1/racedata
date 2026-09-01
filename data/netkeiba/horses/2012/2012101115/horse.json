@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101115",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101115/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンハイアー",
+    "birthDate": "2012-04-11",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "00433",
+      "name": "成島英春"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "1997100132",
+      "name": "ニシノマリア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Take Me Out"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1269,6 +1299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンハイアー (Tosen Higher) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンハイアー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンハイアー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1338,9 +1398,9 @@
       "contentHash": "18b39cac00084467c4dc91fc2e43c27ee403128fb0ddc8293785263e3ef9a3b7",
       "byteLength": 65602,
       "rawPath": "netkeiba/horses/2012/2012101115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:21:32.137Z"
+  "updatedAt": "2026-08-26T11:24:22.138Z"
 }

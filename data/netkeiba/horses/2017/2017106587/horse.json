@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106587",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106587/",
-  "profile": null,
+  "profile": {
+    "name": "ベスティア",
+    "birthDate": "2017-04-05",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01133",
+      "name": "黒岩陽一"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102923",
+      "name": "ヴィクトワールピサ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タッチII Touch(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pulpit"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102923",
@@ -1344,6 +1374,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベスティア (Bestia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベスティア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベスティア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1413,9 +1473,9 @@
       "contentHash": "05406cac7b8a5ecc14f3d2a04ce95db043ddd8fdc42f0aaec50067f84f954ed3",
       "byteLength": 65703,
       "rawPath": "netkeiba/horses/2017/2017106587/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:46:30.706Z"
+  "updatedAt": "2026-08-26T11:49:20.540Z"
 }

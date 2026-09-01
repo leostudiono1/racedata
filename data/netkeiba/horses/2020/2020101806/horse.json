@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101806",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101806/",
-  "profile": null,
+  "profile": {
+    "name": "ツクヨミ",
+    "birthDate": "2020-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤祐司"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2007105711",
+      "name": "サンデーミューズ"
+    },
+    "damsire": {
+      "id": "2000190010",
+      "name": "アルカセット Alkaased(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -4432,6 +4462,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ツクヨミ (Tsukuyomi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ツクヨミ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ツクヨミ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4501,9 +4561,9 @@
       "contentHash": "0dfd985cab95814bf65646dfa6fc9591c61d1edcc7dcbdfaf82f13573b876f49",
       "byteLength": 66782,
       "rawPath": "netkeiba/horses/2020/2020101806/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:10:35.561Z"
+  "updatedAt": "2026-08-27T11:21:49.175Z"
 }

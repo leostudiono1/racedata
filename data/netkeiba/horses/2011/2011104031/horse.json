@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011104031",
   "sourceUrl": "https://db.netkeiba.com/horse/2011104031/",
-  "profile": null,
+  "profile": {
+    "name": "テスタメント",
+    "birthDate": "2011-04-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "016008",
+      "name": "田原邦男"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2005102480",
+      "name": "ブラックエンブレム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3569,6 +3599,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テスタメント (Testament) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テスタメント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テスタメント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3638,9 +3698,9 @@
       "contentHash": "83cbb864022394a651ac8c54dbb5a129bab16ce3eb130d518ed9d3a4c18fc37a",
       "byteLength": 66962,
       "rawPath": "netkeiba/horses/2011/2011104031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:20:11.651Z"
+  "updatedAt": "2026-08-26T11:23:01.519Z"
 }

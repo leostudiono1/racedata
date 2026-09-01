@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103922",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103922/",
-  "profile": null,
+  "profile": {
+    "name": "デビル",
+    "birthDate": "2011-03-10",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "1995107892",
+      "name": "スプリットザナイト"
+    },
+    "damsire": {
+      "id": "1983109006",
+      "name": "トニービン Tony Bin(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2006,6 +2036,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デビル (Devil) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デビル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デビル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2075,9 +2135,9 @@
       "contentHash": "a1399216f36c1a8a553ac2b91e2709195b541f67cd82aa20edc0bf45b19ae286",
       "byteLength": 64451,
       "rawPath": "netkeiba/horses/2011/2011103922/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:27:21.179Z"
+  "updatedAt": "2026-08-29T09:35:18.661Z"
 }

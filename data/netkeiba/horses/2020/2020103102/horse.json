@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103102",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103102/",
-  "profile": null,
+  "profile": {
+    "name": "セオ",
+    "birthDate": "2020-03-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01213",
+      "name": "秋本大介"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2009105961",
+      "name": "スピルバーグ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ルーラ Lulla(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Oasis Dream (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105961",
@@ -3285,6 +3315,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セオ (Theo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3354,9 +3414,9 @@
       "contentHash": "5681bd18ae0a0db5944f0335f71d88e2acad9cc9c9abaf794395fe56319d8892",
       "byteLength": 66802,
       "rawPath": "netkeiba/horses/2020/2020103102/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:38:06.701Z"
+  "updatedAt": "2026-08-28T10:43:51.321Z"
 }

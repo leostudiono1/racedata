@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101779",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101779/",
-  "profile": null,
+  "profile": {
+    "name": "アイリスフィール",
+    "birthDate": "2016-04-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01020",
+      "name": "相沢郁"
+    },
+    "owner": {
+      "id": "361800",
+      "name": "杵臼牧場"
+    },
+    "breeder": {
+      "id": "400032",
+      "name": "杵臼牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2008101431",
+      "name": "シルクアイリス"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1435,6 +1465,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイリスフィール (Iris Feel) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリスフィール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイリスフィール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1504,9 +1564,9 @@
       "contentHash": "fa09f1a66c592cbb375262d4708214636d505fe2c3f048c3681576142879168c",
       "byteLength": 67138,
       "rawPath": "netkeiba/horses/2016/2016101779/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:53:47.198Z"
+  "updatedAt": "2026-08-27T11:05:01.014Z"
 }

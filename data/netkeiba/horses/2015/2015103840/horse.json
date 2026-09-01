@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103840",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103840/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウガッテン",
+    "birthDate": "2015-03-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01139",
+      "name": "飯田祐史"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "310056",
+      "name": "村中牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "トビーズコーナー Toby's Corner(米)"
+    },
+    "dam": {
+      "id": "1999105923",
+      "name": "スターペスキサコ"
+    },
+    "damsire": {
+      "id": "1987107235",
+      "name": "メジロマックイーン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1335,6 +1365,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウガッテン (Meisho Gatten) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウガッテン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウガッテン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1404,9 +1464,9 @@
       "contentHash": "098b0e1bf8931c8b55c707863e8071aa73c029bf461480f7a81374c089c18dbb",
       "byteLength": 65052,
       "rawPath": "netkeiba/horses/2015/2015103840/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:02:58.793Z"
+  "updatedAt": "2026-08-24T15:11:45.745Z"
 }

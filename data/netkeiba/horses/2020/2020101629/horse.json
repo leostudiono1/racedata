@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101629",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101629/",
-  "profile": null,
+  "profile": {
+    "name": "シーガーディアン",
+    "birthDate": "2020-04-16",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05758",
+      "name": "小国博行"
+    },
+    "owner": {
+      "id": "686006",
+      "name": "平井裕"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011101273",
+      "name": "エイシンヒカリ"
+    },
+    "dam": {
+      "id": "2004101768",
+      "name": "サラトガ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011101273",
@@ -1652,6 +1682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シーガーディアン (Sea Guardian) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーガーディアン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シーガーディアン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1721,9 +1781,9 @@
       "contentHash": "0e63010eccea2f52e8f684018cb7cb556e3d614efc7ae6d886489f5da1ca7731",
       "byteLength": 66981,
       "rawPath": "netkeiba/horses/2020/2020101629/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:57:07.950Z"
+  "updatedAt": "2026-08-26T11:59:57.617Z"
 }

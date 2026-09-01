@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101671",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101671/",
-  "profile": null,
+  "profile": {
+    "name": "サンプルマン",
+    "birthDate": "2017-03-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島寿"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "910204",
+      "name": "中地義次"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011103975",
+      "name": "トゥザワールド"
+    },
+    "dam": {
+      "id": "1998107119",
+      "name": "ボンナターレ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103975",
@@ -2467,6 +2497,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンプルマン (Sun Pullman) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンプルマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンプルマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2536,9 +2596,9 @@
       "contentHash": "24655ea5fef9df0a1e891b57551d4bda7fa1891f09e210cdec11b9b239e072b2",
       "byteLength": 64398,
       "rawPath": "netkeiba/horses/2017/2017101671/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:43:46.186Z"
+  "updatedAt": "2026-08-26T11:46:36.022Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110070",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110070/",
-  "profile": null,
+  "profile": {
+    "name": "リモンディ",
+    "birthDate": "2014-09-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05623",
+      "name": "栗林徹治"
+    },
+    "owner": {
+      "id": "x0a247",
+      "name": "有馬久和"
+    },
+    "breeder": {
+      "id": "440888",
+      "name": "Ramsey Pastoral Co Pty Ltd"
+    },
+    "birthplace": "豪",
+    "sire": {
+      "id": "000",
+      "name": "More Than Ready"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Niagara Falls"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3556,6 +3586,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リモンディ (Rimondi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リモンディ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リモンディ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3625,9 +3685,9 @@
       "contentHash": "7924092f4e3a75763f1fc7d6899363a6243427a6574b7212858195e18aaa2966",
       "byteLength": 66826,
       "rawPath": "netkeiba/horses/2014/2014110070/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:12:33.535Z"
+  "updatedAt": "2026-08-30T09:16:26.023Z"
 }

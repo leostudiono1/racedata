@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100307",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100307/",
-  "profile": null,
+  "profile": {
+    "name": "キリミツ",
+    "birthDate": "2023-03-21",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01047",
+      "name": "勢司和浩"
+    },
+    "owner": {
+      "id": "603033",
+      "name": "木村廣太"
+    },
+    "breeder": {
+      "id": "301060",
+      "name": "本桐牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2015104189",
+      "name": "ルヴァンスレーヴ"
+    },
+    "dam": {
+      "id": "2009106077",
+      "name": "アペラシオン"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2015104189",
@@ -1687,6 +1717,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キリミツ (Kiri Mitsu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キリミツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キリミツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1756,9 +1816,9 @@
       "contentHash": "e554c197c0091e8c883284711c7b3559cff439e31d9a580a1f3def0b83d95c10",
       "byteLength": 67107,
       "rawPath": "netkeiba/horses/2023/2023100307/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:36:03.972Z"
+  "updatedAt": "2026-08-24T15:44:50.689Z"
 }

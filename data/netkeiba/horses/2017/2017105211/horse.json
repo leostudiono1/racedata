@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105211",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105211/",
-  "profile": null,
+  "profile": {
+    "name": "マスターワーク",
+    "birthDate": "2017-04-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "イグジビットワン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Hawk"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -1913,6 +1943,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マスターワーク (Masterwork) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスターワーク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マスターワーク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1982,9 +2042,9 @@
       "contentHash": "6850299c2db580ab59d4abfd4a45314ec554eacf3556d659bc1f12d9ace44261",
       "byteLength": 67535,
       "rawPath": "netkeiba/horses/2017/2017105211/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:25:09.378Z"
+  "updatedAt": "2026-08-28T10:30:54.421Z"
 }

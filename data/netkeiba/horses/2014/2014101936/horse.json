@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101936",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101936/",
-  "profile": null,
+  "profile": {
+    "name": "ブレーメン",
+    "birthDate": "2014-03-09",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    },
+    "dam": {
+      "id": "2005103150",
+      "name": "シャンパンフルート"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005190006",
@@ -3270,6 +3300,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブレーメン (Bremen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブレーメン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブレーメン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3339,9 +3399,9 @@
       "contentHash": "2c0b9862b352d60a2938ad801c90ba105a218d50fd608a827ad998d48e875ffc",
       "byteLength": 64412,
       "rawPath": "netkeiba/horses/2014/2014101936/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:10:48.150Z"
+  "updatedAt": "2026-08-28T10:16:32.892Z"
 }

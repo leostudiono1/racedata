@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103006",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103006/",
-  "profile": null,
+  "profile": {
+    "name": "モンタルジー",
+    "birthDate": "2016-06-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "910006",
+      "name": "伊達敏明"
+    },
+    "breeder": {
+      "id": "935496",
+      "name": "サンシャイン牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008100685",
+      "name": "スマートロビン"
+    },
+    "dam": {
+      "id": "2001106075",
+      "name": "オルレアン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008100685",
@@ -1326,6 +1356,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンタルジー (Montargis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンタルジー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンタルジー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1395,9 +1455,9 @@
       "contentHash": "06528986847a74871740d47624c7b0831bb4125f4907b5d606bcfa733ee84ccd",
       "byteLength": 64404,
       "rawPath": "netkeiba/horses/2016/2016103006/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:54:50.042Z"
+  "updatedAt": "2026-08-27T11:06:04.411Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100838",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100838/",
-  "profile": null,
+  "profile": {
+    "name": "ポンサン",
+    "birthDate": "2020-03-27",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00405",
+      "name": "小西一男"
+    },
+    "owner": {
+      "id": "028031",
+      "name": "天野克彦"
+    },
+    "breeder": {
+      "id": "810048",
+      "name": "高岸順一"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2001105375",
+      "name": "ラヴコマンダー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -2809,6 +2839,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポンサン (Ponsan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポンサン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポンサン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2878,9 +2938,9 @@
       "contentHash": "fa186884a2ebb2eef23073b619a56fd154d5d3858f8308b5d9207a003ada66da",
       "byteLength": 66773,
       "rawPath": "netkeiba/horses/2020/2020100838/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:02:42.724Z"
+  "updatedAt": "2026-08-29T10:10:40.431Z"
 }

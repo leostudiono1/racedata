@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101910",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101910/",
-  "profile": null,
+  "profile": {
+    "name": "ギミック",
+    "birthDate": "2012-03-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05181",
+      "name": "鈴木七郎"
+    },
+    "owner": {
+      "id": "x0304b",
+      "name": "吉田釀治"
+    },
+    "breeder": {
+      "id": "713325",
+      "name": "本間牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2002106746",
+      "name": "サララ"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -11146,6 +11176,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ギミック (Gimmick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギミック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ギミック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -11215,9 +11275,9 @@
       "contentHash": "8541bc9fdc8171b3dfa6123608db7addcd809d81984487299bf51c91a546deba",
       "byteLength": 64574,
       "rawPath": "netkeiba/horses/2012/2012101910/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:49:33.667Z"
+  "updatedAt": "2026-08-24T14:58:20.275Z"
 }

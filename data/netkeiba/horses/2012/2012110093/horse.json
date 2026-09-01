@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110093",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110093/",
-  "profile": null,
+  "profile": {
+    "name": "ランディングバース",
+    "birthDate": "2012-01-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01059",
+      "name": "加藤征弘"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "960702",
+      "name": "Joe Walkoviak & Gene Walkoviak"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Honest Man"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Meadowlanding"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Meadowlake"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2353,6 +2383,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランディングバース (Landing Birth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランディングバース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランディングバース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2422,9 +2482,9 @@
       "contentHash": "59f19233430306a8ab15554f35b4733d0d64bb6693c2eb612942ef88bec170cd",
       "byteLength": 67450,
       "rawPath": "netkeiba/horses/2012/2012110093/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:03:58.841Z"
+  "updatedAt": "2026-08-30T09:07:51.404Z"
 }

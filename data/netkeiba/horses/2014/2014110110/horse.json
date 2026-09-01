@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110110",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110110/",
-  "profile": null,
+  "profile": {
+    "name": "ファージンゲール",
+    "birthDate": "2014-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05302",
+      "name": "内田勝義"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "520708",
+      "name": "Kaz Hill Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Shackleford"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Royal Affection"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Vindication"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3156,6 +3186,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファージンゲール (Farthingale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファージンゲール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファージンゲール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3225,9 +3285,9 @@
       "contentHash": "90b495a8caa0a89ec059921e27738a4f7416cdd2b2d80777d8516e294cfc191f",
       "byteLength": 65908,
       "rawPath": "netkeiba/horses/2014/2014110110/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:12:37.040Z"
+  "updatedAt": "2026-08-30T09:16:29.623Z"
 }

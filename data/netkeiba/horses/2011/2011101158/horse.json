@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101158",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101158/",
-  "profile": null,
+  "profile": {
+    "name": "ブライティアスター",
+    "birthDate": "2011-05-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "531006",
+      "name": "小林昌志"
+    },
+    "breeder": {
+      "id": "910369",
+      "name": "雅牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1997105873",
+      "name": "ダイタクリーヴァ"
+    },
+    "dam": {
+      "id": "1989108544",
+      "name": "ストームサンデー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Storm Bird"
+    }
+  },
   "pedigree": [
     {
       "id": "1997105873",
@@ -3242,6 +3272,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライティアスター (Brightia Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライティアスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライティアスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3311,9 +3371,9 @@
       "contentHash": "c89eac7fdf988fe778d9fd955e3218cc71d3f43e191ed0570079bfec170ac38e",
       "byteLength": 66318,
       "rawPath": "netkeiba/horses/2011/2011101158/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:42:30.164Z"
+  "updatedAt": "2026-08-31T08:52:13.086Z"
 }

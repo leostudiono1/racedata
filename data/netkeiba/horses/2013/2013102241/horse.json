@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102241",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102241/",
-  "profile": null,
+  "profile": {
+    "name": "エレナバレー",
+    "birthDate": "2013-02-28",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "166033",
+      "name": "小濱忠一"
+    },
+    "breeder": {
+      "id": "013094",
+      "name": "片山牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006110007",
+      "name": "ブレイクランアウト"
+    },
+    "dam": {
+      "id": "2001110183",
+      "name": "ウェディングバレー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Peaks and Valleys"
+    }
+  },
   "pedigree": [
     {
       "id": "2006110007",
@@ -1498,6 +1528,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エレナバレー (Elena Valley) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレナバレー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エレナバレー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1567,9 +1627,9 @@
       "contentHash": "d2bd82340919dda05c71dbfa0d24205fff0014e8b91d05c7b08cb409b4090716",
       "byteLength": 65204,
       "rawPath": "netkeiba/horses/2013/2013102241/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:53:10.648Z"
+  "updatedAt": "2026-08-24T15:01:57.395Z"
 }

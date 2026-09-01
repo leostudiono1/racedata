@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100426",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100426/",
-  "profile": null,
+  "profile": {
+    "name": "マーブルヘイロー",
+    "birthDate": "2022-04-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "有馬澄男"
+    },
+    "owner": {
+      "id": "090006",
+      "name": "下村直"
+    },
+    "breeder": {
+      "id": "640052",
+      "name": "丸村村下ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106230",
+      "name": "カレンブラックヒル"
+    },
+    "dam": {
+      "id": "2008102262",
+      "name": "サニーヘイロー"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106230",
@@ -1662,6 +1692,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マーブルヘイロー (Marble Halo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーブルヘイロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーブルヘイロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1731,9 +1791,9 @@
       "contentHash": "465e6a92bd060d5a0e18f82180f6786458aeb50bc5506c5c49749b1dd8f62e9b",
       "byteLength": 64818,
       "rawPath": "netkeiba/horses/2022/2022100426/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:18:32.041Z"
+  "updatedAt": "2026-08-27T11:29:45.465Z"
 }

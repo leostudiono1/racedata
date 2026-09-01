@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102112",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102112/",
-  "profile": null,
+  "profile": {
+    "name": "エルゼロ",
+    "birthDate": "2013-04-22",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山崎裕也"
+    },
+    "owner": {
+      "id": "445030",
+      "name": "磯波勇"
+    },
+    "breeder": {
+      "id": "130318",
+      "name": "守矢牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2007101541",
+      "name": "ゴールドマッシモ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4539,6 +4569,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルゼロ (L Zero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルゼロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルゼロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4608,9 +4668,9 @@
       "contentHash": "219f8ed1011be67c6237dcbaa6a415904cf138bf9753eefbd87b7bbb8a7e54d7",
       "byteLength": 66838,
       "rawPath": "netkeiba/horses/2013/2013102112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:26:40.715Z"
+  "updatedAt": "2026-08-26T11:29:30.056Z"
 }

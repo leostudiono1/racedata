@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104899",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104899/",
-  "profile": null,
+  "profile": {
+    "name": "ハヤブサ",
+    "birthDate": "2018-01-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2003102923",
+      "name": "アドマイヤフッキー"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1186,6 +1216,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハヤブサ (Hayabusa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハヤブサ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハヤブサ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1255,9 +1315,9 @@
       "contentHash": "478c3956a774fef6111e2fc4173ec6904001474c8c64a4ddff0958d200c03ed5",
       "byteLength": 66539,
       "rawPath": "netkeiba/horses/2018/2018104899/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:50:28.999Z"
+  "updatedAt": "2026-08-26T11:53:18.575Z"
 }

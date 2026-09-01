@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106233",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106233/",
-  "profile": null,
+  "profile": {
+    "name": "ザッツクール",
+    "birthDate": "2014-03-21",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01103",
+      "name": "尾関知人"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "2008110125",
+      "name": "ルージュクール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Redoute's Choice"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -3533,6 +3563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ザッツクール (That's Cool) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザッツクール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ザッツクール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3602,9 +3662,9 @@
       "contentHash": "5196cbfda5c440cba0017dc7834303030a7c44eb3d25c5ad14f8a7e514ed3093",
       "byteLength": 66954,
       "rawPath": "netkeiba/horses/2014/2014106233/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:40:42.881Z"
+  "updatedAt": "2026-08-29T09:48:40.500Z"
 }

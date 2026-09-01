@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102919",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102919/",
-  "profile": null,
+  "profile": {
+    "name": "ホットロード",
+    "birthDate": "2012-05-02",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05005",
+      "name": "九日俊光"
+    },
+    "owner": {
+      "id": "x08d39",
+      "name": "上原純一"
+    },
+    "breeder": {
+      "id": "033078",
+      "name": "酒井秀紀"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2000105663",
+      "name": "フィクシャス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5208,6 +5238,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホットロード (Hot Road) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホットロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホットロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5277,9 +5337,9 @@
       "contentHash": "5ef2d9dcb9e682000f27998f23c99bb5bc17acb4106634aa9bf856fe3991f72a",
       "byteLength": 64766,
       "rawPath": "netkeiba/horses/2012/2012102919/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:30:09.014Z"
+  "updatedAt": "2026-08-29T09:38:06.784Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107537",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107537/",
-  "profile": null,
+  "profile": {
+    "name": "グリュック",
+    "birthDate": "2023-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "527031",
+      "name": "小濱正智"
+    },
+    "breeder": {
+      "id": "380714",
+      "name": "Virginia Moore & Terry & Beverly Steed"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Known Agenda (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Cateybug"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1841,6 +1871,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリュック (Gluck) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリュック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリュック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1910,9 +1970,9 @@
       "contentHash": "b9551f1729a193554c9bcf2eaa7f77a09d691c3ae00d16e13dca62a79ed06e76",
       "byteLength": 64967,
       "rawPath": "netkeiba/horses/2023/2023107537/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:26:28.675Z"
+  "updatedAt": "2026-08-25T14:35:50.100Z"
 }

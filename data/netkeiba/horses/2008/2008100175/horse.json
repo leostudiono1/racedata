@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2008100175",
   "sourceUrl": "https://db.netkeiba.com/horse/2008100175/",
-  "profile": null,
+  "profile": {
+    "name": "サンレイデューク",
+    "birthDate": "2008-03-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "382004",
+      "name": "永井啓弍"
+    },
+    "breeder": {
+      "id": "303074",
+      "name": "岡野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    },
+    "dam": {
+      "id": "1996104650",
+      "name": "サンレイククイン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cozzene"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106756",
@@ -4788,6 +4818,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンレイデューク (Sanrei Duke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンレイデューク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンレイデューク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4857,9 +4917,9 @@
       "contentHash": "03bca88f4429b320883f66198cc8093198c5f7d82db11bfdf503fee246fa3847",
       "byteLength": 67164,
       "rawPath": "netkeiba/horses/2008/2008100175/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:24:33.005Z"
+  "updatedAt": "2026-08-29T09:32:30.624Z"
 }

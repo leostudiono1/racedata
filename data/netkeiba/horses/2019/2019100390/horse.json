@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100390",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100390/",
-  "profile": null,
+  "profile": {
+    "name": "トラストベル",
+    "birthDate": "2019-05-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01027",
+      "name": "田村康仁"
+    },
+    "owner": {
+      "id": "767008",
+      "name": "菅波立知子"
+    },
+    "breeder": {
+      "id": "080543",
+      "name": "大作ステーブル"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2009102750",
+      "name": "ノーブルガイア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マリエンバード Marienbard(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -3091,6 +3121,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トラストベル (Trust Belle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラストベル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラストベル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3160,9 +3220,9 @@
       "contentHash": "041240a92d8be39e0e652ffaba85fb35db1594912a4a3c3dc2b4bd58ef549199",
       "byteLength": 66923,
       "rawPath": "netkeiba/horses/2019/2019100390/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:30:38.964Z"
+  "updatedAt": "2026-08-30T09:34:31.530Z"
 }

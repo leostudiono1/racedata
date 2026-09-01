@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104209",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104209/",
-  "profile": null,
+  "profile": {
+    "name": "サクラドロップ",
+    "birthDate": "2017-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05480",
+      "name": "田口輝彦"
+    },
+    "owner": {
+      "id": "554008",
+      "name": "吉田勝利"
+    },
+    "breeder": {
+      "id": "813308",
+      "name": "山田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2005100523",
+      "name": "サクラシンフォニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -1352,6 +1382,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サクラドロップ (Sakura Drop) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクラドロップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サクラドロップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1421,9 +1481,9 @@
       "contentHash": "ccf77b21793d4419a6b6f97d363ffe83a105d866597bf2fe3e5c4bf49d901529",
       "byteLength": 64684,
       "rawPath": "netkeiba/horses/2017/2017104209/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:11:40.452Z"
+  "updatedAt": "2026-08-24T15:20:27.271Z"
 }

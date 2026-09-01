@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100133",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100133/",
-  "profile": null,
+  "profile": {
+    "name": "プレシャス",
+    "birthDate": "2013-04-20",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05320",
+      "name": "小西重征"
+    },
+    "owner": {
+      "id": "933008",
+      "name": "小林弘明"
+    },
+    "breeder": {
+      "id": "201346",
+      "name": "大江牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    },
+    "dam": {
+      "id": "2001100516",
+      "name": "アドマイヤセレッソ"
+    },
+    "damsire": {
+      "id": "1991103498",
+      "name": "サクラローレル"
+    }
+  },
   "pedigree": [
     {
       "id": "1990109700",
@@ -8134,6 +8164,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プレシャス (Precious) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレシャス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プレシャス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8203,9 +8263,9 @@
       "contentHash": "25ad29a871004236328382122ca23a98d3749ecb2f648b0804cf24326f1e5ab5",
       "byteLength": 64429,
       "rawPath": "netkeiba/horses/2013/2013100133/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:32:53.756Z"
+  "updatedAt": "2026-08-29T09:40:51.356Z"
 }

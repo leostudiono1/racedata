@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103865",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103865/",
-  "profile": null,
+  "profile": {
+    "name": "サーコ",
+    "birthDate": "2017-04-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "279008",
+      "name": "石川幸司"
+    },
+    "breeder": {
+      "id": "633082",
+      "name": "徳本幸雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "トビーズコーナー Toby's Corner(米)"
+    },
+    "dam": {
+      "id": "2010103068",
+      "name": "ウェットサンプ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2217,6 +2247,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サーコ (Sako) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サーコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2286,9 +2346,9 @@
       "contentHash": "413d1626b704793e5b323be51ba795f71ac7b6c42a72cc38f2ae3446a7513fe7",
       "byteLength": 64372,
       "rawPath": "netkeiba/horses/2017/2017103865/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:58:51.676Z"
+  "updatedAt": "2026-08-27T11:10:05.480Z"
 }

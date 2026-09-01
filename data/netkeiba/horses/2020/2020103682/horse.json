@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103682",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103682/",
-  "profile": null,
+  "profile": {
+    "name": "フラミニア",
+    "birthDate": "2020-01-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01201",
+      "name": "森一誠"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2014106143",
+      "name": "リミニ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2646,6 +2676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラミニア (Flaminia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラミニア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラミニア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2715,9 +2775,9 @@
       "contentHash": "da839119c63cddd9ca04e7d6f31bbcf8dd1956b8926aaeec8ca55e696a6ae35c",
       "byteLength": 67324,
       "rawPath": "netkeiba/horses/2020/2020103682/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:04:34.755Z"
+  "updatedAt": "2026-08-29T10:12:32.524Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103506",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103506/",
-  "profile": null,
+  "profile": {
+    "name": "ハーヴェイ",
+    "birthDate": "2015-05-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01134",
+      "name": "高橋文雅"
+    },
+    "owner": {
+      "id": "898005",
+      "name": "大原詔宏"
+    },
+    "breeder": {
+      "id": "390543",
+      "name": "大原ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2006102934",
+      "name": "ストロングリターン"
+    },
+    "dam": {
+      "id": "2006100252",
+      "name": "トワインブルーム"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "トワイニング Twining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102934",
@@ -1004,6 +1034,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハーヴェイ (Harvey) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーヴェイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーヴェイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1073,9 +1133,9 @@
       "contentHash": "e9dbbf256b56622da09b0129f8c0bd0a9cf53f2c49b8aa2306e5278c92285a52",
       "byteLength": 65239,
       "rawPath": "netkeiba/horses/2015/2015103506/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:02:37.766Z"
+  "updatedAt": "2026-08-24T15:11:24.479Z"
 }

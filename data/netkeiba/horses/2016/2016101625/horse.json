@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101625",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101625/",
-  "profile": null,
+  "profile": {
+    "name": "キーチケット",
+    "birthDate": "2016-05-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01041",
+      "name": "藤沢則雄"
+    },
+    "owner": {
+      "id": "338008",
+      "name": "北前孔一郎"
+    },
+    "breeder": {
+      "id": "030030",
+      "name": "鵜木唯義"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2000101596",
+      "name": "オーバルカット"
+    },
+    "damsire": {
+      "id": "1993190001",
+      "name": "エリシオ Helissio(仏)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1137,6 +1167,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーチケット (Key Ticket) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーチケット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーチケット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1206,9 +1266,9 @@
       "contentHash": "e71c7883b6aafecef44662469a549d45f4e76dcd023c793df9787233aa61690f",
       "byteLength": 64508,
       "rawPath": "netkeiba/horses/2016/2016101625/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:46:39.809Z"
+  "updatedAt": "2026-08-29T09:54:37.597Z"
 }

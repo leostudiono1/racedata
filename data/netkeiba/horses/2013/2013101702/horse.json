@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101702",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101702/",
-  "profile": null,
+  "profile": {
+    "name": "ポートレイト",
+    "birthDate": "2013-03-06",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01014",
+      "name": "高市圭二"
+    },
+    "owner": {
+      "id": "055700",
+      "name": "グリーンスウォード"
+    },
+    "breeder": {
+      "id": "400314",
+      "name": "長浜牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "2004102992",
+      "name": "ピンクキャンドル"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3878,6 +3908,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポートレイト (Portrait) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポートレイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポートレイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3947,9 +4007,9 @@
       "contentHash": "57637c7507a139fa77ea166bbd5d6810d9bd4af3fcb873a98ad9351d0377ea36",
       "byteLength": 67094,
       "rawPath": "netkeiba/horses/2013/2013101702/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:05:26.481Z"
+  "updatedAt": "2026-08-30T09:09:18.894Z"
 }

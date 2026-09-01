@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105146",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105146/",
-  "profile": null,
+  "profile": {
+    "name": "ケンデューク",
+    "birthDate": "2016-01-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "441033",
+      "name": "中西健"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト"
+    },
+    "dam": {
+      "id": "2011104442",
+      "name": "ハリウッドセレブ"
+    },
+    "damsire": {
+      "id": "1998101786",
+      "name": "ジャングルポケット"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1488,6 +1518,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケンデューク (Ken Duke) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンデューク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケンデューク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1557,9 +1617,9 @@
       "contentHash": "ee94b4a71567e8963268ed853f7f893ceb212c62205f11660ac1510e4c04a722",
       "byteLength": 66945,
       "rawPath": "netkeiba/horses/2016/2016105146/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:03:09.540Z"
+  "updatedAt": "2026-08-31T09:12:52.484Z"
 }

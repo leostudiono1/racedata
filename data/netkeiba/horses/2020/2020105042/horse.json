@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105042",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105042/",
-  "profile": null,
+  "profile": {
+    "name": "マジェスティック",
+    "birthDate": "2020-02-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "832031",
+      "name": "飯田学"
+    },
+    "breeder": {
+      "id": "910331",
+      "name": "イワミ牧場"
+    },
+    "birthplace": "新冠",
+    "sire": {
+      "id": "000",
+      "name": "マジェスティックウォリアー Majestic Warrior(米)"
+    },
+    "dam": {
+      "id": "2009105917",
+      "name": "アーベントロート"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2026,6 +2056,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マジェスティック (Majestic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジェスティック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マジェスティック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2095,9 +2155,9 @@
       "contentHash": "496cd949297ee20c2eb0599327d223e7c454968afc50ba4d086c2fd044b5ee3c",
       "byteLength": 66336,
       "rawPath": "netkeiba/horses/2020/2020105042/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:38:45.608Z"
+  "updatedAt": "2026-08-30T09:42:38.117Z"
 }

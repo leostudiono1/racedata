@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103499",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103499/",
-  "profile": null,
+  "profile": {
+    "name": "グレートベースン",
+    "birthDate": "2016-03-20",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤博紀"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "203398",
+      "name": "浜本牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2004106033",
+      "name": "ツルマルオジョウ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4222,6 +4252,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレートベースン (Great Basin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレートベースン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレートベースン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4291,9 +4351,9 @@
       "contentHash": "d2c364a94d7b66230bf8b8c2167607269240307739f3d3e3c2960ebe017635fc",
       "byteLength": 67035,
       "rawPath": "netkeiba/horses/2016/2016103499/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:07:00.360Z"
+  "updatedAt": "2026-08-24T15:15:47.138Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102029",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102029/",
-  "profile": null,
+  "profile": {
+    "name": "マガーリ",
+    "birthDate": "2019-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05645",
+      "name": "久保勇"
+    },
+    "owner": {
+      "id": "396008",
+      "name": "大野洋子"
+    },
+    "breeder": {
+      "id": "703397",
+      "name": "長谷川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2010104556",
+      "name": "ウインドストリーム"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -2413,6 +2443,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マガーリ (Magari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マガーリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マガーリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2482,9 +2542,9 @@
       "contentHash": "e769383c395d8b4bad6c9408eab00645fdcdb234168c6bf99e3901ad3980073a",
       "byteLength": 65241,
       "rawPath": "netkeiba/horses/2019/2019102029/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:31:24.618Z"
+  "updatedAt": "2026-08-30T09:35:17.080Z"
 }

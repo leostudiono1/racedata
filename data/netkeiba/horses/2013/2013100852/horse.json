@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100852",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100852/",
-  "profile": null,
+  "profile": {
+    "name": "オースミフォース",
+    "birthDate": "2013-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01069",
+      "name": "中尾秀正"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "433390",
+      "name": "広富牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "1999101368",
+      "name": "オースミコスモ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1617,6 +1647,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オースミフォース (Osumi Force) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミフォース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オースミフォース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1686,9 +1746,9 @@
       "contentHash": "1cdc7883a4de032981a3f157c72e455d02dbb75f7248c686f51e025a42527774",
       "byteLength": 64552,
       "rawPath": "netkeiba/horses/2013/2013100852/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:33:11.020Z"
+  "updatedAt": "2026-08-29T09:41:08.781Z"
 }

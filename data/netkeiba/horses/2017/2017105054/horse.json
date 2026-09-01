@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105054",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105054/",
-  "profile": null,
+  "profile": {
+    "name": "リヴェール",
+    "birthDate": "2017-03-10",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "797008",
+      "name": "栗山良子"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2009110133",
+      "name": "リトルゲルダ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Closing Argument"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -3310,6 +3340,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リヴェール (L'Hiver) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リヴェール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リヴェール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3379,9 +3439,9 @@
       "contentHash": "7809262e6be8d2390b41e22ea213943c9f456abf11065f893a230f54a59b22bc",
       "byteLength": 66923,
       "rawPath": "netkeiba/horses/2017/2017105054/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:24:55.446Z"
+  "updatedAt": "2026-08-28T10:30:40.521Z"
 }

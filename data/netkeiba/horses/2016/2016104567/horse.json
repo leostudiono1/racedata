@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104567",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104567/",
-  "profile": null,
+  "profile": {
+    "name": "アストライア",
+    "birthDate": "2016-04-27",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2011104000",
+      "name": "ハープスター"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1320,6 +1350,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アストライア (Astraea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストライア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アストライア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1389,9 +1449,9 @@
       "contentHash": "0ccc385e6eea6746d328a927e48acbf0f623460d43b62e5d0e550d3a5da5dad5",
       "byteLength": 67539,
       "rawPath": "netkeiba/horses/2016/2016104567/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:53:29.046Z"
+  "updatedAt": "2026-08-25T14:03:05.887Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100565",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100565/",
-  "profile": null,
+  "profile": {
+    "name": "メタルハート",
+    "birthDate": "2021-03-02",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "矢内博"
+    },
+    "owner": {
+      "id": "979031",
+      "name": "田村忠正"
+    },
+    "breeder": {
+      "id": "230044",
+      "name": "秋場牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2009106548",
+      "name": "ミスハレクラニ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -3057,6 +3087,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メタルハート (Metal Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メタルハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メタルハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3126,9 +3186,9 @@
       "contentHash": "9f893862f6f9087f38900c356e20d2c9fa9894796a101223fb111553a1bf4e72",
       "byteLength": 64292,
       "rawPath": "netkeiba/horses/2021/2021100565/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:27:22.475Z"
+  "updatedAt": "2026-08-24T15:36:09.288Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105010",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105010/",
-  "profile": null,
+  "profile": {
+    "name": "ハーツフェルト",
+    "birthDate": "2015-02-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2003110090",
+      "name": "マチカネタマカズラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3241,6 +3271,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハーツフェルト (Heartsfelt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーツフェルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハーツフェルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3310,9 +3370,9 @@
       "contentHash": "d73a79e5b55ac39381871da7ed86634e3a19786b44713e4927929e03c290ba64",
       "byteLength": 66980,
       "rawPath": "netkeiba/horses/2015/2015105010/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:49:55.496Z"
+  "updatedAt": "2026-08-25T13:59:32.308Z"
 }

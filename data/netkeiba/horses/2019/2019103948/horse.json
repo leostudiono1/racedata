@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103948",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103948/",
-  "profile": null,
+  "profile": {
+    "name": "ネレイド",
+    "birthDate": "2019-05-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01096",
+      "name": "粕谷昌央"
+    },
+    "owner": {
+      "id": "100800",
+      "name": "日進牧場"
+    },
+    "breeder": {
+      "id": "900019",
+      "name": "日進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2006102204",
+      "name": "ナイアード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ワイルドラッシュ Wild Rush(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -2448,6 +2478,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネレイド (Nereid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネレイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネレイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2517,9 +2577,9 @@
       "contentHash": "62930c096c30ef4c38264667af7a3189702d13f460f6290d15facffdb1c8a50e",
       "byteLength": 66925,
       "rawPath": "netkeiba/horses/2019/2019103948/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:00:05.145Z"
+  "updatedAt": "2026-08-29T10:08:02.924Z"
 }

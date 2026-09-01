@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105810",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105810/",
-  "profile": null,
+  "profile": {
+    "name": "ヒストリア",
+    "birthDate": "2014-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01127",
+      "name": "栗田徹"
+    },
+    "owner": {
+      "id": "849030",
+      "name": "山口功一郎"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2004110005",
+      "name": "アルヴィス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2894,6 +2924,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒストリア (Historia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒストリア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒストリア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2963,9 +3023,9 @@
       "contentHash": "a61b94d31880ffda2a4ddc42f7e884a43834caaa160bfeb6673b13cb70c367bf",
       "byteLength": 67018,
       "rawPath": "netkeiba/horses/2014/2014105810/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:47:46.355Z"
+  "updatedAt": "2026-08-27T10:59:00.352Z"
 }

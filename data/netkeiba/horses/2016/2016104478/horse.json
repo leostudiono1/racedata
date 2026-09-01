@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104478",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104478/",
-  "profile": null,
+  "profile": {
+    "name": "プテリュクス",
+    "birthDate": "2016-04-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "1996110142",
+      "name": "ゴールドティアラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seeking the Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -1078,6 +1108,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プテリュクス (Pteryx) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プテリュクス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プテリュクス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1147,9 +1207,9 @@
       "contentHash": "1627a850e20c092266a335c283377868a6994c74cc15afecdec057e1f17c285b",
       "byteLength": 67000,
       "rawPath": "netkeiba/horses/2016/2016104478/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:53:22.057Z"
+  "updatedAt": "2026-08-25T14:02:58.990Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101330",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101330/",
-  "profile": null,
+  "profile": {
+    "name": "サンピノン",
+    "birthDate": "2022-01-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "西野直樹"
+    },
+    "owner": {
+      "id": "x03bd1",
+      "name": "紙谷洋一"
+    },
+    "breeder": {
+      "id": "670543",
+      "name": "ケイズ"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2017104296",
+      "name": "マヤチャン"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -2322,6 +2352,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンピノン (Sun Pinon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンピノン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンピノン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2391,9 +2451,9 @@
       "contentHash": "27a33b9a95457352544e0c787825b2995257940377149b9eab96c6594d78978b",
       "byteLength": 64968,
       "rawPath": "netkeiba/horses/2022/2022101330/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:07:10.235Z"
+  "updatedAt": "2026-08-26T12:09:59.845Z"
 }

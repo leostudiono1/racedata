@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100020",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100020/",
-  "profile": null,
+  "profile": {
+    "name": "ヴィラディー",
+    "birthDate": "2017-05-13",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "474008",
+      "name": "大久保和夫"
+    },
+    "breeder": {
+      "id": "033324",
+      "name": "厚賀古川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2012102965",
+      "name": "ドゥラーレ"
+    },
+    "damsire": {
+      "id": "2003102955",
+      "name": "フサイチリシャール"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -1026,6 +1056,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴィラディー (Villa D) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィラディー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴィラディー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1095,9 +1155,9 @@
       "contentHash": "374a77b9238deb9a6cc80dd5187db8a4d331e76549a475b77899b71096ae1857",
       "byteLength": 64459,
       "rawPath": "netkeiba/horses/2017/2017100020/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:56:49.092Z"
+  "updatedAt": "2026-08-27T11:08:03.011Z"
 }

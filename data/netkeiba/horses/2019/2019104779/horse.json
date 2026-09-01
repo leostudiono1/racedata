@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104779",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104779/",
-  "profile": null,
+  "profile": {
+    "name": "ナーサック",
+    "birthDate": "2019-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "1997103424",
+      "name": "スプリングチケット"
+    },
+    "damsire": {
+      "id": "1983109006",
+      "name": "トニービン Tony Bin(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -5282,6 +5312,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナーサック (Narsaq) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナーサック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナーサック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5351,9 +5411,9 @@
       "contentHash": "ac3aa93741a4943c77cf7959a85444bd2e0c6752db6d0612327dca599b447ac7",
       "byteLength": 66786,
       "rawPath": "netkeiba/horses/2019/2019104779/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:54:41.033Z"
+  "updatedAt": "2026-08-26T11:57:30.674Z"
 }

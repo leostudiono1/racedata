@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102309",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102309/",
-  "profile": null,
+  "profile": {
+    "name": "スガノゴールド",
+    "birthDate": "2015-02-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05731",
+      "name": "加藤和義"
+    },
+    "owner": {
+      "id": "092031",
+      "name": "橋本慎太郎"
+    },
+    "breeder": {
+      "id": "833093",
+      "name": "沖田博志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "1996110088",
+      "name": "ポルベニル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Green Desert"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -3846,6 +3876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スガノゴールド (Sugano Gold) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スガノゴールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スガノゴールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3915,9 +3975,9 @@
       "contentHash": "cece4f96e6af6298905014f74512a805b0dbdea2ac54699347d352fd3bc20b1e",
       "byteLength": 65323,
       "rawPath": "netkeiba/horses/2015/2015102309/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:47:46.957Z"
+  "updatedAt": "2026-08-25T13:57:29.897Z"
 }

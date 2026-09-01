@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024109102",
   "sourceUrl": "https://db.netkeiba.com/horse/2024109102/",
-  "profile": null,
+  "profile": {
+    "name": "タカモリ",
+    "birthDate": "2024-04-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "370008",
+      "name": "岡浩二"
+    },
+    "breeder": {
+      "id": "735404",
+      "name": "本田土寿"
+    },
+    "birthplace": "熊本県",
+    "sire": {
+      "id": "2015110013",
+      "name": "ジャンダルム"
+    },
+    "dam": {
+      "id": "2015103202",
+      "name": "サテラノサト"
+    },
+    "damsire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015110013",
@@ -1244,6 +1274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タカモリ (Takamori) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タカモリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タカモリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1313,9 +1373,9 @@
       "contentHash": "80d4396a7f0a6887fc12558233212c8418f8b08d32016723788d423fdae867ed",
       "byteLength": 65902,
       "rawPath": "netkeiba/horses/2024/2024109102/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:28:20.151Z"
+  "updatedAt": "2026-08-27T11:39:34.018Z"
 }

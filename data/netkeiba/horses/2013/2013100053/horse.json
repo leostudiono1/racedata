@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100053",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100053/",
-  "profile": null,
+  "profile": {
+    "name": "ナムラゴエモン",
+    "birthDate": "2013-04-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00396",
+      "name": "福島信晴"
+    },
+    "owner": {
+      "id": "945004",
+      "name": "奈村信重"
+    },
+    "breeder": {
+      "id": "913344",
+      "name": "いとう牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    },
+    "dam": {
+      "id": "2009102635",
+      "name": "クロスシーカー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cape Cross"
+    }
+  },
   "pedigree": [
     {
       "id": "2005101358",
@@ -3438,6 +3468,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナムラゴエモン (Namura Goemon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラゴエモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムラゴエモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3507,9 +3567,9 @@
       "contentHash": "39ef1bab8eeaac456eb28de5d735f9b109bf12c098fd0d6355de7188772af366",
       "byteLength": 64572,
       "rawPath": "netkeiba/horses/2013/2013100053/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:32:46.683Z"
+  "updatedAt": "2026-08-29T09:40:44.335Z"
 }

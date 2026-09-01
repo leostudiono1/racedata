@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100558",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100558/",
-  "profile": null,
+  "profile": {
+    "name": "シンショク",
+    "birthDate": "2023-03-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "371009",
+      "name": "高橋文男"
+    },
+    "breeder": {
+      "id": "943367",
+      "name": "船越伸也"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2015105075",
+      "name": "フィエールマン"
+    },
+    "dam": {
+      "id": "2006101193",
+      "name": "シャインプレジャー"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2015105075",
@@ -1593,6 +1623,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シンショク (Shinshoku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンショク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シンショク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1662,9 +1722,9 @@
       "contentHash": "ad9e7ad2f034a33e7fcea6e25fc35f5bb7e3e863c5694a9a3f1fc7875c286401",
       "byteLength": 65170,
       "rawPath": "netkeiba/horses/2023/2023100558/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:29:21.541Z"
+  "updatedAt": "2026-08-31T09:39:04.356Z"
 }

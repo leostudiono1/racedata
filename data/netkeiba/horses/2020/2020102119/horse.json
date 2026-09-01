@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020102119",
   "sourceUrl": "https://db.netkeiba.com/horse/2020102119/",
-  "profile": null,
+  "profile": {
+    "name": "ロードディフィート",
+    "birthDate": "2020-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05690",
+      "name": "松島壽"
+    },
+    "owner": {
+      "id": "082031",
+      "name": "三岡陽"
+    },
+    "breeder": {
+      "id": "213321",
+      "name": "藤本ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "デクラレーションオブウォー"
+    },
+    "dam": {
+      "id": "2009101986",
+      "name": "カディーシャ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4203,6 +4233,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードディフィート (Lord Defeat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードディフィート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードディフィート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4272,9 +4332,9 @@
       "contentHash": "15d86d2a89c8a384bf439010751da66306274b13760c90fd93a86834b51e8572",
       "byteLength": 67101,
       "rawPath": "netkeiba/horses/2020/2020102119/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:57:22.221Z"
+  "updatedAt": "2026-08-26T12:00:11.997Z"
 }

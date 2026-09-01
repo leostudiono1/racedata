@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102220",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102220/",
-  "profile": null,
+  "profile": {
+    "name": "ネオシューマン",
+    "birthDate": "2023-03-03",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01026",
+      "name": "鈴木伸尋"
+    },
+    "owner": {
+      "id": "502033",
+      "name": "西田俊二"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2007103127",
+      "name": "ギンザボナンザ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -1387,6 +1417,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ネオシューマン (Neo Chemin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオシューマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ネオシューマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1456,9 +1516,9 @@
       "contentHash": "88bed88f4020d0859f7e87764967f861f3d9d8de1dfa16ce24e2159c64396ecf",
       "byteLength": 66114,
       "rawPath": "netkeiba/horses/2023/2023102220/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:24:11.219Z"
+  "updatedAt": "2026-08-27T11:35:24.944Z"
 }

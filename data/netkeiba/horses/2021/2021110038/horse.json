@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110038",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110038/",
-  "profile": null,
+  "profile": {
+    "name": "エッセイ",
+    "birthDate": "2021-04-03",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "後藤佑耶"
+    },
+    "owner": {
+      "id": "x0ad3a",
+      "name": "（株）吉永ファーム"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Invincible Spirit (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Agathonia"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1681,6 +1711,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エッセイ (Essay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エッセイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エッセイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1750,9 +1810,9 @@
       "contentHash": "aede48d86174f2c17d92daeafd16d30be0e38c19c4606711fcd331da8ab7e8ed",
       "byteLength": 66670,
       "rawPath": "netkeiba/horses/2021/2021110038/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:06:10.689Z"
+  "updatedAt": "2026-08-26T12:09:00.334Z"
 }

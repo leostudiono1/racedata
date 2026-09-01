@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100417",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100417/",
-  "profile": null,
+  "profile": {
+    "name": "ララマ",
+    "birthDate": "2015-04-03",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05169",
+      "name": "佐藤浩一"
+    },
+    "owner": {
+      "id": "x0405c",
+      "name": "菊池一之"
+    },
+    "breeder": {
+      "id": "800310",
+      "name": "対馬正"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103890",
+      "name": "スズカマンボ"
+    },
+    "dam": {
+      "id": "2007104586",
+      "name": "ヴィクトリアローズ"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103890",
@@ -4596,6 +4626,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ララマ (Lalama) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4665,9 +4725,9 @@
       "contentHash": "a13b80cb3e11059cc46c5326ad43b6c1446889e6710ad097686f1967338705e2",
       "byteLength": 65166,
       "rawPath": "netkeiba/horses/2015/2015100417/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:14:25.179Z"
+  "updatedAt": "2026-08-28T10:20:09.861Z"
 }

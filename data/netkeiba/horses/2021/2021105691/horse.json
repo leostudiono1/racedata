@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105691",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105691/",
-  "profile": null,
+  "profile": {
+    "name": "リルト",
+    "birthDate": "2021-03-16",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01206",
+      "name": "高橋一哉"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2011104105",
+      "name": "バウンスシャッセ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1371,6 +1401,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リルト (Lilt) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1440,9 +1500,9 @@
       "contentHash": "59556ec0c7fbb17117e133dcf28f29199eb3fed429cf6648aa2ad87c3ddda653",
       "byteLength": 66763,
       "rawPath": "netkeiba/horses/2021/2021105691/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:17:25.063Z"
+  "updatedAt": "2026-08-27T11:28:38.932Z"
 }

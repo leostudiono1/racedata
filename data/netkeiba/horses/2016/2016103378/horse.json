@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103378",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103378/",
-  "profile": null,
+  "profile": {
+    "name": "アルセーヌ",
+    "birthDate": "2016-04-25",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "463800",
+      "name": "名古屋友豊"
+    },
+    "breeder": {
+      "id": "833394",
+      "name": "戸川牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2010101218",
+      "name": "スマートマーチ"
+    },
+    "damsire": {
+      "id": "2000101561",
+      "name": "リンカーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1662,6 +1692,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルセーヌ (Arsene) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルセーヌ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルセーヌ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1731,9 +1791,9 @@
       "contentHash": "6000eabdd0edd96dd02cc0a5441913b0c2a8a183efd7cddb62edfbadce5639db",
       "byteLength": 65223,
       "rawPath": "netkeiba/horses/2016/2016103378/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:47:35.808Z"
+  "updatedAt": "2026-08-29T09:55:33.555Z"
 }

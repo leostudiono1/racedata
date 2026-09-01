@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105998",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105998/",
-  "profile": null,
+  "profile": {
+    "name": "ロードエクレール",
+    "birthDate": "2018-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "打越勇児"
+    },
+    "owner": {
+      "id": "669033",
+      "name": "中村智幸"
+    },
+    "breeder": {
+      "id": "940031",
+      "name": "大柳ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2006110087",
+      "name": "タッチアス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -4921,6 +4951,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロードエクレール (Lord Eclair) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードエクレール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロードエクレール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4990,9 +5050,9 @@
       "contentHash": "6468dcc7a95cbdc2e5b9ac93721da0ac8126d7a47c5983cce103abf11e04dea8",
       "byteLength": 67025,
       "rawPath": "netkeiba/horses/2018/2018105998/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:57:41.638Z"
+  "updatedAt": "2026-08-29T10:05:39.285Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102584",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102584/",
-  "profile": null,
+  "profile": {
+    "name": "ベアキングダム",
+    "birthDate": "2022-03-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01199",
+      "name": "千葉直人"
+    },
+    "owner": {
+      "id": "372033",
+      "name": "熊木浩"
+    },
+    "breeder": {
+      "id": "630008",
+      "name": "今井秀樹"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "アニマルキングダム Animal Kingdom(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サセッティ Sasetti(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Selkirk"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1046,6 +1076,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベアキングダム (Bear Kingdom) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアキングダム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアキングダム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1115,9 +1175,9 @@
       "contentHash": "73a9243c9780bd25bbc99d19e0047835a8927acc98498c09da88d506754b2f67",
       "byteLength": 64311,
       "rawPath": "netkeiba/horses/2022/2022102584/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:32:12.894Z"
+  "updatedAt": "2026-08-24T15:41:00.108Z"
 }

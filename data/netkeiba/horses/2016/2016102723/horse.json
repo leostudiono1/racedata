@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102723",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102723/",
-  "profile": null,
+  "profile": {
+    "name": "プロース",
+    "birthDate": "2016-04-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01052",
+      "name": "菊川正達"
+    },
+    "owner": {
+      "id": "418030",
+      "name": "高樽さゆり"
+    },
+    "breeder": {
+      "id": "063203",
+      "name": "ディアレストクラブ"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003104570",
+      "name": "マツリダゴッホ"
+    },
+    "dam": {
+      "id": "2009103099",
+      "name": "カレイメモワール"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104570",
@@ -5747,6 +5777,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロース (Bros) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5816,9 +5876,9 @@
       "contentHash": "2469f763106bd75c37a110c8c2ef77f9914bc5100a8e3eca3505fe81daabd1f4",
       "byteLength": 66773,
       "rawPath": "netkeiba/horses/2016/2016102723/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:01:31.578Z"
+  "updatedAt": "2026-08-31T09:11:14.354Z"
 }

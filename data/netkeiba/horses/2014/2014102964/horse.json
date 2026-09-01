@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102964",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102964/",
-  "profile": null,
+  "profile": {
+    "name": "ビーハッピー",
+    "birthDate": "2014-05-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00383",
+      "name": "伊藤正徳"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "730009",
+      "name": "富田恭司"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    },
+    "dam": {
+      "id": "2003110082",
+      "name": "アロットオブラブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108676",
@@ -2508,6 +2538,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビーハッピー (Be Happy) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーハッピー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビーハッピー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2577,9 +2637,9 @@
       "contentHash": "414855d2fadd3002215b0cc7013c940cb349d48dd5697ceb34aa911846a1823c",
       "byteLength": 66646,
       "rawPath": "netkeiba/horses/2014/2014102964/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:52:36.347Z"
+  "updatedAt": "2026-08-31T09:02:18.734Z"
 }

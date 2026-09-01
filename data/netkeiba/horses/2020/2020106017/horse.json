@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106017",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106017/",
-  "profile": null,
+  "profile": {
+    "name": "ソルトハート",
+    "birthDate": "2020-03-13",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "781033",
+      "name": "杉浦敏夫"
+    },
+    "breeder": {
+      "id": "200317",
+      "name": "村本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2011104490",
+      "name": "ガーリッシュハート"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -1144,6 +1174,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソルトハート (Salt Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソルトハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソルトハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1213,9 +1273,9 @@
       "contentHash": "4c67d43b55bc182a02e1520934783854cc88cd45200f00b8afb896ee8beda1ca",
       "byteLength": 65697,
       "rawPath": "netkeiba/horses/2020/2020106017/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:12:21.318Z"
+  "updatedAt": "2026-08-25T14:21:42.729Z"
 }

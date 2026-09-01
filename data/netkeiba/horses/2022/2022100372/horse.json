@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100372",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100372/",
-  "profile": null,
+  "profile": {
+    "name": "シャポー",
+    "birthDate": "2022-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05544",
+      "name": "加藤幸保"
+    },
+    "owner": {
+      "id": "x09ddb",
+      "name": "近藤光将"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "カリフォルニアクローム California Chrome(米)"
+    },
+    "dam": {
+      "id": "2015103780",
+      "name": "カフジサファイア"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1250,6 +1280,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャポー (Chapeau) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャポー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャポー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1319,9 +1379,9 @@
       "contentHash": "68da655abe15ab4df0ba4710a8af4b87d5036b9ef306ab398c0af943c301ae92",
       "byteLength": 64442,
       "rawPath": "netkeiba/horses/2022/2022100372/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:17:54.080Z"
+  "updatedAt": "2026-08-25T14:27:15.414Z"
 }

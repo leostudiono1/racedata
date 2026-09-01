@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103815",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103815/",
-  "profile": null,
+  "profile": {
+    "name": "ポルトボナール",
+    "birthDate": "2012-04-19",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "470030",
+      "name": "後藤英成"
+    },
+    "breeder": {
+      "id": "410385",
+      "name": "笹川大晃牧場"
+    },
+    "birthplace": "森町",
+    "sire": {
+      "id": "2001103160",
+      "name": "ハイアーゲーム"
+    },
+    "dam": {
+      "id": "2001102829",
+      "name": "ダイコーマリーン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シャンハイ Shanghai(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103160",
@@ -5451,6 +5481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポルトボナール (Porte Bonheur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポルトボナール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポルトボナール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5520,9 +5580,9 @@
       "contentHash": "dc2fe04482896585c8c73b76aab3bd95f6f95243e18ee7b2feef939dfc2016dd",
       "byteLength": 66945,
       "rawPath": "netkeiba/horses/2012/2012103815/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:45:53.727Z"
+  "updatedAt": "2026-08-31T08:55:36.055Z"
 }

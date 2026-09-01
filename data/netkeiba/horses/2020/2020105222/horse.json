@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105222",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105222/",
-  "profile": null,
+  "profile": {
+    "name": "カントリーマダム",
+    "birthDate": "2020-06-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "栗本陽一"
+    },
+    "owner": {
+      "id": "554008",
+      "name": "吉田勝利"
+    },
+    "breeder": {
+      "id": "510332",
+      "name": "今野活博"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "2009104165",
+      "name": "エナジーブルー"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3222,6 +3252,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カントリーマダム (Country Madam) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カントリーマダム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カントリーマダム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3291,9 +3351,9 @@
       "contentHash": "83ee629d12a6054700e23895e030ba67eaae9830e3596185ad3ef8e727296712",
       "byteLength": 65928,
       "rawPath": "netkeiba/horses/2020/2020105222/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:39:30.696Z"
+  "updatedAt": "2026-08-28T10:45:15.320Z"
 }

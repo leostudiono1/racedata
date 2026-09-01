@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104349",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104349/",
-  "profile": null,
+  "profile": {
+    "name": "サルーテ",
+    "birthDate": "2015-02-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01088",
+      "name": "高木登"
+    },
+    "owner": {
+      "id": "127008",
+      "name": "小菅定雄"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シンディ Sindy(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -4627,6 +4657,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サルーテ (Salute) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルーテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルーテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4696,9 +4756,9 @@
       "contentHash": "4dee1246119bd969ed5dcb2a8c459d7f47c4bffe59b7b09f96a902494dc57c04",
       "byteLength": 66920,
       "rawPath": "netkeiba/horses/2015/2015104349/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:03:05.972Z"
+  "updatedAt": "2026-08-24T15:11:52.505Z"
 }

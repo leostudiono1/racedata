@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105816",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105816/",
-  "profile": null,
+  "profile": {
+    "name": "オウキュウ",
+    "birthDate": "2012-05-15",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01122",
+      "name": "日吉正和"
+    },
+    "owner": {
+      "id": "260007",
+      "name": "重松國建"
+    },
+    "breeder": {
+      "id": "300042",
+      "name": "北俣牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2002110250",
+      "name": "ブライティアバード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Forest Wildcat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1302,6 +1332,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オウキュウ (Okyu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オウキュウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オウキュウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1371,9 +1431,9 @@
       "contentHash": "529628375a00cfed3f7600085c771c72438eb7e17e83e14c0d1c9464039dc011",
       "byteLength": 64303,
       "rawPath": "netkeiba/horses/2012/2012105816/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:31:53.950Z"
+  "updatedAt": "2026-08-29T09:39:51.739Z"
 }

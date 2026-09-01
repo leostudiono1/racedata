@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104396",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104396/",
-  "profile": null,
+  "profile": {
+    "name": "クールマイユール",
+    "birthDate": "2023-02-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01203",
+      "name": "福永祐一"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ステラスター Stela Star(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Epaulette"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -955,6 +985,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クールマイユール (Courmayeur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールマイユール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールマイユール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1024,9 +1084,9 @@
       "contentHash": "780682f68469f37005303dc4f5511950964ffbd74e57361803a11132b36d44ec",
       "byteLength": 64797,
       "rawPath": "netkeiba/horses/2023/2023104396/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:31:55.831Z"
+  "updatedAt": "2026-08-31T09:41:38.530Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104045",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104045/",
-  "profile": null,
+  "profile": {
+    "name": "カミカクシ",
+    "birthDate": "2023-02-25",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01152",
+      "name": "竹内正洋"
+    },
+    "owner": {
+      "id": "044803",
+      "name": "由井健太郎"
+    },
+    "breeder": {
+      "id": "903335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2016100190",
+      "name": "カナシバリ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -1305,6 +1335,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カミカクシ (Kamikakushi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カミカクシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カミカクシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1374,9 +1434,9 @@
       "contentHash": "87ffe6158495288b88219d3c57aef15c505337d6bfc6eeeb198b9dc362893e80",
       "byteLength": 66000,
       "rawPath": "netkeiba/horses/2023/2023104045/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:52:38.377Z"
+  "updatedAt": "2026-08-28T10:58:23.202Z"
 }

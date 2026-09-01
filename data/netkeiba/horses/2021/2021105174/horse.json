@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105174",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105174/",
-  "profile": null,
+  "profile": {
+    "name": "フォスターボンド",
+    "birthDate": "2021-02-15",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "281033",
+      "name": "多田賢司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2006103035",
+      "name": "パールシャドウ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1388,6 +1418,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォスターボンド (Foster Bond) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォスターボンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォスターボンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1457,9 +1517,9 @@
       "contentHash": "ce2830bff043af118796fcde175af08e2718506b35f595524d496d46088fcf64",
       "byteLength": 67136,
       "rawPath": "netkeiba/horses/2021/2021105174/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:09:25.291Z"
+  "updatedAt": "2026-08-29T10:17:23.078Z"
 }

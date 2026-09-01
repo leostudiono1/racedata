@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100619",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100619/",
-  "profile": null,
+  "profile": {
+    "name": "レヴィアタン",
+    "birthDate": "2020-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05734",
+      "name": "橋本忠明"
+    },
+    "owner": {
+      "id": "040030",
+      "name": "薪浦英稔"
+    },
+    "breeder": {
+      "id": "400049",
+      "name": "荻伏三好ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2008102566",
+      "name": "ホワイトアルバム"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -5646,6 +5676,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レヴィアタン (Livyatan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レヴィアタン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レヴィアタン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5715,9 +5775,9 @@
       "contentHash": "cd7f22aede16167d2a8cb471b16c5f7553b0ba18fc7120349006d68d7e4e20bd",
       "byteLength": 66782,
       "rawPath": "netkeiba/horses/2020/2020100619/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:09:05.291Z"
+  "updatedAt": "2026-08-25T14:18:26.998Z"
 }

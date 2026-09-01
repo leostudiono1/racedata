@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017109021",
   "sourceUrl": "https://db.netkeiba.com/horse/2017109021/",
-  "profile": null,
+  "profile": {
+    "name": "ルナランス",
+    "birthDate": "2017-02-23",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "977800",
+      "name": "前川企画"
+    },
+    "breeder": {
+      "id": "031118",
+      "name": "太田ファーム"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2009106599",
+      "name": "フェノーメノ"
+    },
+    "dam": {
+      "id": "2005102154",
+      "name": "クルンプホルツ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106599",
@@ -1457,6 +1487,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルナランス (Luna Lance) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナランス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルナランス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1526,9 +1586,9 @@
       "contentHash": "63dba44418a5d0cdd94cc58d213694729fb7c81113e58a16e6977f261bffe987",
       "byteLength": 64923,
       "rawPath": "netkeiba/horses/2017/2017109021/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:26:41.050Z"
+  "updatedAt": "2026-08-30T09:30:33.463Z"
 }

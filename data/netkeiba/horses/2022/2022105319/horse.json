@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105319",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105319/",
-  "profile": null,
+  "profile": {
+    "name": "シストロン",
+    "birthDate": "2022-05-05",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "澤佳宏"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2016105058",
+      "name": "コルデトゥリーニ"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -2832,6 +2862,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シストロン (Sisteron) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シストロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シストロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2901,9 +2961,9 @@
       "contentHash": "6384e16ae70e9ae85ada226f819b9401cc04d1b77de6034e21030d0bd3d4be76",
       "byteLength": 66719,
       "rawPath": "netkeiba/horses/2022/2022105319/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:20:42.068Z"
+  "updatedAt": "2026-08-25T14:30:03.457Z"
 }

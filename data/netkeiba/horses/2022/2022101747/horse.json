@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101747",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101747/",
-  "profile": null,
+  "profile": {
+    "name": "レイククイ",
+    "birthDate": "2022-04-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05590",
+      "name": "長倉功"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ネックレス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Darshaan"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1498,6 +1528,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイククイ (Lei Kukui) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイククイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイククイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1567,9 +1627,9 @@
       "contentHash": "83b5b3e01aab4e255fce7bd9986ce8158ac8bb7494668aade600a2a7d526c79c",
       "byteLength": 65247,
       "rawPath": "netkeiba/horses/2022/2022101747/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:12:41.613Z"
+  "updatedAt": "2026-08-29T10:20:39.381Z"
 }

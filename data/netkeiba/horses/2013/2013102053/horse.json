@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102053",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102053/",
-  "profile": null,
+  "profile": {
+    "name": "アッキー",
+    "birthDate": "2013-05-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05670",
+      "name": "林隆之"
+    },
+    "owner": {
+      "id": "986033",
+      "name": "佐久間拓士"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2004100904",
+      "name": "ロキロキ"
+    },
+    "damsire": {
+      "id": "1994109717",
+      "name": "プレミアムサンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -5141,6 +5171,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アッキー (Akki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アッキー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アッキー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5210,9 +5270,9 @@
       "contentHash": "5f736ce6d92a96ad9f98e853b6d0f15048992484ae10bdf0a8ba235e161d6c04",
       "byteLength": 66843,
       "rawPath": "netkeiba/horses/2013/2013102053/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:42:17.502Z"
+  "updatedAt": "2026-08-27T10:53:31.108Z"
 }

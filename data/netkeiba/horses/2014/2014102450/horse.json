@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102450",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102450/",
-  "profile": null,
+  "profile": {
+    "name": "ゴウケン",
+    "birthDate": "2014-05-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01043",
+      "name": "石栗龍彦"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "213321",
+      "name": "藤本ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    },
+    "dam": {
+      "id": "2006105118",
+      "name": "グッドファイト"
+    },
+    "damsire": {
+      "id": "1993190010",
+      "name": "チーフベアハート Chief Bearhart(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "1990109700",
@@ -1369,6 +1399,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ゴウケン (Goken) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴウケン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ゴウケン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1438,9 +1498,9 @@
       "contentHash": "68686733d648f959cc95d7bc0d4bedf7bbac0f36c41c4df6838cba5c465a9e77",
       "byteLength": 64332,
       "rawPath": "netkeiba/horses/2014/2014102450/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:38:15.720Z"
+  "updatedAt": "2026-08-29T09:46:13.444Z"
 }

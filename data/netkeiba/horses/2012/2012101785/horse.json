@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101785",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101785/",
-  "profile": null,
+  "profile": {
+    "name": "ローズハット",
+    "birthDate": "2012-03-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "333320",
+      "name": "原田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102809",
+      "name": "オンファイア"
+    },
+    "dam": {
+      "id": "2001110265",
+      "name": "フリーダムガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102809",
@@ -1119,6 +1149,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ローズハット (Rose Hat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローズハット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ローズハット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1188,9 +1248,9 @@
       "contentHash": "9a4f65852efd98cb2772eddd91c6534756e59499d148f674e09baf0d286748f7",
       "byteLength": 64488,
       "rawPath": "netkeiba/horses/2012/2012101785/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:45:11.157Z"
+  "updatedAt": "2026-08-31T08:54:54.215Z"
 }

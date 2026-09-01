@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100561",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100561/",
-  "profile": null,
+  "profile": {
+    "name": "ハビレ",
+    "birthDate": "2021-02-19",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "535033",
+      "name": "古賀慎一"
+    },
+    "breeder": {
+      "id": "230044",
+      "name": "秋場牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2013102771",
+      "name": "トモトモリバー"
+    },
+    "damsire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3199,6 +3229,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハビレ (Habire) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハビレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハビレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3268,9 +3328,9 @@
       "contentHash": "5baead13fcc3bd1518bf81c99a4698d6fd2971b0baf023e6f47d862f28bac2c6",
       "byteLength": 66694,
       "rawPath": "netkeiba/horses/2021/2021100561/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:27:18.890Z"
+  "updatedAt": "2026-08-24T15:36:05.485Z"
 }

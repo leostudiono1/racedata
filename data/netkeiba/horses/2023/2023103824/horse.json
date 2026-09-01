@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103824",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103824/",
-  "profile": null,
+  "profile": {
+    "name": "ケントン",
+    "birthDate": "2023-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01112",
+      "name": "田島俊明"
+    },
+    "owner": {
+      "id": "326030",
+      "name": "藤沼利夫"
+    },
+    "breeder": {
+      "id": "100383",
+      "name": "青藍牧場"
+    },
+    "birthplace": "登別市",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2012103843",
+      "name": "エーティーロゼッタ"
+    },
+    "damsire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1652,6 +1682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケントン (Kenton) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1721,9 +1781,9 @@
       "contentHash": "cef7a063a7d611b76c714f0578ba423e48495103db3e057f47a285bbf5a7a72c",
       "byteLength": 67026,
       "rawPath": "netkeiba/horses/2023/2023103824/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:52:27.896Z"
+  "updatedAt": "2026-08-28T10:58:12.922Z"
 }

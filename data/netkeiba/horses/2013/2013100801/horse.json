@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100801",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100801/",
-  "profile": null,
+  "profile": {
+    "name": "マイクルトップ",
+    "birthDate": "2013-04-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01131",
+      "name": "蛯名利弘"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "333320",
+      "name": "原田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103189",
+      "name": "スウィフトカレント"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ダークフラワー Dark Flower(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103189",
@@ -1038,6 +1068,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイクルトップ (Maikuru Top) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイクルトップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイクルトップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1107,9 +1167,9 @@
       "contentHash": "0819733c26cd3078e0ab833361d1f09a500718203085d46da68c69ad3165fe8f",
       "byteLength": 64543,
       "rawPath": "netkeiba/horses/2013/2013100801/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:41:38.847Z"
+  "updatedAt": "2026-08-27T10:52:52.805Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103969",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103969/",
-  "profile": null,
+  "profile": {
+    "name": "マルシャ",
+    "birthDate": "2018-02-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "大垣敏夫"
+    },
+    "owner": {
+      "id": "552007",
+      "name": "野口幸八"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2002102785",
+      "name": "ウインファンタジア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヘネシー Hennessy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -3358,6 +3388,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マルシャ (Marcha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マルシャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マルシャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3427,9 +3487,9 @@
       "contentHash": "b147e907ff6c517333b7f1f009c208a55b401f175d8d74f5f737ddecfe8c57be",
       "byteLength": 66734,
       "rawPath": "netkeiba/horses/2018/2018103969/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:49:11.976Z"
+  "updatedAt": "2026-08-26T11:52:01.537Z"
 }

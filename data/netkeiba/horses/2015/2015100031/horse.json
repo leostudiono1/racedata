@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100031",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100031/",
-  "profile": null,
+  "profile": {
+    "name": "ラプチュア",
+    "birthDate": "2015-03-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "055700",
+      "name": "グリーンスウォード"
+    },
+    "breeder": {
+      "id": "600330",
+      "name": "アサヒ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003104100",
+      "name": "バンブーエール"
+    },
+    "dam": {
+      "id": "2009104419",
+      "name": "クニコチャン"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2003104100",
@@ -1719,6 +1749,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラプチュア (Rapture) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラプチュア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラプチュア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1788,9 +1848,9 @@
       "contentHash": "7909922078d01460c5e84774632f716deb0a958150fbfa58367201744ca0a259",
       "byteLength": 65628,
       "rawPath": "netkeiba/horses/2015/2015100031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:12:43.951Z"
+  "updatedAt": "2026-08-30T09:16:36.772Z"
 }

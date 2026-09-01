@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101151",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101151/",
-  "profile": null,
+  "profile": {
+    "name": "ミッキーショック",
+    "birthDate": "2020-02-29",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "細川忠義"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2011103916",
+      "name": "ミッキーアイル"
+    },
+    "dam": {
+      "id": "2013105978",
+      "name": "ミッキーディナシー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103916",
@@ -2926,6 +2956,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミッキーショック (Mikki Shock) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーショック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミッキーショック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2995,9 +3055,9 @@
       "contentHash": "80b3af79782f1298058b3e5363472d29435e14ed20a3211557e1f8693e33c9eb",
       "byteLength": 65828,
       "rawPath": "netkeiba/horses/2020/2020101151/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:56:47.687Z"
+  "updatedAt": "2026-08-26T11:59:36.700Z"
 }

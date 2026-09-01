@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015101431",
   "sourceUrl": "https://db.netkeiba.com/horse/2015101431/",
-  "profile": null,
+  "profile": {
+    "name": "ナリタシェリー",
+    "birthDate": "2015-04-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05718",
+      "name": "坂本和也"
+    },
+    "owner": {
+      "id": "712800",
+      "name": "オースミ"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "1996104713",
+      "name": "オースミリンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Woodman"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -3153,6 +3183,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナリタシェリー (Narita Cheri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタシェリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリタシェリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3222,9 +3282,9 @@
       "contentHash": "17cbfcb94b31e1ee0388ec593b61c439a38033bd7aeff57508738b9f6bcae118",
       "byteLength": 65411,
       "rawPath": "netkeiba/horses/2015/2015101431/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:01:34.780Z"
+  "updatedAt": "2026-08-24T15:10:21.736Z"
 }

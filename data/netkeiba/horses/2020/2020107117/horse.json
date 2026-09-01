@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020107117",
   "sourceUrl": "https://db.netkeiba.com/horse/2020107117/",
-  "profile": null,
+  "profile": {
+    "name": "ジュングンジョウ",
+    "birthDate": "2020-04-13",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "165033",
+      "name": "河合純二"
+    },
+    "breeder": {
+      "id": "410335",
+      "name": "川上牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104777",
+      "name": "ジュンツバサ"
+    },
+    "dam": {
+      "id": "2006104273",
+      "name": "ツキノテンシ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ムーンバラッド Moon Ballad(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104777",
@@ -1433,6 +1463,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジュングンジョウ (Jun Gunjo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュングンジョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュングンジョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1502,9 +1562,9 @@
       "contentHash": "a31f68bfd9ffad755c6496c1b1c5d14e3f054c372b201bab49b9f89023a9924a",
       "byteLength": 65311,
       "rawPath": "netkeiba/horses/2020/2020107117/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:05:55.269Z"
+  "updatedAt": "2026-08-29T10:13:52.922Z"
 }

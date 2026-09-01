@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009106603",
   "sourceUrl": "https://db.netkeiba.com/horse/2009106603/",
-  "profile": null,
+  "profile": {
+    "name": "マグメル",
+    "birthDate": "2009-01-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "x084b5",
+      "name": "渋谷陽"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2004110210",
+      "name": "ニライカナイ"
+    },
+    "damsire": {
+      "id": "1996190001",
+      "name": "Montjeu (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -9418,6 +9448,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マグメル (Mag Mell) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マグメル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マグメル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9487,9 +9547,9 @@
       "contentHash": "382869af13cd74e66832f8e61fb31360c8b20ff31b7fdbfa1fc543a689ed325a",
       "byteLength": 66845,
       "rawPath": "netkeiba/horses/2009/2009106603/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:40:48.684Z"
+  "updatedAt": "2026-08-31T08:50:32.033Z"
 }

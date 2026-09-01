@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105946",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105946/",
-  "profile": null,
+  "profile": {
+    "name": "ラジカル",
+    "birthDate": "2023-04-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01171",
+      "name": "小手川準"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "マクマホン Mac Mahon(伊)"
+    },
+    "dam": {
+      "id": "2007106428",
+      "name": "トーセンフリージア"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1041,6 +1071,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラジカル (Radical) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラジカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラジカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1110,9 +1170,9 @@
       "contentHash": "04903d91a064edb45ecd5b153e91b5f9f929a1d83dd0066bab44dbca4bb55d41",
       "byteLength": 64470,
       "rawPath": "netkeiba/horses/2023/2023105946/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:39:02.577Z"
+  "updatedAt": "2026-08-24T15:47:49.215Z"
 }

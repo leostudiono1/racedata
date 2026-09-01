@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012100636",
   "sourceUrl": "https://db.netkeiba.com/horse/2012100636/",
-  "profile": null,
+  "profile": {
+    "name": "ケントオー",
+    "birthDate": "2012-03-12",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00434",
+      "name": "西橋豊治"
+    },
+    "owner": {
+      "id": "307033",
+      "name": "田畑富子"
+    },
+    "breeder": {
+      "id": "500315",
+      "name": "ハクツ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    },
+    "dam": {
+      "id": "2005105412",
+      "name": "ポポチャン"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1993109188",
@@ -5169,6 +5199,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケントオー (Kento O) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントオー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントオー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5238,9 +5298,9 @@
       "contentHash": "72cb7b43997eba875c94d02c508ccf5a881171c68352dfde9a3361890926fab7",
       "byteLength": 66849,
       "rawPath": "netkeiba/horses/2012/2012100636/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:21:07.908Z"
+  "updatedAt": "2026-08-26T11:23:57.521Z"
 }

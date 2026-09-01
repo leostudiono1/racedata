@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103190",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103190/",
-  "profile": null,
+  "profile": {
+    "name": "コルク",
+    "birthDate": "2016-02-09",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05089",
+      "name": "小林義明"
+    },
+    "owner": {
+      "id": "x09067",
+      "name": "遠藤喜和"
+    },
+    "breeder": {
+      "id": "404124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2010109015",
+      "name": "キャプテンガール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キャプテンスティーヴ Captain Steve(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -4534,6 +4564,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コルク (Cork) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4603,9 +4663,9 @@
       "contentHash": "50bc47f812ff4fcaf19f891ea7dd912bcdda42e580c4f699d02c99e11c343328",
       "byteLength": 66931,
       "rawPath": "netkeiba/horses/2016/2016103190/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:52:43.511Z"
+  "updatedAt": "2026-08-25T14:02:20.496Z"
 }

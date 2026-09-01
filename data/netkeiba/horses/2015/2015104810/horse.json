@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104810",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104810/",
-  "profile": null,
+  "profile": {
+    "name": "ブレステイキング",
+    "birthDate": "2015-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "吉井竜一"
+    },
+    "owner": {
+      "id": "202006",
+      "name": "高橋一郎"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シユーマ Siyouma(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medicean"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -4138,6 +4168,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブレステイキング (Breathtaking) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブレステイキング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブレステイキング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4207,9 +4267,9 @@
       "contentHash": "9ac0f00902807b3484c8734becf58565be2f1c1176122b83855084379f2ca7be",
       "byteLength": 67098,
       "rawPath": "netkeiba/horses/2015/2015104810/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:37:42.115Z"
+  "updatedAt": "2026-08-26T11:40:31.796Z"
 }

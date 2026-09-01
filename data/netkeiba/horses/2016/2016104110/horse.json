@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104110",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104110/",
-  "profile": null,
+  "profile": {
+    "name": "ベアラッキー",
+    "birthDate": "2016-04-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "372033",
+      "name": "熊木浩"
+    },
+    "breeder": {
+      "id": "733484",
+      "name": "大川牧場"
+    },
+    "birthplace": "厚真町",
+    "sire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    },
+    "dam": {
+      "id": "2006103880",
+      "name": "マイスイートベス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Haafhd (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1995108676",
@@ -1450,6 +1480,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベアラッキー (Bear Lucky) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアラッキー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベアラッキー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1519,9 +1579,9 @@
       "contentHash": "6ed25a9bc9aa8652456aa02e3116c776f6fdd5d8bf9b72e98ce97248b9768db2",
       "byteLength": 64717,
       "rawPath": "netkeiba/horses/2016/2016104110/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:48:00.354Z"
+  "updatedAt": "2026-08-29T09:55:58.151Z"
 }

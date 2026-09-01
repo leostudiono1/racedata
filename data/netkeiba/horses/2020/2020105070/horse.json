@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105070",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105070/",
-  "profile": null,
+  "profile": {
+    "name": "ヒダカエクスプレス",
+    "birthDate": "2020-05-19",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01206",
+      "name": "高橋一哉"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "330512",
+      "name": "大狩部牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2011110091",
+      "name": "アジアエクスプレス"
+    },
+    "dam": {
+      "id": "2012100836",
+      "name": "ヒメキヨヒダカ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011110091",
@@ -1617,6 +1647,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヒダカエクスプレス (Hidaka Express) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒダカエクスプレス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヒダカエクスプレス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1686,9 +1746,9 @@
       "contentHash": "118de13187dcac7bea6ed3e11a19fb74726de10418ead09b47f7d63061c57f45",
       "byteLength": 65117,
       "rawPath": "netkeiba/horses/2020/2020105070/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:12:41.442Z"
+  "updatedAt": "2026-08-27T11:23:55.326Z"
 }

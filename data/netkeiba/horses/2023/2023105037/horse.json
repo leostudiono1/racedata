@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105037",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105037/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウリュウシ",
+    "birthDate": "2023-04-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01121",
+      "name": "角田晃一"
+    },
+    "owner": {
+      "id": "911008",
+      "name": "松本好隆"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2014103529",
+      "name": "メイショウミハル"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -1261,6 +1291,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウリュウシ (Meisho Ryushi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウリュウシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウリュウシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1330,9 +1390,9 @@
       "contentHash": "dac32ba4f0a00141bde5417be57c107d74aca1ce245fcb5c0f82961a277147be",
       "byteLength": 65980,
       "rawPath": "netkeiba/horses/2023/2023105037/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:53:02.932Z"
+  "updatedAt": "2026-08-28T10:58:47.557Z"
 }

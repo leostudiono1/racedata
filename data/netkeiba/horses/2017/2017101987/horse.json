@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101987",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101987/",
-  "profile": null,
+  "profile": {
+    "name": "バイカル",
+    "birthDate": "2017-06-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "藤川純"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "130317",
+      "name": "ムラカミファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ロージズインメイ Roses in May(米)"
+    },
+    "dam": {
+      "id": "2009105625",
+      "name": "クラールハイト"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -8357,6 +8387,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バイカル (Baikal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイカル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バイカル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8426,9 +8486,9 @@
       "contentHash": "f0b46d870ff463a7b491865c6acc982e7ac0c07e6dcdc8c9dc1f83faade21dfe",
       "byteLength": 66915,
       "rawPath": "netkeiba/horses/2017/2017101987/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:09:48.632Z"
+  "updatedAt": "2026-08-24T15:18:35.119Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104024",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104024/",
-  "profile": null,
+  "profile": {
+    "name": "ベストワルツ",
+    "birthDate": "2012-02-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00390",
+      "name": "池上昌弘"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "1999110226",
+      "name": "フェアリーワルツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lear Fan"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -1015,6 +1045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベストワルツ (Best Waltz) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストワルツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベストワルツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1084,9 +1144,9 @@
       "contentHash": "23918297511f260c4ce539cdd225520bce581e4e4d16c39f37b20b99530ac097",
       "byteLength": 64940,
       "rawPath": "netkeiba/horses/2012/2012104024/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:46:07.149Z"
+  "updatedAt": "2026-08-31T08:55:50.220Z"
 }

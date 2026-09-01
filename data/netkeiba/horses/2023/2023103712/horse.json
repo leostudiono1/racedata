@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103712",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103712/",
-  "profile": null,
+  "profile": {
+    "name": "ジンカイト",
+    "birthDate": "2023-05-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "808800",
+      "name": "Ｇ１レーシング"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "2014110084",
+      "name": "ハニージェイド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -992,6 +1022,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジンカイト (Zincite) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジンカイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジンカイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1061,9 +1121,9 @@
       "contentHash": "32909507471dd579fe45c3b86bf3ee2e745ab00a6724caddfc524bcadf5be29f",
       "byteLength": 65953,
       "rawPath": "netkeiba/horses/2023/2023103712/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:37:42.052Z"
+  "updatedAt": "2026-08-24T15:46:28.809Z"
 }

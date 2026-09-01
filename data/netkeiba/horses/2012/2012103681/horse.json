@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103681",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103681/",
-  "profile": null,
+  "profile": {
+    "name": "テイア",
+    "birthDate": "2012-04-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00428",
+      "name": "石毛善彦"
+    },
+    "owner": {
+      "id": "629800",
+      "name": "ミルファーム"
+    },
+    "breeder": {
+      "id": "233071",
+      "name": "岡田スタッド"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    },
+    "dam": {
+      "id": "1999106973",
+      "name": "ロココスタイル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1992102988",
@@ -5296,6 +5326,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイア (Theia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5365,9 +5425,9 @@
       "contentHash": "084fa0b6f3f27ecf7736aac4a91c9456d0fcc95b614127afbd775df9aa684a89",
       "byteLength": 66852,
       "rawPath": "netkeiba/horses/2012/2012103681/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:30:30.100Z"
+  "updatedAt": "2026-08-29T09:38:27.674Z"
 }

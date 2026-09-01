@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100252",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100252/",
-  "profile": null,
+  "profile": {
+    "name": "メーティス",
+    "birthDate": "2014-05-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05237",
+      "name": "藤田正治"
+    },
+    "owner": {
+      "id": "337803",
+      "name": "（有）ホースケア"
+    },
+    "breeder": {
+      "id": "410343",
+      "name": "斉藤安行"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2008104512",
+      "name": "ハロータマ"
+    },
+    "damsire": {
+      "id": "1997110179",
+      "name": "ゼンノエルシド"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -5851,6 +5881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メーティス (Metis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メーティス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メーティス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5920,9 +5980,9 @@
       "contentHash": "05481dd3b56bb8ba29aefd4f6c241545aebfe167c0fd7893a81b8846595b4dbd",
       "byteLength": 66623,
       "rawPath": "netkeiba/horses/2014/2014100252/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:10:02.675Z"
+  "updatedAt": "2026-08-28T10:15:47.653Z"
 }

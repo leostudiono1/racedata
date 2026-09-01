@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100611",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100611/",
-  "profile": null,
+  "profile": {
+    "name": "キャルベイ",
+    "birthDate": "2017-02-14",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01162",
+      "name": "田中博康"
+    },
+    "owner": {
+      "id": "658033",
+      "name": "里見治紀"
+    },
+    "breeder": {
+      "id": "901358",
+      "name": "田端牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "クァンタムミス Quantum Miss(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smoke Glacken"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1507,6 +1537,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キャルベイ (Cal Bay) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャルベイ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キャルベイ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1576,9 +1636,9 @@
       "contentHash": "fd7aad11c6a1056b4257e807048385bedfe3a1f5c07a0f828f486fc034654f8e",
       "byteLength": 66817,
       "rawPath": "netkeiba/horses/2017/2017100611/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:22:21.692Z"
+  "updatedAt": "2026-08-28T10:28:06.467Z"
 }

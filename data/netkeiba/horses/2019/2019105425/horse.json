@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105425",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105425/",
-  "profile": null,
+  "profile": {
+    "name": "パロマル",
+    "birthDate": "2019-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01156",
+      "name": "青木孝文"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ペンカナプリンセス Penkenna Princess(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -1127,6 +1157,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パロマル (Palomar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パロマル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パロマル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1196,9 +1256,9 @@
       "contentHash": "cbb824c32b03d178c3e9d795f7dd9b61a4f65ae481739a394ac5605345e28e6c",
       "byteLength": 65955,
       "rawPath": "netkeiba/horses/2019/2019105425/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:08:19.270Z"
+  "updatedAt": "2026-08-27T11:19:32.731Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100766",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100766/",
-  "profile": null,
+  "profile": {
+    "name": "ランランラン",
+    "birthDate": "2013-03-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "雑賀正光"
+    },
+    "owner": {
+      "id": "x09393",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "231397",
+      "name": "野島牧場"
+    },
+    "birthplace": "日高",
+    "sire": {
+      "id": "2004106000",
+      "name": "エクラヴァンクール"
+    },
+    "dam": {
+      "id": "2007102667",
+      "name": "ラメラメ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106000",
@@ -4790,6 +4820,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランランラン (Run Run Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランランラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランランラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4859,9 +4919,9 @@
       "contentHash": "486ca56a1aa19cfebca05b22e18c61e16214cb4dd1a63ca76957d39ceff0ef99",
       "byteLength": 66027,
       "rawPath": "netkeiba/horses/2013/2013100766/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:25:58.472Z"
+  "updatedAt": "2026-08-26T11:28:48.028Z"
 }

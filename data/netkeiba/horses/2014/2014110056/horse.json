@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014110056",
   "sourceUrl": "https://db.netkeiba.com/horse/2014110056/",
-  "profile": null,
+  "profile": {
+    "name": "メリオラ",
+    "birthDate": "2014-05-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "480889",
+      "name": "Diamond A Racing Corp."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Giant's Causeway (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Stop Traffic"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cure the Blues"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2379,6 +2409,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メリオラ (Meliora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリオラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリオラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2448,9 +2508,9 @@
       "contentHash": "2b2d418b61e6d084d9a7bee0bda4dc5a81ef758ca457c1bcd87dbf5fc69aace4",
       "byteLength": 66698,
       "rawPath": "netkeiba/horses/2014/2014110056/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:45:58.466Z"
+  "updatedAt": "2026-08-25T13:55:41.329Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105047",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105047/",
-  "profile": null,
+  "profile": {
+    "name": "アニマートバイオ",
+    "birthDate": "2019-02-21",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "森山雄大"
+    },
+    "owner": {
+      "id": "930800",
+      "name": "バイオ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2007103393",
+      "name": "アニメイトバイオ"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1376,6 +1406,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アニマートバイオ (Animato Bio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アニマートバイオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アニマートバイオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1445,9 +1505,9 @@
       "contentHash": "556790200750249a4b5e473d3b97b0a516abb28fbf6002e3e09a7c6b54aa88c9",
       "byteLength": 65118,
       "rawPath": "netkeiba/horses/2019/2019105047/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:15:49.524Z"
+  "updatedAt": "2026-08-31T09:25:32.162Z"
 }

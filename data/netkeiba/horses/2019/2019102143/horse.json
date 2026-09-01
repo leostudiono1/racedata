@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102143",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102143/",
-  "profile": null,
+  "profile": {
+    "name": "フルオール",
+    "birthDate": "2019-03-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "213321",
+      "name": "藤本ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2013103176",
+      "name": "ゴールドフォレスト"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -3740,6 +3770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルオール (Fruor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルオール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルオール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3809,9 +3869,9 @@
       "contentHash": "38288f76de06181e7b4aa8220253896220891c600461e7ea3e16b3d8feb1d38a",
       "byteLength": 66844,
       "rawPath": "netkeiba/horses/2019/2019102143/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:14:00.872Z"
+  "updatedAt": "2026-08-31T09:23:43.609Z"
 }

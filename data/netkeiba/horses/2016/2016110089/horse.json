@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110089",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110089/",
-  "profile": null,
+  "profile": {
+    "name": "デルマカトリーナ",
+    "birthDate": "2016-05-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "274002",
+      "name": "浅沼廣幸"
+    },
+    "breeder": {
+      "id": "560705",
+      "name": "Payson Stud Inc."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Ghostzapper (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ruthian (米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rahy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3286,6 +3316,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "デルマカトリーナ (Derma Katrina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルマカトリーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "デルマカトリーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3355,9 +3415,9 @@
       "contentHash": "e48ee7dc9e738e7b35fc9f624a59b1d483a269c6dd685ac807ad42328271ab99",
       "byteLength": 66380,
       "rawPath": "netkeiba/horses/2016/2016110089/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:04:05.608Z"
+  "updatedAt": "2026-08-31T09:13:48.455Z"
 }

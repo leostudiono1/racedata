@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101785",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101785/",
-  "profile": null,
+  "profile": {
+    "name": "アサシン",
+    "birthDate": "2017-04-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05503",
+      "name": "上杉昌宏"
+    },
+    "owner": {
+      "id": "723033",
+      "name": "中村忠彦"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2008110053",
+      "name": "アンシャンタン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -4492,6 +4522,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アサシン (Assassin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサシン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アサシン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4561,9 +4621,9 @@
       "contentHash": "44062520d125e2ba989b940b0b3f60c791b7a1e837fb352e1f8111aceac8650f",
       "byteLength": 66376,
       "rawPath": "netkeiba/horses/2017/2017101785/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:23:42.358Z"
+  "updatedAt": "2026-08-30T09:27:34.933Z"
 }

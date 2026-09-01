@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022103066",
   "sourceUrl": "https://db.netkeiba.com/horse/2022103066/",
-  "profile": null,
+  "profile": {
+    "name": "レイピア",
+    "birthDate": "2022-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "041002",
+      "name": "前田晋二"
+    },
+    "breeder": {
+      "id": "830014",
+      "name": "富菜牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2015101621",
+      "name": "タワーオブロンドン"
+    },
+    "dam": {
+      "id": "2013103628",
+      "name": "アンナトルテ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2015101621",
@@ -2933,6 +2963,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイピア (Rapier) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイピア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイピア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3002,9 +3062,9 @@
       "contentHash": "4bfee00246436aa2d345a04a8c6fb327dba37b02c5594f77ac632282c1483390",
       "byteLength": 66972,
       "rawPath": "netkeiba/horses/2022/2022103066/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:19:31.940Z"
+  "updatedAt": "2026-08-25T14:28:53.373Z"
 }

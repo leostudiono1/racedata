@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104346",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104346/",
-  "profile": null,
+  "profile": {
+    "name": "ヴェノム",
+    "birthDate": "2018-05-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中川雅之"
+    },
+    "owner": {
+      "id": "739009",
+      "name": "栗嶋豊明"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "2010104060",
+      "name": "マーヴェリックス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -6156,6 +6186,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴェノム (Venom) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェノム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴェノム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6225,9 +6285,9 @@
       "contentHash": "d2994612dc9175280c8af4e6476c6c00fb0c1d674c8fdff03461368ffd4db8cd",
       "byteLength": 66731,
       "rawPath": "netkeiba/horses/2018/2018104346/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:49:40.138Z"
+  "updatedAt": "2026-08-26T11:52:29.463Z"
 }

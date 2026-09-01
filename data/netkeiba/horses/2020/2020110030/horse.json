@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110030",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110030/",
-  "profile": null,
+  "profile": {
+    "name": "ユアデスティニー",
+    "birthDate": "2020-03-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "628031",
+      "name": "稲場澄"
+    },
+    "breeder": {
+      "id": "620731",
+      "name": "Crosshaven Bloodstock"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Oscar Performance (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Rendezvous Point"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kingmambo (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2080,6 +2110,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユアデスティニー (Your Destiny) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアデスティニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユアデスティニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2149,9 +2209,9 @@
       "contentHash": "9365984356e57a12fc5971b77b1811d7b78d9b88fb3cb312f78655c3abe23274",
       "byteLength": 66998,
       "rawPath": "netkeiba/horses/2020/2020110030/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:13:06.763Z"
+  "updatedAt": "2026-08-25T14:22:28.399Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101300",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101300/",
-  "profile": null,
+  "profile": {
+    "name": "ミオカーロ",
+    "birthDate": "2020-05-25",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01110",
+      "name": "清水久詞"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "910466",
+      "name": "ヴェルサイユファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2009102417",
+      "name": "ジョウノカーラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dylan Thomas (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1347,6 +1377,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミオカーロ (Mio Caro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミオカーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミオカーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1416,9 +1476,9 @@
       "contentHash": "3c036049305b2bd43e89a8bdada83157aa97f3bf449873d7b9ceec507c036b22",
       "byteLength": 67239,
       "rawPath": "netkeiba/horses/2020/2020101300/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:56:50.510Z"
+  "updatedAt": "2026-08-26T11:59:40.203Z"
 }

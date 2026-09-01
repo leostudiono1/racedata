@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104198",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104198/",
-  "profile": null,
+  "profile": {
+    "name": "シノン",
+    "birthDate": "2023-01-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05275",
+      "name": "八木正喜"
+    },
+    "owner": {
+      "id": "521033",
+      "name": "橋詰弘一"
+    },
+    "breeder": {
+      "id": "903358",
+      "name": "田端牧場"
+    },
+    "birthplace": "新冠",
+    "sire": {
+      "id": "2017105638",
+      "name": "レッドベルジュール"
+    },
+    "dam": {
+      "id": "2017105352",
+      "name": "レッドシノン"
+    },
+    "damsire": {
+      "id": "2005110112",
+      "name": "カジノドライヴ"
+    }
+  },
   "pedigree": [
     {
       "id": "2017105638",
@@ -2015,6 +2045,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シノン (Chinon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シノン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シノン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2084,9 +2144,9 @@
       "contentHash": "7d66ab890bf188721c75947d2b6bd36a779533169d60c278ef6d3b3a8e8e600f",
       "byteLength": 64444,
       "rawPath": "netkeiba/horses/2023/2023104198/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:24:29.567Z"
+  "updatedAt": "2026-08-25T14:33:51.177Z"
 }

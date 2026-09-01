@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103885",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103885/",
-  "profile": null,
+  "profile": {
+    "name": "アマデウス",
+    "birthDate": "2016-03-06",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田義人"
+    },
+    "owner": {
+      "id": "863033",
+      "name": "成富直行"
+    },
+    "breeder": {
+      "id": "510362",
+      "name": "川向高橋育成牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2006106256",
+      "name": "ブライティアピア"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -8816,6 +8846,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アマデウス (Amadeus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマデウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマデウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8885,9 +8945,9 @@
       "contentHash": "7378add78827dbc2010b02d894868ca9b2fdb25c07d926eee64640780e7ccd14",
       "byteLength": 66949,
       "rawPath": "netkeiba/horses/2016/2016103885/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:01:56.393Z"
+  "updatedAt": "2026-08-31T09:11:39.016Z"
 }

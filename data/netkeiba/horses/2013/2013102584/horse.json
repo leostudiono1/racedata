@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102584",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102584/",
-  "profile": null,
+  "profile": {
+    "name": "オーミリシャール",
+    "birthDate": "2013-03-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00434",
+      "name": "西橋豊治"
+    },
+    "owner": {
+      "id": "288009",
+      "name": "岩崎僖澄"
+    },
+    "breeder": {
+      "id": "243540",
+      "name": "三石ビクトリーファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102955",
+      "name": "フサイチリシャール"
+    },
+    "dam": {
+      "id": "1996101144",
+      "name": "クィーンヘイロー"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102955",
@@ -1364,6 +1394,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オーミリシャール (Omi Richard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーミリシャール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オーミリシャール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1433,9 +1493,9 @@
       "contentHash": "fff131c92237dbfe3439789f19acab01dc0b0b9d7e0019bb3e33241dd0823954",
       "byteLength": 64645,
       "rawPath": "netkeiba/horses/2013/2013102584/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:05:57.790Z"
+  "updatedAt": "2026-08-30T09:09:50.499Z"
 }

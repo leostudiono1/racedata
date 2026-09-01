@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103227",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103227/",
-  "profile": null,
+  "profile": {
+    "name": "ジャズ",
+    "birthDate": "2021-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01183",
+      "name": "辻野泰之"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2015103350",
+      "name": "カンタービレ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -2903,6 +2933,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジャズ (Jazz) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジャズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2972,9 +3032,9 @@
       "contentHash": "0368f9a2377674411db20085eb6d55ac561aa3e0800d921f0f90e9807d21e9bf",
       "byteLength": 66776,
       "rawPath": "netkeiba/horses/2021/2021103227/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:42:08.973Z"
+  "updatedAt": "2026-08-30T09:46:01.192Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103525",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103525/",
-  "profile": null,
+  "profile": {
+    "name": "ライナス",
+    "birthDate": "2015-03-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05281",
+      "name": "塚田隆男"
+    },
+    "owner": {
+      "id": "943030",
+      "name": "橋元勇氣"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2008104876",
+      "name": "ナイトフライト"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3393,6 +3423,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライナス (Linus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライナス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライナス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3462,9 +3522,9 @@
       "contentHash": "3af099515231d514d4e1e5a80a3b2b7e4d5371e6e88b74dfa43c05ba7e907c5a",
       "byteLength": 66739,
       "rawPath": "netkeiba/horses/2015/2015103525/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:15:14.709Z"
+  "updatedAt": "2026-08-30T09:19:07.132Z"
 }

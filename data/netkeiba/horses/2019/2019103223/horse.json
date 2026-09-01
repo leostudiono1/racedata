@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103223",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103223/",
-  "profile": null,
+  "profile": {
+    "name": "エスカペード",
+    "birthDate": "2019-04-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "小林俊彦"
+    },
+    "owner": {
+      "id": "274008",
+      "name": "佐藤壽男"
+    },
+    "breeder": {
+      "id": "301060",
+      "name": "本桐牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006104736",
+      "name": "トランセンド"
+    },
+    "dam": {
+      "id": "2011104066",
+      "name": "アンテプリッツ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2006104736",
@@ -9241,6 +9271,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスカペード (Escapade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスカペード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスカペード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9310,9 +9370,9 @@
       "contentHash": "38ad89eb4aaf2614b74ae13c11c1afcb95e5c4db8faaa08c5f4714be910bf885",
       "byteLength": 67002,
       "rawPath": "netkeiba/horses/2019/2019103223/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:06:06.737Z"
+  "updatedAt": "2026-08-25T14:15:28.223Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015105070",
   "sourceUrl": "https://db.netkeiba.com/horse/2015105070/",
-  "profile": null,
+  "profile": {
+    "name": "フラットレー",
+    "birthDate": "2015-04-08",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01177",
+      "name": "伊坂重信"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リッチダンサー Rich Dancer(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Halling"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2548,6 +2578,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラットレー (Flatley) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラットレー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラットレー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2617,9 +2677,9 @@
       "contentHash": "276a7f04ab2102d6ee3dcc2c71518db86c3589c0a64bcd04050cf16b44f48723",
       "byteLength": 67264,
       "rawPath": "netkeiba/horses/2015/2015105070/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:51:41.045Z"
+  "updatedAt": "2026-08-27T11:02:55.307Z"
 }

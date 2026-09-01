@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101079",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101079/",
-  "profile": null,
+  "profile": {
+    "name": "パスクワ",
+    "birthDate": "2022-03-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01054",
+      "name": "戸田博文"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "530341",
+      "name": "新井昭二牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "2014105502",
+      "name": "サンジュリアン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1039,6 +1069,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パスクワ (Pascua) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パスクワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パスクワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1108,9 +1168,9 @@
       "contentHash": "b5f21e6fb3fe90a54ae20f3e87720a86a0b2e96184c1dca20994e77363307635",
       "byteLength": 64538,
       "rawPath": "netkeiba/horses/2022/2022101079/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:18:56.468Z"
+  "updatedAt": "2026-08-27T11:30:09.854Z"
 }

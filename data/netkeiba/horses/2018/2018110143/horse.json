@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018110143",
   "sourceUrl": "https://db.netkeiba.com/horse/2018110143/",
-  "profile": null,
+  "profile": {
+    "name": "カフェディアブロ",
+    "birthDate": "2018-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "酒井仁"
+    },
+    "owner": {
+      "id": "629007",
+      "name": "西川光一"
+    },
+    "breeder": {
+      "id": "640730",
+      "name": "Camas Park Stud"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Uncle Mo (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Auction"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Greeley"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1501,6 +1531,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフェディアブロ (Cafe Diablo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェディアブロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェディアブロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1570,9 +1630,9 @@
       "contentHash": "cdb853fadf91241255a99c7965b2c49e9a637e6367218ae161bead5840074a06",
       "byteLength": 64554,
       "rawPath": "netkeiba/horses/2018/2018110143/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:30:21.389Z"
+  "updatedAt": "2026-08-30T09:34:13.922Z"
 }

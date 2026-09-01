@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102837",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102837/",
-  "profile": null,
+  "profile": {
+    "name": "フリーマン",
+    "birthDate": "2023-03-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01129",
+      "name": "高橋義忠"
+    },
+    "owner": {
+      "id": "693031",
+      "name": "長谷川進一"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ヴァンゴッホ"
+    },
+    "dam": {
+      "id": "2008102887",
+      "name": "アルマフローラ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1276,6 +1306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリーマン (Freeman) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリーマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリーマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1345,9 +1405,9 @@
       "contentHash": "7c7402ad71a69bd265993f592a04dbae4ee3d9365883c8bf7d92672a2a3c7887",
       "byteLength": 65076,
       "rawPath": "netkeiba/horses/2023/2023102837/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:37:24.495Z"
+  "updatedAt": "2026-08-24T15:46:11.205Z"
 }

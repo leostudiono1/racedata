@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103306",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103306/",
-  "profile": null,
+  "profile": {
+    "name": "マラドーナ",
+    "birthDate": "2018-02-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "尾原強"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "200051",
+      "name": "バンブー牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007102705",
+      "name": "ペルーサ"
+    },
+    "dam": {
+      "id": "2013103095",
+      "name": "マラドーナスピン"
+    },
+    "damsire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102705",
@@ -6895,6 +6925,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マラドーナ (Maradona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マラドーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マラドーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6964,9 +7024,9 @@
       "contentHash": "7bfcc85b59ed690d30a3cd06d637482781d896fcd11276a48f6ff2955dc71308",
       "byteLength": 66808,
       "rawPath": "netkeiba/horses/2018/2018103306/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:28:11.888Z"
+  "updatedAt": "2026-08-30T09:32:04.376Z"
 }

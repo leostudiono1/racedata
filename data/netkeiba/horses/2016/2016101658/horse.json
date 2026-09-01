@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101658",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101658/",
-  "profile": null,
+  "profile": {
+    "name": "タガノジャイアント",
+    "birthDate": "2016-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01069",
+      "name": "中尾秀正"
+    },
+    "owner": {
+      "id": "859002",
+      "name": "八木良司"
+    },
+    "breeder": {
+      "id": "300033",
+      "name": "栄進牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース"
+    },
+    "dam": {
+      "id": "2010110055",
+      "name": "エイシンラトゥナ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Exchange Rate (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1013,6 +1043,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タガノジャイアント (Tagano Giant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノジャイアント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タガノジャイアント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1082,9 +1142,9 @@
       "contentHash": "f339dcc964634efb38256e5a71719927a0fa515c2313df2c9df98f2aa15ba801",
       "byteLength": 64727,
       "rawPath": "netkeiba/horses/2016/2016101658/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:00:42.606Z"
+  "updatedAt": "2026-08-31T09:10:25.416Z"
 }

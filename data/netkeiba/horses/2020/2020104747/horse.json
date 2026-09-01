@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104747",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104747/",
-  "profile": null,
+  "profile": {
+    "name": "ベニエ",
+    "birthDate": "2020-03-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "山田徹"
+    },
+    "owner": {
+      "id": "314034",
+      "name": "徳田直樹"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2012103468",
+      "name": "ジニアスミノル"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4276,6 +4306,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベニエ (Beignet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベニエ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベニエ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4345,9 +4405,9 @@
       "contentHash": "d997152e2d2cb61e93fc9874cea0442fbef1dabc99f7d25e324c70939e018b0c",
       "byteLength": 66970,
       "rawPath": "netkeiba/horses/2020/2020104747/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:11:42.760Z"
+  "updatedAt": "2026-08-25T14:21:04.323Z"
 }

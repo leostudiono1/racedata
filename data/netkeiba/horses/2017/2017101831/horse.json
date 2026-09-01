@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101831",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101831/",
-  "profile": null,
+  "profile": {
+    "name": "ペオース",
+    "birthDate": "2017-04-23",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01058",
+      "name": "大久保龍"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ダンカーク Dunkirk(米)"
+    },
+    "dam": {
+      "id": "2004100683",
+      "name": "ルアシェイア"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2557,6 +2587,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペオース (Peorth) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペオース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペオース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2626,9 +2686,9 @@
       "contentHash": "71fe5a35351aca3e5e6ae67d192e38f586f30f148ebba8f0223894153220e835",
       "byteLength": 65984,
       "rawPath": "netkeiba/horses/2017/2017101831/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:44:00.225Z"
+  "updatedAt": "2026-08-26T11:46:50.004Z"
 }

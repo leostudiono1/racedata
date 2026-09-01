@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015100201",
   "sourceUrl": "https://db.netkeiba.com/horse/2015100201/",
-  "profile": null,
+  "profile": {
+    "name": "グッドキャスト",
+    "birthDate": "2015-04-19",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01018",
+      "name": "宮徹"
+    },
+    "owner": {
+      "id": "973007",
+      "name": "杉立恭平"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2002101898",
+      "name": "タケカワルキューレ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1475,6 +1505,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グッドキャスト (Good Cast) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グッドキャスト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グッドキャスト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1544,9 +1604,9 @@
       "contentHash": "d5b3c783c84382a173805026126956833e705de67aa6fb12bebd9318c113c63d",
       "byteLength": 66196,
       "rawPath": "netkeiba/horses/2015/2015100201/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:46:08.844Z"
+  "updatedAt": "2026-08-25T13:55:51.841Z"
 }

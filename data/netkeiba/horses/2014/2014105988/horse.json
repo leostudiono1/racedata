@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014105988",
   "sourceUrl": "https://db.netkeiba.com/horse/2014105988/",
-  "profile": null,
+  "profile": {
+    "name": "クインズゴールド",
+    "birthDate": "2014-01-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05407",
+      "name": "赤嶺本浩"
+    },
+    "owner": {
+      "id": "390803",
+      "name": "亀田和弘"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ストールンハート Stolen Heart(智)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Stuka"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -2916,6 +2946,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クインズゴールド (Queen's Gold) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クインズゴールド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クインズゴールド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2985,9 +3045,9 @@
       "contentHash": "1155e14f1921e7de34b021efc20e892e2274fb260a87179993fe98122937e65d",
       "byteLength": 65521,
       "rawPath": "netkeiba/horses/2014/2014105988/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:54:24.347Z"
+  "updatedAt": "2026-08-31T09:04:07.282Z"
 }

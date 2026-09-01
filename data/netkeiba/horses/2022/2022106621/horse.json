@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106621",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106621/",
-  "profile": null,
+  "profile": {
+    "name": "プロメトル",
+    "birthDate": "2022-04-24",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "木村健"
+    },
+    "owner": {
+      "id": "x0a647",
+      "name": "曽和栄司"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2016110066",
+      "name": "ヴィーゲンリート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tiznow"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3296,6 +3326,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロメトル (Promettre) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロメトル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロメトル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3365,9 +3425,9 @@
       "contentHash": "b8df6dfe01df29c2b709a930be447e88d32cd9d7b65330ace57ef6ac0a37b928",
       "byteLength": 66755,
       "rawPath": "netkeiba/horses/2022/2022106621/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:49:01.935Z"
+  "updatedAt": "2026-08-30T09:52:54.359Z"
 }

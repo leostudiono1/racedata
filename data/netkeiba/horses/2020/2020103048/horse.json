@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103048",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103048/",
-  "profile": null,
+  "profile": {
+    "name": "ティムール",
+    "birthDate": "2020-02-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ホワイトローズII White Rose(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tapit (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3989,6 +4019,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ティムール (Timur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティムール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ティムール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4058,9 +4118,9 @@
       "contentHash": "b3e4ec7bf11cc3aa44e132e0913b4ca2c2fa1fde9b8726121a3b904a3d7c2b76",
       "byteLength": 66931,
       "rawPath": "netkeiba/horses/2020/2020103048/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:10:15.260Z"
+  "updatedAt": "2026-08-25T14:19:36.785Z"
 }

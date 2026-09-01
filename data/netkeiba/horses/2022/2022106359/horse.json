@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106359",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106359/",
-  "profile": null,
+  "profile": {
+    "name": "ラントレイル",
+    "birthDate": "2022-06-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "065803",
+      "name": "京都ホースレーシング"
+    },
+    "breeder": {
+      "id": "000310",
+      "name": "高瀬牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2010105596",
+      "name": "ランミネルバ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -1730,6 +1760,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラントレイル (Run Trail) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラントレイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラントレイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1799,9 +1859,9 @@
       "contentHash": "ec9da1217902d22ef24e1522461363bbdc9409414f732d734295fce8e8e921a8",
       "byteLength": 67265,
       "rawPath": "netkeiba/horses/2022/2022106359/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:49:26.255Z"
+  "updatedAt": "2026-08-28T10:55:10.521Z"
 }

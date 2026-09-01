@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014106142",
   "sourceUrl": "https://db.netkeiba.com/horse/2014106142/",
-  "profile": null,
+  "profile": {
+    "name": "サンラファエル",
+    "birthDate": "2014-02-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05716",
+      "name": "尾島徹"
+    },
+    "owner": {
+      "id": "014031",
+      "name": "松田正一"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ポトリザリス Potrizaris(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Potrillazo"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -3711,6 +3741,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンラファエル (San Rafael) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンラファエル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンラファエル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3780,9 +3840,9 @@
       "contentHash": "fec3ce4c36e51fbb6775254633e845d92706f5c077482b5a6046d3564200bc3f",
       "byteLength": 66836,
       "rawPath": "netkeiba/horses/2014/2014106142/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:45:09.417Z"
+  "updatedAt": "2026-08-25T13:54:52.326Z"
 }

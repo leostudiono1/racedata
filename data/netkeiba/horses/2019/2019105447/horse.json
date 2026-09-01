@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105447",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105447/",
-  "profile": null,
+  "profile": {
+    "name": "カルセドニー",
+    "birthDate": "2019-01-19",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01067",
+      "name": "久保田貴"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2011103832",
+      "name": "マリアライト"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1132,6 +1162,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カルセドニー (Chalcedony) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルセドニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カルセドニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1201,9 +1261,9 @@
       "contentHash": "810556c40a178720ecdeea6adaac89b6f6012355f055b6ab6021d963ec25431e",
       "byteLength": 67500,
       "rawPath": "netkeiba/horses/2019/2019105447/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:21:46.145Z"
+  "updatedAt": "2026-08-24T15:30:32.973Z"
 }

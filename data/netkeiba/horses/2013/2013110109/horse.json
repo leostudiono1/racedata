@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013110109",
   "sourceUrl": "https://db.netkeiba.com/horse/2013110109/",
-  "profile": null,
+  "profile": {
+    "name": "エルフィンコーブ",
+    "birthDate": "2013-04-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "151006",
+      "name": "吉田和子"
+    },
+    "breeder": {
+      "id": "010707",
+      "name": "John David O'Farrell & J. Michael O'Farrell Jr."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Adios Charlie"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Siren Cove"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Montbrook (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3261,6 +3291,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルフィンコーブ (Elfin Cove) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルフィンコーブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルフィンコーブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3330,9 +3390,9 @@
       "contentHash": "a6083c8fc4df90e837de79ce5847b6798dc20f3fc0715ec56b831c63519673ad",
       "byteLength": 67269,
       "rawPath": "netkeiba/horses/2013/2013110109/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:08:35.563Z"
+  "updatedAt": "2026-08-30T09:12:27.979Z"
 }

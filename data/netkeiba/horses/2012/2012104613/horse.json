@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104613",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104613/",
-  "profile": null,
+  "profile": {
+    "name": "キングダム",
+    "birthDate": "2012-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01002",
+      "name": "音無秀孝"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2001103340",
+      "name": "グローリアスデイズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1082,6 +1112,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キングダム (Kingdom) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングダム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キングダム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1151,9 +1211,9 @@
       "contentHash": "caae8d988af6fd1f1cca7898bb8233848164f519671f693cf556748114261b93",
       "byteLength": 64489,
       "rawPath": "netkeiba/horses/2012/2012104613/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:31:08.469Z"
+  "updatedAt": "2026-08-29T09:39:06.271Z"
 }

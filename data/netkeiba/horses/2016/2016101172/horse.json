@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101172",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101172/",
-  "profile": null,
+  "profile": {
+    "name": "ファイナライズ",
+    "birthDate": "2016-02-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01176",
+      "name": "吉岡辰弥"
+    },
+    "owner": {
+      "id": "170800",
+      "name": "ロードホースクラブ"
+    },
+    "breeder": {
+      "id": "253025",
+      "name": "ケイアイファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ワイルドココ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shirocco"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2231,6 +2261,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ファイナライズ (Finalize) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファイナライズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ファイナライズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2300,9 +2360,9 @@
       "contentHash": "de1a26cf60ce979d742fb7457ef5d73f946c5c72cea150e8e9d4c25abe413061",
       "byteLength": 65887,
       "rawPath": "netkeiba/horses/2016/2016101172/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:18:23.174Z"
+  "updatedAt": "2026-08-28T10:24:08.327Z"
 }

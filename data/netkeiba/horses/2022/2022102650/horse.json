@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102650",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102650/",
-  "profile": null,
+  "profile": {
+    "name": "ソードナイト",
+    "birthDate": "2022-03-25",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01186",
+      "name": "中村直也"
+    },
+    "owner": {
+      "id": "385031",
+      "name": "ＫＨレーシング"
+    },
+    "breeder": {
+      "id": "810031",
+      "name": "オカモトファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "Almanzor (仏)"
+    },
+    "dam": {
+      "id": "2017105294",
+      "name": "ブーケルージュ"
+    },
+    "damsire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1417,6 +1447,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソードナイト (Sword Knight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソードナイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソードナイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1486,9 +1546,9 @@
       "contentHash": "73672a47a1a1a1d7ec32f6907a3f15e1f449b49729f88cc4ce4011650bc9b10f",
       "byteLength": 64616,
       "rawPath": "netkeiba/horses/2022/2022102650/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:19:07.685Z"
+  "updatedAt": "2026-08-25T14:28:28.977Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101494",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101494/",
-  "profile": null,
+  "profile": {
+    "name": "ジュジョール",
+    "birthDate": "2014-03-17",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド Precise End(米)"
+    },
+    "dam": {
+      "id": "2008100557",
+      "name": "マックスロンシャン"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1522,6 +1552,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジュジョール (Jujol) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュジョール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジュジョール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1591,9 +1651,9 @@
       "contentHash": "59b06ec9e5a9d7ce724374b9a070dff8b849f2e35df9eca87ad420ce0d76a5d9",
       "byteLength": 64780,
       "rawPath": "netkeiba/horses/2014/2014101494/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:09:24.677Z"
+  "updatedAt": "2026-08-30T09:13:17.063Z"
 }

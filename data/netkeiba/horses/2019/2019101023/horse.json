@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101023",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101023/",
-  "profile": null,
+  "profile": {
+    "name": "アルカンサス",
+    "birthDate": "2019-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01207",
+      "name": "田中勝春"
+    },
+    "owner": {
+      "id": "798008",
+      "name": "一村哲也"
+    },
+    "breeder": {
+      "id": "130318",
+      "name": "守矢牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013105903",
+      "name": "シルバーステート"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラサンバ La Samba(豪)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Orientate"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105903",
@@ -5846,6 +5876,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルカンサス (Arkansas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルカンサス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルカンサス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5915,9 +5975,9 @@
       "contentHash": "7caaaf6d63aba8a25b5be4e941370934942ea0ff85de84c43205de205f514c4a",
       "byteLength": 66863,
       "rawPath": "netkeiba/horses/2019/2019101023/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:52:03.389Z"
+  "updatedAt": "2026-08-26T11:54:53.121Z"
 }

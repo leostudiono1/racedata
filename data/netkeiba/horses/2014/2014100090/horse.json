@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100090",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100090/",
-  "profile": null,
+  "profile": {
+    "name": "アロマティカス",
+    "birthDate": "2014-05-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "宗石大"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "530331",
+      "name": "岩見牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2010105327",
+      "name": "ケージーメグミ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -12873,6 +12903,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アロマティカス (Aromaticus) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アロマティカス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アロマティカス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -12942,9 +13002,9 @@
       "contentHash": "32fe80978cccd442fcbc65b2f84d10799a39dfe812e085c185b5a4a2de036f91",
       "byteLength": 66990,
       "rawPath": "netkeiba/horses/2014/2014100090/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:29:35.665Z"
+  "updatedAt": "2026-08-26T11:32:25.313Z"
 }

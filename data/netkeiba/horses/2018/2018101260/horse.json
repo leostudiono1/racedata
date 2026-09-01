@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101260",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101260/",
-  "profile": null,
+  "profile": {
+    "name": "スズカヒカリ",
+    "birthDate": "2018-04-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00362",
+      "name": "橋田満"
+    },
+    "owner": {
+      "id": "382004",
+      "name": "永井啓弍"
+    },
+    "breeder": {
+      "id": "000365",
+      "name": "稲原牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2004104345",
+      "name": "スズカコーズウェイ"
+    },
+    "dam": {
+      "id": "2003104262",
+      "name": "スズカローズマリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2004104345",
@@ -1340,6 +1370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズカヒカリ (Suzuka Hikari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカヒカリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカヒカリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1409,9 +1469,9 @@
       "contentHash": "baf227e35930368b484e2bf5b1b69d111acb04db1717653aaa5fa046192f26be",
       "byteLength": 64658,
       "rawPath": "netkeiba/horses/2018/2018101260/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:47:33.810Z"
+  "updatedAt": "2026-08-26T11:50:23.780Z"
 }

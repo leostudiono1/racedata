@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102606",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102606/",
-  "profile": null,
+  "profile": {
+    "name": "ミヤフロント",
+    "birthDate": "2023-03-07",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01151",
+      "name": "斉藤崇史"
+    },
+    "owner": {
+      "id": "592031",
+      "name": "山本益臣"
+    },
+    "breeder": {
+      "id": "705079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "Kingman (英)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フロントゲート Frontgate(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Front"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1591,6 +1621,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミヤフロント (Miya Front) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミヤフロント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミヤフロント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1660,9 +1720,9 @@
       "contentHash": "a0907ae88d5d6e184c575be615433f8e2207b3aeb0d8703dcae888c217f3d939",
       "byteLength": 67169,
       "rawPath": "netkeiba/horses/2023/2023102606/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:11:50.401Z"
+  "updatedAt": "2026-08-26T12:14:40.013Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101136",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101136/",
-  "profile": null,
+  "profile": {
+    "name": "アクシア",
+    "birthDate": "2011-04-18",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01074",
+      "name": "奥平雅士"
+    },
+    "owner": {
+      "id": "253006",
+      "name": "山本武司"
+    },
+    "breeder": {
+      "id": "000367",
+      "name": "びらとり牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "1994104474",
+      "name": "アプローズフラワー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ロイヤルスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -5740,6 +5770,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アクシア (Axia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5809,9 +5869,9 @@
       "contentHash": "222e978a4859dc6b73496f4d4dd5fe1a4bb83cb55984ad5ef7055875e94be46c",
       "byteLength": 65108,
       "rawPath": "netkeiba/horses/2011/2011101136/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:34:04.120Z"
+  "updatedAt": "2026-08-25T13:43:47.125Z"
 }

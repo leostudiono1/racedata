@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102431",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102431/",
-  "profile": null,
+  "profile": {
+    "name": "メリザント",
+    "birthDate": "2013-02-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "490006",
+      "name": "門野重雄"
+    },
+    "breeder": {
+      "id": "403025",
+      "name": "仲野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "2005110030",
+      "name": "アンチークショップ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1080,6 +1110,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メリザント (Melisande) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリザント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メリザント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1149,9 +1209,9 @@
       "contentHash": "10324a986a254f57fd986c50c3dcec0543fa851e21ed2ad6d743a4254d4aa29f",
       "byteLength": 65347,
       "rawPath": "netkeiba/horses/2013/2013102431/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:53:21.033Z"
+  "updatedAt": "2026-08-24T15:02:08.352Z"
 }

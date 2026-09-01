@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022107262",
   "sourceUrl": "https://db.netkeiba.com/horse/2022107262/",
-  "profile": null,
+  "profile": {
+    "name": "スターコンパス",
+    "birthDate": "2022-05-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "大垣敏夫"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "590334",
+      "name": "奥山ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ローンリリー Lonelily(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1982,6 +2012,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターコンパス (Star Compass) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターコンパス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターコンパス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2051,9 +2111,9 @@
       "contentHash": "35b97f9ac537e3ae400455d1ccef56d492a93e78cc8d618cd32a308c75f10f7a",
       "byteLength": 66675,
       "rawPath": "netkeiba/horses/2022/2022107262/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:10:08.779Z"
+  "updatedAt": "2026-08-26T12:12:58.465Z"
 }

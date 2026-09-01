@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009101968",
   "sourceUrl": "https://db.netkeiba.com/horse/2009101968/",
-  "profile": null,
+  "profile": {
+    "name": "リバータイキ",
+    "birthDate": "2009-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01006",
+      "name": "作田誠二"
+    },
+    "owner": {
+      "id": "618002",
+      "name": "河越武治"
+    },
+    "breeder": {
+      "id": "000365",
+      "name": "稲原牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    },
+    "dam": {
+      "id": "2002107003",
+      "name": "エアコムロー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "オペラハウス Opera House(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1994109686",
@@ -5421,6 +5451,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リバータイキ (River Taiki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リバータイキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リバータイキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5490,9 +5550,9 @@
       "contentHash": "531c9c95e7031d4b7dc9e76745a8606faaf39d5e7a0408a612df19f5913f9b36",
       "byteLength": 66863,
       "rawPath": "netkeiba/horses/2009/2009101968/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:32:15.609Z"
+  "updatedAt": "2026-08-25T13:41:58.568Z"
 }

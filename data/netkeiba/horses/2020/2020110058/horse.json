@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110058",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110058/",
-  "profile": null,
+  "profile": {
+    "name": "ホウキボシ",
+    "birthDate": "2020-01-17",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01070",
+      "name": "堀宣行"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "720733",
+      "name": "Kenilworth House Stud"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Zoustar"
+    },
+    "dam": {
+      "id": "000",
+      "name": "La Collina"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Strategic Prince"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2079,6 +2109,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホウキボシ (Hokiboshi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホウキボシ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホウキボシ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2148,9 +2208,9 @@
       "contentHash": "13272b6837e0a03ccec6a246283bc8583edfbb8a5cd9c79ef14956c93d07d0e6",
       "byteLength": 66880,
       "rawPath": "netkeiba/horses/2020/2020110058/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:14:05.558Z"
+  "updatedAt": "2026-08-27T11:25:19.319Z"
 }

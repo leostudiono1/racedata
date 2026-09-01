@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101106",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101106/",
-  "profile": null,
+  "profile": {
+    "name": "スマートスピア",
+    "birthDate": "2021-03-20",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "007803",
+      "name": "大川徹"
+    },
+    "breeder": {
+      "id": "913344",
+      "name": "いとう牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2006101287",
+      "name": "レジェトウショウ"
+    },
+    "damsire": {
+      "id": "1995104427",
+      "name": "キングヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2244,6 +2274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スマートスピア (Smart Spear) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートスピア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スマートスピア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2313,9 +2373,9 @@
       "contentHash": "7980cf3d0cd353914e601af17232afa4806ddcff9211de70a8fe82c827157de5",
       "byteLength": 67071,
       "rawPath": "netkeiba/horses/2021/2021101106/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:21:28.909Z"
+  "updatedAt": "2026-08-31T09:31:11.704Z"
 }

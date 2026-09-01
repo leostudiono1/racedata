@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101623",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101623/",
-  "profile": null,
+  "profile": {
+    "name": "アテイン",
+    "birthDate": "2012-04-12",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01036",
+      "name": "高橋義博"
+    },
+    "owner": {
+      "id": "626008",
+      "name": "紙透一雄"
+    },
+    "breeder": {
+      "id": "639391",
+      "name": "千葉飯田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "1999103978",
+      "name": "トキノナイスナイス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンダーインチーフ Commander in Chief(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -2004,6 +2034,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アテイン (Attain) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アテイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アテイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2073,9 +2133,9 @@
       "contentHash": "1e4b74bd832eddc948677ff567f155061006b82b5a2bd8abbbe55e67a49958a1",
       "byteLength": 64580,
       "rawPath": "netkeiba/horses/2012/2012101623/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:21:53.213Z"
+  "updatedAt": "2026-08-26T11:24:43.004Z"
 }

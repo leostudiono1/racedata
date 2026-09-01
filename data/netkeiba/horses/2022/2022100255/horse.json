@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022100255",
   "sourceUrl": "https://db.netkeiba.com/horse/2022100255/",
-  "profile": null,
+  "profile": {
+    "name": "チュウジョウ",
+    "birthDate": "2022-03-28",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01178",
+      "name": "杉山佳明"
+    },
+    "owner": {
+      "id": "646030",
+      "name": "中辻明"
+    },
+    "breeder": {
+      "id": "533047",
+      "name": "鮫川ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "2008103003",
+      "name": "フレンチボウ"
+    },
+    "damsire": {
+      "id": "1990109700",
+      "name": "ホワイトマズル White Muzzle(英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -1821,6 +1851,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チュウジョウ (Chujo) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュウジョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チュウジョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1890,9 +1950,9 @@
       "contentHash": "d35fc630b73be1e243f891877b07155131ce7b6057a6fca09b2fa2a3a6df11a7",
       "byteLength": 66853,
       "rawPath": "netkeiba/horses/2022/2022100255/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:11:34.896Z"
+  "updatedAt": "2026-08-29T10:19:32.689Z"
 }

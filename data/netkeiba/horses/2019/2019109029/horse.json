@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019109029",
   "sourceUrl": "https://db.netkeiba.com/horse/2019109029/",
-  "profile": null,
+  "profile": {
+    "name": "グランジャンブ",
+    "birthDate": "2019-03-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01179",
+      "name": "鈴木慎太"
+    },
+    "owner": {
+      "id": "030803",
+      "name": "コスモヴューファーム"
+    },
+    "breeder": {
+      "id": "443570",
+      "name": "風ノ丘ファーム"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2011103328",
+      "name": "ビッグアーサー"
+    },
+    "dam": {
+      "id": "2008103122",
+      "name": "ソトーグラシオ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103328",
@@ -1658,6 +1688,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランジャンブ (Grand Jambe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランジャンブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランジャンブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1727,9 +1787,9 @@
       "contentHash": "f50f4a84bce89d1d6d42b6010f73ec8342f48e6b89abb92503cf0838bb2396eb",
       "byteLength": 66220,
       "rawPath": "netkeiba/horses/2019/2019109029/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:35:01.785Z"
+  "updatedAt": "2026-08-30T09:38:54.268Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105604",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105604/",
-  "profile": null,
+  "profile": {
+    "name": "トリストラム",
+    "birthDate": "2018-03-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "武井和実"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "343374",
+      "name": "上水牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター"
+    },
+    "dam": {
+      "id": "2007102378",
+      "name": "アントワープ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4359,6 +4389,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリストラム (Tristram) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリストラム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリストラム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4428,9 +4488,9 @@
       "contentHash": "2c8f4c2041521dc4e824683684787a3be8e9f485c271931e597f4843b757e55b",
       "byteLength": 67017,
       "rawPath": "netkeiba/horses/2018/2018105604/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:11:37.909Z"
+  "updatedAt": "2026-08-31T09:21:20.036Z"
 }

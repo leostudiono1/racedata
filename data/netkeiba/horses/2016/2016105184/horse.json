@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105184",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105184/",
-  "profile": null,
+  "profile": {
+    "name": "アルマンド",
+    "birthDate": "2016-03-08",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01092",
+      "name": "松永幹夫"
+    },
+    "owner": {
+      "id": "002803",
+      "name": "キーファーズ"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "フォーチュネイトダムゼル Fortunate Damsel(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Runaway Groom"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1212,6 +1242,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アルマンド (Allemande) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルマンド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アルマンド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1281,9 +1341,9 @@
       "contentHash": "67126149037ad0df1ba74d622d29885d145ed52646030a48dbcade141e2c9661",
       "byteLength": 64569,
       "rawPath": "netkeiba/horses/2016/2016105184/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:21:04.327Z"
+  "updatedAt": "2026-08-28T10:26:49.367Z"
 }

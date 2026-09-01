@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103046",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103046/",
-  "profile": null,
+  "profile": {
+    "name": "サピエンシア",
+    "birthDate": "2018-03-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00423",
+      "name": "上原博之"
+    },
+    "owner": {
+      "id": "281008",
+      "name": "水上ふじ子"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "アビ Abi(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Chief's Crown"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -1438,6 +1468,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サピエンシア (Sapiencia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サピエンシア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サピエンシア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1507,9 +1567,9 @@
       "contentHash": "0001fc2456787ab7d91288e98503a6eaca92a740bed3d698583545547888cd30",
       "byteLength": 64567,
       "rawPath": "netkeiba/horses/2018/2018103046/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:27:57.858Z"
+  "updatedAt": "2026-08-30T09:31:50.477Z"
 }

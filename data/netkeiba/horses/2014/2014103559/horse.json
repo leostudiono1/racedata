@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103559",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103559/",
-  "profile": null,
+  "profile": {
+    "name": "フェルトベルク",
+    "birthDate": "2014-05-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01095",
+      "name": "荒川義之"
+    },
+    "owner": {
+      "id": "036006",
+      "name": "加藤徹"
+    },
+    "breeder": {
+      "id": "400018",
+      "name": "三嶋牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2007101794",
+      "name": "プリンセスブルー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pulpit"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -4636,6 +4666,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェルトベルク (Feldberg) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェルトベルク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェルトベルク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4705,9 +4765,9 @@
       "contentHash": "9a10b3717eb266244f14b0e13b40b6e392ac8c26e8d117676b445cc6cf58e708",
       "byteLength": 67068,
       "rawPath": "netkeiba/horses/2014/2014103559/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:10:38.034Z"
+  "updatedAt": "2026-08-30T09:14:30.510Z"
 }

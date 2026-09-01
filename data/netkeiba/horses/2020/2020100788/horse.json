@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100788",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100788/",
-  "profile": null,
+  "profile": {
+    "name": "エピックライズ",
+    "birthDate": "2020-04-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05778",
+      "name": "飯田弘道"
+    },
+    "owner": {
+      "id": "894030",
+      "name": "村上憲政"
+    },
+    "breeder": {
+      "id": "230047",
+      "name": "鮫川啓一"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2013106235",
+      "name": "スパイチャクラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2616,6 +2646,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エピックライズ (Epic Rise) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エピックライズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エピックライズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2685,9 +2745,9 @@
       "contentHash": "ab255bdd06a1cf1e0482b30575c605ff839b237056c1aee72dfe91d820c48e3e",
       "byteLength": 64811,
       "rawPath": "netkeiba/horses/2020/2020100788/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:56:33.012Z"
+  "updatedAt": "2026-08-26T11:59:22.619Z"
 }

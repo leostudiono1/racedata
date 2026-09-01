@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100384",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100384/",
-  "profile": null,
+  "profile": {
+    "name": "メグ",
+    "birthDate": "2020-05-02",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05476",
+      "name": "鹿沼良和"
+    },
+    "owner": {
+      "id": "603033",
+      "name": "木村廣太"
+    },
+    "breeder": {
+      "id": "301060",
+      "name": "本桐牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010104298",
+      "name": "ラブリーデイ"
+    },
+    "dam": {
+      "id": "2007105542",
+      "name": "ハロウィンパレード"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104298",
@@ -4674,6 +4704,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メグ (Megu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メグ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メグ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4743,9 +4803,9 @@
       "contentHash": "7766c040216d7effa28403fab0b60921a0a4958ab035e4e384d63dc7bb59cbaf",
       "byteLength": 66800,
       "rawPath": "netkeiba/horses/2020/2020100384/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:17:23.907Z"
+  "updatedAt": "2026-08-31T09:27:06.763Z"
 }

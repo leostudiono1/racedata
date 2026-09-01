@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018100189",
   "sourceUrl": "https://db.netkeiba.com/horse/2018100189/",
-  "profile": null,
+  "profile": {
+    "name": "モズオリンピック",
+    "birthDate": "2018-02-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05691",
+      "name": "新子雅司"
+    },
+    "owner": {
+      "id": "796008",
+      "name": "北側雅司"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マネーペニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monarchos (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1831,6 +1861,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モズオリンピック (Mozu Olympic) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズオリンピック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モズオリンピック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1900,9 +1960,9 @@
       "contentHash": "59feb150f716f7f51bea2602cfdff53f33e5346f229a4cbd9c478b0cfb056cc7",
       "byteLength": 65593,
       "rawPath": "netkeiba/horses/2018/2018100189/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:08:14.396Z"
+  "updatedAt": "2026-08-31T09:17:56.979Z"
 }

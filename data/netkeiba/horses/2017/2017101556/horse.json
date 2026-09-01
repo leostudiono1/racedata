@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101556",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101556/",
-  "profile": null,
+  "profile": {
+    "name": "スカイテラス",
+    "birthDate": "2017-04-11",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2008104574",
+      "name": "ライステラス"
+    },
+    "damsire": {
+      "id": "2003102461",
+      "name": "ソングオブウインド"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -6014,6 +6044,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイテラス (Sky Terrace) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイテラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイテラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6083,9 +6143,9 @@
       "contentHash": "eeafd2200cfd90c7b3885a288ac2f12e0f7b96018abb13d64063778fd993fd4f",
       "byteLength": 66953,
       "rawPath": "netkeiba/horses/2017/2017101556/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:50:27.609Z"
+  "updatedAt": "2026-08-29T09:58:25.246Z"
 }

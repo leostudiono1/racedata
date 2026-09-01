@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107016",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107016/",
-  "profile": null,
+  "profile": {
+    "name": "サリエンテ",
+    "birthDate": "2023-01-23",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01144",
+      "name": "池添学"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サロミナ Salomina(独)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lomitas"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1454,6 +1484,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サリエンテ (Saliente) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリエンテ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サリエンテ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1523,9 +1583,9 @@
       "contentHash": "257bd37c41b0add195a15cc2669b772fd26af4aad3dd622f7da92674219adcf5",
       "byteLength": 67371,
       "rawPath": "netkeiba/horses/2023/2023107016/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:26:21.482Z"
+  "updatedAt": "2026-08-25T14:35:42.981Z"
 }

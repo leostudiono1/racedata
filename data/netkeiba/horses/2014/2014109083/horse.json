@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014109083",
   "sourceUrl": "https://db.netkeiba.com/horse/2014109083/",
-  "profile": null,
+  "profile": {
+    "name": "ブリッゲン",
+    "birthDate": "2014-03-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "051800",
+      "name": "那須野牧場"
+    },
+    "breeder": {
+      "id": "600197",
+      "name": "恵比寿興業株式会社那須野牧場"
+    },
+    "birthplace": "栃木県",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2006109088",
+      "name": "オートクチュール"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -2109,6 +2139,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブリッゲン (Bryggen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリッゲン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブリッゲン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2178,9 +2238,9 @@
       "contentHash": "3c4c9b241af168a5c7d43559b99a7d75e165abac348151750e7f7fae653c53b7",
       "byteLength": 64770,
       "rawPath": "netkeiba/horses/2014/2014109083/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:45:40.826Z"
+  "updatedAt": "2026-08-25T13:55:23.847Z"
 }

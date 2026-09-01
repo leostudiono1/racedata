@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110112",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110112/",
-  "profile": null,
+  "profile": {
+    "name": "ラテラス",
+    "birthDate": "2012-03-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01118",
+      "name": "高柳瑞樹"
+    },
+    "owner": {
+      "id": "138007",
+      "name": "吉田和美"
+    },
+    "breeder": {
+      "id": "650702",
+      "name": "Mrs. Gerald Nielsen"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Harlan's Holiday"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Garden Party"
+    },
+    "damsire": {
+      "id": "1989108560",
+      "name": "エーピージェット"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2679,6 +2709,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラテラス (La Terrasse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラテラス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラテラス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2748,9 +2808,9 @@
       "contentHash": "1a0bc4f2f5136e41147c2f85d946116c6efe8e837b6389d0251791a115a3beaf",
       "byteLength": 66892,
       "rawPath": "netkeiba/horses/2012/2012110112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:41:10.874Z"
+  "updatedAt": "2026-08-27T10:52:24.824Z"
 }

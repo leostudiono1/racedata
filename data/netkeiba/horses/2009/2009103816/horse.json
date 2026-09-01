@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009103816",
   "sourceUrl": "https://db.netkeiba.com/horse/2009103816/",
-  "profile": null,
+  "profile": {
+    "name": "カジキ",
+    "birthDate": "2009-03-26",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01104",
+      "name": "笹田和秀"
+    },
+    "owner": {
+      "id": "331007",
+      "name": "幅田昌伸"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    },
+    "dam": {
+      "id": "2001104232",
+      "name": "エターナルハピネス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1989108341",
@@ -3804,6 +3834,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カジキ (Kajiki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カジキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カジキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3873,9 +3933,9 @@
       "contentHash": "464683974d83542903f0d6598d9ee5519ff411657f25441beadc75eedc31730f",
       "byteLength": 66712,
       "rawPath": "netkeiba/horses/2009/2009103816/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:18:06.068Z"
+  "updatedAt": "2026-08-26T11:20:55.493Z"
 }

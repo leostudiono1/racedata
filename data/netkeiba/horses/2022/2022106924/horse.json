@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022106924",
   "sourceUrl": "https://db.netkeiba.com/horse/2022106924/",
-  "profile": null,
+  "profile": {
+    "name": "ハイクオリティ",
+    "birthDate": "2022-05-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01128",
+      "name": "今野貞一"
+    },
+    "owner": {
+      "id": "385031",
+      "name": "ＫＨレーシング"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2016102780",
+      "name": "フジミ"
+    },
+    "damsire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2844,6 +2874,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハイクオリティ (High Quality) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイクオリティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハイクオリティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2913,9 +2973,9 @@
       "contentHash": "24d022915b7f8a6e49973367c2b5f2d110def209cfc8c31fdd0ac94abd89707c",
       "byteLength": 65705,
       "rawPath": "netkeiba/horses/2022/2022106924/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:09:58.274Z"
+  "updatedAt": "2026-08-26T12:12:47.881Z"
 }

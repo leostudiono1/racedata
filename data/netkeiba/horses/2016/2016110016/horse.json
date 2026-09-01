@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110016",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110016/",
-  "profile": null,
+  "profile": {
+    "name": "ブラックパイン",
+    "birthDate": "2016-02-08",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00386",
+      "name": "藤沢和雄"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スノーパイン Snow Pine(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dalakhani"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1022,6 +1052,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブラックパイン (Black Pine) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックパイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブラックパイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1091,9 +1151,9 @@
       "contentHash": "e930f670b239e2834df91d8a4e0ad459ed5d6e24308f99b120fce4208e8b254e",
       "byteLength": 64657,
       "rawPath": "netkeiba/horses/2016/2016110016/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:22:00.318Z"
+  "updatedAt": "2026-08-28T10:27:45.368Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017105555",
   "sourceUrl": "https://db.netkeiba.com/horse/2017105555/",
-  "profile": null,
+  "profile": {
+    "name": "シェダル",
+    "birthDate": "2017-03-31",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05740",
+      "name": "長南和宏"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2006103249",
+      "name": "マイティースルー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2843,6 +2873,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シェダル (Schedar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シェダル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シェダル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2912,9 +2972,9 @@
       "contentHash": "a209c7f01b34c5f29f3b33bb154e1dfa7b0fa9525323c2a4fabdb96723afb804",
       "byteLength": 67337,
       "rawPath": "netkeiba/horses/2017/2017105555/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:12:53.998Z"
+  "updatedAt": "2026-08-24T15:21:40.750Z"
 }

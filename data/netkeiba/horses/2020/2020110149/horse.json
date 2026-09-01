@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110149",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110149/",
-  "profile": null,
+  "profile": {
+    "name": "グリーンオパール",
+    "birthDate": "2020-02-26",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01085",
+      "name": "小崎憲"
+    },
+    "owner": {
+      "id": "855030",
+      "name": "田頭勇貴"
+    },
+    "breeder": {
+      "id": "620731",
+      "name": "Crosshaven Bloodstock"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Snapdragon"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Super Saver"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1548,6 +1578,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グリーンオパール (Green Opal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーンオパール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グリーンオパール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1617,9 +1677,9 @@
       "contentHash": "faaa9d8cfa00050fe4f712add2e1d85460e9ce1365218af16d7bed887c917d23",
       "byteLength": 65792,
       "rawPath": "netkeiba/horses/2020/2020110149/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:13:17.319Z"
+  "updatedAt": "2026-08-25T14:22:38.765Z"
 }

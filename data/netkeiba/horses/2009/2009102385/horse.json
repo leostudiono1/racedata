@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009102385",
   "sourceUrl": "https://db.netkeiba.com/horse/2009102385/",
-  "profile": null,
+  "profile": {
+    "name": "アブマーシュ",
+    "birthDate": "2009-04-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05673",
+      "name": "森下淳平"
+    },
+    "owner": {
+      "id": "074033",
+      "name": "伊達泰明"
+    },
+    "breeder": {
+      "id": "935496",
+      "name": "サンシャイン牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1995190007",
+      "name": "ディクタット Diktat(英)"
+    },
+    "dam": {
+      "id": "2002110121",
+      "name": "アリヴェ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Diesis"
+    }
+  },
   "pedigree": [
     {
       "id": "1995190007",
@@ -6323,6 +6353,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アブマーシュ (Abmarsch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アブマーシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アブマーシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6392,9 +6452,9 @@
       "contentHash": "260e84f3fbd8e92d069e544023f6183113981864a80d86730bdd24289db795c3",
       "byteLength": 66865,
       "rawPath": "netkeiba/horses/2009/2009102385/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:45:46.010Z"
+  "updatedAt": "2026-08-24T14:54:32.734Z"
 }

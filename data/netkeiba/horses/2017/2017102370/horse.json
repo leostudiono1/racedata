@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017102370",
   "sourceUrl": "https://db.netkeiba.com/horse/2017102370/",
-  "profile": null,
+  "profile": {
+    "name": "ナツキ",
+    "birthDate": "2017-05-04",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "444031",
+      "name": "西村清子"
+    },
+    "breeder": {
+      "id": "440543",
+      "name": "グローリーファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106092",
+      "name": "トーセンホマレボシ"
+    },
+    "dam": {
+      "id": "2008102653",
+      "name": "フレンチサマー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106092",
@@ -1421,6 +1451,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナツキ (Natsuki) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナツキ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナツキ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1490,9 +1550,9 @@
       "contentHash": "19d7151735a494468211ccc6d8032e95f02dfae1ce729b08ebb764d1642b8c74",
       "byteLength": 64284,
       "rawPath": "netkeiba/horses/2017/2017102370/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:23:13.792Z"
+  "updatedAt": "2026-08-28T10:28:58.525Z"
 }

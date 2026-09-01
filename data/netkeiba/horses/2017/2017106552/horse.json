@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106552",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106552/",
-  "profile": null,
+  "profile": {
+    "name": "プログラマー",
+    "birthDate": "2017-05-07",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05756",
+      "name": "南弘樹"
+    },
+    "owner": {
+      "id": "941030",
+      "name": "島井新一郎"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2006104785",
+      "name": "ユリカチャン"
+    },
+    "damsire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4483,6 +4513,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プログラマー (Programmer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プログラマー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プログラマー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4552,9 +4612,9 @@
       "contentHash": "1613e257ca3e6c44fc6e2336fe55f6a32db6b889394102ca1dd6c2f556f91079",
       "byteLength": 66135,
       "rawPath": "netkeiba/horses/2017/2017106552/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:26:05.386Z"
+  "updatedAt": "2026-08-28T10:31:50.176Z"
 }

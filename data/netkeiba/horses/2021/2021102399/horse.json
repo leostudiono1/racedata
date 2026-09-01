@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102399",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102399/",
-  "profile": null,
+  "profile": {
+    "name": "モンシェリ",
+    "birthDate": "2021-02-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01123",
+      "name": "牧田和弥"
+    },
+    "owner": {
+      "id": "271008",
+      "name": "安原浩司"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2015106454",
+      "name": "アスールダリア"
+    },
+    "damsire": {
+      "id": "2005102837",
+      "name": "エスポワールシチー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2638,6 +2668,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モンシェリ (Mon Cheri) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンシェリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モンシェリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2707,9 +2767,9 @@
       "contentHash": "00a6bf3fc7366905c037dfc1b1acd6abefbf78cdbf7b077e7fcb50c94e94b371",
       "byteLength": 66286,
       "rawPath": "netkeiba/horses/2021/2021102399/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:15:15.541Z"
+  "updatedAt": "2026-08-27T11:26:29.277Z"
 }

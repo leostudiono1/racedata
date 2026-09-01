@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104463",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104463/",
-  "profile": null,
+  "profile": {
+    "name": "ランスフォード",
+    "birthDate": "2016-02-19",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "栗本陽一"
+    },
+    "owner": {
+      "id": "722033",
+      "name": "樋口雅彦"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2007103220",
+      "name": "クロフォード"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -7093,6 +7123,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランスフォード (Lansford) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランスフォード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランスフォード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7162,9 +7222,9 @@
       "contentHash": "0f746d6734a4ec81bf3715e74fcae9998b9629871a8ff381b061499269e6cd56",
       "byteLength": 66906,
       "rawPath": "netkeiba/horses/2016/2016104463/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:55:28.675Z"
+  "updatedAt": "2026-08-27T11:06:42.608Z"
 }

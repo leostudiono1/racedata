@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105230",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105230/",
-  "profile": null,
+  "profile": {
+    "name": "ポーカー",
+    "birthDate": "2019-06-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01168",
+      "name": "上村洋行"
+    },
+    "owner": {
+      "id": "248030",
+      "name": "石川達絵"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シルバーチャリス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Rainbow Quest (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1869,6 +1899,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポーカー (Poker) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポーカー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポーカー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1938,9 +1998,9 @@
       "contentHash": "747dec884db0f6a901af1c9e8fa976eb31119ba843dcec7c0a74ea2a7594d75c",
       "byteLength": 66781,
       "rawPath": "netkeiba/horses/2019/2019105230/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:34:36.536Z"
+  "updatedAt": "2026-08-28T10:40:21.444Z"
 }

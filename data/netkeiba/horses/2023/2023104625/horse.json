@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104625",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104625/",
-  "profile": null,
+  "profile": {
+    "name": "サフール",
+    "birthDate": "2023-05-23",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "及川裕一"
+    },
+    "owner": {
+      "id": "986033",
+      "name": "佐久間拓士"
+    },
+    "breeder": {
+      "id": "523209",
+      "name": "村上欽哉"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2015105075",
+      "name": "フィエールマン"
+    },
+    "dam": {
+      "id": "2015100860",
+      "name": "チークス"
+    },
+    "damsire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    }
+  },
   "pedigree": [
     {
       "id": "2015105075",
@@ -1518,6 +1548,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サフール (Sahur) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サフール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サフール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1587,9 +1647,9 @@
       "contentHash": "37be8daf6724491bdc5c01778b81dc127027da389502c36b74cc8123fb8a8969",
       "byteLength": 66647,
       "rawPath": "netkeiba/horses/2023/2023104625/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:52:48.874Z"
+  "updatedAt": "2026-08-28T10:58:33.587Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103436",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103436/",
-  "profile": null,
+  "profile": {
+    "name": "イエローハート",
+    "birthDate": "2017-02-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05585",
+      "name": "畠山信一"
+    },
+    "owner": {
+      "id": "x07a34",
+      "name": "村上聡蔵"
+    },
+    "breeder": {
+      "id": "013079",
+      "name": "神垣道弘"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999106738",
+      "name": "ローエングリン"
+    },
+    "dam": {
+      "id": "2005100225",
+      "name": "レッドターキー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "トワイニング Twining(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106738",
@@ -4244,6 +4274,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イエローハート (Yellow Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イエローハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イエローハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4313,9 +4373,9 @@
       "contentHash": "ff19f6def2fdcee8fde758265c4b47fe8fd33b9774508e09194e8f7905e93c0a",
       "byteLength": 65377,
       "rawPath": "netkeiba/horses/2017/2017103436/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:51:41.065Z"
+  "updatedAt": "2026-08-29T09:59:38.646Z"
 }

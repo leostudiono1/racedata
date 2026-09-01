@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011105241",
   "sourceUrl": "https://db.netkeiba.com/horse/2011105241/",
-  "profile": null,
+  "profile": {
+    "name": "マイネルヴェルス",
+    "birthDate": "2011-02-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01010",
+      "name": "中野栄治"
+    },
+    "owner": {
+      "id": "546800",
+      "name": "サラブレッドクラブ・ラフィアン"
+    },
+    "breeder": {
+      "id": "710303",
+      "name": "ビッグレッドファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005190006",
+      "name": "コンデュイット Conduit(愛)"
+    },
+    "dam": {
+      "id": "2000102605",
+      "name": "マイネヌーヴェル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2005190006",
@@ -1936,6 +1966,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マイネルヴェルス (Meiner Vers) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイネルヴェルス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マイネルヴェルス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2005,9 +2065,9 @@
       "contentHash": "b430d13c9d33df375d171b38cdf7b7bb225cca65472a7b061d6faac3063d6561",
       "byteLength": 67512,
       "rawPath": "netkeiba/horses/2011/2011105241/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:20:32.623Z"
+  "updatedAt": "2026-08-26T11:23:22.543Z"
 }

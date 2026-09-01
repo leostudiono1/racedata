@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101142",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101142/",
-  "profile": null,
+  "profile": {
+    "name": "レオソフィア",
+    "birthDate": "2013-05-19",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05683",
+      "name": "菅原勲"
+    },
+    "owner": {
+      "id": "910008",
+      "name": "田中博之"
+    },
+    "breeder": {
+      "id": "050365",
+      "name": "二風谷ファーム"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2001103406",
+      "name": "エスティメーション"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンドスウィープ End Sweep(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -1534,6 +1564,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レオソフィア (Leo Sophia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオソフィア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レオソフィア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1603,9 +1663,9 @@
       "contentHash": "cb1865e480eb7d5e91e823e8fd9c37de95a65797f5668f033c7baa1273bdca87",
       "byteLength": 64580,
       "rawPath": "netkeiba/horses/2013/2013101142/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:38:12.700Z"
+  "updatedAt": "2026-08-25T13:47:55.630Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102533",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102533/",
-  "profile": null,
+  "profile": {
+    "name": "ライディーン",
+    "birthDate": "2019-05-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05390",
+      "name": "高橋俊之"
+    },
+    "owner": {
+      "id": "x0a2c7",
+      "name": "横田一男"
+    },
+    "breeder": {
+      "id": "530042",
+      "name": "桑田正己"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2007103265",
+      "name": "トゥザグローリー"
+    },
+    "dam": {
+      "id": "2008100749",
+      "name": "イセノメガミ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103265",
@@ -5372,6 +5402,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ライディーン (Rydeen) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライディーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ライディーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5441,9 +5501,9 @@
       "contentHash": "4be3bae797202739af55a869001653dcc7ddd24df984042e90f818a909a6a1f4",
       "byteLength": 66810,
       "rawPath": "netkeiba/horses/2019/2019102533/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:19:26.212Z"
+  "updatedAt": "2026-08-24T15:28:12.844Z"
 }

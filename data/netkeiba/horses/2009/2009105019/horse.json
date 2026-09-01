@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2009105019",
   "sourceUrl": "https://db.netkeiba.com/horse/2009105019/",
-  "profile": null,
+  "profile": {
+    "name": "インスペード",
+    "birthDate": "2009-05-14",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "830464",
+      "name": "ノースヒルズマネジメント"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "1998100676",
+      "name": "コンプリカーター"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Mr. Prospector"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2758,6 +2788,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インスペード (In Spade) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスペード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インスペード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2827,9 +2887,9 @@
       "contentHash": "6d6acd0259abfef359d343eddb7b6602cc45ce82794a579022f1e9b30545bf3b",
       "byteLength": 66136,
       "rawPath": "netkeiba/horses/2009/2009105019/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:25:18.377Z"
+  "updatedAt": "2026-08-29T09:33:16.221Z"
 }

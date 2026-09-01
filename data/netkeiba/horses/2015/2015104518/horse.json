@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104518",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104518/",
-  "profile": null,
+  "profile": {
+    "name": "フォールライン",
+    "birthDate": "2015-03-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01141",
+      "name": "尾形和幸"
+    },
+    "owner": {
+      "id": "758005",
+      "name": "吉田照哉"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2003102608",
+      "name": "プラジェラート"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1234,6 +1264,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォールライン (Fall Line) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォールライン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォールライン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1303,9 +1363,9 @@
       "contentHash": "4ecb036a1d279177cf667b7ab7075d2b94772e12ef3e41a766c2b052250c9a9b",
       "byteLength": 65295,
       "rawPath": "netkeiba/horses/2015/2015104518/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:44:30.275Z"
+  "updatedAt": "2026-08-29T09:52:27.968Z"
 }

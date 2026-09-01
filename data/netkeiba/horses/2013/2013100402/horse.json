@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013100402",
   "sourceUrl": "https://db.netkeiba.com/horse/2013100402/",
-  "profile": null,
+  "profile": {
+    "name": "プロイエット",
+    "birthDate": "2013-02-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01038",
+      "name": "手塚貴久"
+    },
+    "owner": {
+      "id": "033803",
+      "name": "橋口"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "2007105571",
+      "name": "レッドステラーノ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1770,6 +1800,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "プロイエット (Proietto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロイエット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "プロイエット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1839,9 +1899,9 @@
       "contentHash": "21bdf5c1e54b116251731cdb8f65027475243dfebb33d8dd0c516afe07e2f357",
       "byteLength": 64640,
       "rawPath": "netkeiba/horses/2013/2013100402/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:37:58.702Z"
+  "updatedAt": "2026-08-25T13:47:41.724Z"
 }

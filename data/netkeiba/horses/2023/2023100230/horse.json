@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100230",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100230/",
-  "profile": null,
+  "profile": {
+    "name": "フィサブロス",
+    "birthDate": "2023-04-10",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01154",
+      "name": "橋口慎介"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2010105828",
+      "name": "アンジュエ"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -1551,6 +1581,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィサブロス (Thisavros) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィサブロス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィサブロス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1620,9 +1680,9 @@
       "contentHash": "8ea1a0c6af40a5867202ae43df1848c3ddca4250e349297838ecec595767585a",
       "byteLength": 66231,
       "rawPath": "netkeiba/horses/2023/2023100230/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:22:05.965Z"
+  "updatedAt": "2026-08-25T14:31:27.395Z"
 }

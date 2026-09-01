@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104072",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104072/",
-  "profile": null,
+  "profile": {
+    "name": "ハングルース",
+    "birthDate": "2018-02-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "武藤敏明"
+    },
+    "owner": {
+      "id": "x0a03e",
+      "name": "Ｉレーシング（株）"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008102636",
+      "name": "オルフェーヴル"
+    },
+    "dam": {
+      "id": "2004110024",
+      "name": "サーキットレディ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Grand Slam"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102636",
@@ -3569,6 +3599,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハングルース (Hang Loose) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハングルース関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハングルース関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3638,9 +3698,9 @@
       "contentHash": "2cebed1441eee788208deb8d3433a04a6392b604c845178403c49ab6a9de33d8",
       "byteLength": 66159,
       "rawPath": "netkeiba/horses/2018/2018104072/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:03:39.287Z"
+  "updatedAt": "2026-08-27T11:14:53.047Z"
 }

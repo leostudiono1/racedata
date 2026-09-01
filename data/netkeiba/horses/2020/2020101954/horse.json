@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101954",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101954/",
-  "profile": null,
+  "profile": {
+    "name": "リアルガチ",
+    "birthDate": "2020-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "佐藤祐司"
+    },
+    "owner": {
+      "id": "x083dd",
+      "name": "村田愼哉"
+    },
+    "breeder": {
+      "id": "033468",
+      "name": "ナカノファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012101402",
+      "name": "グレーターロンドン"
+    },
+    "dam": {
+      "id": "2006110099",
+      "name": "パラダイスコースト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2012101402",
@@ -1713,6 +1743,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアルガチ (Real Gachi) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルガチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアルガチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1782,9 +1842,9 @@
       "contentHash": "e60f8060f1111b6c94f253bd37d06279ede86223ca6f0c6a3fa5b1081a83206c",
       "byteLength": 66822,
       "rawPath": "netkeiba/horses/2020/2020101954/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:03:42.181Z"
+  "updatedAt": "2026-08-29T10:11:40.078Z"
 }

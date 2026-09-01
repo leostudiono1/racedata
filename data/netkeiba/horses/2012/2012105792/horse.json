@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105792",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105792/",
-  "profile": null,
+  "profile": {
+    "name": "ソラーナ",
+    "birthDate": "2012-03-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01022",
+      "name": "石坂正"
+    },
+    "owner": {
+      "id": "281008",
+      "name": "水上ふじ子"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2006100285",
+      "name": "サンコロネット"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1551,6 +1581,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソラーナ (Solana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソラーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソラーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1620,9 +1680,9 @@
       "contentHash": "2891ef527deee8861fb7259753a78c3a5fab81359074028523bbf916b1f01539",
       "byteLength": 64313,
       "rawPath": "netkeiba/horses/2012/2012105792/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:05:18.884Z"
+  "updatedAt": "2026-08-28T10:11:03.760Z"
 }

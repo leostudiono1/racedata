@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105650",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105650/",
-  "profile": null,
+  "profile": {
+    "name": "リチャ",
+    "birthDate": "2020-04-28",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05607",
+      "name": "堀千亜樹"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2008104822",
+      "name": "ユースティティア"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -3531,6 +3561,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リチャ (Richer) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リチャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リチャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3600,9 +3660,9 @@
       "contentHash": "63495e3572209347fc2138ed673a0977c78e98d127611303603f3a995bd150d9",
       "byteLength": 66849,
       "rawPath": "netkeiba/horses/2020/2020105650/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:39:17.107Z"
+  "updatedAt": "2026-08-30T09:43:09.621Z"
 }

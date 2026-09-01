@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101888",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101888/",
-  "profile": null,
+  "profile": {
+    "name": "ブルクラシコ",
+    "birthDate": "2020-03-09",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05668",
+      "name": "坂口義幸"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2012101590",
+      "name": "ブレイジング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -4334,6 +4364,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルクラシコ (Blu Classico) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルクラシコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルクラシコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4403,9 +4463,9 @@
       "contentHash": "d0ec5c012b13595e7cadf0407c03f80123d6d1fa7308d449fab7b2b572a9ef1f",
       "byteLength": 65104,
       "rawPath": "netkeiba/horses/2020/2020101888/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:10:46.078Z"
+  "updatedAt": "2026-08-27T11:21:59.721Z"
 }

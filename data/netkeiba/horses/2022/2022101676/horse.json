@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101676",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101676/",
-  "profile": null,
+  "profile": {
+    "name": "サンタンカ",
+    "birthDate": "2022-04-21",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01120",
+      "name": "千田輝彦"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2011100582",
+      "name": "ハピネス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1839,6 +1869,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンタンカ (Santanka) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンタンカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンタンカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1908,9 +1968,9 @@
       "contentHash": "7b8dfb2a9b7830673993ff5eadd116e5c4d32ef4459733f8057f25ffaa8f0af0",
       "byteLength": 66910,
       "rawPath": "netkeiba/horses/2022/2022101676/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:19:20.562Z"
+  "updatedAt": "2026-08-27T11:30:34.821Z"
 }

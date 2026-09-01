@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104503",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104503/",
-  "profile": null,
+  "profile": {
+    "name": "ナオトラ",
+    "birthDate": "2014-03-21",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "小沢宏次"
+    },
+    "owner": {
+      "id": "838030",
+      "name": "吉川朋宏"
+    },
+    "breeder": {
+      "id": "033080",
+      "name": "桜井牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "バトルプラン Battle Plan(米)"
+    },
+    "dam": {
+      "id": "2004104419",
+      "name": "シルクプリズム"
+    },
+    "damsire": {
+      "id": "1998101516",
+      "name": "アグネスタキオン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3620,6 +3650,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナオトラ (Naotora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナオトラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナオトラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3689,9 +3749,9 @@
       "contentHash": "9469f8d3ca88d6197d20aa1a485b87968583557ca6c50ec334228fa364e36541",
       "byteLength": 65951,
       "rawPath": "netkeiba/horses/2014/2014104503/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:32:16.448Z"
+  "updatedAt": "2026-08-26T11:35:06.240Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106335",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106335/",
-  "profile": null,
+  "profile": {
+    "name": "タシット",
+    "birthDate": "2019-04-08",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01081",
+      "name": "中川公成"
+    },
+    "owner": {
+      "id": "281033",
+      "name": "多田賢司"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2009103886",
+      "name": "サトノラミア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -3675,6 +3705,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タシット (Tacit) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タシット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タシット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3744,9 +3804,9 @@
       "contentHash": "006a91929d2d399f731b28b8b2b1b27b3fcd30801f92aedddd33c868eb11d425",
       "byteLength": 66822,
       "rawPath": "netkeiba/horses/2019/2019106335/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:09:08.411Z"
+  "updatedAt": "2026-08-27T11:20:21.656Z"
 }

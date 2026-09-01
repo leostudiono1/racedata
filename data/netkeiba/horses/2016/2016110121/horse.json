@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110121",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110121/",
-  "profile": null,
+  "profile": {
+    "name": "レーヴナイト",
+    "birthDate": "2016-03-08",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "026803",
+      "name": "ＤＭＭドリームクラブ"
+    },
+    "breeder": {
+      "id": "260825",
+      "name": "Barronstown Stud"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Dawn Approach (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Night Visit"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sinndar (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1362,6 +1392,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レーヴナイト (Reve Knight) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヴナイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヴナイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1431,9 +1491,9 @@
       "contentHash": "64021db9c63b499e17598cea0d066047b502a220760826e14c377e8a9a92d14f",
       "byteLength": 66987,
       "rawPath": "netkeiba/horses/2016/2016110121/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:55:24.554Z"
+  "updatedAt": "2026-08-25T14:05:01.437Z"
 }

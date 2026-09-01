@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102810",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102810/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウバイタル",
+    "birthDate": "2015-03-17",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01083",
+      "name": "松永昌博"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "750007",
+      "name": "赤田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2010103307",
+      "name": "エメラルドタワー"
+    },
+    "damsire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -4238,6 +4268,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウバイタル (Meisho Vital) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウバイタル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウバイタル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4307,9 +4367,9 @@
       "contentHash": "c3d8d428a96689c0dd655b3c1601dc02bd4eaa16137d8e85f8a50cfe4d66b1be",
       "byteLength": 67131,
       "rawPath": "netkeiba/horses/2015/2015102810/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:56:31.047Z"
+  "updatedAt": "2026-08-31T09:06:13.724Z"
 }

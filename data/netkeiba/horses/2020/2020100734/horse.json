@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100734",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100734/",
-  "profile": null,
+  "profile": {
+    "name": "サヴォーナ",
+    "birthDate": "2020-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "944030",
+      "name": "加藤誠"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2012103951",
+      "name": "テイケイラピッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スニッツェル Snitzel(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2822,6 +2852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サヴォーナ (Savona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サヴォーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サヴォーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2891,9 +2951,9 @@
       "contentHash": "680af56a9fc581a2a1cd3b1c5c4ef53cd9de24bd4cfa79b242cd3be2214fe566",
       "byteLength": 66979,
       "rawPath": "netkeiba/horses/2020/2020100734/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:35:43.582Z"
+  "updatedAt": "2026-08-30T09:39:36.079Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104721",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104721/",
-  "profile": null,
+  "profile": {
+    "name": "アップライト",
+    "birthDate": "2022-01-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01195",
+      "name": "嘉藤貴行"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2016104422",
+      "name": "アドマイヤマーズ"
+    },
+    "dam": {
+      "id": "2014105804",
+      "name": "カリンバ"
+    },
+    "damsire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104422",
@@ -1202,6 +1232,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アップライト (Upright) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップライト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アップライト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1271,9 +1331,9 @@
       "contentHash": "b0abc939e4e73ff762e932cd745cc28c6693f5ab7ee4620329afe2495c009ed2",
       "byteLength": 66325,
       "rawPath": "netkeiba/horses/2022/2022104721/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:47:44.795Z"
+  "updatedAt": "2026-08-30T09:51:37.332Z"
 }

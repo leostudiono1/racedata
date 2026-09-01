@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105676",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105676/",
-  "profile": null,
+  "profile": {
+    "name": "カワ",
+    "birthDate": "2021-01-28",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "969031",
+      "name": "ＴＮレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "トレジャリング Treasuring(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Havana Gold"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1269,6 +1299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カワ (Kawa) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カワ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カワ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1338,9 +1398,9 @@
       "contentHash": "a93a8d2cf38f0247dd955bc74e04ba204282ef62c51935bda26faf0a93f5ffae",
       "byteLength": 65620,
       "rawPath": "netkeiba/horses/2021/2021105676/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:43:46.224Z"
+  "updatedAt": "2026-08-28T10:49:31.259Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100220",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100220/",
-  "profile": null,
+  "profile": {
+    "name": "スターオブジュート",
+    "birthDate": "2017-05-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05059",
+      "name": "大島静夫"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スターオブジュニパー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -3315,6 +3345,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターオブジュート (Star of Jute) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターオブジュート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターオブジュート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3384,9 +3444,9 @@
       "contentHash": "c3a9c034017831a87603d07adfc07f8e55eb397116a52a6e325e453ea2a282ef",
       "byteLength": 66716,
       "rawPath": "netkeiba/horses/2017/2017100220/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:04:16.094Z"
+  "updatedAt": "2026-08-31T09:13:59.012Z"
 }

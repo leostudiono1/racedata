@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023101168",
   "sourceUrl": "https://db.netkeiba.com/horse/2023101168/",
-  "profile": null,
+  "profile": {
+    "name": "タビニュ",
+    "birthDate": "2023-04-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01220",
+      "name": "松尾卓哉"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001190004",
+      "name": "バゴ Bago(仏)"
+    },
+    "dam": {
+      "id": "2015101619",
+      "name": "ミッドサマーコモン"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2001190004",
@@ -1772,6 +1802,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タビニュ (Thatbyinnyu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タビニュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タビニュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1841,9 +1901,9 @@
       "contentHash": "3062f79f7dcd4eb3697373a63ddbfcd6cfee6d01701811b22669ad93d7dc12f6",
       "byteLength": 65138,
       "rawPath": "netkeiba/horses/2023/2023101168/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:30:00.648Z"
+  "updatedAt": "2026-08-31T09:39:42.864Z"
 }

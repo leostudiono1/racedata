@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021110081",
   "sourceUrl": "https://db.netkeiba.com/horse/2021110081/",
-  "profile": null,
+  "profile": {
+    "name": "リーサムギニー",
+    "birthDate": "2021-04-21",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "011008",
+      "name": "平田修"
+    },
+    "breeder": {
+      "id": "880737",
+      "name": "Highfield Farm LLP"
+    },
+    "birthplace": "英",
+    "sire": {
+      "id": "000",
+      "name": "Zoustar"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Charlie Em"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kheleyf"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2664,6 +2694,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リーサムギニー (Lee Sam Guinea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リーサムギニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リーサムギニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2733,9 +2793,9 @@
       "contentHash": "9f950680990758e21abe60d643a9c5b6f3c4f1a7bb539ff396798c551db6d203",
       "byteLength": 64971,
       "rawPath": "netkeiba/horses/2021/2021110081/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:18:14.058Z"
+  "updatedAt": "2026-08-27T11:29:28.316Z"
 }

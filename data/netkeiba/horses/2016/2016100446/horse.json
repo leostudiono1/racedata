@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100446",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100446/",
-  "profile": null,
+  "profile": {
+    "name": "フセノピュア",
+    "birthDate": "2016-04-29",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05702",
+      "name": "盛本信春"
+    },
+    "owner": {
+      "id": "151031",
+      "name": "池田守"
+    },
+    "breeder": {
+      "id": "700313",
+      "name": "飛渡牧場"
+    },
+    "birthplace": "新冠",
+    "sire": {
+      "id": "000",
+      "name": "シニスターミニスター Sinister Minister(米)"
+    },
+    "dam": {
+      "id": "2008104679",
+      "name": "キモングリーン"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2620,6 +2650,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フセノピュア (Fuseno Pure) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フセノピュア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フセノピュア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2689,9 +2749,9 @@
       "contentHash": "1134c07c6c7d69f10af61a60872fb1e6c62131c913f41b29220fdaac9492ab33",
       "byteLength": 66887,
       "rawPath": "netkeiba/horses/2016/2016100446/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:17:41.774Z"
+  "updatedAt": "2026-08-30T09:21:34.178Z"
 }

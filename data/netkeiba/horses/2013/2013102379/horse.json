@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102379",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102379/",
-  "profile": null,
+  "profile": {
+    "name": "クラップス",
+    "birthDate": "2013-05-20",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "00356",
+      "name": "坂口正則"
+    },
+    "owner": {
+      "id": "851007",
+      "name": "山上和良"
+    },
+    "breeder": {
+      "id": "303020",
+      "name": "田中春美"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004100933",
+      "name": "ローレルゲレイロ"
+    },
+    "dam": {
+      "id": "2002104268",
+      "name": "アポロヘルム"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "2004100933",
@@ -1427,6 +1457,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラップス (Craps) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラップス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラップス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1496,9 +1556,9 @@
       "contentHash": "b9f6d484d9e0034abd62445241eea63431d9b7d47ac4497bb6fa8e44800862c3",
       "byteLength": 65732,
       "rawPath": "netkeiba/horses/2013/2013102379/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:53:17.535Z"
+  "updatedAt": "2026-08-24T15:02:04.302Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011103988",
   "sourceUrl": "https://db.netkeiba.com/horse/2011103988/",
-  "profile": null,
+  "profile": {
+    "name": "クラシックメタル",
+    "birthDate": "2011-04-19",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "1997103682",
+      "name": "ネオクラシック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -4393,6 +4423,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クラシックメタル (Classic Metal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラシックメタル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クラシックメタル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4462,9 +4522,9 @@
       "contentHash": "963c0926b9fe701d4f76d69e042426a33881a2966bcfafbea4a53da573a71c21",
       "byteLength": 67147,
       "rawPath": "netkeiba/horses/2011/2011103988/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:27:24.561Z"
+  "updatedAt": "2026-08-29T09:35:22.142Z"
 }

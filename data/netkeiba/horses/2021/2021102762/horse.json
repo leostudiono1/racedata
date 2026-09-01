@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102762",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102762/",
-  "profile": null,
+  "profile": {
+    "name": "シュンプウ",
+    "birthDate": "2021-03-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "吉田司"
+    },
+    "owner": {
+      "id": "x013b6",
+      "name": "古川忠一"
+    },
+    "breeder": {
+      "id": "380543",
+      "name": "グランデファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2004110239",
+      "name": "コスモパルムドール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Yonaguska (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -4415,6 +4445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュンプウ (Shumpu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュンプウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュンプウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4484,9 +4544,9 @@
       "contentHash": "8c60cc7197dd01d5dc26c077199386d143995c76a67a54a84d98862fe3117d3c",
       "byteLength": 66835,
       "rawPath": "netkeiba/horses/2021/2021102762/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:02:05.788Z"
+  "updatedAt": "2026-08-26T12:04:55.313Z"
 }

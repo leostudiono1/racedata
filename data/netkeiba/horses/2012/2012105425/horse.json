@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105425",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105425/",
-  "profile": null,
+  "profile": {
+    "name": "ブライトボイス",
+    "birthDate": "2012-03-27",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "350002",
+      "name": "宮川純造"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    },
+    "dam": {
+      "id": "2000103795",
+      "name": "アフレタータ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "1995103211",
@@ -4645,6 +4675,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブライトボイス (Bright Voice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトボイス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブライトボイス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4714,9 +4774,9 @@
       "contentHash": "ce4de9bad79feeaaa788f37a67960c23d57c45d206495dea96fecff5517afff4",
       "byteLength": 66939,
       "rawPath": "netkeiba/horses/2012/2012105425/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:46:42.557Z"
+  "updatedAt": "2026-08-31T08:56:25.022Z"
 }

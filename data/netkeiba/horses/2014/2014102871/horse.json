@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102871",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102871/",
-  "profile": null,
+  "profile": {
+    "name": "パープルハート",
+    "birthDate": "2014-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05651",
+      "name": "川村守男"
+    },
+    "owner": {
+      "id": "x04fd1",
+      "name": "（有）吉田牧場"
+    },
+    "breeder": {
+      "id": "503378",
+      "name": "吉田牧場"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ファスリエフ Fasliyev(米)"
+    },
+    "dam": {
+      "id": "2000101251",
+      "name": "サニーハシレ"
+    },
+    "damsire": {
+      "id": "1994105719",
+      "name": "サニーブライアン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3508,6 +3538,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パープルハート (Purple Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パープルハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パープルハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3577,9 +3637,9 @@
       "contentHash": "0ccd514d2a86ccbd5cbb976e110c8974eedd4309724e0565034986b4d15fd3f7",
       "byteLength": 66983,
       "rawPath": "netkeiba/horses/2014/2014102871/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:11:19.538Z"
+  "updatedAt": "2026-08-28T10:17:04.685Z"
 }

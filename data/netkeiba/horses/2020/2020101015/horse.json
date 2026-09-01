@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101015",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101015/",
-  "profile": null,
+  "profile": {
+    "name": "ハートビート",
+    "birthDate": "2020-04-10",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05721",
+      "name": "山口竜一"
+    },
+    "owner": {
+      "id": "039031",
+      "name": "鶴見恵理"
+    },
+    "breeder": {
+      "id": "110057",
+      "name": "吉田ファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ロリーフォードリー Lolly For Dolly(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Oratorio"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -2102,6 +2132,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハートビート (Heart Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2171,9 +2231,9 @@
       "contentHash": "a19e6d0002863f01c753fb1f855d4b21034eb15a8bdf6363f4002131676edde4",
       "byteLength": 66792,
       "rawPath": "netkeiba/horses/2020/2020101015/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:10:00.514Z"
+  "updatedAt": "2026-08-27T11:21:14.257Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023102112",
   "sourceUrl": "https://db.netkeiba.com/horse/2023102112/",
-  "profile": null,
+  "profile": {
+    "name": "ハートチャン",
+    "birthDate": "2023-03-05",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01132",
+      "name": "金成貴史"
+    },
+    "owner": {
+      "id": "115803",
+      "name": "グレース"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "2010104157",
+      "name": "オリエンタルリリー"
+    },
+    "damsire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -1387,6 +1417,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハートチャン (Heart Chan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートチャン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートチャン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1456,9 +1516,9 @@
       "contentHash": "3ab704627b36e2909cd27d69a2ad4a4cc0f1767e84829ad55fe4294fb3ee11db",
       "byteLength": 65970,
       "rawPath": "netkeiba/horses/2023/2023102112/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:11:29.235Z"
+  "updatedAt": "2026-08-26T12:14:18.980Z"
 }

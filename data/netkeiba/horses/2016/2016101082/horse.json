@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101082",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101082/",
-  "profile": null,
+  "profile": {
+    "name": "クールリアル",
+    "birthDate": "2016-03-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "保利幸作"
+    },
+    "owner": {
+      "id": "762007",
+      "name": "川上哲司"
+    },
+    "breeder": {
+      "id": "833093",
+      "name": "沖田博志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "2002106181",
+      "name": "ビクトリアメーク"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ラストタイクーン Last Tycoon(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2634,6 +2664,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クールリアル (Cool Real) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールリアル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールリアル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2703,9 +2763,9 @@
       "contentHash": "05f48d20676702edf7f3062ea9fe29af6d510c8f8a41676aaa58101b612ef508",
       "byteLength": 65738,
       "rawPath": "netkeiba/horses/2016/2016101082/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:46:22.317Z"
+  "updatedAt": "2026-08-29T09:54:20.126Z"
 }

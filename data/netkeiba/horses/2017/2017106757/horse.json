@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106757",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106757/",
-  "profile": null,
+  "profile": {
+    "name": "ノルフェーン",
+    "birthDate": "2017-04-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中川雅之"
+    },
+    "owner": {
+      "id": "a00014",
+      "name": "東山国栄"
+    },
+    "breeder": {
+      "id": "300010",
+      "name": "笹地牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト King's Best(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マイホープ My Hope(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1726,6 +1756,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ノルフェーン (Norrsken) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノルフェーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ノルフェーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1795,9 +1855,9 @@
       "contentHash": "58594bed614816bdc1bdd2b46b8e452a00958e112010bd3f0bd46fc253b388b3",
       "byteLength": 64661,
       "rawPath": "netkeiba/horses/2017/2017106757/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:00:36.779Z"
+  "updatedAt": "2026-08-27T11:11:51.016Z"
 }

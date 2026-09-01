@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015110055",
   "sourceUrl": "https://db.netkeiba.com/horse/2015110055/",
-  "profile": null,
+  "profile": {
+    "name": "ユナリオンス",
+    "birthDate": "2015-04-03",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "820708",
+      "name": "Noel O'Callaghan"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Alexander Goldrun (愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gold Away"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1478,6 +1508,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ユナリオンス (Une Alliance) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユナリオンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ユナリオンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1547,9 +1607,9 @@
       "contentHash": "d0091b926543fe742d8dfe6eb12e4f81021283b65b8d5cd451c4a2d7045d9d7a",
       "byteLength": 65622,
       "rawPath": "netkeiba/horses/2015/2015110055/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:17:20.693Z"
+  "updatedAt": "2026-08-30T09:21:13.166Z"
 }

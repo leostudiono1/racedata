@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103596",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103596/",
-  "profile": null,
+  "profile": {
+    "name": "ダフィネ",
+    "birthDate": "2020-02-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "887800",
+      "name": "ＮＩＣＫＳ"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ベットーレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Blu Air Force"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -1798,6 +1828,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダフィネ (Daphne) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダフィネ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダフィネ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1867,9 +1927,9 @@
       "contentHash": "c2a542797324c26c33000b6f20e07290d76eeb482964f9f0248b512146009bd6",
       "byteLength": 65234,
       "rawPath": "netkeiba/horses/2020/2020103596/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:10:57.215Z"
+  "updatedAt": "2026-08-25T14:20:18.993Z"
 }

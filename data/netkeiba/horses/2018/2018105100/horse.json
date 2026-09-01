@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105100",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105100/",
-  "profile": null,
+  "profile": {
+    "name": "セルディアーナ",
+    "birthDate": "2018-03-09",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01155",
+      "name": "渡辺薫彦"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ストゥデンテッサ Studentessa(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "High Yield (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1337,6 +1367,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セルディアーナ (Serdiana) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルディアーナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルディアーナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1406,9 +1466,9 @@
       "contentHash": "707e21d8dbef73a80e84561f1c6d79e5dd1b822d3c61ce343a91d8c17c6f3162",
       "byteLength": 67399,
       "rawPath": "netkeiba/horses/2018/2018105100/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:50:35.871Z"
+  "updatedAt": "2026-08-26T11:53:25.653Z"
 }

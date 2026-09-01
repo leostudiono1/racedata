@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014102467",
   "sourceUrl": "https://db.netkeiba.com/horse/2014102467/",
-  "profile": null,
+  "profile": {
+    "name": "ラストステージ",
+    "birthDate": "2014-04-29",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "615030",
+      "name": "福田光博"
+    },
+    "breeder": {
+      "id": "303506",
+      "name": "碧雲牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    },
+    "dam": {
+      "id": "1997106961",
+      "name": "アンファテュエ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "マルゼンスキー"
+    }
+  },
   "pedigree": [
     {
       "id": "1996110138",
@@ -1599,6 +1629,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラストステージ (Last Stage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラストステージ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラストステージ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1668,9 +1728,9 @@
       "contentHash": "dcccff6e3e429d68eed159227175b0ac052f802b8d4c43ae3d72d3fdf087f782",
       "byteLength": 65418,
       "rawPath": "netkeiba/horses/2014/2014102467/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:57:33.109Z"
+  "updatedAt": "2026-08-24T15:06:19.927Z"
 }

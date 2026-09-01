@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103408",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103408/",
-  "profile": null,
+  "profile": {
+    "name": "ジイサマ",
+    "birthDate": "2013-04-26",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00359",
+      "name": "高橋祥泰"
+    },
+    "owner": {
+      "id": "975030",
+      "name": "小田切光"
+    },
+    "breeder": {
+      "id": "300032",
+      "name": "木村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101550",
+      "name": "オレハマッテルゼ"
+    },
+    "dam": {
+      "id": "1998102729",
+      "name": "モットヒカリヲ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "アフリート Afleet(加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101550",
@@ -2470,6 +2500,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジイサマ (Jiisama) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジイサマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジイサマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2539,9 +2599,9 @@
       "contentHash": "508a51237489b2555231cc41de53568e5236a68900bc139896aaf30ec61f03ce",
       "byteLength": 65167,
       "rawPath": "netkeiba/horses/2013/2013103408/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:48:52.291Z"
+  "updatedAt": "2026-08-31T08:58:34.682Z"
 }

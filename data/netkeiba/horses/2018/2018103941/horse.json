@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103941",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103941/",
-  "profile": null,
+  "profile": {
+    "name": "エルデ",
+    "birthDate": "2018-04-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01033",
+      "name": "木原一良"
+    },
+    "owner": {
+      "id": "463800",
+      "name": "名古屋友豊"
+    },
+    "breeder": {
+      "id": "513085",
+      "name": "高橋修"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2003102758",
+      "name": "ブリスクウェザー"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1141,6 +1171,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エルデ (Erde) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルデ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エルデ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1210,9 +1270,9 @@
       "contentHash": "93d484f7be81982163bed0947f5276490e3e69f70daf993dac9960a185597736",
       "byteLength": 64236,
       "rawPath": "netkeiba/horses/2018/2018103941/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:56:03.486Z"
+  "updatedAt": "2026-08-29T10:04:01.336Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106203",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106203/",
-  "profile": null,
+  "profile": {
+    "name": "フェービー",
+    "birthDate": "2012-03-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05731",
+      "name": "加藤和義"
+    },
+    "owner": {
+      "id": "x006b9",
+      "name": "広村憲郎"
+    },
+    "breeder": {
+      "id": "500659",
+      "name": "鎌田正嗣"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    },
+    "dam": {
+      "id": "2001100859",
+      "name": "フォレストビーナス"
+    },
+    "damsire": {
+      "id": "1995108742",
+      "name": "エルコンドルパサー"
+    }
+  },
   "pedigree": [
     {
       "id": "1995103211",
@@ -1474,6 +1504,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェービー (Phoebe) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェービー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェービー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1543,9 +1603,9 @@
       "contentHash": "ba13037046216be5a04943917c676d1f27b03ee9c19eb65b8cb898b5bf78b829",
       "byteLength": 64479,
       "rawPath": "netkeiba/horses/2012/2012106203/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:05:39.887Z"
+  "updatedAt": "2026-08-28T10:11:24.807Z"
 }

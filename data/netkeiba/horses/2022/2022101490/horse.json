@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101490",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101490/",
-  "profile": null,
+  "profile": {
+    "name": "スカイビート",
+    "birthDate": "2022-02-24",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "185800",
+      "name": "坂東牧場"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009102527",
+      "name": "ハクサンムーン"
+    },
+    "dam": {
+      "id": "2011103470",
+      "name": "ハッピーベリンダ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102527",
@@ -1922,6 +1952,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイビート (Sky Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1991,9 +2051,9 @@
       "contentHash": "04a2470136e1c06892674b4deaeaf2e75c8425df99835ce83193965740c9438a",
       "byteLength": 66882,
       "rawPath": "netkeiba/horses/2022/2022101490/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:12:27.361Z"
+  "updatedAt": "2026-08-29T10:20:25.110Z"
 }

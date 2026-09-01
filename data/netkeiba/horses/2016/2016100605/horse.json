@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016100605",
   "sourceUrl": "https://db.netkeiba.com/horse/2016100605/",
-  "profile": null,
+  "profile": {
+    "name": "エフルラージュ",
+    "birthDate": "2016-03-03",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01102",
+      "name": "大竹正博"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2010110072",
+      "name": "ジャルダンスクレ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -1698,6 +1728,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エフルラージュ (Effleurage) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エフルラージュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エフルラージュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1767,9 +1827,9 @@
       "contentHash": "a47aadd9cdb59fb2fe1d8955083fe03f119192b309e003e76ce10ab6401f8014",
       "byteLength": 66091,
       "rawPath": "netkeiba/horses/2016/2016100605/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:46:15.280Z"
+  "updatedAt": "2026-08-29T09:54:13.011Z"
 }

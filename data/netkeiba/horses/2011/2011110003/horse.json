@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011110003",
   "sourceUrl": "https://db.netkeiba.com/horse/2011110003/",
-  "profile": null,
+  "profile": {
+    "name": "トータルヒート",
+    "birthDate": "2011-04-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01082",
+      "name": "平田修"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "580704",
+      "name": "Shadai Corporation LTD."
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Street Cry (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リーサルヒート"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unusual Heat"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3925,6 +3955,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トータルヒート (Total Heat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トータルヒート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トータルヒート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3994,9 +4054,9 @@
       "contentHash": "cccbc41a4dea473b1d19243b4a5d7039af24b2191d1ec26ab023195cb276efd5",
       "byteLength": 67607,
       "rawPath": "netkeiba/horses/2011/2011110003/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:44:01.113Z"
+  "updatedAt": "2026-08-31T08:53:44.026Z"
 }

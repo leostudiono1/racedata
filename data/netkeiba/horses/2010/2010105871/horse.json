@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010105871",
   "sourceUrl": "https://db.netkeiba.com/horse/2010105871/",
-  "profile": null,
+  "profile": {
+    "name": "ケントヒーロー",
+    "birthDate": "2010-03-23",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00437",
+      "name": "南田美知"
+    },
+    "owner": {
+      "id": "307033",
+      "name": "田畑富子"
+    },
+    "breeder": {
+      "id": "500315",
+      "name": "ハクツ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1998101457",
+      "name": "メジロベイリー"
+    },
+    "dam": {
+      "id": "2005105412",
+      "name": "ポポチャン"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101457",
@@ -4869,6 +4899,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ケントヒーロー (Kento Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ケントヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4938,9 +4998,9 @@
       "contentHash": "66bc0655a2503f32c448fb683ee690d7bd969262b10a934b1c687023478c32d8",
       "byteLength": 65157,
       "rawPath": "netkeiba/horses/2010/2010105871/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:00:28.876Z"
+  "updatedAt": "2026-08-28T10:06:13.274Z"
 }

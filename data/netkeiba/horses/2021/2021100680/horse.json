@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100680",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100680/",
-  "profile": null,
+  "profile": {
+    "name": "ベレニーチェ",
+    "birthDate": "2021-01-26",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05727",
+      "name": "福永敏"
+    },
+    "owner": {
+      "id": "799033",
+      "name": "椎名節"
+    },
+    "breeder": {
+      "id": "230042",
+      "name": "桑田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2013102892",
+      "name": "サダムフジコ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -3640,6 +3670,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベレニーチェ (Berenice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベレニーチェ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベレニーチェ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3709,9 +3769,9 @@
       "contentHash": "c39d223c07f81383050a2829bea800678b34172c7229c12f8d27e133691b6141",
       "byteLength": 66753,
       "rawPath": "netkeiba/horses/2021/2021100680/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:13:38.326Z"
+  "updatedAt": "2026-08-25T14:22:59.857Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015102172",
   "sourceUrl": "https://db.netkeiba.com/horse/2015102172/",
-  "profile": null,
+  "profile": {
+    "name": "グッディソング",
+    "birthDate": "2015-04-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01080",
+      "name": "清水英克"
+    },
+    "owner": {
+      "id": "639009",
+      "name": "鈴木芳夫"
+    },
+    "breeder": {
+      "id": "430362",
+      "name": "高橋啓"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2004106867",
+      "name": "フリオーソ"
+    },
+    "dam": {
+      "id": "2007100515",
+      "name": "グッディグッディ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2004106867",
@@ -1812,6 +1842,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グッディソング (Goody Song) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グッディソング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グッディソング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1881,9 +1941,9 @@
       "contentHash": "d1ababa509e7679099f71e8a0a3ad86197e828e391109928f65feb7caba27a7c",
       "byteLength": 64445,
       "rawPath": "netkeiba/horses/2015/2015102172/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:35:46.491Z"
+  "updatedAt": "2026-08-26T11:38:36.214Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105031",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105031/",
-  "profile": null,
+  "profile": {
+    "name": "フロンサック",
+    "birthDate": "2016-03-01",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01079",
+      "name": "古賀慎明"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース"
+    },
+    "dam": {
+      "id": "2007102958",
+      "name": "サンテミリオン"
+    },
+    "damsire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1507,6 +1537,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フロンサック (Fronsac) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロンサック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フロンサック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1576,9 +1636,9 @@
       "contentHash": "0b5c1143610af33867007a7b2c76e664374ee863494b6cd04157a65a30797ff8",
       "byteLength": 65300,
       "rawPath": "netkeiba/horses/2016/2016105031/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:02:59.172Z"
+  "updatedAt": "2026-08-31T09:12:42.029Z"
 }

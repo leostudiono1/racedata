@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103279",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103279/",
-  "profile": null,
+  "profile": {
+    "name": "ショーモン",
+    "birthDate": "2020-02-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01209",
+      "name": "東田明士"
+    },
+    "owner": {
+      "id": "549033",
+      "name": "林瑛子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "マインドユアビスケッツ Mind Your Biscuits(米)"
+    },
+    "dam": {
+      "id": "2009106178",
+      "name": "エポキシ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3281,6 +3311,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショーモン (Shomon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショーモン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショーモン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3350,9 +3410,9 @@
       "contentHash": "727e802d15a1be3c26013547a5ef05e64c8e36f3133684f3890946e6095b3737",
       "byteLength": 66958,
       "rawPath": "netkeiba/horses/2020/2020103279/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:11:38.510Z"
+  "updatedAt": "2026-08-27T11:22:52.308Z"
 }

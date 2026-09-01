@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103188",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103188/",
-  "profile": null,
+  "profile": {
+    "name": "アレグロン",
+    "birthDate": "2012-03-30",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "290006",
+      "name": "栗坂崇"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101517",
+      "name": "ゼンノロブロイ"
+    },
+    "dam": {
+      "id": "2005110200",
+      "name": "ハピネスフォーユー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "A.P. Indy"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101517",
@@ -2822,6 +2852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アレグロン (Alegron) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アレグロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アレグロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2891,9 +2951,9 @@
       "contentHash": "141f8d56a3b1d6125665557eb858348639cb4a3909b04dda3650ed2140e510c0",
       "byteLength": 64725,
       "rawPath": "netkeiba/horses/2012/2012103188/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:30:19.485Z"
+  "updatedAt": "2026-08-29T09:38:17.402Z"
 }

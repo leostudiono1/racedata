@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2024100038",
   "sourceUrl": "https://db.netkeiba.com/horse/2024100038/",
-  "profile": null,
+  "profile": {
+    "name": "マーヴィン",
+    "birthDate": "2024-04-29",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01160",
+      "name": "武幸四郎"
+    },
+    "owner": {
+      "id": "389803",
+      "name": "ケイズジャパン"
+    },
+    "breeder": {
+      "id": "130341",
+      "name": "天羽禮治牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012102013",
+      "name": "キタサンブラック"
+    },
+    "dam": {
+      "id": "000",
+      "name": "サムカインドオブブルー Some Kind of Blue(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Union Rags"
+    }
+  },
   "pedigree": [
     {
       "id": "2012102013",
@@ -997,6 +1027,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マーヴィン (Marvin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーヴィン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マーヴィン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1066,9 +1126,9 @@
       "contentHash": "a929da838293b3717262087213fc32820dd47114a38f153fdb6c06bbb58bdbbe",
       "byteLength": 64709,
       "rawPath": "netkeiba/horses/2024/2024100038/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:19:48.535Z"
+  "updatedAt": "2026-08-29T10:27:46.189Z"
 }

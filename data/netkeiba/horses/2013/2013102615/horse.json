@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013102615",
   "sourceUrl": "https://db.netkeiba.com/horse/2013102615/",
-  "profile": null,
+  "profile": {
+    "name": "タイトルラッシュ",
+    "birthDate": "2013-02-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "616800",
+      "name": "フジワラ・ファーム"
+    },
+    "breeder": {
+      "id": "303065",
+      "name": "森俊雄"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001110155",
+      "name": "パーソナルラッシュ"
+    },
+    "dam": {
+      "id": "2002101584",
+      "name": "イケタイトル"
+    },
+    "damsire": {
+      "id": "1988101069",
+      "name": "ヤマニンゼファー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001110155",
@@ -1423,6 +1453,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タイトルラッシュ (Title Rush) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイトルラッシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タイトルラッシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1492,9 +1552,9 @@
       "contentHash": "ebab5ecb53bf34d4aa3ad75d501ef41d6bd88a5b26443ec41fa118491c995712",
       "byteLength": 65150,
       "rawPath": "netkeiba/horses/2013/2013102615/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:07:31.996Z"
+  "updatedAt": "2026-08-28T10:13:17.162Z"
 }

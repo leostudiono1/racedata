@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103277",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103277/",
-  "profile": null,
+  "profile": {
+    "name": "アイロニー",
+    "birthDate": "2016-05-31",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05108",
+      "name": "桧森邦夫"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "513358",
+      "name": "タバタファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2012101501",
+      "name": "ダヴィンチコード"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -1599,6 +1629,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイロニー (Irony) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイロニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイロニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1668,9 +1728,9 @@
       "contentHash": "c080c90483efa76558b6298c77e51849c73d155ed6a1e1bbfd3a233ea61fefe4",
       "byteLength": 65655,
       "rawPath": "netkeiba/horses/2016/2016103277/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:01:42.042Z"
+  "updatedAt": "2026-08-31T09:11:25.373Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022110133",
   "sourceUrl": "https://db.netkeiba.com/horse/2022110133/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウアイナ",
+    "birthDate": "2022-02-01",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01140",
+      "name": "石橋守"
+    },
+    "owner": {
+      "id": "911008",
+      "name": "松本好隆"
+    },
+    "breeder": {
+      "id": "660704",
+      "name": "Judy Hicks & Kathryn Nikkel"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Game Winner (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Lilacs and Lilies"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bodemeister"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1588,6 +1618,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウアイナ (Meisho Aina) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウアイナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウアイナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1657,9 +1717,9 @@
       "contentHash": "4b7e3a39039f7794d6501a1828d2bd1d10823b034c323b6eaea2f2a523fe4eae",
       "byteLength": 65601,
       "rawPath": "netkeiba/horses/2022/2022110133/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:23:08.140Z"
+  "updatedAt": "2026-08-27T11:34:22.350Z"
 }

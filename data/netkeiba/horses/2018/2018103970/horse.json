@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018103970",
   "sourceUrl": "https://db.netkeiba.com/horse/2018103970/",
-  "profile": null,
+  "profile": {
+    "name": "セレージャ",
+    "birthDate": "2018-02-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "大垣敏夫"
+    },
+    "owner": {
+      "id": "552007",
+      "name": "野口幸八"
+    },
+    "breeder": {
+      "id": "903085",
+      "name": "武牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2011102203",
+      "name": "ヴィヴァルディ"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3451,6 +3481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セレージャ (Cereja) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレージャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セレージャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3520,9 +3580,9 @@
       "contentHash": "9831cd0182e9ff373f5f6a02297c53f6f4934d0b5be1e6201fbeec62c758ae7b",
       "byteLength": 66223,
       "rawPath": "netkeiba/horses/2018/2018103970/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:03:28.353Z"
+  "updatedAt": "2026-08-27T11:14:42.469Z"
 }

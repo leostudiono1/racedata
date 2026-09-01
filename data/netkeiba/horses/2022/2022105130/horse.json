@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105130",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105130/",
-  "profile": null,
+  "profile": {
+    "name": "スターエンブレム",
+    "birthDate": "2022-03-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01163",
+      "name": "林徹"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リッスン Listen(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2186,6 +2216,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スターエンブレム (Star Emblem) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターエンブレム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スターエンブレム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2255,9 +2315,9 @@
       "contentHash": "faac14b5b5ef661021102ad16657605c5f5a5e3ea41c8324d0994d1128ffb706",
       "byteLength": 67191,
       "rawPath": "netkeiba/horses/2022/2022105130/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:20:34.961Z"
+  "updatedAt": "2026-08-25T14:29:56.430Z"
 }

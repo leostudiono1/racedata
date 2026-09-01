@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101893",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101893/",
-  "profile": null,
+  "profile": {
+    "name": "モーニングコン",
+    "birthDate": "2016-03-24",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "箕輪武"
+    },
+    "owner": {
+      "id": "606006",
+      "name": "今朝光"
+    },
+    "breeder": {
+      "id": "410011",
+      "name": "高村牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "トビーズコーナー Toby's Corner(米)"
+    },
+    "dam": {
+      "id": "2009103007",
+      "name": "シュガーハートコン"
+    },
+    "damsire": {
+      "id": "2003102809",
+      "name": "オンファイア"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1323,6 +1353,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーニングコン (Morning Kon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーニングコン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーニングコン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1392,9 +1452,9 @@
       "contentHash": "0416043f14948b05bd3c97c13242c002ec6969a92c8434970613f2bab8607ac5",
       "byteLength": 66307,
       "rawPath": "netkeiba/horses/2016/2016101893/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:18:37.570Z"
+  "updatedAt": "2026-08-30T09:22:30.253Z"
 }

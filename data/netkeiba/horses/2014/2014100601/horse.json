@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100601",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100601/",
-  "profile": null,
+  "profile": {
+    "name": "ベネトナーシュ",
+    "birthDate": "2014-04-26",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01135",
+      "name": "高橋康之"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2005105410",
+      "name": "アーネストリー"
+    },
+    "dam": {
+      "id": "2004100685",
+      "name": "ハギノルチェーレ"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2005105410",
@@ -1338,6 +1368,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベネトナーシュ (Benetnasch) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベネトナーシュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベネトナーシュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1407,9 +1467,9 @@
       "contentHash": "7f353c8b643186036b5d39e1ab494e488d28d1139825482e6310364a5ddc49c0",
       "byteLength": 66303,
       "rawPath": "netkeiba/horses/2014/2014100601/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:42:03.730Z"
+  "updatedAt": "2026-08-25T13:51:46.695Z"
 }

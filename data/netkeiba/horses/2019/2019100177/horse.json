@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100177",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100177/",
-  "profile": null,
+  "profile": {
+    "name": "シダー",
+    "birthDate": "2019-03-04",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01099",
+      "name": "本田優"
+    },
+    "owner": {
+      "id": "334803",
+      "name": "ケーエスＨＤ"
+    },
+    "breeder": {
+      "id": "510339",
+      "name": "小泉牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2006100647",
+      "name": "コウエイテンプウ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デヒア Dehere(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -3363,6 +3393,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シダー (Cedar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シダー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シダー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3432,9 +3492,9 @@
       "contentHash": "3c9eab1786101e5b5d414098edf2d688a5931c032863b4b5f765244e12b79257",
       "byteLength": 66838,
       "rawPath": "netkeiba/horses/2019/2019100177/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:12:47.835Z"
+  "updatedAt": "2026-08-31T09:22:30.158Z"
 }

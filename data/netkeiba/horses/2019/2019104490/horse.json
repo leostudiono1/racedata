@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104490",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104490/",
-  "profile": null,
+  "profile": {
+    "name": "ペガール",
+    "birthDate": "2019-04-23",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05553",
+      "name": "黒木豊"
+    },
+    "owner": {
+      "id": "x08bd5",
+      "name": "寺岡一彦"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2014105284",
+      "name": "ミラグレ"
+    },
+    "damsire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2635,6 +2665,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペガール (Pegar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペガール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペガール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2704,9 +2764,9 @@
       "contentHash": "0ff77c4cca83dd38f3124c34ed28422dd8adc93687e8d7b3f721dbb9e47f5895",
       "byteLength": 66006,
       "rawPath": "netkeiba/horses/2019/2019104490/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:20:50.335Z"
+  "updatedAt": "2026-08-24T15:29:37.124Z"
 }

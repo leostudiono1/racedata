@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103801",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103801/",
-  "profile": null,
+  "profile": {
+    "name": "アマソナ",
+    "birthDate": "2020-02-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05781",
+      "name": "井樋一也"
+    },
+    "owner": {
+      "id": "554008",
+      "name": "吉田勝利"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2008110125",
+      "name": "ルージュクール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Redoute's Choice"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -6328,6 +6358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アマソナ (Amazona) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマソナ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマソナ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6397,9 +6457,9 @@
       "contentHash": "037078251c2323024434010b9e4dce6fbc1959b79376c85f8ff42541e226edf9",
       "byteLength": 66717,
       "rawPath": "netkeiba/horses/2020/2020103801/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:24:55.302Z"
+  "updatedAt": "2026-08-24T15:33:41.959Z"
 }

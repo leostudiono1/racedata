@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101990",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101990/",
-  "profile": null,
+  "profile": {
+    "name": "スカイイーグル",
+    "birthDate": "2016-03-27",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "064031",
+      "name": "小島俊治"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト"
+    },
+    "dam": {
+      "id": "2011103765",
+      "name": "カレーニナ"
+    },
+    "damsire": {
+      "id": "2001103435",
+      "name": "カンパニー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1476,6 +1506,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スカイイーグル (Sky Eagle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイイーグル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スカイイーグル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1545,9 +1605,9 @@
       "contentHash": "a9a14e6b17d30e64bcde1c38527e8aeaa71c34a27e2e643aa1c4466d9996d46c",
       "byteLength": 64734,
       "rawPath": "netkeiba/horses/2016/2016101990/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:01:00.020Z"
+  "updatedAt": "2026-08-31T09:10:42.864Z"
 }

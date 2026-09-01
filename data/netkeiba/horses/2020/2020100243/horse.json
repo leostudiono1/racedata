@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100243",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100243/",
-  "profile": null,
+  "profile": {
+    "name": "ランドティターン",
+    "birthDate": "2020-04-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01042",
+      "name": "安達昭夫"
+    },
+    "owner": {
+      "id": "862009",
+      "name": "木村昌三"
+    },
+    "breeder": {
+      "id": "611098",
+      "name": "タガミファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2007106768",
+      "name": "リュンヌ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -2011,6 +2041,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ランドティターン (Land Titan) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランドティターン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ランドティターン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2080,9 +2140,9 @@
       "contentHash": "0b84d0cfb8e929653101ad911408276a8e1de9fa6b0dfc91449947792fd1f3f4",
       "byteLength": 66467,
       "rawPath": "netkeiba/horses/2020/2020100243/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:56:18.962Z"
+  "updatedAt": "2026-08-26T11:59:08.678Z"
 }

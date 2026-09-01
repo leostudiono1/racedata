@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100481",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100481/",
-  "profile": null,
+  "profile": {
+    "name": "コマチザクラ",
+    "birthDate": "2020-01-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "546800",
+      "name": "サラブレッドクラブ・ラフィアン"
+    },
+    "breeder": {
+      "id": "103064",
+      "name": "村上牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2009101892",
+      "name": "ソラコマチ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -1590,6 +1620,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コマチザクラ (Komachizakura) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コマチザクラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コマチザクラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1659,9 +1719,9 @@
       "contentHash": "46e4e51e3d9c5b7cdd28b383a211ed7345b1cb91fa2601943e5db68ce80db92e",
       "byteLength": 67404,
       "rawPath": "netkeiba/horses/2020/2020100481/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:17:27.329Z"
+  "updatedAt": "2026-08-31T09:27:10.252Z"
 }

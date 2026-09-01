@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105853",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105853/",
-  "profile": null,
+  "profile": {
+    "name": "メビウス",
+    "birthDate": "2012-05-10",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01063",
+      "name": "的場均"
+    },
+    "owner": {
+      "id": "117800",
+      "name": "高昭牧場"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100978",
+      "name": "カネヒキリ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "スターダーラ Stardara(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Theatrical"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100978",
@@ -2414,6 +2444,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メビウス (Mobius) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メビウス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メビウス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2483,9 +2543,9 @@
       "contentHash": "3d339075b1575cb7db74c512a0eda9d8068fded2e6c3593a3edc5481262fcb08",
       "byteLength": 64565,
       "rawPath": "netkeiba/horses/2012/2012105853/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:05:25.953Z"
+  "updatedAt": "2026-08-28T10:11:11.142Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103159",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103159/",
-  "profile": null,
+  "profile": {
+    "name": "アビーシュート",
+    "birthDate": "2017-04-14",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05567",
+      "name": "森沢友貴"
+    },
+    "owner": {
+      "id": "210033",
+      "name": "瀬野尾裕久"
+    },
+    "breeder": {
+      "id": "200059",
+      "name": "三好牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103388",
+      "name": "グランプリボス"
+    },
+    "dam": {
+      "id": "2003110179",
+      "name": "ハーベストシーズン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Tale of the Cat (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103388",
@@ -1408,6 +1438,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アビーシュート (Abbey Shoot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アビーシュート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アビーシュート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1477,9 +1537,9 @@
       "contentHash": "e127cf39178713c4f5c26814d7e371ae3275376aa31af8d5479e660216aba7c7",
       "byteLength": 66041,
       "rawPath": "netkeiba/horses/2017/2017103159/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:23:52.302Z"
+  "updatedAt": "2026-08-28T10:29:37.025Z"
 }

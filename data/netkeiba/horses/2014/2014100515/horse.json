@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014100515",
   "sourceUrl": "https://db.netkeiba.com/horse/2014100515/",
-  "profile": null,
+  "profile": {
+    "name": "ドンリッチ",
+    "birthDate": "2014-03-15",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01113",
+      "name": "牧浦充徳"
+    },
+    "owner": {
+      "id": "440006",
+      "name": "山田貢一"
+    },
+    "breeder": {
+      "id": "790540",
+      "name": "新冠タガノファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "2005101764",
+      "name": "ドナフュージョン"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -1484,6 +1514,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドンリッチ (Don Rich) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドンリッチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドンリッチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1553,9 +1613,9 @@
       "contentHash": "7eb952c5bd60138dadd6a3d86273ec6ac3e544aaa8640b78898e41f1ddc52f5d",
       "byteLength": 64979,
       "rawPath": "netkeiba/horses/2014/2014100515/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:51:05.242Z"
+  "updatedAt": "2026-08-31T09:00:47.776Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018102035",
   "sourceUrl": "https://db.netkeiba.com/horse/2018102035/",
-  "profile": null,
+  "profile": {
+    "name": "イリマ",
+    "birthDate": "2018-05-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2010104475",
+      "name": "ヴェントス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ウォーエンブレム War Emblem(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2619,6 +2649,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イリマ (Ilima) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イリマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イリマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2688,9 +2748,9 @@
       "contentHash": "e3d172695c025909cfdc3f8a35942d2df2683b104d168bd819122e55c91006a0",
       "byteLength": 66829,
       "rawPath": "netkeiba/horses/2018/2018102035/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:48:08.764Z"
+  "updatedAt": "2026-08-26T11:50:58.450Z"
 }

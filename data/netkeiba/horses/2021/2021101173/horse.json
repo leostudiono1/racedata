@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101173",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101173/",
-  "profile": null,
+  "profile": {
+    "name": "ポケットマネー",
+    "birthDate": "2021-04-30",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05604",
+      "name": "川西毅"
+    },
+    "owner": {
+      "id": "398030",
+      "name": "保坂和孝"
+    },
+    "breeder": {
+      "id": "540322",
+      "name": "オリオンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マネーペニー Moneypenny(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Monarchos"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -2421,6 +2451,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポケットマネー (Pocket Money) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポケットマネー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポケットマネー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2490,9 +2550,9 @@
       "contentHash": "b77e992deb687df2182ea54203d33747cec8f3d39111f1774fefe105727c5a37",
       "byteLength": 66915,
       "rawPath": "netkeiba/horses/2021/2021101173/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:13:45.280Z"
+  "updatedAt": "2026-08-25T14:23:06.882Z"
 }

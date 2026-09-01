@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105296",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105296/",
-  "profile": null,
+  "profile": {
+    "name": "フィフティズ",
+    "birthDate": "2021-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05748",
+      "name": "稲益貴弘"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "レディオブフィフティ Lady of Fifty(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "After Market"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -4322,6 +4352,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィフティズ (Fifties) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィフティズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィフティズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4391,9 +4451,9 @@
       "contentHash": "5a49ada30eb465d615b408bf0b7ce956cce6be407767eadb97608eaf803697bc",
       "byteLength": 66220,
       "rawPath": "netkeiba/horses/2021/2021105296/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:29:56.450Z"
+  "updatedAt": "2026-08-24T15:38:43.065Z"
 }

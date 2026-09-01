@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103339",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103339/",
-  "profile": null,
+  "profile": {
+    "name": "タマモプラネット",
+    "birthDate": "2010-04-22",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01049",
+      "name": "南井克巳"
+    },
+    "owner": {
+      "id": "515800",
+      "name": "タマモ"
+    },
+    "breeder": {
+      "id": "333302",
+      "name": "前田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2003100598",
+      "name": "チャームスター"
+    },
+    "damsire": {
+      "id": "1984101673",
+      "name": "タマモクロス"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -4593,6 +4623,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "タマモプラネット (Tamamo Planet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモプラネット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "タマモプラネット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4662,9 +4722,9 @@
       "contentHash": "a09fb0328297d8938c188974ea4331510b9334dd20418be9875d54d3273a32d8",
       "byteLength": 67177,
       "rawPath": "netkeiba/horses/2010/2010103339/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:46:49.067Z"
+  "updatedAt": "2026-08-24T14:55:36.014Z"
 }

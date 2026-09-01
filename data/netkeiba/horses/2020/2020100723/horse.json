@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100723",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100723/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウハツセ",
+    "birthDate": "2020-04-24",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01083",
+      "name": "松永昌博"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2013102936",
+      "name": "ゴールドトパーズ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -1250,6 +1280,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウハツセ (Meisho Hatsuse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウハツセ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウハツセ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1319,9 +1379,9 @@
       "contentHash": "7963f526b4cadedd43802acc55f7befec50c5436572a8b03f850b1b256332970",
       "byteLength": 66378,
       "rawPath": "netkeiba/horses/2020/2020100723/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:35:36.613Z"
+  "updatedAt": "2026-08-30T09:39:29.131Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103920",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103920/",
-  "profile": null,
+  "profile": {
+    "name": "エスシージン",
+    "birthDate": "2014-02-28",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00434",
+      "name": "西橋豊治"
+    },
+    "owner": {
+      "id": "703030",
+      "name": "工藤圭司"
+    },
+    "breeder": {
+      "id": "540052",
+      "name": "高松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "2009110041",
+      "name": "リアライズカレボ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -4485,6 +4515,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エスシージン (S C Ying) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスシージン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エスシージン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4554,9 +4614,9 @@
       "contentHash": "3ba9dd5cf92a37dc871515cc4365e256abd2ab63c454d60f50c94bfc126e8083",
       "byteLength": 64429,
       "rawPath": "netkeiba/horses/2014/2014103920/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:39:11.827Z"
+  "updatedAt": "2026-08-29T09:47:09.623Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020106558",
   "sourceUrl": "https://db.netkeiba.com/horse/2020106558/",
-  "profile": null,
+  "profile": {
+    "name": "ナムララン",
+    "birthDate": "2020-02-15",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05200",
+      "name": "藤ヶ崎一"
+    },
+    "owner": {
+      "id": "028030",
+      "name": "服部康夫"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2012104987",
+      "name": "ナムラアン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -2426,6 +2456,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナムララン (Namura Ran) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムララン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナムララン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2495,9 +2555,9 @@
       "contentHash": "6dd7089437a86639ab6ff0a1c8abdf1480d44804438030fc9555028d759e3dbb",
       "byteLength": 64664,
       "rawPath": "netkeiba/horses/2020/2020106558/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:40:16.361Z"
+  "updatedAt": "2026-08-28T10:46:01.016Z"
 }

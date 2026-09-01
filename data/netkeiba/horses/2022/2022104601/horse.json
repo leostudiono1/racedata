@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104601",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104601/",
-  "profile": null,
+  "profile": {
+    "name": "バタール",
+    "birthDate": "2022-02-15",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01097",
+      "name": "鹿戸雄一"
+    },
+    "owner": {
+      "id": "196031",
+      "name": "長谷川祐司"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ナダル Nadal(米)"
+    },
+    "dam": {
+      "id": "2013102858",
+      "name": "アデレードヒル"
+    },
+    "damsire": {
+      "id": "1997101264",
+      "name": "ゴールドヘイロー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1727,6 +1757,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "バタール (Batard) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バタール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "バタール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1796,9 +1856,9 @@
       "contentHash": "479c0e393078894b13442023af9b9f231121d7256e84af0f5c9c296a92aee57e",
       "byteLength": 65832,
       "rawPath": "netkeiba/horses/2022/2022104601/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:08:41.197Z"
+  "updatedAt": "2026-08-26T12:11:30.939Z"
 }

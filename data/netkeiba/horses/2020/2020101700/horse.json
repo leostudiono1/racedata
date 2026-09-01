@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101700",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101700/",
-  "profile": null,
+  "profile": {
+    "name": "テイエムクリエイト",
+    "birthDate": "2020-02-22",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "竹之下昭"
+    },
+    "owner": {
+      "id": "356002",
+      "name": "竹園正繼"
+    },
+    "breeder": {
+      "id": "703512",
+      "name": "スウィングフィールド牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2010100504",
+      "name": "ハイキートーン"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -2746,6 +2776,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テイエムクリエイト (T M Create) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムクリエイト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テイエムクリエイト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2815,9 +2875,9 @@
       "contentHash": "7cc423e26f472112f95536acae42e308ebbcccbab57857ca13ce90cb2eee4372",
       "byteLength": 67046,
       "rawPath": "netkeiba/horses/2020/2020101700/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:17:55.504Z"
+  "updatedAt": "2026-08-31T09:27:38.175Z"
 }

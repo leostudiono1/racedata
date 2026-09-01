@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104354",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104354/",
-  "profile": null,
+  "profile": {
+    "name": "トラベリング",
+    "birthDate": "2015-04-17",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01136",
+      "name": "高橋亮"
+    },
+    "owner": {
+      "id": "148800",
+      "name": "グリーンファーム"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "000",
+      "name": "シークレットジプシー Secret Gypsy(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea of Secrets"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -1999,6 +2029,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トラベリング (Traveling) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラベリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラベリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2068,9 +2128,9 @@
       "contentHash": "2f1ef98ac81cc82ea873add6f1ca9f400b4c935fd94e61270f68820979e5144a",
       "byteLength": 67313,
       "rawPath": "netkeiba/horses/2015/2015104354/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:37:21.030Z"
+  "updatedAt": "2026-08-26T11:40:10.836Z"
 }

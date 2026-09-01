@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019106666",
   "sourceUrl": "https://db.netkeiba.com/horse/2019106666/",
-  "profile": null,
+  "profile": {
+    "name": "ドリップ",
+    "birthDate": "2019-04-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01167",
+      "name": "稲垣幸雄"
+    },
+    "owner": {
+      "id": "716800",
+      "name": "ビッグレッドファーム"
+    },
+    "breeder": {
+      "id": "733081",
+      "name": "真歌田中牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006100529",
+      "name": "ジョーカプチーノ"
+    },
+    "dam": {
+      "id": "2007105000",
+      "name": "マイネノーブレス"
+    },
+    "damsire": {
+      "id": "1992102988",
+      "name": "マヤノトップガン"
+    }
+  },
   "pedigree": [
     {
       "id": "2006100529",
@@ -1321,6 +1351,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ドリップ (Drip) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドリップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ドリップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1390,9 +1450,9 @@
       "contentHash": "3d38302e7eedea9480b3357599d91306e447f22cdfa8a7f6c21cb913a97f2a0c",
       "byteLength": 66745,
       "rawPath": "netkeiba/horses/2019/2019106666/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:55:54.476Z"
+  "updatedAt": "2026-08-26T11:58:44.085Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018101731",
   "sourceUrl": "https://db.netkeiba.com/horse/2018101731/",
-  "profile": null,
+  "profile": {
+    "name": "チェイスモード",
+    "birthDate": "2018-03-19",
+    "sex": "牡",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2008103388",
+      "name": "グランプリボス"
+    },
+    "dam": {
+      "id": "2009104756",
+      "name": "ハートヴァイン"
+    },
+    "damsire": {
+      "id": "1994109494",
+      "name": "スピードワールド"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103388",
@@ -1075,6 +1105,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チェイスモード (Chase Mode) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェイスモード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チェイスモード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1144,9 +1204,9 @@
       "contentHash": "2c4930a667135eb4fef4b53b668961bfcb46d848d304225220e49391de80b7b4",
       "byteLength": 64526,
       "rawPath": "netkeiba/horses/2018/2018101731/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:02:11.144Z"
+  "updatedAt": "2026-08-27T11:13:25.018Z"
 }

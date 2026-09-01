@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105390",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105390/",
-  "profile": null,
+  "profile": {
+    "name": "サンギネア",
+    "birthDate": "2018-02-27",
+    "sex": "牝",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01068",
+      "name": "小島茂之"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007102951",
+      "name": "エイシンフラッシュ"
+    },
+    "dam": {
+      "id": "1998101861",
+      "name": "ローズバド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102951",
@@ -1673,6 +1703,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サンギネア (Sanguinea) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンギネア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サンギネア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1742,9 +1802,9 @@
       "contentHash": "49bf37f6ace254876cf5663796b40b8276a8856aa1f8f993a48f1049bcde5506",
       "byteLength": 65683,
       "rawPath": "netkeiba/horses/2018/2018105390/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:16:59.038Z"
+  "updatedAt": "2026-08-24T15:25:45.865Z"
 }

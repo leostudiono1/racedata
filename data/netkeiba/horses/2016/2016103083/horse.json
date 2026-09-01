@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103083",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103083/",
-  "profile": null,
+  "profile": {
+    "name": "カーディストリー",
+    "birthDate": "2016-01-29",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05481",
+      "name": "瀬戸幸一"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ノヴェリスト"
+    },
+    "dam": {
+      "id": "2005103189",
+      "name": "ダイワスピリット"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -8193,6 +8223,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カーディストリー (Cardistry) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーディストリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーディストリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8262,9 +8322,9 @@
       "contentHash": "98352dc6f4569896d4fde4741e500f377ae711f7ea307c91305b9132b15e2744",
       "byteLength": 66738,
       "rawPath": "netkeiba/horses/2016/2016103083/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:01:35.072Z"
+  "updatedAt": "2026-08-31T09:11:17.980Z"
 }

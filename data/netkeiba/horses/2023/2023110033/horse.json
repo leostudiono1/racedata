@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110033",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110033/",
-  "profile": null,
+  "profile": {
+    "name": "ラスカルキッド",
+    "birthDate": "2023-03-17",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01039",
+      "name": "中竹和也"
+    },
+    "owner": {
+      "id": "944030",
+      "name": "加藤誠"
+    },
+    "breeder": {
+      "id": "460738",
+      "name": "Mr. Joseph Allen LLC"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Treasure Trail"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pulpit"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1393,6 +1423,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラスカルキッド (Rascal Kid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスカルキッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラスカルキッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1462,9 +1522,9 @@
       "contentHash": "fcf38776e0753552f81c9b97400cac596f475b3ba32839b42e9a9dc34db23249",
       "byteLength": 65512,
       "rawPath": "netkeiba/horses/2023/2023110033/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:27:30.883Z"
+  "updatedAt": "2026-08-27T11:38:44.520Z"
 }

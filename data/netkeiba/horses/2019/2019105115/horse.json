@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105115",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105115/",
-  "profile": null,
+  "profile": {
+    "name": "カーティアス",
+    "birthDate": "2019-03-02",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2006103297",
+      "name": "エレガントマナー"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1081,6 +1111,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カーティアス (Courteous) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーティアス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カーティアス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1150,9 +1210,9 @@
       "contentHash": "fa3c54be054bc1af4e261faa3befef2c39938e3e964b748b4182595133086dad",
       "byteLength": 66357,
       "rawPath": "netkeiba/horses/2019/2019105115/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:21:28.642Z"
+  "updatedAt": "2026-08-24T15:30:15.424Z"
 }

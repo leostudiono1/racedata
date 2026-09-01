@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100675",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100675/",
-  "profile": null,
+  "profile": {
+    "name": "オオキニ",
+    "birthDate": "2019-03-02",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "370008",
+      "name": "岡浩二"
+    },
+    "breeder": {
+      "id": "500315",
+      "name": "ハクツ牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "2005105412",
+      "name": "ポポチャン"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -4069,6 +4099,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オオキニ (Okini) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オオキニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オオキニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4138,9 +4198,9 @@
       "contentHash": "c50b3df444bbc81bcda4c12d722c75ddd28ab7702555395ad297605e9f5ce6ff",
       "byteLength": 66723,
       "rawPath": "netkeiba/horses/2019/2019100675/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:18:40.684Z"
+  "updatedAt": "2026-08-24T15:27:27.381Z"
 }

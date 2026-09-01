@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104221",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104221/",
-  "profile": null,
+  "profile": {
+    "name": "オツウ",
+    "birthDate": "2010-03-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01105",
+      "name": "須貝尚介"
+    },
+    "owner": {
+      "id": "324030",
+      "name": "大和屋暁"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2003101290",
+      "name": "デライトポイント"
+    },
+    "damsire": {
+      "id": "1988101025",
+      "name": "トウカイテイオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -4601,6 +4631,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "オツウ (Otsu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オツウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "オツウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4670,9 +4730,9 @@
       "contentHash": "f0dd20dfdb22517bdc00047125a918c8c665deb872ba5566d7582a1185ebf535",
       "byteLength": 66864,
       "rawPath": "netkeiba/horses/2010/2010104221/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:46:55.885Z"
+  "updatedAt": "2026-08-24T14:55:42.748Z"
 }

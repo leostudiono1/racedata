@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020110055",
   "sourceUrl": "https://db.netkeiba.com/horse/2020110055/",
-  "profile": null,
+  "profile": {
+    "name": "エメラルドビーチ",
+    "birthDate": "2020-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05417",
+      "name": "佐藤雅彦"
+    },
+    "owner": {
+      "id": "624031",
+      "name": "佐藤弘樹"
+    },
+    "breeder": {
+      "id": "450736",
+      "name": "Roland H. Alder"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Gleneagles (愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Sea Chanter"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Chant"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3156,6 +3186,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エメラルドビーチ (Emerald Beach) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エメラルドビーチ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エメラルドビーチ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3225,9 +3285,9 @@
       "contentHash": "64b65b617f47d891ba1075e73a372be7a41b4411f4b6dbf015015b88dde3d172",
       "byteLength": 67041,
       "rawPath": "netkeiba/horses/2020/2020110055/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:40:16.679Z"
+  "updatedAt": "2026-08-30T09:44:09.210Z"
 }

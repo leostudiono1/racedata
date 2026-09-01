@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103028",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103028/",
-  "profile": null,
+  "profile": {
+    "name": "ビカムスター",
+    "birthDate": "2012-02-26",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "832008",
+      "name": "平本敏夫"
+    },
+    "breeder": {
+      "id": "433203",
+      "name": "タイヘイ牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    },
+    "dam": {
+      "id": "2003109313",
+      "name": "ミネルバサウンド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1998101554",
@@ -1858,6 +1888,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ビカムスター (Become Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビカムスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ビカムスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1927,9 +1987,9 @@
       "contentHash": "8fc5be022d132ef623d4e76a06b1ff046f165feb08a5d9410d65e51fc913289f",
       "byteLength": 65002,
       "rawPath": "netkeiba/horses/2012/2012103028/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:01:14.563Z"
+  "updatedAt": "2026-08-30T09:05:07.347Z"
 }

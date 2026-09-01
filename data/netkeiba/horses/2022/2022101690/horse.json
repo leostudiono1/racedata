@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101690",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101690/",
-  "profile": null,
+  "profile": {
+    "name": "グレゴリオ",
+    "birthDate": "2022-02-08",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01220",
+      "name": "松尾卓哉"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2010100680",
+      "name": "ベッラヴォーチェ"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -1733,6 +1763,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グレゴリオ (Gregorio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレゴリオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グレゴリオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1802,9 +1862,9 @@
       "contentHash": "3b307dbbed84ecae9b73a338d8f4b427902c9309e766a9076f8a08e7cf70c2fc",
       "byteLength": 66837,
       "rawPath": "netkeiba/horses/2022/2022101690/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:46:13.742Z"
+  "updatedAt": "2026-08-30T09:50:06.359Z"
 }

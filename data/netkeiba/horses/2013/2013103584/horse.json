@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103584",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103584/",
-  "profile": null,
+  "profile": {
+    "name": "ジオビート",
+    "birthDate": "2013-03-01",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05630",
+      "name": "田中淳司"
+    },
+    "owner": {
+      "id": "302800",
+      "name": "（有）辻牧場"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ジャイアントレッカー Giant Wrecker(米)"
+    },
+    "dam": {
+      "id": "2003104614",
+      "name": "スリーキセキ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1893,6 +1923,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジオビート (Geo Beat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジオビート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジオビート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1962,9 +2022,9 @@
       "contentHash": "560c26561226780aa92679733c671f5cbfd319df45baabc5c17ced205eb5b0f8",
       "byteLength": 65207,
       "rawPath": "netkeiba/horses/2013/2013103584/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:43:20.292Z"
+  "updatedAt": "2026-08-27T10:54:34.640Z"
 }

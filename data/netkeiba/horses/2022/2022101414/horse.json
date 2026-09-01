@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101414",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101414/",
-  "profile": null,
+  "profile": {
+    "name": "グランクリュ",
+    "birthDate": "2022-03-19",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "05033",
+      "name": "菅原右吉"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010104155",
+      "name": "エピファネイア"
+    },
+    "dam": {
+      "id": "2005103150",
+      "name": "シャンパンフルート"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010104155",
@@ -3280,6 +3310,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "グランクリュ (Grand Cru) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランクリュ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "グランクリュ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3349,9 +3409,9 @@
       "contentHash": "8944ecb67f4f3bdb8e8b0462587c9409bf864407a5709967e874468cf5909e42",
       "byteLength": 65432,
       "rawPath": "netkeiba/horses/2022/2022101414/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:31:23.914Z"
+  "updatedAt": "2026-08-24T15:40:10.729Z"
 }

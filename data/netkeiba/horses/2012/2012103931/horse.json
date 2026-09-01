@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012103931",
   "sourceUrl": "https://db.netkeiba.com/horse/2012103931/",
-  "profile": null,
+  "profile": {
+    "name": "モーグリ",
+    "birthDate": "2012-03-20",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "611006",
+      "name": "大林一彦"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2003102927",
+      "name": "ソーマサイト"
+    },
+    "damsire": {
+      "id": "1995108676",
+      "name": "グラスワンダー"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4132,6 +4162,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モーグリ (Mowgli) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーグリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モーグリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4201,9 +4261,9 @@
       "contentHash": "f000f03b89e4a5c499fbdbba31933a3310fad7c9b195f5f5e2afefe3758905b4",
       "byteLength": 66771,
       "rawPath": "netkeiba/horses/2012/2012103931/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:45:56.724Z"
+  "updatedAt": "2026-08-31T08:55:39.575Z"
 }

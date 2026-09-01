@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105351",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105351/",
-  "profile": null,
+  "profile": {
+    "name": "チャーリー",
+    "birthDate": "2023-02-16",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "782033",
+      "name": "嶋田一成"
+    },
+    "breeder": {
+      "id": "000014",
+      "name": "辻牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2016104458",
+      "name": "クリソベリル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジャンナスキッキ Gianna Schicchi(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "War Front"
+    }
+  },
   "pedigree": [
     {
       "id": "2016104458",
@@ -1785,6 +1815,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャーリー (Charlie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャーリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャーリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1854,9 +1914,9 @@
       "contentHash": "5982189ad6900d39855d005603fc3a9b70ca5aeb18feaec1db0d5d80e86b2a2f",
       "byteLength": 67167,
       "rawPath": "netkeiba/horses/2023/2023105351/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:52:07.349Z"
+  "updatedAt": "2026-08-30T09:55:59.977Z"
 }

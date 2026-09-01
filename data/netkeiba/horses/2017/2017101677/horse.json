@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101677",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101677/",
-  "profile": null,
+  "profile": {
+    "name": "キーテーマ",
+    "birthDate": "2017-04-12",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00417",
+      "name": "土田稔"
+    },
+    "owner": {
+      "id": "338008",
+      "name": "北前孔一郎"
+    },
+    "breeder": {
+      "id": "800311",
+      "name": "中本牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "プリサイスエンド"
+    },
+    "dam": {
+      "id": "2002102567",
+      "name": "キーツヨイ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "タバスコキャット"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1187,6 +1217,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キーテーマ (Key Theme) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーテーマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キーテーマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1256,9 +1316,9 @@
       "contentHash": "a83acc3bcf141576ea659de441a0165ac1ee8243f54a40f383231b65460efbb9",
       "byteLength": 66259,
       "rawPath": "netkeiba/horses/2017/2017101677/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:05:01.599Z"
+  "updatedAt": "2026-08-31T09:14:44.411Z"
 }

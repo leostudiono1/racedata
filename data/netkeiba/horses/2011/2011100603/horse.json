@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011100603",
   "sourceUrl": "https://db.netkeiba.com/horse/2011100603/",
-  "profile": null,
+  "profile": {
+    "name": "エンキンドル",
+    "birthDate": "2011-05-20",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01098",
+      "name": "野中賢二"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ラヴィングプライド Loving Pride(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Quiet American"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3414,6 +3444,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エンキンドル (Enkindle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンキンドル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エンキンドル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3483,9 +3543,9 @@
       "contentHash": "f7f18d483175ffed9faaa58a80d5b869468314a07d6343bae9d944636b141efc",
       "byteLength": 67071,
       "rawPath": "netkeiba/horses/2011/2011100603/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:47:13.626Z"
+  "updatedAt": "2026-08-24T14:56:00.287Z"
 }

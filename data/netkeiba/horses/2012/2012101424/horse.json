@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101424",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101424/",
-  "profile": null,
+  "profile": {
+    "name": "セントボナパルト",
+    "birthDate": "2012-03-01",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中譲二"
+    },
+    "owner": {
+      "id": "x08bee",
+      "name": "三岡有香"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    },
+    "dam": {
+      "id": "2002110236",
+      "name": "セントフロンティア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6323,6 +6353,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セントボナパルト (Saint Bonaparte) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セントボナパルト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セントボナパルト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6392,9 +6452,9 @@
       "contentHash": "f2014db6818eb36c6bee0576db5098cf4cb8c01e8db08f726629b248faf03bb5",
       "byteLength": 64573,
       "rawPath": "netkeiba/horses/2012/2012101424/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:03:16.485Z"
+  "updatedAt": "2026-08-28T10:09:01.164Z"
 }

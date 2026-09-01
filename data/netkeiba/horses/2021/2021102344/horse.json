@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021102344",
   "sourceUrl": "https://db.netkeiba.com/horse/2021102344/",
-  "profile": null,
+  "profile": {
+    "name": "ボーズマン",
+    "birthDate": "2021-04-30",
+    "sex": "牡",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "05624",
+      "name": "中川竜馬"
+    },
+    "owner": {
+      "id": "x0816a",
+      "name": "豊島愛子"
+    },
+    "breeder": {
+      "id": "750365",
+      "name": "北島牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2010106548",
+      "name": "コパノリッキー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジャズプリンセス Jazz Princess(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bahhare"
+    }
+  },
   "pedigree": [
     {
       "id": "2010106548",
@@ -4721,6 +4751,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ボーズマン (Bozeman) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボーズマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ボーズマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4790,9 +4850,9 @@
       "contentHash": "5eb3be960210088c89bb902e5261b6a01175eb9f6e329f7a08658b82e6cf9187",
       "byteLength": 66995,
       "rawPath": "netkeiba/horses/2021/2021102344/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:28:28.868Z"
+  "updatedAt": "2026-08-24T15:37:15.525Z"
 }

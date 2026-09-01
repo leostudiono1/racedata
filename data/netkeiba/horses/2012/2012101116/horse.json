@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101116",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101116/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンミッション",
+    "birthDate": "2012-02-27",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05609",
+      "name": "小久保智"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "351543",
+      "name": "エスティファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    },
+    "dam": {
+      "id": "1996110212",
+      "name": "バーガンディレッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Star de Naskra"
+    }
+  },
   "pedigree": [
     {
       "id": "1997110025",
@@ -5205,6 +5235,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンミッション (Tosen Mission) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンミッション関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンミッション関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5274,9 +5334,9 @@
       "contentHash": "afe63dfe6cbe7bd68208ff3cd1dd83ee2f707f147b1a080e676df761ea430aef",
       "byteLength": 67125,
       "rawPath": "netkeiba/horses/2012/2012101116/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:44:53.660Z"
+  "updatedAt": "2026-08-31T08:54:36.594Z"
 }

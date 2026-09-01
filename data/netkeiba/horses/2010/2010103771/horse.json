@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010103771",
   "sourceUrl": "https://db.netkeiba.com/horse/2010103771/",
-  "profile": null,
+  "profile": {
+    "name": "マトリックスコード",
+    "birthDate": "2010-02-19",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01150",
+      "name": "池上昌和"
+    },
+    "owner": {
+      "id": "415800",
+      "name": "社台レースホース"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2003102657",
+      "name": "シークレットコード"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fusaichi Pegasus"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1741,6 +1771,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マトリックスコード (Matrix Code) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マトリックスコード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マトリックスコード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1810,9 +1870,9 @@
       "contentHash": "74b5001afc437024ca30228f2f0eb7052c336a5f78669e1747ed1a131edee4db",
       "byteLength": 66414,
       "rawPath": "netkeiba/horses/2010/2010103771/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:18:58.089Z"
+  "updatedAt": "2026-08-26T11:21:47.897Z"
 }

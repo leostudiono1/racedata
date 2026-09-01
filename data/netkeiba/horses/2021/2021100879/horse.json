@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021100879",
   "sourceUrl": "https://db.netkeiba.com/horse/2021100879/",
-  "profile": null,
+  "profile": {
+    "name": "ハクサンイーグル",
+    "birthDate": "2021-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01206",
+      "name": "高橋一哉"
+    },
+    "owner": {
+      "id": "841030",
+      "name": "河崎五市"
+    },
+    "breeder": {
+      "id": "510053",
+      "name": "中村雅明"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009102527",
+      "name": "ハクサンムーン"
+    },
+    "dam": {
+      "id": "2010105742",
+      "name": "キャメロンロード"
+    },
+    "damsire": {
+      "id": "1999106756",
+      "name": "デュランダル"
+    }
+  },
   "pedigree": [
     {
       "id": "2009102527",
@@ -2338,6 +2368,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクサンイーグル (Hakusan Eagle) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンイーグル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクサンイーグル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2407,9 +2467,9 @@
       "contentHash": "14f897623ab486ceed7c91ebb8e33d6d13e084f5508c49f63a89603a67582221",
       "byteLength": 66922,
       "rawPath": "netkeiba/horses/2021/2021100879/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:13:41.829Z"
+  "updatedAt": "2026-08-25T14:23:03.415Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011101915",
   "sourceUrl": "https://db.netkeiba.com/horse/2011101915/",
-  "profile": null,
+  "profile": {
+    "name": "ルイカズマ",
+    "birthDate": "2011-03-06",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中西達也"
+    },
+    "owner": {
+      "id": "x00780",
+      "name": "上岡和男"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2001103880",
+      "name": "グランドホイッスル"
+    },
+    "damsire": {
+      "id": "1991103224",
+      "name": "シアトルスズカ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -10851,6 +10881,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルイカズマ (Louis Kazuma) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルイカズマ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルイカズマ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -10920,9 +10980,9 @@
       "contentHash": "7d52a63418792310782275416853f301dbe0a908ee13626fed47d00bd84171e0",
       "byteLength": 65573,
       "rawPath": "netkeiba/horses/2011/2011101915/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:01:10.553Z"
+  "updatedAt": "2026-08-28T10:06:55.208Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023107035",
   "sourceUrl": "https://db.netkeiba.com/horse/2023107035/",
-  "profile": null,
+  "profile": {
+    "name": "エクラドット",
+    "birthDate": "2023-02-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01187",
+      "name": "西田雄一"
+    },
+    "owner": {
+      "id": "486800",
+      "name": "キャロットファーム"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2014106046",
+      "name": "アルアイン"
+    },
+    "dam": {
+      "id": "2016110112",
+      "name": "シャンブルドット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lope de Vega"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106046",
@@ -1506,6 +1536,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エクラドット (Eclat Dot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクラドット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エクラドット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1575,9 +1635,9 @@
       "contentHash": "59f24054a307f3f7c8f0ed588b8eba8b55245d0a7cda83e564b650066a080629",
       "byteLength": 67229,
       "rawPath": "netkeiba/horses/2023/2023107035/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:33:23.183Z"
+  "updatedAt": "2026-08-31T09:43:05.999Z"
 }

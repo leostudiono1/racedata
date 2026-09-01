@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101807",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101807/",
-  "profile": null,
+  "profile": {
+    "name": "セミラミス",
+    "birthDate": "2013-03-17",
+    "sex": "セ",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1994108729",
+      "name": "ステイゴールド"
+    },
+    "dam": {
+      "id": "2001110046",
+      "name": "グローリーブラッド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Gone West"
+    }
+  },
   "pedigree": [
     {
       "id": "1994108729",
@@ -1196,6 +1226,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セミラミス (Semiramis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セミラミス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セミラミス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1265,9 +1325,9 @@
       "contentHash": "86e84d13371349d68bcb1777ae9eecab8e1c854ab9bcb12ade7ca0a8ebad7f29",
       "byteLength": 64339,
       "rawPath": "netkeiba/horses/2013/2013101807/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:48:13.167Z"
+  "updatedAt": "2026-08-31T08:57:56.061Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105306",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105306/",
-  "profile": null,
+  "profile": {
+    "name": "リブースト",
+    "birthDate": "2019-04-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00429",
+      "name": "佐々木晶"
+    },
+    "owner": {
+      "id": "226800",
+      "name": "サンデーレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2010104264",
+      "name": "ディオジェーヌ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1265,6 +1295,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リブースト (Reboost) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リブースト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リブースト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1334,9 +1394,9 @@
       "contentHash": "ef3957f7112918f57d68adde84e0c453809e391e430d328a855f550842bb95a3",
       "byteLength": 67296,
       "rawPath": "netkeiba/horses/2019/2019105306/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:00:47.277Z"
+  "updatedAt": "2026-08-29T10:08:45.019Z"
 }

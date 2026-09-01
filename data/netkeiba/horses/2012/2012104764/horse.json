@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012104764",
   "sourceUrl": "https://db.netkeiba.com/horse/2012104764/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンゲイル",
+    "birthDate": "2012-03-19",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01126",
+      "name": "木村哲也"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パーシステントリー Persistently(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smoke Glacken"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1815,6 +1845,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンゲイル (Tosen Gale) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンゲイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンゲイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1884,9 +1944,9 @@
       "contentHash": "ac99357aa2b6786286d17e9aefd2d18f8423ce3fe388ddc4af9141103bdd1153",
       "byteLength": 66643,
       "rawPath": "netkeiba/horses/2012/2012104764/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:39:53.641Z"
+  "updatedAt": "2026-08-27T10:51:07.575Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017101180",
   "sourceUrl": "https://db.netkeiba.com/horse/2017101180/",
-  "profile": null,
+  "profile": {
+    "name": "ジョウショウバイオ",
+    "birthDate": "2017-04-10",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01106",
+      "name": "牧光二"
+    },
+    "owner": {
+      "id": "930800",
+      "name": "バイオ"
+    },
+    "breeder": {
+      "id": "800366",
+      "name": "坂東牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2006106318",
+      "name": "ビクトリアスバイオ"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1215,6 +1245,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョウショウバイオ (Josho Bio) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョウショウバイオ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョウショウバイオ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1284,9 +1344,9 @@
       "contentHash": "52d82a3c2ba42e2c6b97597e36265b0c09244451a97d1c73327bc54022a8bba1",
       "byteLength": 64786,
       "rawPath": "netkeiba/horses/2017/2017101180/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:57:31.472Z"
+  "updatedAt": "2026-08-27T11:08:45.032Z"
 }

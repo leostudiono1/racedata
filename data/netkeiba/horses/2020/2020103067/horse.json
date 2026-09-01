@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020103067",
   "sourceUrl": "https://db.netkeiba.com/horse/2020103067/",
-  "profile": null,
+  "profile": {
+    "name": "エミーラ",
+    "birthDate": "2020-01-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01075",
+      "name": "矢作芳人"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ミスラゴ Miss Lago(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Encosta de Lago"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -1326,6 +1356,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エミーラ (Emira) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エミーラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エミーラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1395,9 +1455,9 @@
       "contentHash": "b9d982d49db94b0d71e544692103742b5da79f62345f38afa4e2c66580826542",
       "byteLength": 66783,
       "rawPath": "netkeiba/horses/2020/2020103067/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:38:03.119Z"
+  "updatedAt": "2026-08-28T10:43:48.239Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015104051",
   "sourceUrl": "https://db.netkeiba.com/horse/2015104051/",
-  "profile": null,
+  "profile": {
+    "name": "ヴァザーリ",
+    "birthDate": "2015-03-30",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05716",
+      "name": "尾島徹"
+    },
+    "owner": {
+      "id": "563030",
+      "name": "村上卓史"
+    },
+    "breeder": {
+      "id": "930543",
+      "name": "レイクヴィラファーム"
+    },
+    "birthplace": "洞爺湖町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "2005102478",
+      "name": "チェルカ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2311,6 +2341,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヴァザーリ (Vasari) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァザーリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヴァザーリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2380,9 +2440,9 @@
       "contentHash": "ad7974f12ccd78cea63d81859d04523a248a892c82a45c52911360ada9833d7e",
       "byteLength": 66699,
       "rawPath": "netkeiba/horses/2015/2015104051/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:15:35.590Z"
+  "updatedAt": "2026-08-30T09:19:28.204Z"
 }

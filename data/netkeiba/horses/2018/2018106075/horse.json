@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106075",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106075/",
-  "profile": null,
+  "profile": {
+    "name": "インテンス",
+    "birthDate": "2018-04-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01101",
+      "name": "吉田直弘"
+    },
+    "owner": {
+      "id": "316031",
+      "name": "西森功"
+    },
+    "breeder": {
+      "id": "100032",
+      "name": "杵臼斉藤牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "ディスクリートキャット"
+    },
+    "dam": {
+      "id": "2008100755",
+      "name": "ルアス"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1065,6 +1095,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インテンス (Intense) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インテンス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インテンス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1134,9 +1194,9 @@
       "contentHash": "8d8acab3eb1f964d20d102580460c36a6b2075e55e1631f427da78a9e9b9322d",
       "byteLength": 64438,
       "rawPath": "netkeiba/horses/2018/2018106075/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:11:55.244Z"
+  "updatedAt": "2026-08-31T09:21:37.870Z"
 }

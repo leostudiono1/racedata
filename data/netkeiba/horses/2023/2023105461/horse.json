@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105461",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105461/",
-  "profile": null,
+  "profile": {
+    "name": "スティーブ",
+    "birthDate": "2023-04-04",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05741",
+      "name": "池田忠好"
+    },
+    "owner": {
+      "id": "x0bf3c",
+      "name": "黒木徹"
+    },
+    "breeder": {
+      "id": "033305",
+      "name": "フジワラファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "シャンハイボビー Shanghai Bobby(米)"
+    },
+    "dam": {
+      "id": "2010104060",
+      "name": "マーヴェリックス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Smart Strike (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1863,6 +1893,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スティーブ (Steve) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スティーブ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スティーブ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1932,9 +1992,9 @@
       "contentHash": "fc1e290ea9f0b0af3a6edc48ca85cffe1b1f44185eb38193f76607947231ee77",
       "byteLength": 65475,
       "rawPath": "netkeiba/horses/2023/2023105461/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:52:14.608Z"
+  "updatedAt": "2026-08-30T09:56:06.903Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012102453",
   "sourceUrl": "https://db.netkeiba.com/horse/2012102453/",
-  "profile": null,
+  "profile": {
+    "name": "ラミーロ",
+    "birthDate": "2012-04-14",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01143",
+      "name": "和田雄二"
+    },
+    "owner": {
+      "id": "490006",
+      "name": "門野重雄"
+    },
+    "breeder": {
+      "id": "813026",
+      "name": "原口牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1999110191",
+      "name": "アサクサデンエン"
+    },
+    "dam": {
+      "id": "2004104995",
+      "name": "アラハ"
+    },
+    "damsire": {
+      "id": "1996107396",
+      "name": "アドマイヤベガ"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110191",
@@ -2968,6 +2998,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラミーロ (Ramiro) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラミーロ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラミーロ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3037,9 +3097,9 @@
       "contentHash": "4c8fa6cc7c32823703723872aa1615be36707c18c9c0e80e7266c999876b6e7e",
       "byteLength": 66670,
       "rawPath": "netkeiba/horses/2012/2012102453/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:22:28.346Z"
+  "updatedAt": "2026-08-26T11:25:18.076Z"
 }

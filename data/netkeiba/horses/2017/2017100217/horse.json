@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100217",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100217/",
-  "profile": null,
+  "profile": {
+    "name": "アズマオウ",
+    "birthDate": "2017-03-31",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00425",
+      "name": "加用正"
+    },
+    "owner": {
+      "id": "903006",
+      "name": "東哲次"
+    },
+    "breeder": {
+      "id": "803353",
+      "name": "木村牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2005102973",
+      "name": "サウスサプライズ"
+    },
+    "damsire": {
+      "id": "1996110138",
+      "name": "サウスヴィグラス"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -1940,6 +1970,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アズマオウ (Azuma O) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アズマオウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アズマオウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2009,9 +2069,9 @@
       "contentHash": "f6bce84a1d8cf2410bedbe336f36ba71b06e8ed33b4b118c059ecdad2712423a",
       "byteLength": 64296,
       "rawPath": "netkeiba/horses/2017/2017100217/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:56:56.095Z"
+  "updatedAt": "2026-08-27T11:08:09.923Z"
 }

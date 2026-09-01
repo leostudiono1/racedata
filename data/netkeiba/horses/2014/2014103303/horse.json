@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014103303",
   "sourceUrl": "https://db.netkeiba.com/horse/2014103303/",
-  "profile": null,
+  "profile": {
+    "name": "トーマス",
+    "birthDate": "2014-03-23",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01021",
+      "name": "池添兼雄"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "900011",
+      "name": "谷川牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    },
+    "dam": {
+      "id": "2004102050",
+      "name": "コウヨウアイリーン"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "1999110099",
@@ -7452,6 +7482,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーマス (Thomas) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーマス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーマス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7521,9 +7581,9 @@
       "contentHash": "e8399e1d8163950c878cf12710fe22c8b12cf5457451a7f1e3241a23281a5bae",
       "byteLength": 66970,
       "rawPath": "netkeiba/horses/2014/2014103303/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:52:46.629Z"
+  "updatedAt": "2026-08-31T09:02:29.186Z"
 }

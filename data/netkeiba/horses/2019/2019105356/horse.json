@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105356",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105356/",
-  "profile": null,
+  "profile": {
+    "name": "フラワリング",
+    "birthDate": "2019-04-30",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01061",
+      "name": "友道康夫"
+    },
+    "owner": {
+      "id": "506800",
+      "name": "シルクレーシング"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヒッピー"
+    },
+    "damsire": {
+      "id": "1995190002",
+      "name": "Muhtathir (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -1169,6 +1199,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラワリング (Flowering) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラワリング関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラワリング関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1238,9 +1298,9 @@
       "contentHash": "4d59e480d3e7e116e02154f8730144c871e7fbaaedb72b44a6593b39dc0b5b5c",
       "byteLength": 67468,
       "rawPath": "netkeiba/horses/2019/2019105356/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:21:39.215Z"
+  "updatedAt": "2026-08-24T15:30:25.947Z"
 }

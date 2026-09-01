@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106306",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106306/",
-  "profile": null,
+  "profile": {
+    "name": "ベルガモット",
+    "birthDate": "2016-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05470",
+      "name": "黒田隆男"
+    },
+    "owner": {
+      "id": "x09393",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "533302",
+      "name": "前谷武志"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "000",
+      "name": "キングズベスト"
+    },
+    "dam": {
+      "id": "2010100653",
+      "name": "インカンデセンス"
+    },
+    "damsire": {
+      "id": "1996190005",
+      "name": "ファンタスティックライト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3446,6 +3476,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベルガモット (Bergamot) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルガモット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベルガモット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3515,9 +3575,9 @@
       "contentHash": "462a4e5c8603345ebb2b2bc08cf65843f7a2504406fc998c67e72b530e1860a2",
       "byteLength": 65761,
       "rawPath": "netkeiba/horses/2016/2016106306/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:03:48.216Z"
+  "updatedAt": "2026-08-31T09:13:31.019Z"
 }

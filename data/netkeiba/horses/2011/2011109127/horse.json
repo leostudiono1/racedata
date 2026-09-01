@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011109127",
   "sourceUrl": "https://db.netkeiba.com/horse/2011109127/",
-  "profile": null,
+  "profile": {
+    "name": "カフジスター",
+    "birthDate": "2011-05-04",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05610",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "x005f2",
+      "name": "長谷川孝二"
+    },
+    "breeder": {
+      "id": "409124",
+      "name": "シンボリ牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ムレイニー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Star de Naskra"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -6705,6 +6735,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフジスター (Kafuji Star) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジスター関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフジスター関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6774,9 +6834,9 @@
       "contentHash": "0bae2383476515821ceab333cb8bbcc5f8493acba6d13dfcaf29106228dd56de",
       "byteLength": 67001,
       "rawPath": "netkeiba/horses/2011/2011109127/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:02:24.341Z"
+  "updatedAt": "2026-08-28T10:08:08.623Z"
 }

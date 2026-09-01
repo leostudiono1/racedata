@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104165",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104165/",
-  "profile": null,
+  "profile": {
+    "name": "ソークール",
+    "birthDate": "2023-03-04",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01035",
+      "name": "佐藤吉勝"
+    },
+    "owner": {
+      "id": "911800",
+      "name": "スピードファーム"
+    },
+    "breeder": {
+      "id": "700462",
+      "name": "スピードファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2016102280",
+      "name": "オーヴァルエース"
+    },
+    "dam": {
+      "id": "2014104097",
+      "name": "モーニングテラス"
+    },
+    "damsire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016102280",
@@ -1451,6 +1481,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソークール (So Cool) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソークール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソークール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1520,9 +1580,9 @@
       "contentHash": "99fd6209bd08d02365cd01ebd2f72df5fa9dff7709804cf16162bdbd7cd0cff9",
       "byteLength": 65411,
       "rawPath": "netkeiba/horses/2023/2023104165/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:31:45.625Z"
+  "updatedAt": "2026-08-31T09:41:27.989Z"
 }

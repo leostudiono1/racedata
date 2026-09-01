@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019104267",
   "sourceUrl": "https://db.netkeiba.com/horse/2019104267/",
-  "profile": null,
+  "profile": {
+    "name": "ラクレット",
+    "birthDate": "2019-05-05",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05131",
+      "name": "井上哲"
+    },
+    "owner": {
+      "id": "562031",
+      "name": "近藤英二"
+    },
+    "breeder": {
+      "id": "630002",
+      "name": "林時春"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2003102205",
+      "name": "メイショウサムソン"
+    },
+    "dam": {
+      "id": "2007101737",
+      "name": "ニンフェッタ"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102205",
@@ -3269,6 +3299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラクレット (Raclette) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラクレット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラクレット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3338,9 +3398,9 @@
       "contentHash": "397c3a9d8900a2a340471e88987ca54d35b56e5dfc6e71a303190c6299477720",
       "byteLength": 66849,
       "rawPath": "netkeiba/horses/2019/2019104267/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:08:01.441Z"
+  "updatedAt": "2026-08-27T11:19:15.174Z"
 }

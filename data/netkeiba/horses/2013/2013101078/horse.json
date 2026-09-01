@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101078",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101078/",
-  "profile": null,
+  "profile": {
+    "name": "スズカコメット",
+    "birthDate": "2013-03-31",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01065",
+      "name": "大橋勇樹"
+    },
+    "owner": {
+      "id": "382004",
+      "name": "永井啓弍"
+    },
+    "breeder": {
+      "id": "000365",
+      "name": "稲原牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "1999102065",
+      "name": "エアリング"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ダンシングブレーヴ Dancing Brave(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -1652,6 +1682,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "スズカコメット (Suzuka Comet) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカコメット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "スズカコメット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1721,9 +1781,9 @@
       "contentHash": "12c10945ff30b132064f76312a2c32cb740e1d1d4d1842fc09e22afc3a7aad3c",
       "byteLength": 64669,
       "rawPath": "netkeiba/horses/2013/2013101078/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:52:39.117Z"
+  "updatedAt": "2026-08-24T15:01:25.912Z"
 }

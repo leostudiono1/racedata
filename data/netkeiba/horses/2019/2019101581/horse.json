@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019101581",
   "sourceUrl": "https://db.netkeiba.com/horse/2019101581/",
-  "profile": null,
+  "profile": {
+    "name": "ジョセフ",
+    "birthDate": "2019-05-13",
+    "sex": "セ",
+    "coatColor": "青毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "959030",
+      "name": "井上久光"
+    },
+    "breeder": {
+      "id": "511328",
+      "name": "サンバマウンテンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2007102760",
+      "name": "パドトロワ"
+    },
+    "dam": {
+      "id": "1999101348",
+      "name": "ジョセフィーヌ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エルハーブ Erhaab(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007102760",
@@ -1176,6 +1206,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジョセフ (Joseph) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョセフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジョセフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1245,9 +1305,9 @@
       "contentHash": "ff1ae5cb4b765df188a28935b8a25f09983b7442163881febaabf824290a7fcf",
       "byteLength": 66713,
       "rawPath": "netkeiba/horses/2019/2019101581/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:32:37.525Z"
+  "updatedAt": "2026-08-28T10:38:22.225Z"
 }

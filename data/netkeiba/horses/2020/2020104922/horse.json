@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020104922",
   "sourceUrl": "https://db.netkeiba.com/horse/2020104922/",
-  "profile": null,
+  "profile": {
+    "name": "トラファルガー",
+    "birthDate": "2020-02-14",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01077",
+      "name": "加藤和宏"
+    },
+    "owner": {
+      "id": "464030",
+      "name": "田畑利彦"
+    },
+    "breeder": {
+      "id": "801307",
+      "name": "矢野牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2013105915",
+      "name": "リオンディーズ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "マチュアード Matured(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Manduro (独)"
+    }
+  },
   "pedigree": [
     {
       "id": "2013105915",
@@ -2716,6 +2746,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トラファルガー (Trafalgar) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラファルガー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トラファルガー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2785,9 +2845,9 @@
       "contentHash": "1d2aeb3663f836a8acb320d3bef427a2681a9d37fad84595b6319b27b7631bdd",
       "byteLength": 67042,
       "rawPath": "netkeiba/horses/2020/2020104922/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:38:39.212Z"
+  "updatedAt": "2026-08-30T09:42:31.114Z"
 }

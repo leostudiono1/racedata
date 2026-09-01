@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022105488",
   "sourceUrl": "https://db.netkeiba.com/horse/2022105488/",
-  "profile": null,
+  "profile": {
+    "name": "ピスタ",
+    "birthDate": "2022-03-16",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "866006",
+      "name": "寺田寿男"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ブリックスアンドモルタル Bricks and Mortar(米)"
+    },
+    "dam": {
+      "id": "2007102912",
+      "name": "ブルーミングアレー"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1436,6 +1466,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピスタ (Pista) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピスタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピスタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1505,9 +1565,9 @@
       "contentHash": "4955355307fb5ec6999c4f59f788235c53a8252fcd2ab2088cba21980d5014a9",
       "byteLength": 64386,
       "rawPath": "netkeiba/horses/2022/2022105488/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:14:43.912Z"
+  "updatedAt": "2026-08-29T10:22:41.657Z"
 }

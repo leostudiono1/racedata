@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104416",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104416/",
-  "profile": null,
+  "profile": {
+    "name": "アクシュラ",
+    "birthDate": "2023-04-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01154",
+      "name": "橋口慎介"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2014110053",
+      "name": "ユメノトビラ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bernardini (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1588,6 +1618,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アクシュラ (Acushla) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクシュラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アクシュラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1657,9 +1717,9 @@
       "contentHash": "ae1c967802bc6994ff2cd31b5f244812adad84554d91215452ea7edb87737e49",
       "byteLength": 65922,
       "rawPath": "netkeiba/horses/2023/2023104416/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:51:42.895Z"
+  "updatedAt": "2026-08-30T09:55:35.430Z"
 }

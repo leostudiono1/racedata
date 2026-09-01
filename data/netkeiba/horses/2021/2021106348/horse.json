@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106348",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106348/",
-  "profile": null,
+  "profile": {
+    "name": "ジェットラン",
+    "birthDate": "2021-05-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05214",
+      "name": "原口次夫"
+    },
+    "owner": {
+      "id": "x097fd",
+      "name": "北原大史"
+    },
+    "breeder": {
+      "id": "900310",
+      "name": "武田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2013106099",
+      "name": "ミッキーロケット"
+    },
+    "dam": {
+      "id": "2005102650",
+      "name": "メイユーブルーム"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106099",
@@ -3074,6 +3104,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジェットラン (Jet Run) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェットラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェットラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3143,9 +3203,9 @@
       "contentHash": "0f73ecdc46c6e2a9299952ba370b48b249ab199188c37479b556d6859dad33ae",
       "byteLength": 66394,
       "rawPath": "netkeiba/horses/2021/2021106348/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:44:28.725Z"
+  "updatedAt": "2026-08-30T09:48:21.380Z"
 }

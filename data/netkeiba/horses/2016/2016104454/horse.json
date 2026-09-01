@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104454",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104454/",
-  "profile": null,
+  "profile": {
+    "name": "アカネサス",
+    "birthDate": "2016-02-11",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00411",
+      "name": "浅見秀一"
+    },
+    "owner": {
+      "id": "675030",
+      "name": "林正道"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2008103175",
+      "name": "クィーンズバーン"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -2737,6 +2767,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アカネサス (Akanesasu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アカネサス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アカネサス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2806,9 +2866,9 @@
       "contentHash": "a28766bc4e5968da44921a397e4377946095cc13a38ff8d4060cc41229577a65",
       "byteLength": 67113,
       "rawPath": "netkeiba/horses/2016/2016104454/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:07:24.844Z"
+  "updatedAt": "2026-08-24T15:16:11.700Z"
 }

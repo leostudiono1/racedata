@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106650",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106650/",
-  "profile": null,
+  "profile": {
+    "name": "ペイルムーン",
+    "birthDate": "2021-04-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05772",
+      "name": "高野毅"
+    },
+    "owner": {
+      "id": "638009",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2015110055",
+      "name": "ユナリオンス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Shamardal (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -2971,6 +3001,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ペイルムーン (Pale Moon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイルムーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ペイルムーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3040,9 +3100,9 @@
       "contentHash": "29c03678a58933598cd94efaded6b4ee97b90ba8a6540815f3443fbb3be31048",
       "byteLength": 64770,
       "rawPath": "netkeiba/horses/2021/2021106650/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:44:42.752Z"
+  "updatedAt": "2026-08-30T09:48:35.359Z"
 }

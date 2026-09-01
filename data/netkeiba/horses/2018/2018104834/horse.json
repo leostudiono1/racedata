@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104834",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104834/",
-  "profile": null,
+  "profile": {
+    "name": "アリエノール",
+    "birthDate": "2018-01-26",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01086",
+      "name": "斎藤誠"
+    },
+    "owner": {
+      "id": "338007",
+      "name": "村野康司"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "Nyquist (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ランドオーバーシー Land Over Sea(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Bellamy Road"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1600,6 +1630,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アリエノール (Alienor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリエノール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アリエノール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1669,9 +1729,9 @@
       "contentHash": "0051a8f823d30b925642ebb145eac32f71d0e7781cb47a52ff2297f82d3cac5a",
       "byteLength": 66533,
       "rawPath": "netkeiba/horses/2018/2018104834/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:29:10.980Z"
+  "updatedAt": "2026-08-28T10:34:55.674Z"
 }

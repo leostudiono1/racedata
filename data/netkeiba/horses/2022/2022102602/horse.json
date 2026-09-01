@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102602",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102602/",
-  "profile": null,
+  "profile": {
+    "name": "フェリスチカ",
+    "birthDate": "2022-03-11",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01031",
+      "name": "伊藤伸一"
+    },
+    "owner": {
+      "id": "609009",
+      "name": "冨沢敦子"
+    },
+    "breeder": {
+      "id": "730036",
+      "name": "浦河小林牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2013104704",
+      "name": "ディーマジェスティ"
+    },
+    "dam": {
+      "id": "2014103015",
+      "name": "パッションチカ"
+    },
+    "damsire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    }
+  },
   "pedigree": [
     {
       "id": "2013104704",
@@ -2318,6 +2348,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フェリスチカ (Feliz Chica) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェリスチカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フェリスチカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2387,9 +2447,9 @@
       "contentHash": "c68bd2113d1726c51cd3059923d8efecf6979fab25fbc7f8ddfeb8cc99068c6c",
       "byteLength": 66391,
       "rawPath": "netkeiba/horses/2022/2022102602/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:26:44.017Z"
+  "updatedAt": "2026-08-31T09:36:26.924Z"
 }

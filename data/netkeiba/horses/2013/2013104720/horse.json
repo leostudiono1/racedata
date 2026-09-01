@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013104720",
   "sourceUrl": "https://db.netkeiba.com/horse/2013104720/",
-  "profile": null,
+  "profile": {
+    "name": "カキナダ",
+    "birthDate": "2013-04-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05076",
+      "name": "伊藤強一"
+    },
+    "owner": {
+      "id": "820009",
+      "name": "鈴木義孝"
+    },
+    "breeder": {
+      "id": "313303",
+      "name": "原達也"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2006101455",
+      "name": "ロッチイブ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "スキャン Scan(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -1522,6 +1552,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カキナダ (Kakinada) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カキナダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カキナダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1591,9 +1651,9 @@
       "contentHash": "93e2f2030ed8b59cb8da9f71aafe0312be1b223719e58c49361d78e777b64d7a",
       "byteLength": 65237,
       "rawPath": "netkeiba/horses/2013/2013104720/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:35:20.522Z"
+  "updatedAt": "2026-08-29T09:43:18.380Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101091",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101091/",
-  "profile": null,
+  "profile": {
+    "name": "テンモントム",
+    "birthDate": "2016-03-12",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05358",
+      "name": "新田守"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "643090",
+      "name": "小野秀治"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006102424",
+      "name": "ナカヤマフェスタ"
+    },
+    "dam": {
+      "id": "2009101697",
+      "name": "モエレマリーア"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Scat Daddy (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2006102424",
@@ -5619,6 +5649,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "テンモントム (Temmontomu) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンモントム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "テンモントム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5688,9 +5748,9 @@
       "contentHash": "672e6910581dbff6fe29545cfb6e6e49c596520f5e03c49bf6f1d5fc417be515",
       "byteLength": 66962,
       "rawPath": "netkeiba/horses/2016/2016101091/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:05:12.009Z"
+  "updatedAt": "2026-08-24T15:13:58.879Z"
 }

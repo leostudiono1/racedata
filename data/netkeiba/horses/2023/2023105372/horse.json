@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105372",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105372/",
-  "profile": null,
+  "profile": {
+    "name": "シャロン",
+    "birthDate": "2023-02-01",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01157",
+      "name": "杉山晴紀"
+    },
+    "owner": {
+      "id": "879033",
+      "name": "江馬由将"
+    },
+    "breeder": {
+      "id": "705079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2017101835",
+      "name": "コントレイル"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヒミコII Himiko(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "American Pharoah (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2017101835",
@@ -1303,6 +1333,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャロン (Sharon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャロン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャロン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1372,9 +1432,9 @@
       "contentHash": "37cab69bdc655e6f6861ef0bbdd93c0f4dd95b4142af5709f8ea837e58247c6c",
       "byteLength": 65138,
       "rawPath": "netkeiba/horses/2023/2023105372/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:25:46.111Z"
+  "updatedAt": "2026-08-27T11:36:59.514Z"
 }

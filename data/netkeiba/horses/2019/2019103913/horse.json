@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019103913",
   "sourceUrl": "https://db.netkeiba.com/horse/2019103913/",
-  "profile": null,
+  "profile": {
+    "name": "ホーリーインパクト",
+    "birthDate": "2019-03-22",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "目迫大輔"
+    },
+    "owner": {
+      "id": "x08a32",
+      "name": "星野康三"
+    },
+    "breeder": {
+      "id": "700014",
+      "name": "富田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2012104180",
+      "name": "ホーリーシュラウド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cape Cross"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -2033,6 +2063,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ホーリーインパクト (Holy Impact) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホーリーインパクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ホーリーインパクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2102,9 +2162,9 @@
       "contentHash": "8fb18869840b8e72873af9750048227da01fc09151bdfc4d70850412a056df31",
       "byteLength": 65562,
       "rawPath": "netkeiba/horses/2019/2019103913/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:06:24.450Z"
+  "updatedAt": "2026-08-25T14:15:45.757Z"
 }

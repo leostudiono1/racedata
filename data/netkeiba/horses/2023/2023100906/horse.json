@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100906",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100906/",
-  "profile": null,
+  "profile": {
+    "name": "ソルアモール",
+    "birthDate": "2023-04-15",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01073",
+      "name": "宮本博"
+    },
+    "owner": {
+      "id": "362800",
+      "name": "下河辺牧場"
+    },
+    "breeder": {
+      "id": "913124",
+      "name": "下河辺牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2008105549",
+      "name": "エスカナール"
+    },
+    "damsire": {
+      "id": "1995103211",
+      "name": "スペシャルウィーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1622,6 +1652,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ソルアモール (Sol Amor) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソルアモール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ソルアモール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1691,9 +1751,9 @@
       "contentHash": "79ee64c46cc8fd7fd041d493007339c987b9f8133f7e2ce6e07aa034189166ea",
       "byteLength": 65974,
       "rawPath": "netkeiba/horses/2023/2023100906/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:29:39.112Z"
+  "updatedAt": "2026-08-31T09:39:22.040Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010101882",
   "sourceUrl": "https://db.netkeiba.com/horse/2010101882/",
-  "profile": null,
+  "profile": {
+    "name": "ヨシカワクン",
+    "birthDate": "2010-05-09",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01108",
+      "name": "矢野英一"
+    },
+    "owner": {
+      "id": "593006",
+      "name": "井上一郎"
+    },
+    "breeder": {
+      "id": "510002",
+      "name": "中脇一幸"
+    },
+    "birthplace": "様似町",
+    "sire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    },
+    "dam": {
+      "id": "1997100910",
+      "name": "ショコット"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "デインヒル Danehill(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102991",
@@ -3428,6 +3458,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ヨシカワクン (Yoshikawakun) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨシカワクン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ヨシカワクン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3497,9 +3557,9 @@
       "contentHash": "870760d0a7c5363fac142364db83cfe11d701dca5d79e11cc509a685475d470c",
       "byteLength": 66369,
       "rawPath": "netkeiba/horses/2010/2010101882/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:46:34.851Z"
+  "updatedAt": "2026-08-24T14:55:21.670Z"
 }

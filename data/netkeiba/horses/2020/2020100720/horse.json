@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100720",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100720/",
-  "profile": null,
+  "profile": {
+    "name": "シャンボール",
+    "birthDate": "2020-04-02",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05772",
+      "name": "高野毅"
+    },
+    "owner": {
+      "id": "638009",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2006100360",
+      "name": "キララチュール"
+    },
+    "damsire": {
+      "id": "1994109686",
+      "name": "タイキシャトル"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -4070,6 +4100,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シャンボール (Chambord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャンボール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シャンボール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4139,9 +4199,9 @@
       "contentHash": "db6f84a0f0484dfb8646f920c6b2de235b96793260b666c73d183d84d1f00a64",
       "byteLength": 66992,
       "rawPath": "netkeiba/horses/2020/2020100720/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:17:34.417Z"
+  "updatedAt": "2026-08-31T09:27:17.116Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101216",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101216/",
-  "profile": null,
+  "profile": {
+    "name": "ストラクチャー",
+    "birthDate": "2021-02-10",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "010033",
+      "name": "山内晃"
+    },
+    "breeder": {
+      "id": "680543",
+      "name": "木部ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012104889",
+      "name": "リアルスティール"
+    },
+    "dam": {
+      "id": "2012104228",
+      "name": "サンヴィヴァン"
+    },
+    "damsire": {
+      "id": "1998101554",
+      "name": "マンハッタンカフェ"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104889",
@@ -2644,6 +2674,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ストラクチャー (Structure) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストラクチャー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ストラクチャー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2713,9 +2773,9 @@
       "contentHash": "f8b39930fd259673e8baaca9f02182eb62cfabbe92c4346e939d18cee05326a3",
       "byteLength": 66942,
       "rawPath": "netkeiba/horses/2021/2021101216/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:21:32.466Z"
+  "updatedAt": "2026-08-31T09:31:15.453Z"
 }

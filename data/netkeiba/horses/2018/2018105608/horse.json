@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105608",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105608/",
-  "profile": null,
+  "profile": {
+    "name": "パラノイド",
+    "birthDate": "2018-02-18",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "172002",
+      "name": "池谷誠一"
+    },
+    "breeder": {
+      "id": "343374",
+      "name": "上水牧場"
+    },
+    "birthplace": "むかわ町",
+    "sire": {
+      "id": "000",
+      "name": "ヘニーヒューズ Henny Hughes(米)"
+    },
+    "dam": {
+      "id": "2010104335",
+      "name": "カーヴィシャス"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2349,6 +2379,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パラノイド (Paranoid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パラノイド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パラノイド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2418,9 +2478,9 @@
       "contentHash": "dd2daf084b5e9b582606602db8cc8f3afdf4439de43ae221adfe1b9a21280566",
       "byteLength": 67000,
       "rawPath": "netkeiba/horses/2018/2018105608/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:29:39.395Z"
+  "updatedAt": "2026-08-30T09:33:31.933Z"
 }

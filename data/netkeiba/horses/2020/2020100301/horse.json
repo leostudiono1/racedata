@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100301",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100301/",
-  "profile": null,
+  "profile": {
+    "name": "サルヴァトーレ",
+    "birthDate": "2020-04-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01114",
+      "name": "和田正一"
+    },
+    "owner": {
+      "id": "788800",
+      "name": "ノースヒルズ"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "2004101364",
+      "name": "セレブラール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -3564,6 +3594,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サルヴァトーレ (Salvatore) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルヴァトーレ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サルヴァトーレ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3633,9 +3693,9 @@
       "contentHash": "03f64f40a8cc7a9d8e53bcbc6c2008b1021fe607d2c7a57b50e669615f5541ef",
       "byteLength": 67113,
       "rawPath": "netkeiba/horses/2020/2020100301/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:22:52.775Z"
+  "updatedAt": "2026-08-24T15:31:39.380Z"
 }

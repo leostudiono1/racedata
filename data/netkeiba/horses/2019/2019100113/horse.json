@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100113",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100113/",
-  "profile": null,
+  "profile": {
+    "name": "イワクニ",
+    "birthDate": "2019-04-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "荒井朋弘"
+    },
+    "owner": {
+      "id": "728033",
+      "name": "清水義徳"
+    },
+    "breeder": {
+      "id": "700331",
+      "name": "オリエント牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2011106514",
+      "name": "チャオプラヤ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2569,6 +2599,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イワクニ (Iwakuni) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イワクニ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イワクニ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2638,9 +2698,9 @@
       "contentHash": "9767a298bd8711746f7f36773489388c00c7049e2ed808b421de719973f16d59",
       "byteLength": 66673,
       "rawPath": "netkeiba/horses/2019/2019100113/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:04:42.725Z"
+  "updatedAt": "2026-08-25T14:14:04.671Z"
 }

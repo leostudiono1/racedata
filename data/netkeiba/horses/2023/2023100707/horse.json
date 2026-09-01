@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023100707",
   "sourceUrl": "https://db.netkeiba.com/horse/2023100707/",
-  "profile": null,
+  "profile": {
+    "name": "フォールティア",
+    "birthDate": "2023-04-25",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05486",
+      "name": "今津博之"
+    },
+    "owner": {
+      "id": "465034",
+      "name": "大瀧啓之"
+    },
+    "breeder": {
+      "id": "203347",
+      "name": "沖田牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010110127",
+      "name": "ベストウォーリア"
+    },
+    "dam": {
+      "id": "2013100152",
+      "name": "ゴールドハーツ"
+    },
+    "damsire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    }
+  },
   "pedigree": [
     {
       "id": "2010110127",
@@ -2340,6 +2370,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フォールティア (Fortia) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォールティア関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フォールティア関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2409,9 +2469,9 @@
       "contentHash": "05ccf47f7e50d31a191ab18344946f77b4b77a8c45b8afb45142acb0380a4a98",
       "byteLength": 65965,
       "rawPath": "netkeiba/horses/2023/2023100707/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:50:01.287Z"
+  "updatedAt": "2026-08-30T09:53:53.948Z"
 }

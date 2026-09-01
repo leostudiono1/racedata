@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010110058",
   "sourceUrl": "https://db.netkeiba.com/horse/2010110058/",
-  "profile": null,
+  "profile": {
+    "name": "エーシントップ",
+    "birthDate": "2010-03-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01028",
+      "name": "西園正都"
+    },
+    "owner": {
+      "id": "785800",
+      "name": "栄進堂"
+    },
+    "breeder": {
+      "id": "050704",
+      "name": "Randal Family Trust R David & Marylyn A Randal Trustees"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Tale of the Cat (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Ecology"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3287,6 +3317,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エーシントップ (A Shin Top) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーシントップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エーシントップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3356,9 +3416,9 @@
       "contentHash": "a59542d57559db048536803e5bc496bceb92ab05ea052b33c1f30f3057507553",
       "byteLength": 67339,
       "rawPath": "netkeiba/horses/2010/2010110058/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:19:19.174Z"
+  "updatedAt": "2026-08-26T11:22:08.985Z"
 }

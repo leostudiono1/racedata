@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013103179",
   "sourceUrl": "https://db.netkeiba.com/horse/2013103179/",
-  "profile": null,
+  "profile": {
+    "name": "マストワン",
+    "birthDate": "2013-05-07",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01090",
+      "name": "天間昭一"
+    },
+    "owner": {
+      "id": "603033",
+      "name": "木村廣太"
+    },
+    "breeder": {
+      "id": "830056",
+      "name": "山田牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2005110169",
+      "name": "エリカオンヒル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Century City"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -2634,6 +2664,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "マストワン (Must One) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マストワン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "マストワン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2703,9 +2763,9 @@
       "contentHash": "a88a70a628156a95d542a472d495dccd70f621cdfa41439ba18920171674fab3",
       "byteLength": 66821,
       "rawPath": "netkeiba/horses/2013/2013103179/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:33:53.121Z"
+  "updatedAt": "2026-08-29T09:41:50.851Z"
 }

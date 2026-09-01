@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017106547",
   "sourceUrl": "https://db.netkeiba.com/horse/2017106547/",
-  "profile": null,
+  "profile": {
+    "name": "セルフィー",
+    "birthDate": "2017-03-24",
+    "sex": "セ",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01046",
+      "name": "鮫島一歩"
+    },
+    "owner": {
+      "id": "046803",
+      "name": "フクキタル"
+    },
+    "breeder": {
+      "id": "220204",
+      "name": "パカパカファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "セルフプリザヴェーション Self Preservation(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Lion Heart"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -3299,6 +3329,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セルフィー (Selfie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルフィー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セルフィー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3368,9 +3428,9 @@
       "contentHash": "1300fddd3b79cba7d6b36ba1b04d29691ed32a78d03f59f073a92bce093dea89",
       "byteLength": 67256,
       "rawPath": "netkeiba/horses/2017/2017106547/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:26:30.408Z"
+  "updatedAt": "2026-08-30T09:30:22.965Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023110045",
   "sourceUrl": "https://db.netkeiba.com/horse/2023110045/",
-  "profile": null,
+  "profile": {
+    "name": "フィオリータ",
+    "birthDate": "2023-03-06",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "05760",
+      "name": "松浦聡志"
+    },
+    "owner": {
+      "id": "117031",
+      "name": "前田幸貴"
+    },
+    "breeder": {
+      "id": "080706",
+      "name": "North Hills Co. Limited"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Mendelssohn"
+    },
+    "dam": {
+      "id": "2013101794",
+      "name": "ヨシノザクラ"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1239,6 +1269,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フィオリータ (Fiorita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィオリータ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フィオリータ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1308,9 +1368,9 @@
       "contentHash": "8be8cce7978fffc110ffdacbc4d0bcd9e181823370faf4f2b2267c44aecc3deb",
       "byteLength": 64808,
       "rawPath": "netkeiba/horses/2023/2023110045/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:39:55.114Z"
+  "updatedAt": "2026-08-24T15:48:41.740Z"
 }

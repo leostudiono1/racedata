@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101641",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101641/",
-  "profile": null,
+  "profile": {
+    "name": "アイガー",
+    "birthDate": "2022-02-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "竹下太"
+    },
+    "owner": {
+      "id": "382803",
+      "name": "本城"
+    },
+    "breeder": {
+      "id": "811540",
+      "name": "ダーレー・ジャパン・ファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "サンダースノー Thunder Snow(愛)"
+    },
+    "dam": {
+      "id": "2011100591",
+      "name": "カオール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "コマンズ Commands(豪)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2745,6 +2775,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アイガー (Eiger) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイガー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アイガー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2814,9 +2874,9 @@
       "contentHash": "9848769f3b09a66db5ad13a07e91b3e5416fd299397a21d0d56d0469c6c395b4",
       "byteLength": 64349,
       "rawPath": "netkeiba/horses/2022/2022101641/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:19:13.690Z"
+  "updatedAt": "2026-08-27T11:30:27.377Z"
 }

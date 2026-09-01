@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022104499",
   "sourceUrl": "https://db.netkeiba.com/horse/2022104499/",
-  "profile": null,
+  "profile": {
+    "name": "リアンエターナル",
+    "birthDate": "2022-04-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01064",
+      "name": "武藤善則"
+    },
+    "owner": {
+      "id": "300803",
+      "name": "ＫＲジャパン"
+    },
+    "breeder": {
+      "id": "510302",
+      "name": "前谷牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ノディアック"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kodiac"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1788,6 +1818,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "リアンエターナル (Lien Eternal) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアンエターナル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "リアンエターナル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1857,9 +1917,9 @@
       "contentHash": "83dffb0575b9d6255934db867b13eed283503136f25900b635a5230ca898c57d",
       "byteLength": 65092,
       "rawPath": "netkeiba/horses/2022/2022104499/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:08:37.734Z"
+  "updatedAt": "2026-08-26T12:11:27.471Z"
 }

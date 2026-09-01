@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022102258",
   "sourceUrl": "https://db.netkeiba.com/horse/2022102258/",
-  "profile": null,
+  "profile": {
+    "name": "レイネイル",
+    "birthDate": "2022-04-13",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01167",
+      "name": "稲垣幸雄"
+    },
+    "owner": {
+      "id": "350031",
+      "name": "フォレストレーシング"
+    },
+    "breeder": {
+      "id": "330237",
+      "name": "リョーケンファーム"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2010103783",
+      "name": "ロゴタイプ"
+    },
+    "dam": {
+      "id": "2016110149",
+      "name": "ダラステソーロ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Cairo Prince"
+    }
+  },
   "pedigree": [
     {
       "id": "2010103783",
@@ -1268,6 +1298,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レイネイル (Lej Nair) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイネイル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レイネイル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1337,9 +1397,9 @@
       "contentHash": "402165f8330b2c1400c00fbecca072e8927c0c15866e092f4667055865d1451a",
       "byteLength": 64979,
       "rawPath": "netkeiba/horses/2022/2022102258/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:19:28.038Z"
+  "updatedAt": "2026-08-27T11:30:41.374Z"
 }

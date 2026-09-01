@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110117",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110117/",
-  "profile": null,
+  "profile": {
+    "name": "フルフラット",
+    "birthDate": "2017-03-27",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00427",
+      "name": "森秀行"
+    },
+    "owner": {
+      "id": "550033",
+      "name": "大野照旺"
+    },
+    "breeder": {
+      "id": "970709",
+      "name": "Sierra Farm"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ゴールデンフレアー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Medaglia d'Oro"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1822,6 +1852,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フルフラット (Full Flat) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルフラット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フルフラット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1891,9 +1951,9 @@
       "contentHash": "01e9f7d03e412a2c5b926960d8f799c464d5b35e3f1af50958d08952be952127",
       "byteLength": 66348,
       "rawPath": "netkeiba/horses/2017/2017110117/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:46:41.223Z"
+  "updatedAt": "2026-08-26T11:49:30.921Z"
 }

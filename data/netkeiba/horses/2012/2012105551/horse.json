@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012105551",
   "sourceUrl": "https://db.netkeiba.com/horse/2012105551/",
-  "profile": null,
+  "profile": {
+    "name": "フラッグシップ",
+    "birthDate": "2012-05-27",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01007",
+      "name": "柴田政人"
+    },
+    "owner": {
+      "id": "851009",
+      "name": "岡田牧雄"
+    },
+    "breeder": {
+      "id": "900470",
+      "name": "まるとみ冨岡牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "スタチューオブリバティ Statue of Liberty(米)"
+    },
+    "dam": {
+      "id": "1991103625",
+      "name": "グリンパサー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Vice Regent"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1669,6 +1699,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フラッグシップ (Flag Ship) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラッグシップ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フラッグシップ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1738,9 +1798,9 @@
       "contentHash": "2c4f825592c8c3fb5fa1eef6ce4070f2ff982aff4d9ee28ff6497e60e02ed16c",
       "byteLength": 64905,
       "rawPath": "netkeiba/horses/2012/2012105551/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:51:28.960Z"
+  "updatedAt": "2026-08-24T15:00:16.271Z"
 }

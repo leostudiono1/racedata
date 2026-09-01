@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106373",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106373/",
-  "profile": null,
+  "profile": {
+    "name": "ルパン",
+    "birthDate": "2012-05-01",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01005",
+      "name": "小桧山悟"
+    },
+    "owner": {
+      "id": "326006",
+      "name": "宮坂五十四"
+    },
+    "breeder": {
+      "id": "200059",
+      "name": "三好牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "1996101830",
+      "name": "シアトルギャル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "サンデーサイレンス Sunday Silence(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3247,6 +3277,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ルパン (Lupin) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルパン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ルパン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3316,9 +3376,9 @@
       "contentHash": "d7fb3e0dbc56ffadece24e4654e358f4a72d0034e86fb74204fbd97e99301163",
       "byteLength": 64748,
       "rawPath": "netkeiba/horses/2012/2012106373/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:24:55.388Z"
+  "updatedAt": "2026-08-26T11:27:45.106Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012110068",
   "sourceUrl": "https://db.netkeiba.com/horse/2012110068/",
-  "profile": null,
+  "profile": {
+    "name": "エナジータウン",
+    "birthDate": "2012-01-24",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05663",
+      "name": "別府真司"
+    },
+    "owner": {
+      "id": "851030",
+      "name": "梶原哲朗"
+    },
+    "breeder": {
+      "id": "540827",
+      "name": "Gallagher's Stud"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Speightstown (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Honoria"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sadler's Wells (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -8061,6 +8091,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エナジータウン (Energy Town) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エナジータウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エナジータウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8130,9 +8190,9 @@
       "contentHash": "da421368a8cac0906ed9652ae62f98978a484af453b519368ece0bc7c0bf4d60",
       "byteLength": 66952,
       "rawPath": "netkeiba/horses/2012/2012110068/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:47:10.294Z"
+  "updatedAt": "2026-08-31T08:56:53.068Z"
 }

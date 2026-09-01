@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110138",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110138/",
-  "profile": null,
+  "profile": {
+    "name": "ハクモクレン",
+    "birthDate": "2016-03-30",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01017",
+      "name": "萩原清"
+    },
+    "owner": {
+      "id": "151006",
+      "name": "吉田和子"
+    },
+    "breeder": {
+      "id": "140731",
+      "name": "Loren Nichols"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "シャンハイボビー Shanghai Bobby(米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Conway Two Step"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Spanish Steps"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1064,6 +1094,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハクモクレン (Hakumokuren) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクモクレン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハクモクレン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1133,9 +1193,9 @@
       "contentHash": "511d8a1e041b99329d42909269e365e602de5c576ab784d5a90cbc4669708927",
       "byteLength": 65435,
       "rawPath": "netkeiba/horses/2016/2016110138/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:08:52.493Z"
+  "updatedAt": "2026-08-24T15:17:39.229Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103700",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103700/",
-  "profile": null,
+  "profile": {
+    "name": "サプーズ",
+    "birthDate": "2023-04-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01109",
+      "name": "伊藤大士"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "301513",
+      "name": "追分ファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2013106101",
+      "name": "サトノダイヤモンド"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ソワー Sower(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Flatter"
+    }
+  },
   "pedigree": [
     {
       "id": "2013106101",
@@ -1197,6 +1227,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サプーズ (Sapeuse) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サプーズ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サプーズ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1266,9 +1326,9 @@
       "contentHash": "12fc611ebcf84def6b114314f9fd94283ed3bf5cf02c7cd41b11959c642db8da",
       "byteLength": 66520,
       "rawPath": "netkeiba/horses/2023/2023103700/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:51:35.822Z"
+  "updatedAt": "2026-08-30T09:55:28.727Z"
 }

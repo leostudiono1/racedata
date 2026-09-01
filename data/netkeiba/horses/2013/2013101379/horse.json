@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013101379",
   "sourceUrl": "https://db.netkeiba.com/horse/2013101379/",
-  "profile": null,
+  "profile": {
+    "name": "ポボス",
+    "birthDate": "2013-03-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01111",
+      "name": "鈴木孝志"
+    },
+    "owner": {
+      "id": "330007",
+      "name": "杉澤光雄"
+    },
+    "breeder": {
+      "id": "900335",
+      "name": "川島牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    },
+    "dam": {
+      "id": "1997104653",
+      "name": "セクシーディナー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "キンググローリアス King Glorious(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103460",
@@ -2669,6 +2699,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ポボス (Phobos) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポボス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ポボス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2738,9 +2798,9 @@
       "contentHash": "dd59904281389baefb1c96e2e7ae695aba08d16913f934ee414056f74913dc58",
       "byteLength": 66381,
       "rawPath": "netkeiba/horses/2013/2013101379/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:06:42.944Z"
+  "updatedAt": "2026-08-28T10:12:27.806Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018104731",
   "sourceUrl": "https://db.netkeiba.com/horse/2018104731/",
-  "profile": null,
+  "profile": {
+    "name": "メインターゲット",
+    "birthDate": "2018-03-01",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01008",
+      "name": "杉浦宏昭"
+    },
+    "owner": {
+      "id": "310007",
+      "name": "吉田千津"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "1999110060",
+      "name": "ヒシシルバーメイド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Silver Deputy (加)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2266,6 +2296,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メインターゲット (Main Target) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メインターゲット関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メインターゲット関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2335,9 +2395,9 @@
       "contentHash": "afcfa8b88e77b5386e2b95231b24000d019b21be46b82055a32a591d5bd7f478",
       "byteLength": 67124,
       "rawPath": "netkeiba/horses/2018/2018104731/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:10:55.183Z"
+  "updatedAt": "2026-08-31T09:20:38.098Z"
 }

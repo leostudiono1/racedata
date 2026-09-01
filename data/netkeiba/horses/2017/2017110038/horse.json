@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017110038",
   "sourceUrl": "https://db.netkeiba.com/horse/2017110038/",
-  "profile": null,
+  "profile": {
+    "name": "ショウナンバトラー",
+    "birthDate": "2017-01-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01145",
+      "name": "奥村武"
+    },
+    "owner": {
+      "id": "331002",
+      "name": "国本哲秀"
+    },
+    "breeder": {
+      "id": "210731",
+      "name": "Fairway Thoroughbreds"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Love Is Blindness"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sir Percy (英)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1054,6 +1084,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ショウナンバトラー (Shonan Butler) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウナンバトラー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ショウナンバトラー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1123,9 +1183,9 @@
       "contentHash": "061285d5bd838f0126a663bb4dc01e0a7dd1c70cb2a092c7bb0fcbdeecace311",
       "byteLength": 66899,
       "rawPath": "netkeiba/horses/2017/2017110038/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:00:47.530Z"
+  "updatedAt": "2026-08-27T11:12:01.009Z"
 }

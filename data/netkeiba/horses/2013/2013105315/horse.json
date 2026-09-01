@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105315",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105315/",
-  "profile": null,
+  "profile": {
+    "name": "セグレート",
+    "birthDate": "2013-01-16",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "花本正三"
+    },
+    "owner": {
+      "id": "x013e3",
+      "name": "稲川專造"
+    },
+    "breeder": {
+      "id": "341126",
+      "name": "社台コーポレーション白老ファーム"
+    },
+    "birthplace": "白老町",
+    "sire": {
+      "id": "000",
+      "name": "ハービンジャー Harbinger(英)"
+    },
+    "dam": {
+      "id": "2001103268",
+      "name": "キープクワイエット"
+    },
+    "damsire": {
+      "id": "1995107978",
+      "name": "エアジハード"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -7533,6 +7563,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セグレート (Segreto) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セグレート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セグレート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -7602,9 +7662,9 @@
       "contentHash": "65545da7483dcab8704f34da5036427a3c41b9043585209cd31bd1fe77f1885e",
       "byteLength": 66813,
       "rawPath": "netkeiba/horses/2013/2013105315/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:40:32.943Z"
+  "updatedAt": "2026-08-25T13:50:15.750Z"
 }

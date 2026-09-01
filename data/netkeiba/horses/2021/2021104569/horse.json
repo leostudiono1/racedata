@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021104569",
   "sourceUrl": "https://db.netkeiba.com/horse/2021104569/",
-  "profile": null,
+  "profile": {
+    "name": "サウナストーン",
+    "birthDate": "2021-02-18",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05456",
+      "name": "土井道隆"
+    },
+    "owner": {
+      "id": "714031",
+      "name": "酒井孝敏"
+    },
+    "breeder": {
+      "id": "440306",
+      "name": "三木田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2009106353",
+      "name": "ワールドエース"
+    },
+    "dam": {
+      "id": "2012101598",
+      "name": "プラニスフィア"
+    },
+    "damsire": {
+      "id": "2005101358",
+      "name": "ディープスカイ"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106353",
@@ -1328,6 +1358,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サウナストーン (Sauna Stone) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サウナストーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サウナストーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1397,9 +1457,9 @@
       "contentHash": "dd718bbdedb54d6b244687c450928416c0811b8cf57b217b810e9867e897caf4",
       "byteLength": 64440,
       "rawPath": "netkeiba/horses/2021/2021104569/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T14:03:47.136Z"
+  "updatedAt": "2026-08-26T12:06:36.843Z"
 }

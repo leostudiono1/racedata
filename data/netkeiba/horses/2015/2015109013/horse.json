@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015109013",
   "sourceUrl": "https://db.netkeiba.com/horse/2015109013/",
-  "profile": null,
+  "profile": {
+    "name": "ニュートリック",
+    "birthDate": "2015-03-09",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01125",
+      "name": "小野次郎"
+    },
+    "owner": {
+      "id": "895800",
+      "name": "Ｂａｓｉｃ"
+    },
+    "breeder": {
+      "id": "630105",
+      "name": "大西興産"
+    },
+    "birthplace": "青森県",
+    "sire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    },
+    "dam": {
+      "id": "1998109257",
+      "name": "ビッグキャンドル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "シャーディー Shaadi(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101426",
@@ -1653,6 +1683,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ニュートリック (New Trick) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニュートリック関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ニュートリック関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1722,9 +1782,9 @@
       "contentHash": "a42d156d2e06bef8080ef7c957f56bfe48824ab8a5c09df12afc80d65e6a4b5d",
       "byteLength": 64969,
       "rawPath": "netkeiba/horses/2015/2015109013/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:38:45.094Z"
+  "updatedAt": "2026-08-26T11:41:34.786Z"
 }

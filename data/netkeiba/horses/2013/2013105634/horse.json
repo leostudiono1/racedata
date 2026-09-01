@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2013105634",
   "sourceUrl": "https://db.netkeiba.com/horse/2013105634/",
-  "profile": null,
+  "profile": {
+    "name": "サングムーン",
+    "birthDate": "2013-04-02",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01107",
+      "name": "村山明"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2004103300",
+      "name": "ホクレレ"
+    },
+    "damsire": {
+      "id": "1993109220",
+      "name": "フサイチコンコルド"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1122,6 +1152,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "サングムーン (Sung Moon) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サングムーン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "サングムーン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1191,9 +1251,9 @@
       "contentHash": "eb5dcf0180161fd838505f6734e5c9136a69e60bf16748cc4b89b568574baafd",
       "byteLength": 64511,
       "rawPath": "netkeiba/horses/2013/2013105634/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:35:55.584Z"
+  "updatedAt": "2026-08-29T09:43:53.291Z"
 }

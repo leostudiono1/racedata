@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105173",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105173/",
-  "profile": null,
+  "profile": {
+    "name": "ブルーパール",
+    "birthDate": "2021-04-17",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05439",
+      "name": "河津裕昭"
+    },
+    "owner": {
+      "id": "181033",
+      "name": "大島有志生"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "パールサイド Pearlside(仏)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Alhaarth"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -3283,6 +3313,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ブルーパール (Blue Pearl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーパール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ブルーパール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3352,9 +3412,9 @@
       "contentHash": "f5763892cb3049978b7df65ecc4c60dff583f8cbbfe928aff198d016c42afaaf",
       "byteLength": 66082,
       "rawPath": "netkeiba/horses/2021/2021105173/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:17:07.945Z"
+  "updatedAt": "2026-08-27T11:28:21.304Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020100323",
   "sourceUrl": "https://db.netkeiba.com/horse/2020100323/",
-  "profile": null,
+  "profile": {
+    "name": "ラストレムナント",
+    "birthDate": "2020-04-11",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05590",
+      "name": "長倉功"
+    },
+    "owner": {
+      "id": "550031",
+      "name": "鈴木淳人"
+    },
+    "breeder": {
+      "id": "803029",
+      "name": "信田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2012104668",
+      "name": "サトノクラウン"
+    },
+    "dam": {
+      "id": "2012102626",
+      "name": "エイシンマカロン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "エンパイアメーカー Empire Maker(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104668",
@@ -1738,6 +1768,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ラストレムナント (Last Remnant) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラストレムナント関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ラストレムナント関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1807,9 +1867,9 @@
       "contentHash": "2f06b3ec2419c704fa142ff5a2ad1d53a3602c5f64a4f703f3999f439c16f11a",
       "byteLength": 66704,
       "rawPath": "netkeiba/horses/2020/2020100323/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:36:14.626Z"
+  "updatedAt": "2026-08-28T10:41:59.351Z"
 }

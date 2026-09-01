@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020101984",
   "sourceUrl": "https://db.netkeiba.com/horse/2020101984/",
-  "profile": null,
+  "profile": {
+    "name": "エソラ",
+    "birthDate": "2020-02-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05733",
+      "name": "平山真希"
+    },
+    "owner": {
+      "id": "407033",
+      "name": "堀口晴男"
+    },
+    "breeder": {
+      "id": "103397",
+      "name": "日西牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2001100650",
+      "name": "メイショウボーラー"
+    },
+    "dam": {
+      "id": "2010102010",
+      "name": "クリノバンダイサン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001100650",
@@ -4769,6 +4799,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エソラ (Esora) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エソラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エソラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4838,9 +4898,9 @@
       "contentHash": "bda382689d7fa14bf684341b1f7daea8baf31d3b8d98ddb1a2e0bc1ddbb19eab",
       "byteLength": 66717,
       "rawPath": "netkeiba/horses/2020/2020101984/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:10:49.406Z"
+  "updatedAt": "2026-08-27T11:22:03.296Z"
 }

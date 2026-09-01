@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105279",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105279/",
-  "profile": null,
+  "profile": {
+    "name": "ダグザ",
+    "birthDate": "2019-04-09",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05365",
+      "name": "村上実"
+    },
+    "owner": {
+      "id": "673031",
+      "name": "小橋亮太"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "Shalaa"
+    },
+    "dam": {
+      "id": "000",
+      "name": "タリサ Talisa(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pour Moi (愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -9400,6 +9430,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダグザ (Dagda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダグザ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダグザ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -9469,9 +9529,9 @@
       "contentHash": "785fb04ec05f0423fa8303a761277fbb61c4508887443465b570d14a05b1d63c",
       "byteLength": 66085,
       "rawPath": "netkeiba/horses/2019/2019105279/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:07:48.425Z"
+  "updatedAt": "2026-08-25T14:17:09.632Z"
 }

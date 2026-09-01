@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101067",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101067/",
-  "profile": null,
+  "profile": {
+    "name": "コーリンスピカ",
+    "birthDate": "2012-05-10",
+    "sex": "牝",
+    "coatColor": "芦毛",
+    "trainer": {
+      "id": "00406",
+      "name": "柴田政見"
+    },
+    "owner": {
+      "id": "698002",
+      "name": "伊藤恵子"
+    },
+    "breeder": {
+      "id": "333349",
+      "name": "今井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2002100594",
+      "name": "トーセンダンス"
+    },
+    "dam": {
+      "id": "2001105778",
+      "name": "コーリンラヴィアン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ミシックトライブ Mythic Tribe(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100594",
@@ -1335,6 +1365,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コーリンスピカ (Corin Spica) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コーリンスピカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コーリンスピカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1404,9 +1464,9 @@
       "contentHash": "dfd925b92645e31874a9fa2b799ec2a6b7004c6d3ecbab3b030660e68258e919",
       "byteLength": 65154,
       "rawPath": "netkeiba/horses/2012/2012101067/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:28:45.041Z"
+  "updatedAt": "2026-08-29T09:36:43.007Z"
 }

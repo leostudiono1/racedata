@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017100862",
   "sourceUrl": "https://db.netkeiba.com/horse/2017100862/",
-  "profile": null,
+  "profile": {
+    "name": "キク",
+    "birthDate": "2017-02-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05392",
+      "name": "池田孝"
+    },
+    "owner": {
+      "id": "812008",
+      "name": "石瀬浩三"
+    },
+    "breeder": {
+      "id": "003325",
+      "name": "豊洋牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "000",
+      "name": "ベーカバド Behkabad(仏)"
+    },
+    "dam": {
+      "id": "2011102215",
+      "name": "ユニバーサルビーチ"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -2604,6 +2634,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "キク (Kiku) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キク関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "キク関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2673,9 +2733,9 @@
       "contentHash": "915b46443196fc7b0e3f48a4a40cd7f020450948710f049e158d1bfc6ceca255",
       "byteLength": 64176,
       "rawPath": "netkeiba/horses/2017/2017100862/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:55:42.123Z"
+  "updatedAt": "2026-08-25T14:05:19.036Z"
 }

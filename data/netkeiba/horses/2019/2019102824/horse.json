@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102824",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102824/",
-  "profile": null,
+  "profile": {
+    "name": "メイショウキッド",
+    "birthDate": "2019-03-31",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01099",
+      "name": "本田優"
+    },
+    "owner": {
+      "id": "523005",
+      "name": "松本好雄"
+    },
+    "breeder": {
+      "id": "010056",
+      "name": "村下明博"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2009100921",
+      "name": "ホッコータルマエ"
+    },
+    "dam": {
+      "id": "2005103338",
+      "name": "マイラッキー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Elusive Quality"
+    }
+  },
   "pedigree": [
     {
       "id": "2009100921",
@@ -3415,6 +3445,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メイショウキッド (Meisho Kid) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウキッド関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メイショウキッド関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3484,9 +3544,9 @@
       "contentHash": "8e0202a26313876f9be90c82565e01443b775b97042658935600bc3060307964",
       "byteLength": 67087,
       "rawPath": "netkeiba/horses/2019/2019102824/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:32:06.435Z"
+  "updatedAt": "2026-08-30T09:35:59.123Z"
 }

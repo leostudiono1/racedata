@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016106411",
   "sourceUrl": "https://db.netkeiba.com/horse/2016106411/",
-  "profile": null,
+  "profile": {
+    "name": "モモコ",
+    "birthDate": "2016-02-19",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05670",
+      "name": "林隆之"
+    },
+    "owner": {
+      "id": "318803",
+      "name": "ニッシンホールディングス"
+    },
+    "breeder": {
+      "id": "724540",
+      "name": "チャンピオンズファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2010104243",
+      "name": "トランプクイーン"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -3005,6 +3035,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "モモコ (Momoko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モモコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "モモコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3074,9 +3134,9 @@
       "contentHash": "bad5ff1e1e604233d5c6fcf0566477fcfe2983198c17346a755923d2a0911b40",
       "byteLength": 65540,
       "rawPath": "netkeiba/horses/2016/2016106411/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:08:45.442Z"
+  "updatedAt": "2026-08-24T15:17:32.099Z"
 }

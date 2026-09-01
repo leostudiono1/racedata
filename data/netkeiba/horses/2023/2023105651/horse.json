@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023105651",
   "sourceUrl": "https://db.netkeiba.com/horse/2023105651/",
-  "profile": null,
+  "profile": {
+    "name": "ベリンガム",
+    "birthDate": "2023-03-14",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "池田敦"
+    },
+    "owner": {
+      "id": "x0bb69",
+      "name": "寺島能史"
+    },
+    "breeder": {
+      "id": "900049",
+      "name": "笠松牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2010105827",
+      "name": "キズナ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ユーロナイトメア Euro Nightmare(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Kodiac"
+    }
+  },
   "pedigree": [
     {
       "id": "2010105827",
@@ -1297,6 +1327,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ベリンガム (Bellingham) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリンガム関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ベリンガム関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1366,9 +1426,9 @@
       "contentHash": "50e2a0333ec5c90922e7c4c649e3308c926454468d36844d03aed515a19f38d3",
       "byteLength": 66062,
       "rawPath": "netkeiba/horses/2023/2023105651/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T12:18:41.971Z"
+  "updatedAt": "2026-08-29T10:26:39.854Z"
 }

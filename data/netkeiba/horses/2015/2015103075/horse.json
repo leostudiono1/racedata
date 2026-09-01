@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2015103075",
   "sourceUrl": "https://db.netkeiba.com/horse/2015103075/",
-  "profile": null,
+  "profile": {
+    "name": "ミカ",
+    "birthDate": "2015-04-13",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "00434",
+      "name": "西橋豊治"
+    },
+    "owner": {
+      "id": "307033",
+      "name": "田畑富子"
+    },
+    "breeder": {
+      "id": "030010",
+      "name": "笹島政信"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2005100097",
+      "name": "スマートファルコン"
+    },
+    "dam": {
+      "id": "2008101504",
+      "name": "ゴールドジェーン"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2005100097",
@@ -1186,6 +1216,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミカ (Mika) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミカ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミカ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1255,9 +1315,9 @@
       "contentHash": "c1527ed2abba1c43e4de81c955b470ffce287f3e1403af3cba6af545d4d84ab4",
       "byteLength": 64606,
       "rawPath": "netkeiba/horses/2015/2015103075/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:48:18.381Z"
+  "updatedAt": "2026-08-25T13:58:01.366Z"
 }

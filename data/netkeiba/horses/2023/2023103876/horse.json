@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103876",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103876/",
-  "profile": null,
+  "profile": {
+    "name": "ピカラ",
+    "birthDate": "2023-02-12",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "045803",
+      "name": "カナヤマホールディングス"
+    },
+    "breeder": {
+      "id": "313378",
+      "name": "橋本牧場"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "000",
+      "name": "ミスチヴィアスアレックス Mischevious Alex(米)"
+    },
+    "dam": {
+      "id": "2004110225",
+      "name": "ペルサントクリール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Point Given (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1256,6 +1286,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ピカラ (Picara) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピカラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ピカラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1325,9 +1385,9 @@
       "contentHash": "61a4d209bb53c220e4a0291602931e3e34cfba7b6a14d0e18e888fa60615197d",
       "byteLength": 67241,
       "rawPath": "netkeiba/horses/2023/2023103876/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:37:45.567Z"
+  "updatedAt": "2026-08-24T15:46:32.208Z"
 }

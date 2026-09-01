@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016104713",
   "sourceUrl": "https://db.netkeiba.com/horse/2016104713/",
-  "profile": null,
+  "profile": {
+    "name": "アマーティ",
+    "birthDate": "2016-01-24",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01147",
+      "name": "武井亮"
+    },
+    "owner": {
+      "id": "790005",
+      "name": "吉田勝己"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2007103143",
+      "name": "ルーラーシップ"
+    },
+    "dam": {
+      "id": "2007103118",
+      "name": "アマファソン"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "フレンチデピュティ French Deputy(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2007103143",
@@ -1215,6 +1245,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アマーティ (Amati) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマーティ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アマーティ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1284,9 +1344,9 @@
       "contentHash": "71d21917e06601bd5e149ab03cd1ae0485dbf3db9667f04271280575f8b6d74a",
       "byteLength": 66598,
       "rawPath": "netkeiba/horses/2016/2016104713/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:07:35.384Z"
+  "updatedAt": "2026-08-24T15:16:22.097Z"
 }

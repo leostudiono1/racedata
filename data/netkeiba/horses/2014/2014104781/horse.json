@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014104781",
   "sourceUrl": "https://db.netkeiba.com/horse/2014104781/",
-  "profile": null,
+  "profile": {
+    "name": "シュウチョウ",
+    "birthDate": "2014-04-03",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00349",
+      "name": "尾形充弘"
+    },
+    "owner": {
+      "id": "026700",
+      "name": "ケンレーシング組合"
+    },
+    "breeder": {
+      "id": "433129",
+      "name": "千代田牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2001103312",
+      "name": "ブラックタイド"
+    },
+    "dam": {
+      "id": "2006101231",
+      "name": "ヒラボクドリーム"
+    },
+    "damsire": {
+      "id": "2001103460",
+      "name": "キングカメハメハ"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103312",
@@ -2164,6 +2194,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "シュウチョウ (Shucho) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュウチョウ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "シュウチョウ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2233,9 +2293,9 @@
       "contentHash": "450b2e5da840ba69d2659ee059215dc396036cf7f61164a8ea51bc7706243b6a",
       "byteLength": 65642,
       "rawPath": "netkeiba/horses/2014/2014104781/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:11:33.987Z"
+  "updatedAt": "2026-08-30T09:15:26.557Z"
 }

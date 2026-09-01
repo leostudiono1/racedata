@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2011106575",
   "sourceUrl": "https://db.netkeiba.com/horse/2011106575/",
-  "profile": null,
+  "profile": {
+    "name": "イロリ",
+    "birthDate": "2011-03-22",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中野博"
+    },
+    "owner": {
+      "id": "975030",
+      "name": "小田切光"
+    },
+    "breeder": {
+      "id": "333084",
+      "name": "田中裕之"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    },
+    "dam": {
+      "id": "2002100290",
+      "name": "キマグレ"
+    },
+    "damsire": {
+      "id": "1989108341",
+      "name": "サクラバクシンオー"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100996",
@@ -3475,6 +3505,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イロリ (Irori) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イロリ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イロリ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3544,9 +3604,9 @@
       "contentHash": "b054cfa6c6c5710cca5d4e46cf6485635c008cdf5d068b09392754b3af7e7bf9",
       "byteLength": 65694,
       "rawPath": "netkeiba/horses/2011/2011106575/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:43:57.624Z"
+  "updatedAt": "2026-08-31T08:53:40.486Z"
 }

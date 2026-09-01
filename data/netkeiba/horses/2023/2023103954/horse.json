@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023103954",
   "sourceUrl": "https://db.netkeiba.com/horse/2023103954/",
-  "profile": null,
+  "profile": {
+    "name": "アースジャッジ",
+    "birthDate": "2023-03-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "安部幸夫"
+    },
+    "owner": {
+      "id": "266033",
+      "name": "西村健"
+    },
+    "breeder": {
+      "id": "700330",
+      "name": "アラキファーム"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "マクフィ Makfi(英)"
+    },
+    "dam": {
+      "id": "2009104441",
+      "name": "アラフネ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1664,6 +1694,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "アースジャッジ (Earth Judge) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースジャッジ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "アースジャッジ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1733,9 +1793,9 @@
       "contentHash": "bc5fece56816f6888f3df41107e66a988c4a72c2ff83dab07f544ddbe657c125",
       "byteLength": 67174,
       "rawPath": "netkeiba/horses/2023/2023103954/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:37:56.070Z"
+  "updatedAt": "2026-08-24T15:46:43.037Z"
 }

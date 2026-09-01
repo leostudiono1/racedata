@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105237",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105237/",
-  "profile": null,
+  "profile": {
+    "name": "メロパール",
+    "birthDate": "2020-03-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "中道啓二"
+    },
+    "owner": {
+      "id": "894030",
+      "name": "村上憲政"
+    },
+    "breeder": {
+      "id": "310336",
+      "name": "佐藤牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2003110212",
+      "name": "キンシャサノキセキ"
+    },
+    "dam": {
+      "id": "2013110115",
+      "name": "エイシンピカデリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ハードスパン Hard Spun(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003110212",
@@ -5208,6 +5238,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メロパール (Melo Pearl) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メロパール関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メロパール関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5277,9 +5337,9 @@
       "contentHash": "11279159698ddff13dbf58ec5b05d8f9f706284b1a50f1eb64ec7c980ea92be9",
       "byteLength": 66948,
       "rawPath": "netkeiba/horses/2020/2020105237/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:38:59.630Z"
+  "updatedAt": "2026-08-30T09:42:52.231Z"
 }

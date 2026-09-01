@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018105384",
   "sourceUrl": "https://db.netkeiba.com/horse/2018105384/",
-  "profile": null,
+  "profile": {
+    "name": "メラニー",
+    "birthDate": "2018-03-06",
+    "sex": "牝",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01115",
+      "name": "菊沢隆徳"
+    },
+    "owner": {
+      "id": "372006",
+      "name": "近藤英子"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "2008103143",
+      "name": "ロベルタ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -1271,6 +1301,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "メラニー (Melanie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メラニー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "メラニー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1340,9 +1400,9 @@
       "contentHash": "6ecdc8a8b64da978b22b379f20d671837ef08922514ef4d652a12032e09a4f64",
       "byteLength": 66506,
       "rawPath": "netkeiba/horses/2018/2018105384/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:50:46.381Z"
+  "updatedAt": "2026-08-26T11:53:36.145Z"
 }

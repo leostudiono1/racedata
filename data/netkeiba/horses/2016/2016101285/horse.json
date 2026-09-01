@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016101285",
   "sourceUrl": "https://db.netkeiba.com/horse/2016101285/",
-  "profile": null,
+  "profile": {
+    "name": "イベリス",
+    "birthDate": "2016-03-21",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01121",
+      "name": "角田晃一"
+    },
+    "owner": {
+      "id": "948006",
+      "name": "前田幸治"
+    },
+    "breeder": {
+      "id": "210021",
+      "name": "土居牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2004101364",
+      "name": "セレブラール"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ボストンハーバー Boston Harbor(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3171,6 +3201,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "イベリス (Iberis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イベリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "イベリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3240,9 +3300,9 @@
       "contentHash": "34704bf8cbfe7f5767bb16ef18330291e4ce2cdca8e4e2cd8e75a0658c3be1a9",
       "byteLength": 66859,
       "rawPath": "netkeiba/horses/2016/2016101285/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:18:30.368Z"
+  "updatedAt": "2026-08-28T10:24:15.116Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021106929",
   "sourceUrl": "https://db.netkeiba.com/horse/2021106929/",
-  "profile": null,
+  "profile": {
+    "name": "クールシェリー",
+    "birthDate": "2021-03-14",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00823",
+      "name": "錦見勇夫"
+    },
+    "owner": {
+      "id": "755800",
+      "name": "大勇"
+    },
+    "breeder": {
+      "id": "430316",
+      "name": "松浦牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2014106201",
+      "name": "レイデオロ"
+    },
+    "dam": {
+      "id": "2011105310",
+      "name": "フラワーハート"
+    },
+    "damsire": {
+      "id": "2002100996",
+      "name": "サムライハート"
+    }
+  },
   "pedigree": [
     {
       "id": "2014106201",
@@ -4269,6 +4299,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クールシェリー (Cool Sherry) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールシェリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クールシェリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4338,9 +4398,9 @@
       "contentHash": "d3864fa69f60902c7ce810d5b4e9a430fa76008a8bc7a8928e8da94b8bebff80",
       "byteLength": 64490,
       "rawPath": "netkeiba/horses/2021/2021106929/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:18:00.142Z"
+  "updatedAt": "2026-08-27T11:29:13.818Z"
 }

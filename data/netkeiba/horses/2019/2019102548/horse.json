@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102548",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102548/",
-  "profile": null,
+  "profile": {
+    "name": "コリコ",
+    "birthDate": "2019-03-16",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "木村暁"
+    },
+    "owner": {
+      "id": "511031",
+      "name": "谷謙介"
+    },
+    "breeder": {
+      "id": "100046",
+      "name": "高昭牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    },
+    "dam": {
+      "id": "2011103763",
+      "name": "ヴィスビー"
+    },
+    "damsire": {
+      "id": "2000101426",
+      "name": "ネオユニヴァース"
+    }
+  },
   "pedigree": [
     {
       "id": "1998110135",
@@ -5692,6 +5722,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "コリコ (Koriko) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コリコ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "コリコ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -5761,9 +5821,9 @@
       "contentHash": "c168ecd6b50cd3508d90ae0f865844d543c1d7654afb5e5725fd1557c3e02ed6",
       "byteLength": 66685,
       "rawPath": "netkeiba/horses/2019/2019102548/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:06:55.362Z"
+  "updatedAt": "2026-08-27T11:18:08.764Z"
 }

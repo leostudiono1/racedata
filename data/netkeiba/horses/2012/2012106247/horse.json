@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012106247",
   "sourceUrl": "https://db.netkeiba.com/horse/2012106247/",
-  "profile": null,
+  "profile": {
+    "name": "ハードアスリート",
+    "birthDate": "2012-05-17",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01024",
+      "name": "萱野浩二"
+    },
+    "owner": {
+      "id": "985002",
+      "name": "齋藤宏明"
+    },
+    "breeder": {
+      "id": "500319",
+      "name": "平山牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "1999106689",
+      "name": "ゴールドアリュール"
+    },
+    "dam": {
+      "id": "1998100963",
+      "name": "ザフェイツ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ブライアンズタイム Brian's Time(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "1999106689",
@@ -2757,6 +2787,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハードアスリート (Hard Athlete) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハードアスリート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハードアスリート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2826,9 +2886,9 @@
       "contentHash": "e80f46197959d46ed6dc2d798755cd02f9ba81da0b2b0fd9597e1b161a40cdb0",
       "byteLength": 65931,
       "rawPath": "netkeiba/horses/2012/2012106247/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:32:22.280Z"
+  "updatedAt": "2026-08-29T09:40:19.823Z"
 }

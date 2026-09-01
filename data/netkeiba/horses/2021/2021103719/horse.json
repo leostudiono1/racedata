@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021103719",
   "sourceUrl": "https://db.netkeiba.com/horse/2021103719/",
-  "profile": null,
+  "profile": {
+    "name": "レーヴァテイン",
+    "birthDate": "2021-04-29",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05775",
+      "name": "石橋満"
+    },
+    "owner": {
+      "id": "405031",
+      "name": "竹下浩一"
+    },
+    "breeder": {
+      "id": "704079",
+      "name": "グランド牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2011100655",
+      "name": "モーリス"
+    },
+    "dam": {
+      "id": "2010102652",
+      "name": "ゴールドチェイス"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2011100655",
@@ -1657,6 +1687,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "レーヴァテイン (Laevateinn) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヴァテイン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "レーヴァテイン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1726,9 +1786,9 @@
       "contentHash": "0efca56de2003d08a18e81fcf8176df2004a2f24b78e1026e6949b4afb8bc838",
       "byteLength": 67283,
       "rawPath": "netkeiba/horses/2021/2021103719/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:15:13.276Z"
+  "updatedAt": "2026-08-25T14:24:34.315Z"
 }

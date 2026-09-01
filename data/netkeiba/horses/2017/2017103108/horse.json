@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017103108",
   "sourceUrl": "https://db.netkeiba.com/horse/2017103108/",
-  "profile": null,
+  "profile": {
+    "name": "ララロトリー",
+    "birthDate": "2017-04-28",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01170",
+      "name": "坂口智康"
+    },
+    "owner": {
+      "id": "851800",
+      "name": "フジイ興産"
+    },
+    "breeder": {
+      "id": "400054",
+      "name": "ヒダカファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008102985",
+      "name": "トーセンラー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジュエルボックスII Jewel Box(愛)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Pivotal"
+    }
+  },
   "pedigree": [
     {
       "id": "2008102985",
@@ -2518,6 +2548,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ララロトリー (La La Loterie) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララロトリー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ララロトリー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2587,9 +2647,9 @@
       "contentHash": "9f195046e6db604d58a8cff48735edba6313314edc884170596fcfaa2ca71013",
       "byteLength": 64945,
       "rawPath": "netkeiba/horses/2017/2017103108/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:57:06.614Z"
+  "updatedAt": "2026-08-25T14:06:43.451Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019105093",
   "sourceUrl": "https://db.netkeiba.com/horse/2019105093/",
-  "profile": null,
+  "profile": {
+    "name": "フジタ",
+    "birthDate": "2019-01-28",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01071",
+      "name": "池江泰寿"
+    },
+    "owner": {
+      "id": "037060",
+      "name": "Ｊ．ウー"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2012104511",
+      "name": "ドゥラメンテ"
+    },
+    "dam": {
+      "id": "2011110051",
+      "name": "ヴィリエルバクル"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Sea The Stars Sea the Stars(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2012104511",
@@ -1097,6 +1127,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フジタ (Foujita) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジタ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フジタ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1166,9 +1226,9 @@
       "contentHash": "e937d47148341c6ec46162d95baca7ed790f6a786e85502039af2989676e74b5",
       "byteLength": 65516,
       "rawPath": "netkeiba/horses/2019/2019105093/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:07:30.687Z"
+  "updatedAt": "2026-08-25T14:16:52.280Z"
 }

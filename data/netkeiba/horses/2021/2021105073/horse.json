@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021105073",
   "sourceUrl": "https://db.netkeiba.com/horse/2021105073/",
-  "profile": null,
+  "profile": {
+    "name": "パカーラン",
+    "birthDate": "2021-04-25",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "01055",
+      "name": "藤原英昭"
+    },
+    "owner": {
+      "id": "708800",
+      "name": "金子真人ホールディングス"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "2011103565",
+      "name": "イスラボニータ"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ジペッサ Zipessa(米)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "City Zip (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2011103565",
@@ -3077,6 +3107,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パカーラン (Pakarang) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パカーラン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パカーラン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3146,9 +3206,9 @@
       "contentHash": "668ad32a62f9cfb0d6df48a3a271bc2009980c598cb7883fa756e9d58d3f07c7",
       "byteLength": 67073,
       "rawPath": "netkeiba/horses/2021/2021105073/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:43:18.732Z"
+  "updatedAt": "2026-08-30T09:47:11.360Z"
 }

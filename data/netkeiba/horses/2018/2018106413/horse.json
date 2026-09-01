@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2018106413",
   "sourceUrl": "https://db.netkeiba.com/horse/2018106413/",
-  "profile": null,
+  "profile": {
+    "name": "クルスラ",
+    "birthDate": "2018-04-28",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "01131",
+      "name": "蛯名利弘"
+    },
+    "owner": {
+      "id": "078006",
+      "name": "畑佐博"
+    },
+    "breeder": {
+      "id": "100019",
+      "name": "中脇満"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2010100639",
+      "name": "フローズンムーン"
+    },
+    "damsire": {
+      "id": "2003102991",
+      "name": "アドマイヤムーン"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1038,6 +1068,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "クルスラ (Kursura) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クルスラ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "クルスラ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1107,9 +1167,9 @@
       "contentHash": "58b3369e61474d4c3b287dbcc3e5336bee4f6bc918586eb4a40e0a27ef580097",
       "byteLength": 64265,
       "rawPath": "netkeiba/horses/2018/2018106413/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:04:14.614Z"
+  "updatedAt": "2026-08-25T14:13:36.122Z"
 }

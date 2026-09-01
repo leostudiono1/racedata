@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2017104993",
   "sourceUrl": "https://db.netkeiba.com/horse/2017104993/",
-  "profile": null,
+  "profile": {
+    "name": "ミネルバ",
+    "birthDate": "2017-04-09",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05575",
+      "name": "矢野義幸"
+    },
+    "owner": {
+      "id": "443033",
+      "name": "新谷幸義"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "タートルボウル Turtle Bowl(愛)"
+    },
+    "dam": {
+      "id": "2004103143",
+      "name": "ローズオットー"
+    },
+    "damsire": {
+      "id": "1993109188",
+      "name": "ダンスインザダーク"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -1858,6 +1888,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ミネルバ (Minerva) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミネルバ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ミネルバ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1927,9 +1987,9 @@
       "contentHash": "d9eecadf4048352af6a72ffcf05a1a52ea164ecae32d741ff675293bd5845252",
       "byteLength": 64853,
       "rawPath": "netkeiba/horses/2017/2017104993/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:45:38.534Z"
+  "updatedAt": "2026-08-26T11:48:27.924Z"
 }

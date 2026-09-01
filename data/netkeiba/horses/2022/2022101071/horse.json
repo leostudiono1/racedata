@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2022101071",
   "sourceUrl": "https://db.netkeiba.com/horse/2022101071/",
-  "profile": null,
+  "profile": {
+    "name": "インマイハート",
+    "birthDate": "2022-04-25",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "小林俊彦"
+    },
+    "owner": {
+      "id": "491030",
+      "name": "藤田在子"
+    },
+    "breeder": {
+      "id": "103341",
+      "name": "天羽禮治"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2008103244",
+      "name": "リアルインパクト"
+    },
+    "dam": {
+      "id": "2008110081",
+      "name": "ビーラヴリー"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ヨハネスブルグ Johannesburg(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103244",
@@ -1910,6 +1940,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インマイハート (In My Heart) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インマイハート関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インマイハート関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1979,9 +2039,9 @@
       "contentHash": "42f3980c9b634339eb371e4af7402c7fb82f29ad063d49bf4f3e7c8e49789625",
       "byteLength": 65075,
       "rawPath": "netkeiba/horses/2022/2022101071/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-30T11:45:46.283Z"
+  "updatedAt": "2026-08-30T09:49:38.345Z"
 }

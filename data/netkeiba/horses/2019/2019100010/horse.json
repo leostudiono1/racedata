@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019100010",
   "sourceUrl": "https://db.netkeiba.com/horse/2019100010/",
-  "profile": null,
+  "profile": {
+    "name": "ジェイデン",
+    "birthDate": "2019-04-16",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": null,
+      "name": "頼本盛行"
+    },
+    "owner": {
+      "id": "x09afa",
+      "name": "山本国広"
+    },
+    "breeder": {
+      "id": "430333",
+      "name": "秋田牧場"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "000",
+      "name": "ドレフォン Drefong(米)"
+    },
+    "dam": {
+      "id": "2010103018",
+      "name": "ナデシコニッポン"
+    },
+    "damsire": {
+      "id": "2002102324",
+      "name": "アドマイヤジャパン"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -6057,6 +6087,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ジェイデン (Jayden) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェイデン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ジェイデン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6126,9 +6186,9 @@
       "contentHash": "df0db3bf4270405252d256c6e1975e373ab228803485e17076075dc9ee4bb541",
       "byteLength": 64513,
       "rawPath": "netkeiba/horses/2019/2019100010/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:18:12.709Z"
+  "updatedAt": "2026-08-24T15:26:59.356Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110015",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110015/",
-  "profile": null,
+  "profile": {
+    "name": "チャチャチャ",
+    "birthDate": "2016-03-02",
+    "sex": "牝",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "01011",
+      "name": "松田国英"
+    },
+    "owner": {
+      "id": "003060",
+      "name": "ゴドルフィン"
+    },
+    "breeder": {
+      "id": "800708",
+      "name": "Godolphin"
+    },
+    "birthplace": "愛",
+    "sire": {
+      "id": "2001103114",
+      "name": "ダイワメジャー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "リズミック Rythmic(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Dubai Destination"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103114",
@@ -2170,6 +2200,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "チャチャチャ (Chachacha) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャチャチャ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "チャチャチャ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2239,9 +2299,9 @@
       "contentHash": "001bb1d5b5dbf664d066b87da2fd87a29e7911ed704f0355be475eb277790d23",
       "byteLength": 65656,
       "rawPath": "netkeiba/horses/2016/2016110015/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T12:56:42.542Z"
+  "updatedAt": "2026-08-27T11:07:55.914Z"
 }

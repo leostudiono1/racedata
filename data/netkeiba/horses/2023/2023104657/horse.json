@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2023104657",
   "sourceUrl": "https://db.netkeiba.com/horse/2023104657/",
-  "profile": null,
+  "profile": {
+    "name": "トリップス",
+    "birthDate": "2023-02-18",
+    "sex": "牝",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05688",
+      "name": "小野望"
+    },
+    "owner": {
+      "id": "464033",
+      "name": "石川貴久"
+    },
+    "breeder": {
+      "id": "130317",
+      "name": "ムラカミファーム"
+    },
+    "birthplace": "新冠",
+    "sire": {
+      "id": "2016105766",
+      "name": "ゴルトマイスター"
+    },
+    "dam": {
+      "id": "2009109133",
+      "name": "メモリアビアンカ"
+    },
+    "damsire": {
+      "id": "1998110135",
+      "name": "クロフネ"
+    }
+  },
   "pedigree": [
     {
       "id": "2016105766",
@@ -2152,6 +2182,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トリップス (Trips) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリップス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トリップス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2221,9 +2281,9 @@
       "contentHash": "ffee4a8beb0eaa0b17f72e2ff17fc0870297d6e947c9e67f6fa13aca7fd36de4",
       "byteLength": 67001,
       "rawPath": "netkeiba/horses/2023/2023104657/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:38:27.551Z"
+  "updatedAt": "2026-08-24T15:47:14.455Z"
 }

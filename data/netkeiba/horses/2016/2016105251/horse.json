@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016105251",
   "sourceUrl": "https://db.netkeiba.com/horse/2016105251/",
-  "profile": null,
+  "profile": {
+    "name": "ダークロード",
+    "birthDate": "2016-03-03",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05712",
+      "name": "佐々木洋"
+    },
+    "owner": {
+      "id": "493030",
+      "name": "瀬戸竜男"
+    },
+    "breeder": {
+      "id": "393126",
+      "name": "社台ファーム"
+    },
+    "birthplace": "千歳市",
+    "sire": {
+      "id": "000",
+      "name": "ワークフォース Workforce(英)"
+    },
+    "dam": {
+      "id": "2003102595",
+      "name": "ミラクルワウ"
+    },
+    "damsire": {
+      "id": "1992109618",
+      "name": "フジキセキ"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3458,6 +3488,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ダークロード (Dark Lord) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダークロード関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ダークロード関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3527,9 +3587,9 @@
       "contentHash": "108431ecdcf03c0122fac671e98c396e4a34098d0536a3dd55c657f3d4389990",
       "byteLength": 66227,
       "rawPath": "netkeiba/horses/2016/2016105251/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:08:10.356Z"
+  "updatedAt": "2026-08-24T15:16:57.436Z"
 }

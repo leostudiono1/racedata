@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010104223",
   "sourceUrl": "https://db.netkeiba.com/horse/2010104223/",
-  "profile": null,
+  "profile": {
+    "name": "トーセンジャステス",
+    "birthDate": "2010-02-28",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00433",
+      "name": "成島英春"
+    },
+    "owner": {
+      "id": "270006",
+      "name": "島川隆哉"
+    },
+    "breeder": {
+      "id": "373126",
+      "name": "ノーザンファーム"
+    },
+    "birthplace": "安平町",
+    "sire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    },
+    "dam": {
+      "id": "000",
+      "name": "データ Data(亜)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Roy"
+    }
+  },
   "pedigree": [
     {
       "id": "2002100816",
@@ -3322,6 +3352,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "トーセンジャステス (Tosen Justice) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンジャステス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "トーセンジャステス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3391,9 +3451,9 @@
       "contentHash": "f76b6118a8f6e1a1fd98b575761bdf4fa31e7096ec5f82ee432e1509aeff7805",
       "byteLength": 67103,
       "rawPath": "netkeiba/horses/2010/2010104223/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:33:18.707Z"
+  "updatedAt": "2026-08-25T13:43:01.785Z"
 }

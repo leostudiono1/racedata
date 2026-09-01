@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101128",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101128/",
-  "profile": null,
+  "profile": {
+    "name": "フリヴォル",
+    "birthDate": "2014-05-20",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "00428",
+      "name": "石毛善彦"
+    },
+    "owner": {
+      "id": "855030",
+      "name": "田頭勇貴"
+    },
+    "breeder": {
+      "id": "203096",
+      "name": "坂本牧場"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2006190002",
+      "name": "サマーバード Summer Bird(米)"
+    },
+    "dam": {
+      "id": "2000110270",
+      "name": "タイキセレーネ"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Seattle Slew"
+    }
+  },
   "pedigree": [
     {
       "id": "2006190002",
@@ -1914,6 +1944,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "フリヴォル (Frivole) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリヴォル関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "フリヴォル関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1983,9 +2043,9 @@
       "contentHash": "029e8c4b6e0b969d35be9106241cedf7a8345e210e0b9d4a137f3c6316ea0cae",
       "byteLength": 66927,
       "rawPath": "netkeiba/horses/2014/2014101128/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:56:30.112Z"
+  "updatedAt": "2026-08-24T15:05:16.840Z"
 }

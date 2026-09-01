@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2019102406",
   "sourceUrl": "https://db.netkeiba.com/horse/2019102406/",
-  "profile": null,
+  "profile": {
+    "name": "エイブルマン",
+    "birthDate": "2019-05-26",
+    "sex": "セ",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05270",
+      "name": "竹下直人"
+    },
+    "owner": {
+      "id": "x06e26",
+      "name": "（株）ファーストビジ"
+    },
+    "breeder": {
+      "id": "230044",
+      "name": "秋場牧場"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "2008103552",
+      "name": "ロードカナロア"
+    },
+    "dam": {
+      "id": "2011104178",
+      "name": "エアマチュール"
+    },
+    "damsire": {
+      "id": "2002100816",
+      "name": "ディープインパクト"
+    }
+  },
   "pedigree": [
     {
       "id": "2008103552",
@@ -3522,6 +3552,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "エイブルマン (Able Man) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイブルマン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "エイブルマン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3591,9 +3651,9 @@
       "contentHash": "eb436a3eb3d21acdea28f2f46504629859ead59b708f918323671e7b53df695b",
       "byteLength": 67134,
       "rawPath": "netkeiba/horses/2019/2019102406/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T16:05:52.800Z"
+  "updatedAt": "2026-08-25T14:15:14.206Z"
 }

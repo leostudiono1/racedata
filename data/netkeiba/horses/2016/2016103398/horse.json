@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103398",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103398/",
-  "profile": null,
+  "profile": {
+    "name": "ナリス",
+    "birthDate": "2016-03-17",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05287",
+      "name": "井手上慎"
+    },
+    "owner": {
+      "id": "x021d8",
+      "name": "鮎川福道"
+    },
+    "breeder": {
+      "id": "733399",
+      "name": "中川哲也"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2009105084",
+      "name": "ディープブリランテ"
+    },
+    "dam": {
+      "id": "1998106219",
+      "name": "ナックオフィス"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ジェネラス Generous(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2009105084",
@@ -3719,6 +3749,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ナリス (Nalis) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ナリス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3788,9 +3848,9 @@
       "contentHash": "9e2ee4a6b570978a40425bb5d960cfed374ab205d0b4cbdfe1ad461f4eeed5b7",
       "byteLength": 66705,
       "rawPath": "netkeiba/horses/2016/2016103398/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-25T15:52:54.028Z"
+  "updatedAt": "2026-08-25T14:02:30.964Z"
 }

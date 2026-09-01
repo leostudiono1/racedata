@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016102713",
   "sourceUrl": "https://db.netkeiba.com/horse/2016102713/",
-  "profile": null,
+  "profile": {
+    "name": "パゴダ",
+    "birthDate": "2016-03-06",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "新井健児"
+    },
+    "owner": {
+      "id": "x08f1b",
+      "name": "角谷守正"
+    },
+    "breeder": {
+      "id": "900515",
+      "name": "ミルファーム"
+    },
+    "birthplace": "浦河町",
+    "sire": {
+      "id": "000",
+      "name": "パイロ Pyro(米)"
+    },
+    "dam": {
+      "id": "2010105945",
+      "name": "ファンアットコート"
+    },
+    "damsire": {
+      "id": "1999107004",
+      "name": "アドマイヤマックス"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -4240,6 +4270,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "パゴダ (Pagoda) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パゴダ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "パゴダ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -4309,9 +4369,9 @@
       "contentHash": "03c339eb1a6f26b596355b1829b5a99039a11a731fd6b5d8b7fa103eaed64424",
       "byteLength": 66623,
       "rawPath": "netkeiba/horses/2016/2016102713/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-28T12:19:29.785Z"
+  "updatedAt": "2026-08-28T10:25:14.652Z"
 }

@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016110161",
   "sourceUrl": "https://db.netkeiba.com/horse/2016110161/",
-  "profile": null,
+  "profile": {
+    "name": "カフェクラウン",
+    "birthDate": "2016-03-13",
+    "sex": "牡",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "田中正人"
+    },
+    "owner": {
+      "id": "629007",
+      "name": "西川光一"
+    },
+    "breeder": {
+      "id": "510731",
+      "name": "Jason Litt Litt Family Horse Trust & Alex Solis II"
+    },
+    "birthplace": "米",
+    "sire": {
+      "id": "000",
+      "name": "Mineshaft (米)"
+    },
+    "dam": {
+      "id": "000",
+      "name": "Two Trail Sioux"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Indian Charlie"
+    }
+  },
   "pedigree": [
     {
       "id": "000",
@@ -3246,6 +3276,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "カフェクラウン (Cafe Crown) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェクラウン関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "カフェクラウン関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -3315,9 +3375,9 @@
       "contentHash": "0134a0cb45ca2ef4ece7f0ed32a1b50b66d8deacdbdddc6cade3f23f154b789a",
       "byteLength": 66937,
       "rawPath": "netkeiba/horses/2016/2016110161/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-26T13:42:57.163Z"
+  "updatedAt": "2026-08-26T11:45:46.844Z"
 }

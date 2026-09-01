@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2021101481",
   "sourceUrl": "https://db.netkeiba.com/horse/2021101481/",
-  "profile": null,
+  "profile": {
+    "name": "ロンドンライフ",
+    "birthDate": "2021-02-07",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": "05208",
+      "name": "岡林光浩"
+    },
+    "owner": {
+      "id": "208008",
+      "name": "窪田芳郎"
+    },
+    "breeder": {
+      "id": "033357",
+      "name": "白井牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2012101402",
+      "name": "グレーターロンドン"
+    },
+    "dam": {
+      "id": "2011103470",
+      "name": "ハッピーベリンダ"
+    },
+    "damsire": {
+      "id": "1997110025",
+      "name": "アグネスデジタル"
+    }
+  },
   "pedigree": [
     {
       "id": "2012101402",
@@ -1237,6 +1267,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロンドンライフ (London Life) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロンドンライフ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロンドンライフ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1306,9 +1366,9 @@
       "contentHash": "8bcec65ec29edbaa2f01247749a473569c0dcf11fdba69edd03fe1fd3d34acb0",
       "byteLength": 65245,
       "rawPath": "netkeiba/horses/2021/2021101481/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-27T13:14:37.441Z"
+  "updatedAt": "2026-08-27T11:25:50.842Z"
 }

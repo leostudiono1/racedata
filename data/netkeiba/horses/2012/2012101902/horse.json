@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2012101902",
   "sourceUrl": "https://db.netkeiba.com/horse/2012101902/",
-  "profile": null,
+  "profile": {
+    "name": "ワイドワーグナー",
+    "birthDate": "2012-03-26",
+    "sex": "牡",
+    "coatColor": "青鹿毛",
+    "trainer": {
+      "id": "01087",
+      "name": "庄野靖志"
+    },
+    "owner": {
+      "id": "331007",
+      "name": "幅田昌伸"
+    },
+    "breeder": {
+      "id": "303325",
+      "name": "法理牧場"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2003102542",
+      "name": "マルカシェンク"
+    },
+    "dam": {
+      "id": "2002106698",
+      "name": "タブロイドニュース"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ザグレブ Zagreb(米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2003102542",
@@ -1403,6 +1433,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ワイドワーグナー (Wide Wagner) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワイドワーグナー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ワイドワーグナー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1472,9 +1532,9 @@
       "contentHash": "04c69cf0c8a3819f55c931561291dd3a8fcd39d425b013615b4db1d6de962d54",
       "byteLength": 64865,
       "rawPath": "netkeiba/horses/2012/2012101902/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-29T11:29:30.401Z"
+  "updatedAt": "2026-08-29T09:37:28.241Z"
 }

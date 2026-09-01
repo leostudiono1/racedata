@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2014101331",
   "sourceUrl": "https://db.netkeiba.com/horse/2014101331/",
-  "profile": null,
+  "profile": {
+    "name": "ロイヤルヒーロー",
+    "birthDate": "2014-02-15",
+    "sex": "牡",
+    "coatColor": "栗毛",
+    "trainer": {
+      "id": "05555",
+      "name": "三野宮通"
+    },
+    "owner": {
+      "id": "x08ed0",
+      "name": "岩渕瑞生"
+    },
+    "breeder": {
+      "id": "710470",
+      "name": "前田ファーム"
+    },
+    "birthplace": "新ひだか町",
+    "sire": {
+      "id": "2004103328",
+      "name": "スクリーンヒーロー"
+    },
+    "dam": {
+      "id": "000",
+      "name": "ヘバラー Hebarah(英)"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Fairy King"
+    }
+  },
   "pedigree": [
     {
       "id": "2004103328",
@@ -1739,6 +1769,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ロイヤルヒーロー (Royal Hero) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロイヤルヒーロー関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ロイヤルヒーロー関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -1808,9 +1868,9 @@
       "contentHash": "d605e7d12ed37a7c9a573a5f612490a9b407e863ece1521223d3bb8cc0d66cba",
       "byteLength": 64890,
       "rawPath": "netkeiba/horses/2014/2014101331/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T10:51:43.237Z"
+  "updatedAt": "2026-08-31T09:01:26.189Z"
 }

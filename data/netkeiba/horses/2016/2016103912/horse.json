@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2016103912",
   "sourceUrl": "https://db.netkeiba.com/horse/2016103912/",
-  "profile": null,
+  "profile": {
+    "name": "ハートハーツ",
+    "birthDate": "2016-01-29",
+    "sex": "牝",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "玉垣光章"
+    },
+    "owner": {
+      "id": "352031",
+      "name": "二木英実"
+    },
+    "breeder": {
+      "id": "930369",
+      "name": "清水牧場"
+    },
+    "birthplace": "平取町",
+    "sire": {
+      "id": "2009106461",
+      "name": "ジャスタウェイ"
+    },
+    "dam": {
+      "id": "2009103082",
+      "name": "チーティンハート"
+    },
+    "damsire": {
+      "id": "1999110099",
+      "name": "シンボリクリスエス"
+    }
+  },
   "pedigree": [
     {
       "id": "2009106461",
@@ -6757,6 +6787,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "ハートハーツ (Heart Hearts) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートハーツ関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "ハートハーツ関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -6826,9 +6886,9 @@
       "contentHash": "059a46576d268587e0822edc2dcb988ec47f7332f606b0a03723b2ada307b610",
       "byteLength": 66976,
       "rawPath": "netkeiba/horses/2016/2016103912/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T17:07:11.044Z"
+  "updatedAt": "2026-08-24T15:15:57.737Z"
 }

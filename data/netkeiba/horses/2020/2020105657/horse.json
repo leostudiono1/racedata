@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2020105657",
   "sourceUrl": "https://db.netkeiba.com/horse/2020105657/",
-  "profile": null,
+  "profile": {
+    "name": "インタクト",
+    "birthDate": "2020-03-26",
+    "sex": "牡",
+    "coatColor": "黒鹿毛",
+    "trainer": {
+      "id": "05760",
+      "name": "松浦聡志"
+    },
+    "owner": {
+      "id": "242031",
+      "name": "前田幸大"
+    },
+    "breeder": {
+      "id": "810464",
+      "name": "ノースヒルズ"
+    },
+    "birthplace": "新冠町",
+    "sire": {
+      "id": "2001103038",
+      "name": "ハーツクライ"
+    },
+    "dam": {
+      "id": "2010110076",
+      "name": "ロードクロサイト"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "Unbridled's Song (米)"
+    }
+  },
   "pedigree": [
     {
       "id": "2001103038",
@@ -2540,6 +2570,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "インタクト (Intact) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インタクト関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "インタクト関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -2609,9 +2669,9 @@
       "contentHash": "b4a349f066b582324f62dfebe73bce986e728205935e24f44298f1b6a85aa86d",
       "byteLength": 66749,
       "rawPath": "netkeiba/horses/2020/2020105657/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-31T11:20:32.890Z"
+  "updatedAt": "2026-08-31T09:30:15.703Z"
 }

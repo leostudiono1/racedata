@@ -2,7 +2,37 @@
   "schemaVersion": 1,
   "id": "2010100602",
   "sourceUrl": "https://db.netkeiba.com/horse/2010100602/",
-  "profile": null,
+  "profile": {
+    "name": "セトノプロミス",
+    "birthDate": "2010-04-07",
+    "sex": "セ",
+    "coatColor": "鹿毛",
+    "trainer": {
+      "id": null,
+      "name": "松木啓助"
+    },
+    "owner": {
+      "id": "x00468",
+      "name": "中山純子"
+    },
+    "breeder": {
+      "id": "633393",
+      "name": "滝本健二"
+    },
+    "birthplace": "日高町",
+    "sire": {
+      "id": "2000101557",
+      "name": "スパイキュール"
+    },
+    "dam": {
+      "id": "1997107095",
+      "name": "セトノウインド"
+    },
+    "damsire": {
+      "id": "000",
+      "name": "ジェネラス Generous(愛)"
+    }
+  },
   "pedigree": [
     {
       "id": "2000101557",
@@ -8423,6 +8453,36 @@
           ]
         }
       ]
+    },
+    "horse-profile": {
+      "title": "セトノプロミス (Setono Promise) | 競走馬データ - netkeiba",
+      "language": "ja",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セトノプロミス関連ニュース"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaニュース",
+            "タレコミニュース"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "セトノプロミス関連コラム"
+        },
+        {
+          "type": "list",
+          "items": [
+            "netkeibaコラム",
+            "タレコミコラム"
+          ]
+        }
+      ]
     }
   },
   "pages": [
@@ -8492,9 +8552,9 @@
       "contentHash": "d597c763ed7e2b1d263a1cb314094debe242ad0ed278779812a9c7289a8f572e",
       "byteLength": 66847,
       "rawPath": "netkeiba/horses/2010/2010100602/raw/horse-profile.html.gz",
-      "parseStatus": "failed",
-      "error": "Unable to parse netkeiba horse name"
+      "parseStatus": "parsed",
+      "error": null
     }
   ],
-  "updatedAt": "2026-08-24T16:46:14.182Z"
+  "updatedAt": "2026-08-24T14:55:00.744Z"
 }
