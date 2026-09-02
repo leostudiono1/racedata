@@ -11,7 +11,7 @@ export function integerArgument(name: string) {
   return parsed
 }
 
-export function printReport(report: { fetched?: number; changed?: number; unchanged?: number; skipped?: number; parsed?: number; timeLimitReached?: boolean; errors: string[] }) {
+export function printReport(report: { fetched?: number; changed?: number; unchanged?: number; skipped?: number; parsed?: number; timeLimitReached?: boolean; accessRestricted?: boolean; errors: string[] }) {
   const summary = [
     report.fetched === undefined ? null : `fetched=${report.fetched}`,
     report.changed === undefined ? null : `changed=${report.changed}`,
@@ -19,6 +19,7 @@ export function printReport(report: { fetched?: number; changed?: number; unchan
     report.skipped === undefined ? null : `skipped=${report.skipped}`,
     report.parsed === undefined ? null : `parsed=${report.parsed}`,
     report.timeLimitReached === undefined ? null : `timeLimitReached=${report.timeLimitReached}`,
+    report.accessRestricted === undefined ? null : `accessRestricted=${report.accessRestricted}`,
     `errors=${report.errors.length}`,
   ].filter(Boolean).join(', ')
   process.stdout.write(`${summary}\n`)

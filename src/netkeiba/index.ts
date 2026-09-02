@@ -7,6 +7,7 @@ import {
   netkeibaRaceRecordSchema,
 } from './schema.js'
 import type { NetkeibaHorseRecord, NetkeibaRaceRecord } from './types.js'
+import { NETKEIBA_HORSE_PAGE_TYPES } from './types.js'
 import { readJson, writeJsonAtomic } from '../archive/store.js'
 
 export async function filesNamed(directory: string, fileName: string): Promise<string[]> {
@@ -21,6 +22,24 @@ export async function filesNamed(directory: string, fileName: string): Promise<s
     const path = join(directory, entry.name)
     return entry.isDirectory() ? filesNamed(path, fileName) : entry.isFile() && entry.name === fileName ? [path] : []
   }))).flat()
+}
+
+export async function indexedNetkeibaHorseIds(root: string) {
+  let files: string[]
+  try {
+    files = (await readdir(join(root, 'netkeiba', 'index', 'races')))
+      .filter((file) => /^\d{4}\.json$/.test(file))
+      .sort()
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return []
+    throw error
+  }
+  const ids = new Set<string>()
+  for (const file of files) {
+    const index = netkeibaRaceIndexSchema.parse(await readJson(join(root, 'netkeiba', 'index', 'races', file)))
+    for (const race of index.races) for (const id of race.horseIds) ids.add(id)
+  }
+  return [...ids].sort()
 }
 
 function compareText(left: string, right: string) {
@@ -79,7 +98,7 @@ export async function rebuildNetkeibaHorseIndex(root: string) {
       name: record.profile?.name ?? null,
       path: relative(root, file).split(sep).join('/'),
       pageTypes,
-      complete: pageTypes.includes('horse-profile') && pageTypes.includes('horse-pedigree') && pageTypes.includes('horse-career'),
+      complete: NETKEIBA_HORSE_PAGE_TYPES.every((pageType) => pageTypes.includes(pageType)),
     })
   }
   horses.sort((left, right) => compareText(left.id, right.id))

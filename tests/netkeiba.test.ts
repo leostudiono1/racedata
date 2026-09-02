@@ -4,10 +4,10 @@ import { join } from 'node:path'
 import { deterministicGzip, readJson, writeFileAtomic, writeJsonAtomic } from '../src/archive/store.js'
 import { archiveNetkeibaHorse, netkeibaHorseDirectory } from '../src/netkeiba/archive.js'
 import { updateNetkeibaArchive, updateNetkeibaHorseShard, updateNetkeibaRaceYear } from '../src/netkeiba/crawler.js'
-import { decodeNetkeibaBytes, detectNetkeibaCharset } from '../src/netkeiba/http.js'
+import { decodeNetkeibaBytes, detectNetkeibaCharset, NetkeibaAccessRestrictionError } from '../src/netkeiba/http.js'
 import { netkeibaRaceIdFor, parseHorseCareer, parseHorsePedigree, parseHorseProfile, parseNetkeibaRace } from '../src/netkeiba/parse.js'
 import { reparseNetkeibaArchive, reparseNetkeibaHorseShard } from '../src/netkeiba/reparse.js'
-import { netkeibaHorseShard } from '../src/netkeiba/shard.js'
+import { netkeibaHorseRepairShard, netkeibaHorseShard } from '../src/netkeiba/shard.js'
 import type { NetkeibaFetchResponse } from '../src/netkeiba/types.js'
 import { verifyNetkeibaArchive, verifyNetkeibaHorseShard } from '../src/netkeiba/verify.js'
 import type { RaceRecord } from '../src/types.js'
@@ -113,6 +113,8 @@ describe('netkeiba parsing', () => {
     const assignments = Array.from({ length: 64 }, (_, shard) => netkeibaHorseShard('2022100001', 64) === shard)
     expect(assignments.filter(Boolean)).toHaveLength(1)
     expect(netkeibaHorseShard('2022100001', 64)).toBe(netkeibaHorseShard('2022100001', 64))
+    const repairAssignments = Array.from({ length: 8 }, (_, shard) => netkeibaHorseRepairShard('2022100001', 8) === shard)
+    expect(repairAssignments.filter(Boolean)).toHaveLength(1)
   })
 })
 
@@ -152,10 +154,10 @@ describe('netkeiba archive integration', () => {
     }
     const fetcher = async (url: string) => response(url, url.includes('/race/') ? pages.race : url.includes('/ped/') ? pages.pedigree : url.includes('/result/') ? pages.career : pages.profile)
     const races = await updateNetkeibaRaceYear({ root, year: 2026, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
-    expect(races).toMatchObject({ fetched: 1, changed: 1, timeLimitReached: false, errors: [] })
+    expect(races).toMatchObject({ fetched: 1, changed: 1, timeLimitReached: false, accessRestricted: false, errors: [] })
 
     const horses = await updateNetkeibaHorseShard({ root, shard: 0, shardCount: 1, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
-    expect(horses).toMatchObject({ fetched: 6, changed: 6, timeLimitReached: false, errors: [] })
+    expect(horses).toMatchObject({ fetched: 6, changed: 6, timeLimitReached: false, accessRestricted: false, errors: [] })
     expect((await verifyNetkeibaHorseShard(root, 0, 1)).errors).toEqual([])
     const horse = await readJson<{ profile: { sire: { id: string | null } | null; dam: { id: string | null } | null; damsire: { id: string | null } | null } | null }>(
       join(netkeibaHorseDirectory(root, '2022100001'), 'horse.json'),
@@ -168,6 +170,64 @@ describe('netkeiba archive integration', () => {
 
     const repeated = await updateNetkeibaHorseShard({ root, shard: 0, shardCount: 1, fetcher, now: new Date('2026-08-22T12:00:00.000Z') })
     expect(repeated).toMatchObject({ fetched: 0, skipped: 6, errors: [] })
+  })
+
+  it('finishes one horse before starting another and reports coverage gaps', async () => {
+    const pages = {
+      race: await fixture('netkeiba-race.html'),
+      profile: await fixture('netkeiba-profile.html'),
+      pedigree: await fixture('netkeiba-pedigree.html'),
+      career: await fixture('netkeiba-career.html'),
+    }
+    const fetcher = async (url: string) => response(
+      url,
+      url.includes('/race/') ? pages.race
+        : url.includes('/ped/') ? pages.pedigree
+          : url.includes('/result/') ? pages.career
+            : pages.profile,
+    )
+    const report = await updateNetkeibaArchive({
+      root,
+      fetcher,
+      maxPages: 4,
+      now: new Date('2026-08-22T12:00:00.000Z'),
+    })
+    expect(report).toMatchObject({ fetched: 4, changed: 4, errors: [] })
+    const first = await readJson<{ pages: Array<{ pageType: string }> }>(
+      join(netkeibaHorseDirectory(root, '2022100001'), 'horse.json'),
+    )
+    const second = await readJson(join(netkeibaHorseDirectory(root, '2022100002'), 'horse.json'))
+    expect(first?.pages.map((page) => page.pageType).sort()).toEqual([
+      'horse-career',
+      'horse-pedigree',
+      'horse-profile',
+    ])
+    expect(second).toBeNull()
+
+    const coverage = await verifyNetkeibaArchive(root, 2026)
+    expect(coverage).toMatchObject({
+      referencedHorses: 2,
+      completeHorses: 1,
+      missingHorseRecords: 1,
+      incompleteHorses: 0,
+      errors: [],
+    })
+    const strictCoverage = await verifyNetkeibaArchive(root, 2026, { requireCompleteHorses: true })
+    expect(strictCoverage.errors).toEqual([expect.stringContaining('Referenced horses without records: 1')])
+  })
+
+  it('marks access restrictions so a later workflow can resume after cooldown', async () => {
+    const fetcher = async () => {
+      throw new NetkeibaAccessRestrictionError('restricted for test')
+    }
+    const report = await updateNetkeibaRaceYear({
+      root,
+      year: 2026,
+      fetcher,
+      now: new Date('2026-08-22T12:00:00.000Z'),
+    })
+    expect(report).toMatchObject({ fetched: 1, changed: 0, accessRestricted: true })
+    expect(report.errors).toEqual(['restricted for test'])
   })
 
   it('reparses failed horse raw pages within one hash shard without fetching', async () => {

@@ -29,6 +29,7 @@ npm run data:verify
 npm run data:update
 npm run data:bootstrap -- --year 2026
 npm run data:reparse -- --year 2026
+npm run data:repair-jra-manifests -- --year 2026
 npm run data:verify -- --year 2026
 
 # netkeiba：預設只處理 JRA 最近 35 天的已完賽賽事，每次最多 80 頁
@@ -36,7 +37,10 @@ npm run data:netkeiba:update
 npm run data:netkeiba:update -- --year 2026 --max-pages 80
 npm run data:netkeiba:reparse -- --year 2026
 npm run data:netkeiba:verify -- --year 2026
+npm run data:netkeiba:verify -- --require-complete-horses
 ```
+
+一般 netkeiba 驗證會回報馬匹覆蓋統計，但只將 schema、manifest、索引及 raw hash 問題視為錯誤。加入 `--require-complete-horses` 後，賽事引用但沒有記錄，或缺少 profile、pedigree、career 任一頁的馬匹，也會讓指令失敗。
 
 可用 `--root DIRECTORY` 將資料寫入其他目錄。HTTP 行為可透過 `JRA_REQUEST_DELAY_MS`、`JRA_REQUEST_RETRIES` 與 `JRA_USER_AGENT` 調整；請勿將延遲設得過低。`npm run data:smoke` 必須明確設定 `JRA_LIVE_SMOKE=1`，且不會在一般 CI 執行。
 
@@ -76,6 +80,8 @@ netkeiba HTTP client 僅允許 `db.netkeiba.com` 的公開 race result、horse p
 
 ## GitHub Actions
 
+`Complete JRA and netkeiba archive gaps` 每 6 小時檢查一次缺漏。若任一馬匹分片收到 403、429 或限制頁面，該次執行會保存已完成資料並建立冷卻標記，其餘分片停止送出請求；至少冷卻 6 小時後，再由下一個排程從仍缺漏的頁面續抓。完整度達標後，後續排程只執行驗證，不再請求 netkeiba。
+
 `Update JRA race archive` 支援：
 
 - `update`：增量更新本週與最近 35 天。
@@ -86,6 +92,8 @@ netkeiba HTTP client 僅允許 `db.netkeiba.com` 的公開 race result、horse p
 排程沿用東京時區的週四／週五預抓與週六、週日、週一賽事時段。單頁解析失敗時 raw 和錯誤資訊仍會先由 Action bot 提交，之後 workflow 以失敗狀態告警。
 
 `Update netkeiba enrichment archive` 每天東京時間 22:17 執行一次，預設最多取得 80 個公開頁面。手動執行可指定 JRA 來源年度逐批補齊；刻意不提供 12 年全量高併發回補。
+
+`Complete JRA and netkeiba archive gaps` 用於離線對齊 JRA manifest ID，並以 8 個依序執行的 salted 分片補齊 netkeiba 缺少的馬匹記錄與三種馬匹頁面。每匹馬會依 profile、pedigree、career 順序完成後才處理下一匹；若遇存取限制，已成功資料仍會提交，未完成分片可在冷卻後重跑。
 
 ## 使用限制
 

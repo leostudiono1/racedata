@@ -418,6 +418,11 @@ export function mergeRaceRecord(current: RaceRecord | null, incoming: RaceRecord
   return {
     ...current,
     ...incoming,
+    // A race can be reached through entry, result and odds actions whose
+    // CNAME values differ. Once archived, keep the first stable identity so
+    // later page types cannot change IDs used by indexes and netkeiba links.
+    id: current.id,
+    cname: current.cname,
     prizes: incoming.prizes.length ? incoming.prizes : current.prizes,
     runners: [...runners.values()].sort((a, b) => (a.number ?? 99) - (b.number ?? 99)),
     odds: incoming.odds.length ? incoming.odds : current.odds,

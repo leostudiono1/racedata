@@ -144,6 +144,13 @@ export async function archiveRaceResponse(
   const contentHash = sha256(response.bytes)
   const oldPage = existingManifest.pages.find((page) => page.pageType === pageType)
   if (!force && oldPage?.contentHash === contentHash && oldPage.parseStatus === 'parsed' && await exists(rawPath)) {
+    if (existingRecord && existingManifest.raceId !== existingRecord.id) {
+      await writeJsonAtomic(manifestPath, raceManifestSchema.parse({
+        ...existingManifest,
+        raceId: existingRecord.id,
+      }))
+      return { changed: true, year: Number(identity.date.slice(0, 4)), record: existingRecord, error: null }
+    }
     return { changed: false, year: Number(identity.date.slice(0, 4)), record: existingRecord, error: null }
   }
 
@@ -181,9 +188,10 @@ export async function archiveRaceResponse(
   }
 
   let page = makePageManifest(response, pageType, root, rawPath, parseError)
+  const canonicalRaceId = nextRecord?.id ?? existingRecord?.id ?? identity.id
   let manifest = raceManifestSchema.parse({
     schemaVersion: 1,
-    raceId: identity.id,
+    raceId: canonicalRaceId,
     pages: mergePages(existingManifest.pages, page),
   })
   let recordToWrite = parseError ? existingRecord : nextRecord
@@ -201,7 +209,7 @@ export async function archiveRaceResponse(
       page = makePageManifest(response, pageType, root, rawPath, parseError)
       manifest = raceManifestSchema.parse({
         schemaVersion: 1,
-        raceId: identity.id,
+        raceId: recordToWrite?.id ?? canonicalRaceId,
         pages: mergePages(existingManifest.pages, page),
       })
       validatedRecord = recordToWrite

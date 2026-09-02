@@ -7,6 +7,12 @@ export const NETKEIBA_PAGE_TYPES = [
   'horse-career',
 ] as const
 
+export const NETKEIBA_HORSE_PAGE_TYPES = [
+  'horse-profile',
+  'horse-pedigree',
+  'horse-career',
+] as const
+
 export type NetkeibaPageType = (typeof NETKEIBA_PAGE_TYPES)[number]
 export type NetkeibaCharset = 'utf-8' | 'shift_jis' | 'euc-jp'
 
@@ -156,5 +162,6 @@ export interface NetkeibaReport {
   unchanged: number
   skipped: number
   timeLimitReached: boolean
+  accessRestricted: boolean
   errors: string[]
 }

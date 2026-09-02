@@ -5,7 +5,8 @@ import { gunzipSync } from 'node:zlib'
 import { archiveMeetingResponse, archiveRaceResponse, raceDirectory } from '../src/archive/archive.js'
 import { rebuildYearIndex } from '../src/archive/index.js'
 import { reparseYear } from '../src/archive/reparse.js'
-import { sha256 } from '../src/archive/store.js'
+import { repairRaceManifestIds } from '../src/archive/repair.js'
+import { sha256, writeJsonAtomic } from '../src/archive/store.js'
 import { stableId } from '../src/jra/parse.js'
 import { verifyArchive } from '../src/archive/verify.js'
 import type { FetchResponse, JraAction } from '../src/types.js'
@@ -36,11 +37,11 @@ describe('archive integration', () => {
     const result = await readFile('tests/fixtures/result.html', 'utf8')
     const odds = await readFile('tests/fixtures/odds.html', 'utf8')
     const entryAction = { url: 'https://www.jra.go.jp/JRADB/accessD.html', cname: CNAME }
-    const resultAction = { url: 'https://www.jra.go.jp/JRADB/accessS.html', cname: CNAME }
+    const resultAction = { url: 'https://www.jra.go.jp/JRADB/accessS.html', cname: `${CNAME}-result` }
     expect((await archiveRaceResponse(response(entry, entryAction, '2026-08-21T01:00:00.000Z'), 'entry', root)).changed).toBe(true)
     expect((await archiveRaceResponse(response(entry, entryAction, '2026-08-21T02:00:00.000Z'), 'entry', root)).changed).toBe(false)
     await archiveRaceResponse(response(result, resultAction, '2026-08-22T08:00:00.000Z'), 'result', root)
-    await archiveRaceResponse(response(odds, { url: 'https://www.jra.go.jp/JRADB/accessO.html', cname: CNAME }, '2026-08-22T08:01:00.000Z'), 'odds-win-place', root)
+    await archiveRaceResponse(response(odds, { url: 'https://www.jra.go.jp/JRADB/accessO.html', cname: `${CNAME}-odds` }, '2026-08-22T08:01:00.000Z'), 'odds-win-place', root)
     await archiveMeetingResponse(
       response(entry, { url: 'https://www.jra.go.jp/JRADB/accessD.html', cname: 'pw01drl10072026020920260822/08' }, '2026-08-21T03:00:00.000Z'),
       'meeting-notice',
@@ -59,6 +60,8 @@ describe('archive integration', () => {
     const racePath = join(root, index.races[0]?.path ?? '')
     const record = JSON.parse(await readFile(racePath, 'utf8')) as { odds: unknown[]; pages: Array<{ rawPath: string; contentHash: string }> }
     expect(record.odds).toHaveLength(3)
+    const manifest = JSON.parse(await readFile(join(racePath, '..', 'manifest.json'), 'utf8')) as { raceId: string }
+    expect(manifest.raceId).toBe(stableId(CNAME))
     const rawPath = join(root, record.pages[0]?.rawPath ?? '')
     const compressedBeforeReparse = await readFile(rawPath)
     const recordBeforeReparse = await readFile(racePath, 'utf8')
@@ -70,6 +73,31 @@ describe('archive integration', () => {
     expect((await reparseYear(2026, root)).errors).toEqual([])
     expect(await readFile(rawPath)).toEqual(compressedBeforeReparse)
     expect(await readFile(racePath, 'utf8')).toBe(recordBeforeReparse)
+    expect((await verifyArchive(root, 2026)).errors).toEqual([])
+  })
+
+  it('repairs a stale manifest race id without changing the race record', async () => {
+    const entry = await readFile('tests/fixtures/entry.html', 'utf8')
+    const archived = await archiveRaceResponse(
+      response(entry, { url: 'https://www.jra.go.jp/JRADB/accessD.html', cname: CNAME }, '2026-08-21T01:00:00.000Z'),
+      'entry',
+      root,
+    )
+    if (!archived.record) throw new Error('Expected archived race record')
+    const directory = raceDirectory(root, {
+      id: archived.record.id,
+      date: archived.record.date,
+      venue: archived.record.venue,
+      meetingNumber: archived.record.meetingNumber,
+      meetingDay: archived.record.meetingDay,
+      number: archived.record.number,
+    })
+    const manifestPath = join(directory, 'manifest.json')
+    await rebuildYearIndex(2026, root)
+    const manifest = JSON.parse(await readFile(manifestPath, 'utf8')) as { raceId: string; pages: unknown[] }
+    await writeJsonAtomic(manifestPath, { ...manifest, raceId: 'stale-race-id' })
+    expect((await verifyArchive(root, 2026)).errors).toHaveLength(1)
+    expect(await repairRaceManifestIds(root, 2026)).toMatchObject({ scanned: 1, repaired: 1, errors: [] })
     expect((await verifyArchive(root, 2026)).errors).toEqual([])
   })
 

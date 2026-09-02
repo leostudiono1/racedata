@@ -1,0 +1,209 @@
+name: Complete JRA and netkeiba archive gaps
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0,6,12,18 * * *'
+      timezone: Asia/Tokyo
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: netkeiba-enrichment-archive
+  cancel-in-progress: false
+
+jobs:
+  retry_cooldown:
+    name: Check netkeiba retry cooldown
+    runs-on: ubuntu-latest
+    outputs:
+      active: ${{ steps.cooldown.outputs.active }}
+    steps:
+      - id: cooldown
+        name: Enforce six hours between restricted attempts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          created_at="$(gh api "/repos/$GITHUB_REPOSITORY/actions/artifacts?name=netkeiba-access-restricted&per_page=100" --jq '[.artifacts[] | select(.expired == false)] | sort_by(.created_at) | last | .created_at // ""')"
+          if [ -z "$created_at" ]; then
+            echo "active=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          retry_at=$(($(date -u -d "$created_at" +%s) + 21600))
+          if [ "$(date -u +%s)" -lt "$retry_at" ]; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+            echo "The latest access restriction is still cooling down until $(date -u -d "@$retry_at" --iso-8601=seconds)."
+          else
+            echo "active=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  repair_jra_manifests:
+    name: Repair JRA manifest IDs
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Synchronize archive
+        run: git pull --ff-only origin main
+      - id: repair
+        name: Align manifests with stable race IDs
+        continue-on-error: true
+        run: npm run data:repair-jra-manifests -- --year 2026
+      - id: verify
+        name: Verify JRA archive
+        continue-on-error: true
+        run: npm run data:verify
+      - name: Save repaired manifests
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/archive/2026
+          if ! git diff --cached --quiet; then
+            git commit -m "data: repair JRA race manifest IDs"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Propagate JRA repair failure
+        if: steps.repair.outcome == 'failure' || steps.verify.outcome == 'failure'
+        run: exit 1
+
+  check_horse_gaps:
+    name: Check horse archive gaps
+    needs: [retry_cooldown, repair_jra_manifests]
+    if: ${{ always() && needs.retry_cooldown.result == 'success' && needs.retry_cooldown.outputs.active != 'true' && needs.repair_jra_manifests.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    outputs:
+      needs_repair: ${{ steps.verify.outcome == 'failure' }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Synchronize archive
+        run: git pull --ff-only origin main
+      - id: verify
+        name: Check complete horse coverage
+        continue-on-error: true
+        run: npm run data:netkeiba:verify -- --require-complete-horses
+
+  repair_horse_pages:
+    name: Complete horse pages ${{ matrix.shard }}/8
+    needs: [repair_jra_manifests, check_horse_gaps]
+    if: ${{ always() && needs.check_horse_gaps.outputs.needs_repair == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - id: cooldown_artifact
+        name: Check this run for an access restriction
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: netkeiba-access-restricted
+          path: retry-state
+      - id: cooldown
+        name: Apply access restriction cooldown
+        shell: bash
+        run: |
+          if [ -f retry-state/access-restricted ]; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+            echo "A previous shard was access-restricted; wait for the next six-hour run."
+          else
+            echo "active=false" >> "$GITHUB_OUTPUT"
+          fi
+      - if: steps.cooldown.outputs.active != 'true'
+        uses: actions/checkout@v6
+        with:
+          ref: main
+      - if: steps.cooldown.outputs.active != 'true'
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - if: steps.cooldown.outputs.active != 'true'
+        run: npm ci
+      - name: Synchronize archive
+        if: steps.cooldown.outputs.active != 'true'
+        run: git pull --ff-only origin main
+      - id: collect
+        name: Fetch missing horse records and pages
+        if: steps.cooldown.outputs.active != 'true'
+        continue-on-error: true
+        env:
+          SHARD: ${{ matrix.shard }}
+          NETKEIBA_REQUEST_DELAY_MS: '3500'
+          NETKEIBA_REQUEST_RETRIES: '2'
+        run: npm run data:netkeiba:horses -- --shard "$SHARD" --shard-count 8 --repair-partition --max-runtime-minutes 330 --restriction-marker retry-state/access-restricted
+      - id: verify
+        name: Verify horse shard coverage
+        if: steps.collect.outcome == 'success'
+        continue-on-error: true
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: npm run data:netkeiba:verify-horses -- --shard "$SHARD" --shard-count 8 --repair-partition --require-complete-horses
+      - name: Save completed horse pages
+        if: ${{ always() && steps.cooldown.outputs.active != 'true' }}
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/netkeiba
+          if ! git diff --cached --quiet; then
+            git commit -m "data: complete netkeiba horse pages shard $SHARD"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Mark this run as access-restricted
+        if: ${{ always() && hashFiles('retry-state/access-restricted') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: netkeiba-access-restricted
+          path: retry-state/access-restricted
+          retention-days: 1
+      - name: Propagate horse repair failure
+        if: steps.collect.outcome == 'failure' || steps.verify.outcome == 'failure'
+        run: exit 1
+
+  final_verify:
+    name: Verify repaired archive
+    needs: repair_horse_pages
+    if: ${{ always() && needs.repair_horse_pages.result != 'cancelled' && needs.repair_horse_pages.result != 'skipped' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Synchronize all shard commits
+        run: git pull --ff-only origin main
+      - name: Verify JRA archive
+        run: npm run data:verify
+      - name: Verify complete netkeiba archive
+        run: npm run data:netkeiba:verify -- --require-complete-horses
