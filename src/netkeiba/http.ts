@@ -59,14 +59,20 @@ export interface NetkeibaRequestDiagnostic {
   causeCode: string | null
 }
 
-const ACCESS_RESTRICTION_PATTERNS: Array<{ reason: string; pattern: RegExp }> = [
+const ACCESS_RESTRICTION_BODY_PATTERNS: Array<{ reason: string; pattern: RegExp }> = [
   { reason: 'body-access-concentrated', pattern: /アクセス(?:が)?集中/i },
   { reason: 'body-access-restricted', pattern: /アクセス(?:を)?制限/i },
   { reason: 'body-access-unavailable', pattern: /アクセスできません/i },
-  { reason: 'body-access-denied', pattern: /Access Denied/i },
-  { reason: 'body-too-many-requests', pattern: /Too Many Requests/i },
-  { reason: 'body-forbidden', pattern: /Forbidden/i },
+  { reason: 'body-access-denied', pattern: /You (?:do not|don't) have permission to access/i },
+  { reason: 'body-request-rejected', pattern: /The requested URL was rejected/i },
+  { reason: 'body-request-blocked', pattern: /Your request has been blocked/i },
 ]
+
+const ACCESS_RESTRICTION_TITLES = new Map<string, string>([
+  ['access denied', 'title-access-denied'],
+  ['too many requests', 'title-too-many-requests'],
+  ['forbidden', 'title-forbidden'],
+])
 
 function cleanText(value: string) {
   return value
@@ -86,11 +92,14 @@ function pageTitle(html: string) {
   return cleanText(match[1]).slice(0, 200) || null
 }
 
-function restrictionSignal(status: number, html: string) {
+function restrictionSignal(status: number, html: string, title: string | null) {
   if (status === 403) return { reason: 'http-403', matchedSignal: 'HTTP 403' }
   if (status === 429) return { reason: 'http-429', matchedSignal: 'HTTP 429' }
+  const normalizedTitle = title?.trim().toLowerCase()
+  const titleReason = normalizedTitle && ACCESS_RESTRICTION_TITLES.get(normalizedTitle)
+  if (titleReason) return { reason: titleReason, matchedSignal: title }
   const prefix = html.slice(0, 20_000)
-  for (const candidate of ACCESS_RESTRICTION_PATTERNS) {
+  for (const candidate of ACCESS_RESTRICTION_BODY_PATTERNS) {
     const match = candidate.pattern.exec(prefix)
     if (match?.[0]) return { reason: candidate.reason, matchedSignal: cleanText(match[0]).slice(0, 200) }
   }
@@ -188,11 +197,12 @@ export async function fetchNetkeibaPage(url: string): Promise<NetkeibaFetchRespo
       })
       const bytes = new Uint8Array(await response.arrayBuffer())
       const decoded = decodeNetkeibaBytes(bytes, response.headers.get('content-type'))
-      const unavailable = unavailableSignal(response.status, pageTitle(decoded.html))
+      const title = pageTitle(decoded.html)
+      const unavailable = unavailableSignal(response.status, title)
       if (unavailable) {
         throw new NetkeibaPageUnavailableError(responseDiagnostic(unavailable, response, url, bytes, decoded.html))
       }
-      const restriction = restrictionSignal(response.status, decoded.html)
+      const restriction = restrictionSignal(response.status, decoded.html, title)
       if (restriction) {
         throw new NetkeibaAccessRestrictionError(responseDiagnostic(restriction, response, url, bytes, decoded.html))
       }

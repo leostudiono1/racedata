@@ -40,15 +40,45 @@ describe('netkeiba HTTP diagnostics', () => {
     const error: unknown = await fetchNetkeibaPage(url).catch((reason: unknown) => reason)
     if (!(error instanceof NetkeibaAccessRestrictionError)) throw error
     expect(error.diagnostic).toMatchObject({
-      reason: 'body-access-restricted',
+      reason: 'title-access-denied',
       status: 200,
       requestUrl: url,
       finalUrl: url,
-      matchedSignal: 'アクセス制限',
+      matchedSignal: 'Access Denied',
       pageTitle: 'Access Denied',
       byteLength: new TextEncoder().encode(html).byteLength,
     })
     expect(error.diagnostic.bodySha256).toMatch(/^[a-f0-9]{64}$/)
+  })
+
+  it('does not mistake Forbidden in a horse name for an access restriction', async () => {
+    const url = 'https://db.netkeiba.com/horse/2022101625/'
+    const html = '<html><head><title>フォビドゥンラヴ (Forbidden Love) | 競走馬データ - netkeiba</title></head><body><h1>Forbidden Love</h1></body></html>'
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(html, {
+      status: 200,
+      headers: { 'content-type': 'text/html; charset=utf-8' },
+    })))
+
+    const response = await fetchNetkeibaPage(url)
+    expect(response.status).toBe(200)
+    expect(response.html).toContain('Forbidden Love')
+  })
+
+  it('recognizes an exact English restriction title', async () => {
+    const url = 'https://db.netkeiba.com/horse/2022101625/'
+    const html = '<html><head><title>Forbidden</title></head><body>nginx</body></html>'
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(html, {
+      status: 200,
+      headers: { 'content-type': 'text/html; charset=utf-8' },
+    })))
+
+    const error: unknown = await fetchNetkeibaPage(url).catch((reason: unknown) => reason)
+    if (!(error instanceof NetkeibaAccessRestrictionError)) throw error
+    expect(error.diagnostic).toMatchObject({
+      reason: 'title-forbidden',
+      matchedSignal: 'Forbidden',
+      pageTitle: 'Forbidden',
+    })
   })
 
   it('classifies a missing page without treating it as a global restriction', async () => {
