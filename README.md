@@ -78,6 +78,8 @@ data/netkeiba/
 
 netkeiba HTTP client 僅允許 `db.netkeiba.com` 的公開 race result、horse profile、pedigree 與 career 路徑，不登入、不讀取 Premium 專頁、不抓圖片／影音／新聞／預測／調教評論／留言，也不保存賠率時間序列。預設單執行緒、每次請求至少間隔 3.5 秒；`403`、`429` 或頁面型存取限制會立即停止。可用 `NETKEIBA_REQUEST_DELAY_MS`、`NETKEIBA_REQUEST_RETRIES`、`NETKEIBA_MAX_PAGES` 與 `NETKEIBA_USER_AGENT` 調整，但不應降低節流或嘗試繞過限制。
 
+HTTP 失敗會輸出結構化診斷，包含 entity ID、page type、request/final URL、HTTP status、命中的限制訊號、頁面標題、body SHA-256 與 byte length。`404`／`410` 會分類為單頁不存在，不會誤觸全域冷卻；timeout、網路／redirect 與 5xx 也會分開標示。
+
 ## GitHub Actions
 
 `Complete JRA and netkeiba archive gaps` 每 6 小時檢查一次缺漏。若任一馬匹分片收到 403、429 或限制頁面，該次執行會保存已完成資料並建立冷卻標記，其餘分片停止送出請求；至少冷卻 6 小時後，再由下一個排程從仍缺漏的頁面續抓。完整度達標後，後續排程只執行驗證，不再請求 netkeiba。

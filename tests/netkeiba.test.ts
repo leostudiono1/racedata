@@ -218,7 +218,16 @@ describe('netkeiba archive integration', () => {
 
   it('marks access restrictions so a later workflow can resume after cooldown', async () => {
     const fetcher = async () => {
-      throw new NetkeibaAccessRestrictionError('restricted for test')
+      throw new NetkeibaAccessRestrictionError({
+        reason: 'http-429',
+        status: 429,
+        requestUrl: 'https://db.netkeiba.com/race/202604030207/',
+        finalUrl: 'https://db.netkeiba.com/race/202604030207/',
+        matchedSignal: 'HTTP 429',
+        pageTitle: null,
+        bodySha256: '0'.repeat(64),
+        byteLength: 0,
+      })
     }
     const report = await updateNetkeibaRaceYear({
       root,
@@ -227,7 +236,10 @@ describe('netkeiba archive integration', () => {
       now: new Date('2026-08-22T12:00:00.000Z'),
     })
     expect(report).toMatchObject({ fetched: 1, changed: 0, accessRestricted: true })
-    expect(report.errors).toEqual(['restricted for test'])
+    expect(report.errors).toEqual([
+      expect.stringContaining('"entity":"race","id":"202604030207","pageType":"race-result"'),
+    ])
+    expect(report.errors[0]).toContain('"reason":"http-429"')
   })
 
   it('reparses failed horse raw pages within one hash shard without fetching', async () => {

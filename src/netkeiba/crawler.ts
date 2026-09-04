@@ -93,6 +93,22 @@ function recordOutcome(report: NetkeibaReport, result: { changed: boolean; error
   if (result.error) report.errors.push(result.error)
 }
 
+interface RequestContext {
+  entity: 'race' | 'horse'
+  id: string
+  pageType: NetkeibaPageType
+  url: string
+}
+
+function requestError(error: unknown, context: RequestContext) {
+  const message = error instanceof Error ? error.message : String(error)
+  return `netkeiba request context ${JSON.stringify(context)}: ${message}`
+}
+
+function archiveError(error: string, context: RequestContext) {
+  return `netkeiba archive context ${JSON.stringify(context)}: ${error}`
+}
+
 function deadlineFromMinutes(maxRuntimeMinutes: number) {
   if (!Number.isInteger(maxRuntimeMinutes) || maxRuntimeMinutes < 1) {
     throw new Error(`Invalid netkeiba runtime limit: ${maxRuntimeMinutes}`)
@@ -126,12 +142,22 @@ async function collectRacePages(options: {
       options.report.skipped += 1
       continue
     }
+    const context: RequestContext = {
+      entity: 'race',
+      id: raceId,
+      pageType: 'race-result',
+      url: `https://db.netkeiba.com/race/${raceId}/`,
+    }
     try {
       options.report.fetched += 1
-      const response = await options.fetcher(`https://db.netkeiba.com/race/${raceId}/`)
-      recordOutcome(options.report, await archiveNetkeibaRace(response, jra, options.root))
+      const response = await options.fetcher(context.url)
+      const outcome = await archiveNetkeibaRace(response, jra, options.root)
+      recordOutcome(options.report, {
+        ...outcome,
+        error: outcome.error ? archiveError(outcome.error, context) : null,
+      })
     } catch (error) {
-      options.report.errors.push(error instanceof Error ? error.message : String(error))
+      options.report.errors.push(requestError(error, context))
       if (error instanceof NetkeibaAccessRestrictionError) {
         options.report.accessRestricted = true
         restricted = true
@@ -159,12 +185,22 @@ async function collectHorsePages(options: {
       options.report.skipped += 1
       continue
     }
+    const context: RequestContext = {
+      entity: 'horse',
+      id: task.horseId,
+      pageType: task.pageType,
+      url: task.url,
+    }
     try {
       options.report.fetched += 1
       const response = await options.fetcher(task.url)
-      recordOutcome(options.report, await archiveNetkeibaHorse(response, task.horseId, task.pageType, options.root))
+      const outcome = await archiveNetkeibaHorse(response, task.horseId, task.pageType, options.root)
+      recordOutcome(options.report, {
+        ...outcome,
+        error: outcome.error ? archiveError(outcome.error, context) : null,
+      })
     } catch (error) {
-      options.report.errors.push(error instanceof Error ? error.message : String(error))
+      options.report.errors.push(requestError(error, context))
       if (error instanceof NetkeibaAccessRestrictionError) {
         options.report.accessRestricted = true
         break
