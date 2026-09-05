@@ -14,11 +14,15 @@ on:
         required: false
         type: string
   schedule:
-    - cron: '37 16 * * 4'
+    - cron: '0 16 * * 4'
       timezone: Asia/Tokyo
-    - cron: '37 10 * * 5'
+    - cron: '0 10 * * 5'
       timezone: Asia/Tokyo
-    - cron: '37 8-18 * * 6,0,1'
+    # Summer racing can run from 09:40 through 18:30 JST.
+    - cron: '0,15,30,45 9-18 * * 6,0,1'
+      timezone: Asia/Tokyo
+    # Daily closing sweep also revisits corrections from the last 35 days.
+    - cron: '0 19 * * *'
       timezone: Asia/Tokyo
 
 permissions:
@@ -41,8 +45,9 @@ jobs:
       - run: npm ci
       - id: collect
         continue-on-error: true
-        run: npm run data:update
+        run: npm run data:update -- --scope "$UPDATE_SCOPE"
         env:
+          UPDATE_SCOPE: ${{ github.event_name == 'schedule' && github.event.schedule == '0,15,30,45 9-18 * * 6,0,1' && 'intraday' || 'full' }}
           JRA_REQUEST_DELAY_MS: '1200'
       - name: Save collected pages
         if: always()

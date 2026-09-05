@@ -1,5 +1,5 @@
 import { archiveMeetingResponse, archiveRaceResponse } from '../archive/archive.js'
-import { rebuildYearIndex } from '../archive/index.js'
+import { raceRecordsForDate, rebuildYearIndex } from '../archive/index.js'
 import { DEFAULT_DATA_ROOT } from '../archive/store.js'
 import type { CrawlReport, FetchResponse, JraAction, PageType } from '../types.js'
 import {
@@ -18,15 +18,10 @@ import {
   uniqueActions,
 } from './discovery.js'
 import { fetchPage } from './http.js'
+import { raceSchedule, shouldUpdateRace, tokyoDate } from './schedule.js'
 
 const HOME_URL = 'https://www.jra.go.jp/'
 export type PageFetcher = (action: JraAction) => Promise<FetchResponse>
-
-function tokyoDate(now = new Date()) {
-  return new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit',
-  }).format(now)
-}
 
 function recentCutoff(now: Date, days = 35) {
   const cutoff = new Date(now)
@@ -100,10 +95,10 @@ async function discoverCurrentEntryActions(home: FetchResponse, fetcher: PageFet
   return { races: uniqueActions(races), contexts: uniqueActions(contexts), meetingPages }
 }
 
-async function discoverRecentResultActions(home: FetchResponse, fetcher: PageFetcher, report: CrawlReport, now: Date) {
+async function discoverRecentResultActions(home: FetchResponse, fetcher: PageFetcher, report: CrawlReport, now: Date, intraday = false) {
   const indexAction = findMenuAction(home.html, '/JRADB/accessS.html', 'pw01sli')
   const index = await fetchTracked(fetcher, indexAction, report)
-  const cutoff = recentCutoff(now)
+  const cutoff = intraday ? tokyoDate(now) : recentCutoff(now)
   const races = racePageActions(index.html, 'result')
   const meetingPages: FetchResponse[] = []
   for (const meetingAction of actionsByCname(index.html, 'pw01srl').filter((action) => dateFromCname(action.cname) >= cutoff)) {
@@ -156,17 +151,23 @@ async function archiveFinalOdds(
   }
 }
 
-export async function updateArchive(options: { root?: string; fetcher?: PageFetcher; now?: Date } = {}) {
+export async function updateArchive(options: { root?: string; fetcher?: PageFetcher; now?: Date; scope?: 'full' | 'intraday' } = {}) {
   const root = options.root ?? DEFAULT_DATA_ROOT
   const fetcher = cachedFetcher(options.fetcher ?? fetchPage)
   const now = options.now ?? new Date()
+  const intraday = options.scope === 'intraday'
   const report = emptyReport()
   try {
+    const schedule = raceSchedule(intraday ? await raceRecordsForDate(tokyoDate(now), root) : [])
     const home = await fetchTracked(fetcher, { url: HOME_URL }, report)
     const entries = await discoverCurrentEntryActions(home, fetcher, report)
-    const results = await discoverRecentResultActions(home, fetcher, report, now)
-    for (const action of entries.races) await archiveAction(fetcher, action, 'entry', report, root)
+    for (const action of entries.races) {
+      if (intraday && !shouldUpdateRace(action, 'entry', schedule, now)) continue
+      await archiveAction(fetcher, action, 'entry', report, root)
+    }
+    const results = await discoverRecentResultActions(home, fetcher, report, now, intraday)
     for (const action of results.races) {
+      if (intraday && !shouldUpdateRace(action, 'result', schedule, now)) continue
       const response = await archiveAction(fetcher, action, 'result', report, root)
       if (response && withinDays(dateFromCname(action.cname), now, 3)) {
         await archiveFinalOdds(response, action, fetcher, report, root)
@@ -175,6 +176,7 @@ export async function updateArchive(options: { root?: string; fetcher?: PageFetc
     const meetingPages = [...entries.meetingPages, ...results.meetingPages]
     const savedMeetings = new Set<string>()
     for (const meeting of meetingPages) {
+      if (intraday && dateFromCname(meeting.action.cname) !== tokyoDate(now)) continue
       const key = `${meeting.action.url}|${meeting.action.cname ?? ''}`
       if (savedMeetings.has(key)) continue
       savedMeetings.add(key)
@@ -187,7 +189,8 @@ export async function updateArchive(options: { root?: string; fetcher?: PageFetc
         report.errors.push(error instanceof Error ? error.message : String(error))
       }
     }
-    const contexts = uniqueActions([...relatedContextActions(home.html), ...entries.contexts])
+    const hasTodayRaces = [...entries.races, ...results.races].some((action) => dateFromCname(action.cname) === tokyoDate(now))
+    const contexts = intraday && !hasTodayRaces ? [] : uniqueActions([...relatedContextActions(home.html), ...entries.contexts])
     for (const action of contexts) {
       try {
         const response = await fetchTracked(fetcher, action, report)
@@ -201,7 +204,7 @@ export async function updateArchive(options: { root?: string; fetcher?: PageFetc
   } catch (error) {
     report.errors.push(error instanceof Error ? error.message : String(error))
   } finally {
-    for (const year of [...new Set(report.years)].sort()) {
+    for (const year of [...new Set(intraday && report.changed === 0 ? [] : report.years)].sort()) {
       try {
         await rebuildYearIndex(year, root)
       } catch (error) {

@@ -2,7 +2,7 @@ import { readdir } from 'node:fs/promises'
 import { join, relative, sep } from 'node:path'
 import { raceRecordSchema, yearIndexSchema } from '../schema.js'
 import type { PageType, RaceIndexEntry, RaceRecord, YearIndex } from '../types.js'
-import { DEFAULT_DATA_ROOT, readJson, writeJsonAtomic } from './store.js'
+import { archiveDatePath, DEFAULT_DATA_ROOT, readJson, writeJsonAtomic } from './store.js'
 
 async function filesNamed(directory: string, name: string): Promise<string[]> {
   let entries
@@ -22,6 +22,11 @@ async function filesNamed(directory: string, name: string): Promise<string[]> {
 
 export async function raceRecordFiles(root = DEFAULT_DATA_ROOT, year?: number) {
   return filesNamed(join(root, 'archive', year ? String(year) : ''), 'race.json')
+}
+
+export async function raceRecordsForDate(date: string, root = DEFAULT_DATA_ROOT) {
+  const files = await filesNamed(archiveDatePath(root, date), 'race.json')
+  return Promise.all(files.map(async (file) => raceRecordSchema.parse(await readJson<RaceRecord>(file))))
 }
 
 function compareText(left: string, right: string) {
